@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-25T13:47:57.541070+08:00",
+  "scope": "RuleStudio3D inline item identification",
+  "reference": [
+    "CustomTools/RuleStudio/public/battle-item-panel.mjs: identifyItem",
+    "CustomTools/RuleStudio/public/battle3d.mjs: identifiedItem",
+    "CustomTools/RuleStudio/public/battle-character-panel.mjs: item click"
+  ],
+  "implementation": [
+    "Script/Opus/ItemHover.as",
+    "Script/Opus/SvgHUD.as"
+  ],
+  "rulesChangedByThisFix": false,
+  "uiSource": "existing UICreatorHover templates",
+  "nativeSuccessfulBuild": "Saved/Build/build-20261025-133921.log",
+  "verification": [
+    {
+      "log": "Saved/Verification/ItemHover/integration.log",
+      "markers": [
+        "HOVER_TEST_PASS IdentifyInPlace uid=drop_2760253305_4_8 affixes=5",
+        "HOVER_TEST_PASS RuntimeInspector"
+      ]
+    },
+    {
+      "log": "Saved/Verification/ItemHover/hover-identify-before.log",
+      "markers": []
+    },
+    {
+      "log": "Saved/Verification/ItemHover/hover-identify-after.log",
+      "markers": [
+        "HOVER_TEST_PASS IdentifyInPlace uid=drop_2760253305_4_8 affixes=5"
+      ]
+    }
+  ],
+  "visualProof": [
+    {
+      "file": "Docs/Proof/鉴定-原位更新前.png",
+      "sha256": "af91c73c7e23035377af114232801df739f45c976eda66fec3f30025a588727b"
+    },
+    {
+      "file": "Docs/Proof/鉴定-原位更新后.png",
+      "sha256": "6fa0ec6d7119a306fa2aa81466742733d840fa30135cb1dc97b6e5528b1401b6"
+    }
+  ],
+  "runtimeNote": "A separate in-progress player health UI update currently reports: Missing UICreator player health template. Identification was verified independently using transient UE game runs."
+}

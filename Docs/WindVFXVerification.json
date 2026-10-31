@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "system": "/Game/_TornadoWindVFX/NS/NS_TopDown_Whirlwind",
+  "files_verified": 33,
+  "map": "/Game/WebVFX/DA_UEVFXMap",
+  "wind_keys": [
+    "whirlwind",
+    "whirlwind@0",
+    "whirlwind@1",
+    "whirlwind@2",
+    "whirlwind@3",
+    "whirlwind@4",
+    "whirlwind@5"
+  ],
+  "other_mappings_unchanged": true,
+  "max_active_systems": 128,
+  "native_tests": {
+    "UEVFXFallback": "Success",
+    "UEVFXMapContract": "Success",
+    "UEVFXWindContract": "Success"
+  },
+  "combat": {
+    "mapped": {
+      "plan": 3,
+      "casts": 5,
+      "target_life": 706.400024
+    },
+    "default": {
+      "plan": 3,
+      "casts": 5,
+      "target_life": 706.400024
+    }
+  },
+  "niagara": {
+    "spawns": 5,
+    "followMoves": 1258,
+    "returns": 5,
+    "activeAfterClear": 0,
+    "systems": {
+      "whirlwind": 5
+    }
+  },
+  "proof_directory": "G:\\DungeonWorldOpus\\Saved\\Verification\\WindVFX",
+  "visuals": "Rendered seven saved tint entries; compared source candidates and inspected real moving rule projectiles."
+}

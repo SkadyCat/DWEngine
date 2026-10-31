@@ -1,0 +1,52 @@
+{
+  "project": "DungeonWorldOpus",
+  "authoring": {
+    "tool": "CustomTools/UICreatorAlpha",
+    "projectId": "opus-world-overlays-20261025",
+    "revision": 3,
+    "preview": "http://127.0.0.1:5190/examples/entity-overlays.html",
+    "editor": "http://127.0.0.1:5190/?project=opus-world-overlays-20261025",
+    "module": "CustomTools/UICreatorAlpha/src/assets/world-overlays/entity-overlays.js",
+    "reference": "RuleStudio3D Overlay / play.css .hb-*"
+  },
+  "export": {
+    "job": "wbp-0f3932a9-4485-465d-9ac4-82251addf921",
+    "sourceHash": "5e16349bc923b90841d311296916957f4fc59986ea4c7004e58b884da747152f",
+    "runtimeDirectory": "Content/UICreatorWorld",
+    "nodes": 86,
+    "rasters": 47,
+    "dimensionMismatches": 0,
+    "preservedTemplates": 6,
+    "preservedSvgAssets": 19,
+    "previewValuesInExport": 0
+  },
+  "controls": {
+    "hero": {"healthInner": [68,8], "shieldInner": [68,5], "bindings": ["world-health","world-lag","world-shield","world-shield-track"]},
+    "monster": {"healthInner": [48,6]},
+    "statuses": {"chill":"缓","freeze":"冻","shock":"电","ignite":"燃","bleed":"血","slow":"慢","poison":"毒","erosion":"蚀","stun":"晕"},
+    "statusTile": [19,19],
+    "statusStride": 21,
+    "statusBindings": ["world-status-glyph","world-status-seconds","world-status-stacks"],
+    "layoutMarkers": ["world-status-base","world-status-shield","world-status-step"],
+    "text": {"safeRect":"authored per node", "maxChars":{"glyph":1,"seconds":3,"stacks":3}, "overflow":"shrink"}
+  },
+  "runtime": {
+    "host": "Script/Opus/MonsterHealthBars.as",
+    "data": ["GetPlayerPools","GetTargetPools","GetStatus","GetStatusRemaining","GetStatusStacks"],
+    "playerAnchor": "existing Wizard skeletal mesh bounds",
+    "statusPolicy": "show native value > 0; ceil remaining seconds; show stacks > 1; remove on expiry, death or despawn",
+    "input": "noninteractive, hit-test invisible; offscreen culling",
+    "rulesModified": false
+  },
+  "verification": {
+    "contract": {"command":"python Tools/Verify-EntityOverlayContract.py", "passed":true},
+    "runtime": {"command":"powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Verify-EntityOverlays.ps1", "log":"Saved/Verification/EntityOverlays/integration.log", "passed":true},
+    "visual": {"command":"powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Verify-EntityOverlays.ps1 -Visuals", "log":"Saved/Verification/EntityOverlays/visual.log", "passed":true},
+    "monsterRegression": {"flags":["DWOHealthbarTest","DWOTransient","DWOGod","Multiprocess"], "log":"Saved/Verification/EntityOverlays/monster-regression.log", "passed":true},
+    "playerSession": {"log":"Saved/Verification/EntityOverlays/player-session.log", "startup":"fresh standalone game, saved profile, manual Ready state; old in-process template cache cleared by restart"},
+    "checks": ["Ready player bar","real frost hit produces chill","native health and shield ratios","nine statuses on hero and monster","3 and 100 stacks","pause freezes timers and lag","expiry removes widgets and caches","heal and respawn","despawn cleanup","monster native damage, trail, death and boss"],
+    "fixtureScope": "DWOTransient only. Nine-status visual uses native ApplyStatus and an alternate native shield preset; normal gameplay defaults are preserved.",
+    "images": ["Docs/EntityOverlaysUICreator.png","Docs/EntityOverlaysRuntime.png","Docs/EntityOverlaysStates.png"],
+    "visualReview": "UICreator preview and both native 1600x900 screenshots inspected; normal frost shot shows the player green bar and monster chill badge; all-status shot agrees with the native HUD pools."
+  }
+}

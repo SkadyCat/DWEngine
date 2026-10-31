@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-27",
+  "scope": "Studio only",
+  "url": "http://127.0.0.1:5291/?view=battle",
+  "reproduced": [
+    {
+      "trigger": "Pick up kill equipment, then restart the same atlas region and pick up its kill equipment again.",
+      "before": "Each admission constructed a new TowerRun with reward visit reset to 1. Deterministic drop IDs matched already-owned equipment and pickup returned 装备实例无效或已领取.",
+      "after": "Pass the persisted atlas admission count into FloorRewards through TowerRun. Each admission creates fresh equipment IDs, including merchant equipment; a given admission remains deterministic. Dungeon generation and combat seed stay unchanged."
+    },
+    {
+      "trigger": "A real kill near a wall scatters loot into the adjoining wall tile, then the player clicks its name from a distance.",
+      "before": "A flow field to a wall tile has no path. The hero remained stationary outside pickup range.",
+      "after": "When the drop tile is a wall, route to its reachable birth point. The short scatter remains within the existing 200 cm pickup radius. Normal distance, ownership and single-claim checks still apply."
+    }
+  ],
+  "files": [
+    "CustomTools/RuleStudio/public/battle3d.mjs",
+    "CustomTools/RuleStudio/public/sim/dungeon-battle.mjs",
+    "CustomTools/RuleStudio/tests/floor-rewards.test.mjs",
+    "Tools/UI/Verify-StudioLootPickup.mjs"
+  ],
+  "verification": {
+    "unitCommand": "node --test tests/floor-rewards.test.mjs tests/inventory-ground.test.mjs tests/trait-equipment.test.mjs",
+    "unitPassed": 25,
+    "unitFailed": 0,
+    "browserCommand": "node Tools/UI/Verify-StudioLootPickup.mjs",
+    "browserChecksPassed": 13,
+    "browserCases": ["nearby trait equipment", "distant auto approach", "kill equipment", "same-map restart", "wall-edge kill equipment", "current 5291 release"],
+    "browserErrors": 0,
+    "browserReceipt": "Saved/Verification/StudioLootPickup/browser-receipt.json",
+    "beforeFixReceipt": "Saved/Verification/StudioLootPickup/before-fix-duplicate-ids.json",
+    "isolatedBrowserProfile": true,
+    "release": "76c760c8f1ca4f56a1a3"
+  }
+}

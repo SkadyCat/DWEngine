@@ -1,0 +1,19 @@
+diff --git a/Engine/Source/Programs/UnrealBuildTool/System/CppDependencyCache.cs b/Engine/Source/Programs/UnrealBuildTool/System/CppDependencyCache.cs
+index 44f189981..393a0840d 100644
+--- a/Engine/Source/Programs/UnrealBuildTool/System/CppDependencyCache.cs
++++ b/Engine/Source/Programs/UnrealBuildTool/System/CppDependencyCache.cs
+@@ -376,6 +376,14 @@ namespace UnrealBuildTool
+ 				}
+ 			}
+ 			Mount(TargetDescriptor.ProjectFile, AppName, TargetDescriptor.Platform, TargetDescriptor.Configuration, TargetDescriptor.Architectures, TargetDescriptor.IntermediateEnvironment, Logger);
++
++			// Shared editor targets can place project-specific PCHs under the target
++			// name while ordinary module dependencies remain under the app name.
++			// Mount both so those PCHs retain their incremental dependency history.
++			if (TargetDescriptor.ProjectFile != null && !String.Equals(AppName, TargetDescriptor.Name, StringComparison.OrdinalIgnoreCase))
++			{
++				Mount(TargetDescriptor.ProjectFile, TargetDescriptor.Name, TargetDescriptor.Platform, TargetDescriptor.Configuration, TargetDescriptor.Architectures, TargetDescriptor.IntermediateEnvironment, Logger);
++			}
+ 		}
+ 
+ 		/// <summary>

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "map": "/Game/WebVFX/DA_UEVFXMap",
+  "map_sha256": "87ec1b85f04362a8873f1d32dfc585ea918c8ef5a060503d16c64bef8629b1ad",
+  "migrated_assets_verified": 30,
+  "native_tests": {
+    "succeeded": 2,
+    "failed": 0
+  },
+  "negative_lookup_ms_per_100000": 0.358,
+  "runtime": {
+    "spawns": 20,
+    "followMoves": 103,
+    "returns": 20,
+    "activeAfterClear": 0,
+    "systems": {
+      "ice_lance.flight": 10,
+      "ice_lance.impact": 10
+    }
+  },
+  "real_hits": {
+    "casts": 10,
+    "remaining_life_with_override": 658.0,
+    "remaining_life_with_default": 658.0,
+    "same_damage": true
+  },
+  "first_spawn_active": {
+    "flight": true,
+    "impact": true
+  },
+  "proof": "Saved/Verification/UEVFX/ice-target.png",
+  "rule_core_modified_by_this_change": false,
+  "rule_data_modified_by_this_change": false,
+  "main_build_log": "Saved/Build/build-20261025-133921.log"
+}

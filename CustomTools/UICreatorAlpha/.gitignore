@@ -1,0 +1,8 @@
+# Saved SVG source projects are part of the CustomTools baseline.
+data/*.tmp
+work/
+node_modules/
+*.log
+# Recreate export jobs from source projects. Existing tracked fixtures remain versioned.
+/exports/wbp-*/*
+!/exports/wbp-*/source-assets/

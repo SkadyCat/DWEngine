@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "DW Rules",
+  "Description": "Native trait/rule runtime: compiled build plans, SoA carriers and a wave-based rule VM (Docs/Rules).",
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "DWRulesCore",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DWRules",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    }
+  ],
+  "Plugins": [
+    { "Name": "MassGameplay", "Enabled": true },
+    { "Name": "Niagara", "Enabled": true }
+  ]
+}

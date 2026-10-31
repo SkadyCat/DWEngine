@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {ProjectRepository} from '../../CustomTools/UICreatorAlpha/server/project-repository.mjs';
+import {validateDocument,walk} from '../../CustomTools/UICreatorAlpha/src/core/model.js';
+import {itemCell} from '../../CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/suite-pages.js';
+import {CHARACTER_BAG_GRID} from '../../CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/character-bag-grid.js';
+
+const root=path.resolve(import.meta.dirname,'../..'),repo=new ProjectRepository(path.join(root,'CustomTools/UICreatorAlpha/data/projects'));
+const record=await repo.read('hud-darksteel-20261024'),doc=structuredClone(record.document),q=CHARACTER_BAG_GRID;
+let grid;walk(doc.prefabs['battle-prefab-character'].root,n=>{if(n.binding==='character-grid')grid=n;});
+if(!grid)throw Error('Missing character-grid');
+const proof=path.join(root,'Saved/Verification/CharacterBagGrid');await fs.mkdir(proof,{recursive:true});
+const before=path.join(proof,`before-revision-${record.revision}.json`);await fs.writeFile(before,JSON.stringify(record),{flag:'wx'});
+for(let i=grid.children.length;i<q.columns*q.rows;i++)grid.children.push(itemCell(`battle-char-empty-${i}`,null,i%q.columns*(q.cell+q.gap),Math.floor(i/q.columns)*(q.cell+q.gap),q.cell,'select-item'));
+const height=Math.ceil(grid.children.length/q.columns)*(q.cell+q.gap)-q.gap;
+grid.layout.height=height;grid.slot.offsets.bottom=height;grid.source={...grid.source,grid:{columns:q.columns,rows:q.rows},defaultEmptyCells:true};
+const errors=validateDocument(doc);if(errors.length)throw Error(errors.join('\n'));
+await repo.write(doc,record.revision);const saved=await repo.read(doc.id);
+await fs.writeFile(path.join(proof,'authoring.json'),JSON.stringify({project:doc.id,revision:saved.revision,cells:grid.children.length,grid:q},null,2)+'\n');
+console.log(JSON.stringify({project:doc.id,revision:saved.revision,cells:grid.children.length}));

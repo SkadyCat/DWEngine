@@ -1,0 +1,59 @@
+{
+  "updated": "2026-10-25T12:40:50.708104+08:00",
+  "implementation": "AngelScript, read-only native combat pool snapshots",
+  "authoring": "Frozen UICreator export; no AS-drawn or default UMG progress-bar skin",
+  "sourceStyle": "G:/DungeonWorldBeta/CustomTools/RuleStudio/public/play.css .hb-bar and battle3d.mjs Overlay",
+  "uiContract": "Content/UICreatorWorld/contract.json",
+  "sourceHash": "d5a78ce32dbb9a11ee2da6574a3ec9de444e84beeb1cf780a14083a6ad7ebe25",
+  "healthTemplate": "monster",
+  "healthTemplateNodes": 6,
+  "bindings": [
+    "world-health",
+    "world-lag",
+    "world-shield"
+  ],
+  "placement": "Model bounds plus 24 cm; screen-space projection follows movement/camera/viewport; authored strip geometry determines centering",
+  "lifecycle": "One non-interactive instance per live entity; native death removes it before corpse despawn; level teardown releases all instances",
+  "trail": "0.72 fraction/second, frozen when paused",
+  "verification": {
+    "nativeDamageAndShield": true,
+    "pauseAndTrail": true,
+    "deathAndBoss": true,
+    "actualUICreatorRasterAndFillRatios": true,
+    "svgBindings": true,
+    "resetSameFloor": true,
+    "manualReady": true,
+    "rulesDataHashesUnchanged": 1047,
+    "rulePluginFilesUnchanged": 119,
+    "javascriptFiles": 0
+  },
+  "images": [
+    {
+      "file": "Saved/Verification/MonsterHealthBars/battle-final.png",
+      "bytes": 1279183,
+      "sha256": "0d0b4b5b2d85c803bdec3cd7045d300b4f86edce4eeb71dfa7747f3af4a39032",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "Saved/Verification/MonsterHealthBars/damage-final.png",
+      "bytes": 1309330,
+      "sha256": "90df20221d80834b9fc78a5bcba216eefeb329dbf89bda5e3715579f610914f4",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "Saved/Verification/MonsterHealthBars/boss-final.png",
+      "bytes": 1257058,
+      "sha256": "fd905e110a4e996043922cb73e294e99e0bb126b2eb15c729349ecf7f42d38e0",
+      "size": [
+        1600,
+        900
+      ]
+    }
+  ]
+}

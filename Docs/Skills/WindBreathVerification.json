@@ -1,0 +1,50 @@
+{
+  "verifiedAt": "2026-10-26T00:43:02.911821+08:00",
+  "id": "wind_breath",
+  "name": "风之息",
+  "damageBasis": "attacker damage before player resistance, armour, block, shield and minion absorption",
+  "reflectionPercent": 80,
+  "targets": "radial surrounding hostile targets",
+  "radiusMetres": 5,
+  "expansionSeconds": 0.5,
+  "manaReservationPercent": 50,
+  "independentCooldownSeconds": 0,
+  "runtime": "AngelScript orchestration and native DWRules reflected delivery; no JavaScript in UE",
+  "equipment": [
+    "wind_breath_ring",
+    "wind_breath_amulet"
+  ],
+  "acquisition": "existing equipment shop and drop pool",
+  "ui": "existing saved UICreatorRecent aura panel and HUD slots; icon authored in opus-wind-breath",
+  "activation": "equip ring or amulet, O, assign Q/E/F/G, toggle on",
+  "ordinaryDamageFormulasUnchanged": true,
+  "sourceRuntimeDefinitionsIdentical": true,
+  "tests": {
+    "webPassed": 27,
+    "nativePassed": 2,
+    "actualUEGroupsPassed": 3,
+    "transient": true,
+    "formalProfileUnchanged": true
+  },
+  "visualChecked": [
+    "first-hit prewarming",
+    "early-to-late radial wind growth",
+    "UICreator aura panel",
+    "visible Q icon and enabled state",
+    "per-wave cleanup"
+  ],
+  "proof": [
+    "Saved/Verification/WindBreath/uicreator-icon.png",
+    "Saved/Verification/WindBreath/aura-panel.png",
+    "Saved/Verification/WindBreath/wind-early.png",
+    "Saved/Verification/WindBreath/radial-wind.png",
+    "Saved/Verification/WindBreath/wind-late.png"
+  ],
+  "hashes": {
+    "Script/Opus/ReactiveAuras.as": "adbf7681f3aed195a47e72aa75dece6609996651bad76ca5da368f90e41e153a",
+    "Script/Opus/WindBreathTests.as": "22ac6e26aa6cd3fca7fe34b303bdd94dfbace83e4e2b00949ccfd896630c4633",
+    "Source/DungeonWorldOpus/Public/OpusReactiveCombat.h": "06883fd4a78c1d7fbdc824cf026eae0bfe783da7b9534e8b66d649521bffb93b",
+    "Source/DungeonWorldOpus/Private/OpusReactiveCombat.cpp": "7512de0af291cb2dd21d7f5aecf713f811bf72ddea0f9448bba2fe979a520722",
+    "UIAuthoring/Skills/wind_breath.svg": "ad1fcfbce1ab227e6470ab4261cea6869860f4e7b419ab81234e9314b5fb099e"
+  }
+}

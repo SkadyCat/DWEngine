@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "source": "Beta/Script/MoonScholar/Clean3C.as + CleanCameraFollow.as",
+  "host": "AngelScript",
+  "camera": {
+    "pitch": -60,
+    "yaw": 0,
+    "armLength": 2200,
+    "fov": 60,
+    "targetOffsetZ": 75
+  },
+  "passed": [
+    "BetaCamera",
+    "ScreenMovementFourFacings",
+    "AccelerationBrakingDiagonalFreezeWalls",
+    "MouseAimDeadZoneViewportAndUI",
+    "RuntimeIntegration"
+  ],
+  "followFrameRates": [
+    30,
+    60,
+    120
+  ],
+  "cursorRoundTripTolerancePixels": 1.01,
+  "towerSpeedCap": 620,
+  "ruleDodgeDistance": 300,
+  "ruleEngineChanged": false,
+  "uiAssetsChanged": false,
+  "capture": "Saved/Verification/TopDown/beta-camera.png",
+  "log": "Saved/Verification/TopDown/render.log",
+  "heroRegression": {
+    "ok": true,
+    "passed": [
+      "RigAndIdle",
+      "LocomotionAndReadOnly",
+      "CastPose",
+      "Pause",
+      "NativeCastAndDodge",
+      "NativeHitAndDeath",
+      "RetryAndCache",
+      "RuntimeIntegration"
+    ],
+    "log": "Saved/Verification/Hero/integration.log"
+  }
+}

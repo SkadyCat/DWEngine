@@ -1,0 +1,8 @@
+怪物头顶血条已接入当前 Opus 爬塔玩法。
+
+外观直接复用 Content/UICreatorWorld 的 monster 控件：红色生命条、金色受伤延迟条、蓝色护盾。AS 读取各实体的 DWRules GetTargetPools，不写生命和护盾，不改变伤害或规则计算。
+血条随怪物和镜头移动；纯展示控件不拦截鼠标，死亡立即移除，换层清理。
+
+验证命令：Tools/Verify-MonsterHealthBars.ps1 -Visuals；Tools/Verify-SvgRestore.ps1 -ChecksOnly。均通过。测试使用临时会话和真实原生技能命中，验证生命比例、护盾、延迟追赶、暂停、死亡、Boss，以及实际 UICreator 贴图和裁剪比例。
+已检查三张 1600×900 原始 UE 截图，见 Docs/Proof。
+1047 份规则数据及先前清单中的 DWRules 插件文件哈希均未改变；Opus 的 JS/MJS/CJS 文件数为 0。

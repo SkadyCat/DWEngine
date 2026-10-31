@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>最新完整 HUD 导出</title><style>body{margin:0;background:#090f17;color:#c6d6e4;font:14px 'Segoe UI','Microsoft YaHei',sans-serif}header{padding:12px;display:flex;gap:20px;align-items:center}button,a{padding:10px;background:#91cdb2;color:#111;border:0;border-radius:4px}svg{max-width:100%;height:auto}</style><header><span id="status">读取最新 UICreator 工程…</span><button id="freeze" disabled>冻结当前完整工程</button><a id="export" hidden>打开原生导出</a></header><svg id="canvas"></svg><script type="module">
+import {UIRuntime} from '../src/runtime/runtime.js';
+const id=new URLSearchParams(location.search).get('project')||'hud-darksteel-20261024';
+const record=await fetch('/api/projects/'+id).then(r=>r.json()),p=record.document;
+const runtime=new UIRuntime(document.querySelector('#canvas'),p,{width:p.viewport.width,height:p.viewport.height,motion:false,sound:false});
+document.querySelector('#status').textContent=p.name+' · revision '+record.revision;
+document.querySelector('#freeze').disabled=false;
+document.querySelector('#freeze').onclick=async()=>{try{await document.fonts.ready;const job='wbp-'+crypto.randomUUID();const response=await fetch('/api/native-wbp/'+job+'/source',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({project:p,svg:runtime.renderer.exportSvg(),context:{width:p.viewport.width,height:p.viewport.height,revision:record.revision,name:p.name,entries:[...runtime.layout.entries].map(([id,e])=>[id,{...e,node:structuredClone(e.node)}]),expandedRoot:runtime.expanded.document.root}})});const result=await response.json();if(!response.ok)throw Error(result.error);const a=document.querySelector('#export');a.href=result.url;a.hidden=false;document.querySelector('#freeze').disabled=true;document.querySelector('#status').textContent=JSON.stringify({...result,revision:record.revision});}catch(e){document.querySelector('#status').textContent=e.stack;}};
+</script></html>

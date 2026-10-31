@@ -1,0 +1,4 @@
+import {UIRuntime} from '../src/runtime/runtime.js';
+const record=await fetch('/api/projects/opus-recent-gameplay').then(r=>r.json()),project=record.document||record;
+const runtime=new UIRuntime(document.querySelector('#scene'),project,{width:2400,height:1800,motion:false,sound:false});
+document.querySelector('#freeze').onclick=async()=>{await document.fonts.ready;const job='wbp-recent-'+crypto.randomUUID(),svg=new XMLSerializer().serializeToString(document.querySelector('#scene'));const response=await fetch('/api/native-wbp/'+job+'/source',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({project,svg,context:{width:2400,height:1800,expandedRoot:runtime.expanded.document.root}})});const result=await response.json();if(!response.ok)throw Error(JSON.stringify(result));location.href=result.url;};

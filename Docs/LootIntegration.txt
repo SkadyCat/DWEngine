@@ -1,0 +1,6 @@
+掉落接入已完成。UI 由 UICreator 工程制作及导出，AS 读取原生掉落与背包数据。
+默认显示地面掉落；点击标牌自动靠近，达到原生 200 cm 拾取距离后入包，WASD 取消靠近；P 拾取附近一件物品。
+已验证真实击杀、装备/物品生成、导出按钮路由、远距离拒绝、自动靠近、入包数量、重复领取拒绝、标牌移除、Hunter 筛选、存档往返。
+原生规则、掉率、品质/阶级和数值未改；1047 份规则数据哈希一致；工程中无 JS/MJS/CJS 文件。
+证据：Docs/Proof/掉落接入.png；Saved/Verification/WorldUI/loot-integration.log。
+可将 Content/UICreatorWorld/source.uialpha.json 导入 UICreatorAlpha 继续编辑。

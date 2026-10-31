@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUTC": "2026-10-25T09:36:11.2180324Z",
+  "backendRoot": "G:\\DungeonWorldOpus\\CustomTools\\TradeBackend",
+  "api": "http://127.0.0.1:5188",
+  "backend": "Go 1.27.3 / pgx 5.11.0 / PostgreSQL 18.6",
+  "catalogVersion": "88a03f607cca8b071c9dde11d88113e32a1f6a79",
+  "tradableDefinitions": 99,
+  "defaultEquipmentCandidates": 71,
+  "defaultItemCandidates": 18,
+  "apiBinarySHA256": "309c2b020191a52304e738ab1fa1e6fd355e0c1ca59b7b170f1a7bf27681b1c1",
+  "nativeBinarySHA256": "6b934437fb98d0e9325eee04de5a7a0fb7c97b12d4dffc0ec2652e2ef6407ddb",
+  "coreRuleAlgorithmModifiedByThisTask": false,
+  "backendIntegrity": "passed: two API instances compete for one item, 100 requests / one sale; 50 same-key retries / one debit; partial-stack sale/cancel; server-only grants/credits; actual instance details; restart persistence and atomic outbox",
+  "backendLog": "G:\\DungeonWorldOpus\\CustomTools\\TradeBackend\\.run\\verification.log",
+  "loadTest": {
+    "achievedQPS": 100.06123747733612,
+    "completed": 1000,
+    "database": "PostgreSQL 18.6 (local TCP)",
+    "elapsedSeconds": 9.99388,
+    "errors": 0,
+    "goMaxProcs": 4,
+    "maxMs": 1391.242,
+    "ordersCommitted": 1000,
+    "os": "windows",
+    "p50Ms": 3.91,
+    "p95Ms": 143.428,
+    "p99Ms": 1043.099,
+    "responseBytes": 273000,
+    "runtime": "go1.27.3",
+    "statuses": {
+      "200": 1000
+    },
+    "targetQPS": 100,
+    "timeUTC": "2026-10-25T09:29:46.4333605Z",
+    "transport": "loopback HTTP, no TLS; not a cloud-machine capacity guarantee",
+    "workload": "1000 actual purchases, paced at 100 QPS for 10 seconds; 32 HTTP workers; each purchase includes authentication, item/wallet locks, balance transfer, order, ledger, outbox and idempotency commit"
+  },
+  "nativeScenarios": [
+    {
+      "status": "passed",
+      "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\TradeBackend\\online-pool.log",
+      "sha256": "7bb8f3cd16a6f9f49cfb9c2c29977f090fc1ecce93a5eb2567ca61aeba141267",
+      "markers": [
+        "InitialPoolAndCoreInvalidation",
+        "NativeBossUsesServerPool",
+        "MapReloadRequestsAgain"
+      ],
+      "name": "online-pool"
+    },
+    {
+      "status": "passed",
+      "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\TradeBackend\\server-subset.log",
+      "sha256": "51f006a3214a75d9552ed58bad5d4448c0d28412894778cb4713410f6621519d",
+      "markers": [
+        "InitialPoolAndCoreInvalidation",
+        "NativeBossUsesServerPool",
+        "MapReloadRequestsAgain"
+      ],
+      "name": "server-subset"
+    },
+    {
+      "status": "passed",
+      "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\TradeBackend\\service-unavailable.log",
+      "sha256": "6522c71f49a35b8396301c09029eec46decc1a675aabeb3738e072d74103c416",
+      "markers": [
+        "ServiceUnavailableFailsClosed requests=3"
+      ],
+      "name": "service-unavailable"
+    }
+  ],
+  "nativeBuildLog": "G:\\DungeonWorldOpus\\Saved\\Build\\build-20261025-172919.log",
+  "limitations": [
+    "Local development deployment; no public hosting configured.",
+    "UE currently integrates map drop-pool requests; online game login/inventory synchronization and trading UI are not integrated.",
+    "Load test uses loopback HTTP without TLS and is not a cloud-server capacity guarantee.",
+    "Docker deployment template is provided but not executed on this host."
+  ]
+}

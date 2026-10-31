@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>UI Runtime · UICreator Alpha</title><style>body{margin:0;background:#0e1623;font:13px "Segoe UI","Microsoft YaHei",sans-serif;color:#97b5b1}body>svg{display:block;width:100%;height:auto;max-height:92vh}footer{position:fixed;bottom:0;left:0;right:0;padding:14px 25px;background:#172329;border-top:1px solid #344f48;display:flex;justify-content:space-between}a{color:#97d5b4}</style><svg id="ui"></svg><footer><span id="event">独立运行时 · 鼠标与键盘均可触发按钮</span><a href="/">返回编辑器 ↗</a></footer><script type="module">
+import { UIRuntime } from '/src/runtime/runtime.js';
+import { starterProject } from '/src/assets/starter.js';
+const runtime = new UIRuntime(document.querySelector('#ui'), starterProject(), { width: innerWidth, height: Math.max(780, innerHeight - 48) });
+runtime.addEventListener('activate', event => { document.querySelector('#event').textContent = `activate → ${event.detail.node.name} · ${event.detail.id}`; });
+window.addEventListener('resize', () => runtime.render(innerWidth, Math.max(780, innerHeight - 48)));
+</script></html>

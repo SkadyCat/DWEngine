@@ -1,0 +1,964 @@
+{
+  "source": "G:\\DungeonWorldZero",
+  "files": [
+    {
+      "path": "Content/ClaudeDungeon/PCG/PCG_ClaudeDungeon.uasset",
+      "bytes": 82388,
+      "sha256": "b3f19dd525e5d02a8623b5fb41c542f76634f54d605138aa98b693fc1191b2c4"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/M_Base.uasset",
+      "bytes": 9207,
+      "sha256": "84ecad81cd7d6465027f4a08ac43bcda1dc5c04b0aff4ce80ebb19a12bf8b42b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/M_EmissiveFlame.uasset",
+      "bytes": 11006,
+      "sha256": "f9eb38145ae303839b3e0828cf2dfa4bd5a70f0751bec88c985d46da99e6dff4"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/M_Flame.uasset",
+      "bytes": 14090,
+      "sha256": "5b0acba8f2abadf0dd014d102ced7c64673d3662fc24f460260a9cfd55ed5413"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/M_Parallax.uasset",
+      "bytes": 27754,
+      "sha256": "2c2d4c3a10f47232c602ff095816aaa4357d78b7d03cf904af71621e7a153ff9"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/M_Smoke.uasset",
+      "bytes": 9618,
+      "sha256": "711b223ab43420eff0b10559b0012da32670a9b4d700f24d168e2e9054346b00"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/M_Spark.uasset",
+      "bytes": 8629,
+      "sha256": "30de3306c274b835fb99dfd5398da8d0f22fb3fa2248d6ba572d4bfd7f57b37e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Barrier.uasset",
+      "bytes": 6665,
+      "sha256": "448b4fa1b7d1f4fd0b29d67c47d270347eeb92c97878f6a99e7a603cf1e004c2"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Block.uasset",
+      "bytes": 6643,
+      "sha256": "882312a939c5295f898a22f37815f703e1449b07f689132fd77266ad746827f1"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_CandleFlame.uasset",
+      "bytes": 5905,
+      "sha256": "9394395b5f4e558e174642d2f028ae5ad5de59222e40644dab5b3cfc47f883cf"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Chandelier.uasset",
+      "bytes": 6698,
+      "sha256": "7abca8a677bef8b637c4908529c7c0eeb11d0a075a0eeee82c148d7b47529374"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Chest.uasset",
+      "bytes": 6643,
+      "sha256": "32b37aa3fa74c2f70e338b8ebbb12fc8e7586fef65a263d05c7f466301b4c7f3"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_ColumnMedium_01.uasset",
+      "bytes": 6753,
+      "sha256": "3222e61a4469e3061244fc9970783a0e4d915d86570aa1bd2d54f33f42251feb"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_ColumnMedium_02.uasset",
+      "bytes": 6753,
+      "sha256": "976b21c613d2d21716d8cc7c358d59793249d8ba89dd1b98f6c88c6c5c19653f"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_ColumnSmall_01.uasset",
+      "bytes": 6742,
+      "sha256": "4c01603e7faa6a57c42e0cc0e22bfc9ae655369081ebc8d7b6a854184d352807"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_ColumnSmall_02.uasset",
+      "bytes": 6742,
+      "sha256": "2a4cba7a27fba1411e91798e7add2dfd323386a99d4e9e02b8bf1b5fe4540850"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Crate.uasset",
+      "bytes": 6643,
+      "sha256": "8cc4890c06b6f8ae7da7a6549098dc0d522a35fa560bbd1f624eb4699d7a7378"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Floor.uasset",
+      "bytes": 9034,
+      "sha256": "de73cb390cb0cbe71b1046f693023b46d842643c3c072e721f91e9af5c856b9c"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Furniture_01.uasset",
+      "bytes": 6720,
+      "sha256": "06c3bcd8b84d2daa6e36ed9d1e549b61527b14eeb5b0971c5be654cd41c9f84f"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Furniture_02.uasset",
+      "bytes": 6720,
+      "sha256": "8f643f739088efb4a10bfce229ee5a88ca722605af576980c790090f393b4e17"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Furniture_03.uasset",
+      "bytes": 6720,
+      "sha256": "16afef412bc217dca5d3a79a3e7c67faa718228e427ca69f17eb11b5f0df5dc3"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Pillar.uasset",
+      "bytes": 6654,
+      "sha256": "1d70c2a237b4326720be546a7d2e1c45320ab2019054c88b10a550ce9b97fdda"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Plank.uasset",
+      "bytes": 6643,
+      "sha256": "de2fe4c3fa3d7a873a2839cc057b98d8cbde5a6e93450a679c6b4327df5ada74"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_PropsAtlas_01.uasset",
+      "bytes": 6731,
+      "sha256": "1609f1648c6decc471ad3d65ec2d9ce70f65a1ef2325b86991b136a78203d9a2"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_PropsAtlas_02.uasset",
+      "bytes": 6731,
+      "sha256": "eb6da8431ea6775ac61dd3bdc78451897a7f053feaf3f1baa4a737c643110388"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_PropsAtlas_03.uasset",
+      "bytes": 6731,
+      "sha256": "f0cfa4af052e552aeb982e4a801c2db32ed7418d4308ad01d8a3f942e002d7c7"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Materials/MI_Wall.uasset",
+      "bytes": 6632,
+      "sha256": "8ebd3f1f03b1f213b2c1ec45bca57a03b6d182f4ccdce6cf2743a19b3a9b02e8"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Arch.uasset",
+      "bytes": 639814,
+      "sha256": "6ba515125e78e7233f3596d1c4c9dc8f1254acb290819ae445ea2e456a39766a"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Barrel.uasset",
+      "bytes": 151858,
+      "sha256": "116e7eb79bc7b1cd868bcfd3e9caaf19f0dc359a4368367fe49f2e3df443cee1"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Basin.uasset",
+      "bytes": 80528,
+      "sha256": "b8f1c01689df32c54cc984263be786cd2c71fe921ddc17986a849abbb7fa18fc"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Bench.uasset",
+      "bytes": 80319,
+      "sha256": "d96cf0ecd893df669c31118a97d67c7a16c319a6c26e7b63f3b17971e0c717c0"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BlockLargeA.uasset",
+      "bytes": 37548,
+      "sha256": "36c7a887d350fdc88e7b4fc309c09ed5fab2cd28236a7ca8ff88776030c92318"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BlockLargeB.uasset",
+      "bytes": 36399,
+      "sha256": "5cf695266d1afdb8f6f19831df780272ba685f9b2ba547fea3059cb279ece2df"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BlockMediumA.uasset",
+      "bytes": 33022,
+      "sha256": "2a085e44d503fe30f058e42452aa5bc151c50d00d989b50ec6262c9e0dcf656c"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BlockMediumB.uasset",
+      "bytes": 32143,
+      "sha256": "d6adf9c97dff9a30e516902b9bffef00453f76d4914c421a725d1199a3bf2b57"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BlockSmallA.uasset",
+      "bytes": 27497,
+      "sha256": "8367d0e4a805e4a63a3920ffe04692c86f9aa8151c4960a34aaa1950d39c6b5e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BlockSmallB.uasset",
+      "bytes": 28781,
+      "sha256": "4117c0f4289c2d94016a1e240d88308fd68077eb17923f5f79b24f1b456cc3df"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BoneA.uasset",
+      "bytes": 35395,
+      "sha256": "c10cc005698d0f674dd07c1a757a1a1f23b8943c379411f4d6419d6302c9caaa"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BoneB.uasset",
+      "bytes": 49959,
+      "sha256": "be99f375a23c80bf0049cc6900d0c85f9fabe2b7db8487d2d19fc8ce5b7a8be1"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BookA.uasset",
+      "bytes": 22975,
+      "sha256": "e3d6399d3b1634410c26c7c86a439cb8001c1bea71c7aecfcacecd4fcd6a2255"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BookB.uasset",
+      "bytes": 22954,
+      "sha256": "4ebefbad597c771cc0fc4ed2c48989041800ec1cd1c050f3562aeeaa56149b3b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_BookC.uasset",
+      "bytes": 22945,
+      "sha256": "d718b95cf7162a6e1f8dccdca1a5b4f22cae895ebe623ba5977a1f5a67deaa48"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Bowl.uasset",
+      "bytes": 30680,
+      "sha256": "c03923bd7075c3eed233fb0d34b2b1e37420cfb384fbd9f61624c655248708b4"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Box.uasset",
+      "bytes": 75465,
+      "sha256": "e059ab8ef625870baff691436bc804f7a765559f955c0166c45312b1a960eff5"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_CandleLarge.uasset",
+      "bytes": 40724,
+      "sha256": "4bbf12289d1e058596b104037696231f191ae5eac13b7574951da2c06a09246a"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_CandleMedium.uasset",
+      "bytes": 40465,
+      "sha256": "36dae33cf358059d1553a302c4f8bb547ff478dfc1ed4c2bebf518dd8dd0d265"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_CandleSmall.uasset",
+      "bytes": 39355,
+      "sha256": "e69863590d07fc6f80616dbf45882cba0e981d0bb43e572137d8ac1cb236279a"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ChainA.uasset",
+      "bytes": 182908,
+      "sha256": "f6927c420bbec29561c95732c81d5d88ae832c73d0de436d03f4afb40690b3f4"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ChainB.uasset",
+      "bytes": 203296,
+      "sha256": "82b81681e7aa83619f1555bdfbd981713fdb526f49295b3b96f0273423baa5a4"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ChandelierStand.uasset",
+      "bytes": 381695,
+      "sha256": "94a9ca2d71036ded7fb6648920449453b49e1b47dd51b5d9320f8c8eb51d1e3e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ChestBottom.uasset",
+      "bytes": 83472,
+      "sha256": "1afb6162d7658fe5b318694d1e94462c452353006582a2844220f7e6d6fef7e3"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ChestTop.uasset",
+      "bytes": 134919,
+      "sha256": "39b5f5d17777c8916fab106f0a0d9dcb71debcd0d79c1064a2a05ad4e3f8caab"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ColumnMedium.uasset",
+      "bytes": 241850,
+      "sha256": "a8cbc6a8b0715e00671bcb3f67b0321540f034673c07ba1475677d28ac861978"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ColumnSmallBrokenBottom.uasset",
+      "bytes": 104734,
+      "sha256": "0acd3c8abd7796deaa7e5c4dd74a621c451c3e64fdd96f60b023753073e1c4ee"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_ColumnSmallBrokenTop.uasset",
+      "bytes": 115942,
+      "sha256": "78ea30994e40b7378571cd8aa4b17e9231790e487013070e62322ebff00c6f48"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_CrateLarge.uasset",
+      "bytes": 130317,
+      "sha256": "9ef1f7066418ab73450e36bed19b86a65a04c129834d013ee8cf575455ebc91f"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_CrateMedium.uasset",
+      "bytes": 105378,
+      "sha256": "aaf6f3913e17aecb75c60c77019a643a21f5ed3d697d384b59acb0b3122bedda"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Floor.uasset",
+      "bytes": 17962,
+      "sha256": "6a4846ef7ff25fab778955b0712f7ae64d2471cf065c3af511e6627452df370a"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Jar.uasset",
+      "bytes": 106854,
+      "sha256": "0e0bb298e73c8424363c0bfd15a3b6a7b3e40be3155bae780efff848da2fe383"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Pillar.uasset",
+      "bytes": 66820,
+      "sha256": "063214c2a4f24002499964153b33a4f0a3521779b80e6984ead7e227ee41b49c"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Pint.uasset",
+      "bytes": 29725,
+      "sha256": "cfda20ef276a7e4cdb50c2e71f5cbb21ecaacd7d7dbb0cb147fda31aad1967fb"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_PlankLargeA.uasset",
+      "bytes": 29318,
+      "sha256": "5eb764f6c44fcfeaab94c4675a97358ef32b71c41e16ba415dd75784442ef08c"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_PlankLargeB.uasset",
+      "bytes": 29391,
+      "sha256": "cf4b1f423f0f900680f87f14e3d263b3fedef3642e49ea2ba2ad0bc26c63e5fd"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_PlankMediumA.uasset",
+      "bytes": 29421,
+      "sha256": "a5d15508ff8885e406d70ed42fdf17d35424427b4a31c68f13d26aac0273daa8"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_PlankMediumB.uasset",
+      "bytes": 29389,
+      "sha256": "de2f138e7c810902b8894583906fcd16a722a7829ab94498551a4ef55875a7a9"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_PlankSmallA.uasset",
+      "bytes": 29003,
+      "sha256": "f079420542b4f1bc735f62575cf8c405de4b2a33f233cde81048f44f087331c8"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_PlankSmallB.uasset",
+      "bytes": 28964,
+      "sha256": "a126ee4721dd4af45cb0317f3a743993a4071e5f368e5fc155e3e342e9f3abe5"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Plate.uasset",
+      "bytes": 24294,
+      "sha256": "be6d5c19000d3b81a3f117d2cd9ae589bff10bef44315db5f6f968b45389459f"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Rocks.uasset",
+      "bytes": 77251,
+      "sha256": "d1dbdc6a99967bcf9d8bd33639392a6456a1b695786ab81073d536298434a0ce"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Separator.uasset",
+      "bytes": 30630,
+      "sha256": "7a79ab08b8eea28b6cbc7a97868c6a48df45d0caac3306516bf963de12d2b821"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Shelf.uasset",
+      "bytes": 80814,
+      "sha256": "52bfe48b4c9215fa24a0cc86ddb38a877a9e997d706cf30f7d4f8ab49e12f1bd"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Skull.uasset",
+      "bytes": 173995,
+      "sha256": "f0d7fd0e5d50149d85f778350eaa2ac1f895bc5311543371d3abf9903d375141"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Spoon.uasset",
+      "bytes": 25835,
+      "sha256": "7f848c75c928ee2854b99b5265a46105841e19d6fa0285733f5e8cf08f40e90b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Stool.uasset",
+      "bytes": 42650,
+      "sha256": "d7383b7f0874bc911f61b915db2e633fcfffe540226ea4c9e0029cb593701a1a"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Table.uasset",
+      "bytes": 74703,
+      "sha256": "149f3a6020283083cbf596d19e7165b05affd747156203b05e39f6c3bcc6d86d"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Torch.uasset",
+      "bytes": 64366,
+      "sha256": "6253521577ba60c4f165d0e7e3267ede3f9cc404df3b65821b05198ba552401e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Meshes/SM_Wall.uasset",
+      "bytes": 102997,
+      "sha256": "9f0d7ed65d0a2ebcc1ef9f3e9fd97e369a35d9b6951496b44f69734e468882e3"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Particles/P_Fire.uasset",
+      "bytes": 182819,
+      "sha256": "a3bf240f0810060ee8b752683cd5f54228b9293e20f46510ad3b36f1def128b0"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Barrier_BC.uasset",
+      "bytes": 26285560,
+      "sha256": "1d650dc5b18650f226c00deddbe50bc864531b61c336796bf1a95985331c845e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Barrier_MRAO.uasset",
+      "bytes": 17207151,
+      "sha256": "b04ee8b92f8ca923cb57eeeb9fed80ea51a8f28f0da1816c1bea7b5cae5157b4"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Barrier_N.uasset",
+      "bytes": 48483659,
+      "sha256": "74340ef010106e073b90d88d3bb12653471ded11efc89e1045a8ae6ec423720f"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Block_BC.uasset",
+      "bytes": 25090742,
+      "sha256": "220f49f5203ab75eecf260a8ecb46be4c69a21f6f6c30567f703e88501c4f487"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Block_MRAO.uasset",
+      "bytes": 12798672,
+      "sha256": "c28758d29822a3b4ce3daecf62be699a7fec19bbfdb58d678de3d29726611e2e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Block_N.uasset",
+      "bytes": 47529105,
+      "sha256": "ff2fcd298df981d41c91bf2c5ca18a26ceb810ecbe6c33732af9153b85d684d9"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Chandelier_BC.uasset",
+      "bytes": 15183659,
+      "sha256": "276b5b1cecef733ba192e3876bca4433691c0d347ae30bdad5436f45a17cb317"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Chandelier_MRAO.uasset",
+      "bytes": 18529772,
+      "sha256": "a30c8d55d590f3fcecfb7a546890cf67b72cd8e9f83fdd99292558ee9b23906b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Chandelier_N.uasset",
+      "bytes": 21528429,
+      "sha256": "7992cf65e325ceb2a108953b36d2b04679980e6388c0c3584edcb4a537d185bb"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Chest_BC.uasset",
+      "bytes": 27071598,
+      "sha256": "09d6c0339ec9b746b50e5abdd4f84341ecfcd66f5984775db9d14baa561819b6"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Chest_MRAO.uasset",
+      "bytes": 25233793,
+      "sha256": "d9165fa1976e5682dd66a33269981c3c8b16d5e957aa67af1fc57e5185ef5b83"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Chest_N.uasset",
+      "bytes": 32782715,
+      "sha256": "44d2526ad9f210038b2bf932d6c2d4b8de24f2663774c25f504e2088ae345561"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Cloud_BC.uasset",
+      "bytes": 2081733,
+      "sha256": "b483ae8ba210b1d629188638019180ebe23ebefdb3ef286856888d8e8e0061a1"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnMedium_01_BC.uasset",
+      "bytes": 24606432,
+      "sha256": "2a2fe18cb13dd3daf81059d535addd0293f0ae995b574172b300247a4caecb24"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnMedium_01_MRAO.uasset",
+      "bytes": 15845031,
+      "sha256": "0f3624de44777e384c397bc9d31d1215fbe962ba3c3e55cf548a12e76c33516d"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnMedium_01_N.uasset",
+      "bytes": 46660474,
+      "sha256": "6f9f5a6419d55fb026dc653995adc6d2f5b226af827a006a8f411d18e16ede9d"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnMedium_02_BC.uasset",
+      "bytes": 21516828,
+      "sha256": "beb4cae777bda13c8b6917574987e065476cd87dc6379906e1465939626903a7"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnMedium_02_MRAO.uasset",
+      "bytes": 11420822,
+      "sha256": "9894709dc358c8be5da285c3d42ccad3c88af3f6a485bf8ea03f6f75300b7d5e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnMedium_02_N.uasset",
+      "bytes": 43127094,
+      "sha256": "808820db523af5cd0ed2b864776b7e7fac0dbd96f1f7630f9cff525096f1eebd"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnSmall_01_BC.uasset",
+      "bytes": 27085240,
+      "sha256": "175c9241e022fdc7ed1db055c312beb0c200c8218b937d1441bbf03ce402c45a"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnSmall_01_MRAO.uasset",
+      "bytes": 17194183,
+      "sha256": "a9661302cdaffe7c7ebf1fa1558ba25a6030fd9457851ccb1b16059401f6d218"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnSmall_01_N.uasset",
+      "bytes": 49880708,
+      "sha256": "8d20b03ccca0be12720647c837e3c16350fa453dcf9d38e5d330e0564531b9c8"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnSmall_02_BC.uasset",
+      "bytes": 30978054,
+      "sha256": "be31c0b20f3a90b3df08af50b552fc1dc1824914605ca4634fce937919171faa"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnSmall_02_MRAO.uasset",
+      "bytes": 17609998,
+      "sha256": "103db8cb278163652c12a765c75a3f43df533d9233e146631927797b8cfe069b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_ColumnSmall_02_N.uasset",
+      "bytes": 53963453,
+      "sha256": "2727023b8d5feccef75e0ecd0c4a1f78a5f1a1552b70e383238d2a11ba6fe1a7"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Crate_BC.uasset",
+      "bytes": 24678983,
+      "sha256": "278500ae4da013c4e2180c23ff4499bdc1fc925e0eee1586d2049e77c9e06455"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Crate_MRAO.uasset",
+      "bytes": 13066295,
+      "sha256": "b233fa97af684a5a15251455abc363ab46c113c479618f33d311bb393fb8c7d8"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Crate_N.uasset",
+      "bytes": 35111104,
+      "sha256": "3d9718ccdb201e9766f4ca75d033311d3660e6aa17f95e8300f0d2ac6af0f97f"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Fire_BC.uasset",
+      "bytes": 8409121,
+      "sha256": "48a5ce93846d905a7cba7d84bf44fe14f931381e087f78dd162f1ea5108e83cc"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Flame_BC.uasset",
+      "bytes": 1584121,
+      "sha256": "8a3f9310ca1f899de1febb1aadb3c21e5264308ebb3676c40a16128751c03ae1"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Floor_BC.uasset",
+      "bytes": 32062743,
+      "sha256": "46f1469df6507aadf0b7425c3cb72a12dd3be750c9ef8a565082e44a7fad4d6b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Floor_H.uasset",
+      "bytes": 87152,
+      "sha256": "0344e91f172165eed34cb3f80d1655b105e019e1becdae26323df5d3c8215c6b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Floor_MRAO.uasset",
+      "bytes": 19601604,
+      "sha256": "88f3efaefc3f5d8e75cfc2ebcc360e59da3f5203242dce0e8241c3940ee31bba"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Floor_N.uasset",
+      "bytes": 54820981,
+      "sha256": "bfa9fbae0e68782129f0c85434e5131a99e755ff979013736b3568058b5a8b15"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_01_BC.uasset",
+      "bytes": 20705510,
+      "sha256": "c06985b51facac4b372caa5fb0a648ebd9bed3eaec2ec27ba83f880b0bd8d852"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_01_MRAO.uasset",
+      "bytes": 9380527,
+      "sha256": "31eda5ee2950740ac7eb12b8172cfdf990e4b5a9117eeb3a21aae95c47df3fd3"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_01_N.uasset",
+      "bytes": 30727515,
+      "sha256": "6e180ee629b8675d8875780769271637a3f1e8741a2dc9d1161db5c3c8c382f9"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_02_BC.uasset",
+      "bytes": 23656060,
+      "sha256": "5f31fefd703df5f093736f83cda6627482eb314d45a08e74e4b50b3df344c545"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_02_MRAO.uasset",
+      "bytes": 12665863,
+      "sha256": "dbe2ac80117630cf880a1ef372d45c325f983daa1ad6d0228fc068926519248b"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_02_N.uasset",
+      "bytes": 32798762,
+      "sha256": "c6532d692eb61350ab2b34e11ce30d3a06741ae844d5d2e00b0aa7023ca8bfbf"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_03_BC.uasset",
+      "bytes": 22086635,
+      "sha256": "e07e8576fcacd49c262b9d1a4e73e3dbfeddb42404edaf271159751a67981c69"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_03_MRAO.uasset",
+      "bytes": 12910623,
+      "sha256": "76ad6a97c325312859822ae5fe0a17bc45d97e90079ee5a76c4d42a67d36235c"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Furniture_03_N.uasset",
+      "bytes": 31323764,
+      "sha256": "9d1aa7b6f95eec5a0862ad891fd8c88612fbbb20d7ebd3f571389246e20283fb"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Pillar_BC.uasset",
+      "bytes": 21954813,
+      "sha256": "9d390b70db51b4392d5aad2160acc97cc2a05103b56e2009d660607ef541d57d"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Pillar_MRAO.uasset",
+      "bytes": 14118696,
+      "sha256": "afc77ad06af04a737509df697c9444ee4c069d71d0a117d2b169df8cc6e563d7"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Pillar_N.uasset",
+      "bytes": 44266872,
+      "sha256": "a36d0c6d68a14da1bc4398d934a26c016284f9a2af7df7471606987e0ad7acb1"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Plank_BC.uasset",
+      "bytes": 7775381,
+      "sha256": "f8863aa4b1d423ee0c0abcfc7e1364d7cb9eeb183de09d4feaed2e479a2875f6"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Plank_MRAO.uasset",
+      "bytes": 4565729,
+      "sha256": "16f86474ce4a4177038b0f2b829ce68faafef68bc12571d0f12bc0164ff6eff9"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Plank_N.uasset",
+      "bytes": 23342647,
+      "sha256": "27a34c7790ee20325e187468a1d9aaddec0d59ecaf0c4fe9587d698c65225b92"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_01_BC.uasset",
+      "bytes": 20246744,
+      "sha256": "61bbccbafc4b20f6ef45e828062d3f07fd9543f54368cf90555cfbdcab526911"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_01_MRAO.uasset",
+      "bytes": 12458858,
+      "sha256": "8d531afd4d5e0cb98031705276618151b17277e65d621542d131ebe972a85498"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_01_N.uasset",
+      "bytes": 26480984,
+      "sha256": "e698fed68848f508bf54c26abe018b5ca0d17b95eab69b5c0840fbf546384a31"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_02_BC.uasset",
+      "bytes": 25681735,
+      "sha256": "f2dc728c02cae46adb1f308b833bf72a60bf1b9edb1625953c15106475ebe3d8"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_02_MRAO.uasset",
+      "bytes": 21409663,
+      "sha256": "87861e912fdd4faf8881b7d9864deb68f6a7fc1366aca346e479c29e5021cdf1"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_02_N.uasset",
+      "bytes": 37741782,
+      "sha256": "60c7b1aec1a64394e020b967b17c50f75a82ff7a7acbf800c20c7ff8998b94f2"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_03_BC.uasset",
+      "bytes": 26634920,
+      "sha256": "04f3a0e6a5a74b47e203a78956bd918ae81a62243e67c28e3649c8f016739f00"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_03_MRAO.uasset",
+      "bytes": 21031043,
+      "sha256": "09bfa43f976912c9afb17edd7a48473501f794ed33d96f662ada8739064d73f2"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_PropsAtlas_03_N.uasset",
+      "bytes": 37689737,
+      "sha256": "8f835209a9976367c024e0f4bfaec9878d8e3ceb5512b238ddc61b6c26e1343e"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Sample_BC.uasset",
+      "bytes": 28446,
+      "sha256": "ba914cd0307cb985cf0a3371dc966878e66a7f892493827156535c07e32d0835"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Sample_MRAO.uasset",
+      "bytes": 5358,
+      "sha256": "1296f547864fd1ec0623dfd26f711c9f7f4a949b56f2b49d1b4b8bead19c0af0"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Sample_N.uasset",
+      "bytes": 5613,
+      "sha256": "6369cef2dd0a1c1bb881b6943aca875e83d8576ad9cabca854fae3970914b989"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Smoke_BC.uasset",
+      "bytes": 1732644,
+      "sha256": "79ca6edb008294b9134cc3ada7ac0954a63b8620ea95201b8cec0a3587518750"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Wall_BC.uasset",
+      "bytes": 26444638,
+      "sha256": "ee730dcf5d618a23d5091980c30cd63fc0165297b10fa3c5bd5d71d7c97f4983"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Wall_MRAO.uasset",
+      "bytes": 21148279,
+      "sha256": "a2037b0b382b254a6a5e042453e61fd9cd1f46fe7613a743d9fda6503f85a39d"
+    },
+    {
+      "path": "Content/ClaudeDungeonKit/Textures/T_Wall_N.uasset",
+      "bytes": 44798701,
+      "sha256": "d7275f0ca1b068eaf9cfd435f43b0fb54651c565e81d647c5a9d68d6ee83c736"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/ClaudeDungeon.uplugin",
+      "bytes": 417,
+      "sha256": "a286bffe848e02aae877468cafcc4adf1247865ad4eb9ceb5197b9acfdffc28f"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/ClaudePCG.Build.cs",
+      "bytes": 473,
+      "sha256": "b27913cfeba5eaa307823a379be9948fb50d285351e02ce92d5a06eaa169fca7"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/ClaudePCG.cpp",
+      "bytes": 86,
+      "sha256": "8ae8d1f05eaa1656c35f24b60d302cf5f34f76faebf15a9fe0c471dfa9bcf177"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Private/DungeonDresser.cpp",
+      "bytes": 40863,
+      "sha256": "89ed4bc0ab082bb5597abe2cfc8f71cb738957496e02615534115f1eaa0a9beb"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Private/DungeonDresser.h",
+      "bytes": 4252,
+      "sha256": "1af9eda0d042dad2a527b68104d0547c7fe1693f7907f2275d7692d8e0b7032b"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Private/DungeonGenerator.cpp",
+      "bytes": 5207,
+      "sha256": "51c0ddc7b046f585f2cf6e6ac99daf1510ecc481104c5d656bb8475d57e27829"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Private/DungeonLayout.cpp",
+      "bytes": 11171,
+      "sha256": "9114d1e6ed666983415dfc172f5e1f05b3328b94c2552d3261f0802c4f460f6b"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Private/DungeonLightProps.cpp",
+      "bytes": 3402,
+      "sha256": "d537abd75693e5c1101d35dbba2c3ed63b13417790e34f39a31ac7f6d89e36e1"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Private/DungeonPCGLibrary.cpp",
+      "bytes": 3665,
+      "sha256": "ea17f6600cae3615e80f425dd0a6faa89956bdc5724b95884d4a4bb3dc1c3a03"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Private/PCGDungeonLayout.cpp",
+      "bytes": 4185,
+      "sha256": "b62160e4696c32092bd9a7f9c74db2c433d1feda20c6998cc6366564b054c4e4"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Public/DungeonGenerator.h",
+      "bytes": 2812,
+      "sha256": "99307de2153796f5a39d1fe9c01d711f6de79c81e643855916d6770b463dbc98"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Public/DungeonLayout.h",
+      "bytes": 2626,
+      "sha256": "8d8962ad93803b1325a6b8453005517b333cc527ce1ccddea8d68c9c3c6607d6"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Public/DungeonLightProps.h",
+      "bytes": 1662,
+      "sha256": "c4b0bf7a7348391a70f7739174743235ac0dbe951b0f2290f0835c2fd80a2a47"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Public/DungeonPCGLibrary.h",
+      "bytes": 1708,
+      "sha256": "d8d83f630469f3acb5fc750db364c468bca755c697c5c8791a447c790dd9e3b4"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Public/DungeonTypes.h",
+      "bytes": 2430,
+      "sha256": "b4d9e2fbae2f596245466b0cfe9ba144bf4878e224b6fd3e3d070e9e253ab324"
+    },
+    {
+      "path": "Plugins/ClaudeDungeon/Source/ClaudePCG/Public/PCGDungeonLayout.h",
+      "bytes": 2909,
+      "sha256": "3e51d9c121117f0f0bb018f2b35f1d41c43bd7586564c53a4d61c6e474b53ad7"
+    }
+  ],
+  "packages": [
+    "/Game/ClaudeDungeon/PCG/PCG_ClaudeDungeon",
+    "/Game/ClaudeDungeonKit/Materials/MI_Barrier",
+    "/Game/ClaudeDungeonKit/Materials/MI_Block",
+    "/Game/ClaudeDungeonKit/Materials/MI_CandleFlame",
+    "/Game/ClaudeDungeonKit/Materials/MI_Chandelier",
+    "/Game/ClaudeDungeonKit/Materials/MI_Chest",
+    "/Game/ClaudeDungeonKit/Materials/MI_ColumnMedium_01",
+    "/Game/ClaudeDungeonKit/Materials/MI_ColumnMedium_02",
+    "/Game/ClaudeDungeonKit/Materials/MI_ColumnSmall_01",
+    "/Game/ClaudeDungeonKit/Materials/MI_ColumnSmall_02",
+    "/Game/ClaudeDungeonKit/Materials/MI_Crate",
+    "/Game/ClaudeDungeonKit/Materials/MI_Floor",
+    "/Game/ClaudeDungeonKit/Materials/MI_Furniture_01",
+    "/Game/ClaudeDungeonKit/Materials/MI_Furniture_02",
+    "/Game/ClaudeDungeonKit/Materials/MI_Furniture_03",
+    "/Game/ClaudeDungeonKit/Materials/MI_Pillar",
+    "/Game/ClaudeDungeonKit/Materials/MI_Plank",
+    "/Game/ClaudeDungeonKit/Materials/MI_PropsAtlas_01",
+    "/Game/ClaudeDungeonKit/Materials/MI_PropsAtlas_02",
+    "/Game/ClaudeDungeonKit/Materials/MI_PropsAtlas_03",
+    "/Game/ClaudeDungeonKit/Materials/MI_Wall",
+    "/Game/ClaudeDungeonKit/Materials/M_Base",
+    "/Game/ClaudeDungeonKit/Materials/M_EmissiveFlame",
+    "/Game/ClaudeDungeonKit/Materials/M_Flame",
+    "/Game/ClaudeDungeonKit/Materials/M_Parallax",
+    "/Game/ClaudeDungeonKit/Materials/M_Smoke",
+    "/Game/ClaudeDungeonKit/Materials/M_Spark",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Arch",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Barrel",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Basin",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Bench",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BlockLargeA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BlockLargeB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BlockMediumA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BlockMediumB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BlockSmallA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BlockSmallB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BoneA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BoneB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BookA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BookB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_BookC",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Bowl",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Box",
+    "/Game/ClaudeDungeonKit/Meshes/SM_CandleLarge",
+    "/Game/ClaudeDungeonKit/Meshes/SM_CandleMedium",
+    "/Game/ClaudeDungeonKit/Meshes/SM_CandleSmall",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ChainA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ChainB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ChandelierStand",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ChestBottom",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ChestTop",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ColumnMedium",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ColumnSmallBrokenBottom",
+    "/Game/ClaudeDungeonKit/Meshes/SM_ColumnSmallBrokenTop",
+    "/Game/ClaudeDungeonKit/Meshes/SM_CrateLarge",
+    "/Game/ClaudeDungeonKit/Meshes/SM_CrateMedium",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Floor",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Jar",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Pillar",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Pint",
+    "/Game/ClaudeDungeonKit/Meshes/SM_PlankLargeA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_PlankLargeB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_PlankMediumA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_PlankMediumB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_PlankSmallA",
+    "/Game/ClaudeDungeonKit/Meshes/SM_PlankSmallB",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Plate",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Rocks",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Separator",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Shelf",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Skull",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Spoon",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Stool",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Table",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Torch",
+    "/Game/ClaudeDungeonKit/Meshes/SM_Wall",
+    "/Game/ClaudeDungeonKit/Particles/P_Fire",
+    "/Game/ClaudeDungeonKit/Textures/T_Barrier_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Barrier_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Barrier_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Block_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Block_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Block_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Chandelier_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Chandelier_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Chandelier_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Chest_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Chest_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Chest_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Cloud_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnMedium_01_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnMedium_01_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnMedium_01_N",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnMedium_02_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnMedium_02_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnMedium_02_N",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnSmall_01_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnSmall_01_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnSmall_01_N",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnSmall_02_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnSmall_02_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_ColumnSmall_02_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Crate_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Crate_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Crate_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Fire_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Flame_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Floor_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Floor_H",
+    "/Game/ClaudeDungeonKit/Textures/T_Floor_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Floor_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_01_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_01_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_01_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_02_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_02_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_02_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_03_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_03_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Furniture_03_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Pillar_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Pillar_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Pillar_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Plank_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Plank_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Plank_N",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_01_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_01_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_01_N",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_02_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_02_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_02_N",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_03_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_03_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_PropsAtlas_03_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Sample_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Sample_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Sample_N",
+    "/Game/ClaudeDungeonKit/Textures/T_Smoke_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Wall_BC",
+    "/Game/ClaudeDungeonKit/Textures/T_Wall_MRAO",
+    "/Game/ClaudeDungeonKit/Textures/T_Wall_N"
+  ],
+  "externalPackages": [
+    "/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq",
+    "/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ParallaxOcclusionMapping",
+    "/Engine/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SimpleGrassWind",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/InverseTransformMatrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/TransformToZVector",
+    "/Engine/Functions/Engine_MaterialFunctions02/SafeNormalize",
+    "/Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Script/ClaudePCG",
+    "/Script/NavigationSystem",
+    "/Script/PCG"
+  ],
+  "sourceMapCopied": false
+}

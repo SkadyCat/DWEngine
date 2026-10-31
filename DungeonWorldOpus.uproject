@@ -1,0 +1,61 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{454C286B-4D50-82AE-CAF1-DF8D8E00DAB3}",
+	"Category": "",
+	"Description": "DungeonWorld Opus: native rule engine and tower gameplay.",
+	"Modules": [
+		{
+			"Name": "DungeonWorldOpus",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ClaudeDungeon",
+			"Enabled": true
+		},
+		{
+			"Name": "MoonScholar3C",
+			"Enabled": true
+		},
+		{
+			"Name": "DWRules",
+			"Enabled": true
+		},
+		{
+			"Name": "MassGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "Angelscript",
+			"Enabled": true
+		},
+		{
+			"Name": "UnLua",
+			"Enabled": true
+		},
+		{
+			"Name": "SvgCanvasBridge",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "UE_MCP_Bridge",
+			"Enabled": true
+		}
+	]
+}

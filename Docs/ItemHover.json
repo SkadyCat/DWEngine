@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-25T17:10:38",
+  "scope": "RuleStudio3D pinned item inspector and inline crafting",
+  "sourcePrefab": "battle-prefab-item-hover",
+  "sourceProject": "UIAuthoring/HoverSource.uialpha.json",
+  "sourceHash": "fae51032a46d7f429aa32ff3d5ac1f1f0f3eb872d1d4092ed8a70f7b61fbd53a",
+  "exportJob": "wbp-2bcc4ef5-37cc-4fae-9aac-506d7245801a",
+  "contract": "Content/UICreatorHover/contract.json",
+  "templates": 8,
+  "nodes": 396,
+  "rasters": 892,
+  "rasterDimensionMismatches": 0,
+  "behavior": "Script/Opus/ItemHover.as",
+  "nativeAdapters": [
+    "Source/DungeonWorldOpus/Private/OpusHoverUI.cpp",
+    "Source/DungeonWorldOpus/Private/OpusHoverData.cpp"
+  ],
+  "javascriptRuntimeFiles": 0,
+  "rulesEngineChangedByThisFix": false,
+  "startupDirectoryCorrections": [
+    {
+      "id": "player_stun_buildup",
+      "from": "Traits",
+      "to": "Affixes",
+      "contentsUnchanged": true,
+      "sha256": "b088b50df3dc12d6d84bd880421f9918f68116281ea635c4356ca58bd90c24b2"
+    },
+    {
+      "id": "player_stun_threshold",
+      "from": "Traits",
+      "to": "Affixes",
+      "contentsUnchanged": true,
+      "sha256": "f689d2ea449798c759397b556445673133871dd5fde51c6c920c85f8f774d85d"
+    },
+    {
+      "id": "player_stun_recovery",
+      "from": "Traits",
+      "to": "Affixes",
+      "contentsUnchanged": true,
+      "sha256": "8098f6128294c84a16b028a68b1ddd792e420ea0528d83f61f6e85f809f2e507"
+    }
+  ],
+  "build": "Saved/Verification/ItemHover/scoped-build.log",
+  "verification": {
+    "log": "Saved/Verification/ItemHover/integration.log",
+    "markers": [
+      "HOVER_TEST_PASS InlineGradeCraft transactions=3",
+      "HOVER_TEST_PASS WholeCraftInPlace",
+      "HOVER_TEST_PASS IdentifyInPlace",
+      "HOVER_TEST_PASS RuntimeInspector"
+    ],
+    "transient": true,
+    "reloadedInSeparateProcess": true,
+    "hierarchyMatches": true,
+    "maxLayoutErrorPixels": 0,
+    "nativeButtonStateChecks": 50,
+    "pixelComparison": {
+      "source": "frozen UICreator reference/canvas.png",
+      "native": "saved/reloaded native/canvas.png",
+      "size": [
+        2700,
+        1060
+      ],
+      "rgbaMeanAbsoluteDifference": 0.5437354122990915,
+      "blackCompositeRgbMeanAbsoluteDifference": 0.4683725937801159,
+      "blackCompositePixelsOver8": 0.005817610062893081,
+      "blackCompositePixelsOver32": 0.005391684136967156
+    },
+    "visualLogs": [
+      "Saved/Verification/ItemHover/inspector-3d-idle.log",
+      "Saved/Verification/ItemHover/inspector-3d-active.log"
+    ]
+  },
+  "visualProof": [
+    {
+      "file": "Docs/Proof/ItemInspector-UICreator.png",
+      "size": [
+        1265,
+        712
+      ],
+      "sha256": "cbfdee384b5aa1931d9b2ebbbd8a8936c4df7a32d113113c10af97c2d9c7d606"
+    },
+    {
+      "file": "Docs/Proof/inspector-3d-active.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "9711500069e557cd981c584c5bc39d278091d92dab1d2e1268d794eef6526c06"
+    },
+    {
+      "file": "Docs/Proof/inspector-3d-idle.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "1dd36af4888bf951718b305dfc0fb2c2f7538d679e9eeca2baab3a327f1dd1a6"
+    }
+  ],
+  "authoringPreview": "http://127.0.0.1:5199/examples/item-inspector-review.html",
+  "mainGamePid": 50108,
+  "bugAudit": {
+    "date": "2026-10-25T17:32:41",
+    "document": "Docs/ItemInspectorBugAudit.md",
+    "classification": [
+      "runtime UI geometry and brush state",
+      "dynamic card layout and clipped fixture reuse",
+      "display parameter formatting",
+      "material icon mapping"
+    ],
+    "nativeTests": [
+      "Opus.UI.Inspector.ConcreteParameters",
+      "Opus.UI.Inspector.MovedInteractionBrushes"
+    ],
+    "nativeTestLog": "Saved/Verification/ItemHover/projection-tests.log",
+    "gameplayLog": "Saved/Verification/ItemHover/integration.log",
+    "visualLog": "Saved/Verification/ItemHover/bug-fixed-final.log",
+    "visualProof": "Docs/Proof/ItemInspector-bugs-fixed.png",
+    "visualSha256": "863cdfbe324bcca047f233b85357b3f37ed799a24a768fcaa40ce1bd9829786c",
+    "materialExport": {
+      "exportJob": "wbp-5ce478db-0ded-4ce0-a29d-36dbddd23dac",
+      "sourceHash": "3f46660e65a3af557f4605195142664afa5a9781f613010c9ff3b4b5aacedc8f",
+      "sourceProject": "opus-native-material-icons",
+      "icons": [
+        {
+          "item": "chaos_orb",
+          "sourceNode": "stone-green",
+          "raster": "1018a3ac0cacdd12b7c0cc49797b0481eb468f916fe5288f20af29b44bf65ab2",
+          "target": "Content\\OpusIcons\\item\\chaos_orb.png",
+          "sha256": "0d2d102e16b223dc58c484b959bd952aa4303ebc9d735f3b04b2d02231c24c9b"
+        },
+        {
+          "item": "spirit_stone_mid",
+          "sourceNode": "stone-blue",
+          "raster": "c8b6e692f0a063371ff1d0c7c3485b7517b16eefc2bb7e19a3b675b4cc0674c2",
+          "target": "Content\\OpusIcons\\item\\spirit_stone_mid.png",
+          "sha256": "8375740adbc4199d5c7542de2922bf314ccd1d686e4272bd1f04d3287eb4c76c"
+        },
+        {
+          "item": "spirit_stone_high",
+          "sourceNode": "stone-purple",
+          "raster": "17fe94483dfc7b3a27ac89c72b122cb2cad5b89d268ea97bbda2d3dc94a14815",
+          "target": "Content\\OpusIcons\\item\\spirit_stone_high.png",
+          "sha256": "7bffede53b02188eefe7fdf40dee7315e6ece6d01f1cbe1fd93b39dd26922efc"
+        }
+      ]
+    },
+    "rulesEngineChanged": false,
+    "build": "Saved/Verification/ItemHover/bugfix-cards-build.log"
+  }
+}

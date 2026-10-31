@@ -1,0 +1,67 @@
+{
+  "schema": "opus-loot-ue-verification/v1",
+  "sourceHash": "2d013876962f9cb2b5607d7925341e45175f44baf7052cca32ba4ceda225c583",
+  "authoring": "UIAuthoring/RuleStudioLoot.uialpha.json",
+  "authoringProject": "opus-rulestudio-loot-ue",
+  "authoringRevision": 2,
+  "uiLayoutDiagnostics": 0,
+  "packageRoot": "/Game/UICreatorLoot",
+  "nativeUiNodeCount": 90,
+  "savedRasters": 102,
+  "tests": {
+    "gameplayIntegration": {
+      "log": "Saved/Verification/WorldUI/loot-integration.log",
+      "scene": "L_OpusDungeon; actual registered boss/native cast/native acquisition",
+      "status": "passed",
+      "groups": [
+        "FlightBeforeLabel",
+        "TenFamiliesAndFourStates",
+        "NativeDeathAndLabel count=2 key=ground_2727680315_1_2",
+        "HunterAndPinnedHover",
+        "WalkingPickupAndInventory",
+        "RuntimeIntegration"
+      ],
+      "finalBuild": "Saved/Build/build-20261025-154053.log (compiler passed; link import-library repair completed successfully)"
+    },
+    "nativeRuleRegression": {
+      "test": "DWRules.Tower.FloorRewards",
+      "status": "passed",
+      "rules": "Copy of the current RulesTower catalog, isolated content-only verification project",
+      "log": "Saved/Verification/LootRulesProbe/native-rules.log"
+    },
+    "visualIntegration": {
+      "status": "passed",
+      "log": "Saved/Verification/WorldUI/loot-preview-arena.log",
+      "scene": "Transient actor arena; real native kill/drop and main HUD. No saved profile is used.",
+      "size": [
+        1600,
+        900
+      ],
+      "image": "Docs/Proof/掉落接入UE.png",
+      "sha256": "0eb4d714d972aa76373033b47b3dbbe40576325e6b617279dc0f2e305ae760b8"
+    },
+    "savedWbpReload": {
+      "status": "passed",
+      "log": "Saved/Verification/LootUICreator/native/reload-receipt.json",
+      "hierarchyMatches": true,
+      "maxLayoutErrorPixels": 0,
+      "nativeButtonStateChecks": 21
+    }
+  },
+  "behavior": [
+    "Native reward generation, 200 cm acquisition and duplicate-claim rejection unchanged",
+    "AS flight/bounce, after-landing labels, ten appearance families, nearest 96 label budget and collision packing",
+    "AS pickup movement uses current dungeon navigation; manual WASD cancels approach",
+    "Ground hover, Ctrl pin, Esc close, pickup highlight, claim cleanup",
+    "Hunter AND equipment matching, currency selection, Chinese query, paging, close/transfer retains selection",
+    "UI panel bounds block pointer combat, text input blocks movement/casting"
+  ],
+  "renderingFix": "Compile the saved UI texture batch once before first runtime use; retain the imported document; verify image resource and layout readiness before capture.",
+  "runtimeLanguages": "AS + Lua with existing native engine; JavaScript is confined to authoring tools",
+  "runtimeRuleCatalog": "RulesTower (current main game setting). Web authoring Rules contains additional unsupported web triggers; native tests use RulesTower rather than altering engine semantics.",
+  "packaging": {
+    "alwaysCook": "/Game/UICreatorLoot",
+    "runtimeContract": "RuntimeDependencies: Content/UICreatorLoot/contract.json, NonUFS",
+    "packagedBuildTested": false
+  }
+}

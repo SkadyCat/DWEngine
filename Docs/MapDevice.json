@@ -1,0 +1,82 @@
+{
+  "feature": "地图装置",
+  "scope": [
+    "RuleStudio 3D 网页",
+    "UICreator",
+    "Unreal Engine"
+  ],
+  "authoring": {
+    "project": "hud-darksteel-20261024",
+    "revision": 46,
+    "interface": "map-device",
+    "prefab": "battle-prefab-map-device",
+    "source": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/map-device.js",
+    "publish": "CustomTools/UICreatorAlpha/scripts/update-map-device.mjs"
+  },
+  "slots": {
+    "map": 1,
+    "modifiers": 5,
+    "placement": "直接嵌入原星图区域详情；中央地图，外圈五边形"
+  },
+  "inventory": "星图窗口外右侧下方，底部对齐；7 列 × 5 行，分页与全部/地图/地图物品筛选",
+  "interaction": [
+    "背包拖入适用槽",
+    "槽位拖回背包",
+    "错误类型拒绝且保留原位",
+    "空白处释放取消",
+    "Esc 或失焦取消拖拽",
+    "键盘选择物品及槽位"
+  ],
+  "ownership": "装配仅保留物品引用，每槽保留一个数量，不消费、不生成物品",
+  "persistence": "网页 player.mapDeviceSlots；UE opusMapItems.DeviceSlots（拥有物品的引用）与 AtlasState；UICreator 使用隔离示例数据",
+  "futureModifiers": "视图数据 mapDeviceRole=modifier；当前未新增道具或收益数值",
+  "hover": "背包与已装配槽位共享 UICreator 物品详情模板，显示真实图标、基础属性与词条；Ctrl 固定，Esc 关闭；拖拽时收起",
+  "legacyAtlas": "直接打开原星图，保留地图主体、区域选择与挑战；装配嵌入详情，不再另开地图装置窗口",
+  "verification": {
+    "tests": "node --test tests/map-device.test.mjs tests/map-item-inspector.test.mjs：6 项通过",
+    "browser": [
+      "UICreator 外侧背包拖入详情中央槽",
+      "UICreator 从详情拖回外侧背包",
+      "真实背包与详情的两个 SVG 表面共享拖拽校验",
+      "星图主体与区域选择保留",
+      "网页 SVG 样式隔离"
+    ],
+    "proofs": [
+      "Docs/Proof/MapDevice-RuleStudio.png",
+      "Docs/Proof/MapDevice-UICreator.png",
+      "Docs/Proof/MapDevice-Hover.png",
+      "Docs/Proof/MapDevice-SlotHover.png",
+      "Docs/Proof/MapDevice-UE.png"
+    ],
+    "unreal": "321 控件、60 按钮状态、独立保存重载及布局检查通过；AS Integration / Reload / D3D Preview 通过；实际网页地形迷雾圆点星图对照"
+  },
+  "unreal": {
+    "status": "passed",
+    "key": "M",
+    "authoringProject": "opus-map-device",
+    "nativeRoot": "/Game/UICreatorMaps",
+    "job": "wbp-3d72e6ad-d48c-46a2-a3bf-230870cc474c",
+    "sourceHash": "5678cc8b5162c1aff917b0294ada94abe4861efb0c024a8cdaf51f514fd1d407",
+    "entry": "拖入中央地图槽；点击使用地图进入，消耗一张并停在对应 T 层准备状态",
+    "runtime": "Script/Opus/MapDevice.as + AtlasState.as；复用 MapItems.as",
+    "modifiers": "五槽保留，当前没有地图物品或收益效果",
+    "proof": "Docs/Proof/MapDevice-UE.png",
+    "receipt": "Saved/Verification/MapDevice/final-verification.json",
+    "import": "Tools/UI/Import-MapDevice.ps1",
+    "verify": "Tools/Verify-MapDevice.ps1",
+    "rules": "规则语义与数值未改"
+  },
+  "visualCorrection": {
+    "cause": "导回错误使用了旧卡片网格示例，未对照实际RuleStudio星图。",
+    "reference": "CustomTools/RuleStudio/public/atlas-map.mjs 实际绘制与 atlas-map.css",
+    "restored": [
+      "圆形星点与细曲线路径",
+      "原地形雕刻纹理和动态雾区",
+      "选中光环、图内标题、罗盘及缩放条",
+      "区域详情六槽、外置右侧背包、背景遮暗",
+      "已发现地域下拉，修复文字叠层"
+    ],
+    "rejectedProof": "Saved/Verification/MapDevice/rejected-card-map.png",
+    "oracle": "Saved/Verification/MapDevice/original-web-atlas.png"
+  }
+}

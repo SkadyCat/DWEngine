@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "projectId": "opus-atlas-player-location",
+  "revision": 1,
+  "source": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/atlas-player-location.js",
+  "document": "CustomTools/UICreatorAlpha/Screen/AtlasPlayerLocation/player-location.uialpha.json",
+  "webAdapter": "CustomTools/RuleStudio/public/atlas-player-marker.mjs",
+  "mapAdapter": "CustomTools/RuleStudio/public/atlas-map.mjs",
+  "viewport": { "width": 176, "height": 112 },
+  "anchor": { "x": 88, "y": 76 },
+  "bindings": {
+    "atlas-player-here": "你在这里",
+    "atlas-player-name": "name of the actual current region"
+  },
+  "state": {
+    "location": "currentNodeId; independent of selectedId",
+    "selectedId": "destination inspection only; never moves the player marker",
+    "center": "center camera on current region and select it for the details pane",
+    "centerInputs": ["map opens", "F", "Home", "location button"],
+    "screenX": "viewportWidth / 2 + (currentRegion.x - camera.x) * camera.zoom",
+    "screenY": "viewportHeight / 2 + (currentRegion.y - camera.y) * camera.zoom",
+    "placement": "screen position minus anchor; fixed screen size at every zoom",
+    "input": "decorative; no pointer capture or keyboard target",
+    "glyph": "replaces the current region terrain glyph and label"
+  },
+  "validation": {
+    "uiCreatorSaveReload": true,
+    "webSelectionKeepsPlayerLocation": true,
+    "webPanZoomAndFLocate": true
+  }
+}

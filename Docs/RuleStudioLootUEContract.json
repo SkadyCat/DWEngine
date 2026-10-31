@@ -1,0 +1,24 @@
+{
+  "sourceHash": "2d013876962f9cb2b5607d7925341e45175f44baf7052cca32ba4ceda225c583",
+  "approvedSourceRevision": 8,
+  "authoringProject": "opus-rulestudio-loot-ue",
+  "authoringRevision": 2,
+  "layoutDiagnostics": 0,
+  "logicalNodes": 90,
+  "svgAssets": 59,
+  "nativeButtons": 21,
+  "nativeButtonStateChecks": 21,
+  "hierarchyMatches": true,
+  "reloadedInSeparateProcess": true,
+  "maxLayoutErrorPixels": 0,
+  "rasterDimensionChecks": 102,
+  "rgbaExact": false,
+  "premultipliedReference": {
+    "maxChannelError": 1,
+    "meanAbsoluteError": 0.0015126736111111111,
+    "changedPixels": 4970
+  },
+  "alphaNote": "Browser PNG is straight alpha; Slate readback is premultiplied. Remaining sub-byte rounding is preserved, not hidden by changing source opacity.",
+  "packageRoot": "/Game/UICreatorLoot",
+  "gameplayRuntime": "AS and existing native floor-rewards. JavaScript remains in authoring tools only."
+}

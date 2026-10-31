@@ -1,0 +1,7 @@
+/Binaries/
+/Intermediate/
+/Saved/
+/.vs/
+*.sln
+/Script/Binds.Cache
+/Script/Binds.Cache.Headers

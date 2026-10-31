@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-10-25T04:33:01.754492+08:00",
+  "build": "Succeeded",
+  "engine": "G:/UnrealEngine-Angelscript-5.8.3",
+  "gameMode": "/Script/Angelscript.DWOTowerGameMode",
+  "native": {
+    "passed": 36,
+    "failed": 0,
+    "tests": [
+      "DefenseBinding",
+      "DefenseTraitLifecycle",
+      "FourResistanceTraits",
+      "FrostLanceIsCreatePlusChill",
+      "MonsterTowerLevel",
+      "ResistancePartitions",
+      "SixDamageTraits",
+      "TraitsStack",
+      "BudgetDefersInsteadOfFailing",
+      "CompileComposition",
+      "Deterministic",
+      "EmitAndPierce",
+      "StackingMultiplies",
+      "StatPartitions",
+      "Bases",
+      "CharacterParity",
+      "CombatParity",
+      "Composition",
+      "CurrentBuildPresets",
+      "CurrentCraftingGrades",
+      "CurrentParabolic",
+      "CurrentPawnEquipment",
+      "EconomyParity",
+      "Geometry",
+      "Grants",
+      "Library",
+      "Loadout",
+      "SessionLifecycle",
+      "TargetRefresh",
+      "ActorTargetLifecycle",
+      "ControlCap",
+      "EquipmentGrantedSkill",
+      "FloorRewards",
+      "HUDDps",
+      "HUDObserver",
+      "ShopChannels"
+    ],
+    "log": "Saved/Verification/native-final.log"
+  },
+  "references": {
+    "characterCases": 968,
+    "characterStatesPerCase": 126,
+    "combatCases": 847,
+    "combatDamageRows": 62743,
+    "combatFailures": 0,
+    "economyRolls": 298,
+    "valueProfiles": 797
+  },
+  "runtime": {
+    "ASFlow": true,
+    "SVGDispatch": true,
+    "manualReady": true,
+    "clearFloors": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "crossFloorPools": true,
+    "nativeDeathAndSvgRetryToReady": true,
+    "diskSaveReload": true,
+    "default": "floor 1, T1 frostthorn staff, one skill, manual Ready"
+  },
+  "rulesJSON": {
+    "files": 1047,
+    "hashesUnchanged": true
+  },
+  "javascriptRuntimeFiles": [],
+  "visualQA": {
+    "resolution": [
+      1600,
+      900
+    ],
+    "ready": "Saved/Verification/ready-delivery.png",
+    "battle": "Saved/Verification/battle-final.png",
+    "builds": "Saved/Verification/builds-final.png"
+  },
+  "scope": "Windows UE editor/game target. Independent packaged executable and other resolutions were not validated."
+}

@@ -1,0 +1,67 @@
+{
+  "updatedAt": "2026-10-25T14:44:54.184413+08:00",
+  "stage": "interactive UICreator prototype; UE UI deployment not performed",
+  "project": "opus-rulestudio-loot-20261025",
+  "revision": 8,
+  "svgAssets": 59,
+  "prefabs": 13,
+  "independentHtmlControls": 59,
+  "compositionNodes": 11,
+  "textSafeRegions": 21,
+  "missingDuplicateScaledOutOfBounds": 0,
+  "screenHtmlDataFreeVerified": true,
+  "structureViewport": [
+    1600,
+    900
+  ],
+  "manualComposition": true,
+  "compositionPngExported": false,
+  "compositionFreshness": "not applicable: PNG composition has not been started",
+  "build": "zero dependency native SVG tool; new modules pass node --check",
+  "nodeTests": {
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0,
+    "log": "CustomTools/UICreatorAlpha/work/loot-prototype/node-tests.tap"
+  },
+  "browserChecks": {
+    "passed": 13,
+    "failed": 0,
+    "actualClickApproachAndSinglePickup": true,
+    "hunterChineseSearch": "冰缓 -> 12 matching options out of 789",
+    "selectedCurrencyFilter": "1 displayed / 10 remaining after selecting 下品灵石",
+    "ctrlPinnedDetails": true,
+    "stressScene": {
+      "groundRows": 131,
+      "renderedPackedLabels": 81,
+      "budget": 96
+    },
+    "editorLayoutDiagnostics": 0
+  },
+  "sourceSnapshotModules": 36,
+  "ruleDocuments": 1028,
+  "rewardParity": {
+    "source": "RuleStudio original FloorRewards",
+    "seeds": [
+      1,
+      7,
+      7919,
+      305419896
+    ],
+    "killsPerSeed": 80,
+    "identicalGroundOutputs": true
+  },
+  "visualChecked": [
+    "ground labels and grade colors",
+    "Hunter search and paging",
+    "pinned details",
+    "data-free structure",
+    "independent 260x26 SVG background control",
+    "actual UICreator editor"
+  ],
+  "remainingNativeIntegrationGaps": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/控件文档.md",
+  "proof": "Docs/Proof/掉落原型.png",
+  "proofSha256": "c4ddeee995d372383e8a3b1a53e929e8ad6a728458adcd1a4a5a6776a45444ca",
+  "mainRuleEngineChanged": false,
+  "mainGameplayJavascriptAdded": false
+}

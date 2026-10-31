@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "recordedAt": "2026-10-25T22:13:45.415779+08:00",
+  "checks": {
+    "NativeTests.log": true,
+    "RecentHost.log": true,
+    "ModernCombat.log": true,
+    "Talents.log": true,
+    "Taunt.log": true,
+    "PlayerEffects.log": true,
+    "VFXCold.log": true,
+    "Gallery.log": true
+  },
+  "evidenceHashes": {
+    "NativeTests.log": "e40a83e0c26beeaf84e464e81946835445c1f136e62ff63f212b113005df80c7",
+    "RecentHost.log": "a128c24cf756be8c8ca76dae8475826b6108a13843ef2198235872e8c791a612",
+    "ModernCombat.log": "08411ca4becf62bd838d005a2a1fd5b42089f4d1243f3d5f4be57936ea43e3a1",
+    "Talents.log": "7c8902c74099adcf858f8704ba82e98ec004be279d34de2cdc6c9bf83b2809d5",
+    "Taunt.log": "4ae6b75178f4c07cad813d6fb10c1fa7e9d3d6819b7b4f6230c7a8a5e51274de",
+    "PlayerEffects.log": "6fe02380bcbbf19bb659467ac291e85fc9f20fb910e2322cc294018c6f15b08c",
+    "VFXCold.log": "d91751c7018a0b9ddd6376f648bc282df933e936ea7fc381cbcf7e7fa0e93e59",
+    "Gallery.log": "a25e682172048f0e429a242465736955ff254aa800fd1dada2193e1e166d44cf"
+  },
+  "runtimeCatalogueFiles": 1222,
+  "nativeMechanicsTests": 6,
+  "presetCount": 27,
+  "supportedLegendaryTalents": 100,
+  "uiTemplates": 9,
+  "uiSourceHash": "5028041a79847c0532426c6c78f66c998ea436bb6605a68090acd3ded9e4bae9",
+  "uiPixelComparison": {
+    "meanAbsoluteError": 0.00539675925925926,
+    "fractionOver8": 0.0
+  },
+  "vfx": {
+    "public": 58,
+    "clips": 186,
+    "geometries": 158,
+    "materials": 70
+  },
+  "runtimeJavaScriptFiles": [],
+  "normalProfile": {
+    "sha256": "9b72e89ee64c2f8f76704e09f38a56b7676c02e844a1dc9cc6335f719ede10d0",
+    "testRewardAbsent": true,
+    "testStashAbsent": true,
+    "testGoodsAbsent": true
+  },
+  "limits": [
+    "VFX combat screenshots use an isolated encounter with invulnerable targets; damage and multipliers are separately covered by native automation.",
+    "Merchant goods implement the existing local listing model. No external trading backend was added.",
+    "No packaged shipping build was requested; these receipts cover saved assets and native UE game/editor execution."
+  ]
+}

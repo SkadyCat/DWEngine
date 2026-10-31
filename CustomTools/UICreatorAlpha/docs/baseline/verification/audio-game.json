@@ -1,0 +1,12 @@
+{
+	"nativeButtonStartedAudioComponent": true,
+	"cooldownSuppressedRepeat": true,
+	"disabledSoundSuppressed": true,
+	"node": "hud-screen-instance::rs-hotbar-instance::rs-abilities::hud-ability-instance-2::hud-ability-button",
+	"volume": 0.5,
+	"pitch": 1.1000000238418579,
+	"event": "pressed",
+	"soundAssetId": "8b89f2b2-7a91-4ebf-8d96-45507e10974a",
+	"ok": true,
+	"host": "game world with audio enabled"
+}

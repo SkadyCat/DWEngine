@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-28",
+  "scope": "Studio only",
+  "issue": "Reward candidates were offer records, while the existing event drag handler accepted only equipment already in player.instances. The current reward slot was also non-interactable.",
+  "behavior": {
+    "source": "Legendary three-choice and vault reward candidates",
+    "target": "The current reward slot, input-0",
+    "gesture": "Press and move more than 6 CSS pixels to show the existing UICreator item ghost and highlight the valid slot; release there to select.",
+    "click": "Press without movement or with small jitter remains normal selection.",
+    "confirmation": "Dragging only changes selection. The existing claim button grants exactly one item and closes the remaining choices.",
+    "cancel": "Invalid target, Escape, pointer cancellation or window blur leaves selection and inventory unchanged and clears ghost and highlight.",
+    "persistence": "Closing and reopening retains the same candidates and selected reward.",
+    "regression": "Owned equipment still drags into the two fusion inputs. UICreator remains the owner of item cells, ghost artwork and input brushes."
+  },
+  "verification": {
+    "unitCommand": "node --test tests/map-events.test.mjs",
+    "unitPassed": 7,
+    "unitFailed": 0,
+    "browserCommand": "node Tools/UI/Verify-StudioEventRewardDrag.mjs",
+    "browserReceipt": "Saved/Verification/StudioEventRewardDrag/browser-receipt.json",
+    "dragScreenshot": "Saved/Verification/StudioEventRewardDrag/choice-drag.png",
+    "isolatedBrowserProfile": true,
+    "release": "b6db0d805e8c836b888e"
+  }
+}

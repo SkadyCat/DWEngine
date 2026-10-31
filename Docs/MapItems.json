@@ -1,0 +1,335 @@
+{
+  "feature": "地图物品",
+  "category": "map",
+  "label": "地图物品",
+  "tiers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "templateCount": 48,
+  "rarities": {
+    "common": [
+      0,
+      0
+    ],
+    "magic": [
+      1,
+      2
+    ],
+    "rare": [
+      3,
+      6
+    ]
+  },
+  "affixPool": "Content/Rules/MapItems/catalog.json",
+  "gameplay": "Script/Opus/MapItems.as",
+  "presentation": "Existing UICreator item inspector and use button; no new hand-drawn UE controls",
+  "profileExtension": "opusMapItems in Saved/RuleTower/Profile.v2.json; UID, affix values, RNG, owned maps and active consumed map",
+  "entryPolicy": "Use one outside combat, consume once, travel to the matching T floor, arrive Ready for manual start",
+  "rules": "Existing DWRules sheet aggregate computes map modifiers; equipment tiers remain 1-10; parser compatibility adds map item category and 1-16 map tier only",
+  "shop": "Existing free GM acquisition policy",
+  "backendContract": "mapItemId optional query; server verifies definition and corresponding floor; maxTier=min(10,map tier); preserve selected core candidates and events",
+  "verification": {
+    "nodeSchema": "3 passed",
+    "UICreatorInspector": "3 passed including existing crafting controls",
+    "nativeIntegration": "passed",
+    "separateProcessReload": "passed",
+    "onlineUE": "pending: concurrent global native compilation errors in SvgCanvasMotionAsset.h and OpusUI.h generated headers prevent final runtime verification",
+    "finalRender": "earlier native inspector render passed; final title cleanup render pending global native build",
+    "backendUnitTests": "go test ./... passed; map-item pool, tier validation, legacy request compatibility and preserved candidates/events verified",
+    "globalBuildLog": "Saved/Build/build-20261025-192640.log",
+    "lastSuccessfulMapRuntime": "Saved/Verification/MapItems/integration-backup-2026.10.25-11.05.49.log",
+    "nativeBuildBeforeConcurrentChanges": "Saved/Build/build-20261025-190819.log: succeeded",
+    "backendResponse": "Saved/Verification/MapItems/online-pool.json"
+  },
+  "proofs": [
+    "Docs/Proof/MapItems-RuleStudio.png",
+    "Docs/Proof/MapItems-UE.png"
+  ],
+  "runtimeOverlay": [
+    {
+      "authoring": "Content/Rules/Affixes/map_monster_base_life.json",
+      "runtime": "Content/RulesTower/Affixes/map_monster_base_life.json",
+      "sha256": "a107438e3953fe62cc48deeb3546b6e69c970b3a90ebddf680e160ff8ff7b830"
+    },
+    {
+      "authoring": "Content/Rules/Affixes/map_monster_damage.json",
+      "runtime": "Content/RulesTower/Affixes/map_monster_damage.json",
+      "sha256": "1fca4167b115bc416a73e446ff15d0cd46a1e55d7554c0b929ed302c183bc041"
+    },
+    {
+      "authoring": "Content/Rules/Affixes/map_monster_life.json",
+      "runtime": "Content/RulesTower/Affixes/map_monster_life.json",
+      "sha256": "3f37b021891f6dc22ebf2e6249b5a77f133096fdbf21493541fe7a435ce33fd4"
+    },
+    {
+      "authoring": "Content/Rules/Affixes/map_monster_more_damage.json",
+      "runtime": "Content/RulesTower/Affixes/map_monster_more_damage.json",
+      "sha256": "8c9fbe2ee9658cb412680ac2b9e557b690a46f7e902212e3dd22019ef2dc044a"
+    },
+    {
+      "authoring": "Content/Rules/Affixes/map_monster_more_life.json",
+      "runtime": "Content/RulesTower/Affixes/map_monster_more_life.json",
+      "sha256": "8919604e84d277d1441ff8d1e4ae4d35416abfb35dfcf09648dc1080ed8fdd93"
+    },
+    {
+      "authoring": "Content/Rules/Affixes/map_monster_packs.json",
+      "runtime": "Content/RulesTower/Affixes/map_monster_packs.json",
+      "sha256": "2a9ef67fde03d7c476e55d72dd324b22a0e704d32010089d45de695892b52bdb"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t01_common.json",
+      "runtime": "Content/RulesTower/Items/map_t01_common.json",
+      "sha256": "4b823b551e2006aa206920157cb233bac5360c83cf28ef1c7797bfd73ed1a528"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t01_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t01_magic.json",
+      "sha256": "29508b132325fb38b655eb40ca5b30f8ef157529f3ab8834c180e9b8e29260a1"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t01_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t01_rare.json",
+      "sha256": "d324c5fcaf3a4d1700249918790636aa8a88e0956595a108bf1ecbced9f5d10a"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t02_common.json",
+      "runtime": "Content/RulesTower/Items/map_t02_common.json",
+      "sha256": "68f8eb4d5ca57d5a62c9d6c416fe678f83943e3ac87d9da65cab0e61b5d766a6"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t02_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t02_magic.json",
+      "sha256": "66b70bebe79cbca84649ad37fc78be85b67085fe0488face8d7eaa33bf987ad0"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t02_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t02_rare.json",
+      "sha256": "01a2125e89e29ffc2846055c275627d6dc0137e1095dc9ee7791f6efd85a7471"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t03_common.json",
+      "runtime": "Content/RulesTower/Items/map_t03_common.json",
+      "sha256": "9713684fdeab54d4709ef98dfa663df6bae987d5e0ece9a8c6342cbcf91936ec"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t03_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t03_magic.json",
+      "sha256": "c5dbcb47e0466f12c764b68c208d2838a79d740722369de66240020354738929"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t03_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t03_rare.json",
+      "sha256": "dca21e287746fe91cef21752312f739fb700722cb64ee66b07547b49b77dfb7b"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t04_common.json",
+      "runtime": "Content/RulesTower/Items/map_t04_common.json",
+      "sha256": "257724a0fbb6cef25bb86576f29ec7dc3650a6b014329fe9e3a4076a1fe3da5e"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t04_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t04_magic.json",
+      "sha256": "d0054ea9e73a2ebc32c1fa8fff7e0f3c78f187a5682f4655022478824c723891"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t04_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t04_rare.json",
+      "sha256": "6a02ac64e3996fd739d6f297762b83007b5c9555e209835de1deabd0adbc1672"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t05_common.json",
+      "runtime": "Content/RulesTower/Items/map_t05_common.json",
+      "sha256": "f5b07dda2909041d6aa3abc154033f80020df21b7db7593f47fbcfac68b319aa"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t05_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t05_magic.json",
+      "sha256": "c99e56ff6d26e05e739b95917c04e5fa99fa6e108fa97e6ce2a11a129f05ee3b"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t05_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t05_rare.json",
+      "sha256": "b4cd4b2242687ac9bed87612b5a0c19d7273558004a9fad2c7ec9d7f64d145b9"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t06_common.json",
+      "runtime": "Content/RulesTower/Items/map_t06_common.json",
+      "sha256": "3064af2f243609c5106e073a80e7a00aeba1f956480433c7ebd30bb45cf16783"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t06_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t06_magic.json",
+      "sha256": "bed6f93fb2e1ebed62ab1cd6ca9a717eb9465d5073cf16572f24ee9a822c843e"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t06_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t06_rare.json",
+      "sha256": "3c53e138cebe1e60a68322fe65bb2cf638506500ceeca207dde2ebed01690ed5"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t07_common.json",
+      "runtime": "Content/RulesTower/Items/map_t07_common.json",
+      "sha256": "c70d2bdfef403ac0356319cd041a0ec0ac552b8cdf243748fca1eb28b0de2e16"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t07_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t07_magic.json",
+      "sha256": "092a659c23c0b64453a8ede8b11f7ac19d20e135d68f7cc21cbe38a04f2e4a9e"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t07_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t07_rare.json",
+      "sha256": "187787adb5e281790392d50a0904c4253237ecfe1667318ee78c4d0f4a7790b5"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t08_common.json",
+      "runtime": "Content/RulesTower/Items/map_t08_common.json",
+      "sha256": "8188066ff180826ea8e6bc1ae05e4104d127b60c97358086b0a9b2f43d79418f"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t08_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t08_magic.json",
+      "sha256": "c195d4603570fe347b2032c1b2022f1608c88d187b99ec689dd7c4259a453763"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t08_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t08_rare.json",
+      "sha256": "2665852eb36e1fcd9d2e64de9716958ff89cc3a382102e288ec15c963dd2fd16"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t09_common.json",
+      "runtime": "Content/RulesTower/Items/map_t09_common.json",
+      "sha256": "ccff2d07b4f04114e64a301670d39f2c50539da0b1aa24638eaccaeac8fc2c14"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t09_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t09_magic.json",
+      "sha256": "3f9500bba0ee301daeb1c4d14ca28b5d3fe8a18c87f0e82a2c74e92b5a5a9b8d"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t09_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t09_rare.json",
+      "sha256": "19cdf48ac5cefc0395fcaee69354e901654fbdf9e14d7ca0cbcc156383c61355"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t10_common.json",
+      "runtime": "Content/RulesTower/Items/map_t10_common.json",
+      "sha256": "94a6f2427c78edda412770b23dfc7ad8edce9ea1577cc29f18d849d84605597d"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t10_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t10_magic.json",
+      "sha256": "89743eaf6e41f0d5c4afe1ae65c8edcf63edb4c193b2aa0420565b00ca9781ae"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t10_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t10_rare.json",
+      "sha256": "f3e1a91e2d4ad964d1ef9a9fe97b88e6eda23723401d0282c4ade62a773b33f9"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t11_common.json",
+      "runtime": "Content/RulesTower/Items/map_t11_common.json",
+      "sha256": "1e6031440e05bc25ac5e46f70351ac50c0c87baa56dbdc1c721c33c9d246771f"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t11_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t11_magic.json",
+      "sha256": "a928eab2d011f3d0798cb6d26a1344538c61936347d8b0e0ff344763add6e7ab"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t11_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t11_rare.json",
+      "sha256": "c7596af9f95a7f5ce6a09a9b6930f8c595e1fba98272373cb4e5e0f2bea545a9"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t12_common.json",
+      "runtime": "Content/RulesTower/Items/map_t12_common.json",
+      "sha256": "33936c99ddf4f0734b105164d712893e7e8346891d045fac3d20d03cf47ac768"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t12_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t12_magic.json",
+      "sha256": "10f1a4fa60d8a8f2cac74867eabc6f04a364d3d6fc64eedd016945e11af405f9"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t12_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t12_rare.json",
+      "sha256": "c8b1c3bc292d52bda22987daa4d811629e01f8238912b6c06fd29e630c0ccf5e"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t13_common.json",
+      "runtime": "Content/RulesTower/Items/map_t13_common.json",
+      "sha256": "a9731784bbd7b71d80bed419f1d37565a7be4f3d2a9bbc75d1f58e7b02253651"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t13_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t13_magic.json",
+      "sha256": "bde837ebccca07df7f67870ccf31701a4c990aad516bc7d37b3169ac3da503f6"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t13_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t13_rare.json",
+      "sha256": "e76bcece38596c96dd5860b1d8b9c55bd7b9976eba2393ffd5f8e5087c3fc2e2"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t14_common.json",
+      "runtime": "Content/RulesTower/Items/map_t14_common.json",
+      "sha256": "681623020681233d4aa3282432621eef147331ba4d0119eddff3db0f9fa5debc"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t14_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t14_magic.json",
+      "sha256": "1eebc2af54215468cb96cc1c1c162f39b7b4bb6ad55a046ab8682b40976a9e4f"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t14_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t14_rare.json",
+      "sha256": "367e0ac24e5a3c88d6385236924813520b04c2f0d0c926bd9d72ef4d84e7eb5a"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t15_common.json",
+      "runtime": "Content/RulesTower/Items/map_t15_common.json",
+      "sha256": "8d2bbd2c390c0f7ccfccf12fcf7c2e6e7b2f12c89bf2680c9f6d688a36cbe12a"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t15_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t15_magic.json",
+      "sha256": "6b5dda24fcdcf3dcb9acf205a2a1e3d94c4b53ba16dad071a850b337ef88fa3f"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t15_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t15_rare.json",
+      "sha256": "8bd564bb47837e5b252a65e2aaaa2d0a120200a7d35a2aa0a58878097e4bb973"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t16_common.json",
+      "runtime": "Content/RulesTower/Items/map_t16_common.json",
+      "sha256": "6fb11b46e62ba04612dcdddaaba73dee5c0b09b9794ad0856908b224e78ea3b4"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t16_magic.json",
+      "runtime": "Content/RulesTower/Items/map_t16_magic.json",
+      "sha256": "bab649716ec8195257b597d3b2b0e89f9443ec35b1adafa24b541f56e1ec35f3"
+    },
+    {
+      "authoring": "Content/Rules/Items/map_t16_rare.json",
+      "runtime": "Content/RulesTower/Items/map_t16_rare.json",
+      "sha256": "8b75b107bc3045745bcffdd8fe5a9345d0d3fe002560ed775d94df13c1689f69"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "verifiedAt": "2026-10-25T13:16:29.079781+08:00",
+  "sourceHash": "a51b2bd2730a1f659af26c957218123ca8d642ef8432598f08781778e20dda4f",
+  "projectRevision": 22,
+  "sourceChanges": [
+    "skill artwork clip: false -> true",
+    "skill artwork radius: 0 -> 11.5"
+  ],
+  "browserTests": {
+    "passed": 6,
+    "total": 6,
+    "url": "http://127.0.0.1:5190/examples/skill-icon-clip-regression.html"
+  },
+  "pngValidation": {
+    "sourceHash": "a51b2bd2730a1f659af26c957218123ca8d642ef8432598f08781778e20dda4f",
+    "nodes": 2665,
+    "rasters": 2798,
+    "states": 43,
+    "clippedSkillNodes": 4,
+    "pngDimensionMismatches": 0,
+    "images": [
+      {
+        "state": "canvas",
+        "size": [
+          72,
+          72
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "centerAlpha": 255
+      },
+      {
+        "state": "selected-1",
+        "size": [
+          72,
+          72
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "centerAlpha": 255
+      },
+      {
+        "state": "picker-2",
+        "size": [
+          72,
+          72
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "centerAlpha": 255
+      },
+      {
+        "state": "map-equipment",
+        "size": [
+          72,
+          72
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "centerAlpha": 255
+      }
+    ]
+  },
+  "nativeReload": {
+    "passed": true,
+    "nodes": 2665,
+    "states": 43,
+    "hierarchyMatches": true
+  },
+  "build": {
+    "passed": true,
+    "log": "Saved/Build/build-20261025-130916.log"
+  },
+  "runtimeBinding": {
+    "passed": true,
+    "test": "DungeonWorldOpus.UI.DynamicImageClip",
+    "log": "Saved/Verification/SkillIconClip/binding.log"
+  },
+  "runtimeRender": {
+    "passed": true,
+    "log": "Saved/Verification/SkillIconClip/runtime.log",
+    "screenshot": "Docs/SkillIconClipRuntime.png"
+  },
+  "deployment": {
+    "sourceHash": "a51b2bd2730a1f659af26c957218123ca8d642ef8432598f08781778e20dda4f",
+    "targets": [
+      {
+        "project": "G:\\DungeonWorldOpus",
+        "backup": "G:\\DungeonWorldOpus\\Saved\\UIRepairBackups\\skill-clip-20261025-131052",
+        "addedRasters": 5,
+        "updatedPackages": [
+          "DA_CurrentCanvas.uasset",
+          "WBP_CurrentCanvas.uasset"
+        ],
+        "verifiedWrites": 7,
+        "missingRasterPackages": 0
+      },
+      {
+        "project": "G:\\DungeonWorldOpus\\CustomTools\\UICreatorAlpha\\Unreal\\SvgWbpLab",
+        "backup": "G:\\DungeonWorldOpus\\CustomTools\\UICreatorAlpha\\Unreal\\SvgWbpLab\\Saved\\UIRepairBackups\\skill-clip-20261025-131052",
+        "addedRasters": 5,
+        "updatedPackages": [
+          "DA_CurrentCanvas.uasset",
+          "WBP_CurrentCanvas.uasset"
+        ],
+        "verifiedWrites": 7,
+        "missingRasterPackages": 0
+      }
+    ]
+  },
+  "browserScreenshot": "Docs/SkillIconClipBrowser.png"
+}

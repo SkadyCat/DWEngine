@@ -1,0 +1,23 @@
+{
+  "active": {
+    "contextState": "running",
+    "lastEvent": "selected",
+    "playCount": "3",
+    "text": "♪ 柔和 · 选中 · selected · 120 ms"
+  },
+  "muted": {
+    "contextState": "running",
+    "lastEvent": "selected",
+    "playCount": "3",
+    "text": "已静音"
+  },
+  "selected": {
+    "contextState": "running",
+    "lastEvent": "selected",
+    "playCount": "4",
+    "text": "♪ 柔和 · 选中 · selected · 120 ms"
+  },
+  "customPreview": "true",
+  "project": "hud-ui-audio-20261025",
+  "revision": 2
+}

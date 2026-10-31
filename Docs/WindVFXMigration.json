@@ -1,0 +1,172 @@
+{
+  "archive": "G:/Baiduyun/Tornado and Wind VFX with SFX 5.2 - 5.7.rar",
+  "system": "/Game/_TornadoWindVFX/NS/NS_TopDown_Whirlwind",
+  "package_count": 33,
+  "files": [
+    {
+      "path": "Content/_TornadoWindVFX/NS/NS_TopDown_Whirlwind.uasset",
+      "sha256": "645d9f78a0c55b66ec5184ac1778b62e7d26324f20591138abc38a321a4f3630",
+      "bytes": 13366123
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/FBX/M_default.uasset",
+      "sha256": "b8d7786948f29f740e9140770378bd0ffcc1675984fa14518c402801fe45cfff",
+      "bytes": 4897
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/FBX/SM_Shape_Cube.uasset",
+      "sha256": "046ed6674cc355bdb15dd8339b513e1e1a752ec2959d51860a8dbed3c13b79c7",
+      "bytes": 16549
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/FBX/SM_WindSphere.uasset",
+      "sha256": "4c1e4f64b814f8bc0aaee71baccc6bcbdd4b662b1a62a57cdc253bb9eb8240cc",
+      "bytes": 27635
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/MI/MI_DecalSpell_CircleRing.uasset",
+      "sha256": "5db32efdd028286e8ddffa4225d034aab686f5519f93783e4591251179479439",
+      "bytes": 9761
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/MI/MI_Vfx_DecalSpell_Twist_wind02.uasset",
+      "sha256": "fbf4ac1425dbc5fd7d3587fef095b4034f80e31516128a786ac3387af6be0f57",
+      "bytes": 10113
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/MI/MI_Vfx_ParticleSubUV_fog03_88.uasset",
+      "sha256": "fcffea75d947f6e4341e4fc8353b0ed0638b797facfc38d80476ab19bea3e886",
+      "bytes": 8148
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/MI/MI_WhirlWind_Moon_01BG.uasset",
+      "sha256": "75937e7ad0de2cf8c829b05e6e4b5349aa390db6ca8b2de95c215a93c58d3eef",
+      "bytes": 9820
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/MI/MI_WhirlWind_Moon_attack.uasset",
+      "sha256": "850deb614cd3916dd98fb14def9609210be2418396db7c5b616daaa0be18b528",
+      "bytes": 9836
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/MI/MI_WhirlWind_Moon_attack_noDark.uasset",
+      "sha256": "930ad6cbf3173cf7e3e679af0dec583d09ff58d1416237a85e1ec6a33d0ad2f1",
+      "bytes": 9878
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/MI/MI_WhirlWind_Twist_twosoul.uasset",
+      "sha256": "918298c3154693637e79284772c2b97dd9864c76d5cced55c49079142b08b182",
+      "bytes": 8674
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/M_Vfx_Basic_Wall.uasset",
+      "sha256": "294168336119a61907828ce0b5d5ca8ad977a37130ba4ac68f47931af1d4e936",
+      "bytes": 13165
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/M_Vfx_DecalSpell.uasset",
+      "sha256": "edbb87846154c37dcf1118a8564f459b75caa58e48f17b8778125256386fd5ce",
+      "bytes": 29724
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/M_Vfx_DecalSpellAdd.uasset",
+      "sha256": "9eeb6623b7415355e7f5c6b3980f711d862ac545f4d40721fd83cc818249411d",
+      "bytes": 27303
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/M_Vfx_ParticleSubUV.uasset",
+      "sha256": "2789813f094ac033cf1425bdcfeb8bc7c84400131718e8f676bd5a629180c1bb",
+      "bytes": 22811
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Material/M_Vfx_WhirlWind.uasset",
+      "sha256": "c23f42130c22c678c64ebea5c824c719eb1d8de785e3b446d43bca255c1607ae",
+      "bytes": 26281
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/NE/NE_Cycclone.uasset",
+      "sha256": "2a5e09ccd7feb14dfe1034b988486af43683b35183cf7e0fa5c46ad3ad575ee8",
+      "bytes": 328260
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/NE/NE_decal_bottom.uasset",
+      "sha256": "c7b5bb98f8534f402b9b9e502b41bd892c6ed65bc220fe16baae987935a67209",
+      "bytes": 480021
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/NE/NE_spell_particle_up.uasset",
+      "sha256": "fd048f139d4100392ce5a91e99bb4333c4d45d0d3b74ff53cdc90ec9b5f583f8",
+      "bytes": 184692
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/NE/NMS_infiniteDeactivate.uasset",
+      "sha256": "781d38ea32d7d9024f15cce525f6a517ad5c5f5c217a0278f3eed38cf908b588",
+      "bytes": 44579
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/SFX/GenericSoundAttenuation.uasset",
+      "sha256": "75c580bfb3a231ccf9bb11e9af855af6eb881ae9ba161663d2df947f4fa3cc6d",
+      "bytes": 1554
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/SFX/Sfx_Loop_Hurricane.uasset",
+      "sha256": "71edfed2f6b8133e0e38e0877d091fd0ec953b04f74b7124c26e762f5d94f442",
+      "bytes": 1376363
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/SFX/Sfx_Loop_Hurricane_Cue.uasset",
+      "sha256": "fed6d083f1fecae8966e4626c8b0711c15bc9863b9932ff5963647f7d99e5941",
+      "bytes": 4290
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/SFX/sfx_speedUp.uasset",
+      "sha256": "020e663b64b37f7ef8c20756bb0bc3ef23a92d6dde7512ec174511f5af62b141",
+      "bytes": 344116
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/SFX/sfx_speedUp_Cue.uasset",
+      "sha256": "8d22b0a70325fe007cb179bbfac440ad5162d3ef5f87964ba27a447c0ff61b1e",
+      "bytes": 4241
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_Circle_03.uasset",
+      "sha256": "7443da53df2b407a8bf2aeae7ab03a6ec8338c8b36d69ed4a8125b5e087a35fd",
+      "bytes": 191027
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_Ground_Cave.uasset",
+      "sha256": "317086ea4d137969f1466dc6327a426c675d0ac248ce2d6258c654bcdf794b82",
+      "bytes": 377667
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_Moon_01BG.uasset",
+      "sha256": "10c20848e9f4a7964297aebf9815986d46b1a32c8eda7f521892c1e90e04e050",
+      "bytes": 13841
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_Moon_attack.uasset",
+      "sha256": "5b0695f3c60dbb2bc5b7c102d78c6612319ad6afcaa9989c7312f0d934203627",
+      "bytes": 15315
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_Twist_twosoul.uasset",
+      "sha256": "e716d518c96e641d3f8c81d6cb4a93683f7a41bbe22182ef8842e64a1bc32fee",
+      "bytes": 45338
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_Twist_wind02.uasset",
+      "sha256": "f3265b9dff93ec6c24534c5e59e14083e2d2f2a984b007c0a73ec8f2b24a58e9",
+      "bytes": 42720
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_stamp_fog3_88.uasset",
+      "sha256": "6d53a1bf3a3f6a3ca6197f515dedaf636fb24fa6e62dfd684eaca934404396b2",
+      "bytes": 309517
+    },
+    {
+      "path": "Content/_TornadoWindVFX/_GenericSource/Texture/T_Vfx_stamp_fog4_88.uasset",
+      "sha256": "4b9d5141586b1a27ef18084116a6a7b98832a7b8594aa58964232558a441afdd",
+      "bytes": 627650
+    }
+  ]
+}

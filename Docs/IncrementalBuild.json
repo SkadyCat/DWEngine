@@ -1,0 +1,45 @@
+{
+  "project": "DungeonWorldOpus",
+  "cause": "UE5.8 UnrealBuildTool CppDependencyCache only mounts the shared UnrealEditor directory; project-specific shared PCH dependency files live under DungeonWorldOpusEditor and were always treated as missing.",
+  "before": {
+    "actions": 39,
+    "compileActions": 28,
+    "linkActions": 10,
+    "missingDependencyPartitions": 3,
+    "log": "Saved/Verification/IncrementalBuild/before-39-actions.log"
+  },
+  "fix": {
+    "source": "G:/UnrealEngine-Angelscript-5.8.3/Engine/Source/Programs/UnrealBuildTool/System/CppDependencyCache.cs",
+    "policy": "Mount both app-name and target-name cache partitions for project targets. Dependency validation remains enabled.",
+    "patch": "Tools/Build/Patches/CppDependencyCache-project-pch.patch",
+    "reapply": "powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Build/Repair-DependencyCache.ps1",
+    "applied": true,
+    "buildToolRebuilt": true
+  },
+  "verification": {
+    "firstFixedBuild": {
+      "actions": 0,
+      "seconds": 23.33,
+      "note": "Includes regeneration of rules/makefile after rebuilding UBT and a prior .uproject change."
+    },
+    "consecutiveUnchangedBuilds": [
+      {
+        "seconds": 3.47,
+        "pass": 1,
+        "actions": 0,
+        "targetUpToDate": true,
+        "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\IncrementalBuild\\unchanged-1.log"
+      },
+      {
+        "seconds": 5.1,
+        "pass": 2,
+        "actions": 0,
+        "targetUpToDate": true,
+        "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\IncrementalBuild\\unchanged-2.log"
+      }
+    ],
+    "command": "powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Verify-IncrementalBuild.ps1",
+    "result": "passed"
+  },
+  "scope": "Build tool cache repair; gameplay, rules semantics and values unchanged."
+}

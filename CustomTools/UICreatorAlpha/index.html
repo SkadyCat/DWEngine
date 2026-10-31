@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="基于 SVG 资产、嵌套预制体和 WBP Slot 语义的 UI 系统。">
+  <title>UICreator Alpha</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='m16 2 13 7v14l-13 7L3 23V9Z' fill='%237bd3b0'/%3E%3Cpath d='m10 12 6-3 6 3v8l-6 3-6-3Z' fill='%23151c22'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/src/editor/editor.css">
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <a class="brand" href="/" aria-label="UICreator Alpha"><svg viewBox="0 0 32 32" width="29" height="29" fill="none"><path d="m16 2 13 7v14l-13 7L3 23V9Z" stroke="currentColor" stroke-width="1.5"/><path d="m10 12 6-3 6 3v8l-6 3-6-3Z" fill="currentColor"/></svg><span>UICreator <b>α</b></span></a>
+      <div class="header-divider"></div>
+      <button id="project-menu" class="project-name" title="打开 / 新建工程"><span id="project-name">Expedition UI</span><span class="muted">⌄</span></button>
+      <span id="save-status" class="save-status"><i></i>示例工程</span>
+      <div class="header-spacer"></div>
+      <div class="audio-controls"><button id="audio-toggle" class="quiet" aria-pressed="false">♪ 开启音效</button><input id="audio-master-volume" type="range" min="0" max="100" value="80" aria-label="本机预览总音量" title="本机预览总音量"></div>
+      <button id="help" class="quiet">使用指南 <kbd>?</kbd></button>
+      <button id="import" class="quiet">↧ 导入</button>
+      <button id="export" class="quiet">↥ 导出</button>
+      <button id="save" class="primary">保存工程 <kbd>Ctrl S</kbd></button>
+    </header>
+    <div class="app-toolbar">
+      <div class="toolbar-left"><span class="mode-dot"></span><span>DESIGN WORKSPACE</span></div>
+      <div class="toolbar-tools">
+        <div class="segmented"><button id="select-tool" class="active" title="选择 V">↖</button><button id="pan-tool" title="平移 H / Space">✥</button></div>
+        <span class="tool-divider"></span>
+        <button id="undo" class="icon-button" title="撤销 Ctrl Z">↶</button><button id="redo" class="icon-button" title="重做 Ctrl Shift Z">↷</button>
+        <span class="tool-divider"></span>
+        <button id="grid" class="toggle active" title="显示网格">▦</button><button id="snap" class="toggle" title="8px 网格吸附">⌗</button><button id="anchors" class="toggle active" title="显示锚点">⌖</button>
+      </div>
+      <div class="toolbar-viewport"><button id="screen-tool" class="quiet" title="在工作区拖出矩形，作为模拟屏幕；Esc 取消" aria-pressed="false">框选屏幕</button><select id="viewport-preset" aria-label="屏幕预览尺寸"><option value="1440,900">桌面 · 1440 × 900</option><option value="1920,1080">Full HD · 1920 × 1080</option><option value="2048,780">超宽屏 · 2048 × 780</option><option value="1024,768">4:3 · 1024 × 768</option><option value="390,844">竖屏 · 390 × 844</option><option value="custom">自定义尺寸</option></select><input id="viewport-width" type="number" min="16" max="16384" aria-label="屏幕宽度"><span>×</span><input id="viewport-height" type="number" min="16" max="16384" aria-label="屏幕高度"><button id="reset-screen" class="icon-button" title="恢复工程设计尺寸，仅调整预览" aria-label="重置屏幕尺寸">↺</button></div>
+      <div class="toolbar-right"><select id="presentation-state" aria-label="HUD 界面状态" hidden><option value="normal">HUD · 常规</option><option value="boss">首领阶段</option><option value="inventory">背包</option><option value="character">属性与特性</option><option value="equipment">装备配置</option><option value="skills">技能装配</option><option value="hunter">掉落 Hunter</option><option value="settings">战场设置</option><option value="shop">商店</option><option value="craft">洗炼</option><option value="completion">通关</option><option value="death">失败</option></select><button id="focus-preview" class="quiet" title="展开画布，隐藏两侧面板">展开</button><button id="fit" class="quiet" title="适应画布 F">适应</button><button id="zoom-out" class="icon-button">−</button><button id="zoom-value" class="zoom-value">50%</button><button id="zoom-in" class="icon-button">+</button><span class="tool-divider"></span><button id="play" class="preview-button" title="交互预览">▷ 预览</button></div>
+    </div>
+    <main class="workspace">
+      <aside class="left-panel">
+        <nav class="panel-tabs" aria-label="工作区导航"><button data-tab="screens">界面</button><button data-tab="hierarchy" class="active">层级</button><button data-tab="assets">SVG 资产</button><button data-tab="prefabs">预制体</button><button data-tab="motions">动效</button><button data-tab="sounds">音效</button></nav>
+        <div class="panel-context"><span id="context-label">界面层级</span><button id="add-node" class="icon-button" title="添加控件">＋</button></div>
+        <div class="search-field"><span>⌕</span><input id="library-search" placeholder="搜索层级…" aria-label="搜索"><kbd>/</kbd></div>
+        <section id="hierarchy-panel" class="library-panel"><div id="tree" role="tree"></div><div class="panel-note">⬡ 预制体实例 <span>·</span> 继承节点可局部覆盖</div></section>
+        <section id="assets-panel" class="library-panel" hidden><div class="library-heading"><span id="asset-count"></span><div><button id="new-svg-folder" class="text-button" title="新建 SVG 文件夹">▱＋</button><button id="new-asset" class="text-button">＋ SVG</button></div></div><div id="asset-folders" class="folder-browser"></div><div id="asset-list" class="asset-list"></div><div class="panel-note">SVG 是共享资产。拖动到文件夹归类。</div></section>
+        <section id="prefabs-panel" class="library-panel" hidden><div class="library-heading"><span id="prefab-count"></span><div><button id="new-prefab-folder" class="text-button" title="新建预制体文件夹">▱＋</button><button id="create-prefab" class="text-button">＋ 从选择创建</button></div></div><div id="prefab-folders" class="folder-browser"></div><div id="prefab-list" class="prefab-list"></div><div class="panel-note">点击插入实例。拖动到文件夹归类。</div></section>
+        <section id="motions-panel" class="library-panel" hidden><div class="library-heading"><span id="motion-count"></span><div><button id="new-motion-folder" class="text-button" title="新建动效文件夹">▱＋</button><button id="new-motion" class="text-button">＋ 动效</button></div></div><div id="motion-folders" class="folder-browser"></div><div id="motion-list" class="prefab-list"></div><div class="panel-note">共享时间轴 · 应用到选中控件 · 自动导入 UE</div></section>
+        <section id="sounds-panel" class="library-panel" hidden><div class="library-heading"><span id="sound-count"></span><div><button id="new-sound-folder" class="text-button" title="新建音效文件夹">▱＋</button><button id="new-sound" class="text-button">＋ 导入 WAV</button></div></div><div id="sound-folders" class="folder-browser"></div><div id="sound-list" class="prefab-list"></div><div class="panel-note">悬停 / 点击 / 窗口事件 · 共享 WAV · 随工程保存</div></section>
+        <section id="screens-panel" class="library-panel" hidden><div class="library-heading"><span id="screen-count"></span></div><div id="screen-list"></div><div class="panel-note">点击名称预览；点击编辑进入独立界面。</div></section><div class="panel-footer"><span class="dot mint"></span>SVG NATIVE<span class="muted">v0.1</span></div>
+      </aside>
+      <section class="canvas-panel">
+        <div class="canvas-breadcrumb"><button id="exit-prefab" class="text-button" hidden>← 返回场景</button><span id="breadcrumb">Scenes / Expedition UI</span><span id="isolation-badge" class="badge" hidden>预制体隔离编辑</span><span class="canvas-type">SVG · PREFAB SYSTEM</span></div>
+        <div id="viewport" class="viewport grid" tabindex="0" aria-label="SVG 设计画布">
+          <div class="canvas-label" id="canvas-label">WBP_Expedition</div>
+          <div id="artboard" class="artboard"><svg id="scene" xmlns="http://www.w3.org/2000/svg" aria-label="界面 SVG"></svg></div>
+          <div id="screen-frame" class="screen-frame" aria-label="模拟屏幕边界"><span id="screen-frame-label" class="screen-frame-label"></span></div>
+          <div id="screen-selection" class="screen-selection" role="status" hidden></div>
+          <div id="preview-banner" class="preview-banner" hidden>交互预览 · 鼠标经过或按下按钮，测试 SVG 状态 <button id="stop-preview">退出 <kbd>Esc</kbd></button></div>
+          <div class="canvas-shortcuts"><span>滚轮缩放</span><span>Space 拖动</span><span>F 适应画布</span></div>
+        </div>
+      </section>
+      <aside class="right-panel"><div class="inspector-title"><span>检查器</span><span id="selection-type" class="badge">CanvasPanel</span></div><div id="inspector" class="inspector"></div></aside>
+    </main>
+    <footer class="statusbar"><span class="dot mint"></span><span id="status-message">就绪</span><div class="header-spacer"></div><button id="diagnostics" class="status-link">布局诊断 <span id="warning-count">0</span></button><span class="status-separator"></span><span id="node-count"></span><span class="status-separator"></span><span id="render-time"></span><span class="status-separator"></span><span id="pointer-position">SVG renderer</span></footer>
+  </div>
+  <dialog id="modal" class="modal"><div id="modal-content"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <input type="file" id="file-input" hidden>
+  <input type="file" id="sound-file-input" accept=".wav,audio/wav" multiple hidden>
+  <script type="module" src="/src/editor/main.js"></script>
+</body>
+</html>

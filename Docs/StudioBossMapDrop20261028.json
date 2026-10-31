@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "scope": "Studio only",
+  "url": "http://127.0.0.1:5291/?view=battle",
+  "trait": {
+    "id": "map_boss_map_drop_chance",
+    "path": "Content/Rules/Affixes/map_boss_map_drop_chance.json",
+    "name": "首领有 n% 概率掉落同级地图",
+    "sheetStat": "map.boss_map_drop_chance",
+    "defaultPercent": 60,
+    "equippedOn": "All ten authored map cores",
+    "removalDisablesDrop": true,
+    "parameterOverridesSupported": true
+  },
+  "behavior": {
+    "trigger": "Actual boss defeat, settled once by the existing kill callback",
+    "reward": "One common map ticket matching admitted map tier T1–T16",
+    "delivery": "Ground label, normal click/approach/pickup, inventory map item",
+    "normalMonsters": false,
+    "hunter": "Maps always visible; existing equipment and currency settings preserved",
+    "randomness": "Independent seeded stream and ground IDs; original loot and merchant streams unchanged",
+    "gearTierCap": "Existing equipment maximum T10; map ticket tier remains T1–T16"
+  },
+  "verification": {
+    "unitCommand": "node --test tests/boss-map-drop.test.mjs tests/floor-rewards.test.mjs tests/map-unit.test.mjs tests/map-core-selection.test.mjs tests/loot-hunter.test.mjs tests/map-items.test.mjs tests/inventory-ground.test.mjs",
+    "unitPassed": 45,
+    "unitFailed": 0,
+    "browserCommand": "node Tools/UI/Verify-StudioBossMapDrop.mjs",
+    "browserPassed": 9,
+    "browserErrors": 0,
+    "browserReceipt": "Saved/Verification/StudioBossMapDrop/browser-receipt.json",
+    "successfulBrowserRoll": 0.599999,
+    "isolatedBrowserProfile": true,
+    "release": "9642677c1b163f63526e"
+  }
+}

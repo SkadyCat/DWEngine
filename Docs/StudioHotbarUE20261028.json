@@ -1,0 +1,43 @@
+{
+  "completedAt": "2026-10-29",
+  "scope": "Studio bottom HUD to native UE",
+  "sourceBaseline": "studio-baseline-20261028",
+  "source": ["CustomTools/RuleStudio/public/battle-icon-picker.mjs", "CustomTools/RuleStudio/public/battle-icon-picker.css", "CustomTools/RuleStudio/public/battle3d.mjs"],
+  "uiCreatorProject": "opus-hotbar-picker-20261028",
+  "authoring": "UIAuthoring/HotbarPicker.uialpha.json",
+  "exportJob": "wbp-hotbar-ec78c7a3-6453-4834-b151-b991b5beac26",
+  "sourceHash": "c9c5d71a1593ff14f9f3772652ec2e177663ad889837cc9716f447e328f074cc",
+  "nativeWidget": "/Game/UICreatorHotbar/WBP_CurrentCanvas",
+  "runtime": "Script/Opus/HotbarPicker.as",
+  "behavior": [
+    "Click numbered or Q/E/T/G slot to configure in an anchored five-column icon palette",
+    "Only owned skills, granted auras and owned consumables are available",
+    "Opening and assigning do not pause combat or activate an aura",
+    "Enabled state, name, count and saved UICreator edge motion are shown on quick slots",
+    "Reselecting the same aura preserves activation; moving it clears the previous slot",
+    "Clearing removes an assignment without deleting the owned item",
+    "Escape, outside click and shortcuts dismiss the picker; arrows navigate the native buttons",
+    "Unavailable equipment-granted auras are revoked together with mana reservation",
+    "Hover uses an authored tooltip with catalogue description and ownership source"
+  ],
+  "compatibilityFixes": [
+    "Load the new saved UI document and motion assets through the existing native template loader",
+    "Keep Q/E/T/G indices fixed across assignment, clear, depletion, ground drop and save/reload",
+    "Restore enabled aura contributions after a hotbar profile edit rebuilds the native loadout"
+  ],
+  "combatRulesAndValuesChanged": false,
+  "verification": {
+    "nativeBuild": "Saved/Verification/HotbarPickerUE/build.log",
+    "compiledAndSavedWBP": "Saved/Verification/HotbarPickerUE/import.json",
+    "separateProcessRenderChecks": 42,
+    "renderReceipt": "Saved/Verification/HotbarPickerUE/render-receipt.json",
+    "auraClickChecks": 16,
+    "auraClickReceipt": "Saved/Verification/AuraClick/runtime-receipt.json",
+    "quickSlotAutomation": "DWRules.UI.QuickSlots",
+    "quickSlotReceipt": "Saved/Verification/HotbarPickerUE/quick-slots-native.json",
+    "profileUnchangedDuringTests": true,
+    "livePIEScreenshot": "Saved/Verification/HotbarPickerUE/live-picker.png",
+    "livePIEClick": "WBP_CurrentCanvas_C_0.N_f1751d7d781c1b1830d56805_Input.OnClicked",
+    "screenshots": ["Saved/Verification/HotbarPickerUE/skill-palette.png", "Saved/Verification/HotbarPickerUE/aura-palette.png", "Saved/Verification/HotbarPickerUE/quick-slots.png"]
+  }
+}

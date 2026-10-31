@@ -1,0 +1,16 @@
+DungeonWorldOpus 精简副本
+
+来源：G:/DungeonWorldOpus
+创建日期：2026-11-01
+
+保留项目配置、C++/AngelScript/Lua、规则、全部 UICreator UI、较小特效、插件源码、当前 UI 源稿及工具脚本。
+补充 CustomTools/UICreatorAlpha：编辑器源码、34 个当前 UI 项目，以及 Unreal/SvgWbpLab 隔离 UE UI 工程。
+只保留当前项目实际引用的导出素材，略过历史导出、旧项目修订、缓存与编译产物。
+移除了角色、怪物、动画、地牢美术等大型资源目录，以及源工程 Git 历史和其他 CustomTools。
+
+按要求保持资产引用原样，没有打开 UE、修复重定向、编译或重建资源。
+此文件夹中的缺失资源引用是精简结果，源工程未修改。
+详细范围及校验见 manifest.json。
+
+UI 编辑器：CustomTools/UICreatorAlpha/Start-Editor.ps1（需要 Node.js >=20，可指定 -Port）
+UE UI 工程：CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/SvgWbpLab.uproject

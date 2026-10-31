@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "target": "RuleStudio Studio3D",
+  "url": "http://127.0.0.1:5291/?view=battle",
+  "release": "56200f6bcff4b7bbd639",
+  "uiProject": "hud-darksteel-20261024",
+  "controlProject": "studio-atlas-entry",
+  "controls": [
+    "normal",
+    "hovered",
+    "pressed",
+    "disabled"
+  ],
+  "activation": "eligible destination and an owned valid map in the central slot",
+  "exceptions": [
+    "free starter remains enabled without a map, without paid activation flow",
+    "return to current encounter remains enabled without activation flow"
+  ],
+  "removed": [
+    "region status",
+    "connected region count",
+    "discovered region dropdown"
+  ],
+  "webVerification": "Saved/Verification/MapEntry/web-receipt.json",
+  "nativeJob": "wbp-28c80d7b-24ea-4f6b-8706-806da72f133c",
+  "nativeSourceHash": "dec2b067fc35207736c3d05285d5c7efccd442d0dc28e56729cd1207108410d7",
+  "formalProfileUnchanged": true,
+  "productionVerification": "Saved/Verification/MapEntry/studio-receipt.json",
+  "status": "studio_published_and_browser_verified"
+}

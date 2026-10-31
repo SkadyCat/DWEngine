@@ -1,0 +1,229 @@
+[
+  {
+    "id": "normal",
+    "title": "战斗 HUD",
+    "prefabId": "hud-prefab-screen",
+    "group": "战斗",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "boss",
+    "title": "首领阶段",
+    "prefabId": "hud-prefab-screen",
+    "group": "战斗",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "skills",
+    "title": "技能装配",
+    "prefabId": "rs-prefab-picker",
+    "group": "战斗",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "character",
+    "title": "角色 · 背包 / 装备 / 属性 / 特性",
+    "prefabId": "battle-prefab-character",
+    "group": "角色与配置",
+    "source": "battle-character-panel.mjs"
+  },
+  {
+    "id": "inventory",
+    "title": "背包 · 搜索 / 分页 / 整理",
+    "prefabId": "battle-prefab-inventory",
+    "group": "角色与配置",
+    "source": "battle3d.mjs",
+    "name": "普通背包与装备背包",
+    "width": 962,
+    "height": 474
+  },
+  {
+    "id": "loadout",
+    "title": "配装与战场",
+    "prefabId": "battle-prefab-loadout",
+    "group": "角色与配置",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "belt",
+    "title": "消耗品配置",
+    "prefabId": "battle-prefab-belt",
+    "group": "角色与配置",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "settings",
+    "title": "战场设置",
+    "prefabId": "battle-prefab-settings",
+    "group": "角色与配置",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "hunter",
+    "title": "掉落 Hunter",
+    "prefabId": "battle-prefab-hunter",
+    "group": "角色与配置",
+    "source": "battle-loot-hunter.mjs"
+  },
+  {
+    "id": "item",
+    "title": "物品详情 · 固定 / 加工",
+    "prefabId": "battle-prefab-item",
+    "group": "详情与操作",
+    "source": "battle-item-panel.mjs"
+  },
+  {
+    "id": "unidentified",
+    "title": "未鉴定装备",
+    "prefabId": "battle-prefab-unidentified",
+    "group": "详情与操作",
+    "source": "battle-item-panel.mjs"
+  },
+  {
+    "id": "context",
+    "title": "物品右键菜单",
+    "prefabId": "battle-prefab-context",
+    "group": "详情与操作",
+    "source": "battle-equipment-menu.mjs"
+  },
+  {
+    "id": "split",
+    "title": "拆分堆叠",
+    "prefabId": "battle-prefab-split",
+    "group": "详情与操作",
+    "source": "battle-stack-split.mjs"
+  },
+  {
+    "id": "skill-detail",
+    "title": "技能详情",
+    "prefabId": "battle-prefab-skill-detail",
+    "group": "详情与操作",
+    "source": "battle-skill-tooltip.mjs"
+  },
+  {
+    "id": "affix",
+    "title": "词条说明",
+    "prefabId": "battle-prefab-affix",
+    "group": "详情与操作",
+    "source": "battle-item-panel.mjs"
+  },
+  {
+    "id": "material",
+    "title": "通货 / 预兆说明",
+    "prefabId": "battle-prefab-material",
+    "group": "详情与操作",
+    "source": "battle-item-panel.mjs"
+  },
+  {
+    "id": "affix-book",
+    "title": "词缀图鉴",
+    "prefabId": "battle-prefab-affix-book",
+    "group": "详情与操作",
+    "source": "battle-affix-book.mjs"
+  },
+  {
+    "id": "bd-detail",
+    "title": "BD 构筑详情",
+    "prefabId": "battle-prefab-bd-detail",
+    "group": "角色与配置",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "completion",
+    "title": "通关与流浪商人",
+    "prefabId": "battle-prefab-completion",
+    "group": "探索与结算",
+    "source": "battle-completion.mjs"
+  },
+  {
+    "id": "completion-empty",
+    "title": "通关 · 未遇到商人",
+    "prefabId": "battle-prefab-completion-empty",
+    "group": "探索与结算",
+    "source": "battle-completion.mjs"
+  },
+  {
+    "id": "death",
+    "title": "角色死亡",
+    "prefabId": "battle-prefab-death",
+    "group": "探索与结算",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "timeout",
+    "title": "挑战超时",
+    "prefabId": "battle-prefab-timeout",
+    "group": "探索与结算",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "atlas",
+    "title": "异界星图",
+    "prefabId": "battle-prefab-atlas",
+    "group": "探索与结算",
+    "source": "atlas-map.mjs"
+  },
+  {
+    "id": "shop",
+    "title": "商店",
+    "prefabId": "battle-prefab-shop",
+    "group": "成长",
+    "source": "shop.mjs"
+  },
+  {
+    "id": "pricing",
+    "title": "商店 · 定价",
+    "prefabId": "battle-prefab-pricing",
+    "group": "成长",
+    "source": "shop.mjs"
+  },
+  {
+    "id": "craft",
+    "title": "装备洗炼",
+    "prefabId": "battle-prefab-craft",
+    "group": "成长",
+    "source": "craft.mjs"
+  },
+  {
+    "id": "loot",
+    "title": "地面掉落",
+    "prefabId": "battle-prefab-loot",
+    "group": "探索与结算",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "builds",
+    "title": "BD 流派 / 强度 / 应用",
+    "prefabId": "battle-prefab-builds",
+    "group": "角色与配置",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "map-info",
+    "title": "地图装备 / 谱系",
+    "prefabId": "battle-prefab-map-info",
+    "group": "角色与配置",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "summons",
+    "title": "召唤单位 · 存活列表",
+    "prefabId": "battle-prefab-summons",
+    "group": "角色与配置",
+    "source": "battle-summon-units.mjs"
+  },
+  {
+    "id": "loading",
+    "title": "战场加载 / 重试",
+    "prefabId": "battle-prefab-loading",
+    "group": "角色与配置",
+    "source": "battle3d.mjs"
+  },
+  {
+    "id": "map-device",
+    "title": "星图 · 区域详情装配 / 右侧背包",
+    "prefabId": "battle-prefab-map-device",
+    "group": "探索与结算",
+    "source": "map-device.js"
+  }
+]

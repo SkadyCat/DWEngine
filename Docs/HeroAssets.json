@@ -1,0 +1,1371 @@
+{
+  "source": "G:/DungeonWorldBeta",
+  "seeds": [
+    "/Game/Characters/WizardHero/FingerRig/SK_WizardHero",
+    "/Game/Characters/WizardHero/StanceFix20261018/ABP_WizardRetarget",
+    "/Game/Characters/WizardHero/Materials/Shimmer20261018/MI_WizardHero_Shimmer",
+    "/Game/G2_Mage/Meshes/Characters/Combines/SK_Judy_D3",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Idle_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Fireball_L_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Hurt_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Death_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_F_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_FR_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_R_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_BR_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_B_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_BL_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_L_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_FL_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_F_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FR_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_R_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BR_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_B_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BL_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_L_IP",
+    "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FL_IP"
+  ],
+  "files": [
+    {
+      "package": "/Game/Characters/WizardHero/FingerRig/Animation/IK_JudySource",
+      "file": "Content/Characters/WizardHero/FingerRig/Animation/IK_JudySource.uasset",
+      "bytes": 63627,
+      "sourceSha256": "4f11ac25cbbc1c8da5012659f436178cf8035f7ed905e12601552e5ac1caeaba",
+      "sha256": "4f11ac25cbbc1c8da5012659f436178cf8035f7ed905e12601552e5ac1caeaba",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/FingerRig/Animation/IK_WizardTarget",
+      "file": "Content/Characters/WizardHero/FingerRig/Animation/IK_WizardTarget.uasset",
+      "bytes": 52749,
+      "sourceSha256": "020243e34caa6cbf710053396919bb667ee5667f6dfb8fde17480c58d32428db",
+      "sha256": "020243e34caa6cbf710053396919bb667ee5667f6dfb8fde17480c58d32428db",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/FingerRig/SK_WizardHero",
+      "file": "Content/Characters/WizardHero/FingerRig/SK_WizardHero.uasset",
+      "bytes": 1791774,
+      "sourceSha256": "74a9ac3faf1ba45fcdee6943d3200da3b34acdef111564a7520d6d53d5168338",
+      "sha256": "74a9ac3faf1ba45fcdee6943d3200da3b34acdef111564a7520d6d53d5168338",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/FingerRig/SK_WizardHero_Skeleton",
+      "file": "Content/Characters/WizardHero/FingerRig/SK_WizardHero_Skeleton.uasset",
+      "bytes": 18059,
+      "sourceSha256": "eca29d29e2ac138d9c0126271f7ee2318146170123babdfdd39422ea016c4bdc",
+      "sha256": "eca29d29e2ac138d9c0126271f7ee2318146170123babdfdd39422ea016c4bdc",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/Materials/M_WizardHero",
+      "file": "Content/Characters/WizardHero/Materials/M_WizardHero.uasset",
+      "bytes": 26871,
+      "sourceSha256": "427874ce28381c318fa0a187e485d309cf1c78ba6605b3a32b8d1ef802828b90",
+      "sha256": "427874ce28381c318fa0a187e485d309cf1c78ba6605b3a32b8d1ef802828b90",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/Materials/Shimmer20261018/MI_WizardHero_Shimmer",
+      "file": "Content/Characters/WizardHero/Materials/Shimmer20261018/MI_WizardHero_Shimmer.uasset",
+      "bytes": 10110,
+      "sourceSha256": "b24d4b6c1472071d3c2b5d3b3bd7bb7d498fc27f35e5627c47ec303cdd7661d6",
+      "sha256": "b24d4b6c1472071d3c2b5d3b3bd7bb7d498fc27f35e5627c47ec303cdd7661d6",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/Materials/Shimmer20261018/M_WizardHero_Shimmer",
+      "file": "Content/Characters/WizardHero/Materials/Shimmer20261018/M_WizardHero_Shimmer.uasset",
+      "bytes": 33049,
+      "sourceSha256": "120ae9c82909ca8e8b9c2e87586ff3af3b2a5032a5059cb67b0b7992d036b623",
+      "sha256": "120ae9c82909ca8e8b9c2e87586ff3af3b2a5032a5059cb67b0b7992d036b623",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/StanceFix20261018/ABP_WizardRetarget",
+      "file": "Content/Characters/WizardHero/StanceFix20261018/ABP_WizardRetarget.uasset",
+      "bytes": 40934,
+      "sourceSha256": "735cd19ea9b5e942352455572181223129fc5c019a7641e592360246fd4dca51",
+      "sha256": "735cd19ea9b5e942352455572181223129fc5c019a7641e592360246fd4dca51",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/StanceFix20261018/RTG_JudyToWizard",
+      "file": "Content/Characters/WizardHero/StanceFix20261018/RTG_JudyToWizard.uasset",
+      "bytes": 23993,
+      "sourceSha256": "0c5a323456683a1e4537354454c9371e94ac704441140d267a21b23f80b1a7f0",
+      "sha256": "0c5a323456683a1e4537354454c9371e94ac704441140d267a21b23f80b1a7f0",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/Textures/T_Wizard_base_color",
+      "file": "Content/Characters/WizardHero/Textures/T_Wizard_base_color.uasset",
+      "bytes": 24690931,
+      "sourceSha256": "1802051de5bde9ef54cef3c1b29d207f58d268e38c79d582c0ea2809df7ea4ba",
+      "sha256": "1802051de5bde9ef54cef3c1b29d207f58d268e38c79d582c0ea2809df7ea4ba",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/Textures/T_Wizard_metallic",
+      "file": "Content/Characters/WizardHero/Textures/T_Wizard_metallic.uasset",
+      "bytes": 516079,
+      "sourceSha256": "7a920c0b8b7ecc6123512a32b630b66050b66be678e2cda5d385e33c61b92ef8",
+      "sha256": "7a920c0b8b7ecc6123512a32b630b66050b66be678e2cda5d385e33c61b92ef8",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/Textures/T_Wizard_normal",
+      "file": "Content/Characters/WizardHero/Textures/T_Wizard_normal.uasset",
+      "bytes": 19926083,
+      "sourceSha256": "54717a92b7b6472abf0d8084769f7f7627550d545bfd777cbc4d3e79a3fe89b0",
+      "sha256": "54717a92b7b6472abf0d8084769f7f7627550d545bfd777cbc4d3e79a3fe89b0",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Characters/WizardHero/Textures/T_Wizard_roughness",
+      "file": "Content/Characters/WizardHero/Textures/T_Wizard_roughness.uasset",
+      "bytes": 1367118,
+      "sourceSha256": "070695331a92d343cbd156a0de2019401d7412ea001032e5a63f24a1625db950",
+      "sha256": "070695331a92d343cbd156a0de2019401d7412ea001032e5a63f24a1625db950",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/SK_MageSet",
+      "file": "Content/Clean3C/Animation/Mage/Set/SK_MageSet.uasset",
+      "bytes": 19629,
+      "sourceSha256": "6ad0a4eca7e56cbd2d9984185d3cf60b4b236c32cef79e785eb68a869e8e6b6a",
+      "sha256": "6ad0a4eca7e56cbd2d9984185d3cf60b4b236c32cef79e785eb68a869e8e6b6a",
+      "adapted": false
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Death_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Death_IP.uasset",
+      "bytes": 454406,
+      "sourceSha256": "5da6bfd3a5586a3fd20be39705f465f0d3a5d2fb963ada3edeb1e9c1a6116e95",
+      "sha256": "535e1ad56a8d8b77da0b993e39a0002d1c45b8180bd4dbc09d9860d8f3847672",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BL_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BL_IP.uasset",
+      "bytes": 448707,
+      "sourceSha256": "396c841166dd4b1534d9d80f5d551e522a835dca0c826fde8ed93a114d2d9cf8",
+      "sha256": "f61ea2710c90cbf850194402bd43bc6df9d9e0804094c43cd314e94a4e72e6b9",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BR_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BR_IP.uasset",
+      "bytes": 450753,
+      "sourceSha256": "1b05663efcb78968fecbb7754e6df2ed37a23df2d697583f5b5530214b79fb47",
+      "sha256": "c3be39ee2f8bbe296b2b014b17ee9793527f05d94459d25cc9a4a32610d28ae2",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_B_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_B_IP.uasset",
+      "bytes": 450706,
+      "sourceSha256": "f9d3f8dd50bc997cb67481352274a760e1b18a0c3b959486c09d0e289b36dac3",
+      "sha256": "572f6b65c318dc68a1b2c0576f4f2a63bf0a7d43ca316464193bb1ee3cdb38dd",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FL_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FL_IP.uasset",
+      "bytes": 464373,
+      "sourceSha256": "c45e71e3322367240e123889fea9015192619f304195741225689d9a218b1a69",
+      "sha256": "dc91e49b8e3778bfab576e953ec0d8c05b68a7890c3d8b6a9a7ac4be95d8e17f",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FR_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FR_IP.uasset",
+      "bytes": 464308,
+      "sourceSha256": "2044978a9604da519d37bfbd3adee3774d129c391443886e4ba20983cef69db7",
+      "sha256": "9546c3c72393453837b7ba7ca8053a609c2a1b72a9ee6a54bf540b09f7a4e3e4",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_F_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_F_IP.uasset",
+      "bytes": 462424,
+      "sourceSha256": "e7a0343e6d5435e237442f101ff7a95c305564e2ccdd2f4b487d16e3bdfeeedc",
+      "sha256": "802e3cbd6a92785442541a27fe3a73bf4a69544fdf505a24c6f1d56ed197db23",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_L_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_L_IP.uasset",
+      "bytes": 276891,
+      "sourceSha256": "2f8aa9a8d188888c09aef0a360b09421544f616ba4042061d6dce57e28001e2c",
+      "sha256": "9e66d6563330d50a2f28d5b4ce9bac2fd1151c0ec6ef3b75efce9b9ea084ad41",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_R_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_R_IP.uasset",
+      "bytes": 276867,
+      "sourceSha256": "21b9071fc43eeb294a6c7e6383d30367680e9cd2b01735ae344dd57683f3143f",
+      "sha256": "acc6604cef21fafc3964b15229bc2d70d4d84fb13a1e0fac006e67f52fa15875",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Fireball_L_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Fireball_L_IP.uasset",
+      "bytes": 657967,
+      "sourceSha256": "1e0e202dec1157532007b2c5ce52cc8fd6ef9df23aad589d6d0404f945795db4",
+      "sha256": "f682adf54168abce74e11a7719ff566cdf2bdd6eda5e7c863bb7914b50ad7760",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Hurt_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Hurt_IP.uasset",
+      "bytes": 411919,
+      "sourceSha256": "3d84f56efff83517179535ecf2570596782f6ec75cba8ee106f4306462eba178",
+      "sha256": "3f758a8e773219e3e891b94606b94007c5572ceb05949d12806fffc5af8f6c12",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Idle_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Idle_IP.uasset",
+      "bytes": 1852844,
+      "sourceSha256": "60be4af0ea41b144d0d1d80e236c41442a27860af37bf0077d8f7ff38b60c7d9",
+      "sha256": "c89a196e11ac853fa97699eb8cc036281f48cd365e43292332207153f11d2c2f",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_BL_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_BL_IP.uasset",
+      "bytes": 325335,
+      "sourceSha256": "61673a33db19ad9dfe93f2c55f531ff9b62dd79b63c446606b2dd8563bbe5793",
+      "sha256": "bfa329b517e6f2f3a35c8e93eb3ef89ba73cfdc1fbaadf822c31280d201ca4d6",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_BR_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_BR_IP.uasset",
+      "bytes": 325122,
+      "sourceSha256": "e0d0661878986c6a7ef5216cfdbf99f9744062b4db13dbd46ddd2832a4d6be73",
+      "sha256": "5be76283aeab91892a6bde7d0776f3299d39da3b269a1052a363ce50536c7b78",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_B_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_B_IP.uasset",
+      "bytes": 323797,
+      "sourceSha256": "195c665653e5ca2de836608272094ffc99f09567f112d00b7b54e549eeb434ff",
+      "sha256": "19b38691db7f2c8b738dc9ac0ccffca23c14862c24b369d5cd9cdac9faa946c9",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_FL_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_FL_IP.uasset",
+      "bytes": 325056,
+      "sourceSha256": "974cb777062b2a9d819f1fb0d152d7ccd28ed0b26798d8588eb7de26f5826430",
+      "sha256": "6fb2e160ad383e13002af7ad9262dfc6c74608d59e758bd51d338835097c6deb",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_FR_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_FR_IP.uasset",
+      "bytes": 325201,
+      "sourceSha256": "426d65389bdf353d3a24ac9a9c8d13d864adb369e93b509f2fbfca086ed7b928",
+      "sha256": "49b9322a29da321b7ee65e52d264cd56d7d1983f9112b86dd2d1ae60248e75be",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_F_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_F_IP.uasset",
+      "bytes": 323707,
+      "sourceSha256": "1020d4b7a722ce733897d89cddc3e66e8f4ce120a833668684d474ef9d7ec0bd",
+      "sha256": "025fb68714835d17e8acb804f7f7dfe6057b6c553aee1e1a1a2e4d79db56ce95",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_L_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_L_IP.uasset",
+      "bytes": 325172,
+      "sourceSha256": "e45d584d325ecba3082511597dc1fd58d9e6f699497ecb1baa664e6fee8f2de0",
+      "sha256": "d57ab02f396b5fb9f5076b1979ba7d696671ef5faca1bd408f6f7b96642868aa",
+      "adapted": true
+    },
+    {
+      "package": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_R_IP",
+      "file": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_R_IP.uasset",
+      "bytes": 325088,
+      "sourceSha256": "89b654cb322d8c976ead655d01e402aed69b8e56e1d0ec6e4e7bd40ba15b8c3c",
+      "sha256": "7ea38fd84bd493bdd3995fa6b70edabf124508a566b46d95cfe31f2eebdfffaf",
+      "adapted": true
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/CA_Mannequin",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/CA_Mannequin.uasset",
+      "bytes": 5557,
+      "sourceSha256": "e24804b06700568ec13ec78581d791e5e18a938725c53a03fd239d69bb6ce72a",
+      "sha256": "e24804b06700568ec13ec78581d791e5e18a938725c53a03fd239d69bb6ce72a",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/ChromaticCurve",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/ChromaticCurve.uasset",
+      "bytes": 7293,
+      "sourceSha256": "a228d39c65e0b900fc2469b772f787b78d74b8146fe521fd646159c99d887253",
+      "sha256": "a228d39c65e0b900fc2469b772f787b78d74b8146fe521fd646159c99d887253",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/MF_Diffraction",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/MF_Diffraction.uasset",
+      "bytes": 33333,
+      "sourceSha256": "96020247af2c24544a09b67ad6cd9fb071ff03fadec7f46c92c6ab65f19c564f",
+      "sha256": "96020247af2c24544a09b67ad6cd9fb071ff03fadec7f46c92c6ab65f19c564f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/MF_logo3layers",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/MF_logo3layers.uasset",
+      "bytes": 57130,
+      "sourceSha256": "3d8646ee1b0798c74558ddfe5030d47a3ceead0ec09e5a781ed89d003f7c832d",
+      "sha256": "3d8646ee1b0798c74558ddfe5030d47a3ceead0ec09e5a781ed89d003f7c832d",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/ML_BaseColorFallOff",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Functions/ML_BaseColorFallOff.uasset",
+      "bytes": 16210,
+      "sourceSha256": "c5cc38d60f816984d4373ed8fba4d8caffca9f454787e671a43753210b51e127",
+      "sha256": "c5cc38d60f816984d4373ed8fba4d8caffca9f454787e671a43753210b51e127",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Instances/Manny/MI_Manny_01",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Instances/Manny/MI_Manny_01.uasset",
+      "bytes": 17665,
+      "sourceSha256": "2a4146ad92e4b4c4fa949ded883515f56d3c5b5265fa72b1ed727e723e710881",
+      "sha256": "2a4146ad92e4b4c4fa949ded883515f56d3c5b5265fa72b1ed727e723e710881",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Instances/Manny/MI_Manny_02",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/Instances/Manny/MI_Manny_02.uasset",
+      "bytes": 20038,
+      "sourceSha256": "c06f57f4593c1fe91f66e8e8653561235e451e6475efd6547639858106d561cf",
+      "sha256": "c06f57f4593c1fe91f66e8e8653561235e451e6475efd6547639858106d561cf",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/M_Mannequin",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Materials/M_Mannequin.uasset",
+      "bytes": 83891,
+      "sourceSha256": "67b5a69254d778cae578fb91210708ac2f11cc2098257e94ba1bea001d4d6e65",
+      "sha256": "67b5a69254d778cae578fb91210708ac2f11cc2098257e94ba1bea001d4d6e65",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Meshes/SKM_Manny_Simple",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Meshes/SKM_Manny_Simple.uasset",
+      "bytes": 15846765,
+      "sourceSha256": "9d9d97b06ce084274ef61ebaff2464f019f96588c7d15e8279ddb18d16ef23f1",
+      "sha256": "9d9d97b06ce084274ef61ebaff2464f019f96588c7d15e8279ddb18d16ef23f1",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Meshes/SK_Mannequin",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Meshes/SK_Mannequin.uasset",
+      "bytes": 253984,
+      "sourceSha256": "ba51f61291ab182ceea017453088962594cb43c632ef1023f00ecc77f7e45e3e",
+      "sha256": "ba51f61291ab182ceea017453088962594cb43c632ef1023f00ecc77f7e45e3e",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Rigs/PA_Mannequin",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Rigs/PA_Mannequin.uasset",
+      "bytes": 65013,
+      "sourceSha256": "51b2b9ce4e7d7881a75706a9995f341554322ce7c9d36cb9336cd94d939b0a59",
+      "sha256": "51b2b9ce4e7d7881a75706a9995f341554322ce7c9d36cb9336cd94d939b0a59",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_ASAOPMASK_MSK",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset",
+      "bytes": 3608346,
+      "sourceSha256": "51fe2fa057d3523b081c7f6338d42e648e3cebf74d64141e622a34037a81227b",
+      "sha256": "51fe2fa057d3523b081c7f6338d42e648e3cebf74d64141e622a34037a81227b",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_BN",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_BN.uasset",
+      "bytes": 18510751,
+      "sourceSha256": "b12e86c89a5f4dac0101d7827f1711805d23c820a188d6739f4c698fff7f4681",
+      "sha256": "b12e86c89a5f4dac0101d7827f1711805d23c820a188d6739f4c698fff7f4681",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset",
+      "bytes": 10267077,
+      "sourceSha256": "00b9ab34a7c9d86d99f0c49bee28a4b2bbd2df45e3da567dc0e513c04250eda4",
+      "sha256": "00b9ab34a7c9d86d99f0c49bee28a4b2bbd2df45e3da567dc0e513c04250eda4",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_D",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_D.uasset",
+      "bytes": 5736996,
+      "sourceSha256": "43a02bddb4062c74d2641ff45c657bd961c6075e9392e24fef3d7dc3676f9ab4",
+      "sha256": "43a02bddb4062c74d2641ff45c657bd961c6075e9392e24fef3d7dc3676f9ab4",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_MSR_MSK",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_MSR_MSK.uasset",
+      "bytes": 11035715,
+      "sourceSha256": "8dc8e10254e54eaa5df40ab75344bb2eea209f96da300e9bc06af52db8a93362",
+      "sha256": "8dc8e10254e54eaa5df40ab75344bb2eea209f96da300e9bc06af52db8a93362",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_N",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_N.uasset",
+      "bytes": 7198676,
+      "sourceSha256": "3fd30387d68aac418d738bf24f7a80d749ce5f6e59a97368ccc28ab2a36bd727",
+      "sha256": "3fd30387d68aac418d738bf24f7a80d749ce5f6e59a97368ccc28ab2a36bd727",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_Tan",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_01_Tan.uasset",
+      "bytes": 1357030,
+      "sourceSha256": "caca33f099a5df9402fdcdf10f710aaedd5383180f722eceb93a1e8c6086b4a6",
+      "sha256": "caca33f099a5df9402fdcdf10f710aaedd5383180f722eceb93a1e8c6086b4a6",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_ASAOPMASK_MSK",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset",
+      "bytes": 8335618,
+      "sourceSha256": "d39149c35ce930118a6a28476afa319e82b272fd1184f2b5df50cec2b429ea33",
+      "sha256": "d39149c35ce930118a6a28476afa319e82b272fd1184f2b5df50cec2b429ea33",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_BN",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_BN.uasset",
+      "bytes": 21135399,
+      "sourceSha256": "cc80f658d6b2fc26b67dd25dd107363866434f94d6f2568db155dc740567953a",
+      "sha256": "cc80f658d6b2fc26b67dd25dd107363866434f94d6f2568db155dc740567953a",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset",
+      "bytes": 13136727,
+      "sourceSha256": "3e8941522fb8e4e045ba1124c34ed0544eea817a6d291fe28c12b4711e1ea438",
+      "sha256": "3e8941522fb8e4e045ba1124c34ed0544eea817a6d291fe28c12b4711e1ea438",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_D",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_D.uasset",
+      "bytes": 9029038,
+      "sourceSha256": "9d0fa2b67098005f8fa1249d29980fedde024548cc35c3e42defcd1aa55a8687",
+      "sha256": "9d0fa2b67098005f8fa1249d29980fedde024548cc35c3e42defcd1aa55a8687",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_MSR_MSK",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_MSR_MSK.uasset",
+      "bytes": 13673903,
+      "sourceSha256": "eafa574dbba07eb873273f45f3ad1062f9f2efcca3984ead3c964a1b640e03f1",
+      "sha256": "eafa574dbba07eb873273f45f3ad1062f9f2efcca3984ead3c964a1b640e03f1",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_N",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_N.uasset",
+      "bytes": 7269779,
+      "sourceSha256": "e9f3e93f7f9b804b5a0efd9d895fa4b53629d9c7bd390b8854d6f24e0dff9d65",
+      "sha256": "e9f3e93f7f9b804b5a0efd9d895fa4b53629d9c7bd390b8854d6f24e0dff9d65",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_Tan",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Manny/T_Manny_02_Tan.uasset",
+      "bytes": 2151320,
+      "sourceSha256": "05fe80d5c1e663ffb038563f50707558cb37c904d03f6761928e634e3515132a",
+      "sha256": "05fe80d5c1e663ffb038563f50707558cb37c904d03f6761928e634e3515132a",
+      "adapted": false
+    },
+    {
+      "package": "/Game/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Shared/T_UE_Logo_M",
+      "file": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Textures/Shared/T_UE_Logo_M.uasset",
+      "bytes": 70561,
+      "sourceSha256": "c0b9e286d105d88e66bae6d2e4f876c3c691bf7e0ab3cabe2d5f4b8dd70fb8d6",
+      "sha256": "c0b9e286d105d88e66bae6d2e4f876c3c691bf7e0ab3cabe2d5f4b8dd70fb8d6",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Demo/HDRI/TC_EpicQuadPanorama_Calibrated",
+      "file": "Content/G2_Mage/Demo/HDRI/TC_EpicQuadPanorama_Calibrated.uasset",
+      "bytes": 73793741,
+      "sourceSha256": "df9bed76daf40888025b9297f98f23e2f80a13edeedbb63aa433b71aabb3c644",
+      "sha256": "df9bed76daf40888025b9297f98f23e2f80a13edeedbb63aa433b71aabb3c644",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Demo/Textures/TillingTextures_Example/T_TextureSample1_BC",
+      "file": "Content/G2_Mage/Demo/Textures/TillingTextures_Example/T_TextureSample1_BC.uasset",
+      "bytes": 46787,
+      "sourceSha256": "7d3134c1e1f2a80c3e71f53eba98c5fd55584e8507b633fdaa982fcbf36f1cc5",
+      "sha256": "7d3134c1e1f2a80c3e71f53eba98c5fd55584e8507b633fdaa982fcbf36f1cc5",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Demo/Textures/TillingTextures_Example/T_TextureSample2_BC",
+      "file": "Content/G2_Mage/Demo/Textures/TillingTextures_Example/T_TextureSample2_BC.uasset",
+      "bytes": 1687568,
+      "sourceSha256": "0a33d0cc014c8fb4ba4040508af7a467b805032516a1360f09b4fa8a2598e87b",
+      "sha256": "0a33d0cc014c8fb4ba4040508af7a467b805032516a1360f09b4fa8a2598e87b",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Demo/Textures/TillingTextures_Example/T_TextureSample3_BC",
+      "file": "Content/G2_Mage/Demo/Textures/TillingTextures_Example/T_TextureSample3_BC.uasset",
+      "bytes": 6676512,
+      "sourceSha256": "14bc569c3fb5275372b9721ab9ac1a83057d0e3ab9a82fd77210185bdf38c79e",
+      "sha256": "14bc569c3fb5275372b9721ab9ac1a83057d0e3ab9a82fd77210185bdf38c79e",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Eyes/MI_Eyes",
+      "file": "Content/G2_Mage/Materials/Bodies/Eyes/MI_Eyes.uasset",
+      "bytes": 126986,
+      "sourceSha256": "992c9d62f161d0e99df966597f8ad5dcdc13cc40fe2496f6032ce00e393b971d",
+      "sha256": "992c9d62f161d0e99df966597f8ad5dcdc13cc40fe2496f6032ce00e393b971d",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Eyes/MI_EyesTear",
+      "file": "Content/G2_Mage/Materials/Bodies/Eyes/MI_EyesTear.uasset",
+      "bytes": 95883,
+      "sourceSha256": "0f5c148dbc7a1ba74193d8d3d5b6d0a31e6ee44ecf6b9edf6be76a9fdaf7fa5d",
+      "sha256": "0f5c148dbc7a1ba74193d8d3d5b6d0a31e6ee44ecf6b9edf6be76a9fdaf7fa5d",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Hairs/MI_Eyeslash",
+      "file": "Content/G2_Mage/Materials/Bodies/Hairs/MI_Eyeslash.uasset",
+      "bytes": 119046,
+      "sourceSha256": "ecd6eb41ceddd86fcc623db8fecdc21f3fcc755ba3c1f8a19be9745021c40789",
+      "sha256": "ecd6eb41ceddd86fcc623db8fecdc21f3fcc755ba3c1f8a19be9745021c40789",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Hairs/MI_Hair",
+      "file": "Content/G2_Mage/Materials/Bodies/Hairs/MI_Hair.uasset",
+      "bytes": 139855,
+      "sourceSha256": "6b12b6b0c33e6c78a5d7ea2c915343633b0d8608a3a12aff29fce79ab8a78fa7",
+      "sha256": "6b12b6b0c33e6c78a5d7ea2c915343633b0d8608a3a12aff29fce79ab8a78fa7",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Skins/MI_BodySkin",
+      "file": "Content/G2_Mage/Materials/Bodies/Skins/MI_BodySkin.uasset",
+      "bytes": 127682,
+      "sourceSha256": "c98c448160c2a21e350ceaafa6320792d12275a937efc3f3e9ad41aeb293546f",
+      "sha256": "c98c448160c2a21e350ceaafa6320792d12275a937efc3f3e9ad41aeb293546f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Skins/MI_HeadSkin",
+      "file": "Content/G2_Mage/Materials/Bodies/Skins/MI_HeadSkin.uasset",
+      "bytes": 129915,
+      "sourceSha256": "6443ff61811638fa68eeffbbe360f749755497f8e559eded4a95ae4c577ef545",
+      "sha256": "6443ff61811638fa68eeffbbe360f749755497f8e559eded4a95ae4c577ef545",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Skins/MI_Skin",
+      "file": "Content/G2_Mage/Materials/Bodies/Skins/MI_Skin.uasset",
+      "bytes": 133883,
+      "sourceSha256": "c13c72bce46fad0ef1975a4d4d6fc399337bd402fe506c2107a99e64aac0948e",
+      "sha256": "c13c72bce46fad0ef1975a4d4d6fc399337bd402fe506c2107a99e64aac0948e",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Skins/SP_SkinProfile",
+      "file": "Content/G2_Mage/Materials/Bodies/Skins/SP_SkinProfile.uasset",
+      "bytes": 2800,
+      "sourceSha256": "44f1de7e399bdb637fbae1982d982cedc924e085727a2b7e4c5592909572493c",
+      "sha256": "44f1de7e399bdb637fbae1982d982cedc924e085727a2b7e4c5592909572493c",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Bodies/Teeth/MI_Teeth",
+      "file": "Content/G2_Mage/Materials/Bodies/Teeth/MI_Teeth.uasset",
+      "bytes": 134530,
+      "sourceSha256": "0b5a6708c035a1a7ad22064f96d5abc8750d4e78e932d1a69628e54e8bba9b94",
+      "sha256": "0b5a6708c035a1a7ad22064f96d5abc8750d4e78e932d1a69628e54e8bba9b94",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Clothes/Clothes/MI_Boots",
+      "file": "Content/G2_Mage/Materials/Clothes/Clothes/MI_Boots.uasset",
+      "bytes": 132191,
+      "sourceSha256": "d4435418fb67b5395a85641a3dd0a1a6ff863202c2cddfddf1a4d66e3fdb3d89",
+      "sha256": "d4435418fb67b5395a85641a3dd0a1a6ff863202c2cddfddf1a4d66e3fdb3d89",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Clothes/Clothes/MI_BottomBody",
+      "file": "Content/G2_Mage/Materials/Clothes/Clothes/MI_BottomBody.uasset",
+      "bytes": 133543,
+      "sourceSha256": "36a689c2a4abdb738ac546075bec461a524ffcb85136acd996505e1e89d43526",
+      "sha256": "36a689c2a4abdb738ac546075bec461a524ffcb85136acd996505e1e89d43526",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Clothes/Clothes/MI_Gloves",
+      "file": "Content/G2_Mage/Materials/Clothes/Clothes/MI_Gloves.uasset",
+      "bytes": 133562,
+      "sourceSha256": "35b2b1b9c3ebf20d3ad0dba6c1f5b4b84a59cd8b6517eee9a672f23df9bbc5af",
+      "sha256": "35b2b1b9c3ebf20d3ad0dba6c1f5b4b84a59cd8b6517eee9a672f23df9bbc5af",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Clothes/Clothes/MI_UpperBodyGlass",
+      "file": "Content/G2_Mage/Materials/Clothes/Clothes/MI_UpperBodyGlass.uasset",
+      "bytes": 134596,
+      "sourceSha256": "cef5c4c8efacb8328d43fa39c7665e2fce6a54c821303920d8b5c96e42e4e93b",
+      "sha256": "cef5c4c8efacb8328d43fa39c7665e2fce6a54c821303920d8b5c96e42e4e93b",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Clothes/Clothes/MI_Upperbody",
+      "file": "Content/G2_Mage/Materials/Clothes/Clothes/MI_Upperbody.uasset",
+      "bytes": 148907,
+      "sourceSha256": "3fcafeb243173d4e576381f4be63f96eed3e781988e5775e28f0fe4858a6065b",
+      "sha256": "3fcafeb243173d4e576381f4be63f96eed3e781988e5775e28f0fe4858a6065b",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/Clothes/UnderWears/MI_Bikini",
+      "file": "Content/G2_Mage/Materials/Clothes/UnderWears/MI_Bikini.uasset",
+      "bytes": 150134,
+      "sourceSha256": "6b4a83ece07e314faf332c368547e00ed13fe61474b91094de43058db602d3a2",
+      "sha256": "6b4a83ece07e314faf332c368547e00ed13fe61474b91094de43058db602d3a2",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Clothing/MF_BlendColor_V2",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Clothing/MF_BlendColor_V2.uasset",
+      "bytes": 159870,
+      "sourceSha256": "bb9d15e280b30638ec437cf4b0d4dea498fa182cbfb753e18532e82a7e472c40",
+      "sha256": "bb9d15e280b30638ec437cf4b0d4dea498fa182cbfb753e18532e82a7e472c40",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Clothing/M_ColorMaster_V2",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Clothing/M_ColorMaster_V2.uasset",
+      "bytes": 154185,
+      "sourceSha256": "effd9c3d4aa31ec2aa8bd5a3295029905c12bf0dfcec4a4b076b584133b6ff0c",
+      "sha256": "effd9c3d4aa31ec2aa8bd5a3295029905c12bf0dfcec4a4b076b584133b6ff0c",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Clothing/M_ColorOpacityMaster_V2",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Clothing/M_ColorOpacityMaster_V2.uasset",
+      "bytes": 153893,
+      "sourceSha256": "c07de08ef6d7546f2933b3af776be0f79e9e66bf1ba17ba8698a7821d05c9781",
+      "sha256": "c07de08ef6d7546f2933b3af776be0f79e9e66bf1ba17ba8698a7821d05c9781",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Clothing/M_ColorTranslucentMaster_V2",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Clothing/M_ColorTranslucentMaster_V2.uasset",
+      "bytes": 149888,
+      "sourceSha256": "284c30bb6761770e65ee4d678f17b37dc1f67573e7101257b34715f27049d6b6",
+      "sha256": "284c30bb6761770e65ee4d678f17b37dc1f67573e7101257b34715f27049d6b6",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Effects/MF_Energy",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Effects/MF_Energy.uasset",
+      "bytes": 108941,
+      "sourceSha256": "744a90523ba819f8704e66a5a19dfe079e1469e82094b459b417b03cd6574879",
+      "sha256": "744a90523ba819f8704e66a5a19dfe079e1469e82094b459b417b03cd6574879",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Eyes/MF_EyeFunction",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Eyes/MF_EyeFunction.uasset",
+      "bytes": 119813,
+      "sourceSha256": "91722ec36679155eb4b23f00196b988baf48ac1b70cd2eb81ebc3251c36cc3d2",
+      "sha256": "91722ec36679155eb4b23f00196b988baf48ac1b70cd2eb81ebc3251c36cc3d2",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Eyes/M_EyeMaster",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Eyes/M_EyeMaster.uasset",
+      "bytes": 188150,
+      "sourceSha256": "0a21f63caa007efcbc0aaef42f656dd8630b42f2a787e485778abed5a046a0ae",
+      "sha256": "0a21f63caa007efcbc0aaef42f656dd8630b42f2a787e485778abed5a046a0ae",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Eyes/M_GlassMaster",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Eyes/M_GlassMaster.uasset",
+      "bytes": 105530,
+      "sourceSha256": "f30c8718c9c77e7e4818750f8ab471c2f15b57a81d4764400da8eaae0ba0208b",
+      "sha256": "f30c8718c9c77e7e4818750f8ab471c2f15b57a81d4764400da8eaae0ba0208b",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Hair/M_Hair_Master",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Hair/M_Hair_Master.uasset",
+      "bytes": 240195,
+      "sourceSha256": "1a1d9aa1088e74c0a7ebe56d485e4c49258c642aa36122e59dba2d8ea1a2b121",
+      "sha256": "1a1d9aa1088e74c0a7ebe56d485e4c49258c642aa36122e59dba2d8ea1a2b121",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Skin/MF_BlendNormalsAndRoughness",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Skin/MF_BlendNormalsAndRoughness.uasset",
+      "bytes": 97650,
+      "sourceSha256": "30cd88965585d0de980c5b5dea16c15e659c8751bb9ce580829c45ba1efe892b",
+      "sha256": "30cd88965585d0de980c5b5dea16c15e659c8751bb9ce580829c45ba1efe892b",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Skin/MF_Skin_V2",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Skin/MF_Skin_V2.uasset",
+      "bytes": 168362,
+      "sourceSha256": "5c8fa7140536063e997477621120746699648a8147ed90301f3e434f7aa2c4aa",
+      "sha256": "5c8fa7140536063e997477621120746699648a8147ed90301f3e434f7aa2c4aa",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Materials/MaterialMasters/Skin/M_SkinMaster_V2",
+      "file": "Content/G2_Mage/Materials/MaterialMasters/Skin/M_SkinMaster_V2.uasset",
+      "bytes": 129281,
+      "sourceSha256": "7b83b6d218c7d058e4317edc87f7c228896209a284dcfa68d4b06767ac292e38",
+      "sha256": "7b83b6d218c7d058e4317edc87f7c228896209a284dcfa68d4b06767ac292e38",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Meshes/Characters/Combines/PHYS_Judy",
+      "file": "Content/G2_Mage/Meshes/Characters/Combines/PHYS_Judy.uasset",
+      "bytes": 139571,
+      "sourceSha256": "ea91d6002daf4f9360e9577eafed801c42b07559ae6d9b0de857eec9a1e25b32",
+      "sha256": "ea91d6002daf4f9360e9577eafed801c42b07559ae6d9b0de857eec9a1e25b32",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Meshes/Characters/Combines/PhysicAssetForCloth/PHYS_JudyCloakCloth",
+      "file": "Content/G2_Mage/Meshes/Characters/Combines/PhysicAssetForCloth/PHYS_JudyCloakCloth.uasset",
+      "bytes": 121404,
+      "sourceSha256": "56a0e7b8496b5325c01747500efa0fe646430fa11e54e9aadbc9c3c037e6d6d0",
+      "sha256": "56a0e7b8496b5325c01747500efa0fe646430fa11e54e9aadbc9c3c037e6d6d0",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Meshes/Characters/Combines/PhysicAssetForCloth/PHYS_JudyShirtCloth",
+      "file": "Content/G2_Mage/Meshes/Characters/Combines/PhysicAssetForCloth/PHYS_JudyShirtCloth.uasset",
+      "bytes": 110806,
+      "sourceSha256": "f69a6ae4a2f810e781a6befd3067aada0d977c475c4d9c8874d5ef6e5150ff68",
+      "sha256": "f69a6ae4a2f810e781a6befd3067aada0d977c475c4d9c8874d5ef6e5150ff68",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Meshes/Characters/Combines/SK_G2Human_Skeleton",
+      "file": "Content/G2_Mage/Meshes/Characters/Combines/SK_G2Human_Skeleton.uasset",
+      "bytes": 57522,
+      "sourceSha256": "54268f5551137c6a329160888bf12c791dbcd7c93e145ebfe79aa4621a6454b2",
+      "sha256": "54268f5551137c6a329160888bf12c791dbcd7c93e145ebfe79aa4621a6454b2",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Meshes/Characters/Combines/SK_Judy_D1",
+      "file": "Content/G2_Mage/Meshes/Characters/Combines/SK_Judy_D1.uasset",
+      "bytes": 7075244,
+      "sourceSha256": "64a8f4c4b100f6071d02b30326e13e85f91179f1c4dcbfc539b83014db74d55a",
+      "sha256": "64a8f4c4b100f6071d02b30326e13e85f91179f1c4dcbfc539b83014db74d55a",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Meshes/Characters/Combines/SK_Judy_D2",
+      "file": "Content/G2_Mage/Meshes/Characters/Combines/SK_Judy_D2.uasset",
+      "bytes": 21367917,
+      "sourceSha256": "59fe37a3580ed730fe0d65735e75a9ad0478d9745720c6d105b4ae366008d2b5",
+      "sha256": "59fe37a3580ed730fe0d65735e75a9ad0478d9745720c6d105b4ae366008d2b5",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Meshes/Characters/Combines/SK_Judy_D3",
+      "file": "Content/G2_Mage/Meshes/Characters/Combines/SK_Judy_D3.uasset",
+      "bytes": 19761408,
+      "sourceSha256": "678b6c5f7ceded4c8598fcab2c14f6f3ccf122ad9e670d8e9e9065b25b4d5dba",
+      "sha256": "678b6c5f7ceded4c8598fcab2c14f6f3ccf122ad9e670d8e9e9065b25b4d5dba",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Eyes/T_EyeMidPlaneDisp_Ex_M",
+      "file": "Content/G2_Mage/Textures/Bodies/Eyes/T_EyeMidPlaneDisp_Ex_M.uasset",
+      "bytes": 861731,
+      "sourceSha256": "41c672415df3c1bc370e6672558e25aea6f707cf720a4e11ba869bb6cebe3212",
+      "sha256": "41c672415df3c1bc370e6672558e25aea6f707cf720a4e11ba869bb6cebe3212",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Eyes/T_EyeSclera_BC",
+      "file": "Content/G2_Mage/Textures/Bodies/Eyes/T_EyeSclera_BC.uasset",
+      "bytes": 3256555,
+      "sourceSha256": "4cd5ce4c3179dc9f98e45862a4ba8c35ffd2e66a03f94d7bb83d81a0e6e1a42f",
+      "sha256": "4cd5ce4c3179dc9f98e45862a4ba8c35ffd2e66a03f94d7bb83d81a0e6e1a42f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Eyes/T_Eye_Wet_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Eyes/T_Eye_Wet_N.uasset",
+      "bytes": 1048707,
+      "sourceSha256": "58471de2d668d3a2c68cf471e5bc6c4e0ff0e22650be6f074c67a5b2866d8127",
+      "sha256": "58471de2d668d3a2c68cf471e5bc6c4e0ff0e22650be6f074c67a5b2866d8127",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Eyes/T_EyesIris_M",
+      "file": "Content/G2_Mage/Textures/Bodies/Eyes/T_EyesIris_M.uasset",
+      "bytes": 180751,
+      "sourceSha256": "a98fda13da04898646b6b5952619f3bfffce364f7989ef0d63c54b37e8fda3f9",
+      "sha256": "a98fda13da04898646b6b5952619f3bfffce364f7989ef0d63c54b37e8fda3f9",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Eyes/T_Iris2_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Eyes/T_Iris2_N.uasset",
+      "bytes": 809823,
+      "sourceSha256": "5dca75a35c7bb13fa176f0aa18b9ee87bca72386e7bb584f770f6946f258aa94",
+      "sha256": "5dca75a35c7bb13fa176f0aa18b9ee87bca72386e7bb584f770f6946f258aa94",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Eyes/T_Iris_BC",
+      "file": "Content/G2_Mage/Textures/Bodies/Eyes/T_Iris_BC.uasset",
+      "bytes": 5192296,
+      "sourceSha256": "a0e82dc87cf56c310a9dcb9fb20152baa00730b37c34a9d6e610d480effb9695",
+      "sha256": "a0e82dc87cf56c310a9dcb9fb20152baa00730b37c34a9d6e610d480effb9695",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Eyes/T_Iris_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Eyes/T_Iris_N.uasset",
+      "bytes": 260027,
+      "sourceSha256": "d9a0ca96e8025843501c51b028df422279e59a486a6349b847f3b5b2064e5d12",
+      "sha256": "d9a0ca96e8025843501c51b028df422279e59a486a6349b847f3b5b2064e5d12",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_AO",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_AO.uasset",
+      "bytes": 6546024,
+      "sourceSha256": "388931c5c84d283932016d715d87263844ad7fb474a169bb2cdc7db885d07fca",
+      "sha256": "388931c5c84d283932016d715d87263844ad7fb474a169bb2cdc7db885d07fca",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_Alpha",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_Alpha.uasset",
+      "bytes": 3706536,
+      "sourceSha256": "03836d104e1593c0025de2bacdfcca3b6d159ed3cc61b53cf39459660791bf9f",
+      "sha256": "03836d104e1593c0025de2bacdfcca3b6d159ed3cc61b53cf39459660791bf9f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_BC",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_BC.uasset",
+      "bytes": 7572624,
+      "sourceSha256": "74219288cadd28e6c1303f4d750e5065084940c3237d764953a285d2b5905872",
+      "sha256": "74219288cadd28e6c1303f4d750e5065084940c3237d764953a285d2b5905872",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_D",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_D.uasset",
+      "bytes": 3407562,
+      "sourceSha256": "a3a04816f95aa27d9365c42547e0e4783318cf520ad1cc625df40b613e433694",
+      "sha256": "a3a04816f95aa27d9365c42547e0e4783318cf520ad1cc625df40b613e433694",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_DyeMask",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_DyeMask.uasset",
+      "bytes": 14623399,
+      "sourceSha256": "9335cbaaec9005ff1752642e08e5e55ff305531569116b6368981476d405a146",
+      "sha256": "9335cbaaec9005ff1752642e08e5e55ff305531569116b6368981476d405a146",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_Flow",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_Flow.uasset",
+      "bytes": 17835969,
+      "sourceSha256": "52bc9af984a21eeae338c1114ee2fe581adedc24b8b97312a957beff7e347896",
+      "sha256": "52bc9af984a21eeae338c1114ee2fe581adedc24b8b97312a957beff7e347896",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_ID",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_ID.uasset",
+      "bytes": 9954559,
+      "sourceSha256": "ad292c25d2e4e3f01016bc14ec32e319f3a141fe45fed924ed6f8c8f1464b654",
+      "sha256": "ad292c25d2e4e3f01016bc14ec32e319f3a141fe45fed924ed6f8c8f1464b654",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_N.uasset",
+      "bytes": 24691085,
+      "sourceSha256": "fdce4384a2291f61353f00a65792efd91bbee8a09bbd2f7de7dca0edf1e3205f",
+      "sha256": "fdce4384a2291f61353f00a65792efd91bbee8a09bbd2f7de7dca0edf1e3205f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Hair_Root",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Hair_Root.uasset",
+      "bytes": 1914790,
+      "sourceSha256": "d36c52e8afbb3412b411478a840d674a334af4e481eb286bb1fdfaa68f25940f",
+      "sha256": "d36c52e8afbb3412b411478a840d674a334af4e481eb286bb1fdfaa68f25940f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Hairs/T_Noise_BC",
+      "file": "Content/G2_Mage/Textures/Bodies/Hairs/T_Noise_BC.uasset",
+      "bytes": 3327991,
+      "sourceSha256": "ed5f987fb6c2ff29a8d70b3adc6ddf9b25f7316ecd65bdf9f1481ed1b4c8fb8d",
+      "sha256": "ed5f987fb6c2ff29a8d70b3adc6ddf9b25f7316ecd65bdf9f1481ed1b4c8fb8d",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Body_BC",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Body_BC.uasset",
+      "bytes": 22415854,
+      "sourceSha256": "0785177f4b7b14dc6afe2f51a66d73fcf8e38beafdbcb60fc728f85f53372ae0",
+      "sha256": "0785177f4b7b14dc6afe2f51a66d73fcf8e38beafdbcb60fc728f85f53372ae0",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Body_Dirt",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Body_Dirt.uasset",
+      "bytes": 10292380,
+      "sourceSha256": "6483713b78cac48f2a894f3f10868aa1f17b66bc7518b34c26fb3efdfb2529c2",
+      "sha256": "6483713b78cac48f2a894f3f10868aa1f17b66bc7518b34c26fb3efdfb2529c2",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Body_M",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Body_M.uasset",
+      "bytes": 61310,
+      "sourceSha256": "0633d9b316f9c9f7d46a700d9f467f60b8f160d6461d0c71b7283230a836374f",
+      "sha256": "0633d9b316f9c9f7d46a700d9f467f60b8f160d6461d0c71b7283230a836374f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Body_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Body_N.uasset",
+      "bytes": 21957295,
+      "sourceSha256": "f8035fa21e1b8ea563517dd576cf0e090ec7ca640a343c4ff3b1d7a2fa9ff0f7",
+      "sha256": "f8035fa21e1b8ea563517dd576cf0e090ec7ca640a343c4ff3b1d7a2fa9ff0f7",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Body_ORM",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Body_ORM.uasset",
+      "bytes": 28867164,
+      "sourceSha256": "35e63fc7fd15df3763a77a1bcd4976afad66f1ea22a7cc4be72a40c8fbb78c98",
+      "sha256": "35e63fc7fd15df3763a77a1bcd4976afad66f1ea22a7cc4be72a40c8fbb78c98",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Body_TattooMask",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Body_TattooMask.uasset",
+      "bytes": 2912028,
+      "sourceSha256": "026bc5b25b9864e71f59cab3c689d87865685c268f6da8495e6dee7c12f7302f",
+      "sha256": "026bc5b25b9864e71f59cab3c689d87865685c268f6da8495e6dee7c12f7302f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Cyber_Head_AMS",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Cyber_Head_AMS.uasset",
+      "bytes": 2164825,
+      "sourceSha256": "2fa0c0f6c58d13206c2875088deaa8890ed31bf9aa89a349ccbc399f310782da",
+      "sha256": "2fa0c0f6c58d13206c2875088deaa8890ed31bf9aa89a349ccbc399f310782da",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_HeadExtra_M",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_HeadExtra_M.uasset",
+      "bytes": 525845,
+      "sourceSha256": "83a7e63606ef9d8872db02971b272be9d3824c496f469e86a07eaa728e82b433",
+      "sha256": "83a7e63606ef9d8872db02971b272be9d3824c496f469e86a07eaa728e82b433",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Head_BC",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Head_BC.uasset",
+      "bytes": 5511561,
+      "sourceSha256": "80dfef3e303679cde8c6ae53228201e366b0ad7b7a9ca0d966c719cc068e0c81",
+      "sha256": "80dfef3e303679cde8c6ae53228201e366b0ad7b7a9ca0d966c719cc068e0c81",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Head_Dirt",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Head_Dirt.uasset",
+      "bytes": 2701939,
+      "sourceSha256": "71b30bde27cdaecd57a46059df2311d224bfeb08c7dc3f91403d5c61f8563099",
+      "sha256": "71b30bde27cdaecd57a46059df2311d224bfeb08c7dc3f91403d5c61f8563099",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Head_M",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Head_M.uasset",
+      "bytes": 1951779,
+      "sourceSha256": "a42298b34f953350c1798ff60431deb1e79a4b22ccf8547c61ab709ccc003d86",
+      "sha256": "a42298b34f953350c1798ff60431deb1e79a4b22ccf8547c61ab709ccc003d86",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Head_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Head_N.uasset",
+      "bytes": 7274699,
+      "sourceSha256": "1e07b1f92d1e571cf6a95a846f50577538399b1fb8e1ea39240a489237aa0736",
+      "sha256": "1e07b1f92d1e571cf6a95a846f50577538399b1fb8e1ea39240a489237aa0736",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Head_ORM",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Head_ORM.uasset",
+      "bytes": 6907355,
+      "sourceSha256": "d2c9f04b2623b31ff5ee71c6b6b6a991f7f5bac5606da07ee7e69ebd6f5943ba",
+      "sha256": "d2c9f04b2623b31ff5ee71c6b6b6a991f7f5bac5606da07ee7e69ebd6f5943ba",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_Head_TattooMask",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_Head_TattooMask.uasset",
+      "bytes": 251414,
+      "sourceSha256": "8869436fd67d63dc185213ae7855bdfd605d535cede553801bfc80e9f9e613ea",
+      "sha256": "8869436fd67d63dc185213ae7855bdfd605d535cede553801bfc80e9f9e613ea",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_HumanSkinPores_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_HumanSkinPores_N.uasset",
+      "bytes": 7839687,
+      "sourceSha256": "6aebedd950f0d4dacc839d110ee734a43b4ed88577cc8d144bfc23f60f02f56f",
+      "sha256": "6aebedd950f0d4dacc839d110ee734a43b4ed88577cc8d144bfc23f60f02f56f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_HumanSkinPores_S",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_HumanSkinPores_S.uasset",
+      "bytes": 7859165,
+      "sourceSha256": "ba85c320e917ef96e9070b551c95f7921a9e7821f0e590c5a00820544908ded0",
+      "sha256": "ba85c320e917ef96e9070b551c95f7921a9e7821f0e590c5a00820544908ded0",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Skins/T_RoughnessMod_R",
+      "file": "Content/G2_Mage/Textures/Bodies/Skins/T_RoughnessMod_R.uasset",
+      "bytes": 37299,
+      "sourceSha256": "ab84cd81f026f7e06006f651ab1272e65e20593d908de7fd09c01a688ff56792",
+      "sha256": "ab84cd81f026f7e06006f651ab1272e65e20593d908de7fd09c01a688ff56792",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Teeth/T_Teeth_BC",
+      "file": "Content/G2_Mage/Textures/Bodies/Teeth/T_Teeth_BC.uasset",
+      "bytes": 3553206,
+      "sourceSha256": "70b951ec361a6e48ac8a2b429c5acaa1c2f63476f86a7e7e63cb162888bf12b1",
+      "sha256": "70b951ec361a6e48ac8a2b429c5acaa1c2f63476f86a7e7e63cb162888bf12b1",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Teeth/T_Teeth_Dirt",
+      "file": "Content/G2_Mage/Textures/Bodies/Teeth/T_Teeth_Dirt.uasset",
+      "bytes": 2529272,
+      "sourceSha256": "190889aab28e58146bb3763b42f2e2d3b81ee59654d4f7ec0e4a2663ba27448a",
+      "sha256": "190889aab28e58146bb3763b42f2e2d3b81ee59654d4f7ec0e4a2663ba27448a",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Teeth/T_Teeth_M",
+      "file": "Content/G2_Mage/Textures/Bodies/Teeth/T_Teeth_M.uasset",
+      "bytes": 125891,
+      "sourceSha256": "aa410ca64d50499e7ad1df500d72363f127d192e45a6642b38bcd260888741ea",
+      "sha256": "aa410ca64d50499e7ad1df500d72363f127d192e45a6642b38bcd260888741ea",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Teeth/T_Teeth_N",
+      "file": "Content/G2_Mage/Textures/Bodies/Teeth/T_Teeth_N.uasset",
+      "bytes": 4614952,
+      "sourceSha256": "21aec4fca4542082421c8795b229c26d206207202366fbe92fd54a1f4c056817",
+      "sha256": "21aec4fca4542082421c8795b229c26d206207202366fbe92fd54a1f4c056817",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Bodies/Teeth/T_Teeth_ORM",
+      "file": "Content/G2_Mage/Textures/Bodies/Teeth/T_Teeth_ORM.uasset",
+      "bytes": 4859429,
+      "sourceSha256": "09daefaaebc11d81a7bbc11b4ed760019f30e228042c6214aeea436929f38177",
+      "sha256": "09daefaaebc11d81a7bbc11b4ed760019f30e228042c6214aeea436929f38177",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Boots_BC",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Boots_BC.uasset",
+      "bytes": 5892460,
+      "sourceSha256": "e865d4c64c16a2519a3e32665e835e2d54760327a0555587d57d4315a47813d9",
+      "sha256": "e865d4c64c16a2519a3e32665e835e2d54760327a0555587d57d4315a47813d9",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Boots_Dirt",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Boots_Dirt.uasset",
+      "bytes": 1887740,
+      "sourceSha256": "fca8fb333bcb31094fe26cad2a2e1ce2882d5ad6264bd06efdb68454d10f5009",
+      "sha256": "fca8fb333bcb31094fe26cad2a2e1ce2882d5ad6264bd06efdb68454d10f5009",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Boots_M",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Boots_M.uasset",
+      "bytes": 518252,
+      "sourceSha256": "def8e2618f0cf00c818b04aa127d68f7586c8d244939fb0d72267315ef7cc543",
+      "sha256": "def8e2618f0cf00c818b04aa127d68f7586c8d244939fb0d72267315ef7cc543",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Boots_N",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Boots_N.uasset",
+      "bytes": 8384718,
+      "sourceSha256": "f0ca2262cc92beb2b4416684a0733f24e02378ea3890b3a8fa9f88f18e4f07b6",
+      "sha256": "f0ca2262cc92beb2b4416684a0733f24e02378ea3890b3a8fa9f88f18e4f07b6",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Boots_ORM",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Boots_ORM.uasset",
+      "bytes": 6127789,
+      "sourceSha256": "72bda4da12fb2f045d87a6af7a44c7473da3e5e42cb6b64166f59f4190aa876e",
+      "sha256": "72bda4da12fb2f045d87a6af7a44c7473da3e5e42cb6b64166f59f4190aa876e",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_BC",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_BC.uasset",
+      "bytes": 5844903,
+      "sourceSha256": "5b2bb0538789309f224e9c88870da23387d2744fd207fa720f5ce15986de570f",
+      "sha256": "5b2bb0538789309f224e9c88870da23387d2744fd207fa720f5ce15986de570f",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_Dirt",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_Dirt.uasset",
+      "bytes": 1340889,
+      "sourceSha256": "c9c4e978cbbf80c4e721ed40b63e4af88bc4ab9a8faadea9571f35fd3477e7ce",
+      "sha256": "c9c4e978cbbf80c4e721ed40b63e4af88bc4ab9a8faadea9571f35fd3477e7ce",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_M",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_M.uasset",
+      "bytes": 89401,
+      "sourceSha256": "86b7d78b9d856c16b56c285a28fc8f3bdc1bc9b2054b373c01d63b13fc3784bd",
+      "sha256": "86b7d78b9d856c16b56c285a28fc8f3bdc1bc9b2054b373c01d63b13fc3784bd",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_N",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_N.uasset",
+      "bytes": 8418580,
+      "sourceSha256": "ba9a2d7292e35c8c43dfe9b4bf995a09ed860ee65e6e1fb018368539946cf4f8",
+      "sha256": "ba9a2d7292e35c8c43dfe9b4bf995a09ed860ee65e6e1fb018368539946cf4f8",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_ORM",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_BottomBody_ORM.uasset",
+      "bytes": 4824045,
+      "sourceSha256": "ce4bebd2d19cdffa68426dd46a18ab231904818e057ebae6fcca1769e2b10ade",
+      "sha256": "ce4bebd2d19cdffa68426dd46a18ab231904818e057ebae6fcca1769e2b10ade",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Gloves_BC",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Gloves_BC.uasset",
+      "bytes": 6904990,
+      "sourceSha256": "37d69879fe9720878ac269ffaa3cd512bf9e8c6f3ca340f6f7324f905f7979bb",
+      "sha256": "37d69879fe9720878ac269ffaa3cd512bf9e8c6f3ca340f6f7324f905f7979bb",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Gloves_Dirt",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Gloves_Dirt.uasset",
+      "bytes": 2692679,
+      "sourceSha256": "5a2b51b6e452d11a22f5c905d39815c2692decbe59eaf2d59b6d0d0c57d2bfd5",
+      "sha256": "5a2b51b6e452d11a22f5c905d39815c2692decbe59eaf2d59b6d0d0c57d2bfd5",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Gloves_M",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Gloves_M.uasset",
+      "bytes": 178269,
+      "sourceSha256": "7b06bcc8a1dabc2347b04bedea586ecd35ba0b0e25849fb8168fc2ab2c693575",
+      "sha256": "7b06bcc8a1dabc2347b04bedea586ecd35ba0b0e25849fb8168fc2ab2c693575",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Gloves_N",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Gloves_N.uasset",
+      "bytes": 9631040,
+      "sourceSha256": "c557380d9cc05612cb935607b3b28d0b1d53eccb0d1fec94fd3f37f55a107612",
+      "sha256": "c557380d9cc05612cb935607b3b28d0b1d53eccb0d1fec94fd3f37f55a107612",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_Gloves_ORM",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_Gloves_ORM.uasset",
+      "bytes": 6306617,
+      "sourceSha256": "85f67968266f763ebe1bf0a7e1d61e5134740fe440aa88393cec312598ff8189",
+      "sha256": "85f67968266f763ebe1bf0a7e1d61e5134740fe440aa88393cec312598ff8189",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_BC",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_BC.uasset",
+      "bytes": 34833142,
+      "sourceSha256": "478f94a459cc8e76ed1989fa37169c641867489d7ebe497b7a8a8c71e7804b8d",
+      "sha256": "478f94a459cc8e76ed1989fa37169c641867489d7ebe497b7a8a8c71e7804b8d",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_Dirt",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_Dirt.uasset",
+      "bytes": 6701731,
+      "sourceSha256": "257026249ec48e148665e8a1ee7532990c180b11ca2c97e0028551d282f014d6",
+      "sha256": "257026249ec48e148665e8a1ee7532990c180b11ca2c97e0028551d282f014d6",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_M",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_M.uasset",
+      "bytes": 694336,
+      "sourceSha256": "89438e8ac88dab79e9718c5c91950cd4971c479b86c460f6540b19db438184ae",
+      "sha256": "89438e8ac88dab79e9718c5c91950cd4971c479b86c460f6540b19db438184ae",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_N",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_N.uasset",
+      "bytes": 47446241,
+      "sourceSha256": "cb197a6b945a59975d2cf93d285b1b6f595d05f78ab89a39eb75efe5ace986e0",
+      "sha256": "cb197a6b945a59975d2cf93d285b1b6f595d05f78ab89a39eb75efe5ace986e0",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_ORM",
+      "file": "Content/G2_Mage/Textures/Clothes/Clothes/T_UpperBody_ORM.uasset",
+      "bytes": 26928135,
+      "sourceSha256": "78bed39adaea948c2ffafb3b47770a095e28b74bdeec4f1ce6293fe720c9c68c",
+      "sha256": "78bed39adaea948c2ffafb3b47770a095e28b74bdeec4f1ce6293fe720c9c68c",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_BC",
+      "file": "Content/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_BC.uasset",
+      "bytes": 7650284,
+      "sourceSha256": "465ab200fbade3195d96e4c3899d45d62f126ceba5154e46f440c5aba27a3198",
+      "sha256": "465ab200fbade3195d96e4c3899d45d62f126ceba5154e46f440c5aba27a3198",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_Dirt",
+      "file": "Content/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_Dirt.uasset",
+      "bytes": 2503339,
+      "sourceSha256": "462c70e8bbe2011c555d53a1249fd91b18b30f906e4426fc840c7d8999a0844c",
+      "sha256": "462c70e8bbe2011c555d53a1249fd91b18b30f906e4426fc840c7d8999a0844c",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_M",
+      "file": "Content/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_M.uasset",
+      "bytes": 270298,
+      "sourceSha256": "4107fdae16abf6a8b16034bb3b6ab5fc98b2321336b3230b4c25a5642dbb5686",
+      "sha256": "4107fdae16abf6a8b16034bb3b6ab5fc98b2321336b3230b4c25a5642dbb5686",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_N",
+      "file": "Content/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_N.uasset",
+      "bytes": 9496746,
+      "sourceSha256": "93023fa143afa34fff5074610e6e84d9d57cb93279ca9b66832c16b2bfb8c098",
+      "sha256": "93023fa143afa34fff5074610e6e84d9d57cb93279ca9b66832c16b2bfb8c098",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_ORM",
+      "file": "Content/G2_Mage/Textures/Clothes/UnderWear/T_Bikini_ORM.uasset",
+      "bytes": 4893135,
+      "sourceSha256": "f8f17b56ad5166e74da98cd4d99fedc21734f39603c87115e574b19b6b706867",
+      "sha256": "f8f17b56ad5166e74da98cd4d99fedc21734f39603c87115e574b19b6b706867",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/UnderWear/T_CloudPattern_BC",
+      "file": "Content/G2_Mage/Textures/Clothes/UnderWear/T_CloudPattern_BC.uasset",
+      "bytes": 2338094,
+      "sourceSha256": "c4eadce64960192bc952023e14e2f5aff5840273b7181231391718eb1ae02a33",
+      "sha256": "c4eadce64960192bc952023e14e2f5aff5840273b7181231391718eb1ae02a33",
+      "adapted": false
+    },
+    {
+      "package": "/Game/G2_Mage/Textures/Clothes/UnderWear/T_PatternA_BC",
+      "file": "Content/G2_Mage/Textures/Clothes/UnderWear/T_PatternA_BC.uasset",
+      "bytes": 432833,
+      "sourceSha256": "63d0dfb337755eae46161586145d338f60fe2683e27b62c2cf7287803e359fd0",
+      "sha256": "63d0dfb337755eae46161586145d338f60fe2683e27b62c2cf7287803e359fd0",
+      "adapted": false
+    }
+  ],
+  "scriptModules": [
+    "/Script/Angelscript",
+    "/Script/AngelscriptCode",
+    "/Script/AnimGraph",
+    "/Script/AnimationData",
+    "/Script/BlueprintGraph",
+    "/Script/ChaosCloth",
+    "/Script/ClothingSystemRuntimeCommon",
+    "/Script/ClothingSystemRuntimeInterface",
+    "/Script/ClothingSystemRuntimeNv",
+    "/Script/ControlRig",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/IKRig",
+    "/Script/IKRigDeveloper",
+    "/Script/InterchangeCore",
+    "/Script/InterchangeEngine",
+    "/Script/InterchangeFactoryNodes",
+    "/Script/InterchangePipelines",
+    "/Script/MovieScene",
+    "/Script/MovieSceneTracks",
+    "/Script/PhysicsCore",
+    "/Script/SlateCore",
+    "/Script/UnrealEd"
+  ],
+  "assetCount": 164,
+  "bytes": 804868679,
+  "presentationOnly": true
+}

@@ -1,0 +1,14 @@
+{
+	"ok": true,
+	"asset": "/Game/UICreator/WBP_CurrentCanvas",
+	"sourceHash": "179dc17c43dc303c41281b92ea5b35db027d73026baefbe8c40dacf6644fc27d",
+	"logicalNodes": 2665,
+	"svgAssets": 179,
+	"rasterCaches": 2798,
+	"states": 43,
+	"compiled": true,
+	"saved": true,
+	"reloadedInSeparateProcess": false,
+	"motionAssets": 3,
+	"soundAssets": 7
+}

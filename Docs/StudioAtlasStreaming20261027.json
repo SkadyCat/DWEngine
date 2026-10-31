@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-27",
+  "scope": "Studio only; no UE migration or UICreator art/control changes",
+  "url": "http://127.0.0.1:5291/?view=battle",
+  "behavior": {
+    "generation": "Dragging, zooming and keyboard navigation project the deterministic procedural world into the current viewport. Generation is not limited to the initial ten-ring disk or triggered only by battle completion.",
+    "identity": "Seed plus axial coordinates determine node position, biome, name and bidirectional roads. Revisiting a position does not reroll it.",
+    "progression": "Existing fog and connected-road unlocking remain in effect. Browsing neither explores nor unlocks regions and never charges map tickets.",
+    "saves": "Existing version-one seed and progression saves remain compatible; disposable viewport nodes and terrain tiles are not persisted.",
+    "memory": "Replace the render window as the camera moves, rather than accumulating every browsed node. Terrain uses 1024-world-unit tiles, 384px rasters, at most one new raster per frame and a 64-tile LRU cache. Eviction and unmount release canvas storage.",
+    "presentation": "Retains the existing engraved procedural terrain, fog, node and road styles, and authored UICreator controls. Player location and region details stay attached to progression while the camera moves away."
+  },
+  "files": [
+    "CustomTools/RuleStudio/public/atlas-state.mjs",
+    "CustomTools/RuleStudio/public/atlas-map.mjs",
+    "CustomTools/RuleStudio/public/atlas-terrain.mjs",
+    "CustomTools/RuleStudio/tests/atlas-streaming.test.mjs",
+    "Tools/UI/Verify-StudioAtlasStreaming.mjs"
+  ],
+  "verification": {
+    "rulesCommand": "node --test tests/atlas-streaming.test.mjs tests/atlas-state.test.mjs tests/atlas-integration.test.mjs tests/atlas-tickets.test.mjs",
+    "rulesPassed": 25,
+    "rulesFailed": 0,
+    "browserCommand": "node Tools/UI/Verify-StudioAtlasStreaming.mjs",
+    "browserPassed": 43,
+    "browserReceipt": "Saved/Verification/AtlasStreaming/browser-receipt.json",
+    "distantWindow": {"maxDepth": 349, "loadedNodes": 635, "terrainTiles": 64},
+    "dragRegressionCommand": "node Tools/UI/Verify-AtlasEntry.mjs --drag",
+    "dragRegressionPassed": 12,
+    "userProfileOpened": false,
+    "release": "d6758aa1a618366fefec"
+  }
+}

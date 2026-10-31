@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "scope": "Studio equipment inventory, crafting and presentation; no UE migration",
+  "url": "http://127.0.0.1:5291/?view=battle",
+  "cause": "Crafting added, replaced or removed explicit affixes while copying the old rarity field. The bag, equipped row and tooltip then displayed that stale field, including a four-affix common staff.",
+  "policy": {
+    "common": "0 random affixes",
+    "magic": "1–2 random affixes",
+    "rare": "3 or more random affixes; ordinary drop generation remains 3–6 and existing crafting counts remain supported",
+    "legendary": "A real legendary or extraLegendary fixed payload takes priority over random-affix count",
+    "excluded": "Inherent bases, a bound active skill and children within one composite affix do not increase the explicit affix count",
+    "unidentified": "Keep committed drop quality until actual values are generated"
+  },
+  "fix": {
+    "sharedResolver": "engine/equipment.mjs: equipmentRarity and normalizeEquipmentRarity",
+    "transactions": "Generation, replacement, append, removal, rerolling, ground equipment creation and pickup update quality metadata.",
+    "legacy": "cleanPlayerInventory repairs existing instances after unavailable-affix cleanup; preset application stages corrected metadata before committing.",
+    "presentation": "Inventory projections, equipped cells, tooltip labels and frames, and equipment documents share the derived quality.",
+    "content": "Meteor, wish and annulment currency descriptions explain quality changes rather than promising to retain stale quality.",
+    "preservation": "Correction changes only rarity metadata: no reroll of bases or explicit/fixed affixes, bound skill, item UID or numeric values. Combat rule VM and damage resolver unchanged."
+  },
+  "verification": {
+    "mainCommand": "node --test tests/equipment-rarity.test.mjs tests/equipment.test.mjs tests/crafting-grades.test.mjs tests/quad-affix-orb.test.mjs tests/equipment-crafting-categories.test.mjs tests/inventory-ground.test.mjs",
+    "mainPassed": 35,
+    "mainFailed": 0,
+    "additionalRarityCommand": "node --test tests/equipment-rarity.test.mjs",
+    "additionalRarityPassed": 7,
+    "additionalNote": "The seventh case, added after the main run, verifies stale-quality equipment through dropping and pickup.",
+    "browserCommand": "node Tools/UI/Verify-StudioEquipmentRarity.mjs",
+    "browserPassed": 12,
+    "browserReceipt": "Saved/Verification/EquipmentRarity/browser-receipt.json",
+    "browserCases": ["four legacy qualities repaired on production page load", "exact rolled-content preservation", "equipped rare staff matches tooltip and frame", "actual meteor UI promotes common to rare", "actual removal UI transitions rare to magic to common", "legendary priority", "save persistence"],
+    "isolatedBrowserProfile": true,
+    "broaderCommand": "node --test tests/tags.test.mjs tests/equipment-bases.test.mjs tests/equipment-trade.test.mjs tests/floor-rewards.test.mjs",
+    "broaderPassed": 31,
+    "broaderFailed": 1,
+    "unrelatedFailure": "equipment-bases.test.mjs:17 hard-codes 69 authored base templates; the current library contains 101. No template count or base type was changed by this fix.",
+    "release": "6c4bf17fe7b60d97c4d3"
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "manual": true,
+  "textLayoutVersion": 1,
+  "backgroundPolicy": {
+    "review": "included",
+    "ue": "transparent"
+  },
+  "root": {
+    "id": "root",
+    "children": [
+      {
+        "id": "summary-bg",
+        "type": "loot-summary-frame",
+        "x": 20,
+        "y": 18,
+        "width": 300,
+        "height": 64
+      },
+      {
+        "id": "open-hunter",
+        "type": "loot-button-normal",
+        "x": 342,
+        "y": 34,
+        "width": 140,
+        "height": 30
+      },
+      {
+        "id": "toggle-loot",
+        "type": "loot-button-normal",
+        "x": 498,
+        "y": 34,
+        "width": 140,
+        "height": 30
+      },
+      {
+        "id": "hunter-window::hunter-bg",
+        "type": "loot-panel",
+        "x": 20,
+        "y": 106,
+        "width": 340,
+        "height": 600
+      },
+      {
+        "id": "hunter-window::hunter-close",
+        "type": "loot-close-normal",
+        "x": 314,
+        "y": 116,
+        "width": 30,
+        "height": 30
+      },
+      {
+        "id": "hunter-window::hunter-enabled",
+        "type": "loot-button-normal",
+        "x": 36,
+        "y": 170,
+        "width": 140,
+        "height": 30
+      },
+      {
+        "id": "hunter-window::hunter-search",
+        "type": "loot-button-308-normal",
+        "x": 36,
+        "y": 286,
+        "width": 308,
+        "height": 30
+      },
+      {
+        "id": "hunter-window::hunter-clear",
+        "type": "loot-button-normal",
+        "x": 36,
+        "y": 326,
+        "width": 140,
+        "height": 30
+      },
+      {
+        "id": "hunter-window::hunter-only",
+        "type": "loot-button-normal",
+        "x": 204,
+        "y": 326,
+        "width": 140,
+        "height": 30
+      },
+      {
+        "id": "hunter-window::hunter-prev",
+        "type": "loot-button-80-normal",
+        "x": 36,
+        "y": 500,
+        "width": 80,
+        "height": 30
+      },
+      {
+        "id": "hunter-window::hunter-next",
+        "type": "loot-button-80-normal",
+        "x": 264,
+        "y": 500,
+        "width": 80,
+        "height": 30
+      }
+    ]
+  },
+  "runtimeNodes": [
+    {
+      "id": "summary-title",
+      "type": "text",
+      "x": 36,
+      "y": 26,
+      "width": 190,
+      "height": 22,
+      "safeRect": {
+        "x": 36,
+        "y": 26,
+        "width": 190,
+        "height": 22
+      },
+      "fontSize": 13,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "summary-count",
+      "type": "text",
+      "x": 36,
+      "y": 51,
+      "width": 268,
+      "height": 20,
+      "safeRect": {
+        "x": 36,
+        "y": 51,
+        "width": 268,
+        "height": 20
+      },
+      "fontSize": 11,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "open-hunter-text",
+      "type": "text",
+      "x": 342,
+      "y": 34,
+      "width": 140,
+      "height": 30,
+      "safeRect": {
+        "x": 342,
+        "y": 34,
+        "width": 140,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "toggle-loot-text",
+      "type": "text",
+      "x": 498,
+      "y": 34,
+      "width": 140,
+      "height": 30,
+      "safeRect": {
+        "x": 498,
+        "y": 34,
+        "width": 140,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "pickup-feedback",
+      "type": "text",
+      "x": 680,
+      "y": 38,
+      "width": 880,
+      "height": 24,
+      "safeRect": {
+        "x": 680,
+        "y": 38,
+        "width": 880,
+        "height": 24
+      },
+      "fontSize": 12,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-title",
+      "type": "text",
+      "x": 36,
+      "y": 118,
+      "width": 270,
+      "height": 28,
+      "safeRect": {
+        "x": 36,
+        "y": 118,
+        "width": 270,
+        "height": 28
+      },
+      "fontSize": 16,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-close-text",
+      "type": "text",
+      "x": 314,
+      "y": 116,
+      "width": 30,
+      "height": 30,
+      "safeRect": {
+        "x": 314,
+        "y": 116,
+        "width": 30,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-enabled-text",
+      "type": "text",
+      "x": 36,
+      "y": 170,
+      "width": 140,
+      "height": 30,
+      "safeRect": {
+        "x": 36,
+        "y": 170,
+        "width": 140,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-count",
+      "type": "text",
+      "x": 190,
+      "y": 173,
+      "width": 152,
+      "height": 24,
+      "safeRect": {
+        "x": 190,
+        "y": 173,
+        "width": 152,
+        "height": 24
+      },
+      "fontSize": 11,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-affix-heading",
+      "type": "text",
+      "x": 36,
+      "y": 218,
+      "width": 148,
+      "height": 22,
+      "safeRect": {
+        "x": 36,
+        "y": 218,
+        "width": 148,
+        "height": 22
+      },
+      "fontSize": 13,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-and",
+      "type": "text",
+      "x": 166,
+      "y": 220,
+      "width": 176,
+      "height": 20,
+      "safeRect": {
+        "x": 166,
+        "y": 220,
+        "width": 176,
+        "height": 20
+      },
+      "fontSize": 10,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-selection",
+      "type": "text",
+      "x": 36,
+      "y": 250,
+      "width": 308,
+      "height": 30,
+      "safeRect": {
+        "x": 36,
+        "y": 250,
+        "width": 308,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-search-text",
+      "type": "text",
+      "x": 36,
+      "y": 286,
+      "width": 308,
+      "height": 30,
+      "safeRect": {
+        "x": 36,
+        "y": 286,
+        "width": 308,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-clear-text",
+      "type": "text",
+      "x": 36,
+      "y": 326,
+      "width": 140,
+      "height": 30,
+      "safeRect": {
+        "x": 36,
+        "y": 326,
+        "width": 140,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-only-text",
+      "type": "text",
+      "x": 204,
+      "y": 326,
+      "width": 140,
+      "height": 30,
+      "safeRect": {
+        "x": 204,
+        "y": 326,
+        "width": 140,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-prev-text",
+      "type": "text",
+      "x": 36,
+      "y": 500,
+      "width": 80,
+      "height": 30,
+      "safeRect": {
+        "x": 36,
+        "y": 500,
+        "width": 80,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-pages",
+      "type": "text",
+      "x": 124,
+      "y": 500,
+      "width": 132,
+      "height": 30,
+      "safeRect": {
+        "x": 124,
+        "y": 500,
+        "width": 132,
+        "height": 30
+      },
+      "fontSize": 10,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-next-text",
+      "type": "text",
+      "x": 264,
+      "y": 500,
+      "width": 80,
+      "height": 30,
+      "safeRect": {
+        "x": 264,
+        "y": 500,
+        "width": 80,
+        "height": 30
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-currency-heading",
+      "type": "text",
+      "x": 36,
+      "y": 542,
+      "width": 180,
+      "height": 22,
+      "safeRect": {
+        "x": 36,
+        "y": 542,
+        "width": 180,
+        "height": 22
+      },
+      "fontSize": 13,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "hunter-window::hunter-footer",
+      "type": "text",
+      "x": 36,
+      "y": 656,
+      "width": 308,
+      "height": 38,
+      "safeRect": {
+        "x": 36,
+        "y": 656,
+        "width": 308,
+        "height": 38
+      },
+      "fontSize": 10,
+      "align": "left",
+      "maxChars": 48,
+      "overflow": "shrink"
+    },
+    {
+      "id": "loot-help",
+      "type": "text",
+      "x": 400,
+      "y": 848,
+      "width": 800,
+      "height": 26,
+      "safeRect": {
+        "x": 400,
+        "y": 848,
+        "width": 800,
+        "height": 26
+      },
+      "fontSize": 11,
+      "align": "center",
+      "maxChars": 48,
+      "overflow": "shrink"
+    }
+  ]
+}

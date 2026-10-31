@@ -1,0 +1,32 @@
+{
+  "schema": "opus/entity-overlay-baseline/1",
+  "templates": {
+    "monster": "ee4bafad10869e6f768b69827be19b34d4bb6ec74155ce5ecddf7e64194f24ae",
+    "loot-common": "3e9affcd97855dc5b4ac6607ec66c3c15c8a0cb3e995c21a1be3850fc60f82fd",
+    "loot-magic": "67ebb6a2534a36f133d8d393e138186d204222e7647456f47f42793a10445686",
+    "loot-rare": "a9c1cd66bf85e497bcf1e5f4dfb99586719280d4646c356400b1888fafc74d6f",
+    "loot-legendary": "b6026a0fdfc0119a59707efdd4db333ed86834c2bf50de5adce193cba60cd942",
+    "loot-unique": "8873faf57bd68c76ef5410cdbbf906f89101f27a7a08b845c3e1449010758117"
+  },
+  "assets": {
+    "monster-lag": "4e23613d4e5fda70b1fe7421df868b165ab8db269ced79680dddc80633f2c7e5",
+    "loot-common-normal": "603320562f9a1ddeee97f94b4481bacc4a62c5b9190df4be8fbe6f6a868cfb8f",
+    "monster-shield": "b9a2c654e1bd62df9c41a92a5e0f9a4fa371e6b3e4698a01b4e854fcf2da0b98",
+    "monster-health": "18abbab5d2c24e9a3ee3777f7dd5364bff48ce3656f5812a31115ad3b3b94d05",
+    "monster-track": "966c77c8831e8dfffdc6ac0c7cb6a41b757c830476984fae993b4242b841fc84",
+    "loot-common-hovered": "8e71eb114467481e3a7cc1b6be9edf438e3a70c0a3464db40fbc46451c5847c3",
+    "loot-common-pressed": "a4241adb36be3fb7995564653171543ed1f85db7ced130f3a435aaa38d81c3af",
+    "loot-magic-hovered": "c5f900c2256499312976ceac5a398139f8e1f17d4edfc6dbf471537f977a8a13",
+    "loot-magic-pressed": "a278e419aa5377b09bef65915de8912b2457aec51aca3dd8bc0be3443067c238",
+    "loot-magic-normal": "70bbaa8d24d95604b2bde653e7fe2966f837a7b8e640738391c9e7651a2d5b6a",
+    "loot-rare-normal": "8af713e6edc5b2f8deb7cc22d03200ba5940f63e399b49c93bb47ad5c41c66e5",
+    "loot-rare-hovered": "c3eb4c0449b1b67bb0b653a21dfef4860f5794ef2598d05a488129a3b337b0cb",
+    "loot-rare-pressed": "7bab1b81c7b0e31ec629eb60a6507d504d1ac3e8e2b72cb024cfb2e07df1f343",
+    "loot-legendary-normal": "231859f11733dcbfa645acedb15aafa0fb8dd9961222a759c7c1c803d4d4aa01",
+    "loot-legendary-pressed": "966294551356634a10e2918dbb658858520f9e0e5cad9c67a891c21d9094c81b",
+    "loot-legendary-hovered": "2d9d15469e812eddda6b2898828bd33fc23610e93a588d123664c0cea5503154",
+    "loot-unique-normal": "ccc49ba75cb60893f84e096c2b1be355b9b021aff72440aa4dc2db1e9a5e2d39",
+    "loot-unique-hovered": "3d013ff1b5835ea713feae867334d0a96ed88e1e302e430f805e49501950b9c4",
+    "loot-unique-pressed": "2a568154d8bd24e41cfd91e23d509c6141288220bef929cfe8183ec1d1eace32"
+  }
+}

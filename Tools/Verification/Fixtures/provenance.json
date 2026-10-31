@@ -1,0 +1,23 @@
+{
+  "ruleSnapshot": "Docs/RulesSnapshot.json",
+  "fixtures": [
+    {
+      "file": "character-parity.json",
+      "sha256": "37e8e0ecb1cf18dd7c86d247b5a5835f6b207e25fdb2a054214f2f05105f9970",
+      "bytes": 136653789,
+      "cases": 968
+    },
+    {
+      "file": "combat-parity.json",
+      "sha256": "38b5c86f1d84e9aa650374acd17ab0d89c5d841d5d60635125ec18936b88d206",
+      "bytes": 16784227,
+      "cases": 847
+    },
+    {
+      "file": "economy-parity.json",
+      "sha256": "b06c59ac1d0a32b923ce55167ef3a8ae89f6eef10fbeaf4758b37ad8266827eb",
+      "bytes": 887062,
+      "cases": 0
+    }
+  ]
+}

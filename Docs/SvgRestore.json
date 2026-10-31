@@ -1,0 +1,78 @@
+{
+  "verifiedAt": "2026-10-25T11:39:55",
+  "sourceProject": "G:\\DungeonWorldBeta\\CustomTools\\UICreatorAlpha\\Unreal\\SvgWbpLab",
+  "assetsByteIdenticalToSource": true,
+  "sourceHash": "179dc17c43dc303c41281b92ea5b35db027d73026baefbe8c40dacf6644fc27d",
+  "sourceNodes": 2665,
+  "sourceStates": 43,
+  "changes": [
+    "Reuse saved SVG row prefabs, native image renderer, brushes, motion and sounds",
+    "Use authored text bounds, fonts, alignment, padding and fixed DPI scale 1",
+    "Restore skill icons/source descriptions and map summary fields",
+    "Bind inventory, equipment, shop, presets, character and crafting to real data",
+    "HUD reset reloads and starts the same floor; first launch remains manual Ready"
+  ],
+  "tests": {
+    "bindings": {
+      "passed": true,
+      "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\bindings.log"
+    },
+    "reset": {
+      "passed": true,
+      "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\reset.log"
+    },
+    "ready": {
+      "passed": true,
+      "log": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\ready.log"
+    }
+  },
+  "visuals": [
+    {
+      "view": "picker-2",
+      "file": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\picker-2.png",
+      "sha256": "01f2559b07f0879562647d49b3d97d6a826323d27e0f4c5cd1696b16a82c747f"
+    },
+    {
+      "view": "inventory",
+      "file": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\inventory.png",
+      "sha256": "6e916b045c998c16a9122b5213077de98ecafd00481d4e50607d297f35eb060e"
+    },
+    {
+      "view": "builds",
+      "file": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\builds.png",
+      "sha256": "ca102100c77b8e08bee963ab90184c92a85cda06d63b2044145ecb4aea11508c"
+    },
+    {
+      "view": "shop",
+      "file": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\shop.png",
+      "sha256": "e4851fc0e92d2610dbe335cc4d54182605d1ee5013b4f6980a5f297becb90a78"
+    },
+    {
+      "view": "character",
+      "file": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\character.png",
+      "sha256": "aa8857c66c44bd3d5f74ff07e5ddf2404c6516ef958d91a546dcab16223df731"
+    },
+    {
+      "view": "craft",
+      "file": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\craft.png",
+      "sha256": "a6de5da1645a6f3ed5e804613d9ce1c7d8d3356e82a306d6982021c47fd8c6e0"
+    },
+    {
+      "view": "source-picker",
+      "file": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\source-picker.png",
+      "sha256": "582bfe4d90260ea188a8bdb94e52cf71034fdfa201e99f87c28b0303cd834c23"
+    }
+  ],
+  "ruleFilesUnchanged": 1047,
+  "javascriptFiles": 0,
+  "displayLimitations": [
+    "Current-skill total damage, cooldown recovery, area damage and aggregate recovery rates display an em dash until a native query is available; no preview values are substituted."
+  ],
+  "liveReopened": {
+    "processId": 69368,
+    "phase": "Ready",
+    "floor": 1,
+    "screenshot": "G:\\DungeonWorldOpus\\Saved\\Verification\\SvgRestore\\ready-live.png",
+    "sha256": "4fc36457792b4a5056ccd81134ecc45592c3d9d48b8cc681a3d5856cc98dff6c"
+  }
+}

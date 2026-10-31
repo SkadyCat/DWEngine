@@ -1,0 +1,16 @@
+{
+	"ok": true,
+	"nativeButtonEvents": true,
+	"layoutAndHitAreaUnchanged": true,
+	"disabledRestoresVisuals": true,
+	"authoredAssetReloaded": true,
+	"authoredSixChannelsPassed": true,
+	"authoredRotation": -8,
+	"hoverMidScale": 1.0393749475479126,
+	"hoverEndScale": 1.0449999570846558,
+	"pressMidScale": 0.953125,
+	"releaseMidScale": 1.0484452247619629,
+	"selectionOpacityA": 0.99133074283599854,
+	"selectionOpacityB": 0.96626245975494385,
+	"verificationHost": "native Slate commandlet; no automatic timers"
+}

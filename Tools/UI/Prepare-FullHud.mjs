@@ -1,0 +1,25 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {ProjectRepository} from '../../CustomTools/UICreatorAlpha/server/project-repository.mjs';
+import {createNode,validateDocument,walk} from '../../CustomTools/UICreatorAlpha/src/core/model.js';
+const root=path.resolve(import.meta.dirname,'../..'),tool=path.join(root,'CustomTools/UICreatorAlpha');
+const repo=new ProjectRepository(path.join(tool,'data/projects')),record=await repo.read('hud-darksteel-20261024');
+const doc=structuredClone(record.document),screen=doc.prefabs['hud-prefab-screen'].root;
+if(!screen.children.some(n=>n.id==='rs-player-effects-anchor'))screen.children.push(createNode('CanvasPanel',{id:'rs-player-effects-anchor',name:'玩家临时状态动态容器',binding:'player-effects',
+  slot:{anchors:{minX:0,minY:0,maxX:1,maxY:0},offsets:{left:262,top:62,right:292,bottom:112},zOrder:30},layout:{width:640,height:112},interactable:false}));
+doc.presentation.playerEffects.native={container:'hud-screen-instance::rs-player-effects-anchor',templates:'opus-player-effects',runtime:'AngelScript'};
+const backup=path.join(root,'Saved/UIAuthoringBackups/FullHUD-'+Date.now());await fs.mkdir(backup,{recursive:true});await fs.writeFile(path.join(backup,'project.json'),JSON.stringify(record));
+let errors=validateDocument(doc);if(errors.length)throw Error(errors.join('\n'));
+const saved=await repo.write(doc,record.revision),mirror=new ProjectRepository(path.join(root,'UIAuthoring/projects'));await mirror.write(doc,(await mirror.pointer(doc.id))?.revision||0);
+for(const file of ['UIAuthoring/RuleStudio3D.uialpha.json','CustomTools/UICreatorAlpha/Screen/RuleStudio-HUD/hud.uialpha.json'])await fs.writeFile(path.join(root,file),JSON.stringify(doc,null,2));
+const palette=structuredClone(doc);palette.id='opus-player-effects';palette.name='玩家临时状态 · UE 原生控件';palette.viewport={width:420,height:420,background:'transparent'};
+palette.root=createNode('CanvasPanel',{id:'effects-palette',layout:{width:420,height:420},slot:{offsets:{right:420,bottom:420}}});
+const put=(prefab,x,y)=>{const n=structuredClone(doc.prefabs[prefab].root);n.slot.offsets.left=x;n.slot.offsets.top=y;palette.root.children.push(n);};
+put('rs-prefab-player-effect',12,12);put('rs-prefab-player-effect-tooltip',80,12);
+let i=0;for(const id of Object.keys(doc.assets).filter(id=>id.startsWith('rs-svg-status-')))palette.root.children.push(createNode('Svg',{id:'effect-symbol-'+id.slice(14),svgAsset:id,binding:'effect-symbol:'+id.slice(14),slot:{offsets:{left:12+(i%7)*54,top:220+Math.floor(i++/7)*54,right:40,bottom:40}},layout:{width:40,height:40}}));
+const assets=new Set();walk(palette.root,n=>{if(n.svgAsset)assets.add(n.svgAsset);for(const id of Object.values(n.brushes||{}))if(id)assets.add(id);});
+palette.assets=Object.fromEntries([...assets].map(id=>[id,doc.assets[id]]));palette.prefabs={};palette.interfaceCatalog=[];palette.presentation={};palette.provenance={source:doc.id,revision:saved.revision,runtime:'AS; UICreator geometry and brushes'};
+errors=validateDocument(palette);if(errors.length)throw Error(errors.join('\n'));
+await repo.write(palette,(await repo.pointer(palette.id))?.revision||0);await mirror.write(palette,(await mirror.pointer(palette.id))?.revision||0);
+await fs.writeFile(path.join(root,'UIAuthoring/PlayerEffects.uialpha.json'),JSON.stringify(palette,null,2));
+console.log(JSON.stringify({revision:saved.revision,full:doc.id,effects:palette.id,backup}));

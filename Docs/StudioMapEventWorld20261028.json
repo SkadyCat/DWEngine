@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-28",
+  "scope": "Studio only",
+  "issue": "Local-map event markers existed, but the scene never created altar, fusion, reliquary or vault objects.",
+  "fix": {
+    "scene": "Create and update four distinct scene objects from DungeonBattle.mapEvents; use identical IDs and coordinates as local-map markers.",
+    "interaction": "Reuse the authored UICreator merchant-launcher prefab with event name and completion data. Open the corresponding existing event panel by actual event ID; clicking the scene location also opens it.",
+    "lifecycle": "Reuse unchanged objects, dim completed events and release removed objects and resources.",
+    "preserved": "Existing encounter planning, chance, rewards, crafting transactions and right-side event menu. No UE changes."
+  },
+  "verification": {
+    "unitCommand": "node --test tests/map-event-world.test.mjs tests/map-event-markers.test.mjs tests/map-events.test.mjs tests/dungeon-map.test.mjs",
+    "unitPassed": 22,
+    "unitFailed": 0,
+    "browserCommand": "node Tools/UI/Verify-StudioMapEventWorld.mjs",
+    "browserPassed": 8,
+    "browserErrors": 0,
+    "browserReceipt": "Saved/Verification/StudioMapEventWorld/browser-receipt.json",
+    "sceneScreenshot": "Saved/Verification/StudioMapEventWorld/altar-world.png",
+    "panelScreenshot": "Saved/Verification/StudioMapEventWorld/altar-panel.png",
+    "isolatedBrowserProfile": true,
+    "release": "205696c193b2a85d7513"
+  }
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {validateDocument} from '../../CustomTools/UICreatorAlpha/src/core/model.js';
+import {createDungeonMapProject} from '../../CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/dungeon-map.js';
+import {ProjectRepository} from '../../CustomTools/UICreatorAlpha/server/project-repository.mjs';
+const root = path.resolve(import.meta.dirname, '../..'), doc = createDungeonMapProject();
+const errors = validateDocument(doc); if (errors.length) throw Error(errors.join('\n'));
+await fs.writeFile(path.join(root, 'UIAuthoring/DungeonMap.uialpha.json'), JSON.stringify(doc, null, 2) + '\n');
+const repo = new ProjectRepository(path.join(root, 'CustomTools/UICreatorAlpha/data/projects'));
+const previous = await repo.pointer(doc.id); const saved = await repo.write(doc, previous?.revision || 0);
+console.log(JSON.stringify({id: doc.id, revision: saved.revision, source: 'UIAuthoring/DungeonMap.uialpha.json'}));

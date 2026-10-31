@@ -1,0 +1,43 @@
+{
+  "label": "Studio 开发基线 2026-10-28",
+  "tag": "studio-baseline-20261028",
+  "scope": "Studio website and its authored UI, rule data and drop catalogue dependencies. UE source, compiled modules and runtime assets are outside this baseline update.",
+  "customTools": {
+    "path": "CustomTools",
+    "repository": "independent-local-git",
+    "commit": "0d9ddacdf194485af43513cdfeb832c94830d86a",
+    "subject": "Studio 开发基线 2026-10-28",
+    "paths": [
+      "RuleStudio",
+      "UICreatorAlpha/src",
+      "UICreatorAlpha/data/projects",
+      "UICreatorAlpha/scripts",
+      "UICreatorAlpha/tests",
+      "UICreatorAlpha/docs",
+      "TradeBackend/config/drop-pools.json"
+    ]
+  },
+  "opusPaths": [
+    "Content/Rules",
+    "Content/MapEvents",
+    "Content/RulesTower/Equipment",
+    "Content/RulesTower/Items",
+    "UIAuthoring",
+    "Docs/Studio*.json",
+    "Docs/UI",
+    "Tools/UI/Verify-Studio*.mjs",
+    "Tools/UI/Author-*.mjs",
+    "Tools/UI/MapEventCraftUI.mjs",
+    "Tools/UI/Export-MapCoreSelector.mjs",
+    "Docs/Baselines/StudioBaseline20261028.json"
+  ],
+  "validation": {
+    "buildCommand": "npm run build:web",
+    "release": "b6db0d805e8c836b888e",
+    "testCommand": "node --test tests/boss-map-drop.test.mjs tests/map-event-world.test.mjs tests/map-events.test.mjs tests/floor-rewards.test.mjs tests/equipment-rarity.test.mjs tests/atlas-streaming.test.mjs tests/map-items.test.mjs",
+    "passed": 44,
+    "failed": 0,
+    "testScope": "Focused regressions; not the full repository test suite."
+  },
+  "restore": "Restore the studio-baseline-20261028 tag in both DungeonWorldOpus and CustomTools. The exact CustomTools revision is recorded above. Both repositories use Git LFS for binary assets. Run npm ci and npm run build:web in CustomTools/RuleStudio to regenerate the ignored web release. Local COS credentials, browser profiles, player saves, node_modules and build caches are not part of the snapshot."
+}

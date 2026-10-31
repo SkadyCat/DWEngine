@@ -1,0 +1,90 @@
+{
+  "nativeBuild": {
+    "exitCode": 0,
+    "console": "Saved/Verification/DungeonExtraction/build-console.log",
+    "engineImportLibrariesRecovered": true
+  },
+  "source": "G:/DungeonWorldZero/Content/ClaudeDungeon/Maps/L_ClaudeDungeon.umap",
+  "target": "/Game/ClaudeDungeon/Maps/L_OpusDungeon",
+  "rooms": 11,
+  "instances": 7448,
+  "connectedPoints": 191,
+  "bentPaths": 177,
+  "blockedStraightPaths": 177,
+  "spawnPositionsVerified": 100,
+  "actualWaveMonsters": 7,
+  "actualMonstersMoved": 7,
+  "playerCollisionStoppedDistanceCm": 160.187619,
+  "mapCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "saveVerified": true,
+    "coldLoadedPackages": 143
+  },
+  "checks": {
+    "integration": [
+      "ZeroGeometry rooms=11 instances=7448",
+      "ManualReady",
+      "ConnectedNavigation points=191 bends=177 blocked=177",
+      "CollisionAndProjectileWalls",
+      "NativeWaveSpawns count=7",
+      "MonstersFollowNavigation moved=7",
+      "NativeCombatAndLoot kills=4 drops=1",
+      "FreshLevelTravel floor=2",
+      "Integration"
+    ],
+    "reset": [
+      "ResetStartsCurrentFloor"
+    ],
+    "rendered": [
+      "ZeroGeometry rooms=11 instances=7448",
+      "ManualReady",
+      "ConnectedNavigation points=191 bends=177 blocked=177",
+      "CollisionAndProjectileWalls",
+      "HighDensitySpawns count=100",
+      "PlayerWallFixture",
+      "PlayerWallsBeyondOldBounds distance=160.187619",
+      "NativeWaveSpawns count=7",
+      "MonstersFollowNavigation moved=7",
+      "NativeCombatAndLoot kills=4 drops=1",
+      "FreshLevelTravel floor=2",
+      "Integration"
+    ]
+  },
+  "screenshot": {
+    "path": "G:\\DungeonWorldOpus\\Saved\\Verification\\DungeonExtraction\\opus-dungeon.png",
+    "sha256": "2987af5441bf328999303dc852058f0f5bc4c612569bfc0159721293d0c4c14b",
+    "inspected": true,
+    "rhi": "D3D12 SM6",
+    "size": [
+      1600,
+      900
+    ],
+    "diagnosticsVisible": true
+  },
+  "renderBudget": {
+    "texturePoolMB": 256,
+    "naniteStreamingPoolMB": 64,
+    "virtualShadowPages": 512,
+    "lumenProbeResolution": 16,
+    "hardwareRayTracing": false,
+    "screenPercentage": 85,
+    "asyncLoadingBudgetMs": 50,
+    "defaultQualityChanged": false
+  },
+  "ruleRoot": "Content/RulesTower",
+  "ruleSnapshotCommit": "e2abf77cf5a00f75a601aaefa71e7b1945eaaaae",
+  "nativeRuleEngineChanged": false,
+  "limitations": [
+    "Initial full-budget render failed with GPU E_OUTOFMEMORY while multiple editors were open. Budgeted DX12 passed but raw screenshot still shows VRAM pressure.",
+    "Stable FPS, packaged builds, dedicated servers and a full 300-monster encounter were not tested.",
+    "100 spawn positions were tested; that does not claim 100 simultaneous rendered monsters."
+  ],
+  "intermediateFailures": [
+    "author.log: reentrant save_current_level / Git checkout. Fixed direct save with reentry guard; save-verified.log and cold-audit passed.",
+    "Cold game navigation missing despite saved PCG and ForceRebuildOnLoad. Fixed deferred runtime navigation rebuild.",
+    "Asset queue was gated behind navigation readiness. Fixed Pump before readiness gate.",
+    "Incoming authoring rules contained unsupported web triggers. User selected the runnable baseline; authoring files preserved separately.",
+    "Rendered capture fixture now walks through connected rooms to obtain line of sight, using actual CMC and native casts."
+  ]
+}

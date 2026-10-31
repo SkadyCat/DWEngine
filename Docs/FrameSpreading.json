@@ -1,0 +1,116 @@
+{
+  "updated": "2026-10-25T13:23:09.477827+08:00",
+  "scope": "Frame-distributed AS encounter preparation and HUD data updates; native resource loading/lifetime adapter only. No DWRules engine or rule data edits by this task.",
+  "behavior": [
+    "One asynchronous package request per frame, maximum two in flight; async loading budget 2 ms (an engine budget, not a preemption guarantee).",
+    "Wait for mesh/material compilation readiness, then prepare exactly one enemy and its original UICreator health strip per frame.",
+    "Stage actors hidden, disable native simulation and tower time during preparation, publish the complete wave together. Explicit pause survives publication.",
+    "Keep random draw order, wave counts, rarity, inherited modifiers, native combat and rewards unchanged.",
+    "Convert package-only source model paths into complete soft object paths in the AS presentation adapter.",
+    "Eight HUD data groups across frames; create rows only when the imported SVG state marks their binding visible. Existing UI assets and layouts retained.",
+    "Keep the imported HUD class and streamed model/clip resources in game-instance lifetime, surviving OpenLevel.",
+    "Automatic DWOCapture is accepted only in explicitly transient QA sessions; normal launch has no capture argument."
+  ],
+  "checks": {
+    "schedule20": {
+      "passed": true,
+      "log": "Saved/Verification/FrameSpreading/schedule-20.log"
+    },
+    "schedule300": {
+      "passed": true,
+      "log": "Saved/Verification/FrameSpreading/schedule-300.log"
+    },
+    "renderedSchedule": {
+      "passed": true,
+      "log": "Saved/Verification/FrameSpreading/schedule-rendered.log"
+    },
+    "svgBindings": {
+      "passed": true,
+      "log": "Saved/Verification/svg-final-bindings.log"
+    },
+    "defaultReady": {
+      "passed": true,
+      "log": "Saved/Verification/tower-final-ready.log"
+    },
+    "towerFlow": {
+      "passed": true,
+      "log": "Saved/Verification/as-final-flow.log"
+    },
+    "clearAndCarry": {
+      "passed": true,
+      "log": "Saved/Verification/tower-final-success.log"
+    },
+    "nativeLootPickup": {
+      "passed": true,
+      "log": "Saved/Verification/WorldUI/loot-integration.log"
+    },
+    "nativeHealthBars": {
+      "passed": true,
+      "log": "Saved/Verification/MonsterHealthBars/integration-final.log"
+    },
+    "svgResetButton": {
+      "passed": true,
+      "log": "Saved/Verification/FrameSpreading/reset-button-final.log"
+    },
+    "deathRetry": {
+      "passed": true,
+      "log": "Saved/Verification/FrameSpreading/death-retry-final.log"
+    },
+    "profileRoundtrip": {
+      "passed": true,
+      "write": "Saved/Verification/FrameSpreading/profile-write-final.log",
+      "reload": "Saved/Verification/FrameSpreading/profile-reload-final.log"
+    }
+  },
+  "build": "Saved/Build/build-20261025-130916.log",
+  "profiling": {
+    "trace": "Saved/Verification/FrameSpreading/schedule-rendered.utrace",
+    "events": "Saved/Verification/FrameSpreading/timing-events.csv",
+    "timings": "Saved/Verification/FrameSpreading/timings.json",
+    "singleEnemyPreparationMaxMs": 7.064800000000001,
+    "hudDataGroupMaxMs": 5.540500000000001,
+    "publishEncounterMaxMs": 0.0477,
+    "hudClassFirstLoadMs": 3367.482,
+    "hudClassAfterRetryMs": 0.0013,
+    "retryFrameMs": 289.2493,
+    "before": "Saved/Profiling/Insights/spike-diagnosis.json",
+    "comparisonNote": "Before and after are different captures: prior live play vs deterministic first-wave/retry fixture. Scheduler scope timings are not a steady-combat FPS benchmark.",
+    "remaining": [
+      "First engine startup still finalizes textures (~94 ms in one scope) and waits on initial rendering (~136 ms).",
+      "OpenLevel remains a synchronous map transition (~289 ms in this capture); cached HUD avoids repeated multi-second blueprint loading, but map travel itself is not fully asynchronous."
+    ]
+  },
+  "runtimeJavaScriptFiles": 0,
+  "runtimeScanRoots": [
+    "Config",
+    "Content",
+    "Script",
+    "Source",
+    "Plugins"
+  ],
+  "ruleSnapshot": {
+    "total": 1047,
+    "differencesObservedAfterConcurrentTasks": [
+      "Content/Rules/Equipment/map_core_equipment.json"
+    ],
+    "note": "No rule files edited here. A concurrent task updated map_core_equipment.json during verification; its changes were preserved."
+  },
+  "files": [
+    "Config/DefaultEngine.ini",
+    "Source/DungeonWorldOpus/Public/OpusAssets.h",
+    "Source/DungeonWorldOpus/Private/OpusAssets.cpp",
+    "Source/DungeonWorldOpus/Public/OpusUI.h",
+    "Source/DungeonWorldOpus/Private/OpusUI.cpp",
+    "Script/Opus/Models.as",
+    "Script/Opus/TowerActors.as",
+    "Script/Opus/TowerGame.as",
+    "Script/Opus/MonsterHealthBars.as",
+    "Script/Opus/SvgHUD.as",
+    "Script/Opus/SvgTests.as",
+    "Script/Opus/LootTests.as",
+    "Script/Opus/MonsterHealthTests.as",
+    "Script/Opus/FrameTests.as",
+    "Tools/Verify-FrameSpreading.ps1",
+    "Tools/Verify-Opus.ps1"
+  ]
+}

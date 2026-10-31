@@ -1,0 +1,2476 @@
+{
+  "format": "DungeonWorldOpusLite/v1",
+  "createdAt": "2026-10-31T20:26:24.187Z",
+  "source": "G:/DungeonWorldOpus",
+  "target": "G:/DungeonWorldOpusLite",
+  "description": "Independent lightweight source copy. Asset references are deliberately unchanged.",
+  "referencesRepaired": false,
+  "engineOpened": false,
+  "buildRun": false,
+  "sourceModified": false,
+  "files": 76441,
+  "fileBytes": 1562132901,
+  "GiB": 1.4548496352508664,
+  "groups": [
+    {
+      "name": "Content/UICreator",
+      "bytes": 398682058,
+      "files": 23442
+    },
+    {
+      "name": "Content/UICreatorTalents",
+      "bytes": 354003029,
+      "files": 16216
+    },
+    {
+      "name": "Content/UICreatorMaps",
+      "bytes": 105218401,
+      "files": 7080
+    },
+    {
+      "name": "UIAuthoring",
+      "bytes": 98787152,
+      "files": 29
+    },
+    {
+      "name": "Content/UICreatorStudio",
+      "bytes": 60216239,
+      "files": 915
+    },
+    {
+      "name": "Plugins",
+      "bytes": 52891213,
+      "files": 753
+    },
+    {
+      "name": "Content/WebVFX",
+      "bytes": 47891183,
+      "files": 488
+    },
+    {
+      "name": "Content/UICreatorEvents",
+      "bytes": 41955005,
+      "files": 2613
+    },
+    {
+      "name": "Content/UICreatorHover",
+      "bytes": 32940938,
+      "files": 2685
+    },
+    {
+      "name": "Content/IceSkill_VFX",
+      "bytes": 23439610,
+      "files": 31
+    },
+    {
+      "name": "Content/OpusIcons",
+      "bytes": 21851125,
+      "files": 235
+    },
+    {
+      "name": "Content/_TornadoWindVFX",
+      "bytes": 17991909,
+      "files": 33
+    },
+    {
+      "name": "Docs",
+      "bytes": 17292421,
+      "files": 119
+    },
+    {
+      "name": "Content/UICreatorHotbar",
+      "bytes": 12836675,
+      "files": 952
+    },
+    {
+      "name": "Content/UICreatorRecent",
+      "bytes": 9238772,
+      "files": 922
+    },
+    {
+      "name": "Content/OpusIconsMasked",
+      "bytes": 8988298,
+      "files": 80
+    },
+    {
+      "name": "Content/StatusVFX",
+      "bytes": 7892427,
+      "files": 34
+    },
+    {
+      "name": "Content/UICreatorContext",
+      "bytes": 6244040,
+      "files": 477
+    },
+    {
+      "name": "Content/UICreatorLoot",
+      "bytes": 3716061,
+      "files": 223
+    },
+    {
+      "name": "Content/UICreatorEffects",
+      "bytes": 3125548,
+      "files": 41
+    },
+    {
+      "name": "Tools",
+      "bytes": 2760443,
+      "files": 227
+    },
+    {
+      "name": "Content/Rules",
+      "bytes": 2641069,
+      "files": 1342
+    },
+    {
+      "name": "Content/UICreatorBuilds",
+      "bytes": 2276945,
+      "files": 164
+    },
+    {
+      "name": "Content/RulesTower",
+      "bytes": 2116968,
+      "files": 1234
+    },
+    {
+      "name": "Content/ClaudeDungeon",
+      "bytes": 1587018,
+      "files": 2
+    },
+    {
+      "name": "Script",
+      "bytes": 780735,
+      "files": 101
+    },
+    {
+      "name": "Content/UICreatorWorld",
+      "bytes": 723238,
+      "files": 201
+    },
+    {
+      "name": "Content/UICreatorPortal",
+      "bytes": 595251,
+      "files": 52
+    },
+    {
+      "name": "Source",
+      "bytes": 358585,
+      "files": 63
+    },
+    {
+      "name": "Content/Skills",
+      "bytes": 76202,
+      "files": 3
+    },
+    {
+      "name": "Content/Melee",
+      "bytes": 67743,
+      "files": 5
+    },
+    {
+      "name": "Config",
+      "bytes": 13608,
+      "files": 4
+    },
+    {
+      "name": "Content/MapEvents",
+      "bytes": 1452,
+      "files": 1
+    },
+    {
+      "name": "Content/Script",
+      "bytes": 1182,
+      "files": 2
+    },
+    {
+      "name": "CustomTools/UICreatorAlpha",
+      "files": 15660,
+      "bytes": 222910907
+    }
+  ],
+  "excludedModelPacks": [
+    "Content/Skeleton_Collection",
+    "Content/Monsters",
+    "Content/ClaudeDungeonKit",
+    "Content/G2_Mage",
+    "Content/FlexibleCombatSystem",
+    "Content/Characters",
+    "Content/Clean3C",
+    "Content/ThreeCLab"
+  ],
+  "excludedGeneratedDirectories": [
+    ".git",
+    ".vs",
+    "Binaries",
+    "Intermediate",
+    "DerivedDataCache",
+    "Saved",
+    "node_modules",
+    "work",
+    "__pycache__",
+    ".pytest_cache"
+  ],
+  "excludedAuthoringArchives": [
+    "UIAuthoring/projects",
+    "UIAuthoring/exports",
+    "UIAuthoring/TalentsReference",
+    "Docs/Proof"
+  ],
+  "skipped": [
+    "Content/Characters",
+    "Content/ClaudeDungeonKit",
+    "Content/Clean3C",
+    "Content/FlexibleCombatSystem",
+    "Content/G2_Mage",
+    "Content/Monsters",
+    "Content/Skeleton_Collection",
+    "Content/ThreeCLab",
+    "Script/Binds.Cache",
+    "Script/Binds.Cache.Headers",
+    "Plugins/ClaudeDungeon/Binaries",
+    "Plugins/ClaudeDungeon/Intermediate",
+    "Plugins/DWRules/Binaries",
+    "Plugins/DWRules/Intermediate",
+    "Plugins/MoonScholar3C/Binaries",
+    "Plugins/MoonScholar3C/Intermediate",
+    "Plugins/SvgCanvasBridge/Binaries",
+    "Plugins/SvgCanvasBridge/Intermediate",
+    "Plugins/UE_MCP_Bridge/Binaries",
+    "Plugins/UE_MCP_Bridge/Intermediate",
+    "Plugins/UnLua/Binaries",
+    "Plugins/UnLua/Intermediate",
+    "UIAuthoring/exports",
+    "UIAuthoring/projects",
+    "UIAuthoring/TalentsReference",
+    "Tools/Animation/__pycache__",
+    "Tools/Build/__pycache__",
+    "Tools/Dungeon/__pycache__",
+    "Tools/Integration/__pycache__",
+    "Tools/Migration/__pycache__",
+    "Tools/UI/__pycache__",
+    "Tools/VFX/__pycache__",
+    "Tools/WebVFX/__pycache__",
+    "Docs/Proof"
+  ],
+  "skippedLinks": [],
+  "verification": {
+    "allCopiedFileSizesMatch": true,
+    "sha256Checked": 189,
+    "sha256Matches": [
+      {
+        "path": "UIAuthoring/TalentConstellation.uialpha.json",
+        "sha256": "560fcb41f622a07578309c113062cd61a357523b664eab368208b18107d7074e"
+      },
+      {
+        "path": "Content/UICreatorTalents/source.uialpha.json",
+        "sha256": "92582d13c2bf40e541ea8e5c889ef5c40df789224e2e52635420dccc8adaa4c2"
+      },
+      {
+        "path": "Content/UICreatorStudio/DA_CurrentCanvas.uasset",
+        "sha256": "1d327ff2b5fc089bc2df80936e32b24ef99124a5639bb4db0ba70460bece8ea5"
+      },
+      {
+        "path": "Content/UICreatorTalents/contract.json",
+        "sha256": "34b8a3aa6dce953a8b4b8546fcb8112712d08c5b2052c4f53124f139394ccbb0"
+      },
+      {
+        "path": "Content/UICreatorTalents/WBP_CurrentCanvas.uasset",
+        "sha256": "fcc0011ef0c6213a70bae1fd04b9e3885aad4b2461b0269e34a622d046408077"
+      },
+      {
+        "path": "Content/UICreator/WBP_CurrentCanvas.uasset",
+        "sha256": "24e987de7b6e7837f765902fd8b6ba4d999fb2d2ed8846fc7063f9768aa9ea0d"
+      },
+      {
+        "path": "Content/UICreatorTalents/DA_CurrentCanvas.uasset",
+        "sha256": "aa9d70146c1d6eadf752f793914870a36183f041fb82a5a0a801f4fd232ef6c5"
+      },
+      {
+        "path": "Content/UICreatorMaps/WBP_CurrentCanvas.uasset",
+        "sha256": "36f9de83608d1bd92a567cd752a4c80db980669e952c0349cd0d92cd98e7bcc4"
+      },
+      {
+        "path": "Content/_TornadoWindVFX/NS/NS_TopDown_Whirlwind.uasset",
+        "sha256": "645d9f78a0c55b66ec5184ac1778b62e7d26324f20591138abc38a321a4f3630"
+      },
+      {
+        "path": "Content/UICreatorHover/WBP_CurrentCanvas.uasset",
+        "sha256": "116e3013a04199f9c16231d361fa33a327a3dee702efa55f9d7304762d71fe74"
+      },
+      {
+        "path": "Content/UICreatorMaps/DA_CurrentCanvas.uasset",
+        "sha256": "814a3f7306ad346a8f8ea4cda30d643e2a773276f5d963e91dc2032bd8ca6a1e"
+      },
+      {
+        "path": "Content/UICreatorEvents/DA_CurrentCanvas.uasset",
+        "sha256": "4284ce74276977c70b3cad47556ff4920317db9a6fdbe8be0b403ade208e3e06"
+      },
+      {
+        "path": "Content/WebVFX/Systems/NS_OpusWhirlwind.uasset",
+        "sha256": "33aa55e9ba57a84f212e823a4063a60b02db0ebd012ca1ca375262c1b47299cb"
+      },
+      {
+        "path": "Content/UICreatorMaps/contract.json",
+        "sha256": "fb32f5c903a36273c2c58507fce8dc4d85f5173f672bcebb85ee9621d25687d4"
+      },
+      {
+        "path": "Content/UICreatorHover/DA_CurrentCanvas.uasset",
+        "sha256": "f428069e5a088941f87671d2b59c6a2585d67929376b934114cad23c5d557e63"
+      },
+      {
+        "path": "Config/DefaultEngine.ini",
+        "sha256": "14dc3f49fef58fd270c7c1a8da1cb12334dbc7ea1b5b5dfd684260630c1c7454"
+      },
+      {
+        "path": "UIAuthoring/InventoryNotices.uialpha.json",
+        "sha256": "cd22a6462b17b8e445b1c59a08badb9c8f56d375c7e238b1c3f4c1e682e20bad"
+      },
+      {
+        "path": "Config/DefaultGame.ini",
+        "sha256": "6f85ebd9f5ea9bac8ebe7f0cea7e7fe5aa249fc2620284e22930fd38fc9375fb"
+      },
+      {
+        "path": "Config/DefaultInput.ini",
+        "sha256": "61e3fb622f7ba0121c8036ac599acc7122bb3987a97b02b25ad13c56d5ce8e3a"
+      },
+      {
+        "path": "Content/UICreatorStudio/contract.json",
+        "sha256": "baa8ba33cbdcafdea6dbdbc81c5d9ba0880fda415293ca864cc3aaa1103f550a"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/DungeonWorldOpus.Build.cs",
+        "sha256": "c7c7f47e6c1536596c72aef47c71dad802795cb4397966d14dd5b186f73ba3ed"
+      },
+      {
+        "path": "Config/DefaultUnLuaSettings.ini",
+        "sha256": "1719e1fb269c92574aab1a273d196ea1a91b2a64c726b328174f053f9e66dd8a"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/DungeonWorldOpusModule.cpp",
+        "sha256": "a59746292c5c6d7f985c675dba6d4a7a40cd49110f89e4d7685cdaaafde9adc2"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusAssets.cpp",
+        "sha256": "4d92228c318b703f7feddb2bc7de307d95d9e9627240b564f9b9eb496ef756f3"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusAuthoredUI.cpp",
+        "sha256": "70c5fb5ac8a0c4778e01d07114c2175830e0ad3c8735beecefc8afdf665ed8dd"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusAuthoredUI.h",
+        "sha256": "fb2a231fdf706cc493104091e61c8b6a321cf7d8ae5c9e5ea39eaacb68e3bd88"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusCharacterEvents.cpp",
+        "sha256": "c18b7d7f2d6a0f4034f85368ca3574d0de5b93278ac7700fcd64cb5bc2e9d985"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusCrystalCraftTests.cpp",
+        "sha256": "ac8330eb9a76df09c326cfb74a5b96ac0fb5ba497e311799ba78d94846a55e7f"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusData.cpp",
+        "sha256": "176d73a822a16bde4f1983d99d14f3c97cf1a148f8078fc93d5d57a06bb548d2"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusDeliveryPolicy.cpp",
+        "sha256": "987a4a75046d2ab66fae8478c1544a2ba2ca5e7642060909c1dfe9b7597a7779"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusDropService.cpp",
+        "sha256": "5c0f4699c45d3c12dbec49c77999555f37f19cdd60164e80b2b373ce7351a626"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusDungeon.cpp",
+        "sha256": "c2d2c75dc032756a406864b388408021d09259e9cfa6fe228abf34348ddc9ee4"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusGameplayState.cpp",
+        "sha256": "dee0755a1f6643003e20db58cdcc1b9f938b00b691c7937806a874846ec7e1b4"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusHoverData.cpp",
+        "sha256": "d34845a34c2b8c8d85c9c2754627c1c8606fd500ea58d229d16a28b804c209a8"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusHoverUI.cpp",
+        "sha256": "e8d965036c0e4be44d87ec8b515fd728191a0b9b84329aa11259ac4e58fa4ce0"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusInspectorTests.cpp",
+        "sha256": "92c73d6b9664eaddf70c5ad2a8c3073a4aaf9f8d6476caa76bd187ffc3dfc334"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusInventoryNotices.cpp",
+        "sha256": "672d43b0fcb32aa7c17aae5e5483ddf3e7dc002c4a3ff4daa0e9091582736245"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusMapEvents.cpp",
+        "sha256": "92107bafb33721de1547a3e7c6e48f40e529238f8ecbde15400b9448986d9158"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusMapEventTests.cpp",
+        "sha256": "10a8d5568e75d294cd428a63555c8b80c63f0f20660b17ff1012dd4229af4c6a"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusMapItems.cpp",
+        "sha256": "b3b36e62aa8358ab25a8cbfdba9e347b7b75fb14ec0871e2515aa7443bb79a54"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusMapUI.cpp",
+        "sha256": "a1e7e8a88214b26d49cad4450d29285ca0f56a5732fab413fef9d5572ccfe231"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusNative.cpp",
+        "sha256": "1b87a5b7a3f0dd25067425fe1947614cc935284795a8677c6c6cd69338b45aea"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusPlayerEffects.cpp",
+        "sha256": "f532573931abbd826453f37b8543fa2ebcccb67c763843bd15ec5cfa885c2b3c"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusPlotUI.cpp",
+        "sha256": "a2ec8c57dc104a495a0dd8c46d1a5b89960c0749763b9c6c71107d60fd6e22b9"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusPointerTests.cpp",
+        "sha256": "499fe9dae95cd14f238f4c85fe6900f4f358ba0aae476b0b110b02c8e05b3875"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusReactiveCombat.cpp",
+        "sha256": "7512de0af291cb2dd21d7f5aecf713f811bf72ddea0f9448bba2fe979a520722"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusRecentGameplay.cpp",
+        "sha256": "554139aea5aa98d0bb8e81494c7bbb89aab7152d7862ee98db93baaae625c5fc"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusStudioBridge.cpp",
+        "sha256": "f25d04478051ec3532f4631e7066a1e555d562bee7564af25e6751a6de76a767"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusSvgBinding.cpp",
+        "sha256": "f3e27cd3aa47a03d7e6e575fd34319b4e796a935f7ce57372e949b7e89b27841"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusSvgBinding.h",
+        "sha256": "acdb63ea66fb3b4598a8b9dd55b27f424c85141886b890bffa6d499f20ad8a46"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusTalentBridge.cpp",
+        "sha256": "82e2a1d753063c289806d2b29853783cf008ac2857bf6db4da82998df76f7f86"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusTextBackgroundTests.cpp",
+        "sha256": "a4742b174f5829f1910803ed12f32749087b9c0458afffea1ddb40aeac6e5cdd"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusTraitText.h",
+        "sha256": "abd3d82de56049cc285602789ef37f4d5e5eeeb5b308a6825a8d4670f866050e"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusUI.cpp",
+        "sha256": "547488f2805f53e69111ec2e2c48366139b6446a8ceb08123592218c8f0fd2b9"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusUIAuthoring.cpp",
+        "sha256": "8388d77df8a0b41ca22f38afc688a770f0f874112b00430a64a217aea6e2a7d9"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusUIClipTests.cpp",
+        "sha256": "a500e0789d34a8334a8891d3b225db9739753a7aaa8e76656d1c770d716044c0"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/OpusWorldUI.cpp",
+        "sha256": "1a6db34e8e4c421f71e52d58f5446318e46c3a5e08eb9ffa6e0e495130672f21"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/Tests/DWBRuleTests.cpp",
+        "sha256": "98ee95c35a1420bcb48dcb700341a1ae91402d1dbe9f6c1a36b02f2a3a889b7a"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/Tests/DWBTypedDamageTests.cpp",
+        "sha256": "80385d7bfe454c69f968dded04c9dd44daf2cc331e8a6ef1e1d89cd2bcb28ca4"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/Tests/OpusInventoryNoticesTests.cpp",
+        "sha256": "f3b5fc86f320127f289812dd1101e61d532a1cbc5065fb2aa8b30d04b1bb1f70"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/Tests/OpusRecentGameplayTests.cpp",
+        "sha256": "a75493e3c517761a29ed9f19f93aad63318a203018e43ff9a918fdd11ecf673e"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Private/Tests/OpusWindBreathTests.cpp",
+        "sha256": "6224558adb4eae77ab0233d6ae1e14a1a6ba2d10addcd258249297b9d009db78"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusAssets.h",
+        "sha256": "372c58453646ad19da5251f1a3a9b2713e8cfca43a99685f4a3c205ae77af491"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusCharacterEvents.h",
+        "sha256": "9f7a22c92f664acc439da6291c96b1862c5858271daeef78aa3349e41534b0ef"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusData.h",
+        "sha256": "7c486b86789b6ec4168f14aff6996f0f9f882836c7aba95b2649c1dfe417c35a"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusDeliveryPolicy.h",
+        "sha256": "a3015ff48d39f590d76d38a4b13329ff35ae8134446fe484545e5b217c1b08c3"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusDropService.h",
+        "sha256": "d4224a6126a49228bd5145e5782513ed0e4a1077cbf58d7f3680b072e3084059"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusDungeon.h",
+        "sha256": "dd59456a6972592406430a5a28e409c02427dbc0f25a4dbdcdd6ec3a9e723135"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusGameplayState.h",
+        "sha256": "ddde230cd8d513f82b347bc83b8f9c48d5c198b6064dfce730a749cbee04e9e7"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusHoverUI.h",
+        "sha256": "5f1995070003a837480461bab2292488b7af4aaff685b23c3a3613a815eeb000"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusInventoryNotices.h",
+        "sha256": "9e7f14062908972775773f95d1ee4b7f5d04388d6d5f35ebc8c57ddc508ecd90"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusMapEvents.h",
+        "sha256": "36f3e85b8c162bbc9b57ce382d1942fa91bf96a41784eaaef730c8a13db87076"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusMapItems.h",
+        "sha256": "422e5655549550bc612c08b2c03293c07af807518a8bf3c7df7dbb4f37647b13"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusMapUI.h",
+        "sha256": "cfd697050aca7cf57adc61e1aceb87b7f4b248f5c733652609a10bcc433b0711"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusNative.h",
+        "sha256": "2620d36fa27a6b70af504d9ba335a118947fee57ee18480c2e945858c6b7ae16"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusPlayerEffects.h",
+        "sha256": "c67a7ce7699059718e2179d67d50051cebb4f4f3e37a63c7183d43d623727f33"
+      },
+      {
+        "path": "Content/UICreatorStudio/WBP_CurrentCanvas.uasset",
+        "sha256": "39433aa774eec8f2aed9fd1a52c2f5bacbc25f45ea53ee3b838ae8ed9e2f1cd5"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusReactiveCombat.h",
+        "sha256": "06883fd4a78c1d7fbdc824cf026eae0bfe783da7b9534e8b66d649521bffb93b"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusRecentGameplay.h",
+        "sha256": "8fc98e789950805727682934f4cff8f9f412d5b224e12476729407847ba49164"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusTalentBridge.h",
+        "sha256": "beec4de1f5a57831d684e16fca08c9a9161032fc57684afcf2802b1792f6cf39"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusStudioBridge.h",
+        "sha256": "1fc0a7f0d4e3a34966ecfd80a3993dbdefb1fd83a588b8b0be872faeece3477e"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusUI.h",
+        "sha256": "ff36b6b3f75fea75f520630e925ce6bd78e1da07f660e410e7a9f5203e4e3c5f"
+      },
+      {
+        "path": "Source/DungeonWorldOpus/Public/OpusWorldUI.h",
+        "sha256": "ea8a11812d64b12cdae6cd4477fad45bfd572554f041d6e2f7ad31a018be667e"
+      },
+      {
+        "path": "Source/DungeonWorldOpusEditor.Target.cs",
+        "sha256": "bf1fb626b5d0ba9482ec34d54bf313fa83003622240aaf13369cb1ccf3c91806"
+      },
+      {
+        "path": "Source/DungeonWorldOpus.Target.cs",
+        "sha256": "d9b68d8326a60a3e216183cd9aa9116df1c74813b37ae11438919041907fa114"
+      },
+      {
+        "path": "Script/Opus/AtlasState.as",
+        "sha256": "0f0fe11f3741d761ed3c69f79b953f1484c5f269fdc53fc596fbc4b654dcc01a"
+      },
+      {
+        "path": "Script/Opus/AttackEndTests.as",
+        "sha256": "60e0a47580c6c3452ea61b446787844c9ac5c21a867c10c99157720c925384ae"
+      },
+      {
+        "path": "Script/Opus/AttributeScroll.as",
+        "sha256": "6231a92548e118f2c1992d1b867559f991b42f2636fcec6385d818713cd8bf40"
+      },
+      {
+        "path": "Script/Opus/AttributeScrollTests.as",
+        "sha256": "7365ff4e57d8dd6f76201b4a9b9b633e39afad1910f6b7d7579ccb0b93db8e45"
+      },
+      {
+        "path": "Script/Opus/AuraActivationTests.as",
+        "sha256": "f71d5ea127763365e72ffd12461c4e16f4ed266c9a15731ddf52f514baf9c66d"
+      },
+      {
+        "path": "Script/Opus/AuraClickTests.as",
+        "sha256": "3ac727c55c64197bcfbac55defcdf5cc4dbe9ac13c855370b7e232eb141ba029"
+      },
+      {
+        "path": "Script/Opus/BossClearTests.as",
+        "sha256": "704cbad1dea6b511f6db009bd6b6efa4873885982d553d31760873e149aaa59c"
+      },
+      {
+        "path": "Script/Opus/BuildMenu.as",
+        "sha256": "2830d2e8322d31403e9a666ea2486788c58a34d1cd2fb5bd6db1c12663a90098"
+      },
+      {
+        "path": "Script/Opus/BuildMenuCatalogue.as",
+        "sha256": "841d5cf952b546c7c11ec885f34d9426c3bb0b5580d140374728bf51c07093f0"
+      },
+      {
+        "path": "Script/Opus/BuildMenuTests.as",
+        "sha256": "701ea65c641fe7fb96e6dbf65a4b78953785b6de48a5c55d9f03b54f376ada74"
+      },
+      {
+        "path": "UIAuthoring/RuleStudio3D.uialpha.json",
+        "sha256": "1afa85ab36d3de4dfcf113fe4377f6ebad3516b391b4426656aed8ea831b6112"
+      },
+      {
+        "path": "Script/Opus/Combat3C/Assets.as",
+        "sha256": "ce7e3319ff208c68148a37eddeda529ddec9be4b2ced45a9edbf25867572e7cd"
+      },
+      {
+        "path": "Script/Opus/Combat3C/Enemy.as",
+        "sha256": "2560347c3ec617b48c07dedd32ddf798039a81845ff331733049e8e72882f221"
+      },
+      {
+        "path": "Script/Opus/Combat3C/EnemyAggroTests.as",
+        "sha256": "785ae54b2de450cd73bbb8fce350ac71c446472d22dbe5cebee2bff5d5cc2347"
+      },
+      {
+        "path": "Script/Opus/Combat3C/Equipment.as",
+        "sha256": "4fd3e7f9a3ca6fa460aaa075cf4dba14190328714d9b4d4f0ab8968f69ca61e4"
+      },
+      {
+        "path": "Script/Opus/Combat3C/Gaits.as",
+        "sha256": "932e0e3b4795466383c58dd14f7aeaa727aecf05fb702b8cc99083f5f1cb4730"
+      },
+      {
+        "path": "Script/Opus/Combat3C/Models.as",
+        "sha256": "f451d8344e5a41f9e3a25532df580ad6d01aaabea70d405b271a1a9edf00587a"
+      },
+      {
+        "path": "Script/Opus/Combat3C/IntegrationTests.as",
+        "sha256": "bb62c78208cd8a169a7939684d30e1379da25a807ded09e742982cc4be0bec77"
+      },
+      {
+        "path": "Script/Opus/ContentIntegrationTests.as",
+        "sha256": "dcc1bef5db4c8d1110b50620418071a1dc84f44fe9ca0daa557732df41590ce0"
+      },
+      {
+        "path": "Script/Opus/DropServiceTests.as",
+        "sha256": "60ee15069a243fc21952fcdfe3874e36c5f2089a2dab277803ae9aff472e299e"
+      },
+      {
+        "path": "Script/Opus/Dungeon.as",
+        "sha256": "2036379e7a80e9610fb3aa31fcf7f9c3ac218a607d7b520e52322cd7f2fab90f"
+      },
+      {
+        "path": "Script/Opus/DungeonGroundTests.as",
+        "sha256": "ae9beee9d33b5a1ea06031848ff96f3ba42d0aefa1959330e77051fffd0b5435"
+      },
+      {
+        "path": "Script/Opus/DungeonMap.as",
+        "sha256": "d6da9cd712e3235d12e5de5d52bf3bd0ee3a35cd5ce94d3df0065e4250da2db7"
+      },
+      {
+        "path": "Script/Opus/DungeonTests.as",
+        "sha256": "629b8d7ea771abe0eb03ca27a575bc5ae07b41ddaf539bbf109b489ec44b4508"
+      },
+      {
+        "path": "Script/Opus/DWMonsterLineageSettings.as",
+        "sha256": "aaeb79ffd4bb0c1f1f9d431f4acfd49ba1eff9e535c1181c61c82b932f5d21ea"
+      },
+      {
+        "path": "Script/Opus/EntityOverlayTests.as",
+        "sha256": "711fcccc8686564e1c68e76d3a6e4cc54c8f017f075b0fe26ab53c636161d889"
+      },
+      {
+        "path": "Script/Opus/EquipmentStyleTests.as",
+        "sha256": "105c0c3b44b05d26125d8e20ee5185f687b79d1b42ee5b539f3b09a41c4accbf"
+      },
+      {
+        "path": "Script/Opus/FrameTests.as",
+        "sha256": "f208cc5813180fbbd3c83958000d39f70be562526b09c3ab17e9e8db27b5904d"
+      },
+      {
+        "path": "Script/Opus/FreeCastTests.as",
+        "sha256": "19274aea1cb6b15d6937fe4f049ea9f9d532fa70f0e18c3171a7bffa82ffb30a"
+      },
+      {
+        "path": "Script/Opus/HeroTests.as",
+        "sha256": "9b83deeecfa628b215afd588744a137f2ecf09dc0f2cc339ff8ae375214ba083"
+      },
+      {
+        "path": "Script/Opus/HeroVisual.as",
+        "sha256": "c3c73d04ed1ae60b96770b450a935ba2606930c8d36866651c864f372062c29d"
+      },
+      {
+        "path": "Script/Opus/Hideout.as",
+        "sha256": "e44344ff4f2fc26e70ef19d50aa71dd4f548780f4d7240d5abf1226d670230ea"
+      },
+      {
+        "path": "Script/Opus/HotbarPicker.as",
+        "sha256": "304c70f22ecf33276664a65da509cde63ee6e4f647494db5276749b9d1962575"
+      },
+      {
+        "path": "Script/Opus/HotbarPickerTests.as",
+        "sha256": "4459e6d103f8ad6e95bbbe86022f25d1f878a29239a0015ebca74771870e9dd6"
+      },
+      {
+        "path": "Script/Opus/HoverTests.as",
+        "sha256": "6ce9c639df4c15d4a0bf872e5dd38f060f47ddcc90518a93233e2303d32c83cf"
+      },
+      {
+        "path": "Script/Opus/IconCompletionTests.as",
+        "sha256": "7b0e21b683f40f8552673a367a08ee7589c274111378167c512b6b81d4662dd8"
+      },
+      {
+        "path": "Script/Opus/InventoryCompartments.as",
+        "sha256": "e5bc0ff4608015b304a7f601291b7e7a435478d1b4e3e0d66e5436c17371d7f2"
+      },
+      {
+        "path": "Script/Opus/InventoryDrag.as",
+        "sha256": "22132cec04f7e13b620571928a7e17d42b7f97213f3f1f4f5d4c5938406589b8"
+      },
+      {
+        "path": "Script/Opus/InventoryDragTests.as",
+        "sha256": "f5d9f9da36ac17295e472f3c3b95932f6cd5ca6334312bb21830c4fb9ee39dcf"
+      },
+      {
+        "path": "Script/Opus/InventoryLayout.as",
+        "sha256": "ed2b4cdad83dd9aa4e63cacdd2b47fd13cfabe7d3e450d8441eaf5e6dd92850d"
+      },
+      {
+        "path": "Script/Opus/InventoryNoticeTests.as",
+        "sha256": "9202c71ffd1acc431d340ddfd07a2c1507a6143bf8c7a3c98990569aa27b86ab"
+      },
+      {
+        "path": "Script/Opus/ItemContextMenu.as",
+        "sha256": "8f39184a059fdf7627d6c192102655fef55871024d0566870b7ce21406bac808"
+      },
+      {
+        "path": "Script/Opus/ItemContextTests.as",
+        "sha256": "3534ca5b676851f8a0e22c037ea475834027cbfbfabe2e3c550483d477ce7666"
+      },
+      {
+        "path": "Script/Opus/ItemHover.as",
+        "sha256": "3fc489ccea103542dec1678178e98a3aed80932433d19a39c0fd57263db5c408"
+      },
+      {
+        "path": "Script/Opus/LootHunter.as",
+        "sha256": "49a20ee0c44d0b99338042a8b28c4c02c8fc4956a6529d1a64d727ab7903ed48"
+      },
+      {
+        "path": "Script/Opus/LootPresentation.as",
+        "sha256": "b08605308d07db911086814c4d56db1e6c1660e9c538357f16c22a156d8b273e"
+      },
+      {
+        "path": "Script/Opus/LootTests.as",
+        "sha256": "fb438d55d268409fd1105d7a1ba45ec5e9196e0d4f5af42df791899624c7f5e9"
+      },
+      {
+        "path": "Script/Opus/MapCoreTests.as",
+        "sha256": "f017cf1fcb8d50f4b17d170d721766c592bae444a82bda218ee81e81fb69715b"
+      },
+      {
+        "path": "Script/Opus/MapCoreUI.as",
+        "sha256": "5e80b1aa123071514025d7371c3a7a1f12dd2d57bf582de96dfd5d514205d238"
+      },
+      {
+        "path": "Script/Opus/MapDeviceTests.as",
+        "sha256": "012ba75390bb909ac06aab16bb2addba028cfe7e99837a28ad28fcb6a3da6929"
+      },
+      {
+        "path": "Script/Opus/MapDevice.as",
+        "sha256": "13e1dae0a028d5f164087673f1bd4ff74659aaa95e744822a1585bbc67e01f5f"
+      },
+      {
+        "path": "Script/Opus/MapEventCraftUI.as",
+        "sha256": "d54072a03e56b0303086bf147ced96336d6616fc92d8677ec59790798dc8dea7"
+      },
+      {
+        "path": "Script/Opus/MapEvents.as",
+        "sha256": "ca94f6ff132d58dd51f7062b76f7182f3d7d73b67585f8869fe3602cc87b91d3"
+      },
+      {
+        "path": "Script/Opus/MapEventTests.as",
+        "sha256": "947bc45fff6230feb6aaa46678944d5151b9474d102006dcee56fe0b44d0eb9e"
+      },
+      {
+        "path": "Script/Opus/MapItems.as",
+        "sha256": "bf55ea69cd2d1deef4e55ebdcbb46d35504d9d503eeae64603f1cbc92893f3d3"
+      },
+      {
+        "path": "Script/Opus/MerchantWidgetTests.as",
+        "sha256": "d81c51d21539de21230610da7c8734da3daa5ba6fe760872a2e37f2cbbdb22c3"
+      },
+      {
+        "path": "Script/Opus/Models.as",
+        "sha256": "a171958ec4bbbdb5397ba9d56716f02ef915962a3f8908fdd2e186e2f9b2c661"
+      },
+      {
+        "path": "Script/Opus/MapItemTests.as",
+        "sha256": "637659fe2b4a92f229bede5efcd03b8894342fdb68ad75c3a65da76dfdda6e13"
+      },
+      {
+        "path": "Script/Opus/ModernCombatTests.as",
+        "sha256": "e0b9eed5573165bedadfc5d2c879cef25858b4951602954f1b67ce543b0c1f99"
+      },
+      {
+        "path": "Script/Opus/MonsterHealthBars.as",
+        "sha256": "1a1250b7f31cacd2396e78ed210391edc7309d311bd88c6a81ee52f88d8d5403"
+      },
+      {
+        "path": "Script/Opus/MonsterHealthTests.as",
+        "sha256": "09f96a4cc5e0ce683cfc8986c8dfce4c67cacd220802374c20bc47b1aaa10688"
+      },
+      {
+        "path": "Script/Opus/MonsterSettings.as",
+        "sha256": "96f9fd82a1a062bb198e5e401265890680b85fa8e89a8a92647ca308fedde1e9"
+      },
+      {
+        "path": "Script/Opus/OutpostMerchant.as",
+        "sha256": "a5584e4d150088f676fb8771f589d8929c9015edf7f4d0498e10c372d6a7ae17"
+      },
+      {
+        "path": "Script/Opus/PlayerEffects.as",
+        "sha256": "111833d291a27504632790f85e6b958588e555d30739fb19b92499be274f5ed4"
+      },
+      {
+        "path": "Script/Opus/PlayerEffectsTests.as",
+        "sha256": "f5e859255193719c2eee732eb04fc089962abac75710db4a23916422cab2f31e"
+      },
+      {
+        "path": "Script/Opus/PlayerStun.as",
+        "sha256": "babcaaa564e54d01a02f05a0ef0611a24c14063ec4842b1ac6f7a627b5d23e13"
+      },
+      {
+        "path": "Script/Opus/PlayerStunTests.as",
+        "sha256": "259fd5c43b3c118d2d23c94647af72854e1301a07ee96874407ad359bbb80548"
+      },
+      {
+        "path": "Script/Opus/ReactiveAuras.as",
+        "sha256": "adbf7681f3aed195a47e72aa75dece6609996651bad76ca5da368f90e41e153a"
+      },
+      {
+        "path": "Script/Opus/RecentGameplay.as",
+        "sha256": "4109f7278375720907a4711897de82046473553386f0ca9a7009b017b5774ae0"
+      },
+      {
+        "path": "Script/Opus/RecentGameplayTests.as",
+        "sha256": "0185375991ca40a5cdb4803199387d4926ca6cd9794a84487a228f906714a9d7"
+      },
+      {
+        "path": "Script/Opus/RecentUI.as",
+        "sha256": "42134b6b0ffb0b8e4599c07aa4e41797210d22a00f89ab3c07211838f05938ef"
+      },
+      {
+        "path": "Script/Opus/RightRailTests.as",
+        "sha256": "c2f1c465ad7020bcf7d40410ea4a5ae124f9cbe3108e30e0dace9f59e2071ce1"
+      },
+      {
+        "path": "Script/Opus/SelfSkills.as",
+        "sha256": "5a0688e1c75d5aa0b9765927f4b864cd02a20cb803f364b323cce51f80ce7baf"
+      },
+      {
+        "path": "Script/Opus/StudioGameplay.as",
+        "sha256": "200bf33648d402fa5c408370a3ee31369d7a1ccc2df1325bc274fae9de391bae"
+      },
+      {
+        "path": "Script/Opus/StudioUI.as",
+        "sha256": "194db283247628acc308acdbc21e09a68bf633a5c6e87e33340dcd8ac25ca405"
+      },
+      {
+        "path": "Script/Opus/StudioSyncTests.as",
+        "sha256": "2118c0aeeba081b618899800042d6fbf6c747ad96015f163709d722ce8b19b6d"
+      },
+      {
+        "path": "Script/Opus/StudioIterationTests.as",
+        "sha256": "88320115789c26804f56bca326fc09b515b4fcf9ca8a2ce9a7e7bc8270437279"
+      },
+      {
+        "path": "Script/Opus/SvgHUD.as",
+        "sha256": "4d599dd683dc44afabb1cec4240c8dad33d8dc9bea080859a83fb5db26dc872a"
+      },
+      {
+        "path": "Script/Opus/SvgTests.as",
+        "sha256": "38c043c4fe0b6a08c960a3628d98090eb178a808794ecee6c0bb490070f7b5bc"
+      },
+      {
+        "path": "Script/Opus/TauntTests.as",
+        "sha256": "3cbb54913f1b7c0e8a661a51a756fc1db89c3a40d115300bd0d4a8c8a3316499"
+      },
+      {
+        "path": "Script/Opus/TalentTests.as",
+        "sha256": "bc2eb97da0d5b26733aa105fb8c0754c2c03512e852f4889348b1d99cad11417"
+      },
+      {
+        "path": "Script/Opus/TalentConstellation.as",
+        "sha256": "4ca4022288ede9195e53b073f21aa0eb084e7e4eece4ea9bfabc32b2d757c1cc"
+      },
+      {
+        "path": "Script/Opus/TopDownControl.as",
+        "sha256": "b34d78fecc901aff76a7574b7f0586ccfd7d1fd26be24bd9bce05fc48f63f97a"
+      },
+      {
+        "path": "Script/Opus/TopDownTests.as",
+        "sha256": "2a34afee1da30f53a40b6f3b834b98e447b7273de6f9472e1dedac47f759b613"
+      },
+      {
+        "path": "Script/Opus/TowerActors.as",
+        "sha256": "058aea5180d8fdfddf683b036fbce7c551a7b53678d4dc8bb460dd706fd49784"
+      },
+      {
+        "path": "Script/Opus/TowerGame.as",
+        "sha256": "6275bb2f23700475782ea7f87b4b012dcf894319de76d28ba52cd085ab4db8c3"
+      },
+      {
+        "path": "Script/Opus/TowerRun.as",
+        "sha256": "d4312c68116f05b48ed2a91a8ac4d80fc16f435d93ee30cfd27003e150905a8b"
+      },
+      {
+        "path": "Script/Opus/TowerTests.as",
+        "sha256": "1edfa7a3e08fc254d71ec704e137a850caacb9b914156967ac4e9be59538f08a"
+      },
+      {
+        "path": "Script/Opus/TreasuryTrailTests.as",
+        "sha256": "c5bbc93098ea3f016b082b873bc8ebd7b549fd1ce335bde3aafad0c888620e6f"
+      },
+      {
+        "path": "Script/Opus/VFXTests.as",
+        "sha256": "881cf872c8f483133dfe3cad4d3d754c6dc3e8ae151301906f33f461aafc4abe"
+      },
+      {
+        "path": "Script/Opus/VFXGalleryTests.as",
+        "sha256": "fc115036a50d1246ca0bbd2229f8471777b29d04a83fc860811e9512cef42c09"
+      },
+      {
+        "path": "Script/Opus/WhirlwindBirthTests.as",
+        "sha256": "88818ae69cb1aa85bdbed3075f74188d941be30fa4a304b52a20a7bbfe715dd1"
+      },
+      {
+        "path": "Script/Opus/WhirlwindLaunchTests.as",
+        "sha256": "227316ea4ec95c90e841d3663f0dc05a862116f2f0e813b2b14880d5f0b45e38"
+      },
+      {
+        "path": "Script/Opus/WhirlwindParityTests.as",
+        "sha256": "807b614bf3c33e64b08a1156b7647ca938d838d5e2431edb34397d2f4488fe96"
+      },
+      {
+        "path": "Script/Opus/WindBreathTests.as",
+        "sha256": "22ac6e26aa6cd3fca7fe34b303bdd94dfbace83e4e2b00949ccfd896630c4633"
+      },
+      {
+        "path": "Script/Opus/WindVFXGallery.as",
+        "sha256": "faa60e5d907627f790913b2f1fa621dbe253f8ad9f33c4bc29d59ec36c8f0aa7"
+      },
+      {
+        "path": "Script/Opus/Zero3C/ActionNotifies.as",
+        "sha256": "2ecd71c1889d3afef287ca15a19f0562a71cfcc3d981027a3756d3b7dcc39940"
+      },
+      {
+        "path": "Script/Opus/WorldOverlays.as",
+        "sha256": "998c5e31eeabe6853131becc541ec0f3832cdc236d0659dde40872100a9eaa88"
+      },
+      {
+        "path": "Script/Opus/Zero3C/CleanCameraFollow.as",
+        "sha256": "9cede1a7d24f0140a2aa0ad19a9f639d79cb5917bac725a2bd9974146c9e7405"
+      },
+      {
+        "path": "Script/Opus/Zero3C/Geometry.as",
+        "sha256": "439287a99eafdc9d5341b91eb5f6bf8ee4619e05076ab00de9fdee4bcdabd380"
+      },
+      {
+        "path": "DungeonWorldOpus.uproject",
+        "sha256": "f4423bba77689c4cfcf28f6a8511432e1b7d40645378a417753f21489a32e659"
+      },
+      {
+        "path": "Script/Opus/Zero3C/CleanRollAnimationSet.as",
+        "sha256": "ae3d059787613cc49d2cd07118fef56dcf050f045693bdbeaa5c2366b789eb41"
+      },
+      {
+        "path": "Script/Opus/Zero3C/HeroCombatTarget.as",
+        "sha256": "923aca24b248cfe3d1cc5db36da3fd7d1ac46515fbbb1e31098c367831edd28a"
+      },
+      {
+        "path": "Content/UICreator/DA_CurrentCanvas.uasset",
+        "sha256": "fb69fb5302f184a5b7bd4afeeebf703f9d4fa49109dc6b53b938e1b4ae444486"
+      }
+    ]
+  },
+  "uiProjectAddition": {
+    "addedAt": "2026-10-31T20:32:02.682Z",
+    "source": "G:/DungeonWorldOpus/CustomTools/UICreatorAlpha",
+    "target": "G:/DungeonWorldOpusLite/CustomTools/UICreatorAlpha",
+    "files": 15660,
+    "fileBytes": 222910907,
+    "currentProjects": [
+      {
+        "id": "opus-hotbar-picker-20261028",
+        "name": "Studio HUD · 技能与光环图标选择栏",
+        "revision": 2,
+        "files": 11
+      },
+      {
+        "id": "hud-darksteel-20261024",
+        "name": "HUD · RuleStudio 3D 战斗",
+        "revision": 57,
+        "files": 415
+      },
+      {
+        "id": "opus-drop-studio",
+        "name": "掉落设计台 · 池配置与产出分析",
+        "revision": 4,
+        "files": 14
+      },
+      {
+        "id": "opus-map-device",
+        "name": "Opus · 星图与地图装配",
+        "revision": 10,
+        "files": 58
+      },
+      {
+        "id": "opus-studio-sync-20261026",
+        "name": "Studio 同步 · 商人 / 特质装备 / 地牢地图 / 传送阵",
+        "revision": 9,
+        "files": 407
+      },
+      {
+        "id": "opus-world-overlays-20261025",
+        "name": "RuleStudio3D · 怪物血条与地面掉落",
+        "revision": 10,
+        "files": 38
+      },
+      {
+        "id": "opus-dungeon-map",
+        "name": "地牢地图 · 圆形小地图与展开界面",
+        "revision": 2,
+        "files": 20
+      },
+      {
+        "id": "opus-map-event-markers",
+        "name": "地图事件 · 商店、祭坛与宝库标记",
+        "revision": 2,
+        "files": 13
+      },
+      {
+        "id": "opus-studio-iteration-hud-20261027",
+        "name": "Opus · Studio 最近迭代",
+        "revision": 1,
+        "files": 415
+      },
+      {
+        "id": "opus-atlas-player-location",
+        "name": "世界地图 · 玩家当前位置",
+        "revision": 1,
+        "files": 4
+      },
+      {
+        "id": "opus-item-inspector-3d-20261025",
+        "name": "RuleStudio3D · 物品浮层与原位加工控件",
+        "revision": 3,
+        "files": 18
+      },
+      {
+        "id": "studio-atlas-entry",
+        "name": "世界地图 · 入场按钮四态与激活流光",
+        "revision": 1,
+        "files": 7
+      },
+      {
+        "id": "opus-player-stun-overlay",
+        "name": "玩家晕眩 · 半透明黄色覆盖",
+        "revision": 1,
+        "files": 4
+      },
+      {
+        "id": "opus-outpost-merchant",
+        "name": "Studio3D · 拓荒商人",
+        "revision": 7,
+        "files": 33
+      },
+      {
+        "id": "opus-dungeon-exit",
+        "name": "Studio3D · 地牢出口传送阵",
+        "revision": 4,
+        "files": 12
+      },
+      {
+        "id": "studio-trait-equipment",
+        "name": "Studio · 特质装备",
+        "revision": 1,
+        "files": 4
+      },
+      {
+        "id": "opus-item-context",
+        "name": "物品 · 右键操作菜单",
+        "revision": 4,
+        "files": 19
+      },
+      {
+        "id": "dungeonworld-android-controls",
+        "name": "DungeonWorld · Android 触屏控制",
+        "revision": 3,
+        "files": 13
+      },
+      {
+        "id": "opus-map-events",
+        "name": "地图奇遇 · 宝库 / 百炼 / 万相",
+        "revision": 7,
+        "files": 144
+      },
+      {
+        "id": "opus-studio3d-map-events",
+        "name": "Studio3D · 祭坛与奇遇",
+        "revision": 9,
+        "files": 142
+      },
+      {
+        "id": "opus-recent-gameplay",
+        "name": "玩法接入 · 光环 / 任务 / 藏身处",
+        "revision": 5,
+        "files": 8
+      },
+      {
+        "id": "opus-talent-constellation",
+        "name": "Opus · 启明星盘 · 原版还原",
+        "revision": 12,
+        "files": 1220
+      },
+      {
+        "id": "opus-wind-breath",
+        "name": "风之息 · 光环图标",
+        "revision": 2,
+        "files": 4
+      },
+      {
+        "id": "opus-studio3d-build-menu",
+        "name": "Opus · Studio3D 可用 BD",
+        "revision": 1,
+        "files": 19
+      },
+      {
+        "id": "opus-studio3d-quest-tracker",
+        "name": "Studio3D · 半透明任务追踪",
+        "revision": 1,
+        "files": 6
+      },
+      {
+        "id": "opus-inventory-notices",
+        "name": "通用动效 · 新物品边缘流光",
+        "revision": 1,
+        "files": 397
+      },
+      {
+        "id": "opus-player-effects",
+        "name": "玩家临时状态 · UE 原生控件",
+        "revision": 1,
+        "files": 17
+      },
+      {
+        "id": "opus-native-material-icons",
+        "name": "RuleStudio3D · 通货品级图标",
+        "revision": 1,
+        "files": 7
+      },
+      {
+        "id": "opus-rulestudio-loot-ue",
+        "name": "RuleStudio 掉落 · UE 控件",
+        "revision": 2,
+        "files": 62
+      },
+      {
+        "id": "opus-rulestudio-loot-20261025",
+        "name": "RuleStudio · 地面掉落与拾取",
+        "revision": 8,
+        "files": 75
+      },
+      {
+        "id": "opus-hover",
+        "name": "Opus · 原始物品悬停详情",
+        "revision": 1,
+        "files": 12
+      },
+      {
+        "id": "hud-ui-audio-20261025",
+        "name": "HUD · UI 音效",
+        "revision": 2,
+        "files": 240
+      },
+      {
+        "id": "hud-motion-assets-20261025",
+        "name": "HUD · 可复用动效资产",
+        "revision": 2,
+        "files": 86
+      },
+      {
+        "id": "624546fa-1ad1-45dd-b7f1-4a493ffc0251",
+        "name": "Expedition UI",
+        "revision": 1,
+        "files": 19
+      }
+    ],
+    "referencedExportFiles": [
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/strength.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/dexterity.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-01.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/intelligence.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/constitution.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-02.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-03.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-04.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-05.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-06.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-07.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-08.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-09.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-10.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-11.png",
+      "exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-12.png"
+    ],
+    "excluded": [
+      "Generated folders",
+      "Unreferenced export jobs",
+      "Unreferenced immutable project revisions"
+    ],
+    "verification": {
+      "fileSizesMatch": true,
+      "projectReadCount": 34,
+      "validation": [
+        {
+          "id": "opus-hotbar-picker-20261028",
+          "errors": []
+        },
+        {
+          "id": "hud-darksteel-20261024",
+          "errors": []
+        },
+        {
+          "id": "opus-drop-studio",
+          "errors": []
+        },
+        {
+          "id": "opus-map-device",
+          "errors": []
+        },
+        {
+          "id": "opus-studio-sync-20261026",
+          "errors": []
+        },
+        {
+          "id": "opus-world-overlays-20261025",
+          "errors": []
+        },
+        {
+          "id": "opus-dungeon-map",
+          "errors": []
+        },
+        {
+          "id": "opus-map-event-markers",
+          "errors": []
+        },
+        {
+          "id": "opus-studio-iteration-hud-20261027",
+          "errors": []
+        },
+        {
+          "id": "opus-atlas-player-location",
+          "errors": []
+        },
+        {
+          "id": "opus-item-inspector-3d-20261025",
+          "errors": []
+        },
+        {
+          "id": "studio-atlas-entry",
+          "errors": []
+        },
+        {
+          "id": "opus-player-stun-overlay",
+          "errors": []
+        },
+        {
+          "id": "opus-outpost-merchant",
+          "errors": []
+        },
+        {
+          "id": "opus-dungeon-exit",
+          "errors": []
+        },
+        {
+          "id": "studio-trait-equipment",
+          "errors": []
+        },
+        {
+          "id": "opus-item-context",
+          "errors": []
+        },
+        {
+          "id": "dungeonworld-android-controls",
+          "errors": []
+        },
+        {
+          "id": "opus-map-events",
+          "errors": []
+        },
+        {
+          "id": "opus-studio3d-map-events",
+          "errors": []
+        },
+        {
+          "id": "opus-recent-gameplay",
+          "errors": []
+        },
+        {
+          "id": "opus-talent-constellation",
+          "errors": []
+        },
+        {
+          "id": "opus-wind-breath",
+          "errors": []
+        },
+        {
+          "id": "opus-studio3d-build-menu",
+          "errors": []
+        },
+        {
+          "id": "opus-studio3d-quest-tracker",
+          "errors": []
+        },
+        {
+          "id": "opus-inventory-notices",
+          "errors": []
+        },
+        {
+          "id": "opus-player-effects",
+          "errors": []
+        },
+        {
+          "id": "opus-native-material-icons",
+          "errors": []
+        },
+        {
+          "id": "opus-rulestudio-loot-ue",
+          "errors": []
+        },
+        {
+          "id": "opus-rulestudio-loot-20261025",
+          "errors": []
+        },
+        {
+          "id": "opus-hover",
+          "errors": []
+        },
+        {
+          "id": "hud-ui-audio-20261025",
+          "errors": []
+        },
+        {
+          "id": "hud-motion-assets-20261025",
+          "errors": []
+        },
+        {
+          "id": "624546fa-1ad1-45dd-b7f1-4a493ffc0251",
+          "errors": []
+        }
+      ],
+      "sha256": [
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/aura-activation.js",
+          "sha256": "b58e6a206e755bb357c37d4985d90e57077c32f862c52ecbcc34577461013350"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/battle-hud.js",
+          "sha256": "c0970a7feba0310b75c118cc299665f1d07a79cae8ae3549f317c0201b65a488"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/battle-suite.js",
+          "sha256": "fe6cf85e8c200811671b161a8db59a2c1e63a2ffeee38c39835f8f74239d9fe3"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/build-menu-export.js",
+          "sha256": "c2a5fab8b467db1468ea093ecf2e768d715496d90b2c841db0c71ec588a9ebac"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/dungeon-exit-export.js",
+          "sha256": "3541ccba303bfd8ea9f1bfcc5d4eb66636a8e7255c81164f6ded7ebdd9e0e7f1"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/entity-overlays.js",
+          "sha256": "229939e0baf0287cc82ea9416fcc05c7dcc19fe41c0c60c3ff7cb26f03bf9e99"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/hud-darksteel.js",
+          "sha256": "03ee3a91be0ea6a15f8e4bc15b1d15019b842c768658203896ac2cab2b76c3e2"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/hud-motion.js",
+          "sha256": "fc6a499bc1c95e72ec7b644ebf45755d675d33055ab9b2fa48b39f8f229174ef"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/inventory-comparison.js",
+          "sha256": "dea98debde666fbbc03ad58ce9d0d477f744e7e8501ed46e4fe8ab3f88b02265"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/item-context-export.js",
+          "sha256": "e3b4745f073414b2a1c34ec12e6681368d3a2a9cda7dab1a273af6b3101187c6"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/loot-prototype.js",
+          "sha256": "6965cf40f127bdb54c5f7d7484e6222660af12f43352c155e64eb4c945e1f8fc"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/loot-ue-export.js",
+          "sha256": "50bf5837913bae9cf46b98dfe375c9a990312d45e74ba678b1a85e75f8fa5d32"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/map-events-export.js",
+          "sha256": "63a5c4b113d2d29ee870611b9ca615149d7435ec5b89180688e9f99d3fd3daa2"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/native-wbp-export.js",
+          "sha256": "2dcac7e427f7cd710c984873afaaf2098aa4193a8d649093533c4feb2089bf73"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/nine-slice-regression.js",
+          "sha256": "7c6991dbcf2ac6f98625f8361d4e0f9ca06b7e9ff0f9f79cc4d26fc0352318c0"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/recent-gameplay-export.js",
+          "sha256": "248d7c3a2dd915e1bca6647b936886343d5303205b9cc6f5e248ff3099e7e298"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/skill-icon-clip-regression.js",
+          "sha256": "faebca74b625f09af0ebc1a4ed07c736808855089a58107dd983c5b2a5e99042"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/examples/verify.js",
+          "sha256": "a7f5b1233e1d74bb8f242b403ff67a666367670658a365e9b433df2b33e36da4"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/affix-categories.js",
+          "sha256": "aef8490744f1fd996e6daaff445e62de8a209d516a0d8a388abf2c3428cd6373"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/character.js",
+          "sha256": "11a4d5ed19c0ede26a8c163e49774e397afb25547730a0e37997d553e7be1a21"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/collections.js",
+          "sha256": "34c68eea106946acbb1816e543c306f33a0af59731d955cde95271109989b5b5"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/combat/damage-values.js",
+          "sha256": "e5c3566c7798763b7ed5d8a2cb3290dc42f263ac81a76dd8ca4e956c9dc26c6a"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/combat-catalog.js",
+          "sha256": "922f936ef5dfca8ddf263ff6271310b2d1bc19aa068a2aa1c83eb551fb088cde"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/compiler.js",
+          "sha256": "5b15631c3cffa86eaf09ee7140d36eae15e79cd5dea0a4d5f0c6b2bae5a174d1"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/crafting.js",
+          "sha256": "1c587113bdaab475cc971f9a739a540f3e877848633742a1c64ea393b8c8716e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/equipment-slots.js",
+          "sha256": "0bbdf8f4f2da60a9e26ecf06386f28bae034c549848fdfb8fa0ca26a605f75a0"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/equipment-trade.js",
+          "sha256": "08575fcc56c2d32c94576e0c900f1b19ffa9020d805fe1a5305cb1a38d60f630"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/equipment.js",
+          "sha256": "987ea4025a0299cdddde5195ca1a2e0b62e8876a463c95f2e0fc91dab5dd9f16"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/falling.js",
+          "sha256": "5caf48c27e58e8953ffbe03efdb5ced18c3a4b63ebac56719ce30f937fb565c1"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/floor-rewards.js",
+          "sha256": "e359c9299c96ad78d1feb966462d39064a849af0d7b1bf2d3b618dedda974c68"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/index.js",
+          "sha256": "b287118a465ea354229225a24e06a80e1e1e210a8e3388030edd3dced8bcad21"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/library.js",
+          "sha256": "698912bd65f7bb94c85ab29378a61d8e9d2f4803a23346ba70726d7ec69ab65b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/loadout.js",
+          "sha256": "a9b1351e7455cec1bd600706948345270fef520f225f99cadfe5a3c2f727a263"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/loot-hunter.js",
+          "sha256": "6c08951d042e7fde536ab755189969075a12775b03e4f9bc61c7bbd5528da635"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/map-unit.js",
+          "sha256": "7710e80a391586d418eb5823d782156466a07d45c80e9e46d7b71aec4f911f62"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/monsters.js",
+          "sha256": "756725e0bbc35b0cde731feca500416c4f284720e1591538f2dd891bcb6d0c7f"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/parabolic.js",
+          "sha256": "d7451005b76a66add99231d62d2c7e9b254f4517bc9650e38b975ae62e218c02"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/pawn-equipment.js",
+          "sha256": "b4aac938e379a5ddfffc2825877ef863d5809c637f2cccfa7d5dc88eebd4e5e4"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/progression.js",
+          "sha256": "75c55f0195bd8e090c75163cd22bb75399b1f5c3d6a192ac864c4797188294ee"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/reader.js",
+          "sha256": "3c760ab6fbc936fb5aeb47a5140b28b67766e82902707e5d4c7fbb5b77182373"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/samples.js",
+          "sha256": "2d9f778476043613b4b6f5798f3b9f3e2df59f582444a97f269fbe6d37208592"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/shop.js",
+          "sha256": "a9194f3083a0b5fa383171640b3f9575920f35ff1486fb4081a47ed43de57d36"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/stats.js",
+          "sha256": "ca9242eec02877c278e20243ba8b60575b8270db03e37ff4a6c91697393ce854"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/statuses.js",
+          "sha256": "59af5abb0ebea80236bd92a7c98dfa442558bef3d9c07a795f86cbb7a3639253"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/summon-hit-affixes.js",
+          "sha256": "7bccb106576f6fc4b0cae760e640dc73d1995ef2a8314a7bb876477b54bd6a10"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/tags.js",
+          "sha256": "36770d8e20adbeeaaafec423412d3ec19ea1231a1c13b7bdea6292f5c2d511f5"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/trait-tiers.js",
+          "sha256": "711eb2cbb58b32a1808b911319a739fb3572c8d76515d05f57e54a486728d895"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/trigger-skill-affixes.js",
+          "sha256": "897d7bacd16016a557b64b6982dad26b3c189c2d4d2cd8c15afbd3aefadef9ec"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/types.js",
+          "sha256": "83430b6dbed31d819bf599c5214660a18aa1a953babdfceaff1be4fcce161cae"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/engine/world.js",
+          "sha256": "7404abdbed0ff9006c22e1e783fc5a95891ba4b3a6148cc3e05dadf23512e674"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/public/ground-loot.js",
+          "sha256": "0409be4fad2266b7975678d8a462091a64fe8b71201eabb45c0e2ce0a8674c0e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/reference/public/prefabs/loot-style.js",
+          "sha256": "04e25eae9d80d6c0deef3cbb114fde3e589469d9575d4dc39c2322757afcf1e8"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/audio-review.mjs",
+          "sha256": "9fef8b4058582b6df57a95a1c320fd37002f29a9c4d3a461f71f135d3eaff4ff"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/battle-suite-art.mjs",
+          "sha256": "a162b46db69045e41e94a035305ee1cdc877d7e73c8743d449c3597b87d0cfdb"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/build-inventory-comparison.mjs",
+          "sha256": "21a55560e4da76e3ce0d33789618006ecc95a6f4e071d7eabde67cf4d2824c69"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/check.mjs",
+          "sha256": "d8c6efb8fa9a7a2a5ceecf74216fecff3913759caed21420d2eba5f08a70b835"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/create-battle-hud.mjs",
+          "sha256": "f64e5e1548b17ec934eee8181f4cda4a0db66a88b25db9e0fa3f3ab358dda129"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/create-hud-darksteel.mjs",
+          "sha256": "dbbe7010f217c34469890d4f16b384af2bc7fafe9ac529c3a2bf6d2fd1c929d3"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/create-loot-prototype.mjs",
+          "sha256": "a929c2d116ad56f246d5a2be8bac451842658eea81b6cd2d577641a57cea88ba"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/fix-skill-icon-clip.mjs",
+          "sha256": "6af126b3d8121d21d6ff944396eb2d73c14a32c600f3c6ab4be6c6e1b4673208"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/hud-darksteel-art.mjs",
+          "sha256": "1da75682eed3b7715a2e0d51e73c04efd868eb54eb9eece05daffe748676766e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/motion-review.mjs",
+          "sha256": "4b149a59175c8573c1827596b7d85b6d4fbce1b8efd9d50338e0bae96dcfd637"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/publish-trait-equipment.mjs",
+          "sha256": "589b74099fc0706a3b7d275d74f0dc1350c508f77ce658f9bedbdcfd995b2160"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/restore-baseline.mjs",
+          "sha256": "a3bcc0077c89f6de8743c3918d501fc79ed62aee36478bfc289eaa12ecad86e9"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/rulestudio-hud-art.mjs",
+          "sha256": "57f194cdd552bf6532ac56d7e11fdbbe88b165eba4ad89e3dcc50cbbc99bf7d9"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/update-battle-suite.mjs",
+          "sha256": "206a2818d5421ef0fe7f6c3c5b2e3c578590da59eea368f13dfa60a2059154db"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/update-entity-overlays.mjs",
+          "sha256": "11ee09fb0a97ecc4a898429a65a685cffdae32fa04133d9bacc8c18d9c2d2ecb"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/update-map-device.mjs",
+          "sha256": "2419126f68225398525992090f08bb1d21ddb4e896fc6264e104b0d8795f1b78"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/update-skill-picker.mjs",
+          "sha256": "aa061de61c5de591db8de3f5aca7c31d26a0465b3b76020a41794b65e9d950ea"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/scripts/update-stun-crust.mjs",
+          "sha256": "d00904555102379ceb442a81a30788d661b2325a9f786ee91ff1b24779b7dbf3"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/server/native-wbp-export.mjs",
+          "sha256": "9ebcf935c48518e051f5eb62aa6f56378bc162759933cb22ee7148db0a11d6ff"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/server/project-repository.mjs",
+          "sha256": "118678c919788b925f93cc0478522877116466b310fd51c9e720adb9e2cc15ef"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/server.mjs",
+          "sha256": "0b52fd4ab7cb0f578f11b481dd325609551e29891ab646348723f1d58cc5a198"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/hud-darksteel/project.js",
+          "sha256": "b364731e89ca4d17b19601b086e147ac0177ce9450d8ac6298406ddad2355aa2"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/project.js",
+          "sha256": "ab22d7bd0916c219131b0179df49de54c0c42f72b0220ec10c00b631186ce9f2"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/affix-categories.js",
+          "sha256": "aef8490744f1fd996e6daaff445e62de8a209d516a0d8a388abf2c3428cd6373"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/character.js",
+          "sha256": "11a4d5ed19c0ede26a8c163e49774e397afb25547730a0e37997d553e7be1a21"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/collections.js",
+          "sha256": "34c68eea106946acbb1816e543c306f33a0af59731d955cde95271109989b5b5"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/combat/damage-values.js",
+          "sha256": "e5c3566c7798763b7ed5d8a2cb3290dc42f263ac81a76dd8ca4e956c9dc26c6a"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/combat-catalog.js",
+          "sha256": "922f936ef5dfca8ddf263ff6271310b2d1bc19aa068a2aa1c83eb551fb088cde"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/compiler.js",
+          "sha256": "cfd47df326e1f5355a9a3c53bf5a61333398cc65e287b65fba22a7246aee92bd"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/crafting.js",
+          "sha256": "1c587113bdaab475cc971f9a739a540f3e877848633742a1c64ea393b8c8716e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/equipment-slots.js",
+          "sha256": "0bbdf8f4f2da60a9e26ecf06386f28bae034c549848fdfb8fa0ca26a605f75a0"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/equipment-trade.js",
+          "sha256": "08575fcc56c2d32c94576e0c900f1b19ffa9020d805fe1a5305cb1a38d60f630"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/equipment.js",
+          "sha256": "987ea4025a0299cdddde5195ca1a2e0b62e8876a463c95f2e0fc91dab5dd9f16"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/falling.js",
+          "sha256": "5caf48c27e58e8953ffbe03efdb5ced18c3a4b63ebac56719ce30f937fb565c1"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/floor-rewards.js",
+          "sha256": "e359c9299c96ad78d1feb966462d39064a849af0d7b1bf2d3b618dedda974c68"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/index.js",
+          "sha256": "b287118a465ea354229225a24e06a80e1e1e210a8e3388030edd3dced8bcad21"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/library.js",
+          "sha256": "698912bd65f7bb94c85ab29378a61d8e9d2f4803a23346ba70726d7ec69ab65b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/loadout.js",
+          "sha256": "a9b1351e7455cec1bd600706948345270fef520f225f99cadfe5a3c2f727a263"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/loot-hunter.js",
+          "sha256": "6c08951d042e7fde536ab755189969075a12775b03e4f9bc61c7bbd5528da635"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/map-unit.js",
+          "sha256": "7710e80a391586d418eb5823d782156466a07d45c80e9e46d7b71aec4f911f62"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/monsters.js",
+          "sha256": "756725e0bbc35b0cde731feca500416c4f284720e1591538f2dd891bcb6d0c7f"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/parabolic.js",
+          "sha256": "d7451005b76a66add99231d62d2c7e9b254f4517bc9650e38b975ae62e218c02"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/pawn-equipment.js",
+          "sha256": "b4aac938e379a5ddfffc2825877ef863d5809c637f2cccfa7d5dc88eebd4e5e4"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/progression.js",
+          "sha256": "75c55f0195bd8e090c75163cd22bb75399b1f5c3d6a192ac864c4797188294ee"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/reader.js",
+          "sha256": "3c760ab6fbc936fb5aeb47a5140b28b67766e82902707e5d4c7fbb5b77182373"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/samples.js",
+          "sha256": "2d9f778476043613b4b6f5798f3b9f3e2df59f582444a97f269fbe6d37208592"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/shop.js",
+          "sha256": "a9194f3083a0b5fa383171640b3f9575920f35ff1486fb4081a47ed43de57d36"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/stats.js",
+          "sha256": "ca9242eec02877c278e20243ba8b60575b8270db03e37ff4a6c91697393ce854"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/statuses.js",
+          "sha256": "59af5abb0ebea80236bd92a7c98dfa442558bef3d9c07a795f86cbb7a3639253"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/summon-hit-affixes.js",
+          "sha256": "7bccb106576f6fc4b0cae760e640dc73d1995ef2a8314a7bb876477b54bd6a10"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/tags.js",
+          "sha256": "36770d8e20adbeeaaafec423412d3ec19ea1231a1c13b7bdea6292f5c2d511f5"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/trait-tiers.js",
+          "sha256": "711eb2cbb58b32a1808b911319a739fb3572c8d76515d05f57e54a486728d895"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/trigger-skill-affixes.js",
+          "sha256": "897d7bacd16016a557b64b6982dad26b3c189c2d4d2cd8c15afbd3aefadef9ec"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/types.js",
+          "sha256": "83430b6dbed31d819bf599c5214660a18aa1a953babdfceaff1be4fcce161cae"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/engine/world.js",
+          "sha256": "5648a852f523c30f1a05d54da16542d4c23e7bf3dbc0187d89ed5685b8d204f2"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/public/affix-text.js",
+          "sha256": "4a99bc580b724da2a53450109d011c509266ac6baf5e8e99390425039a76e051"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/public/ground-loot.js",
+          "sha256": "0409be4fad2266b7975678d8a462091a64fe8b71201eabb45c0e2ce0a8674c0e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/public/prefabs/loot-markers.js",
+          "sha256": "08d70ff12ea767176ac3710c5015b5c51616f1a4ae008c98e55d6820e1666ef9"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/public/prefabs/loot-style.js",
+          "sha256": "04e25eae9d80d6c0deef3cbb114fde3e589469d9575d4dc39c2322757afcf1e8"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/atlas-engraved.generated.js",
+          "sha256": "ec736323a5cea3f5d42d7b3d9fde3396a0845a3bcd1ac459a4e7b3ec4c40e3e6"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/atlas-engraved.js",
+          "sha256": "c8b616628fb2856bcda752e00d4044b2b058eba15e1531aa2dc9838318ad1f7b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/atlas-entry.js",
+          "sha256": "87e98eb1712eed4a082618a61dacbf80cbfb89993e4a554d487f17edbb28a96e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/atlas-player-location.js",
+          "sha256": "65ccc4a6681bdf04098cd4e64edc4cc7ec97dfc1317ebf80cdf2393265cf59a4"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/atlas.js",
+          "sha256": "5988f64ef52105aa6b3333073ae6f8d56df2b547ebf0629feaf93a644b68a661"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/aura-state.js",
+          "sha256": "3d7c8901c32205c93b41c51f1d89ab1d23430440286fddc694379e319a348f9b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/character-bag-grid.js",
+          "sha256": "a2b706e575aea6af222cb8f99d721975ec3f9ce4a17fe3e6a640e0cca7599f20"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/combat-layout.js",
+          "sha256": "b6aadd80e4f0a2ae00854aeb4157daff09235b4b448a072db8187421d253a941"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/context-menu-style.js",
+          "sha256": "1508294fb425461aefc968402bcb0560ed94b190fa7bc20517a7fd8711c3afcf"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/definition.js",
+          "sha256": "014edd0d3415beaf6ad2614a087046405c0ca5b62c6677ae8051aaf5b7f09ecb"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/drop-studio.js",
+          "sha256": "a2e77f2e2708a7d4aa1454ba775bc58de570af51d41dc2fda23b82f40d773214"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/dungeon-map.js",
+          "sha256": "601e46220517dbd85b313ee7dde015dabb5ae0ea3f7267e223ec7ce5459fa6ac"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/equipment-art.js",
+          "sha256": "1428d5b018fda3adf0df8b686de00b6121b877e7b691bff881de8c65ad04cc65"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/equipment-cell.js",
+          "sha256": "521ff5f3601f6caefc6260299d13d182ee44fe43b5d03a42796efc1deb56bc9f"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/equipment-style.js",
+          "sha256": "ca287e4b43e04bafa503226e127ca464ebcbbab1f17851b9a7096d40b2bb0f20"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/function-rail.js",
+          "sha256": "ce5ca751eb6225ed43b5f4c80761b46bbdf88fceb08dbc5f858066595eebe570"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/inventory-compartments.js",
+          "sha256": "3db8e9305fb30769cc3ade119e61974a3a6fc3522dcda9a98617170de1d3097d"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/inventory-notices.js",
+          "sha256": "70367c9b06f3843fb1501a123f9f3fe7571a0f40b937bd747ce1691e40c503b8"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/item-tooltip.js",
+          "sha256": "be2a9268ebe15ff3c4a73268a3f08abcfafc4236aec329e2240aa19cffd76768"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/map-core-controls.js",
+          "sha256": "f159c039eb24206b0fe26c292d02e760705562b6d830d9a4d4600a8ab050d041"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/map-core-selector.js",
+          "sha256": "7e569729b946a747be22b37120ac61f79538c8ea95debba666114038ee0268e1"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/map-device.js",
+          "sha256": "c2767ec81e9d261b44005430088202089baf76166dc458175963865cea4aa8f6"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/map-event-markers.js",
+          "sha256": "e520f534f8433b06bd72e5e416908bea7aff316a22832ee2dcdc6cfdc706b2f3"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/merchant-launcher.js",
+          "sha256": "056204dae72540b6c112a715391f07c45bd77435272c346a77025754b04eda33"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/merchant-purchase-menu.js",
+          "sha256": "39670fd9b07683f1d3cb3567e2f88b58f5334ca474fa48cb7b4109a4924ed238"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/merchant-selection.js",
+          "sha256": "9bc69fdc09109c0747e49699b88b9fcc3d2285e1cf71323b9ac73cdb8845958c"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/player-effects.js",
+          "sha256": "dcc7b65ee9ab790a5067cda333d1f7f372d58588aef71d826c0b5fbf4cab3a7f"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/project.js",
+          "sha256": "e6f648a0ccd68a78257b8dd499edf4e9e3a42bc615cd2913929f9674ed050812"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/skill-picker.js",
+          "sha256": "6f322e842a0047f234777be0e2955529f47220ba8368c754ded468fd5cdec989"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/suite-art.js",
+          "sha256": "170851e31835f5d5964c37628aa0614a1ba1e59b8b91268b6ec143a4f9f63520"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/suite-data.js",
+          "sha256": "3e99275fa7a95569eae2aad6b6786ece582ed29028681d8628a527fa1f9d8243"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/suite-kit.js",
+          "sha256": "2324f1315bff81509b2233a884bfdbff7728b91cec048d3a40df6b82a1099f05"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/suite-pages.js",
+          "sha256": "0f21928cea1db72faa6dd8c051497f77b53aee69791a05a5d6af2aca1b65f7aa"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/suite.js",
+          "sha256": "dde48d0b043115305f2e398b92319952282f6eb7a07d3e483f1d5cbb11e6a1da"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/traced-icons.js",
+          "sha256": "051262d68944e498acae58e8e99b26a8d603e29f584bc648b759765fc65a7f67"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/trait-equipment.js",
+          "sha256": "ff33a7190c28677214036a6d8aaf49ad62c96cfa93d9439507e75b291341fc4d"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/starter.js",
+          "sha256": "45325ea08769d3450caa35973dfbc52d88bd4542a8b5d7b1f5259dd3d77394b0"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/svg.js",
+          "sha256": "1fceff80da6e0b8fea681e87ac9a4d6bfb1349d998b5c524d1c856cfcc70a011"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/ui-sounds.js",
+          "sha256": "35802f1424303c9d4080eb38ba6e7eb943963266a7687f510bb092f8796dbb35"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/world-overlays/entity-overlays.js",
+          "sha256": "c9b9e664e5d0ade6580c3d5f6955de9a07955ffdc056a96016d86a4aa7a33bfa"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/assets/world-overlays/stun-crust.js",
+          "sha256": "91f7d3c9dd672d735adf54a4c3715b15d8fd0dfcb841abcb88bbe449977431e3"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/core/audio.js",
+          "sha256": "8cfdc233939d057061a58d2f7f24eab9034885f183496cce3d85d63431c2ca78"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/core/folders.js",
+          "sha256": "2cd4f73100a72cc9b9ce54a3a3862e64bb842d714a3af5632934e7fe2453bc8e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/core/layout.js",
+          "sha256": "bbed7bc77010d425b4b54c5b5d95f7b04ab98a5a2b490648b532f3b43b57cb71"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/core/model.js",
+          "sha256": "ecd09d5cb23cc6d3a578578ca5fc5004d9c37f8031b677ac4fce5bfc5332de59"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/core/motion.js",
+          "sha256": "1c831a96c042f9fd2399422790bf050a4590ae42bdf84886635d99fff5558442"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/core/prefabs.js",
+          "sha256": "20c2eb4513bfaae9a04301ba77870997262e48810c61d09a0f299e3d16144f1c"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/core/store.js",
+          "sha256": "1144d8d16c1fed00776325085c57537cb918fdf7de699fdf63914529c0ecff07"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/dialogs.js",
+          "sha256": "92c2973215d2cf975dd05178f11e3f6adf78f53fa5274749d5333af711a3750e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/dom.js",
+          "sha256": "d961ac906c3232545a1fff7c973912fa04d9f78b8a080db01ef8fdc06867a24f"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/inspector.js",
+          "sha256": "eaee8bb70d39a41d50182cfe811c6450d624ff71b1041015ff3e4329a344f767"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/library.js",
+          "sha256": "18ce3d9a6bd5134505e9a51335c7f47f0128ce688dc130fdde056b6df7cb9438"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/main.js",
+          "sha256": "b39c487ab4225b9abe9b2427e83ebbb55d2f843638f3cc394a91d62fb5e52b7d"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/motion-editor.js",
+          "sha256": "d8bf805e0facdb90ba93f450af339d9d82bf4fe0e285ae3c6d3c04638ea2ba8e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/screen-frame.js",
+          "sha256": "187e0165d6cdd0cd334d68bae9ed5b2d209bc926f1092a5a33095a518d295554"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/sound-editor.js",
+          "sha256": "8a9883662182e34243adaf66058be75d3ddbd4563c8fc067a69a5a3543025b20"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/editor/stage.js",
+          "sha256": "4184e6d11965645ffb4854ac0fe058f4dd6f2843d11f23357d4c426375dca30a"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/io/adapters.js",
+          "sha256": "4edc2401b4e6f2a7c89e2131de6bcc94147009a923b497bc340fd7d736d5880b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/io/html-import.js",
+          "sha256": "3375505a5988be30e3d9824d0190de013a733e353d102779d642c476414f404c"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/io/project.js",
+          "sha256": "429de4e30ca32b120b6e8041afd34a348203339ee7d7bc382c524dd10f93ef75"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/render/edge-motion.js",
+          "sha256": "320cf5abe5321d61b35f458f7b36da5e593c734f382a8043b459e34ca61ba84c"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/render/motion.js",
+          "sha256": "3c39d31d578eaf6b9c142942bf850fccafcabb98570563426e67a882706ba7a0"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/render/svg-renderer.js",
+          "sha256": "cee871d8d399fc8f8089d915171ca96ef75ba0acb7c03e850635cf05d9dcf233"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/audio.js",
+          "sha256": "92be4ca7bc0eec8eb6e651123fc01964f0e002e2e0581d60596ba7134e102501"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/battle-hud.js",
+          "sha256": "9bb0661005e73650a33844eeed350fdf4f30dcf327c34159dca9c660efa7d9d8"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/battle-suite-state.js",
+          "sha256": "2e51caa956caccd967001a2fc65cb44ee19edc513bcf2096c86344d1e1739420"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/battle-suite.js",
+          "sha256": "79f61f93b5d6a9ee25d88ce1bf522b6f7ac18c28ecdc426b8e395d882f2896e7"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/inspector-crafting.js",
+          "sha256": "38177229c312abb22926ac19dfd14d76ea8a1bfa4af048440996639b3080f20b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/item-inspector.js",
+          "sha256": "9edc74e5431c3d1e7642baf8ea33f87ace4e6587c1fd8af184385dc5b40a70bb"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/loot-prototype.js",
+          "sha256": "32c38ce997ecaa5dcf7e02f2440c5b74d0a0e979c50bdc5b96c96dc2710f6198"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/map-core-selector.js",
+          "sha256": "8c61d9953e93dc5b1055f6c274def1d917481287027ec8e4cb1dff25ea965d83"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/map-device-state.js",
+          "sha256": "491d73fa01d9a8504a060384697a6046139d242b9062f330796670d4023ec880"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/map-device.js",
+          "sha256": "67ebd68aefb199163d6b25885f2cddcff24bdd42da9096c22f5afeddca4e8663"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/src/runtime/runtime.js",
+          "sha256": "7c0377e485a9a0fc85d4714875b63c057b86e5d337485bdcd287f4cde7c48b63"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/audio.test.mjs",
+          "sha256": "12bc021e622991aab1f70521e7562f3cb8603d00c0b3add082c15a9fcea3b9b1"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/battle-hud.test.mjs",
+          "sha256": "f376f295ab6f0ce0afec3debbcd037b5d34b786e01d84edc2d4843e0abbf8c11"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/battle-suite.test.mjs",
+          "sha256": "da2d0f56dcdeb10f3ccc2a664d537f45994e507d80cda2fc305e8dbb3607d233"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/core.test.mjs",
+          "sha256": "7dd86d04cfce8c255cfca9ac77f9a6f679ff645fef827174897bbf36ddb1bc0c"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/edge-motion.test.mjs",
+          "sha256": "52587062ca4b998569545b99ef5ee4b956b264c202579103f41a78ed0271498e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/hud-darksteel.test.mjs",
+          "sha256": "315f1e4766b819297dd7be04797a6e8c61a3fd73cd12898c5033b49a3d254fb7"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/item-inspector-crafting.test.mjs",
+          "sha256": "d9282aaa7a78485907b50dd78c2d270d216aad33c1080eb69023abe8d2d89fbd"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/loot-prototype.test.mjs",
+          "sha256": "c098905a7ceb8dd253ad7c381f6d137febb627663c5688136777e9102a16f398"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/map-core-selector.test.mjs",
+          "sha256": "a2646af5196ebda271c666cfa535ec5f984d4f8b81771a1c866de78ef329cf3d"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/map-device.test.mjs",
+          "sha256": "c44fa2c990fd51d9304e7d816aca283a7a05a0504ec2476b68916a9b3d3d3304"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/map-item-inspector.test.mjs",
+          "sha256": "339562f826cfde9113f958c0c918e2e7af1f2d4d5384cb0cf3f89d12d9b73264"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/motion.test.mjs",
+          "sha256": "39cfc3731b33b3d02347b6a3f0cee97ef50e633cbf3220fadfc2af38110fa604"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/native-wbp-export.test.mjs",
+          "sha256": "db060a3ebfb472bcc6cca32608c16a0b79dc5dddfa500a971f829d30c647480a"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/nine-slice.test.mjs",
+          "sha256": "d1761deefd9146c5004914d0ba95a4f2981538216348269ee51b3159170c7624"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/runtime-name-patch.test.mjs",
+          "sha256": "9f1faaab9431627c225c9f8ce22f38319e0ba1782b9d52a2010de011eeb7ecf9"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/screen-frame.test.mjs",
+          "sha256": "47fe5366740eaeea93034471cfc93c02445571da1ab5e54d969af3be64899e7a"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/tests/server.test.mjs",
+          "sha256": "855392623782639a19eeb46c8ffbbae650525fbc847f3f3fc6d133ad55837f19"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Content/UICreator/DA_CurrentCanvas.uasset",
+          "sha256": "03499b9a547cb3ea7d6a043d30a106af352a1fee9b4f32d03e81e55aa15bfdab"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Private/SvgCanvasEdgeVerify.cpp",
+          "sha256": "c4d137d9952efbff713866b70c2e91df89bb0e6896dbc00a0ad52724da9827dc"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Private/SvgCanvasEditor.cpp",
+          "sha256": "c530a10f068942bc6c83208a7b4c87b564f53df4961a239f3735b4d9808659f8"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Private/SvgCanvasMotionVerify.cpp",
+          "sha256": "775030958a8a46d677bd8bb035170d0f5a38c22a2e84f83fd1b120a708448424"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Private/SvgCanvasSoundVerify.cpp",
+          "sha256": "cb793a31daa43476d2b7bcc0fd51c82244e3e326d7f50fef3d2a353b05a837d0"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Public/SvgCanvasCommandlets.h",
+          "sha256": "2fac40d8bac5d27258786a6ac75cf2ac522a997b9476b7c876222f2a30caae83"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Public/SvgCanvasEdgeVerifyCommandlet.h",
+          "sha256": "0f6f74386847d3b466c62963f7f475673488c00de58f74e58c64d25c032797ce"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Public/SvgCanvasMotionVerifyCommandlet.h",
+          "sha256": "18d3a4937cf28512246d17736f356a248e678e0e0c75abb0e80a9d42d0e7b4bc"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasEditor/Public/SvgCanvasSoundVerifyCommandlet.h",
+          "sha256": "0ea4ba35f8d47d6c14c59bc3a06b48bbcbe29748cf3c31cdde282a14943e414f"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Private/SvgCanvasAudioVerification.cpp",
+          "sha256": "372123d59bc33236129d8b88442c98d1ad20a622d768bcbfe2b62ff29f24c2d1"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Private/SvgCanvasEdgeImage.cpp",
+          "sha256": "2297034c6904c926ede2455021fadc4f36a8f575294872309c00b2a619c3d51b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Private/SvgCanvasImage.cpp",
+          "sha256": "a4869bc03dbbb1cb6891bac70c0c001efe102029d522f32e4c337d22e8abbf94"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Private/SvgCanvasMotionAsset.cpp",
+          "sha256": "6aec46fdd265083cfb542733078711f15f277436c114641ea6cbf5c28c1679e0"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Private/SvgCanvasMotionNode.cpp",
+          "sha256": "866d5f8bb341760dab415b760a080e270118093ce31ce910f476d2e24362012c"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Private/SvgCanvasResponsiveLayout.cpp",
+          "sha256": "e4a4b07600d2c6a1ff75b09d1725c9688da244fef550de56c0fe38299f1e17da"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Private/SvgCanvasRuntime.cpp",
+          "sha256": "971e30972e6a7a47b9d06edb571eda98b636cd3277dcf2de5d2dc34dac343198"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasDocument.h",
+          "sha256": "8f4fb12c3f72dcc8e215dd0be5679284f52bbe67ab77e937c904a0b23b4238d6"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasEdgeImage.h",
+          "sha256": "ccabebb5833c036ab8edae4312c8f67e832e46da6b4593d61748a1b5cccc6767"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasImage.h",
+          "sha256": "cf62b8ab85db59b863a8e7f596516eff38ed2039822d6ba1191c003c8c8d72db"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasMotionAsset.h",
+          "sha256": "5588c021123ca6cb0b93e39e2c6896c20230c4ef3012781472ae15680b072772"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasMotionNode.h",
+          "sha256": "fe0ad2335be456722504027fe14037797dbebca9ed2e63f4d5813e4e035a933b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasNode.h",
+          "sha256": "85f12e3d821354cf6bbcac4d94d198821b7536d5e369bb782fef1c0917201116"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasScreen.h",
+          "sha256": "ba16c8e8919627fa4e48ca45b12e36fcf309a9423da427acccdb953dc3fa9f99"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/Source/SvgCanvasRuntime/Public/SvgCanvasSoundAsset.h",
+          "sha256": "15aacd3568e21961fa3c51170c52a7998d56c2f516214f203ed65b4318ad2255"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Plugins/SvgCanvasBridge/SvgCanvasBridge.uplugin",
+          "sha256": "168a5315ba7b6643e9031316ba10e42d05b7506e9d33b41c272c6565bb65f614"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Source/SvgWbpLab/RuntimeVerification.cpp",
+          "sha256": "c6e1d3c3f5e7e3710f20c401b52626754356ced4c4826af6bc0eee8d29014946"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Source/SvgWbpLab/RuntimeVerification.h",
+          "sha256": "f540bdde74f2172e33bd70b3ac6423f50863324275e9c26bd6c83b9fce094e43"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Source/SvgWbpLab/SvgWbpLab.cpp",
+          "sha256": "39eeb20ef1205e9d93cbd9d287f654a14bdbfb2557392ffe0a7f2c8b5fe35aed"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Source/SvgWbpLab/SvgWbpLabGameMode.h",
+          "sha256": "54b5bad66f33c3a6773feb449776996e4ecc9e32e37efa1dabe9f97971d55790"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/SvgWbpLab.uproject",
+          "sha256": "0a9ce9ea7c7ac424c92e8e9dcbf496de1e8421534b80a47d38fb6f518bfc0d60"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-hotbar-picker-20261028/project.json",
+          "sha256": "8dfea085a5463bf824a17840723b867f3956f49b10bf9d74769fa1cc74f802bc"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/hud-darksteel-20261024/project.json",
+          "sha256": "7293f5ecd3495316fe529272bcdbdccfb367341d7774496e3981c66cc963576a"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-drop-studio/project.json",
+          "sha256": "7ae6436ebec80a343b4e965775d04c572bac732a9dbcccfdf7eb75999a818be8"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-map-device/project.json",
+          "sha256": "aa4ad8126cc8336b754709d1412120610bf363fe7394d124f17274b905646b78"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-studio-sync-20261026/project.json",
+          "sha256": "5c6bab0389eb76b8a3d09407d2985a09515b3926fdf41a83d89afef25f078ffa"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-world-overlays-20261025/project.json",
+          "sha256": "2563a9bc7104f1994a7fca1bf86f1e91e57147a7ee94b9ffc99c298ef1b9853d"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-dungeon-map/project.json",
+          "sha256": "9b331eeb23026f0ab1a40531a96c58d1278a49fa5d243a1a6fe80b09c11f504b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-map-event-markers/project.json",
+          "sha256": "278c806e9603d40b9d47d5acd4d640a4961381563df507ad6c2ff836667e56a9"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-studio-iteration-hud-20261027/project.json",
+          "sha256": "69b4c7ebc730bc0029f338baa92b45e9674935fc80b37145014868957c791fcb"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-atlas-player-location/project.json",
+          "sha256": "c9fc936fc7263cdc85777af862dd79ff1fe5d28418a05b061036ace572e8b860"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-item-inspector-3d-20261025/project.json",
+          "sha256": "48e33ad927ae27b72de45c21ce5817851698d909e38462a49382b5123b646078"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/studio-atlas-entry/project.json",
+          "sha256": "3812af868c9ebaf171f01c6a038556443cdf1f67e62f4e0022a8c2251909e0a5"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-player-stun-overlay/project.json",
+          "sha256": "fa872e6017d0eeafc3c3f88d94cd9d6e73a70a5fd9a3655991c7650a84b707e7"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-outpost-merchant/project.json",
+          "sha256": "e119f4cdc67a2a83d417d1e6aa4daefd190ccac2b7bf9442687889ee3fea8da8"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-dungeon-exit/project.json",
+          "sha256": "d0cd69b9c90ec1eaa69c0b5b420b8295aede4c6f71e071d9ceb11efe49401f60"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/studio-trait-equipment/project.json",
+          "sha256": "c121c418608756495718e3eeef489d76e9e9c58ba7ffe107593afcfc2b0e75d5"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-item-context/project.json",
+          "sha256": "9be4ba16e536b71fba896248566df98174f3e61c6c7d9a5724b9ed11ab5c4aae"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/dungeonworld-android-controls/project.json",
+          "sha256": "c6b91a1528f298936ad154c1c1ab5e06c0378a3f2f87b5538f5ebd87d0362260"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-map-events/project.json",
+          "sha256": "1c53aed79fdeb876d061f1d16d6d3fb8dc05fba04695916431ca026d8723a8a9"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-studio3d-map-events/project.json",
+          "sha256": "ed16c001e1426efa71a1d8fba7da0b34679cde371cd22f7a04ff0e4d5a54a21a"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-recent-gameplay/project.json",
+          "sha256": "f3c429716be015adfca542b5ace456562424b9921b552e0e9c3a752866d39a77"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-talent-constellation/project.json",
+          "sha256": "1c165fc8176525ee634fbb42695565782490c8783ca3d7c184d0ada85280cb73"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-wind-breath/project.json",
+          "sha256": "500abdd8894741eb0ed716c275d011bc87fdb99ee4dc496241e8b93dd0032c06"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-studio3d-build-menu/project.json",
+          "sha256": "1d58f83ff2a883615c5087ec67ae9a0789e384c574f7434fe871f6454b6e7d96"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-studio3d-quest-tracker/project.json",
+          "sha256": "7211c487844a14f02655e898d38f0c70ef446ea0117bcb884da8e15fdaf0b598"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-inventory-notices/project.json",
+          "sha256": "de4da315fac8c14ab064b6da50fd53e0624890d8209e5361683265cb660a1c2d"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-player-effects/project.json",
+          "sha256": "66d58f50407ef269a8474d464a4b1bbd491448946706bc7ae21544fcdbd23d44"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-native-material-icons/project.json",
+          "sha256": "5c95aa848fd98bad6bdc593fa6e098f849218e4261425958f820d3c7f1522295"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-rulestudio-loot-ue/project.json",
+          "sha256": "3789f31a946299808c57d935d84fcb024ba56a552088c5a9676907cbcd84b2fd"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-rulestudio-loot-20261025/project.json",
+          "sha256": "ee94eacf1107e409dee4dab1646d67420424597ef0bfb53735864e7fcb52f23b"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/opus-hover/project.json",
+          "sha256": "4f2415e7aeffa30827c2464e14571c57c6c73551837be3241178cda99a02b213"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/hud-ui-audio-20261025/project.json",
+          "sha256": "3aafa2270fac36906859082d91f3e90c171f6e889161c9c9b3cda3112a70252e"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/hud-motion-assets-20261025/project.json",
+          "sha256": "5332e211552da5d485fa6c6e2d8e5cb4c26e7f15366df59c06512d4d01f62d09"
+        },
+        {
+          "path": "CustomTools/UICreatorAlpha/data/projects/624546fa-1ad1-45dd-b7f1-4a493ffc0251/project.json",
+          "sha256": "cc21e25e4e840746a87a5ad3c3b9f3d25daecc5d85efb4b7961385ad0876f902"
+        }
+      ]
+    }
+  },
+  "repository": {
+    "url": "https://github.com/SkadyCat/DWEngine.git",
+    "branch": "main",
+    "description": "Lightweight Opus baseline with editable UICreator and isolated SVG UE project",
+    "largeFileThresholdBytes": 10485760,
+    "packagingEdits": [
+      "README.md",
+      ".gitignore",
+      ".gitattributes",
+      "CustomTools/UICreatorAlpha/.gitignore",
+      "Docs/OpusOriginalREADME.md"
+    ],
+    "uiBrowserVerification": "ui-verification.json"
+  }
+}

@@ -1,0 +1,7 @@
+<Project>
+  <!-- UBT regenerates Intermediate/ProjectFiles; keep this hook in source control. -->
+  <PropertyGroup Condition="('$(MSBuildProjectName)' == 'DungeonWorldOpus' or '$(MSBuildProjectName)' == 'UE5') and '$(MSBuildProjectDirectory)' == '$(MSBuildThisFileDirectory)Intermediate\ProjectFiles'">
+    <OpusPreviousAfterCppTargets>$(ForceImportAfterCppTargets)</OpusPreviousAfterCppTargets>
+    <ForceImportAfterCppTargets>$(MSBuildThisFileDirectory)Tools\Build\OpusEditorBuild.targets</ForceImportAfterCppTargets>
+  </PropertyGroup>
+</Project>

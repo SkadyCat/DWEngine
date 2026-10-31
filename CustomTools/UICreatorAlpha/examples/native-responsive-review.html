@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>弹窗自适应 · SVG / UE</title>
+<style>
+body{margin:0;background:#10161e;color:#d5e0ed;font:14px/1.6 'Segoe UI','Microsoft YaHei',sans-serif}header{display:flex;align-items:center;gap:20px;padding:18px 24px;background:#19232f}select{padding:8px;background:#202e3b;color:#d5e0ed;border:1px solid #466273}a{color:#9de0bc}main{padding:20px 24px}#status{white-space:pre-wrap;margin-bottom:16px}.captures{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0}figure>div{width:100%;background:#090c12;border:1px solid #384957;overflow:hidden}svg,img{display:block;width:100%;height:auto}figcaption{padding:8px 0}#source svg{pointer-events:none}
+</style>
+<header><b>弹窗自适应 · SVG / UE</b><select id="state" aria-label="弹窗"><option value="character">角色</option><option value="inventory">背包</option><option value="shop">商店</option><option value="atlas">异界星图</option><option value="skill-detail">技能详情</option></select><select id="size" aria-label="屏幕尺寸"><option>1280 × 720</option><option>1024 × 768</option><option>1600 × 900</option><option selected>2258 × 1080</option><option>2560 × 1080</option></select><a href="/?project=hud-darksteel-20261024">UICreator</a></header>
+<main><div id="status">读取真实 UE 验证结果…</div><div class="captures"><figure><div id="source"></div><figcaption>网页 SVG · 同一份冻结工程，按所选屏幕重新布局</figcaption></figure><figure><div><img id="native" alt="UE 原生弹窗"></div><figcaption>UE 原生 WBP · 保存后重新加载，直接渲染</figcaption></figure></div></main>
+<script type="module">
+import { UIRuntime } from '../src/runtime/runtime.js';
+import { BattleHudController } from '../src/runtime/battle-hud.js';
+const query=new URLSearchParams(location.search), job=query.get('job')||'wbp-ac273a29-3276-4efb-9efe-9abf74c0cb2b', base=`/exports/${job}`, $=s=>document.querySelector(s);
+const record=await fetch(`${base}/project-record.json`).then(r=>r.json());
+let receipt=null;try{receipt=await fetch(`${base}/native/reload-receipt.json`).then(r=>r.ok?r.json():null);}catch{}
+let runtime,controller;
+function show(){
+  const [width,height]=$('#size').value.split(' × ').map(Number),state=$('#state').value;
+  controller?.destroy();runtime?.destroy();$('#source').replaceChildren();
+  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');$('#source').append(svg);
+  runtime=new UIRuntime(svg,record.document,{width,height,motion:false,sound:false});controller=new BattleHudController(runtime,{keyboard:false});controller.state.open(state);controller.refresh();
+  $('#native').src=`${base}/native/dialog-${width}x${height}-${state}.png`;
+  const check=receipt?.responsiveSceneChecks?.find(row=>row.state===state&&row.width===width&&row.height===height);
+  $('#status').textContent=`${width} × ${height} · ${state}\n${check?`保存重载后核对 ${check.nodesChecked} 个控件，${check.inputsChecked} 个点击区域；最大布局误差 ${check.maxLayoutErrorPixels.toFixed(5)} px。`:'尚无该尺寸的原生验证回执。'}\n这里核对自适应布局；严格像素差异结果见导入包的 pixel-report.json。`;
+}
+$('#state').onchange=show;$('#size').onchange=show;show();
+</script></html>

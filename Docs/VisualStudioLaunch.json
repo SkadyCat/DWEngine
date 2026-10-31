@@ -1,0 +1,10 @@
+{
+  "solution": "G:/DungeonWorldOpus/DungeonWorldOpus.sln",
+  "configuration": "Development Editor",
+  "platform": "Win64",
+  "startupProject": "DungeonWorldOpus",
+  "executable": "G:\\UnrealEngine-Angelscript-5.8.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+  "arguments": "\"$(SolutionDir)DungeonWorldOpus.uproject\" /Engine/Maps/Entry?game=/Script/Angelscript.DWOTowerGameMode -game -windowed -ResX=1600 -ResY=900 -NoSplash -NoLoadingScreen",
+  "regenerate": "Generate-Solution.ps1",
+  "validation": "MSBuild ValidateSolutionConfiguration and generated project/debugger/startup settings verified"
+}

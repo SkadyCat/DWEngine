@@ -1,0 +1,104 @@
+{
+  "verifiedAt": "2026-10-25T20:25:28.690515+08:00",
+  "ok": true,
+  "project": "G:\\DungeonWorldOpus",
+  "skill": "taunt",
+  "activation": "manual active skill; select slot then left-click or Space; no enemy lock required",
+  "grant": "player_character_equipment fixed character slot",
+  "durationSeconds": 2,
+  "independentCooldownSeconds": 10,
+  "attraction": "existing and newborn hostile projectiles only; allied and player-owned projectiles unchanged",
+  "immunity": "native hit and DOT damage rejected; no life/shield loss or stun buildup",
+  "composition": {
+    "build": [
+      "create_taunt",
+      "self_targeted_cast",
+      "independent_skill_cooldown"
+    ],
+    "status": [
+      "hostile_projectile_attraction",
+      "damage_immunity"
+    ]
+  },
+  "ueGameplay": "AngelScript host policies; existing native apply_status and carried-trait composition",
+  "rulesSemanticsChanged": false,
+  "randomAffixPoolExcludesCapabilities": true,
+  "native": {
+    "command": "Tools/Verify-Taunt.ps1 -Visuals",
+    "groups": [
+      "CompositionAndFixedEquipmentGrant",
+      "SelfCastAndHitDotImmunity",
+      "ExistingNewHostileProjectilesAndExpiry",
+      "IndependentCooldownSwitchPauseAndRecast"
+    ],
+    "log": "Saved/Verification/Taunt/runtime-visual.log",
+    "transientProfile": true,
+    "realAnimationRelease": true,
+    "switchRemoveReassignPauseRecast": true
+  },
+  "web": {
+    "command": "node --test tests/taunt.test.mjs tests/stun-crust.test.mjs",
+    "passed": 9,
+    "failed": 0,
+    "log": "Saved/Verification/Taunt/web-tests.log",
+    "equippedSlot": 3
+  },
+  "stunRegression": {
+    "groups": [
+      "CompositeMeterBoundaryAndDecay",
+      "NativeThresholdInterruptAndHalfSecondControl",
+      "CrustBreakAndOneSecondRestore",
+      "ShieldOnlyHitsAccumulateAtFullLife",
+      "FixedEquipmentHUDAndRecovery"
+    ],
+    "log": "Saved/Verification/PlayerStun/runtime.log"
+  },
+  "hud": {
+    "job": "wbp-7127f10b-e6dc-439b-b4be-1f146b2ce309",
+    "sourceHash": "d18273b88f14d410d3ed869b9e3150eec5768f64a9f5bdee856f9a8bdd352e4c",
+    "revision": 40,
+    "states": 45,
+    "earthFillAuthoredInSource": "rs-svg-stun-earth-fill",
+    "newSkillIconVisibilityBound": true
+  },
+  "worldOverlay": {
+    "sourceHash": "6e0d916efb4e5c940289773e4e8a3ee38f4e0850d9b29c663bb3e2dfa55debd5",
+    "nodes": 108,
+    "rasters": 130,
+    "dimensionMismatches": 0,
+    "statuses": 10,
+    "earthSlabs": 8
+  },
+  "proof": [
+    "Saved/Verification/Taunt/web-active.png",
+    "Saved/Verification/Taunt/taunt-active.png",
+    "Saved/Verification/Taunt/taunt-cooldown.png"
+  ],
+  "sha256": {
+    "Script/Opus/SelfSkills.as": "e7155eafcf67af0691be19d939ac2670a2e9dddbd631fa7fa6302c638243f18e",
+    "Script/Opus/HeroVisual.as": "e380d82609fc5e6439552ce466ab48e9af669bcda7a6e69404b80547eaf35d87",
+    "Script/Opus/SvgHUD.as": "2513f84addad521d33798909b1913eac9ab21f9ae4e36c57571b752ea1d45922",
+    "Script/Opus/TauntTests.as": "3cbb54913f1b7c0e8a661a51a756fc1db89c3a40d115300bd0d4a8c8a3316499",
+    "Source/DungeonWorldOpus/Private/OpusDeliveryPolicy.cpp": "01e312d366987518499a7392c7bd8e26ccab99b7346305a286d4ddf8315271d0",
+    "Source/DungeonWorldOpus/Public/OpusDeliveryPolicy.h": "5e9c52f7bd8d7359dae1a16d5168f747fac4dfee506e5b33dc6abfbea9fa1e6a",
+    "Binaries/Win64/UnrealEditor-DungeonWorldOpus.dll": "88f4cabb487565ceee4a2baca2a51eea1a006596d48d2ea1f82f943fd42d51c7",
+    "Plugins/DWRules/Binaries/Win64/UnrealEditor-DWRulesCore.dll": "4424cc45cb45f777eb75df5683294e5c9ee104c02a0d5f4e248e4a189a2a61af",
+    "Content/UICreator/WBP_CurrentCanvas.uasset": "ec20917d9bdeaa548815028a5d2d28f58e256c4bb2cc98e3b2da6d6aac567dce",
+    "Content/UICreator/DA_CurrentCanvas.uasset": "984259ad6928c7aff84e73a04e48c6329c832342744715b69a69e26daf6c7932",
+    "Saved/Verification/Taunt/runtime-visual.log": "86dde0397481a6261cb6721d2af508d99f2a9141074ff910e83ffc0d4499e9ab",
+    "Saved/Verification/Taunt/web-tests.log": "fbd4842ac952d443f6cfcf740e33536f3028c767e15aab09b83b0492f9803c40",
+    "Saved/Verification/PlayerStun/runtime.log": "dc971aea64826420e133cc47b520de76162bf82e4d836de74acf9602ec24b407",
+    "Saved/Verification/Taunt/taunt-active.png": "3866f18db88fd865beda0fb44424ddb0a17cc90d7a0ab495a46bff54d39c1ffd",
+    "Saved/Verification/Taunt/taunt-cooldown.png": "7b75eefca404156193b44c0818ce7b72839f02fbbbdc80fa1df2c95aae9c3024",
+    "Saved/Verification/Taunt/web-active.png": "0428a566d06a1ac9df76b85d454ca43f657f20270e50022d60ba4c49c2777b58",
+    "Content/RulesTower/Builds/taunt.json": "67bf86fe492491a405b76c7a87b05fdac9560c5992ef908aa51433f82f85cf42",
+    "Content/Rules/WebBuilds/taunt.json": "67bf86fe492491a405b76c7a87b05fdac9560c5992ef908aa51433f82f85cf42",
+    "Content/RulesTower/Traits/create_taunt.json": "6819fa4f45dabf9e14315dc98f4dc000b736f9a2016d359e74b2b672b7aa0f9c",
+    "Content/RulesTower/Affixes/self_targeted_cast.json": "68384119b4133a526c7a5c503b6e5ef11f6119d51cdad2ff9926daad57f849bc",
+    "Content/RulesTower/Affixes/independent_skill_cooldown.json": "de64b142aa8bc99e1329a60924bee20243699a271e938acc389fc4fbba5b1fc2",
+    "Content/RulesTower/Affixes/hostile_projectile_attraction.json": "c2c98e93d61560fdb9f3429d831af1c5c57d37286424aa8f53d3a22fc9409dfb",
+    "Content/RulesTower/Affixes/damage_immunity.json": "8461fead1d6423cc2fe1a77d3d5aa05ffbc1d57c551808091357845911352e8d",
+    "Content/RulesTower/Statuses/taunt.json": "1edc071221d9df9d5488a4ec389ab53f025d5bd1f458ca96e39cd1ec0c0be3b8",
+    "Content/RulesTower/Equipment/player_character_equipment.json": "fae822e29851e43cc7be3a1345fc9d9933e15e329c3b9e69d3dcd612ad1504b3"
+  }
+}

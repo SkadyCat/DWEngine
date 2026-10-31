@@ -1,0 +1,10 @@
+{
+	"ok": true,
+	"sourceHash": "179dc17c43dc303c41281b92ea5b35db027d73026baefbe8c40dacf6644fc27d",
+	"soundAssets": 7,
+	"eventBindings": 873,
+	"wavAndImportedPCMEqual": true,
+	"savedWbpReferencesEqual": true,
+	"host": "fresh native asset reload; no audio playback",
+	"assetSettingsAndInlinePCMEqual": true
+}

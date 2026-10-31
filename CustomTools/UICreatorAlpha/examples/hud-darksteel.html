@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HUD · 暗钢快捷栏</title><link rel="stylesheet" href="/examples/hud-darksteel.css"></head>
+<body>
+  <header><a class="brand" href="/">◇ <span>UICreator <b>α</b></span></a><div class="title"><span>HUD / DARK STEEL</span><h1>暗钢快捷栏</h1></div><span id="inventory" class="chip">正在加载 SVG 资产…</span><a class="open-editor" href="/?project=hud-darksteel-20261024">在编辑器打开 ↗</a></header>
+  <main>
+    <section class="comparison-section"><div class="section-heading"><div><h2>参考与重建</h2><p>原始 688 × 170 · SVG 资产与文字分层 · 四态按钮 / 嵌套预制体</p></div><label class="toggle"><input id="context-toggle" type="checkbox" checked>显示底座折面</label></div>
+      <div class="comparison">
+        <article><div class="board-label"><span>01 / 用户参考</span><small>688 × 170</small></div><div class="native-board"><img src="/src/assets/hud-darksteel/reference.png" width="688" height="170" alt="用户提供的暗钢 HUD 参考图"></div></article>
+        <article><div class="board-label"><span>02 / SVG 重建 · 可交互</span><small id="native-status">原生矢量</small></div><div id="native-board" class="native-board"><svg id="native-ui" aria-label="暗钢 HUD 交互预览"></svg></div></article>
+      </div><div class="comparison-footer"><span id="event-status">初始选中 4 号槽。点击 1–4 号槽，或按 1–4 / Q E F G 测试。</span><button id="export-native">导出快捷栏 SVG ↓</button></div>
+    </section>
+    <section class="screen-section"><div class="section-heading"><div><h2>HUD 界面预制体</h2><p>1600 × 900 · 底部中央锚定 · 等比缩放</p></div><select id="screen-size" aria-label="HUD 预览分辨率"><option value="1600,900">1600 × 900</option><option value="2048,780">2048 × 780 · 超宽屏</option><option value="1280,720">1280 × 720</option></select></div><div class="screen-stage"><svg id="screen-ui" aria-label="完整 HUD"></svg></div></section>
+    <section class="asset-section"><div class="section-heading"><div><h2>独立 SVG 资产</h2><p>基础图形、技能槽、快捷键槽各自归类；文字和按键保持独立控件。</p></div><span class="chip">SVG SOURCE FILES</span></div><div id="assets" class="asset-grid"></div></section>
+    <section class="prefab-section"><div class="section-heading"><div><h2>可复用的层级结构</h2><p>HUD → 暗钢快捷栏 → 技能栏 / 消耗品栏 → 原子槽位</p></div><span id="validation" class="chip">正在检查…</span></div><div id="hierarchy" class="hierarchy"></div><pre id="qa-results" hidden></pre></section>
+  </main><footer>SVG 资产  /  界面预制体  /  实例覆盖<span>UICreator Alpha · HUD</span></footer>
+  <script type="module" src="/examples/hud-darksteel.js"></script>
+</body></html>

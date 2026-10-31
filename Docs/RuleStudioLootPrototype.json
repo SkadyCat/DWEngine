@@ -1,0 +1,27 @@
+{
+  "stage": "UICreator interactive prototype",
+  "project": "opus-rulestudio-loot-20261025",
+  "preview": "http://127.0.0.1:5190/examples/loot-prototype.html",
+  "editor": "http://127.0.0.1:5190/?project=opus-rulestudio-loot-20261025&interface=ground",
+  "source": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/loot.uialpha.json",
+  "contract": "CustomTools/UICreatorAlpha/Screen/RuleStudio-Loot/控件文档.md",
+  "sourceSnapshot": "CustomTools/UICreatorAlpha/src/assets/loot-prototype/reference/sources.json",
+  "dataContract": {
+    "ground": ["key", "kind", "id", "name", "rarity", "tier", "count", "category", "currencyGrade", "origin", "claimed", "x", "y", "sourceX", "sourceY", "item"],
+    "hunter": ["visible", "enabled", "targets", "currencies"],
+    "state": ["pickupTarget", "showLoot", "hoverKey", "pinned"],
+    "actions": ["pickup(key)", "hunter-toggle", "hunter-target(id)", "hunter-currency(id)", "hunter-clear", "hunter-only", "hunter-page(delta)", "hunter-search", "toggle-loot", "details-close"],
+    "pickupRadiusCm": 200,
+    "maxNearestLabels": 96,
+    "packingAttempts": 100,
+    "hunterEquipmentOperator": "AND",
+    "inventoryOriginBypassesHunter": true,
+    "labelsAppearAfterLanding": true
+  },
+  "runtimeDeployment": {
+    "ueUIReplaced": false,
+    "ruleEngineChanged": false,
+    "mainGameplayJavascriptAdded": false,
+    "futureHost": "Lua + AS with existing native data/UI adapters"
+  }
+}

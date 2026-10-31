@@ -1,0 +1,160 @@
+{
+  "project": "DungeonWorldOpus",
+  "status": "integrated_verified_editor_loaded",
+  "sourceChats": [
+    "01a17167-4348-7c93-98f4-08b6b44a9c4e",
+    "01a17168-103c-7fd0-92f8-39533b2a81ba",
+    "01a1715d-3c6d-75e2-a887-2b1b9fdef9fc",
+    "01a17152-c40e-7021-a7af-d42ed92c35c2",
+    "01a1716b-878a-7b53-858e-44ee49777d30",
+    "01a17858-0021-7a20-84a7-7975eedd7343"
+  ],
+  "constraints": {
+    "runtimePolicy": "AngelScript and existing native transactions",
+    "uiSource": "saved UICreator documents",
+    "combatRuleSemantics": "unchanged",
+    "testProfile": "transient"
+  },
+  "features": [
+    {
+      "id": "outpost_merchant",
+      "status": "implemented_verified",
+      "contract": "First region merchant; unlimited T1/T2/T3 maps at 20/40/60 stones; six legendary equipment offers per 30 minute wall-clock period; sold state survives reload and clock rollback.",
+      "label": "拓荒商人库存与交易"
+    },
+    {
+      "id": "merchant_interaction",
+      "status": "implemented_verified",
+      "contract": "Rounded normal/hovered/pressed controls; full bubble opens; left click selects; right click purchases; selected state remains; keyboard access and read-only item tooltip.",
+      "label": "商人鼠标、选中、四态和浮层"
+    },
+    {
+      "id": "trait_equipment",
+      "status": "implemented_verified",
+      "contract": "UICreator catalogue; frostburst_staff uses frostthorn_staff, frost_lance and chill_consume_burst; independent T1 magic instance placed on real ground; ordinary pickup; no loot RNG advance.",
+      "label": "特质装备列表与真实地面物品"
+    },
+    {
+      "id": "dungeon_minimap",
+      "status": "implemented_verified",
+      "contract": "Circular minimap, wheel and button zoom; expanded map, drag, F recentre, Esc close, bounded drag with spring return.",
+      "label": "圆形小地图与展开交互"
+    },
+    {
+      "id": "exit_portal",
+      "status": "implemented_verified",
+      "contract": "Boss death clears; real portal opens atlas focused on current region; reachable neighbours highlighted; remote click approaches; clear travel label.",
+      "label": "首领末端选点和出口自动寻路"
+    },
+    {
+      "id": "map_tickets",
+      "status": "implemented_verified",
+      "contract": "Central corresponding map required for paid destinations; successful admission consumes exactly one; failure consumes none; initial region free; return to current encounter consumes none; remember current tier after consumption.",
+      "label": "地图票与实际层级"
+    },
+    {
+      "id": "inventory_compartments",
+      "status": "existing_reused",
+      "contract": "Shared bag excludes one worn copy; spare copies stay in stock; equip/unequip/drag/context menu preserve UID and ownership.",
+      "label": "装备/普通背包与祭坛"
+    },
+    {
+      "id": "tooltip",
+      "status": "implemented_verified",
+      "contract": "Base, legendary and random affix lines align left; remove redundant counts and reroll range helper descriptions.",
+      "label": "物品浮层清理与首次纹理显示"
+    },
+    {
+      "id": "ailment_reactions",
+      "status": "implemented_verified",
+      "contract": "Existing chill/shock/freeze consumption reactions and causal depth guard; retain approved numbers and effect scopes.",
+      "label": "三个异常消耗反应"
+    },
+    {
+      "id": "aggro_traits",
+      "status": "existing_reused",
+      "contract": "Existing per-monster and minion acquisition range traits; zero disables acquisition; preserve default and percentage scaling.",
+      "label": "怪物/召唤物索敌范围"
+    },
+    {
+      "id": "aura_rail_notices",
+      "status": "existing_reused",
+      "contract": "Aura tooltip and flowing active edge, talent/BD rail navigation, new item notices, current inventory context and altar interactions.",
+      "label": "光环、功能栏与获得提示"
+    },
+    {
+      "id": "drop_design_table",
+      "status": "design_only",
+      "contract": "Studio design draft; no application of proposed loot rates or pools to gameplay.",
+      "label": "掉落设计草案"
+    }
+  ],
+  "ui": {
+    "job": "wbp-708f07d1-192f-42a4-ba4a-a837e89b46d3",
+    "project": "opus-studio-sync-20261026",
+    "sourceHash": "4ae90f59f38caec0cf430e24ab0528a31fec71089c6e533dab30fd613ed1a528",
+    "nodes": 182,
+    "rasters": 198,
+    "states": [
+      "canvas"
+    ],
+    "revision": 4,
+    "templates": 13,
+    "contentDirectory": "/Game/UICreatorStudio",
+    "savedReloadVerified": true,
+    "sources": [
+      {
+        "id": "opus-outpost-merchant",
+        "revision": 5
+      },
+      {
+        "id": "studio-trait-equipment",
+        "revision": 1
+      },
+      {
+        "id": "opus-dungeon-map",
+        "revision": 1
+      },
+      {
+        "id": "opus-dungeon-exit",
+        "revision": 4
+      },
+      {
+        "id": "hud-darksteel-20261024",
+        "revision": 50
+      }
+    ]
+  },
+  "verification": {
+    "nativeRenderChecks": 37,
+    "renderReceipt": "Saved\\Verification\\StudioSync\\render-receipt.json",
+    "profileUnchanged": true,
+    "bossClear": "Saved/Verification/BossClear/receipt.json",
+    "mapDevice": "Saved/Verification/MapDevice/game-integration.log",
+    "reactions": "Saved/Verification/AilmentReactions/automation/index.json",
+    "build": "Saved/Verification/FullHUD/build-verified-source.log",
+    "productionStartup": "Saved/Verification/StudioSync/production-startup.log",
+    "productionFlowPassed": true
+  },
+  "editor": {
+    "previousProcess": 12596,
+    "previousEditorSavedAndClosedByUser": true,
+    "restartRequired": false,
+    "process": 79220,
+    "compiledModule": "UnrealEditor-DungeonWorldOpus.dll",
+    "loadedModule": "G:/DungeonWorldOpus/Binaries/Win64/UnrealEditor-DungeonWorldOpus.dll",
+    "initialized": true,
+    "responding": true,
+    "startupLog": "Saved/Verification/StudioSync/editor-startup.log"
+  },
+  "sourceHashes": {
+    "Script/Opus/StudioGameplay.as": "be6912ed9bd1723b9e9d49c2924f01ae2248f55631e3bd2b1a32601f029d25a4",
+    "Script/Opus/StudioUI.as": "974b11e5afaaed9b7f2f2a1ca53b92afd8e9ffbe5c6e612270550d2295225fbe",
+    "Script/Opus/DungeonMap.as": "d6da9cd712e3235d12e5de5d52bf3bd0ee3a35cd5ce94d3df0065e4250da2db7",
+    "Script/Opus/StudioSyncTests.as": "28e4164547c064d511c473a9c5c95526e4fd074b24c89d695eca6402cdb1a5e4",
+    "Script/Opus/Dungeon.as": "2036379e7a80e9610fb3aa31fcf7f9c3ac218a607d7b520e52322cd7f2fab90f",
+    "Source/DungeonWorldOpus/Private/OpusStudioBridge.cpp": "f25d04478051ec3532f4631e7066a1e555d562bee7564af25e6751a6de76a767",
+    "UIAuthoring/StudioSync.uialpha.json": "105d6239001c2adc1a78360ee5b047ac9ebc5b343c7f4873027f157e023f4362",
+    "Tools/UI/Build-HudModule.ps1": "37f90783b25ca9537653725f9cbe377ffc95cf16092a0f99f7e20246c90545b5"
+  }
+}

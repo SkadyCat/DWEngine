@@ -1,0 +1,92 @@
+{
+  "system": "/Game/IceSkill_VFX/Niagara/Projectile_Small/NS_Ice_Hit_Small",
+  "registry_package_count": 14,
+  "file_count": 14,
+  "new_files": 1,
+  "files": [
+    {
+      "path": "Content/IceSkill_VFX/Material/MI_Smoke_8x8.uasset",
+      "sha256": "2ccf273a2d61328402f80056da21ead384cf1f75354bbb422a30cf5fe46ba539",
+      "bytes": 79501,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Material/M_Glow.uasset",
+      "sha256": "f00c15b972e9a40287d588bcb56729f5b3cd7881827d409620780edc8c2a9fd1",
+      "bytes": 80261,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Material/M_IceMesh.uasset",
+      "sha256": "684f29db26a881f60b0ae40aad0a4534f35b507e47e909986c57249ef80e07d5",
+      "bytes": 161266,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Material/M_IceMesh_Meteor.uasset",
+      "sha256": "3c02e20609ad50dd910d7d4a4016b5621ed306f4c467fdf642a826b087ae6774",
+      "bytes": 146099,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Material/M_IceSphere.uasset",
+      "sha256": "530f8f6028fa1e2597838642fa2ab401c83ba791e2f6400a2ca1f712ee151c6d",
+      "bytes": 160402,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Material/M_Smoke_8x8.uasset",
+      "sha256": "211430a28522282f5e8d5d44d58e2f5265c468f2b2593d5b32f2d7d4c382888f",
+      "bytes": 91654,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Niagara/Projectile_Small/NS_Ice_Hit_Small.uasset",
+      "sha256": "8a1ad3c8d49609f7da8fd7a4e1689f99fd1e72e104d7717ff22081c65def8697",
+      "bytes": 4495386,
+      "added": true
+    },
+    {
+      "path": "Content/IceSkill_VFX/Resource/Mesh/SM_Stone_01.uasset",
+      "sha256": "e1c9d7fbd8800df15aa0b63a65a88255cb6253383a7a31910b3e852525ce4fe2",
+      "bytes": 86997,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Resource/Mesh/SM_TwistIce_02.uasset",
+      "sha256": "7ae33d8d7ffd98fc3c817c289907a038faf059e9fc1d41a8354e6098d5e4feef",
+      "bytes": 169216,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Resource/Texture/T_Cloud_Market.uasset",
+      "sha256": "c58adf097b953a7ccab97fc8d8f1959e819531d466c3e6c09bbfc03fe26774da",
+      "bytes": 298031,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Resource/Texture/T_FractalNoise_06.uasset",
+      "sha256": "79a4f28e758902871d87ce84392cb0cc3e7c0b4e0ddb31a342a96e2afa5744da",
+      "bytes": 1363483,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Resource/Texture/T_Ice_01.uasset",
+      "sha256": "8142ba2b80e5f7285c8e33a23addccf4df82402af0031f3bd5ff6cd07d74b6c0",
+      "bytes": 787586,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Resource/Texture/T_Ice_01_NRM.uasset",
+      "sha256": "5017aabce598850cbe9fe05029da205609564586e9e3043717dfffb13d254238",
+      "bytes": 942810,
+      "added": false
+    },
+    {
+      "path": "Content/IceSkill_VFX/Resource/Texture/T_Ice_smoke_8x8.uasset",
+      "sha256": "da25d296422c468448ed5549cdacf1f43f3394e1b6eb1fc8998f84a70b36ecfe",
+      "bytes": 2127242,
+      "added": false
+    }
+  ]
+}

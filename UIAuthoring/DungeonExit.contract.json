@@ -1,0 +1,64 @@
+{
+  "project": "opus-dungeon-exit",
+  "asset": "/Game/UICreatorPortal/WBP_CurrentCanvas",
+  "source": "UIAuthoring/DungeonExit.uialpha.json",
+  "nativeJob": "wbp-portal-complete-5620d5a0-de40-41d6-ad76-66cc88e67559",
+  "scope": "Exit-label presentation. Existing Studio useExitPortal owns walking, distance checks and world-map activation.",
+  "actions": {
+    "portal-open": {
+      "type": "ui",
+      "op": "world-map"
+    }
+  },
+  "bindings": [
+    "portal:activate",
+    "portal:icon",
+    "portal:title",
+    "portal:state",
+    "portal:note"
+  ],
+  "states": {
+    "canvas": "normal / far",
+    "ready": "near / open map",
+    "travel": "approaching"
+  },
+  "nativeUsage": "ApplySceneState(canvas|ready|travel) on the authored WBP. This task imports the UI asset; it does not add native gameplay portal flow.",
+  "verification": {
+    "completedAt": "2026-10-26T13:34:20.624Z",
+    "authoringProject": "opus-dungeon-exit",
+    "viewport": {
+      "width": 220,
+      "height": 80
+    },
+    "studio": "http://127.0.0.1:5291/",
+    "preview": "http://127.0.0.1:5291/dev/portal-ui.html",
+    "widget": "/Game/UICreatorPortal/WBP_CurrentCanvas",
+    "states": [
+      "canvas",
+      "ready",
+      "travel"
+    ],
+    "nodes": 7,
+    "rasters": 16,
+    "sourceHash": "af1e68355429ea88f5a458b7f79fdee4f5703aa77a8789d747e963f8e606f3d2",
+    "nativeImportSaved": true,
+    "nativeSeparateReload": true,
+    "nativeHierarchyMatches": true,
+    "nativeLayoutErrorPixels": 0,
+    "strictPixelComparisonPassed": false,
+    "pixelComparison": "pixel-comparison.json",
+    "browser": {
+      "stateLabelsVerified": true,
+      "activateEmittedOncePerClick": true,
+      "titleSize": 15,
+      "noteSize": 10.5,
+      "textStroke": "none",
+      "hoverBrushVerified": "portal-plate-hovered",
+      "screenshot": "design.png"
+    },
+    "existingDungeonChecksPassed": 10,
+    "webDeliveryChecksPassed": 2,
+    "gameplayRulesChanged": false,
+    "nativeGameplayPortalWiringChanged": false
+  }
+}

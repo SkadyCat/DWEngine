@@ -1,0 +1,27 @@
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+work/
+.vs/
+*.sln
+*.slnx
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# AngelScript generates these bindings when the editor starts.
+/Script/Binds.Cache
+/Script/Binds.Cache.Headers
+
+# Local tooling caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+
+
+# Only the editable UI tool is included in this lightweight repository.
+/CustomTools/*
+!/CustomTools/UICreatorAlpha/

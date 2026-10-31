@@ -1,0 +1,24 @@
+{
+  "inspectedThreads": [
+    "01a16f00-1c98-7da3-bde7-7911188e32e1",
+    "01a16ea7-7131-7c13-91d6-d9aaecbcf613",
+    "01a16eea-79fc-7af3-8b80-5f2344d34f85",
+    "01a16986-7e22-7643-b1ed-479ac40ea034",
+    "01a1698b-3577-7301-9867-2eafec87a79b"
+  ],
+  "svg": {
+    "export": "wbp-ac273a29-3276-4efb-9efe-9abf74c0cb2b",
+    "nodes": 2665,
+    "states": 43,
+    "sourceHash": "179dc17c43dc303c41281b92ea5b35db027d73026baefbe8c40dacf6644fc27d"
+  },
+  "vfx": {
+    "geometry": 51,
+    "materials": 28,
+    "clips": 100,
+    "publicPrefabs": 40,
+    "runtime": "native DWRules visual host; no JS execution",
+    "offlineImporter": "Tools/WebVFX",
+    "rebuildReceipt": "Saved/WebVFX/rebuild-result.json"
+  }
+}

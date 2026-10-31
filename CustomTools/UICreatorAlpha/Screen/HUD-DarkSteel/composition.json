@@ -1,0 +1,574 @@
+{
+  "schema": "uicreator-alpha/svg-composition",
+  "version": 1,
+  "projectId": "hud-darksteel-20261024",
+  "referenceSize": {
+    "width": 688,
+    "height": 170
+  },
+  "designSize": {
+    "width": 1600,
+    "height": 900,
+    "background": "#090c12"
+  },
+  "backgroundPolicy": {
+    "owner": "review-only",
+    "node": "hud-context",
+    "independentlyHideable": true
+  },
+  "textLayoutVersion": 1,
+  "assets": [
+    {
+      "id": "hud-svg-frame-left",
+      "name": "底座 · 左侧折面",
+      "viewBox": [
+        0,
+        0,
+        184,
+        170
+      ],
+      "folderId": "hud-svg-frame",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/frame-left.svg",
+      "sha256": "19c18f998bee30bf7e287424eb72a45170115abc26ae083d3adefc7b5efefe0d"
+    },
+    {
+      "id": "hud-svg-frame-right",
+      "name": "底座 · 右侧折面",
+      "viewBox": [
+        0,
+        0,
+        144,
+        170
+      ],
+      "folderId": "hud-svg-frame",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/frame-right.svg",
+      "sha256": "ef7f4722128f8bd86c01aabab7507d944939f1705d16d0d6246aa684d85e4b2e"
+    },
+    {
+      "id": "hud-svg-backplate",
+      "name": "底座 · 内层暗板",
+      "viewBox": [
+        0,
+        0,
+        608,
+        106
+      ],
+      "folderId": "hud-svg-frame",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/backplate.svg",
+      "sha256": "5f3e8023cf4bd87a51f1ebbbebd027e17d46d68b28b8ec5a1d2e863b2772a083"
+    },
+    {
+      "id": "hud-svg-status-ring",
+      "name": "装饰 · 半环",
+      "viewBox": [
+        0,
+        0,
+        28,
+        14
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/status-ring.svg",
+      "sha256": "8205263755dc174c71fbca65d23fb2ab10bf23b6fafedab7329a262ec1d6a576"
+    },
+    {
+      "id": "hud-svg-gold-pin",
+      "name": "装饰 · 琥珀定位点",
+      "viewBox": [
+        0,
+        0,
+        10,
+        12
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/gold-pin.svg",
+      "sha256": "979d95802a94feb2a5222ab4861210afc197c8906fb2d352be80c89a1a06b11f"
+    },
+    {
+      "id": "hud-svg-plus",
+      "name": "空槽 · 加号",
+      "viewBox": [
+        0,
+        0,
+        12,
+        12
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/plus.svg",
+      "sha256": "a779bf7f5c3959c9910913f0d04255a251dbb2aa5cc66d462eee87ee7709e75c"
+    },
+    {
+      "id": "hud-svg-selection",
+      "name": "选中 · 青色辉光描边",
+      "viewBox": [
+        0,
+        0,
+        90,
+        90
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/selection.svg",
+      "sha256": "318cdeb302359afb73897a4714b67c157317b4fb340fd340c7ee77ab4c38c620"
+    },
+    {
+      "id": "hud-svg-flame-glyph",
+      "name": "技能 · 烈字矢量图标",
+      "viewBox": [
+        0,
+        0,
+        32,
+        34
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "contain",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/flame-glyph.svg",
+      "sha256": "ffc6a9f72356a1bf6eea6896ac4723e9ce5edf376c9bbd0f41377e013f238a63"
+    },
+    {
+      "id": "hud-svg-skill-filled-normal",
+      "name": "已装备技能槽 · Normal",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-filled-normal.svg",
+      "sha256": "50eba0d611c457a3187f41afa087c23bdda1b709305693aa01f3866dd6729f10"
+    },
+    {
+      "id": "hud-svg-skill-filled-hovered",
+      "name": "已装备技能槽 · Hover",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-filled-hovered.svg",
+      "sha256": "bc893fd76d0b449f32f3abbd289b17416db78c16cb446a4c56d4769f99d888dd"
+    },
+    {
+      "id": "hud-svg-skill-filled-pressed",
+      "name": "已装备技能槽 · Pressed",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-filled-pressed.svg",
+      "sha256": "5b5112302eab39df6799dae6ff15bafc2664d2496055bab0c919ac3293b86517"
+    },
+    {
+      "id": "hud-svg-skill-filled-disabled",
+      "name": "已装备技能槽 · Disabled",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-filled-disabled.svg",
+      "sha256": "47150f6612d02c6949ae6afad0810f7e5bfcde28c10279c02d43cc3ab034a18b"
+    },
+    {
+      "id": "hud-svg-skill-empty-normal",
+      "name": "空技能槽 · Normal",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-empty-normal.svg",
+      "sha256": "04e006096d95e27a404671cc3931aa5924762c6e4e50633a3d4fea18c4312318"
+    },
+    {
+      "id": "hud-svg-skill-empty-hovered",
+      "name": "空技能槽 · Hover",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-empty-hovered.svg",
+      "sha256": "1d1c0f056474fa3da6784da0bf8b601cd56b5bce4b6392d4a1eb050fe872bb39"
+    },
+    {
+      "id": "hud-svg-skill-empty-pressed",
+      "name": "空技能槽 · Pressed",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-empty-pressed.svg",
+      "sha256": "771b14229f80b29b5eaea21b9468634ab439812cb6baa9d1d46bf5138f1a0c8c"
+    },
+    {
+      "id": "hud-svg-skill-empty-disabled",
+      "name": "空技能槽 · Disabled",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/skill-empty-disabled.svg",
+      "sha256": "56867f3aeaffc2bffe62b98e3ea25eda388626738ef42d2bb5cbc1f51474b8e7"
+    },
+    {
+      "id": "hud-svg-consumable-normal",
+      "name": "消耗品槽 · Normal",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/consumable-normal.svg",
+      "sha256": "fe1e094001a8c835573ae7ee98b49aaa2786a8af89b0dee9c1d435af5a5c8ee9"
+    },
+    {
+      "id": "hud-svg-consumable-hovered",
+      "name": "消耗品槽 · Hover",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/consumable-hovered.svg",
+      "sha256": "be686c4c86d2ed2ecd99d3d94720ffda2625d950ebbc12987a2651352ad4324b"
+    },
+    {
+      "id": "hud-svg-consumable-pressed",
+      "name": "消耗品槽 · Pressed",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/consumable-pressed.svg",
+      "sha256": "c6f7f4006a94adec4b38a2b0c4bef3cfd59476f1460d3dd544b860144e55014b"
+    },
+    {
+      "id": "hud-svg-consumable-disabled",
+      "name": "消耗品槽 · Disabled",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "sourceFile": "../../src/assets/hud-darksteel/svg/consumable-disabled.svg",
+      "sha256": "854488d5a78279229a44d90b7ca97ce9104bc3e4af7e679ee5df2b62870db673"
+    }
+  ],
+  "prefabIds": [
+    "hud-prefab-ability",
+    "hud-prefab-consumable",
+    "hud-prefab-ability-row",
+    "hud-prefab-consumable-row",
+    "hud-prefab-hotbar",
+    "hud-prefab-screen"
+  ],
+  "sourceRects": {
+    "filledSlot": [
+      42,
+      75,
+      74,
+      74
+    ],
+    "emptySlots": [
+      [
+        122,
+        75,
+        74,
+        74
+      ],
+      [
+        202,
+        75,
+        74,
+        74
+      ],
+      [
+        282,
+        75,
+        74,
+        74
+      ]
+    ],
+    "selectedGlow": [
+      274,
+      67,
+      90,
+      90
+    ],
+    "consumables": [
+      [
+        374,
+        83,
+        64,
+        64
+      ],
+      [
+        444,
+        83,
+        64,
+        64
+      ],
+      [
+        514,
+        83,
+        64,
+        64
+      ],
+      [
+        584,
+        83,
+        64,
+        64
+      ]
+    ],
+    "leftFacet": [
+      0,
+      0,
+      184,
+      170
+    ],
+    "rightFacet": [
+      544,
+      0,
+      144,
+      170
+    ]
+  },
+  "textNodes": [
+    {
+      "prefabId": "hud-prefab-ability",
+      "id": "hud-ability-key",
+      "safeRect": {
+        "x": 6,
+        "y": 2,
+        "width": 18,
+        "height": 16
+      },
+      "fontSize": 9.5,
+      "align": "left",
+      "maxChars": 2,
+      "overflow": "shrink"
+    },
+    {
+      "prefabId": "hud-prefab-ability",
+      "id": "hud-ability-name",
+      "safeRect": {
+        "x": 6,
+        "y": 45,
+        "width": 62,
+        "height": 18
+      },
+      "fontSize": 10.5,
+      "align": "center",
+      "maxChars": 6,
+      "overflow": "shrink"
+    },
+    {
+      "prefabId": "hud-prefab-ability",
+      "id": "hud-ability-equipped",
+      "safeRect": {
+        "x": 49,
+        "y": 6,
+        "width": 22,
+        "height": 14
+      },
+      "fontSize": 9,
+      "align": "center",
+      "maxChars": 2,
+      "overflow": "shrink"
+    },
+    {
+      "prefabId": "hud-prefab-consumable",
+      "id": "hud-quick-key",
+      "safeRect": {
+        "x": 6,
+        "y": 2,
+        "width": 20,
+        "height": 16
+      },
+      "fontSize": 10,
+      "align": "left",
+      "maxChars": 2,
+      "overflow": "shrink"
+    },
+    {
+      "prefabId": "hud-prefab-hotbar",
+      "id": "hud-control-guide",
+      "safeRect": {
+        "x": 119,
+        "y": 154,
+        "width": 529,
+        "height": 16
+      },
+      "fontSize": 10,
+      "align": "left",
+      "maxChars": 104,
+      "overflow": "shrink"
+    }
+  ]
+}

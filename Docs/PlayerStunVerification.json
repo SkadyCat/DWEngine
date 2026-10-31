@@ -1,0 +1,144 @@
+{
+  "verified_at": "2026-10-25T19:08:40.231289+08:00",
+  "ok": true,
+  "fixed_slot": "character",
+  "fixed_equipment": "player_character_equipment",
+  "rules": {
+    "weight": 1,
+    "threshold_max_life_percent": 20,
+    "threshold_comparison": ">=",
+    "damage": "mitigated positive non-DOT non-evaded damage before shield allocation",
+    "shield_cannot_prevent_buildup": true,
+    "stun_seconds": 0.5,
+    "quiet_delay_seconds": 1,
+    "unbroken_linear_decay_seconds": 4,
+    "restore_after_stun_seconds": 1,
+    "no_repeat_during_restore": true,
+    "clock": "native RuleWorld simulation clock"
+  },
+  "gameplay": {
+    "tests": [
+      "CompositeMeterBoundaryAndDecay",
+      "NativeThresholdInterruptAndHalfSecondControl",
+      "CrustBreakAndOneSecondRestore",
+      "ShieldOnlyHitsAccumulateAtFullLife",
+      "FixedEquipmentHUDAndRecovery"
+    ],
+    "actual_native_damage": true,
+    "transient_profile": true,
+    "pause_freezes_recovery": true,
+    "old_release_cannot_cast": true,
+    "log": "Saved/Verification/PlayerStun/runtime-visual.log"
+  },
+  "world_overlay": {
+    "sourceHash": "1884ef800309d04d0a03d64fd7ce14add0d5777a57615cac2a11f5eccf80a47a",
+    "nodes": 102,
+    "rasters": 126,
+    "earth_slabs": 8,
+    "independent_chips": 8,
+    "hit_flash_seconds": 0.12,
+    "burst_seconds": 0.35,
+    "preserved_templates": 6,
+    "preserved_svg_assets": 19,
+    "stale_combined_debris_removed": true,
+    "job": "wbp-211a675d-04a6-42a1-bf92-63eecc22e085"
+  },
+  "hud": {
+    "label": "晕眩",
+    "progress": "remaining integrity",
+    "default": "remaining / capacity",
+    "restoring": "percent",
+    "runtime": "saved WBP plus AS bindings",
+    "cold_game_reload": true,
+    "fill_import": {
+      "ok": true,
+      "node": "hud-screen-instance::rs-resources-instance::rs-stun",
+      "scenes": 44,
+      "unrelated_states_and_layout_preserved": true,
+      "texture": "/Game/UICreator/Stun/T_stun_bar_web_v2",
+      "source_hash": "d87c126e0326e04209a5e48e9b3b8e603f90fb03140dc6156686aa73374a3a10",
+      "raster_png_sha256": "798d260e8aab34b209d36545f7176f823e8fc987abc79a02df0e8ef6028a9fa2"
+    },
+    "assets": [
+      {
+        "path": "Content/UICreator/DA_CurrentCanvas.uasset",
+        "sha256": "457a50fd598303ee8a6708a01543cc182e3778a85954d3f58f25cd038f72609c"
+      },
+      {
+        "path": "Content/UICreator/WBP_CurrentCanvas.uasset",
+        "sha256": "e114c02857532397dffdef2868679c3770270adb439689963a6ef53172bca440"
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "path": "G:\\DungeonWorldOpus\\Saved\\Verification\\PlayerStun\\stun-half.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "575dbd4452a554113fdc548190e72dcd37474a997656cf826a31b8b85829b094"
+    },
+    {
+      "path": "G:\\DungeonWorldOpus\\Saved\\Verification\\PlayerStun\\stun-active.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ae2e081bc1dac599af347438a6b20aeac4afb101ff69ba9f6a2d9af2b2b5ee65"
+    },
+    {
+      "path": "G:\\DungeonWorldOpus\\Saved\\Verification\\PlayerStun\\stun-restore.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "1782aeda74cb7903503c640a07537175164c12bec2512b1c16f006786db6148f"
+    },
+    {
+      "path": "G:\\DungeonWorldOpus\\Saved\\Verification\\PlayerStun\\stun-restored.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e532efa9994b9c65a20c9c2bf077c73d54e108e8cab60136354c4a00819a3492"
+    },
+    {
+      "path": "G:\\DungeonWorldOpus\\Saved\\Verification\\PlayerStun\\stun-decay.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4d6b39669cb3de6a1cf4c57492c18047da54a98b2b0084750cc6158ac813df44"
+    },
+    {
+      "path": "G:\\DungeonWorldOpus\\Saved\\Verification\\PlayerStun\\stun-shield-only.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "301a9f1f57e82cda2ac330fd571d86d6ad5a01fa90bae280d6c7eafe15e1fc7a"
+    }
+  ],
+  "rule_files": [
+    {
+      "path": "Equipment/player_character_equipment.json",
+      "sha256": "2855b34e424f6a22f2986c18dae914d026b4eb7a67adc04d86ff80702a578a67",
+      "web_sha256": "f1bbcaa31c8bae1b4a06c2b87a1c8def64446e66292d84a6110ef4d71b44b974",
+      "same_json_in_web_and_ue": true
+    },
+    {
+      "path": "Affixes/player_stun_buildup.json",
+      "sha256": "5d88d1af4c8da5bf40e9d64eca923878d801aca2cf060815996d32147009e970",
+      "web_sha256": "5d88d1af4c8da5bf40e9d64eca923878d801aca2cf060815996d32147009e970",
+      "same_json_in_web_and_ue": true
+    },
+    {
+      "path": "Affixes/player_stun_threshold.json",
+      "sha256": "af6c83e5fd26fe1f6e6c313032de285dcb0adc40b4aac2168237cdbb84405005",
+      "web_sha256": "af6c83e5fd26fe1f6e6c313032de285dcb0adc40b4aac2168237cdbb84405005",
+      "same_json_in_web_and_ue": true
+    },
+    {
+      "path": "Affixes/player_stun_recovery.json",
+      "sha256": "b9bacad23e533da773f43c2ad74c46aa779c6146b3b848524fb1d32287a8c085",
+      "web_sha256": "b9bacad23e533da773f43c2ad74c46aa779c6146b3b848524fb1d32287a8c085",
+      "same_json_in_web_and_ue": true
+    }
+  ],
+  "engine_algorithms": "VM, damage resolution and status execution unchanged",
+  "implementation": "AS policy and bindings, authored SVG/PNG contract, native event/stat/clock adapter",
+  "build": {
+    "scope": "project module against precompiled engine",
+    "status": "Succeeded",
+    "log": "Saved/Verification/PlayerStun/web-sync-build.log"
+  }
+}

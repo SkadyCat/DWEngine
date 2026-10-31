@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import { installEntityOverlays } from '../src/assets/world-overlays/entity-overlays.js';
+import { validateDocument } from '../src/core/model.js';
+const base = process.env.UI_ALPHA_URL || 'http://127.0.0.1:5190';
+const url = base + '/api/projects/opus-world-overlays-20261025';
+const response = await fetch(url); if (!response.ok) throw new Error('World overlay project missing');
+const previous = await response.json(), document = installEntityOverlays(structuredClone(previous.document));
+const errors = validateDocument(document); if (errors.length) throw new Error(errors.join('\n'));
+const backup = new URL('../work/entity-overlays/', import.meta.url); await fs.mkdir(backup, { recursive: true });
+await fs.writeFile(new URL(`before-r${previous.revision}.json`, backup), JSON.stringify(previous), { flag: 'wx' });
+const saved = await fetch(url, { method: 'PUT', headers: { 'Content-Type': 'application/json', 'If-Match': `"${previous.revision}"` }, body: JSON.stringify(document) });
+const result = await saved.json(); if (!saved.ok) throw new Error(JSON.stringify(result));
+console.log({ project: document.id, revision: result.revision, templates: document.root.children.length, assets: Object.keys(document.assets).length });

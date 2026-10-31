@@ -1,0 +1,5 @@
+import {UIRuntime} from '../src/runtime/runtime.js';
+const record=await fetch('/api/projects/opus-map-events').then(r=>r.json());
+const project=record.document||record;
+const runtime=new UIRuntime(document.querySelector('#scene'),project,{width:project.viewport.width,height:project.viewport.height,motion:false,sound:false});
+document.querySelector('#freeze').onclick=async()=>{await document.fonts.ready;const job='wbp-events-'+crypto.randomUUID();const svg=new XMLSerializer().serializeToString(document.querySelector('#scene'));const response=await fetch('/api/native-wbp/'+job+'/source',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({project,svg,context:{width:project.viewport.width,height:project.viewport.height,expandedRoot:runtime.expanded.document.root}})});const result=await response.json();if(!response.ok)throw Error(JSON.stringify(result));location.href=result.url;};

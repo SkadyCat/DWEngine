@@ -1,0 +1,40 @@
+{
+  "updated": "2026-10-25T12:44:42.254263+08:00",
+  "scope": "Monster ground loot integration only; native drop/stone/rarity/tier probabilities and grant rules unchanged",
+  "runtime": "AS movement, visibility, input and lifecycle; native DWRules reward/pickup APIs",
+  "uicreator": {
+    "project": "opus-world-overlays-20261025",
+    "url": "http://127.0.0.1:5199/?project=opus-world-overlays-20261025",
+    "source": "Content/UICreatorWorld/source.uialpha.json",
+    "contract": "Content/UICreatorWorld/contract.json",
+    "sourceHash": "d5a78ce32dbb9a11ee2da6574a3ec9de444e84beeb1cf780a14083a6ad7ebe25",
+    "lootTemplates": 5,
+    "lootTemplateNodes": 15,
+    "rasterDimensionsChecked": 48
+  },
+  "behavior": [
+    "Drops visible by default; Hunter can be enabled explicitly",
+    "Clickable rarity-colored labels at native ground coordinates, packed without overlap",
+    "Click approaches the item and picks it up within native 200 cm radius; WASD cancels",
+    "P picks one nearby item; successful pickup refreshes inventory and saves profile",
+    "Claimed labels removed; repeated pickup rejected; dead player cannot claim"
+  ],
+  "checks": {
+    "realNativeBossKill": true,
+    "realNativeEquipmentAndItemDrops": true,
+    "exportedUICreatorAction": true,
+    "farPickupRejected": true,
+    "walkingPickup": true,
+    "inventoryDelta": true,
+    "duplicatePickupRejected": true,
+    "claimedLabelRemoved": true,
+    "hunterFiltering": true,
+    "profileRoundtrip": true,
+    "ruleDataHashesUnchanged": 1047,
+    "javascriptFiles": 0
+  },
+  "build": "Saved/Build/build-20261025-123955.log",
+  "runtimeLog": "Saved/Verification/WorldUI/loot-integration.log",
+  "visual": "Docs/Proof/掉落接入.png",
+  "visualSha256": "11211059c829bbd7dec85e4a867fb3770b5ef608c89d5dd523d8eb127933b854"
+}

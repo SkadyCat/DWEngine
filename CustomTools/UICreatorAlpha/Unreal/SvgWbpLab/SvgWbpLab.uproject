@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{454C286B-4D50-82AE-CAF1-DF8D8E00DAB3}",
+	"Category": "UI",
+	"Description": "Isolated SVG canvas to Widget Blueprint import and pixel verification project.",
+	"Modules": [
+		{
+			"Name": "SvgWbpLab",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SvgCanvasBridge",
+			"Enabled": true
+		}
+	]
+}

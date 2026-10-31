@@ -1,0 +1,99 @@
+{
+  "sourceProject": "hud-darksteel-20261024",
+  "sourceRevision": 24,
+  "sourceHash": "5283b66dd17eb4f4d7d1054578b67ab37b81adb1f0f93e3d90abff1d902fad50",
+  "bundle": "G:\\DungeonWorldOpus\\CustomTools\\UICreatorAlpha\\exports\\wbp-f40c8f4d-ed27-464a-8f60-338b1b03151c\\bundle.json",
+  "logicalNodes": 2749,
+  "states": 44,
+  "compiled": true,
+  "saved": true,
+  "reloadedInSeparateProcess": true,
+  "hierarchyMatches": true,
+  "maxLayoutErrorPixels": 8.138020825754211e-05,
+  "nativeButtonStateChecks": 1616,
+  "deployedFiles": 7275,
+  "deploymentHashMismatches": 0,
+  "pixelExact": false,
+  "pixelReport": "G:\\DungeonWorldOpus\\CustomTools\\UICreatorAlpha\\exports\\wbp-f40c8f4d-ed27-464a-8f60-338b1b03151c\\pixel-report.json",
+  "pickerPixelComparison": {
+    "state": "map-core-picker",
+    "pixels": 1440000,
+    "changedPixels": 148221,
+    "changedRgbPixels": 148221,
+    "maxChannelError": 4,
+    "meanAbsoluteError": 0.05037951388888889,
+    "exact": false,
+    "referenceSha256": "a8ec655b65d820136c27bdddc641f208148d4bc4438435ce67919d3e121432d3",
+    "nativeSha256": "6f3ea0f842a9923dca26aecc81178461031675b8731cd5f114cf85e61e26b80e",
+    "differenceBounds": [
+      14,
+      14,
+      1585,
+      891
+    ]
+  },
+  "ruleSemanticsChanged": false,
+  "runtimeHost": "AngelScript",
+  "tests": {
+    "mapCoreIntegration": {
+      "passed": true,
+      "log": "Saved/Verification/MapCore/integration.log",
+      "scenarios": [
+        "NativeCatalogAndUICreatorActions",
+        "LiveWaveAndScaling",
+        "RetryPreservesCore"
+      ]
+    },
+    "mapCoreDiskReload": {
+      "passed": true,
+      "log": "Saved/Verification/MapCore/disk-reload.log",
+      "scenarios": [
+        "MAP_CORE_TEST_PASS DiskReload"
+      ]
+    },
+    "mapCorePreview": {
+      "passed": true,
+      "log": "Saved/Verification/MapCore/preview.log",
+      "scenarios": [
+        "TowerSmokeComplete"
+      ]
+    },
+    "svgBindings": {
+      "passed": true,
+      "log": "Saved/Verification/SvgRestore/bindings.log",
+      "scenarios": [
+        "SVG_TEST_PASS RuntimeBindings"
+      ]
+    },
+    "svgReset": {
+      "passed": true,
+      "log": "Saved/Verification/SvgRestore/reset.log",
+      "scenarios": [
+        "SVG_TEST_PASS ResetStartsCurrentFloor"
+      ]
+    },
+    "manualReady": {
+      "passed": true,
+      "log": "Saved/Verification/SvgRestore/ready.log",
+      "scenarios": [
+        "phase=0"
+      ]
+    },
+    "itemHover": {
+      "passed": true,
+      "log": "Saved/Verification/ItemHover/integration.log",
+      "scenarios": [
+        "HOVER_TEST_PASS RuntimeInspector",
+        "HOVER_TEST_PASS IdentifyInPlace"
+      ]
+    }
+  },
+  "proof": {
+    "path": "Docs/Proof/MapCoreUE.png",
+    "width": 1600,
+    "height": 900,
+    "sha256": "526386b9db27e88d289c64982ba879e923bd91e278757fccc9e1bfd11353dd9f"
+  },
+  "selectionFile": "Saved/RuleTower/MapCore.txt",
+  "testSelectionFile": "Saved/Verification/MapCore/selection.txt"
+}

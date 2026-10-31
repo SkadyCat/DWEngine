@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "system": "/Game/IceSkill_VFX/Niagara/Projectile_Small/NS_Ice_Hit_Small",
+  "map_sha256": "aed414e3cab718c349b533da4795c0db3395a49ed0b59eb119edf19819f7368e",
+  "scale": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "max_visual_seconds": 1,
+  "dependency_hashes_verified": 14,
+  "new_assets": 1,
+  "other_map_entries_preserved": true,
+  "runtime": {
+    "spawns": 20,
+    "followMoves": 93,
+    "returns": 20,
+    "activeAfterClear": 0,
+    "systems": {
+      "ice_lance.flight": 10,
+      "ice_lance.impact": 10
+    }
+  },
+  "damage_comparison": {
+    "ice-small-verified": {
+      "casts": 10,
+      "target_life": 658.0
+    },
+    "ice-default-arena": {
+      "casts": 10,
+      "target_life": 658.0
+    }
+  },
+  "same_damage": true,
+  "probe_options": [
+    "DWOHeroArena",
+    "DWOTransient",
+    "DWOUEVFXTest",
+    "DWOUEVFXWarmup=5"
+  ],
+  "gpu_proof": "Saved/Verification/UEVFX/ice-small-verified.png",
+  "library_comparison": "Saved/Verification/UEVFX/ice-hit-library-comparison.png",
+  "rule_core_modified_by_this_change": false,
+  "rule_data_modified_by_this_change": false
+}

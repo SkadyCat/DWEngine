@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "scope": "Studio only; no UE migration, build or asset import",
+  "request": {
+    "damage": "Only resolved, positive, non-DOT hits deplete the stun bar; shield absorption does not prevent depletion.",
+    "recovery": "After one second without such a hit, restore the missing portion linearly within three seconds. A new hit depletes it and restarts the delay.",
+    "dot": "DOT and zero damage neither deplete the bar nor restart the recovery delay.",
+    "display": "The main HUD displays remaining durability over capacity and starts full.",
+    "empty": "Keep the existing half-second stun and attack interruption. An empty bar cannot repeatedly stun; once partially restored, another depletion can stun again."
+  },
+  "causes": [
+    "The cleared-dungeon branch skipped Battle.step, freezing both the character stun countdown and layer recovery while collecting loot.",
+    "The main HUD had been bound to accumulated damage divided by maximum life instead of remaining layer durability."
+  ],
+  "fix": {
+    "policy": "CustomTools/RuleStudio/public/sim/stun-crust.mjs",
+    "ruleData": "Content/Rules/Affixes/player_stun_recovery.json",
+    "hudBinding": "CustomTools/RuleStudio/public/battle3d.mjs",
+    "clearedDungeon": "CustomTools/RuleStudio/public/sim/dungeon-battle.mjs",
+    "combatAfterClear": "Advance stun countdown and layer recovery only; do not restart attacks, DOT, life/shield/mana recovery or reward settlement.",
+    "engine": "Rule VM and Character damage resolver unchanged",
+    "headOverlay": "Existing UICreator yellow accumulated-damage overlay retained separately from the main remaining-durability bar."
+  },
+  "verification": {
+    "focused": {"command": "node --test tests/stun-crust.test.mjs tests/taunt.test.mjs", "passed": 13, "failed": 0},
+    "dungeon": {"command": "node --test tests/dungeon.test.mjs tests/fixed-equipment.test.mjs", "dungeonPassed": 10, "fixedEquipmentPassed": 4, "fixedEquipmentFailed": 1, "unrelatedFailure": "fixed-equipment.test.mjs:44 expects every spawned monster to have the chosen common rarity, including the mandatory boss; the case does not enable stunCrust."},
+    "browser": {"command": "node Tools/UI/Verify-StudioStunRecovery.mjs", "passed": 12, "scriptErrors": 0, "receipt": "Saved/Verification/StudioStunRecovery/browser-receipt.json", "userProfileOpened": false},
+    "release": "e23d14471126f04ccf81",
+    "url": "http://127.0.0.1:5291/?view=battle"
+  }
+}

@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { ProjectRepository } from '../../CustomTools/UICreatorAlpha/server/project-repository.mjs';
+import { validateDocument } from '../../CustomTools/UICreatorAlpha/src/core/model.js';
+import { installInventoryCompartments } from '../../CustomTools/UICreatorAlpha/src/assets/rulestudio-hud/inventory-compartments.js';
+const root=path.resolve(import.meta.dirname,'../..'),repo=new ProjectRepository(path.join(root,'CustomTools/UICreatorAlpha/data/projects'));
+const record=await repo.read('hud-darksteel-20261024');
+const backup=path.join(root,'Saved/UIAuthoringBackups/InventoryCompartments-'+Date.now());await fs.mkdir(backup,{recursive:true});await fs.writeFile(path.join(backup,'project.json'),JSON.stringify(record));
+const doc=installInventoryCompartments(structuredClone(record.document)),errors=validateDocument(doc);if(errors.length)throw Error(errors.join('\n'));
+if((await repo.pointer(doc.id)).revision!==record.revision)throw Error('Concurrent UICreator edit; retry with latest source');
+const saved=await repo.write(doc,record.revision),mirror=new ProjectRepository(path.join(root,'UIAuthoring/projects'));await mirror.write(doc,(await mirror.pointer(doc.id))?.revision||0);
+for(const file of ['UIAuthoring/RuleStudio3D.uialpha.json','CustomTools/UICreatorAlpha/Screen/RuleStudio-HUD/hud.uialpha.json'])await fs.writeFile(path.join(root,file),JSON.stringify(doc,null,2));
+console.log(JSON.stringify({revision:saved.revision,backup,compartments:doc.presentation.inventoryCompartments}));

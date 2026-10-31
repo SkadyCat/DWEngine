@@ -1,0 +1,109 @@
+{
+  "mesh": "/Game/Characters/WizardHero/FingerRig/SK_WizardHero.SK_WizardHero",
+  "sourceMesh": "/Game/G2_Mage/Meshes/Characters/Combines/SK_Judy_D3.SK_Judy_D3",
+  "retargetClass": "/Game/Characters/WizardHero/StanceFix20261018/ABP_WizardRetarget.ABP_WizardRetarget_C",
+  "material": "/Game/Characters/WizardHero/Materials/Shimmer20261018/MI_WizardHero_Shimmer.MI_WizardHero_Shimmer",
+  "clips": [
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Idle_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 5.333333492279053
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Fireball_L_IP",
+      "legacyNotifiesRemoved": 2,
+      "length": 1.600000023841858
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Hurt_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.9666666388511658
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Death_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0333333015441895
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_F_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_FR_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_R_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_BR_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_B_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_BL_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_L_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Run_FL_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 0.6666666865348816
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_F_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FR_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_R_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BR_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_B_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BL_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_L_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    },
+    {
+      "asset": "/Game/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FL_IP",
+      "legacyNotifiesRemoved": 1,
+      "length": 1.0
+    }
+  ],
+  "rulesChanged": false
+}

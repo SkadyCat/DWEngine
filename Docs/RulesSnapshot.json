@@ -1,0 +1,4194 @@
+{
+  "files": [
+    {
+      "file": "Content/Rules/Affixes/ailment_threshold_shield.json",
+      "sha256": "8ef3965f9687d403da1553d7281e0c3ee90bc31dfb5b061c94c46ba1d8996dcc"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_ailment_chance.json",
+      "sha256": "bf4c8dc7f1ea21b58ce4c3969a0ac93ca275909ace99f8d53c22de01d9944e05"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_ailment_effect.json",
+      "sha256": "c39d5d4338dc2c2723ec915625b14cc8afc07138ade52eb6f81c13aae0482215"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_at_point.json",
+      "sha256": "cb7a406e5f94f5ec7c880a648373cda43f85c6107614c903b7ad83934eb79e46"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_at_self.json",
+      "sha256": "6e37ae8683defad1b9b14f4d993cdbe662273db6e1f7a9991364641708984375"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_at_target.json",
+      "sha256": "3a10733aeef4b13b8b5e13c788612d39e9dd2d19b75bde345fc9e3af7bc52639"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_base_radius.json",
+      "sha256": "cee719a48880ddcc145671c8b8ad180d768b4b8bb96e04eefb4c24fe5736c58b"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_cast_range.json",
+      "sha256": "77d78970d50cc0722dfad24a3e19b256936e2f9e68e64463450ff9d1b5d56558"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_cast_speed.json",
+      "sha256": "6b7f9da4da0d71dc4aec4dc9033df28b6e3d1af664fd9c7c1e1d964e12181ebd"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_center_damage.json",
+      "sha256": "f9910864e9b13360b47a24bd1bc4f40c829b6772387296494f572d7b117bab9a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_center_share.json",
+      "sha256": "b0080a1f517bd768d4e9d41e97ae24c3897cf42408d03be2d6e739fb437862df"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_consecutive.json",
+      "sha256": "f73a125d508964e16b6bd042b82e539109d5bc4cb87d87dc301b0feba500e975"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_consume_remaining.json",
+      "sha256": "163f0b331243ac706a744b14af6c7448e3fa975af28a122e150ee2f2073b99fc"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_contract_speed.json",
+      "sha256": "d1002219cc32f1b563f095c6e6b4661ac08fc2b20a66bb2c25782b046a8e316a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_cooldown.json",
+      "sha256": "f96169c7a525d0d6a6ef2adac26adc07807ab57d8bfec3cce2bd3371d7881ef0"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_cost.json",
+      "sha256": "b18803df582087f573fdab13857dfe5b679b65f28933721608db9305937f535b"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_crit.json",
+      "sha256": "6918648e5ca475ab5094ad55d9db8c629f5fac4a30d774cf7efc07df3e4f73fc"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_crit_multi.json",
+      "sha256": "09c522ba75ebda2e9ae6c2629c8b705d365aebff87a2dbf7899510cf5e7b88a5"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_damage.json",
+      "sha256": "29085060ab048a755dfc2cc3b7132ee51afc85c1bf27794d753473ab80feed53"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_delay.json",
+      "sha256": "fb43324218f034df46a13524d053a7a8e4ae2ab6f088491ed2d0df17b65c6f7a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_duration.json",
+      "sha256": "c3dd7bf2dffc84207f7f0a35cf3f669fed4d6db09a204456e9a2988c3e708035"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_edge_damage.json",
+      "sha256": "c901632e67dcf3ba3e9f258d7528bf42f07358112652370a27865135b46814f8"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_end_explosion.json",
+      "sha256": "e225e9ecdd1f05a792bd2680cdff5f1a14e80a68876e631f0062b1b28faf5072"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_expand_max.json",
+      "sha256": "cd52995ff2b9b70e0f04695cfd6a6f50b22bcda44ae04edbd2e7e92d5ec7ccaf"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_expand_speed.json",
+      "sha256": "877a8adff2724c828ed86a3612c31d72d10765d6b9113d2a00c5872304b6cf88"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_extra_cast.json",
+      "sha256": "af871f5ce0823fe7e493516679d7b96bebdb0155b1d38c6bc31fc1b8b11a8f22"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_extra_distance.json",
+      "sha256": "7a6b3ae3a34e1865ee2199d75b57a177189b417d83a33dd029d83757c91ab87c"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_extra_spread.json",
+      "sha256": "267841f86d3e85658a9d2dcdcff18390d4b3065b7aacd21f2cdeea3eb011e7b4"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_extra_zones.json",
+      "sha256": "e74fdef935e42b9909e604f5f6f96fde09b37d3db6ed6922a81634c88bd3a446"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_falloff.json",
+      "sha256": "7b338f76b3a2a52e7248294ff1998d59f5a511051d14e52cdea29a23e9e03a41"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_focus.json",
+      "sha256": "0c1b54217b1f20f89186ba40a27767836d2e61dd6162bcbea2c0cc20074369d8"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_follow_self.json",
+      "sha256": "660d8c302cdedd4f352ab8e5ea15d15f186aa6dcef24740d1c63377fda9f6d00"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_follow_target.json",
+      "sha256": "0a187eb6588ebde3c1322c7f64907dad1bb47f4b1f4ce84289d17bfc2420287a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_hit_life.json",
+      "sha256": "1097bc21f86bb843f9ee148ae5eb7f596ecc51d004c798fb7d670df99bb8ecee"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_hit_mana.json",
+      "sha256": "800eadec8e450bdcebd87519e4310565edc0b08b07514720e7e77604b74d3efd"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_kill_cooldown.json",
+      "sha256": "8ed15189700bce26e9fcac6dba2b9bd5832ba934f45d0a900da045e1c1e65cea"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_kill_recast.json",
+      "sha256": "b82e5827697424b5a9872098a9545b0bbf63a3443b2503d8b69f8b7ccdc6aa3e"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_leave_ground.json",
+      "sha256": "8f0d96a50d920b34cbe7436122e878214841ad7169ea75187a38f241b491ac9d"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_line_length.json",
+      "sha256": "9f7b0b6016237e6fb527f0cc088a927552ba2a014ea7ea0cdfab7e6fa30a5183"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_line_width.json",
+      "sha256": "df1676adb58c93737be43244a93455b6c1531afb31b03bc66b1e875def43c5de"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_more.json",
+      "sha256": "ab7c21b5eeac3b2381cdb3e64e7d8292fa29804d0424fbba79154182146f0160"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_move_forward.json",
+      "sha256": "26f3afbe7659133f4281d282e219e1c58163e64095b4f81b0680ed6a517b3691"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_move_speed.json",
+      "sha256": "c751ddc9b93dd8d26996bcbcbdc843965be31fd5e614808a9df087ae4494fb1e"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_multi_direction.json",
+      "sha256": "b26cb2f6878a6c64401c7390bb6b1ab3946fce43e4d109541fb865b3c2a73752"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_no_rehit_spread.json",
+      "sha256": "cfd135ca2bfa2d55b97f8acb4c28be9978e330c66616b9150e3e83efeab6181f"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_overlap.json",
+      "sha256": "c6a4d4d09017111a7e64866b3e9e38b40b9cfa7c01666ba4893db2406ff02a11"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_per_enemy.json",
+      "sha256": "a0b6fd4c274662ced7ba3a2cda1adc4a2a2b26f9558ff68da1d306622cb4d4ae"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_per_life.json",
+      "sha256": "284fe2407fd780e898a9f5a4ec2d138782792d9c34e8e036629a036d7387a2b1"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_per_shield.json",
+      "sha256": "69c3df555207a625a75895243904ad1c9331614e6123cc134c724b24698380ee"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_pull.json",
+      "sha256": "a4b7adc754e7f687e7fc26e1e396325b80268963656662e56a02e613ce507a98"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_pull_speed.json",
+      "sha256": "00daf662bc77c1d5d0e367442c84f5fa39a5852aec326f6a90eb7e29cfab1aa5"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_pulse.json",
+      "sha256": "d942db0b8af0dca018f44462927a61febace1c9fce605649ed3dff2c66d22d4a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_pulse_both.json",
+      "sha256": "65196cc316da3c9d8f34b656d53b10d7a7b67d1af2f4115194f6414c3b45b698"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_push.json",
+      "sha256": "75236b10573757baa5e595465c5365b4a92c9be1af7a282dcb4db48eb911ac59"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_recast.json",
+      "sha256": "37a92d014d79c6d683603f7c8786a7881ea0459f6c0b789da5e19b1f9372f3fa"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_rehit_cap.json",
+      "sha256": "bc452c99dbfeecb41f8e7c8f68cd034b92d9a4fd131dcfcbd92d3d7dda2c2816"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_rehit_interval.json",
+      "sha256": "b34b9537b9019b1f97ac82c4dddb2dc3fc5ccdc232d453fc5e266438581f781e"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_repeat_cost.json",
+      "sha256": "6ce3092f320605049758913ac21019566c3eb71ef7f391417379ea1b48e59a89"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_repeat_damage.json",
+      "sha256": "16bfe5cc169deb44bc311007412d10c6e49d0386f112e21641810e7076b4dba2"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_repeat_interval.json",
+      "sha256": "1d17d16a0435c72cc31cffbfe31194f949b14d8c03ebc477aa5d43d2ac90d28e"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_repeat_size.json",
+      "sha256": "6bdcc70b19ede2b0ea134d0e9b4e705fa8bbea69269a9c215d8e84aa0d754793"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_repeats.json",
+      "sha256": "c93e71ca03da489e834fab92c2000825af6edb55b53ccbb4800d71e07de36428"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_ring_around.json",
+      "sha256": "b8f8d4a412c0c1817cce53342eee5adfada34935be9c640fea35aa4e852f8cc2"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_ring_inner.json",
+      "sha256": "2712044d1a04b2a750a5b65b39d202fe83f4fba1599100caf91f63a9be3118b3"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_ring_outer.json",
+      "sha256": "37673cdf7501a13bad2d633dfc705c5005b20bafbc39c05ae28ca5fd1bf49eeb"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_rotate_speed.json",
+      "sha256": "7d0518d2ce8a0ed5e095178f3b4d98eab8f71558130bd60560f06293e0a3c8ab"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_secondary.json",
+      "sha256": "35146fea8ffb164cfe526f112e8c8673a51ea3deac8fbaf29934ed40ad1d2d12"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_secondary_damage.json",
+      "sha256": "b95f7cb1720c4536c01909d83e1f0d7912095573342e6c0be6158cc93cecf9c9"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_secondary_size.json",
+      "sha256": "cc8acd8db7edf99a028d4c13d6d2fb34bf557bbd51e274a6e9b18946c2a8666a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_sector_angle.json",
+      "sha256": "dbcf52a2075011c410c36426f79ae1d299a627bb1b072a3e8b24843c1638b04d"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_sector_radius.json",
+      "sha256": "4fb116444ee34915b3f729fe06888f3fe8d8e3f08ffc28f7bf6b14792e16bc57"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_seek_range.json",
+      "sha256": "415595cef69c049a74a3f0ad08ad9a27544b20f4c23922bd5a42efe7c775336c"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_sequence.json",
+      "sha256": "28d9c65fd1875b71745b6dcf6fc734038960d9e8305c4a71f0336ca048b6ad65"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_single.json",
+      "sha256": "3b69a9348542eaa9e69d9919168bd0ca695b60827bd7a26a97052c1eb914451a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_size.json",
+      "sha256": "65424f57d71c2baf325b2749f2adc55096d44e9979d815d65cdadcebbd2dc021"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_size_more.json",
+      "sha256": "c72c4f40031f40c30be04b2bf35ee15bac788533ebdc9b8a3fd99c0a81bdd23a"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_spread_interval.json",
+      "sha256": "4aafe7c4570557b1ff7ef751629b3c4ba6c307e01d9b58f4181fb425394e9007"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_spread_radius.json",
+      "sha256": "c3227b40f08662e162203669db62c00534032291ee0b26dabc1b306d47c0aa12"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_spreads.json",
+      "sha256": "b6d60f77b85110eaa10274993032366b672f8849e1a9ae98df920af94bcf525c"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_stay.json",
+      "sha256": "7250f7218ee391e14f53621a79195683582e1d29bc81ec526bc0ca366969734c"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_tick_rate.json",
+      "sha256": "2fafddde8e99aea9c8c16c65efe0ecce5b75d6ecf89e3319b6183fcee8d19cb5"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_to_ring.json",
+      "sha256": "3ea1d127bce7eb072b637c33a308d92258ed142d021b057b91c94036126f07bb"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_to_sector.json",
+      "sha256": "8b5754deb5d0020eab86fb7a206639de6413af135c0d5e7ab887d3a089cd0752"
+    },
+    {
+      "file": "Content/Rules/Affixes/area_widen.json",
+      "sha256": "dda05ef097a2206d0f2aebb5ffa1b9afad8c2657862b628b99e0f48d5afafd32"
+    },
+    {
+      "file": "Content/Rules/Affixes/armour.json",
+      "sha256": "3b9b4b8a659deedfaa24a8f3b0c2251d43eb3eb9a46afb376a4136da9715d852"
+    },
+    {
+      "file": "Content/Rules/Affixes/attr_constitution.json",
+      "sha256": "80a3ea9c0a4d5f5af75b7eaaacb54f03f7b6f6c3050cde951084e7d05284e375"
+    },
+    {
+      "file": "Content/Rules/Affixes/attr_dexterity.json",
+      "sha256": "faf7fa9efa9e0dad89add957e6d2d1347f56ca2cb0ed6d7c94dffa390b0d091b"
+    },
+    {
+      "file": "Content/Rules/Affixes/attr_intelligence.json",
+      "sha256": "13928080e0da07e4ae18e00d65a28b34a8e2633512e2538e3468bd910ec6810c"
+    },
+    {
+      "file": "Content/Rules/Affixes/attr_strength.json",
+      "sha256": "18bf50ec1c4927f2a75d43252f9e7fc1b74788e4fc2689ed47c56147190ad0b5"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_attack_cap.json",
+      "sha256": "0ebff72ba4691667180d2f507e51d22f7ba6ded2d1ceb39b2d53c3fe92f69949"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_attack_damage.json",
+      "sha256": "2473bb709d41a3691528023ae35594f41b7a1a9d584851f4997183c6e5d02010"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_attack_to_spell.json",
+      "sha256": "092f7e44a3c56a3f75da3e43a9d5ffde8b900ae8a0ac8bda8706ad109edc610d"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_buff_armour.json",
+      "sha256": "e7fd6e25b6e7866234ff76326ee93487a9b480738272bfdd58b7986666809972"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_buff_damage.json",
+      "sha256": "9bba67513a6f9f8e1d746e40e304365dedd63951a6b4c5f8b5d1135361dc70cc"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_chance.json",
+      "sha256": "f472d615060d00826b954e17b5b50b56c7d169a4cff8a207cde36a15c01def15"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_count_cast.json",
+      "sha256": "c13be2ce831f34c32fed417c097905f26297d46cf821478b842eb22794e5219c"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_counter.json",
+      "sha256": "34701ce7f390d7e1a27e504ba524ad7da678b9b73ff24ecbf3222d4771f1885e"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_dual_wield.json",
+      "sha256": "fb0553d9876241ae29220d21f3ae034fdd51aa3a4d2412c39d122f0a364a3577"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_life.json",
+      "sha256": "382e893f32567a05a8f3b020d852aeb07a5ed8b26fa9d2bd0cc966e27c8d6ac4"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_life_percent.json",
+      "sha256": "a0259e3a478d69587a9445f27a3f7a23ae138de27ca507e64dd38727981a453f"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_low_life.json",
+      "sha256": "32d4959cae66eeef8524c713b35ff44da7e94acb161ac8b004f1845e7155c410"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_mana.json",
+      "sha256": "f472d1fde01d6054188515762a76a3954f451dba4134586be14887967f4bf3eb"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_moving.json",
+      "sha256": "f6c56d92f948779b161ef4bbdc47cf05196f7f6357c77bf517820a3c75c88070"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_next_attack_more.json",
+      "sha256": "4bd7a4a523523c12e080c1d9e604dc67fc2f746188135cbadd6da1c1a0faa91d"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_next_cost.json",
+      "sha256": "5570197fbd25f6137ea61aa8e947fa71e81a91e3843c3a95bb281fd8ecab6366"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_over_cap_counter.json",
+      "sha256": "a023bb7abbcd1b98aa05c71445bcaecd0aa850e072555b5957c18359710b4cff"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_recently_hit.json",
+      "sha256": "bf6e81cd10c5ed5ccb821e02840b09c68fc9f4a9ca4d0525435ed107b1f30b1c"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_recoup_life.json",
+      "sha256": "8fc4523c872c0322e4505415cea2f7e57e7838ee599459bc1b09e84eee339fbf"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_recovery.json",
+      "sha256": "28a42e7a769bfa16946c2edebf9f74580b6061b7a8ef43c6fae8268709ced843"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_reduction.json",
+      "sha256": "e201f377a97514c3b1465ac0352216b13e10c0acc02507f8eb45f559d81f355d"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_reflect_fire.json",
+      "sha256": "9d3c75a1f788de060789fc4439133350605feac86c1a4f7317b42f56c21c3e3e"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_reflect_physical.json",
+      "sha256": "4094355874a989c07a947cda0166d68f138f70b7c37a58e5f4683e726d4bf0f9"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_shield.json",
+      "sha256": "60ea49d97a135190311c00b83ce32a2f9f6bbc829ea95e4733ded186665661a2"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_shield_armour.json",
+      "sha256": "562d4cf1ce4fb73339a099a32d385148806e6903de80dbe9cefeaada27fbfe47"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_shield_item.json",
+      "sha256": "711b588cf00ac774f4da1e24184e26690a445069a0b0e59f3c989b84481d5598"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_shield_percent.json",
+      "sha256": "c8c16094110fbc0f91143cd4d4f395348fd931bb60c9d99db819d6da7b29b7c5"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_spell.json",
+      "sha256": "351cbb9f55fc99baf922d75c5cb0ec586e4488f3c27e066d0a6eca149db08d88"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_spell_cap.json",
+      "sha256": "efb831d9cb7ced6bba7cec6a47b8063fac56d47d50f7125297d51ef27d4745a6"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_spell_shield.json",
+      "sha256": "ec3639ebef4f42f1ca4421957f00a6db7faf55826543deb9764047fa1d33c565"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_stagger.json",
+      "sha256": "9956e7e8804dda0332c8413e0730d7ea26f597001a23cf6031f0e928818904b0"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_still.json",
+      "sha256": "07716b693340772065c68cb70eda0e8a7f4ab82a122f4518ff79de90366b7712"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_stun.json",
+      "sha256": "53b874c4587fc04b1822d593ea2fc40143eb2802bf94036ea5a900d30ad330fe"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_taken_crit.json",
+      "sha256": "3fc87b9c0c97847d19f05cf8fe714728900a2b5c353d5124dc2f00450cf60e21"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_taken_elemental.json",
+      "sha256": "05ef7fe9e1454fd343f49a3a77793e633537d9ef422ee9fe72550346fa2f3a5d"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_taken_physical.json",
+      "sha256": "5f21ce2798db4d1fef0e9dba985a657c49bddd0034e68df53123544056456b2d"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_to_counter.json",
+      "sha256": "cb9b0e4a89d78033455787481a64a7e31ab0f73d1a248cf7aa35ee5a3b69793d"
+    },
+    {
+      "file": "Content/Rules/Affixes/block_with_shield.json",
+      "sha256": "890e52a1e6780db3885be04578fb9085b88ab093ab3758d57d135709fd814288"
+    },
+    {
+      "file": "Content/Rules/Affixes/buff_on_full_life.json",
+      "sha256": "9ca89220103bb57df1068eb88de3fff9edc27c543e001a20532e285f70764d2e"
+    },
+    {
+      "file": "Content/Rules/Affixes/buff_on_full_shield.json",
+      "sha256": "28bd8ffd37702e99c0250d2d5f212d6b6187d406aa47525d5ac653731f9eeed4"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_explode.json",
+      "sha256": "af3504dd2b46151e08b628b4acbeef32b92d9854162b9925501051ba8f2d5116"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_explode_area.json",
+      "sha256": "77ca547ea97d2a018f80050195ca60e86f680accaaf2fbdd6fe4a78792169350"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_explode_damage.json",
+      "sha256": "e06eb78e3ab3dd0fb74940d1694e45f58eabfd553292841359c6ec368826b750"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_explode_life.json",
+      "sha256": "5ad1b0c837a8ea9af5e69dc58137fe18a9448431cf5f1a5444a8eb29624e46e6"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_ground.json",
+      "sha256": "7da19c2710155d2ea3c9ff5a983b3b85feb099afeb087d02f0fdf68c2dd83c64"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_ground_damage.json",
+      "sha256": "79995b83ad5ad84bc9c41df34587e1dd047c4a145f2604f51efe0141c428136b"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_ground_duration.json",
+      "sha256": "26ee5ef0d955529910a64390b9c6a7e7dac74fac52f2659be45e35a1edb2e6bb"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_timer.json",
+      "sha256": "b839f47a517c1a65f30c7a6db00a89852e27e8baab1b3867a7e5648589d2a916"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_vs_fire.json",
+      "sha256": "41d5650300dab49c8bd7aa3d40236c9325f3ab1229dc533e866966c7ed2232f2"
+    },
+    {
+      "file": "Content/Rules/Affixes/burn_vs_hit.json",
+      "sha256": "88c4b67eecea5675da80ad8124f8624610114df7548544c1a209b8bebe5fc68e"
+    },
+    {
+      "file": "Content/Rules/Affixes/cast_consume_current_life.json",
+      "sha256": "b14bd1dc92a02f0015007a27888c0b99b0466141ec76d8bcd59c94bb476bd385"
+    },
+    {
+      "file": "Content/Rules/Affixes/cast_consume_max_life.json",
+      "sha256": "24b8c9521db5acd7c89f6ccb30f4c7d0dc158c8e78fd5d7b500fe734e4006436"
+    },
+    {
+      "file": "Content/Rules/Affixes/cast_consume_max_shield.json",
+      "sha256": "fca6c54540def500bf76da4e31e39b7faeaf47b05ba1797a2bfb3509de34223d"
+    },
+    {
+      "file": "Content/Rules/Affixes/cast_on_life_restored.json",
+      "sha256": "07244cc5d616a316d84cf26e5635d774c182b5f05e44d28d902f93ffa20fa9fb"
+    },
+    {
+      "file": "Content/Rules/Affixes/cast_on_shield_broken.json",
+      "sha256": "b9da9f96e54390e05dd6c599030b8b98dc6a280a98ed55b45b08385149e3cefa"
+    },
+    {
+      "file": "Content/Rules/Affixes/cast_on_shield_restored.json",
+      "sha256": "de9b280b25e7154f2027d54e86db1e9cf51359d612baab733b4c6bceda7d4bfc"
+    },
+    {
+      "file": "Content/Rules/Affixes/chain_count.json",
+      "sha256": "94d7cc5e603fb64f2bce23ab2a7fa7e2860caae32764e2cf588c4d0800fb9c7a"
+    },
+    {
+      "file": "Content/Rules/Affixes/chain_decay.json",
+      "sha256": "3f941d4daab03801f320e3308441c7eb2c1fbf433e56a9eb1cb0a96e35e701e2"
+    },
+    {
+      "file": "Content/Rules/Affixes/chain_distance.json",
+      "sha256": "991585622e28a260af7aabedc65842d046e25e36082a1cb51037455a88a39fdf"
+    },
+    {
+      "file": "Content/Rules/Affixes/chain_overflow.json",
+      "sha256": "c6b40652f4feaa96c196e568db81ae0b028d1a4ea0b9bd532d938dfb70f2a4e5"
+    },
+    {
+      "file": "Content/Rules/Affixes/chain_rehit.json",
+      "sha256": "7ecf15bf895b5bf1cbcec6f54e557644d5e377d881f5e401294cc0d622904cc0"
+    },
+    {
+      "file": "Content/Rules/Affixes/cheat_death_heal.json",
+      "sha256": "d6e827cd50f1a30b4db94fc9ddb5c2588118877c27eb148f204dba61592b98aa"
+    },
+    {
+      "file": "Content/Rules/Affixes/cheat_death_keep.json",
+      "sha256": "fc80e667494f2ad6be302c4b7011dc12f3a1eab8a0309bbb4eb13897a293a1b0"
+    },
+    {
+      "file": "Content/Rules/Affixes/chill_cap.json",
+      "sha256": "edced3a30e09dfd9174de1f20c81895a194aa423a822b4bf64e2218d252ea5e7"
+    },
+    {
+      "file": "Content/Rules/Affixes/chill_chance.json",
+      "sha256": "0a24af4e947850a19f830d94e6ba9a046d2de82fbf9e99fae72e2229674c1a2a"
+    },
+    {
+      "file": "Content/Rules/Affixes/chill_duration.json",
+      "sha256": "699b89fe3fb9f8fb9a5d31a9d9c39c5eb0965dea1f5edbb261fbd38e649361f8"
+    },
+    {
+      "file": "Content/Rules/Affixes/chill_effect.json",
+      "sha256": "b4537754c89691c5d7f099ae5b2fa191c1b790968e606310cb991b8ba025eb4d"
+    },
+    {
+      "file": "Content/Rules/Affixes/chill_vs_frost.json",
+      "sha256": "b3a291b3efb8060574081377dc542fbfd4e436f25c51ac67008ffe461382a4ee"
+    },
+    {
+      "file": "Content/Rules/Affixes/collapse_area.json",
+      "sha256": "6a626485b9d269cd96fdca153f1a70f2985af35c263f70ba3775360b98b354f8"
+    },
+    {
+      "file": "Content/Rules/Affixes/collapse_damage.json",
+      "sha256": "b31e620106b4a9879389eed0af1aff22c448d387911c0cc0770f8581215c7a4e"
+    },
+    {
+      "file": "Content/Rules/Affixes/control_unit_cap.json",
+      "sha256": "ed006a89507fc546d1fabde8247bc7ead017c0217183b51e50a4e56590d69681"
+    },
+    {
+      "file": "Content/Rules/Affixes/cost_from_life.json",
+      "sha256": "2f284d255cf995dd0a33f627e1c39fa2ae60ce69755b5ab399de45275d7e287b"
+    },
+    {
+      "file": "Content/Rules/Affixes/cost_from_shield.json",
+      "sha256": "0e00d5c15eb9964703807b25edfbe268e822554ba8b93cbf465cf9ce7209e5c0"
+    },
+    {
+      "file": "Content/Rules/Affixes/cost_life_reduction.json",
+      "sha256": "c88d25ff55d52e553fb204ce7d512e4a6e26e1f0918bd9a345868b2944f803fb"
+    },
+    {
+      "file": "Content/Rules/Affixes/cost_shield_reduction.json",
+      "sha256": "8abe9e4b931d690903ee3d89491549938162d3a5f6f310037e0cdd0a8852cc21"
+    },
+    {
+      "file": "Content/Rules/Affixes/damage_per_life.json",
+      "sha256": "3b1173fdf94227fd06b3fef1441e98242a650ec7f204d008ad398624581580b5"
+    },
+    {
+      "file": "Content/Rules/Affixes/damage_per_shield.json",
+      "sha256": "9bfb39bdcc38400e3253a72739da98a41d5e0dcc3be4ed29a965a29eac4edc78"
+    },
+    {
+      "file": "Content/Rules/Affixes/empower_from_overflow.json",
+      "sha256": "63dd309403c3a6d3b1575bf87aa28fd1902e0daf213d909fc5e55009f41c2f8c"
+    },
+    {
+      "file": "Content/Rules/Affixes/empower_on_life_spent.json",
+      "sha256": "94c71d278b548cbc4b0fec15ebd70970a6d328531dd62a2208a051bcc6af71d2"
+    },
+    {
+      "file": "Content/Rules/Affixes/empower_on_shield_spent.json",
+      "sha256": "37b92f3dba2411aa386f2bf3df4ee519ce545b8d95ad7f53a9e29f68936e1f6b"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_base.json",
+      "sha256": "f53420b182e9662e7ece2d7ec75385767a93670de13da375e135dfacd823d13e"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_chance.json",
+      "sha256": "e1dbef6abaadc7207e9a1fbcb57aa9a81112b3af3804c588db25752effb3cbe6"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_collapse.json",
+      "sha256": "6ca2efecb6b1e7f42289bb97f92811caf7b0095b1f98846d19e4e650ce28f29b"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_consume_all.json",
+      "sha256": "96f1f8dcd1bd9d033ea859a757e9e224a201067699f6505b90e7b048880a2947"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_consume_layers.json",
+      "sha256": "37879414a2ea12ef002ef1959cdb384aa7eef4a70c79e69a97f31c84a5a09ddc"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_damage.json",
+      "sha256": "3cd9859f9dbb971d8c73f5a280a938cb368cf380504731745a45c1ac3adc2cfc"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_duration.json",
+      "sha256": "8071e69ce3de8a246d985f6e7100e6c5e64a6b4e0a049e49c069974e7e621ec1"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_enemy_recharge.json",
+      "sha256": "d6aeb9123449b1a0ee7d332c7b6843951b2505be262099817bd4300a6fd64466"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_enemy_regen.json",
+      "sha256": "5f71367abe49ef149c6f1f3ff53854ca6e3f9ccc956b2e1ce85015fec518b6aa"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_enemy_shield.json",
+      "sha256": "65cedac371e108c97d77463aaef2d92f0036304b722240015511753fc28b2a62"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_extra_layers.json",
+      "sha256": "9c1987cbf86f99910ee83a882d3ced9d54a9cee3b8942baa949a540b558aefb2"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_max_stacks.json",
+      "sha256": "6c668fbdabe6397c932bff1df42d4ae526afc104329f16d6e1eff577b146463f"
+    },
+    {
+      "file": "Content/Rules/Affixes/erosion_per_layer.json",
+      "sha256": "fbb92fc244c14e9a4c4e76d4d93394bcf72ec684b41444ec173a042556cb7fa4"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_buff_attack.json",
+      "sha256": "14d7ddca7e74cdbe9d2af5d5f6f7acd00f261f280357cc7d79b2128947196d3f"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_buff_cast.json",
+      "sha256": "5561097c79f300be2f23980f87ba6c8389fecc7e61399a36b2ed590f0378fd2e"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_buff_move.json",
+      "sha256": "721d6cde531e92160874a1efb8c4087f6da9092a75c3468f59b01bb3a4ba4918"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_cap.json",
+      "sha256": "269c9ae25c6a3a878ce1568185605d3f6b5d1bcb1cc2cda7a01e3c5130993741"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_chance.json",
+      "sha256": "c8337b5e206b1a0dc6a78e9360e3af6e832786498fd5322a3a8abfeb80f35d1d"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_count_cast.json",
+      "sha256": "a9351e7918a032b5cd5e947944dc478e32bc28e6a11668d5f54d7a18c8611ad1"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_counter.json",
+      "sha256": "b3dfa99020be3df8213445b7d31c2b3134a106a648a1491399ca02e413f539b1"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_fail_bonus.json",
+      "sha256": "9b071dde5461054ac2f417d6dd0b5dbc9ac28a9b651a20dea9d178b16fef217b"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_life.json",
+      "sha256": "4f5ac6964d1094c1edbd8da8ebe1203e4aa5f5795f529640f02af2fb5d5a5596"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_mana.json",
+      "sha256": "8a7c0b0da4815a76c4eb7b114b795c1c263eb849de267cc3b7e2921ae51266c5"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_melee.json",
+      "sha256": "ebe18a65d7cc6d85be18551c79886bbd6fe644c20716e88ce4288d5a3dd70621"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_next_attack_crit.json",
+      "sha256": "c53acfda5574601356ced709f61bb92fccca296e743e0358ff825a7ee360a080"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_next_attack_more.json",
+      "sha256": "a1f3e16c2c1673dd72a3f1bf63171a3cf6cf40ffadfa2a21317a4186c5422719"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_next_cost.json",
+      "sha256": "e2cdf2df9475ffe76141514e1505f061198660a062404e6ca7eea5ceff029dbb"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_projectile.json",
+      "sha256": "d17318b6a23e50b6317d47f53ce231d8932085bd3f818de0ce512fd42ce3f48a"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_shield.json",
+      "sha256": "eb91c29e48af759d9532a525a78264714b4569d43d30cc87bc486945fa209487"
+    },
+    {
+      "file": "Content/Rules/Affixes/evade_spell.json",
+      "sha256": "08a6f15cf1e99b5d6a500845777e8dfe7b321ec6298313d59f69b3d260b3d0dc"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion.json",
+      "sha256": "918093d0c4e6292d1461a15cd97ad232da27a29861013f2ca61dd9e6acc9def2"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_attack_speed.json",
+      "sha256": "4ed018315ceacb0581fef38c3cfbaf16e517986290e6a9cc973d6fdeaee60574"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_crit.json",
+      "sha256": "7af34bad62830a7144df1d0d66095c90455e107de8bc4a945ca7bcfadf8c64ea"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_from_equipment.json",
+      "sha256": "37e0591bf9858efb0ad389426e72ba45f286d6b955ef23517391b09ed1acd7b4"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_full_life.json",
+      "sha256": "7f520452d4c2e71376c060440b83f805f71e094b61f4ea979b251e6e8c3dcae2"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_full_shield.json",
+      "sha256": "cd91be46339af19acd96ee091be039b002a21fd13ce79b53ff7ee8fa3c4c39ee"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_increased.json",
+      "sha256": "4c6383fe506e713e219385cf2815bc3bd0b22d637ed0aa0830ba3b7da7674a81"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_low_life.json",
+      "sha256": "ff95030244b4b3edd40cdfc321751cc03960834bbd1a8312dcbbe9074dc502b2"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_more.json",
+      "sha256": "6de6ceb600761d255b04a4e23789ea6e66259735a669d8d8a35e2a74bd8c0f86"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_moving.json",
+      "sha256": "88b4848c1cccb7047266948d82e6498b36f4144fe5953da3eea3740312104f9b"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_not_recently_hit.json",
+      "sha256": "7d7f2580df4a757bc84975121610450387b091386d5d0981238a8bf366c94fde"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_per_dexterity.json",
+      "sha256": "916583488c1e991af4ee877057b563cf5fd06fbc8d89513e2ada3c9c5e2e4a94"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_recently_hit.json",
+      "sha256": "dbe9c667e5a0c657249eafba7d6b154cbd9b01d2e673e2503e5f936adffe1f99"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_shield.json",
+      "sha256": "6f7bebf1b5c4bf1ae8b3ca20917cd46656c4606397f4e773ee572784dccd6c0c"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_still.json",
+      "sha256": "8f92f185d65db14b61362c8a61dcb07e152307d4be9e92f09e67fbeaeeddbe37"
+    },
+    {
+      "file": "Content/Rules/Affixes/evasion_to_armour.json",
+      "sha256": "3ad1ce5ccea0a04a1352065ce91e29d8d6e6b4e41696a572e00fbe110f9fd181"
+    },
+    {
+      "file": "Content/Rules/Affixes/execute_collapse.json",
+      "sha256": "5a9510a48d6daffab926ed9ea393e1e1943da0a182ea20e9a2363e74866e9a7b"
+    },
+    {
+      "file": "Content/Rules/Affixes/execute_life.json",
+      "sha256": "ba17f3696c293f31deed57d787122dfccf0fb82e0ea8cd48ffc1b04a89c8f429"
+    },
+    {
+      "file": "Content/Rules/Affixes/execute_spread.json",
+      "sha256": "d133a6470d9e23af1c3273d478acf0044b590595427d88e427209258717ec43c"
+    },
+    {
+      "file": "Content/Rules/Affixes/extra_as_fire.json",
+      "sha256": "9f27c0d34b992c0d130a2291f5f2812a7ea5888f66b4819333239d509c13f774"
+    },
+    {
+      "file": "Content/Rules/Affixes/extra_as_frost.json",
+      "sha256": "cb69f1ac3b729c6530c78016267f10736ac4a1b7de0cccd977057cfca85d054d"
+    },
+    {
+      "file": "Content/Rules/Affixes/extra_as_lightning.json",
+      "sha256": "6ea16bcb26297a680c9faa2d95f1b08e56736f3ce4c61a82f7b478ee2b64a5ac"
+    },
+    {
+      "file": "Content/Rules/Affixes/extra_as_physical.json",
+      "sha256": "baeb2cab60d6e7f01586ebda2db267d942776937115ac1cc6f3d34aa68f8493a"
+    },
+    {
+      "file": "Content/Rules/Affixes/extra_as_void.json",
+      "sha256": "d204a205c80939834278a7a226c8a382d1b62786cc5f01f21fcfb0abc405002c"
+    },
+    {
+      "file": "Content/Rules/Affixes/fire_area.json",
+      "sha256": "dd35253735adba0321e74dafed27613ecd7a411b4602d5a85209baa14122f2dc"
+    },
+    {
+      "file": "Content/Rules/Affixes/fire_base.json",
+      "sha256": "e11ca0c283c8676fb2e36f25eda10a4c326694c6fec0ab160ae49fe1aa273faf"
+    },
+    {
+      "file": "Content/Rules/Affixes/fire_center.json",
+      "sha256": "4fc6a840320d4bce52a3bc7249739ee55cc27c57620830a1d8daa014af23e255"
+    },
+    {
+      "file": "Content/Rules/Affixes/fire_convert_physical.json",
+      "sha256": "2e9cb3b10627a70220495eade700494eccb15439c87d84b31ec211cbf415ff2b"
+    },
+    {
+      "file": "Content/Rules/Affixes/fire_crit_multi.json",
+      "sha256": "7d861d2aa5f1ddaf4fd0aa08196186af6e3e13ff2689ff17af7750780058e3e7"
+    },
+    {
+      "file": "Content/Rules/Affixes/fire_extra_physical.json",
+      "sha256": "6ceec7fed756da11202488aeb6ce3e7e47e82d59c402cbf4acea535772352969"
+    },
+    {
+      "file": "Content/Rules/Affixes/fire_pen.json",
+      "sha256": "32737b1efdb2a6ac1faea1d0605a72b8d18df909b119cb1c01acc4ad81e647bd"
+    },
+    {
+      "file": "Content/Rules/Affixes/flask_life.json",
+      "sha256": "c407df0d8f906f005ab7ab4fcc8a25da7f3845dc5797988ed5df9a6ff98e571c"
+    },
+    {
+      "file": "Content/Rules/Affixes/flask_life_amount.json",
+      "sha256": "047ffe17f03d651e98bcaf71c52ea034569f92d4d67ce16200ef1fe621a241c8"
+    },
+    {
+      "file": "Content/Rules/Affixes/flask_life_instant.json",
+      "sha256": "4d4c6941f1b1c9103d61ec963d3726eda6f86f88306dfd632a3cc45209c35492"
+    },
+    {
+      "file": "Content/Rules/Affixes/flask_life_speed.json",
+      "sha256": "bfe5bd83d7216745ed1fdc8b78555a91b68c8a982f9d1958f2b13151c9712be7"
+    },
+    {
+      "file": "Content/Rules/Affixes/flat_fire.json",
+      "sha256": "c25de5395aa0c0630d0ff5bd5b781bc3ed847c86d6bdb04c667451352e1f63b0"
+    },
+    {
+      "file": "Content/Rules/Affixes/flat_frost.json",
+      "sha256": "9285a759472f5645dffd0bffa9adf36c4989e7833d45c8f0c5fcfaa76130ef6c"
+    },
+    {
+      "file": "Content/Rules/Affixes/flat_lightning.json",
+      "sha256": "8264bed753dde1d3b855635ad6b67b841d940261929888ef9ada2bbedc7deea5"
+    },
+    {
+      "file": "Content/Rules/Affixes/flat_physical.json",
+      "sha256": "28ec25c6732e16a24d7e8407a1c4519addb1e8ff76f1d23934856b6d05b44ec8"
+    },
+    {
+      "file": "Content/Rules/Affixes/flat_poison.json",
+      "sha256": "9330f9b2db407c9f6ea7c35cc3aeb3eeb518c375091f9794450fba610537e6ab"
+    },
+    {
+      "file": "Content/Rules/Affixes/flat_void.json",
+      "sha256": "3d4b61b61bd2d7484e0b09bc86be366aa0bb49250c102c2ddac0a424821e71b9"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_break.json",
+      "sha256": "8409c3fc423f5ac0b944e31f7aa65d200740cfc7d6d7b6a3dc688a0965a6d5af"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_buildup.json",
+      "sha256": "ade4d99be945bc090775170ebcfe41ffa8b38aab98d9a8ab900d1d8f02756fdd"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_consume.json",
+      "sha256": "a16f9dcee103dcb013776894c2cde7c263f341af7b4a449f322964abfd4a4995"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_duration.json",
+      "sha256": "3cc6793efc510c5d084ac4bcb5fd5b648b4e43b6a0d68e992e87a218e4bde8dc"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_elite.json",
+      "sha256": "60cacd8807d06ec520d4a0c5318d5f96ec686d7b6b8c7e07e818d9bc3d3ec8c4"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_end_zone.json",
+      "sha256": "12f794b2ef8cb9ee2f80a6767ca45966ad438c852dcbfa5d273b1da1ccf1be03"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_residual.json",
+      "sha256": "e7f153cdc26fbc770decebe00509db08a8ff2cd4e9884ef4f550a4dcaf45c022"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_threshold.json",
+      "sha256": "f5b484b9bcdd60710e551d4b06fe0d5f2960ee1387d522119662d8d51e94fe68"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_vs_crit.json",
+      "sha256": "3332a0cb78b1509afd2c04b436f67f5c1c1bd6dfca6ffa01b28cba556d283d0c"
+    },
+    {
+      "file": "Content/Rules/Affixes/freeze_vs_crit_multi.json",
+      "sha256": "06de0d862d0aa03f099a30b1a3a6618f78025e71eb1361837e8224535d7e6b06"
+    },
+    {
+      "file": "Content/Rules/Affixes/frost_area.json",
+      "sha256": "fac1574f3babb7faa7c8dc96d297c28b164feb7157cd5510330779a50512ef61"
+    },
+    {
+      "file": "Content/Rules/Affixes/frost_base.json",
+      "sha256": "c5aaf174cc9aeb1c96a92c8f24c0868506208aeab85c957f22ac6ee7431e53ef"
+    },
+    {
+      "file": "Content/Rules/Affixes/frost_convert_physical.json",
+      "sha256": "87ad42bf9a145f381181b24297a9fd26a2a982744ecdef481db02c52002b10b3"
+    },
+    {
+      "file": "Content/Rules/Affixes/frost_cooldown.json",
+      "sha256": "f3bc34de3016534ded52637055f95afe5c436e327e9a0f7885d2eb832be48a15"
+    },
+    {
+      "file": "Content/Rules/Affixes/frost_duration.json",
+      "sha256": "36987c12d780fbc8ed9d3aa44d0bbb7c9d7995419e68a6de5c440bfa039a41b1"
+    },
+    {
+      "file": "Content/Rules/Affixes/frost_extra_physical.json",
+      "sha256": "d16c739d2db7883a15ab88f815006cd5a4be24d6a5c06d88041a07780f384cd6"
+    },
+    {
+      "file": "Content/Rules/Affixes/frost_pen.json",
+      "sha256": "516966174806ddfa4eff5c991452299c33700463d56f114eedb65b8e53dd7c6f"
+    },
+    {
+      "file": "Content/Rules/Affixes/frozen_spikes.json",
+      "sha256": "a72eda3484bbfdda7b86377d383ad9b8f36615bccd3b1cf0af2bf6e09134f5a0"
+    },
+    {
+      "file": "Content/Rules/Affixes/full_life_crit.json",
+      "sha256": "cbdaf9158db3dfbccc78a2b26276cab999943ddb0bedd2759053be8ffb50a82e"
+    },
+    {
+      "file": "Content/Rules/Affixes/full_life_damage.json",
+      "sha256": "86c5ee76d307aff5e7a900dc2d458118f0730292d3de79cf617473f9dce1b155"
+    },
+    {
+      "file": "Content/Rules/Affixes/full_life_move.json",
+      "sha256": "7f9d61021982ba29307f7ede7afe8602552ea2bea58aaa1f18eb3d2b4568b77d"
+    },
+    {
+      "file": "Content/Rules/Affixes/full_shield_crit.json",
+      "sha256": "9df6af9137623336e4e54d907fdd4887a1232d4983f50662f34835c835ce99ef"
+    },
+    {
+      "file": "Content/Rules/Affixes/full_shield_damage.json",
+      "sha256": "05af3d7e238ce4a84baa7e0c2ae9b8c5216787c1611088b7f92c2009e372202b"
+    },
+    {
+      "file": "Content/Rules/Affixes/full_shield_move.json",
+      "sha256": "dd65ce2d34600bc79a8c09d4045369bada164098d2f682d0bc82dfaf66b13702"
+    },
+    {
+      "file": "Content/Rules/Affixes/grant_sacrifice.json",
+      "sha256": "72b73dfd769e25b28129140b82f3e3a0e0cc86d6527a03e7b9c3c893c2d1e6d5"
+    },
+    {
+      "file": "Content/Rules/Affixes/guard_on_low_life.json",
+      "sha256": "ad08b6482f3799c937523fa4e7636b9af0b70bcd4010183ab47af35dff5a6093"
+    },
+    {
+      "file": "Content/Rules/Affixes/heal_overflow_to_shield.json",
+      "sha256": "ad12068447b8bf593bca30af424df00bfab012b67a9c45a0ee48139986fd2e1a"
+    },
+    {
+      "file": "Content/Rules/Affixes/heal_received.json",
+      "sha256": "a391c3afa2a5c93ff76470a41b7c791a82801f8be7c314eae41bbffe71b731ae"
+    },
+    {
+      "file": "Content/Rules/Affixes/heal_received_low.json",
+      "sha256": "0420633c663cf72d66b634e94e0dc5385b23e55fd3dd9406cb4c47cd8c969810"
+    },
+    {
+      "file": "Content/Rules/Affixes/hit_next_reduce.json",
+      "sha256": "0b7261746d791cfe7aa62864faa1f33875633bb0071387d4cf61124dea5d3fb0"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_base.json",
+      "sha256": "19d9044b336f708936a20f2978d4c8d87742d8b4a37593d3ad9625e4a8f1ebff"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_chance.json",
+      "sha256": "d379071fd4f368048ccb075bd5305eb5ad71f8ed4c4ea0f9127addb208a1c50b"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_consume.json",
+      "sha256": "48fb19e93286a439630fe652eaea7626dcafa34527e9ead90e876c1ed3159353"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_crit.json",
+      "sha256": "0d2298f19b19c4fddc676ecc65178cb17a2ce11d85632e11e41dde8c3dfb9793"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_damage.json",
+      "sha256": "cafe82b14dfa1a6589a1b0813f832f48dc12a5b324fa81ab5fca8a551f731ecf"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_duration.json",
+      "sha256": "05a5dd42aaf2c9c9c5d7ae78bd6a928b6805909bb2c8d57f2c67b89f2ee9bc61"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_keep.json",
+      "sha256": "6364f2b970c06d7525912e632aba0ef348c9177fae08d7a76391b0e8a89eda0e"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_kill_spread.json",
+      "sha256": "d5962a8294affe60d317c734576c60d07c3b9ff2ca1ce34970f2c8fea3fe45d5"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_max_stacks.json",
+      "sha256": "99919dc91265fb87cba03c6e6758b659e5e682cca23ff787cf3ff5294cbb9057"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_speed.json",
+      "sha256": "821e8ce8fd8d6d850093bc60e941affa7df23fe6d2e0a56062c5eb8708819110"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_spread_radius.json",
+      "sha256": "dfd8aeee14e69e59614ae05f7fe76b37a42be0febbca6c322e999395f5873e1c"
+    },
+    {
+      "file": "Content/Rules/Affixes/ignite_spread_targets.json",
+      "sha256": "86dc5ea34fbcc19fa5c3169f396ecdec391205673001dd338c0530f6001b246f"
+    },
+    {
+      "file": "Content/Rules/Affixes/inc_elemental.json",
+      "sha256": "4544b4796bbab706b02006ba259ca9e3b0dd86c731e93cdcca4cbf5ac3f08337"
+    },
+    {
+      "file": "Content/Rules/Affixes/inc_fire.json",
+      "sha256": "624b8ed94e53bc8577d9356679c36d0adc971ba444b09e20aa176fcc2e7c847c"
+    },
+    {
+      "file": "Content/Rules/Affixes/inc_frost.json",
+      "sha256": "acf2ea0bef5fad54fef52d1e96bce05f5e5f099fa4df21c845932caa5ed64c01"
+    },
+    {
+      "file": "Content/Rules/Affixes/inc_lightning.json",
+      "sha256": "d5143fe1792ecc0347883f2f03b724d7fa5b42aa83a0f548c3ce1bd8549dbc05"
+    },
+    {
+      "file": "Content/Rules/Affixes/inc_physical.json",
+      "sha256": "ec8384811e72e0fd4dd025ac17ed64aa96e20dbe83273b6a1f913cb6bb4b8875"
+    },
+    {
+      "file": "Content/Rules/Affixes/inc_void.json",
+      "sha256": "6a9db2afceb89a49b277191f4982560f3a4a4a5de2b3766868321df201b89d02"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_all.json",
+      "sha256": "baedecf76d00f95275fd391fdc1b0f84267eb040260963863aca1205e65bc5f2"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_cap.json",
+      "sha256": "cc2e81bf3d29f72322c85b8ef8936d18e8c479e74793fc5137e7c5732ae6803b"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_duration.json",
+      "sha256": "9168c8ed34b65128713ee4458b4fea122626d26569a3b7f53f0188d44bfb6fb8"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_elemental.json",
+      "sha256": "5715816f0f4713d9c30fb6bb782e0e26b2bce695d56a097aae1cb5e81f3cd7d6"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_instant.json",
+      "sha256": "5b29a84785f84b6523f1501c1224017d81055d1a5c7b0f421cfe21a8a34670fb"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_keep_full.json",
+      "sha256": "cb351d3abc191951221eb46d3668af060be4b0819d310be4192790450d7dd1d8"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_physical.json",
+      "sha256": "e442498ed5262c48a47ba4d6049fe06c811427092ac4828b5f7eef5e0736e02c"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_life_speed.json",
+      "sha256": "1d52cce5c11967de9ecc94ba62f9cb874e76da123c2c4c1020a240c22109add9"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_all.json",
+      "sha256": "de7b898b4be4d76d789eda4c27b1dc957e8afd3e3627e9093eaacc123eaa6707"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_cap.json",
+      "sha256": "c75d4ea47eebe92b19414daddbe00bf65fa836863eb4a96795e3781570c80f0b"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_duration.json",
+      "sha256": "6408acb73801c3cfa00d4afff2e93432764981be4a7d8b67320a4ea7c5a23176"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_elemental.json",
+      "sha256": "0489aaaa7f0c30dc6373b22d2bfb05686230c21dc6cc92ace95532bf2fb62fb6"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_instant.json",
+      "sha256": "ce6460d5943d47f478ad707320275aa26e034c34f048693dc3d2446ce923ff3c"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_keep_full.json",
+      "sha256": "2d83beb5c51e8415119b614e1f3a125d25bf101a29e0e4f59e0faa2f2f6ee648"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_physical.json",
+      "sha256": "c44e7a55e8e3e89b961cba966d72d10fee2152219c5f8750951dbede61087b5d"
+    },
+    {
+      "file": "Content/Rules/Affixes/leech_shield_speed.json",
+      "sha256": "5434a4c86cb481053d02c95ab75e15046fb2505aa8a1a065782e765589905a41"
+    },
+    {
+      "file": "Content/Rules/Affixes/legendary_consumed_nova.json",
+      "sha256": "d411698fdfd7d1ab0d96a79cc90c80e7b3da19bc11af47a95eb29f5240b22b6d"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_added_fire.json",
+      "sha256": "b13168a17d5a42e24d09b653e309ab4eb84912abb196057d29767dc977cf4492"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_added_physical.json",
+      "sha256": "8146a4690b51d509737459fd666b3ff1988006836e8822ee5e2c57158516ab6d"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_added_void.json",
+      "sha256": "51892f40b07d8afc29b1493202dd66001e87451ab1e1feeea48cb62e4001b704"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_base.json",
+      "sha256": "c22bc583055e7b53cc1304c4eabfecbbeeedf9cc05f271d58ac3f0bf87e2ebfd"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_from_equipment.json",
+      "sha256": "d52e61bf28ae863fbc98e277d6fe611e9f404a89ecb3644beb01e72890965d6c"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_from_mana_spent.json",
+      "sha256": "8bf887a2086629994e33d49f2833ec5d80b14b24dea1a282bfbf214019457f3f"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_increased.json",
+      "sha256": "e072c251b000fc2e3342f8be5add8edfb43c3030dfd20b7023df8831daad81f7"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_loss_deferred.json",
+      "sha256": "ec66bccddace84122a8cfbe8770335d0d77e7a5c0401ced79bb455ece9a9b5d1"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_more.json",
+      "sha256": "6f59338c418241e78704f686f00ac32fa882983eb47f7c25e53ca30480420961"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_on_block.json",
+      "sha256": "ac28a4ff4859e3a44e6150ccb8a97bf7a3e084e6c901366fac938afcadd0ea39"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_on_cast.json",
+      "sha256": "0239f12d96983364c3d3726be60bae05bbea84eae74bdd2e68356a87c583ae77"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_on_crit.json",
+      "sha256": "6a0a3f6b8544ff2aa8dcd3463de30ea9c626b27e7b9c04bb035030bdc0d8dfa0"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_on_evade.json",
+      "sha256": "e408265a4b811ae5823d496adbe1e70daf50ea7b90c28d7e3d64118a603eb5a2"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_on_hit.json",
+      "sha256": "aa94753c04aa402f1ac45cbfd3e5c011b9b6f15edd82498ccadde31cc269a8cc"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_on_kill.json",
+      "sha256": "2ab1b593ee2b79310633c666d09bc05087fcf82bda719ac3c9f8ca41bb0fd520"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_on_kill_percent.json",
+      "sha256": "d9bdff43c139ffa3d4cd7cfd3394018350439c8714c0312ebe511ef231697f1c"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_per_constitution.json",
+      "sha256": "a2c449eaa04ccc5e913083590ddb686fbf0156b262a5c94145cc91c89a2e3c03"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_per_strength.json",
+      "sha256": "d2efc40f050804100d728903375e2db398d56464144a765ae5f19fbec6523acf"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_recoup.json",
+      "sha256": "b924096d43bbee79c81d536865b71c9fa4aba46f42da498fbfc549fdd99c82d4"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_recoup_elemental.json",
+      "sha256": "4a93850144fe37b2f1a4ef20c0c9a4e01ee73492bd3c61d44e6890da1d4d5a1c"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_recoup_physical.json",
+      "sha256": "141bd801f0aa3f1f87100e202fd62a9aea3faae92f7c44226df25f0d4a41f375"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_recoup_speed.json",
+      "sha256": "b1016326ce37240707fe53c3cca7f3ed12918c8c7c940ea539dc2f998a2e7b02"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_flat.json",
+      "sha256": "c9822227093d7fccda2205ec07c5c90301fcaf6bdf891a5695b79ea5859a2f2a"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_low.json",
+      "sha256": "ac9d82531d04bed488e6eba8f30ceb5c063baa834d813fcc63755befd138afb3"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_moving.json",
+      "sha256": "fa5e71a244c941b1142227d2ebdbcc0c2a01a70e98de752ef82db58bbcab3881"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_not_recently_hit.json",
+      "sha256": "169f49de49f8663da3f37376b34842781c5782b733ed99928edb5cee632253cb"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_percent.json",
+      "sha256": "1e532aa27707e624426b6dd944e3ae8871bb1c76c304d3c632c7fd4e2f4bef11"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_recently_hit.json",
+      "sha256": "cce4b16e2aa0a5e4947f2876900a8a3630298cf58f8188b2414f95b7618d9b47"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_speed.json",
+      "sha256": "5623bccb982b7205e3ade1a217ed1e7826ab02781bbd4fcd66835abb5f8f97b6"
+    },
+    {
+      "file": "Content/Rules/Affixes/life_regen_still.json",
+      "sha256": "92d673a18253e59415ebd9ac2147b01ad98bbb4a8956ccd909f7e26b4d046d5d"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_base.json",
+      "sha256": "0e3340f7d2be01f2dba5f90840d87a670ce2b32f8edbfc035f24587f441ae719"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_cast_speed.json",
+      "sha256": "9c64219a2fedec5ed479f56adbe4c645e9aaa9945c6a70b423b4c33a4550d0d9"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_convert_physical.json",
+      "sha256": "4a43af25df7a3ec900de5938e4d916a7baf6f2938aee7c3917229da788f3aba4"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_crit.json",
+      "sha256": "2b2f3faa976dde5dbc96400603f0ff641516688614bcec9703a2e4fd68045627"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_extra_physical.json",
+      "sha256": "d1ee846b2f79e78b0423bf52de4b1fda6e5a77e6c05a6da1820204911d957a94"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_max.json",
+      "sha256": "ffcf3aaed45f85ececfc6a4f63030a21986326d8daa73ea3adcf936138c445dd"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_min.json",
+      "sha256": "af82c435473c0ebe503f0f0d956487092c4438b4812f960c3c8d7e85155a4189"
+    },
+    {
+      "file": "Content/Rules/Affixes/lightning_pen.json",
+      "sha256": "cf9734e1f3b9a0727eb20abf842e4d883326720c68b46c79ac8c2677699b344f"
+    },
+    {
+      "file": "Content/Rules/Affixes/low_life_attack_speed.json",
+      "sha256": "880c1b33b88eb0c73a5ed6abe3a744cde59bdf0f8ef99ac617f3af225429b447"
+    },
+    {
+      "file": "Content/Rules/Affixes/low_life_cast_speed.json",
+      "sha256": "aa32282982ebb41a7a0ac49e461c366eb08e1e2d159d5bda3ff8ce737006be4c"
+    },
+    {
+      "file": "Content/Rules/Affixes/low_life_damage.json",
+      "sha256": "dbf6dcf4cf1a9b0b1de90d1d18dd10f9c44746a9fc130d959129541e390d799b"
+    },
+    {
+      "file": "Content/Rules/Affixes/low_life_damage_taken.json",
+      "sha256": "0950832d3041ce21da480153793ed1c07d30872793ec9618609cfa376dde78cc"
+    },
+    {
+      "file": "Content/Rules/Affixes/low_life_threshold.json",
+      "sha256": "ffd13e8c10415d3b676d84db6fa90b990aa819a2a4372ba60c14830d62ae4f34"
+    },
+    {
+      "file": "Content/Rules/Affixes/mana_base.json",
+      "sha256": "3bb5179f4f3fc3086974c2e4737de8a6c6e74c2842c78f9c7d3f839c5c296433"
+    },
+    {
+      "file": "Content/Rules/Affixes/map_monster_damage.json",
+      "sha256": "1fca4167b115bc416a73e446ff15d0cd46a1e55d7554c0b929ed302c183bc041"
+    },
+    {
+      "file": "Content/Rules/Affixes/map_monster_life.json",
+      "sha256": "3f37b021891f6dc22ebf2e6249b5a77f133096fdbf21493541fe7a435ce33fd4"
+    },
+    {
+      "file": "Content/Rules/Affixes/map_monster_packs.json",
+      "sha256": "2a9ef67fde03d7c476e55d72dd324b22a0e704d32010089d45de695892b52bdb"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_accuracy.json",
+      "sha256": "723be1cfc92c4b7cbb53479f3649006c41544222ac592377d6849a0b9cf07769"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_age_damage.json",
+      "sha256": "762fa0613accc86825a14d500883d695013da389c3064141dfea68cd96b75f5d"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_ailment_chance.json",
+      "sha256": "e0954f20768946b8520f5dfc860b7ca5dd244dab6cf31f57b1373c361f5a4c17"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_ailment_effect.json",
+      "sha256": "283cd629f8916d08483cf04faed997590b3a7d3545383083422aed9ea7416fbb"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_area.json",
+      "sha256": "2b89445cc0f3c6a823f4c92f018c934d71f0e93ff61adac4ccc0e94ed29cc661"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_armour.json",
+      "sha256": "5b5c22296c86a754c8805f8bc900dda2d75ea5684a4ad5adb38ec4c03b3cd935"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_attack_range.json",
+      "sha256": "f60fb4b52507b9b2d79b43b941c96fb217f21bcd7a703bdd88bcb47f0196da3a"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_attack_speed.json",
+      "sha256": "3e7ab4d5f340a2081c1f1dda83a5a2c683fccee3af80e8399b95e31facb6c8a8"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_block_attack.json",
+      "sha256": "8e0e7194bcebc89549d3dcbb712e9c1d4cf36c78181a23608d356c4314758e15"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_block_spell.json",
+      "sha256": "a70d8d9d88253eee5b3dbf055d7953add2d416641f0e3a98cb55e65eddaa1071"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_cap.json",
+      "sha256": "8128e1abd3c8199eeff77e0a6ee00566f7314cff935d2014f240c2396c6f5c15"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_cap_same.json",
+      "sha256": "ca102d6dc83913c9e3db311b7f23ec31667c786809706f13ae4e565e4e4cc635"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_cast_speed.json",
+      "sha256": "8cf3cc2fde42b9633ee708786b0cdfadda174af79458326b21de099b51541a2f"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_chase.json",
+      "sha256": "7c906151ac14e0957c0c9de6572ea6d0e3e0ed63d7abacc202c7e0c4b10d71f9"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_command_damage.json",
+      "sha256": "4df5747376d474849c50d34a4501f7db8420f91a1872e350e0f721c643b5d69d"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_command_move.json",
+      "sha256": "368d1b6b4c8dc095b7d5d229995e69e40f74813aecf463655f902e52fb36850a"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_command_response.json",
+      "sha256": "f60834c2a7a261b9520c5de10954dbe17d5f3b457022677e53548280267d9ca7"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_cooldown.json",
+      "sha256": "e07769b38f288deb97380a4bae6624b3a2e477ea82c064b5ef0e287e44f4a26c"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_cost.json",
+      "sha256": "f0d549de79b3162218462283032fcbf3ee2aff25da7d25b78c3fe47e9adfab7b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_crit.json",
+      "sha256": "54316a99b16cb32ea5425c39e9a53d9904eaa2d02f919b933172ebf915910c17"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_crit_cast.json",
+      "sha256": "2427b4a890ee0932f944445c3125656e8106ce067422a9c93cda5c4c566803c2"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_crit_multi.json",
+      "sha256": "6faf77be80b9db25e9e131d3d32dd5819d2e0a44d1c1d8f86c950602878b5715"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_crit_your_mana.json",
+      "sha256": "eca320d6f95f38da447d8774aaf773aa327a9aa23f156ae88d89873227e4ff09"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_damage.json",
+      "sha256": "80c9db3fe8edb70dbdc75fa8f1dbd64b73f349411c61961171416fa77af657a8"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_death_area.json",
+      "sha256": "c9d6fd6e27f02a364d367ffbc5658431a35463ea365dc907df507cc42b5b2ec8"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_death_damage.json",
+      "sha256": "3ec5f8296c80868624207e8f78c93c98a260415927e68cb4cae5ff91cf4bf33b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_death_explode.json",
+      "sha256": "304b55baf98a6f2f6a3152a00207077b2167be539e479214311e64e1f59df335"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_death_heal.json",
+      "sha256": "99cc8de85986240f927fe1a0675c199570ff552ba237a19d596e8e99e4b28c7e"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_dot.json",
+      "sha256": "54cc4beefcac75b1120a633b92c482888ffa6817b45bf78a3808c74513727a90"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_duration.json",
+      "sha256": "aef200f1a258d09b9a10d88a3ac6c76a1e33344426c8089ac97dae9c408eff8c"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_elemental.json",
+      "sha256": "36b8665324ee4d9d035f1e1ef65fe587befd053645a501edd136714dfb2c6f36"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_empty_damage.json",
+      "sha256": "d5fe051337abc5980426abefbb799066f9f3ec8ab70ec23676d9f32093493a4c"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_empty_life.json",
+      "sha256": "81437b0edcc2d258f3dcbec1b4bc7023512403e7bc6ac58af4d86e253ebe2250"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_end_attack.json",
+      "sha256": "5e153801d7728b082e94f209d71e31136e3cc6c88c3a483603624a62ce73b329"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_ending_damage.json",
+      "sha256": "b60e29820574d7020f94b99ada51d98b3a559e6f29e077b3c9d2a76c4d0e9df6"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_evasion.json",
+      "sha256": "bfde662c344d69a6744ef5b2a986c4666c36127a3472b6c9a580434f67c84576"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_fewer_damage.json",
+      "sha256": "371fbdc6e1d7358a521a7f3b90e03ddef823c6426b3448bad3ebfd83cb557844"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_fewer_life.json",
+      "sha256": "79c216897e39ce6d2fa0e32f03ca01886e07d34db6b60541ffb6d1fa49bac1fc"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_flask_share.json",
+      "sha256": "29268a59c7266d5a0edcaf0fe2333491e8a717fd681127cf3f8db8127165778f"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_flat_fire.json",
+      "sha256": "e3afc8782795dbb2682d0bb1ac9ae4eacf29ba6237492dbab57fcdb1a88cd83f"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_flat_frost.json",
+      "sha256": "c2df85ebea588534efd17f89f0e06f1aff9e67b51ed36f9ab7b30e52ab896531"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_flat_lightning.json",
+      "sha256": "694606494df31186bfbb6db1fc97725bdf38cc5065199ecbce29af24d346162b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_flat_physical.json",
+      "sha256": "cdf77563dcbb66508398f1dbd19b61c6ed325ad59cd4d31d52dda08e65c406c8"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_flat_void.json",
+      "sha256": "0209702f6ba2bac44c97fc8ddd544de98d02560ec57ae05ee5be6a3ea6c895b3"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_full_life_damage.json",
+      "sha256": "de3c440fd88071c7331ad6d7a363833f6451171b62d6e69d931dc7352479462b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_heal_received.json",
+      "sha256": "fdb7f3c603bbbbf04cffdd639c57d7374d5e1932277a2b852ffcb6933e0705f7"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_hit_your_shield.json",
+      "sha256": "3930b3fff5465336e0be2439790aac1a15039724491566d1d9ffcfde0062ed64"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_immune.json",
+      "sha256": "e281b37086267463e8904d945c29df906eb1b0eaa65c25ee774ca075d60564eb"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_inherit_armour.json",
+      "sha256": "063f2955fc048a64bdf2b37c30f55ce0683ef420c88e1b778aafc8a1c86e417b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_inherit_crit.json",
+      "sha256": "67c6fb8ae7d120893b50872df36a4b3d3c1d3e3c30b7768a68eef87e79781565"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_inherit_evasion.json",
+      "sha256": "49693efc6c4adad33f13e9532158d62f271ba72baaebcc66c3be46b4d381e065"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_inherit_flat.json",
+      "sha256": "ac0b140cb40b42f63c3a9d52f01d28976e9133bcbafc524eb1fa91c6bc10cc9a"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_inherit_life.json",
+      "sha256": "573591eb728385b2e013817434ba35ffe741361f627467d6a30dadd6500e3446"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_inherit_shield.json",
+      "sha256": "4f0410a2fb09aab07015f898f2f5c714959e9c7e9dcc8c66366f7472d93fafa5"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_inherit_speed.json",
+      "sha256": "728085a5a110343584d8c7b2c08e4b5e2e2918d6ee681232f4bb56fd7f193b29"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_kill_life.json",
+      "sha256": "c72ffcb2ea7b92f166c90493a8a5fe4408bac086238425884058ca3282f1bb28"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_kill_temp.json",
+      "sha256": "0dda85834f81bb193498b3ba854579a318217b3786d3c23420f072ababb7fd35"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_kill_your_life.json",
+      "sha256": "5358841f96dce8019bfb5678548b3917a6e7e80539f27e88a0c7c22440f3157b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_leech.json",
+      "sha256": "cd4351200c3fc852d995a6bafb4b0569c93a62cd4369e5e8448fc1b031a397f0"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_leech_you.json",
+      "sha256": "b320371e4d994b62a727c9afe18c835ca2f82e141d36e8482971b8a399f16990"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_life.json",
+      "sha256": "450cbf69bcff50656c7936069a40e544164061a348f3117382ce36d8cc0a0976"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_life_base.json",
+      "sha256": "f9e6be2715d909bd127b1f72da8f203f93bafcf7a0cf81a963e80b1b992f2c67"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_life_more.json",
+      "sha256": "31f84ef4a5f2675b06bf7ea1e373c232386986cc8a1c564e3e4308306d02048e"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_life_on_hit.json",
+      "sha256": "edcbf5f84b3635acd33d710b9bc0157c9d87d3b4417cab94c85c1959d3429d05"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_low_life_speed.json",
+      "sha256": "4b659cd980b673bf1fbc1e56b055aff3479d5af5401f663d3f14c8a3a5609526"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_marked_damage.json",
+      "sha256": "ce98d215383c9e30935d23f811b09721db0fd8f190368a3b288e71554610a8ea"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_marked_leech.json",
+      "sha256": "e34feb49f744f99889a8a51dc37451c8bcb1db112084932eded7c7825879503b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_merge.json",
+      "sha256": "bc2c45478da77975689c4b12ba41f32d1d3656820214e156863828603d74c054"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_more.json",
+      "sha256": "1065f50bdcf47003602b341a27f6746320224e134948d7a8f370ef20557dd29a"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_more_weaker.json",
+      "sha256": "a3474c80b927f8ac46f0a19591d1ac98743f762ad9ce306082e0eff58ddafef2"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_move_speed.json",
+      "sha256": "b0e6e5ed3ca702c96a1adebadf26ccad5440cb0392231b539947563718250a60"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_nearby_guard.json",
+      "sha256": "8cd90f49bb123447be6073fe2682211c15d6e70a18c5e20a73c56ebc6e31df18"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_per_cast.json",
+      "sha256": "8c5947493b927c6a19c837819edbd23b53c6b03b5c1af46c2096fd21bfd19980"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_per_minion_damage.json",
+      "sha256": "c00280826446ccf2443a034336345e7971874042d226d98c5425b3121c131b04"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_per_same_speed.json",
+      "sha256": "10b3e4bdcde8a355c3353c73b1ba87c19b6378aced1ce208ed7c9fb5f79ebe73"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_physical.json",
+      "sha256": "6073ceed876f6fc895313b5d90aafa4ec4d378886f61b14eaa4786bd72d7e1f1"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_prefer_attacker.json",
+      "sha256": "5675c44deffcbcd72ba0ed3fe9f1f4a2ba27158813a417253676ede3f601fc1d"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_prefer_elite.json",
+      "sha256": "7ff223cfbd6200ba36eb8a051cbcdab8a47b446b0cc5799846079e587face89b"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_prefer_low.json",
+      "sha256": "3785a1a934d65197ee54937541f24117a3d076b5d718b03452647e3dcd9fc919"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_prefer_marked.json",
+      "sha256": "e0f6db5b57125c5241a42d149808d0031bc35277f09a609b0fe3954adff3e9bc"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_prefer_status.json",
+      "sha256": "782f0aa01a90a4774d2b4f42a7275d7905e0407f803f8d1699b0cd222dc5acbd"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_proj_count.json",
+      "sha256": "eecf4e1174565897b5d2d37abcc80fd65743c454ef48249fbccd3cfb8639ebb8"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_proj_speed.json",
+      "sha256": "f14e368bb00ac611be05d6db1cf3fdc72280f637e43f0c90cfe16a3e169d8bcf"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_recovery_share.json",
+      "sha256": "e21a558c30e2fc1f7eb8a302fa7416ac722bba1785e0f9d759ef39de1cb8163d"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_regen.json",
+      "sha256": "785e0f93a6ea1dd59782a95ceaa216e2ddc93f1a4c54948701faed64ec0bce26"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_regen_percent.json",
+      "sha256": "6d15ac21d0b7e52d539d2d07e90a4055818b511947494d41582982ac2c628001"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_replace_transfer.json",
+      "sha256": "412eca5145056cde59cf3c1d1eecb6601a5e44468caeadc85ce19fd4a8224cf4"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_resistance.json",
+      "sha256": "dd67b6fe9d705fc484db1ec78adf6c88fffd914b61ec0e1e889c4b0825f1380a"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_resummon.json",
+      "sha256": "2d3da2a23e2df7fdaa98fed4ea68bd6939be3264200eb3e4835a87ad9e7c2a0f"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_revive.json",
+      "sha256": "6cdba1ecb962a00eb883fa746d94c23ba3aba52fa807c8c1c03943d23c099869"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_sacrifice_elite.json",
+      "sha256": "5bc4eaefffbf7c55c66d3eb18be9c85dd8fe4ff8ed6a927e4b4b2763487bc3cd"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_sacrifice_empower.json",
+      "sha256": "1898ab08aa9d818d7de6c4194c1a1b02fd96332149281be850ac65605a53ab9f"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_sacrifice_life.json",
+      "sha256": "8ae1814470dc7112804b7568d12f8e9cb1712ecc275e3615d1b6cf6478335d76"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_sacrifice_shield.json",
+      "sha256": "a1513c5838b66da3ca66f9e8b02abf4c7343759352137050c4eeda4c9a1f0d67"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_seek.json",
+      "sha256": "1631995aeac4d368cbaebe901c8eba7b229736943a768b157204a8a76517eeb5"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_shield.json",
+      "sha256": "7d0b49572bc626a6e37cf67ea801d6e74622fe7974545e4ab8cf0eeff40e3fe7"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_shield_base.json",
+      "sha256": "46b8b0b49bac94899045b2ad0b2ca0515acc0d75024dc7107498d137dfda47ab"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_skill_cooldown.json",
+      "sha256": "bda39291073600b3916b6f3434a2f037a1d33dcbacc356f88585ba8e20eaa3f4"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_spawn_blast.json",
+      "sha256": "47a788afee1d9c9dda136165e42ca5aa25c8abd108247b1ef66ba80acb656c55"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_spawn_heal.json",
+      "sha256": "672c9d7cb43853d5d870792d558c7ad37676cc26837515a5cd9c10161ea79a64"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_spawn_speed.json",
+      "sha256": "02f73fabd7e4f9e7435fa2d5e0b7577e71177f1c3a1b6d1f065d4c3229138225"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_spirit.json",
+      "sha256": "fbedcea16dbb16302f352bcf62c310dd13413dff149c9ff2672646c75424f5a4"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_summon_speed.json",
+      "sha256": "04a9f29cae8f6f1b4445bdd42239b6e804b7188edd6b861364ace77f4e0e4266"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_take_for_you.json",
+      "sha256": "2b79981976e4a6254a2e44281e36d8d6d251fdf5d8033d4287ee8caade7e0a36"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_taken.json",
+      "sha256": "aa0bd17cd2d363c4df0a38d114c261f5564a5e2a0f4f7171768c2a6577d83bd4"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_taken_area.json",
+      "sha256": "2ba0b3461815c5e9c7e92ffa468754876fbaee0d5524c8ab697833c92567a907"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_taken_dot.json",
+      "sha256": "9bbac02014c6091620c93594296225774655decbf7fddd2b0d3d66c4f5b6901e"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_teleport.json",
+      "sha256": "0bf33adbbb75fed716575a19979e6ba9985acad224a9909953535b7b84359d10"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_void.json",
+      "sha256": "84bf2f03b0797b74a38c3786f8a737b3429ac17f6d9fcd41d3eebceef87a5421"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_you_crit_damage.json",
+      "sha256": "662801960f9fb9e6a80d81cf6a958f984b36355d6d0d66386119529fab9baea5"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_you_hit_heal.json",
+      "sha256": "59c7e3f899556ac1933b09b5f882815de367dbee2c6ef6d3e2098dbb1482fb7a"
+    },
+    {
+      "file": "Content/Rules/Affixes/minion_you_take.json",
+      "sha256": "0ece10356c967967839d130443bef5570f813bdcc42fe8fff786ed7bdf2b74fc"
+    },
+    {
+      "file": "Content/Rules/Affixes/missing_life_damage.json",
+      "sha256": "7d6b32432c054f72f2dd9e1a365c2be767b456be62d39dc30271eaba2ceee68f"
+    },
+    {
+      "file": "Content/Rules/Affixes/missing_life_leech_speed.json",
+      "sha256": "c0eb756968bac3f16bc78da220890ef5acb8546404a1c9c206ce7f96b9c1abb5"
+    },
+    {
+      "file": "Content/Rules/Affixes/missing_shield_damage.json",
+      "sha256": "866d2bb8587e745f1c1b807d2ac03a5d45284f79f46a9e5a6fab5ad02dc0a003"
+    },
+    {
+      "file": "Content/Rules/Affixes/missing_shield_regen.json",
+      "sha256": "e76ef2541d9aa18719e4f85c031c3f850764c8a805536e3036bf326c9547e4f3"
+    },
+    {
+      "file": "Content/Rules/Affixes/more_elemental.json",
+      "sha256": "e8f8cce7ac7a50bc0d700472b9bd53638c1368e5292095bac8a34410183b68b9"
+    },
+    {
+      "file": "Content/Rules/Affixes/more_fire.json",
+      "sha256": "08951b26555d9c6cb08c99650c0ca9eb02784b823bda48dba2978998a5637e93"
+    },
+    {
+      "file": "Content/Rules/Affixes/more_frost.json",
+      "sha256": "a2815af45ccbf52d81f36b498e0bae4a364d89269767ea320516a02afbdd0212"
+    },
+    {
+      "file": "Content/Rules/Affixes/more_lightning.json",
+      "sha256": "c69ed73d0558fc307620d42670794f50c42585c3b0f169e90c03d52c72bf787d"
+    },
+    {
+      "file": "Content/Rules/Affixes/more_physical.json",
+      "sha256": "69252ada47e3748e4d1e6ad4d967c54b2f089864ffbbecb6053253f613b7702a"
+    },
+    {
+      "file": "Content/Rules/Affixes/more_void.json",
+      "sha256": "2a15f4273cf1909f2bd397de0976928288c0430e849c36b4e3a17e86fa1f4f1d"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_base.json",
+      "sha256": "790fc1b1174f6fadb51a6be714279353b145cb2da7eb24bafc37887952ed51e7"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_burst_end.json",
+      "sha256": "660b6b997556b16d8dfb264f21362373361e78f82e241b31e47520900fb519ef"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_chance.json",
+      "sha256": "50433eb122185c843fd49a3b5b83d3362d0c3fcbbd822715f878756edfdb6596"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_crit.json",
+      "sha256": "2289d3d05cf6745220b3b4489bfc257f6158bde78807942101f18c98cd8e67b8"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_crit_detonate.json",
+      "sha256": "4ace93bf1c8cad4a9367c74763786409e057f8a2e4bbcf26f54728720682e14c"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_crit_spread.json",
+      "sha256": "e51e1ef25e6c2c3049158f194fda9b6ad805a459990e35f3fa49d90640cc547f"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_death_copy.json",
+      "sha256": "50d7b56f22f6156baa41fa69824484584bb3f4b907e4c88a46a15cc9b08d2b97"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_detonate_area.json",
+      "sha256": "3393d77be5214cd44c533135d78a666471e9418205578e71d8438bb0a4c25b3b"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_detonate_cooldown.json",
+      "sha256": "fc3149052810d60bd83e4622a58632395eaed91da474f28e5533733ab8a2a302"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_detonate_damage.json",
+      "sha256": "3093ce4a26efbc6076d45efff3ccfaf6e0fdd610f2988811d4375b8f28b0ea6d"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_detonate_keep.json",
+      "sha256": "86340707438d514df478c86ffa835f370beecbb47308fe9940098082feba8104"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_detonate_ratio.json",
+      "sha256": "a0a0d3218a31317a7e7271c2c90c320cbdaa321484abc25de371b95654c23fa8"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_detonate_spread.json",
+      "sha256": "dc3628973f232c95e54fe7c4388f6bdd0b3bc1d8f0795837a170c791735efd6e"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_detonate_vs_burning.json",
+      "sha256": "a7505bf243e6fac6ab6873a715a466cb7df30acf7c092e4e2ce1da9b6b98716c"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_double.json",
+      "sha256": "a61cb82dfb57e781729bbaa4f3926bac57ede8121e8dcec57ad4ac4547c37e19"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_duration.json",
+      "sha256": "e7535692aca7a9c7dd007c9dcb96de88c6d512a35a7ae29d2bdee48e65672510"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_end_burst.json",
+      "sha256": "f58609f1a4699fd646f8209f3f48595fb2ec14a94924e1bb1fec7c3cc3226e57"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_enemy_regen.json",
+      "sha256": "49759a4c59fd751358c9420d0bb367c658275a385eb8f2c66a88851292e5dc83"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_enemy_slow.json",
+      "sha256": "41ce3f3ad1d8aac5158e31ce257d063d539dd7c59dd4e99c4e525d6295a15777"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_enemy_weaken.json",
+      "sha256": "4e84907207c471946872f93fffd8900111c5b12a7d17947a1153360f4c74adac"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_eternal.json",
+      "sha256": "6704adf8a32cab0b92377f32babeda56f353335be6fdb85a34d64531ec24950e"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_extend.json",
+      "sha256": "b43f848f364443a5cdbb5319563e00e407ec29c5652606deaaddd2b7e9e61f5d"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_extra_layers.json",
+      "sha256": "6ba2ffb56b583847976cd48f42d7479547132c05a13b5b9fcbb29279953f9042"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_extra_on_poisoned.json",
+      "sha256": "9ab20d9dfb59748c4bcd9131c88a870275e8b66b6d6c4fd81a8079acab8a7cee"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_frequency.json",
+      "sha256": "cb04e4cadbf7ae358473a127f1995b4b00f294be87cfe953e4dd24bafd27b403"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_from_elemental.json",
+      "sha256": "c3ae6b95f313329fb2fa45cb5b39087510f0f2332cfb0e000a2d6d03b6b7809f"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_from_physical.json",
+      "sha256": "9af80bd74543d050c1cbda2b6b5ff602dae791a2e9760030010039cfcd9176e2"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_from_void.json",
+      "sha256": "c0689b89ccd6ecaf5f4c528d6902b01f0f0ee86070acc523351a993f1813039c"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_hit_detonate.json",
+      "sha256": "4d0276ebb25bd95ee9de328b2f19179c9c1f896d362a06bf974a98de51eb7e87"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_increased.json",
+      "sha256": "f5317910f83567028b887a6d57d4407961bd22a0d133e1d3c0782e379a776001"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_keep.json",
+      "sha256": "7212058a192d7bea28aebe388d55084bf1cf3f7526115390dedfb9d0d67fddab"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_kill_life.json",
+      "sha256": "4707df17f0ffd46aab2cfc6c5470d527f3f760912b994570ee541ea7faae037f"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_kill_mana.json",
+      "sha256": "7731f8967fc032f242eea619ce518100d09f699110ad457363afa9e981a1d18b"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_kill_shield.json",
+      "sha256": "0e74ff08ab6a8f1179f977a5672e24312ff86f2c27347d459a0d68e696fec9f1"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_kill_spread.json",
+      "sha256": "7bb794511c825aeed61f9e58e662988ea4ffa5384a7806c4e012af21cbf72490"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_layers_empower.json",
+      "sha256": "2d1049f5d1e5c71abbd3fa4bac7f067a6856442fb7f898defc8bec38e69a1b0a"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_max_stacks.json",
+      "sha256": "489d9bba8b5c2d2c24b6bb87b7d3e35c2ceba01f5d9d466ce64f54e226d8d69e"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_merge.json",
+      "sha256": "37ef0fd5508696cfe85e4b13112a3e0c4927703b1d7ccea83d9dda32cbd7614b"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_more.json",
+      "sha256": "4974dc52bb39a6297415f6afa47a6ef767813dc59822d651120f7086021c374c"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_no_damage.json",
+      "sha256": "1fb30a1a63f728cf934994219038a7d978e83bdd182a549984d906e723bc4cdf"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_per_layer.json",
+      "sha256": "bd2e11829d6d8ad445b66cf251029310ef21d430221386ed30e51664a3ff979f"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_pool.json",
+      "sha256": "a6c8740795bb84cd908e410fd2994d389dd6c20ca25302c25614185adbc1d0b1"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_pool_area.json",
+      "sha256": "bd79d8931ff87451d86463801cf16cecc4316143d175c2fff65d3004e377674a"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_pool_duration.json",
+      "sha256": "dc3372315c8ac4f4fdb8e5c01f6e89d4a58763d1fb76dbd06098f21b1b67f6a9"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_pool_rate.json",
+      "sha256": "2c34cc1000e3e99e47f13481a0dbf43b48f4e7d3686f08dd82affed5dea18fab"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_quick.json",
+      "sha256": "4361146554a8e448e9f6d7830630f29539297d58acdeee5a25152c6fa6c5e2e4"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_refresh.json",
+      "sha256": "66ffbb342407b0b20b48a506155d9a932507774b29dc4d503c30a559bfc9bf25"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_replace_lowest.json",
+      "sha256": "99b55ccbf5701bde5d0d14a62c4ac9f9e990349da5df44398afdb74e586ca55f"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_self.json",
+      "sha256": "2eb0af37c7187089a590b4357ac3a681b00380bcd5249887d8d790240f85bfb5"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_single.json",
+      "sha256": "74eaadd2886bb41795228ddddbfeca95ded715e2c986dbe115bf72799e896c64"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_speed.json",
+      "sha256": "aafd3689f798d6bc0e07ba9ea47e20bb0111cffdc9219ceb6a257fc80b59c5fd"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_spread_damage.json",
+      "sha256": "ae217be4dbee77ab7625eae05e520564ac4ff9139a2cfe9bc0811b0441884aef"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_spread_duration.json",
+      "sha256": "221a9a4d974c297e84368eb79c914bced5c8f4ac2b2558d0d4b260d109995f6e"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_spread_interval.json",
+      "sha256": "127d6108e33851461db47e2d9d8c5bdff8114d94c3440687a633308060aed161"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_spread_layers.json",
+      "sha256": "9f90c701e692d5b7b68fbc941ea36bc611168c9afc60afd54197e0fa276ca6df"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_spread_radius.json",
+      "sha256": "fb9ea41b5d49d87639c9dd87af9d0c7a30b69577d4bfffb8a925f2473051aedf"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_spread_targets.json",
+      "sha256": "71adcb030a52eb5818c64036aa5bca5802ff3f85643114d299228b594b6de2cf"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_spread_times.json",
+      "sha256": "ee9aae42a2086b4c18efae84817396299b5a6ca2cad4cd023c2e7df4361cac02"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_threshold_detonate.json",
+      "sha256": "30d8df31dc870f58109266e1372054045783cbc6e529eab8136565bdac6e9c45"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_threshold_duration.json",
+      "sha256": "dd30de7559e897c83b8b57522aa354abf2d19a8dc46c15e476a7754a0c7b2063"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_threshold_more.json",
+      "sha256": "218405b0bb433553fa8cd667371ad8c33fab73199b31216584d15cf14bf636a0"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_to_void.json",
+      "sha256": "bcf61b94d456f9bb2b79237f94fe50fd18065dede80d609d47b5c2c738d9f42e"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_unlimited.json",
+      "sha256": "97f5c0d40b0d6c0c6366b60f7accbfbaf94a39e0fb087cbcc0113284c68d236f"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_void_taken.json",
+      "sha256": "f5a1e84cb736f8e5c3237b2b57ee7e0cb2132460a02038d0e31151a5cbbc2eae"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_bleed.json",
+      "sha256": "e08863ab4392a3add795a4e8b1a28377ae42fc760322a7c4d497112351b34a47"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_chill.json",
+      "sha256": "80f39208a28e04cd39663f74ae24b94bd9141a17c86d201a8764eff90e2019ce"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_crit.json",
+      "sha256": "70c2efa414c9e15a204f4330f862c4c620d392d8e6561bd92b49ab1d87779794"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_full.json",
+      "sha256": "239b92f95b17e97073fbfe69491b9cc7084230de3c614257a75d1520afea371a"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_hit.json",
+      "sha256": "911e65df2563e019d35682708cdce06089352b4111270b6a02f80ac70af0499a"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_leech.json",
+      "sha256": "37d05e913297f318c3490c8d9bee68e3f7dc9b04c94b8f8cf19d6b0f7c733aa8"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_low.json",
+      "sha256": "98ba77758cfb79653ca1ad56a27514e51169f65bc76d0a4b77cd2c9a504d6303"
+    },
+    {
+      "file": "Content/Rules/Affixes/poison_vs_shock.json",
+      "sha256": "2ea77c3afcb32bd54a6998af156dc53b76b138aa34c054eced3b88828a96d7e6"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_accel.json",
+      "sha256": "65090dd8a18eb8a5b32c6d347da8279d0896f4bb038c6021f34bf3e49e5710ec"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_ailment_chance.json",
+      "sha256": "d4b8b0301bf8ad8bb481dada0a2c376eeb7aeb0d352706d62b97c82bb92ff1dd"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_ailment_effect.json",
+      "sha256": "b391d58b2d36f159eef6817b7145f9d6fcb511868f83083b9031b4c511074e7b"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_batch_cap.json",
+      "sha256": "04f0e6a8c3e2e26ff8ba2f1cb0a32e3e9f4dbaf5451b3b14ad463f59643d6334"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_batch_decay.json",
+      "sha256": "3e60d9d487373817611997c6dbd8d9b729b319c6bd91632a7d3d058e0ca1b542"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_bounce.json",
+      "sha256": "53279f2856582db7632437616cb50767a284048f7846100edca48ddb6d1411fe"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_bounce_damage.json",
+      "sha256": "15e2d32dd4c69cf98345cfdee9c34e22423fca1f0b9a25b1c9989215762b2151"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_bounce_retarget.json",
+      "sha256": "464787aaa6e1b72f0a720a22c3e148d42bdbeb1852eaa446b183d79ddfce5374"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_chain.json",
+      "sha256": "d4d10b9bf04d93e74ffbe672a58c34f299129b2ecdcb5e2b3b49f8be169ae423"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_chain_damage.json",
+      "sha256": "0c3d92fddbaaa972d821861ba23a30c7e4626b9afad76f99d4cc64e3105cb9f2"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_chain_decay.json",
+      "sha256": "d4008dce344dbc6bc3721381cae03a296adb7611e6eb198724f593d40325004c"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_chain_distance.json",
+      "sha256": "6bad9d50a035daf19622595863f3892c5e9975f76b85d28d19b5c8e4e8fcc07e"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_chain_rehit.json",
+      "sha256": "23bcd928521e760f0058638b508e88f7f7ec3e263ea1da949c5d9a7854e25844"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_chain_secondary.json",
+      "sha256": "7a194504ef8deacc21da346aab24e3517ec70a9ec8e7a4fa79597020bcb2c264"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_cost.json",
+      "sha256": "eeb19c9f7dab5e9746614058499636b65fee0c08195523703814d276b576ff7e"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_count.json",
+      "sha256": "d9693d485fdc99357c17204d46fa719b0ba1b6a13b379fb03e9cd1194080fe4d"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_crit.json",
+      "sha256": "9a53ad8086e15db4578cdae26ab7f295205f4f2e95d42e5837506e70a07bb7c4"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_crit_multi.json",
+      "sha256": "47af729f2be207861e7a60da36e02aa06bf7d991aa1084b12ff87abcfa309a05"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_curve.json",
+      "sha256": "c3fe450a5b8c74ffd3960ac27693c611456257b2e7887406167ccea75a6c6a53"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_damage.json",
+      "sha256": "47b9e89e6995d46e6ca3701948277a09aad122048920969ee010c24ded3095e0"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_decel.json",
+      "sha256": "1b5e114afdb8bfd5a4c37eab8deba795709c7132cbf053fd654f7b909ab6ae46"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_distance.json",
+      "sha256": "463658efded44d4e4d966742ff1f7024768b01b7f40c7c9abfe49bc4c33525b1"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_distance_damage.json",
+      "sha256": "928d6f0729afbc314a46848acaf604735f2b30bab79984adcc358108a221d29c"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_expire_secondary.json",
+      "sha256": "aed246adce037ae6123f96d2f7863f749b462748b4f1075bed2edc7e4429fc88"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_explode.json",
+      "sha256": "488c9c1bb68962b1ff88880910d851c03d3db9d87a32a53c280615c1e6909310"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_explode_area.json",
+      "sha256": "0dde95b2bab7c507ef8f4d9c207e7b8b17ac5a9ee15f94438270f7efa4b89cd2"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_explode_damage.json",
+      "sha256": "5fc288b615a22a968f3e57e68207b34de4c48f53d7288dc1e5247b1ce9b75d47"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_explode_on_expire.json",
+      "sha256": "1735ec9fab21e539a016af4e797de43b322a51032dd105273f8b08b2823b481e"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_far.json",
+      "sha256": "703e3efe676ec2a5d7977d2784e86060e8750bbfad36242c0bb5dffea38d9411"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_hit_life.json",
+      "sha256": "52937e6d7efd96a0ba0a67906aedf559a153ccd169056ef7d5ad29d94f499c96"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_hit_mana.json",
+      "sha256": "ce2b461fb3e74ab81d9057e9a435194719bca87518869e1568965bcd4a936ae0"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_hit_shield.json",
+      "sha256": "90680ce9a0abd19a76530a5d1b0360164d804a69c43cc79dbe4c1ee28fbe35ae"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_hit_zone.json",
+      "sha256": "589be0725cbad920cabbc163641fffda1076c5145a43da28fd8fec08bb915d03"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_homing_range.json",
+      "sha256": "29408a2be9281845d3ad332df2ab3a0fb5666d94ac4a4647bf39b7d19591625a"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_homing_turn.json",
+      "sha256": "9e802fb39935037a7780f54a0f0c6482c9b497cf7e93d7fda6181f6112a522bc"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_layout_alternate.json",
+      "sha256": "000232f6f187e3978fcbbf3c2f9667a63e643239e432bfc028b0b5f8bba4202d"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_layout_converge.json",
+      "sha256": "d61d9c86217474d69872d50f03fd670f06d4a4372ec51cae4e72de18cc4974b4"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_layout_fan.json",
+      "sha256": "c7987394d137c5edb2a88b171a57449f870676465fa4df6065c3b9d28d47a938"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_layout_line.json",
+      "sha256": "3be08cf063fbd9c0d6c9c1da73d24fcff1664dbf10ad02b810956f93f6eb8825"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_layout_ring.json",
+      "sha256": "de956dde1c01307bb75a069952bb240442efb2cb71db8a08ae3993f6a1b84cad"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_lifetime.json",
+      "sha256": "3ab037d77dbf2f9167cece79ad42f7fa528cf6992a33d0a7f12d472ebe91ea40"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_more.json",
+      "sha256": "72659ff622a238e9e463dd2469bcce147693d6970b0764da92236defcf26252e"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_near.json",
+      "sha256": "5014cf6a450d209b42d6a011cb616511e15055b8a200ffbc9d2c7472d3d9e32c"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_orbit.json",
+      "sha256": "deb00a6158aba7e974291f25597b53a03627571df563e7f741376b7c9ce903f4"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_orbit_radius.json",
+      "sha256": "e40c6e2cd29f1ad716764fe6c7cbc72cdd9418ab8918fdc9b098598373e45890"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_orbit_speed.json",
+      "sha256": "387936bd1c7e03acb1009bbcacbfb74d42701de94d13a8f6b1a904f2b6e2e22f"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_origin_spacing.json",
+      "sha256": "22055cd2d96be3aa67239c9bcf153cf94cbc82d4082acf61d9327722775bfca1"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_origins.json",
+      "sha256": "6f417764382420b06e5ef424297ffef3cd7d57bbec16de32f8ff6c31b7a67656"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_per_hit.json",
+      "sha256": "219e61837792482bef69ed786496f315910b2ed9a3150378b4198c42142e5880"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_pierce.json",
+      "sha256": "685ea335701bea7e0d4711033f4d5284a9f4105f3235c080d0de2c7e06b713e9"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_pierce_chance.json",
+      "sha256": "f729dcb6405a62d79fa53733c0b3d89b49dfc69614377476080c91ea6e3ed11a"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_pierce_damage.json",
+      "sha256": "09b118f1818b7fe1c3d3f8220053be556c7260a410b33cd9894c989ba001d7f5"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_pierce_decay.json",
+      "sha256": "cf02d278f76fec973e16236e09a136d499cf1cd86b6bcf66d2512e8c19e84d8c"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_pierce_radius.json",
+      "sha256": "d3bc3d7a73c3fa3f58b154e8526f5b36a8fbecfd064a40794f1f985b015abdfa"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_pierce_secondary.json",
+      "sha256": "288f4ff315a1a0957295cae8ef2ce742b09aceafe1ebf3ed409f5108843cbc8a"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_pierce_speed.json",
+      "sha256": "cb48aea90ac639761643a84a7d05688f2aecf67745597d66e44411665c5000cb"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_prefer_elite.json",
+      "sha256": "491f44c9134776280a28cb369673d353e992e42bac0fd3c13409c7f95e79d38f"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_prefer_low.json",
+      "sha256": "a77699f432d3533dbaa720f6ca0328b05ddad332a5b0f7a58bc12c4ac29b14c5"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_prefer_status.json",
+      "sha256": "65fa0429e5df7809234ec557b3b72d3ced7eb988b3c0f76805788ca308229655"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_prefer_unhit.json",
+      "sha256": "4b31b896ea1d984d32a0a5a3d69cb428abaddb229f24c345f14c4a50e2f2623d"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_radius.json",
+      "sha256": "6799b971ed3a78c9b9024ce755d8fd2340ad2e3391cd82111c54bfce5e7553ca"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_recall_empower.json",
+      "sha256": "e46960e89d6981929cf9fb340635a453ada81bff039a0ae40e57980a9ab7d3dc"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_recall_mana.json",
+      "sha256": "289e6095923a1cd59b34f8c9961db192812baa0f5bd19d2c75476091d6edb5c3"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_rehit_interval.json",
+      "sha256": "a6c13603639854d32f3da8922026f6f2c078a10d8c812d91ab9756041a08a9d3"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_retarget.json",
+      "sha256": "19ed723acd5347ee6835703865a0a858c855abceec9909d2ec0bc8e4d921cc00"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_retarget_on_death.json",
+      "sha256": "5929a893d9300ae96c000dec200f8dcb2a43a197ef7012cc43a2692bd9628d76"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_at_max.json",
+      "sha256": "4c8f4e79a05d870a1585de2dfe43ccfe5c8d3f8747a505eb971b85c44636f66c"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_chain.json",
+      "sha256": "2b60c498bfce92cf709e3c8d361ef2ca9b10945351a1cd9b94b8ea3bbcf61a23"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_damage.json",
+      "sha256": "b696116a787ad9d6ff4023725e362afad70d0ef615ab0a1933fada5afe9ca149"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_pierce.json",
+      "sha256": "9b276e728a3a6cbf650677b417d7c4528935a20370c5c79416ac74c7676c7af0"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_radius.json",
+      "sha256": "ce49f911590f15864e59146473ac0efd2cb7e64be4e4ebf7eef1e764b295d886"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_rehit.json",
+      "sha256": "185d67debf093815184651b3f57a55e42e13f7ff9dd003eccea72b8ac7903926"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_secondary.json",
+      "sha256": "777c8b618b8ffed4bcb60aeb15e1f4dc5ec24cfda86925eaab3a334af1adf832"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_return_speed.json",
+      "sha256": "4e994521c5e78a461806c2d47d6d290341c6aa0476f11243cea6882c6f5a631e"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_secondary_chain.json",
+      "sha256": "22773f89e4dbcdce577723af751d1e87b4534b3c7fb163a19613d2c12c9a1181"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_secondary_pierce.json",
+      "sha256": "3ffc52316cd781e4f547566c039f1cbdb49c4cf2300cf177600bbb70ece6df31"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_speed.json",
+      "sha256": "dd8920844b4175a8424e6037b4543643682fb17405d282d6a4e7e0ec130772b4"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_chance.json",
+      "sha256": "045294f2e5f8c327b87c27170fe471af1a2fe873c0957af4dcde18056a92c24a"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_count.json",
+      "sha256": "2a0d8fd7710cf1a5e7dce26459bb2ec4354b76180e9d6877252abbc619232ddc"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_damage.json",
+      "sha256": "d730ec335eee58504a26996f5e637112e6f71a9eacf64bc5d3bed412b1586a4d"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_distance.json",
+      "sha256": "3562eb56a2b044e114bbfd46ef6de860c59f148060289f2c9cad02d57b52ffcc"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_distance_trigger.json",
+      "sha256": "06db75a5adff758c30ba97aea399ac6d84ecad5b08739bd349b6ad3c7dca10b0"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_on_hit.json",
+      "sha256": "75c6d83eb58945d52c67211f268703a90976df3fa9dd7fd07941ed6109ec00c1"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_spread.json",
+      "sha256": "edc993759347a936080f13a2071502fc11c3f1e54ec09913fae17603978d930f"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_time_trigger.json",
+      "sha256": "abac559ae88eb636beb009e0733aa089e9c2ada0866dec96edc8e644724febfb"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_split_times.json",
+      "sha256": "780945d6395a1179e9d3d06913688cc93b3b59f1856c4cfc310d2cd724900993"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_spread_less.json",
+      "sha256": "a9005be2dd5c14de5f054428122a548e03a62e4cfc182dbe1390093e0a6da476"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_spread_more.json",
+      "sha256": "4e7cb8792b3392283a7e2db0e8a3c0da498328c3a0e1c058020ce079d156fcec"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_volley_interval.json",
+      "sha256": "0d44d010c36e8c9735118b827637735caba0e8276c533aa6db01a9f24ece0c59"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_volleys.json",
+      "sha256": "79ba7adbcb429ba0b7c7afbda02690cfd2f6d51a2be7f5b84d59c6c7d3e1ef4b"
+    },
+    {
+      "file": "Content/Rules/Affixes/proj_wave.json",
+      "sha256": "1c25b96abc1276acf6800c7fdce8928aeef7442aa426c1e4efd2a8514ed19a05"
+    },
+    {
+      "file": "Content/Rules/Affixes/recharging_cast_speed.json",
+      "sha256": "6649aa8079af8a572d4c4b218735ca602dae54c3c63b6b89e0b6ef71990fd0f2"
+    },
+    {
+      "file": "Content/Rules/Affixes/shatter_area.json",
+      "sha256": "52cc182504e4d075948509c3b349aaa3bc589a96561eaef659773b72d8a4308c"
+    },
+    {
+      "file": "Content/Rules/Affixes/shatter_damage.json",
+      "sha256": "fea2a217a83cd2e8fc45f578074ebe7903049f7b26390532b230e153ffa56b17"
+    },
+    {
+      "file": "Content/Rules/Affixes/shatter_freeze.json",
+      "sha256": "f425a6b1cc4d9fea900b352f62be616bdb015b3bc0d5230d076c92b0363039e1"
+    },
+    {
+      "file": "Content/Rules/Affixes/shatter_on_kill.json",
+      "sha256": "3087990668c37bb68c7c6363c4ea51572256bee9226cc93cb52ae9809d30e4a3"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_added_fire.json",
+      "sha256": "330cfe1be4cfff0d46410820a91dbcee9978910503c48ea947eb59872449325e"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_added_frost.json",
+      "sha256": "c921b89c1574f235badec46d87872b41d96a28e5a38dc0915590f528ce34766d"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_added_lightning.json",
+      "sha256": "d866141923ed200b1bc04d346391c3b1ad16b5b2158f3697912dbd39342a4952"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_added_physical.json",
+      "sha256": "4eb7ab023f34c4a80f67307b7d4a255144ffa3cce92bc8890378021c0256cf4b"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_added_void.json",
+      "sha256": "148c21d73d153851224ee1ddef788693c82323a27e2eba70d80b85863908a5b3"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_base.json",
+      "sha256": "a2a867e42faf72393f7fc12d19788fcbbf3236ecd2b0fe0f2a62bc00fdb38d01"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_bypass.json",
+      "sha256": "fd978bd73d6f2a2263ad8928527f3f1e5a5dddb0fc968ce9f33601f7fd805819"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_damage_taken.json",
+      "sha256": "ea47bb08bcc3197ad631d9b1d7be16fea7260a6d26fa6360fb0c04d8ac11d94b"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_chest.json",
+      "sha256": "c3ea5332566a4eb7323b620a2e7be8f9c4d40c4036f3ab43754eecf7085b9aa3"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_equipment.json",
+      "sha256": "a55c34f5db9d58c4376bff4a64af4693ffb28d7bbcb5ca9b8aff2006a8cf892c"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_hands_feet.json",
+      "sha256": "37abfd50a830423d8ac9742e613fdda03cc75e2d9369bf64a3f43e740d3b905d"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_helmet.json",
+      "sha256": "5471e833a7199fd850865b2dffed28c0a70fee3a8ec7e97ec3ff8b5558b2601f"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_life.json",
+      "sha256": "b51b74b39a8560a7b8a8cd90ece523ae76a4b3e4b567d691a21412a0ae9cb630"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_life_regen.json",
+      "sha256": "3861c868b85bd77cbd8b80b26f4534f8d8801c8734a418d0748e2840f0883d87"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_mana.json",
+      "sha256": "4c009b8f8c967aa971199d9278889bb0250cdd5293a74e8859ad621d44c8d2e9"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_from_overflow_life_regen.json",
+      "sha256": "a605560d8bab961db4d6c5fcdc3b5b40a775fd4fd38d78257fced6d8da36c22e"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_increased.json",
+      "sha256": "29497c65aaf5a547b437a4fc16d0c0a6730afe9b7a3eb0d2ed2210ccaced0e94"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_leech_attack_speed.json",
+      "sha256": "f780bd1bb91b5d7304a3a54bc4a3ae8bf3801297063e4b68bb57a101b5825ccc"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_more.json",
+      "sha256": "81b0482d76804324c027d69228e8930ba1ac4bd6ab24a46299f99ffe04f93257"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_block.json",
+      "sha256": "01559f1341aac05b081ec3b6fd4873bb65c690b211ab018b77128e2d94b614a0"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_block_armour.json",
+      "sha256": "f8431b6b398cce07242f3b1871c2c5f0b97444c070f7886f486f3accca9e06fe"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_block_percent.json",
+      "sha256": "75004ab16ae20e4c70c076f6aca0bd07b822f6b0566c7cdc57a24c7df8a4f95d"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_crit.json",
+      "sha256": "5ced6edb1f48d122bee82705236140f7d8966f65d5d47ac5f304635836c7c76a"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_evade.json",
+      "sha256": "fe01e6e9475ba3af5c219b0f6ce1b74d48e6fd8090f9bfd99465d058383277b7"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_hit.json",
+      "sha256": "541548e756e03318a4c92f54509007f57ade908895b8512d9ca62f29c62d0558"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_hit_taken_evasion.json",
+      "sha256": "a0e84d2a243b206a84d8901b17bf1c7bc19c24a7d31722cfdcd21805dd8a1759"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_kill.json",
+      "sha256": "df010a0e808849b5f4e0682c614c0b9d717edfbded463cd263ebab87f18ecbd1"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_on_kill_percent.json",
+      "sha256": "67cccf8c0273a1945b657e039804b9b8fc260bbb013dae99d5f11770130298cb"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_overflow.json",
+      "sha256": "f23428b6b768a9bb3c12ae340c6019fe6327fe87410c088c9de549d959339236"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_overflow_damage.json",
+      "sha256": "8e61d968e308b3163f681e7122e95f5ca70c0118ba39a59cdc1669559005998c"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_overflow_decay.json",
+      "sha256": "8f5ad6d650fc25c4185b815c7a8d28da541397cb27f333891acff087e0a18b01"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_per_intelligence.json",
+      "sha256": "d72be489feaf598c5bc36e5791d99b297b76c6dfe46db2b5d606f5838ce77f61"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_per_strength.json",
+      "sha256": "e31228d3aa7b3a9a8a57e844f6a72550d89cfd9f09f068dfedda77736cafee06"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recharge_delay.json",
+      "sha256": "06388a486c7f3b71f74683e68f1c2f25136f9f52f9f992e0559cdccf156fc51f"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recharge_grace.json",
+      "sha256": "f471f3bfe8f19a9d8548be239e55d76ff0d411bc64abbcaf5a5e5c3437619930"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recharge_on_crit.json",
+      "sha256": "267d5d1834eaf924cb8bb9d1dd598798f131ebecc0370caecb955a23b6d259db"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recharge_on_damaged.json",
+      "sha256": "c0f3ebdd8e1aa758d8484275c2b6d6fff8cdf58aa7a48a18166f5595ba9861d2"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recharge_on_kill.json",
+      "sha256": "03f810d579db6360c7fed6359c27cddcfbe85f9c04396ddf9163ecaf9ad5e2a6"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recharge_rate.json",
+      "sha256": "29dac5a4b1f63b8e1a39b7a3380b92096eded62506d8409f453c20cdc4518ede"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recharge_start.json",
+      "sha256": "6b1f93162e14ef0efae394177115549e5f1d8cd28f96dda4975d29cdb7bb1942"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recoup.json",
+      "sha256": "be1d69e833bb27897f303a4daa3bbc731403d88a475ac0445470ed37e703d5e8"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_recoup_prevented_physical.json",
+      "sha256": "8a5a3c270e6f925e552e29e6cd66f14617db305e785c98656611660f0e6074c8"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_regen_flat.json",
+      "sha256": "f14ef5164db2ffc554dc5fdeaf7d62e2992448ed7527582f2814d88fd78e1586"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_regen_low.json",
+      "sha256": "0439997f505c677a39056d90cd9363079abd02b4fcaf28aab1d4da27295a3043"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_regen_moving.json",
+      "sha256": "25d4c0315e04ba62de71805db146f8450b9bdd281582eb7bf3d5c26bafd07f51"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_regen_percent.json",
+      "sha256": "1c8bb25ed650f298d819c3ccb01958a0dd5c5cad369928fe648616027247de8b"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_regen_speed.json",
+      "sha256": "7f0e6bfb650dcb33b95cd4458c42133153800fa7e5bb5ecd63681d3e6d5ace29"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_regen_still.json",
+      "sha256": "81b0df663c03732c4d6dd5cc2d36b0df22c0ce337ce32a63a3fd30482611b461"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_sustain_efficiency.json",
+      "sha256": "e6b53bb29425662e9b97aa79a6e5b0642ae2a13df6e1d91e3dfcd61ec3de53c3"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_taken_dot.json",
+      "sha256": "5a6d048089ba2c5eeb8a1ce60ab92d8f21cd25f76475bf4fcc8bf761d234ede4"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_taken_elemental.json",
+      "sha256": "fe875f7dbc9c539825b772dc15b4f268239263f4742a3017f3886763407fc1f9"
+    },
+    {
+      "file": "Content/Rules/Affixes/shield_taken_physical.json",
+      "sha256": "a5206bab911e40a1f23c289042dddc71668be6c174f212e6646e054229f1c0ee"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_arc.json",
+      "sha256": "41ac92bc5a9ba5c9bf9954a8412fe1899d814c0c34a7c35f867e56716eb70e33"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_chance.json",
+      "sha256": "943102261f18101723e9f19088a10da51ad7b59faf42654f1f71c52d89cdbb1b"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_consume.json",
+      "sha256": "18fca801cb2f658223210cf3ccc55db6206f03c9e048d3b3cb85bb2a6ac9c239"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_crit_effect.json",
+      "sha256": "0cce42c8c3cbcf5efe634a3a4a96baa518c9d8148d16ee5c65e93f5450b952de"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_duration.json",
+      "sha256": "e9cfd98611db28529c74afbd0596077178e338fd4364d4419a5f21060f1df7cd"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_effect.json",
+      "sha256": "038bf8f2b059c7f197667da57b684a83536098aadec94cb439f0fdd6365f7334"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_extra_layers.json",
+      "sha256": "debd1e227e79313b50dcd248eb4980058096f23b351efe9eeca546c8fad43157"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_kill_spread.json",
+      "sha256": "32f0a4fe86234159323c78bc36558a67214424c837aa8b7dbdadab5953bef6b9"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_kill_wave.json",
+      "sha256": "748e901a445d7c96c6c044b7a1355d3adb77e682516ee352be70a3eb2f0a0157"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_layers_strike.json",
+      "sha256": "387b5eb77929964dac85222fdb48f98adcd474e7110e44f28676289b117fecaf"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_max_stacks.json",
+      "sha256": "fa270d0c920bc0d820c81eba0dca261bc3572020e73f4737a7d3ef6a4cac8e10"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_per_layer.json",
+      "sha256": "04852aafc28988848e0c1b68086334621a94c0921913c61cc228ae1a46486516"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_spread_radius.json",
+      "sha256": "39b26da424570cf511d25bd3e205b73651f5895cc6dd5ba6c36878720dc588b0"
+    },
+    {
+      "file": "Content/Rules/Affixes/shock_vs_lightning.json",
+      "sha256": "086eca1da4fb41799d0041635f0b9bfa86cd41718204fa0350e14a95421268a7"
+    },
+    {
+      "file": "Content/Rules/Affixes/slow_frost.json",
+      "sha256": "905928337d030a408dbcf1a8002f054bd20fb502c7e490a6472fb41256a0168d"
+    },
+    {
+      "file": "Content/Rules/Affixes/stun_threshold_shield.json",
+      "sha256": "816e52d824519438ceb5451160331ea75e83771b16adf2d87762caa2befa3a1d"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_ailment_consumed.json",
+      "sha256": "df8ac3398dd48ea214521a8a34264f854d3f6774905ee46f5af956df957927a2"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_ailment_stacks.json",
+      "sha256": "86ade6bdc0015419efb26c05ca7b1070367f94708814d85c7a235c3e1d4a24ef"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_big_cost.json",
+      "sha256": "3f82f7393d4e67cc302a02b90803af46c6e53b496cdd9c82744fa3053c9753af"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_block.json",
+      "sha256": "0ac4b937f4ebc2ec7ebd464ee770c3083020e315cc0f457ed060e6d6658daf55"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_blocks_count.json",
+      "sha256": "ef827d89e93ea73877e0a3ce8de8455614a7b8209b9269e29e93c0de115ef063"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_cast.json",
+      "sha256": "81221a0a72d8f493d645cdcbdad4b83c74adb2da5523223010308c689dd8c6f4"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_cast_attack.json",
+      "sha256": "17d307cc8b5d25dc46d34f2b851bd7f5e46fd81f16e2a81f03d9d9eb550701f5"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_cast_spell.json",
+      "sha256": "be99e501a7761e01e3deda3eac147241dc9ec00c4321a3c4591b590678009b2d"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_chain.json",
+      "sha256": "dddf619ce20c6e8f6e13476dfc07f436568a04aa29a344b8cba46db072917a9d"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_channel.json",
+      "sha256": "574d4676dd470472a42add4841333a5f9bd696f901c6342dcf9623935bd1e838"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_charge_gained.json",
+      "sha256": "e1b09a4a7bb3da8193020bb20291402fefc0b98ffb03e2ec1b0df088348ae693"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_charge_max.json",
+      "sha256": "a7ecd8b1579f7e81e299f463933fc0dd8d9a38fd91ea97a36a10be12203a84c9"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_charge_spent.json",
+      "sha256": "2bcd41183ed17fd2f68537e22dfef3f983735542addd514a359041f756a33a42"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_combat_start.json",
+      "sha256": "b9444f1f9ac94ccdf191c0090fe849313c97ba797b6a4da22532532f54424de5"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_crit.json",
+      "sha256": "8f7e683fd1b273abd4f72360c8f1d0f0ef78b1f08a295758f09cd87ab38f6834"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_crits_count.json",
+      "sha256": "b00510989aa1078f65cc356b54f16d03c033c74ce5b4ed42ba5a5f1eb11079ce"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_crowd.json",
+      "sha256": "aa0d98dba064ce87523dc68fd1654900f67513924e753a21d46bcaa7a7e0486d"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_damage_taken.json",
+      "sha256": "58ee2a0a7238410e6fa856cb18a5cbbcf8abd86c6bfc9dc00d0c1ac29a3f2f80"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_distance.json",
+      "sha256": "7bf657fe033df74964a287ae0c7be4550de71ee1ffa0c001485e0dc03d4e82dd"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_dodge.json",
+      "sha256": "c0120fe05dc41253bb29982411a1315b8ef50eb72216b758dd4c7722200ee776"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_elite_near.json",
+      "sha256": "946e6a2cc0e70278470f6d429f5df4ec98ce96438291b373c871246187b09130"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_enter_low.json",
+      "sha256": "9ea9c7778d0613641fb400391a424332fcb1a021d8e424d2bc35a8062389c39f"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_erosion.json",
+      "sha256": "2ef41dce9a35c2500dcdbe042e9f19d8f2ac10c990611c473d9d94f266e22ad2"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_evade.json",
+      "sha256": "7af750d1c5ce96f5a64aa4b0316fd50fd6b3f00dca5ff5ed093fcf695dd30b88"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_evades_count.json",
+      "sha256": "7e8bb6812a91a3eced59e50e6317aa8ee1273731b3eafae5543eb3f29a47de90"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_execute.json",
+      "sha256": "3a988da14386486549b136cd65fbcb7b7d33df4e6d05892ee49e7c391c53281c"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_freeze.json",
+      "sha256": "8efc8216bf62e0eb0380776095a9fde704efafdbb91eb7ab8a0e18ff7e44af02"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_hit.json",
+      "sha256": "22e64d58b336e17c8538fc7de8f4830aa231c73278114f0044b748a44e30832e"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_hit_elite.json",
+      "sha256": "8cb1274dd9707f447f65213fb7a0e5f43403cfc98ca61f37996aee67300b1561"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_hit_full.json",
+      "sha256": "dc044e3640ce441a88cc3ff26db7631aca6c5e86c519a2d23c8562b83aab5708"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_hit_low.json",
+      "sha256": "1b3929389a9e1240a1706f68b2908a3e40f34cc44c03c02d11e937e039060ed0"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_hits_count.json",
+      "sha256": "f3fdc5c06c7f7b0fa5b0ea07b81f187e92853218839189b0b2fd4902f6fcbfc6"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_ignite.json",
+      "sha256": "073bf4892169f8ad8359ab944d2458eade0022186b693221da6f319a4081b2bb"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_interval.json",
+      "sha256": "37bb1f53d5f6a98e7c6f2e8ca42dc5597e6c6df94da341a9f8c02186a471bf96"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_kill.json",
+      "sha256": "076303ea915dc989e526eaaaf0f60edf1c9db673dd7933f72b826ac8d6873d55"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_kills_count.json",
+      "sha256": "10f73bd7254cac956402215655498ba0f21801ee584b1463a5ffc2a198114c81"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_lethal.json",
+      "sha256": "27118ce6c93db97cef74bddc46e2dd045768acbad5f0bd5fc9f1406c5eebcf61"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_life_full.json",
+      "sha256": "cb6851b0ff48110c827b06a9733ae2bfc733dbb6f82754d2c5058ff353aba797"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_life_lost.json",
+      "sha256": "3dbd6afc069bf1972d9a27778093b7d7acb1432e067c958bc02c2853db737d03"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_life_restored.json",
+      "sha256": "2b6e1f698db8ac0353cf7a2045a709d9962bc54c00d62124d7fb19b5b579b8c0"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_life_spent.json",
+      "sha256": "ef3f1821c9dca36be83ba424fffee7a8fdd05c5b47839ce7fcc1e8c9c46f60a2"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_mana_restored.json",
+      "sha256": "0f4192777cd91473d084cfabb5cdf8fc33037e683ac0f293b26479dc05744ddf"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_mana_spent.json",
+      "sha256": "fe5f18a21eb0b644e48ebb008ee75b4b615c2841fdcbaa6d5e463225fc2f34ad"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_moving.json",
+      "sha256": "a3b191b4041416811dba8d6f0db3f1ba5188c42751169089b47502561dfa6ed3"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_multi_hit.json",
+      "sha256": "442b7a3a899535984099f8a29fcf0d6b2c26f29d71e9cb4bac883dfb5c31bd1a"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_pierce.json",
+      "sha256": "b532f967fe5934c3c4c4eadfcdafef23b426e548673178b6b2f94e6cb9ac5e53"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_poison.json",
+      "sha256": "d36a700d225d74b5f1fb70695ebc92ce1e88f04a75120bc0692d98d24b772394"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_recharge_start.json",
+      "sha256": "619062509088ee91e510a501bb05e72c87bc2755c999654063fafc9730b8f8e4"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_return.json",
+      "sha256": "05fbf719248844cefe408986d5b37c12318e5dee14680fd82585de18e6ca8725"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_sacrifice.json",
+      "sha256": "41fd579b7432669bd8965f0234d0114ddd739dfac8b09b904f4e4333d80483e0"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_shield_broken.json",
+      "sha256": "eb900e7e862541a0e30bdef91c65152e55149c0700ccb58def0d62d7b908ee13"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_shield_full.json",
+      "sha256": "e765f6cb58f00b4f5b8a17de3ea0fc8892d1d9ba62ae76f60a3d2d145be24449"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_shield_restored.json",
+      "sha256": "56f093e2a086d625d9d08c10770430372b323d660a2c8b4a501b688e85560584"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_shield_spent.json",
+      "sha256": "226701453fab0f13701c204b573372bb2d2168ad7a0971892ebc45748d12c600"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_shock.json",
+      "sha256": "edf9fbbfbcf983f02b9115d61917add42ccd41faedd1267f0ea75591ef238f3f"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_still.json",
+      "sha256": "f735c883c19ffb49fd88efcdb85c2a005397453f13e03f6ac047745419ae6891"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_summon_crit.json",
+      "sha256": "8a908ade31fea6eadad5be08bcbbc42fd81217682432011058170a2cf85d0bbe"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_summon_death.json",
+      "sha256": "04155a8c4eda84db85ead899563c8d7e028755bfa0c708fbb15624cca97a469d"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_summon_spawn.json",
+      "sha256": "42adc098bd39dd5ad0f2932a086d513f9dc2255f0682803b838169fdba4a21dd"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_taken_crit.json",
+      "sha256": "cebfa8e99f971426301e012b7baa889c4dabdbe64be073f357692e1fe9577e82"
+    },
+    {
+      "file": "Content/Rules/Affixes/trig_taken_hit.json",
+      "sha256": "e7f5e9de1ba7eff0490c53b4d8a4ebab1b94485e0a9bb61310330bfda36e17ad"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_area.json",
+      "sha256": "7acd68d02b9857c4300ea9fed12a7f2b663955d1a4ba6914093bd34cc655fd2e"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_at_event.json",
+      "sha256": "6f6d302092a1fa366eac1b11c8272e567b6e7161f27033693b190b8655ed8377"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_at_self.json",
+      "sha256": "5ea607a3f85639435d5b644c0e70d613f3a23db992becdedbc3b9a86d0b7fcbc"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_at_source.json",
+      "sha256": "6b68812021fab6b8cb21fcaca06ed7c30b15cf0a5e7190f8e34e4e51dc63f928"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_chance.json",
+      "sha256": "bee96f6993ecfde25ebce8695e8c95f4d98d00cf146cde06f71d596925a7c6b3"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_charges.json",
+      "sha256": "1f3402b07401b766c0822494e5c5fb08559cbeee985071c3f20d7e4e2bc2f7ff"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_consume_layers.json",
+      "sha256": "738e9fd3239bbea324a10931c96a9340687aff2546d98108412499af6d1d0be8"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_cooldown_flat.json",
+      "sha256": "47fe61b30b3e35366aaf78442ad75b671c69d0f708c8634935f54ba2e0b1d1af"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_cooldown_recovery.json",
+      "sha256": "e7e63325eae24adcf90ae8623e5ecfe25e50fd61c28552fc46a246dc3f56beb0"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_cost.json",
+      "sha256": "bb047fd084c8f352f3f8ec1579416c22b13cd982d01ed86bc2b69ebeff225e50"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_count_reduction.json",
+      "sha256": "8958012e84abaeccfa683fe2b1309b1f977ed7d77531d79aed646d88e414ae5d"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_damage.json",
+      "sha256": "3cf0f47c5d4a1b8ebf7d9f042485a181eea76739e91eeb40474257138e4ed48a"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_delay.json",
+      "sha256": "b8d9c99ee6c5ee96ebb31659724e2c4930f02d2ff4321b2664fc12f4f093d937"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_duration.json",
+      "sha256": "b3ad5ff3d5f686f29548743f73dc6b355f7cc79d79dfd6952b45621b24aa536c"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_effect.json",
+      "sha256": "9928883c9a56f50a496b1940aec60e953c0e0c6a203ac1061f08d85f6f5502ba"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_extra.json",
+      "sha256": "1690088979bd8cc0262d53cb10b695b62f83e4339e8bffae050685fac5530006"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_fail_bonus.json",
+      "sha256": "4b1a4f838f1ffe5db3565e51caa611b1e1fa00c32ad2238968d8ed3af5d63f7c"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_keep_charge.json",
+      "sha256": "a4c7c6c156dcbe77cd1c991513a8634045b52d65042002fe9e16f095e0c4dfaf"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_kill_restore.json",
+      "sha256": "c712c4cfa7141c061e5c26cbca50f4d6af3b072e48f17f59bc8055970b76f60e"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_more.json",
+      "sha256": "bd150f8ca4dd645912dd4a9063cc12e618f34bd80380d21f37c62f7cdbe9541c"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_mount.json",
+      "sha256": "2e42f8f1acd23f0a9a531a010e37425316774038b219d0c5fa4f7758c0d8de9c"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_no_manual.json",
+      "sha256": "59650f0cbe76737eba7a756397a2ca8b2a24c55abd2e0541c085220a17337200"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_order_random.json",
+      "sha256": "919d049614e84e71ddedeec7e88586f0eab90ab58fcba3b8352db7f4ee04e0c8"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_order_rotate.json",
+      "sha256": "a5c9d8a69f4c437ef2e7b1d7b0d32407adabdbd9b184056eb8b3a5b72f6dc6e5"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_order_sequence.json",
+      "sha256": "50ed5e19a5f02cde28ff020f15f69a5ce39030af3606eb08418dee7b0e5fba3f"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_per_event.json",
+      "sha256": "61a0af6fc320bacf370417fcb1db86ebdd5c1d18877d07403302fd5ff6d13bd8"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_prefer_elite.json",
+      "sha256": "12dae382409bf698b1c600f60aeb67441148e672331545bd6d8638a464cad736"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_prefer_marked.json",
+      "sha256": "a88a738512cdaf472e0fd002b236cda87c34e3c48ae5554f5f9fcf3821d07bed"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_prefer_unhit.json",
+      "sha256": "8e349cc638b66c62c0fd7e27230526fd7b1bed4cd8fdd882f26328286378d7de"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_refund.json",
+      "sha256": "5af31c4d9d7670237376443fde952772ac37cbfc1bd533dbcbb80f29c4479b62"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_repeat.json",
+      "sha256": "c6055d3e9340e555ff2cd62b6b333673e06a4affeac23a6052671d0cd2578308"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_repeat_interval.json",
+      "sha256": "2e7bad27c34ea4ede98fc88a5b92c5105647e7ae62c6e98200d2e8b914530a27"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_resource_reduction.json",
+      "sha256": "e88232e16889fb0d5dbcaf6b8536d2063dd6544a87fcdbc302549cbbe93bca70"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_seek.json",
+      "sha256": "35b798bdd9f000f044a4665399355af0dfba82bb07302f8a99048bee0de6bebc"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_streak.json",
+      "sha256": "495a35943f469bbc7a67f4624136f2cf0a20c647eb574aaa8cca1b379fd3e8a2"
+    },
+    {
+      "file": "Content/Rules/Affixes/trigger_variety.json",
+      "sha256": "2d8075c6ef5ceb7475b28d3914461d7558b956d2cc01b0e4ad851a61256c1783"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_area.json",
+      "sha256": "a9fd740b1bacf82a4ce91c71ed5e63b06e677b0840bcfc56801f0e4c9089fe60"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_base.json",
+      "sha256": "cbda4d3c2af0b363ebd2652e763ed73481fcd367da4a9228ab26983a25059cc8"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_bypass_shield.json",
+      "sha256": "08a37d7fd93db987c058295181528b07f50529d74d60f1c36c7041bd69f3846a"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_convert_elemental.json",
+      "sha256": "9ef4539d2b8e8d6508513a9223bf42bcd4bd586b8c206f046573ee42765e07fe"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_convert_physical.json",
+      "sha256": "44fe3020c67e6304e817f5e3d49e3bded57a31504903c9bc4edb6c825bba92ca"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_cooldown.json",
+      "sha256": "cbb3be32606a33324ed67562ebd1e400d85b1702bdf4d299958b38b338750d94"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_cost.json",
+      "sha256": "ca033d97d1c0f4a68b4bd302143d3c3b65e79ac1200ea15aa3714a42ad2e075b"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_execute.json",
+      "sha256": "e9bbfbec119c2b0b0d951b31866d86fded68d61a4a8d354eb243fd2c50057eee"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_extra_physical.json",
+      "sha256": "1532fd98c98ccb7d5730c38853c7e6b08c0f00e1b8c387fb93bcc35b43307f5b"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_vs_full.json",
+      "sha256": "38d58b88d68db6434cb15fc2563eff3f70d32093893160bbe513309c4aa72063"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_vs_low.json",
+      "sha256": "017bbbc1de228fa2d152fac4da456730444f7e2927ec586e0422ce2e4f1e919b"
+    },
+    {
+      "file": "Content/Rules/Affixes/void_vs_shield.json",
+      "sha256": "42ac43a8104d14d1f2dd314c7960e8d3cd6a1318c61b9a57de652a6395042135"
+    },
+    {
+      "file": "Content/Rules/Builds/earth_wave.json",
+      "sha256": "85bc3b07422260df76384ce114ea2efdab5c900debf8664edea12e3462671e4d"
+    },
+    {
+      "file": "Content/Rules/Builds/ember_hound.json",
+      "sha256": "7526f0c60bac707a4a4867c011d0e3428f85b9a01e8be6ae1b4e5d2bfc56a390"
+    },
+    {
+      "file": "Content/Rules/Builds/fire_turret.json",
+      "sha256": "beaba46a2007ff171d56a07861d41cdeb4dfc2056c9c8aafab5afee959e977d7"
+    },
+    {
+      "file": "Content/Rules/Builds/flame_burst.json",
+      "sha256": "1aa027149880315ef2fede86689f2e31f302da9e512926f23b475c0589c19bec"
+    },
+    {
+      "file": "Content/Rules/Builds/frost_lance.json",
+      "sha256": "e3acdf35632ea205f6367f9422601307527323e0e622df1405e4892f8860a5fc"
+    },
+    {
+      "file": "Content/Rules/Builds/iron_guard.json",
+      "sha256": "0c2e0051a237b0d58b0e2cebf06311614d47898dd65b778747330a5ce7672823"
+    },
+    {
+      "file": "Content/Rules/Builds/lightning_nova.json",
+      "sha256": "56a5e561a95ba6ea0cb9d79451ffd3ee4b8390bd0301349d09f0b9c23b343482"
+    },
+    {
+      "file": "Content/Rules/Builds/monster_bolt.json",
+      "sha256": "5956d5fda93d7208bc7d363757059129ac73673ec0d437643b9550bc77a2d739"
+    },
+    {
+      "file": "Content/Rules/Builds/monster_claw.json",
+      "sha256": "086fd2001f71fb8bdace08832e0f58c736c384c301a23eb75f76cad04d254aed"
+    },
+    {
+      "file": "Content/Rules/Builds/monster_nova.json",
+      "sha256": "8f0c2c2a82c3fe2d6b34304b4760bc4f0944dd9c57f9c2dce0c045adba18b729"
+    },
+    {
+      "file": "Content/Rules/Builds/monster_strike.json",
+      "sha256": "054bc41077c8218a8867ae110be8a3299112b361d4c4eb7b027fb6565a41882a"
+    },
+    {
+      "file": "Content/Rules/Builds/player_slash.json",
+      "sha256": "a585c7aa2781495b439784d548fc8062a76124bfcac807442408e51b122ae768"
+    },
+    {
+      "file": "Content/Rules/Builds/poison_flask.json",
+      "sha256": "9c32eb3a36217659650cf4d83d3f7a1e0d97d67b858901e846d28a3fe629f22b"
+    },
+    {
+      "file": "Content/Rules/Builds/sentinel.json",
+      "sha256": "a57e8ed7551281ae281a59c3d2560d2f02c1f65d1b0d643c230d31c3c621d151"
+    },
+    {
+      "file": "Content/Rules/Builds/spirit_servant.json",
+      "sha256": "6beda7907742fbb528bf4e2882d21d0951a907a94183cdf8fba3b8fdf655e02f"
+    },
+    {
+      "file": "Content/Rules/Builds/storm_totem.json",
+      "sha256": "7ffd926a09d2c9775062acc7fc3cd48eab5430911174e8b6f94e4a2b88cfa2f0"
+    },
+    {
+      "file": "Content/Rules/Equipment/bloodrage_band.json",
+      "sha256": "37f640f37f206cbc2cc415c1442608ee5b90aa8494d152ba22259d65f640db3b"
+    },
+    {
+      "file": "Content/Rules/Equipment/bloodthirst_gauntlets.json",
+      "sha256": "ae2e2a8fa8fb963c454cd888992140c1c181126d78f5445d901dd1dbb8ea73cf"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_amulet.json",
+      "sha256": "207ed4eaedb53e7ecfa69e02a1a83b459f2668e0ff2ca7d789db2ea4d4c21091"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_belt.json",
+      "sha256": "d82b6dcd11b20dd355afc08d101f8f3b4dfeea44f7549602f7e93efb95baf415"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_boots.json",
+      "sha256": "44d27f47aa64eed742362431dcc7e83055e3ac314140fc4b4c98fe5eba7883f1"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_chest.json",
+      "sha256": "3dbf582ff83375829771a1933ac35a0de8ed505c9029e8c0dd052baf66ff1a3e"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_gloves.json",
+      "sha256": "319176cac52322fc4519f172979af261c0c3984a4c8ba66fe1470e071ffe00a6"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_helmet.json",
+      "sha256": "3d0c4ee04ba6be3b72347d3d0c2ecfc75431e15cf594909920a5c28386f7f649"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_offhand.json",
+      "sha256": "d693f2be66062908dd763fc3d880bb939c763b7a89d778123a86886b701eaeb9"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_guard_ring.json",
+      "sha256": "aef3b1745aa55b8a32c4ff34dc0fca04c0e844766b792121dfd05aa5d709f662"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_surge_belt.json",
+      "sha256": "52841e4c453243666298eacfa51df1f984656a9d9ab4c1220e1f2fdf93b30142"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_surge_crown.json",
+      "sha256": "039bec7c42a6a2856c16484bf5e4db2759f046466014e4d3e576689e25ba8c05"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_surge_grips.json",
+      "sha256": "6b4b7b084423892477332610d063809b1e56607fcdaec8141cb34307b172334e"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_surge_robe.json",
+      "sha256": "7f064e01384962c52b22a252db7be254f012534d34f6a01232a58952240c85ac"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_surge_steps.json",
+      "sha256": "6f8f1907a477d463f45995e73bee70ae7eb14c1aabcaedff837b712cdf43bef1"
+    },
+    {
+      "file": "Content/Rules/Equipment/cinder_turret_staff.json",
+      "sha256": "944b90137dfd4aaeb135023a1845db9c743d237039ca40da9d016ef73940a049"
+    },
+    {
+      "file": "Content/Rules/Equipment/crescent_saber.json",
+      "sha256": "ef8511b53abbe68560875c5052c5535626c9e97ea13a1e8795ec5188db764267"
+    },
+    {
+      "file": "Content/Rules/Equipment/ember_amulet.json",
+      "sha256": "dee1d1b78c3eb2e866819ca3014f131a20f490af71cf9020c67cb62d57dc6783"
+    },
+    {
+      "file": "Content/Rules/Equipment/ember_hound_pact_chest.json",
+      "sha256": "b185627aecb77a228208ab0fd72b6ce14cb3f67dea3b607232f98b83d5055743"
+    },
+    {
+      "file": "Content/Rules/Equipment/emberfang_talisman.json",
+      "sha256": "c614c0aff646d83b6d1000665dfc1909d4f833c17588f3c7dc10d02cff597ab7"
+    },
+    {
+      "file": "Content/Rules/Equipment/emberheart_staff.json",
+      "sha256": "a92cf72f360ed91add15ea03bcc33f6f8a9b9f515348fc7d160cd6d7e39fa31c"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_1_boots.json",
+      "sha256": "6f3f345830ea585434fb9d8a724ef1cdc7b8eb148f55cd5d5e9c8e177c51a816"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_1_chest.json",
+      "sha256": "b4c5a461c8725ed7a49f855cd15d7239ab2fadcb8e999dc5102270d5bc37420a"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_1_gloves.json",
+      "sha256": "d5dad3004bcf4b68b0987e3e7e7614c51ba62c44e59131e730b0dd0057d3efa7"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_1_helmet.json",
+      "sha256": "4df807880869bd791ac4c187310ff6a89ec78eec635d5ef7db617c269590d206"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_1_weapon.json",
+      "sha256": "2ba94254cad06757a818e8dd85a5867886a8de0477d68f00e4318fe662e59b4e"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_2_boots.json",
+      "sha256": "7188f8983cd5f6ca7293580c4871052de1745a3df8753dd49bccaf9232cabb82"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_2_chest.json",
+      "sha256": "1ab6116bee8468e47dcd3ce8998a0a5642af198b8af2b76b17b0673f88afcf96"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_2_gloves.json",
+      "sha256": "1dc91d2b30e25d4f6580999c4ec3ae41d1b76d24ea25f4f4ff014cf3fc4b462f"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_2_helmet.json",
+      "sha256": "96652075b73a2886cc8828081dbbb1b3d0d394a06d72b2dfd46788d9875e4fcb"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_2_weapon.json",
+      "sha256": "b762d60d6b69ee2f7737eff789b9d4d380d93403c415b3e695b487d5ecf0b1c3"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_3_boots.json",
+      "sha256": "5039f11ce66c36c5b47ee35de26b7a71f397fccb6437c6661eb1736417e0baac"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_3_chest.json",
+      "sha256": "cd08483ad28fec0ad00f6475dd197d34e9ef5726cf7262d2299c908caa587833"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_3_gloves.json",
+      "sha256": "bedfa081af3b0bbe3991b8c99ee3e1a2ec25f5b101feb83b216db0674cd218f7"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_3_helmet.json",
+      "sha256": "571677729441ad99500d590e6e7014824da34b8832176dbe1ae402c65865076a"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_3_weapon.json",
+      "sha256": "e133191311405a4c5d51f807d0cba2f678379c916e445fdcbae6a8e32aded50e"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_4_boots.json",
+      "sha256": "9bdf71077a500223d8f68ab3f2b3dc537540f85808188aace1bba51f4558ab68"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_4_chest.json",
+      "sha256": "0cf881825dd91981f1784acfd155af11a4f4da3ff0bf8e3f1a1b319a07628c92"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_4_gloves.json",
+      "sha256": "dec0ed3036642137ce125cfd6d278b11efc8e43df8262f22f2933811876f1c74"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_4_helmet.json",
+      "sha256": "5ef959f6e7bcf183dc2b76e372c83e39b0f515ea6f07342f35f26ed9f12e3551"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_4_weapon.json",
+      "sha256": "f71daf8e511aa11853d62a5afcebe9f04808552976944d144872478265234af9"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_5_boots.json",
+      "sha256": "21a8f66b41353b28f0569e464450854d46535c2be8d7e489a82537f65b8adce6"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_5_chest.json",
+      "sha256": "2111bbfcbfaccb15d69ece26ab5d0cb8ec06d84c110d94f8e4d11c18a220bf39"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_5_gloves.json",
+      "sha256": "7f6a6c3496ccd97b167813e1e84ec5230bcbe4308dc58c5aca4f4d1bbcbbb49b"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_5_helmet.json",
+      "sha256": "e412a8d5e4d8d5a76369ac6fe8ba894e11394979eefa00d0976a060d58d6070c"
+    },
+    {
+      "file": "Content/Rules/Equipment/embers_echo_5_weapon.json",
+      "sha256": "59468be36f5cce619eb92b160bcc48816b5456b4e46942f9f65c18bdd081888f"
+    },
+    {
+      "file": "Content/Rules/Equipment/fire_turret_clockwork_gloves.json",
+      "sha256": "698de6c3e8d220ee301b53056bf135dc6f8735543d24e346bb812bafee84875d"
+    },
+    {
+      "file": "Content/Rules/Equipment/frostthorn_staff.json",
+      "sha256": "cdb3da44dd014c315c882c41d9c27ad6327095b828fa88a248d14a60420a52c2"
+    },
+    {
+      "file": "Content/Rules/Equipment/iron_guard_command_crown.json",
+      "sha256": "0ebef3a1bf29c7fdd508db22d07c26d8f42ab1be2c94fd1358b699dce34df9f0"
+    },
+    {
+      "file": "Content/Rules/Equipment/iron_guard_sigil.json",
+      "sha256": "43bbf7161f64cf7728a832b1d564634cd0ab0d5ee0f235a9ae8a674a7dd951ae"
+    },
+    {
+      "file": "Content/Rules/Equipment/map_core_equipment.json",
+      "sha256": "89a347b2ccb615f059bd61d2d8743cee6c3e130366aa2b4e99e744e1a3a14127"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_abyssal_return.json",
+      "sha256": "58f836b4b952920723da2bbfe5035fe10b1a5892688414788ec1ce6ea7918275"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_bloodfeast_tyrant.json",
+      "sha256": "ac7012c2b47e135b30fce9c7a08648f00ce059139b9c1bcfd660d89d066c01ba"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_claw_beast.json",
+      "sha256": "3e589538815ecd62cc9c5a94e6782650ce8f1435afbb74c9451a699d5f1cbb18"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_ember_apocalypse.json",
+      "sha256": "b639d757d118ecc77df21cd9b1ecfadefe5b98911b4629830aa7d6bbf3db31e8"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_frost_caster.json",
+      "sha256": "30c8a4f3086edfca424267a32673b55513abb444763f24bb13d8f4ef58c1c488"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_glacial_deluge.json",
+      "sha256": "67c8a7e6cae0a612373c075d2dd7fc3ce2c27bdf09344bf0e220e157fc7f5562"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_prism_cataclysm.json",
+      "sha256": "f71f968e465f7c95a78ee1727328031e91d011ca9b127810d2e8734483e1c82f"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_thunder_saturated.json",
+      "sha256": "4a2c971cc3b1cbc47a09cef96398b704ded54ca29cee518b6bc7a3329190a018"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_lineage_void_caster.json",
+      "sha256": "c653a3095260e4241677ad2169f8dabdcbda9b13a7307699aada81ed68303d13"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_rarity_boss.json",
+      "sha256": "14b547e3efaf1d9e7a13705159d15202694ba07e718b383e96e8f08d19afc9bf"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_rarity_common.json",
+      "sha256": "8898169b3e48d124f4cdcf89fccf333651fe9ca62774a5765b9af35575050694"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_rarity_magic.json",
+      "sha256": "0c5aafbbf85577a4c96f4117588410ba3e61555fe8c0bbaae015661bf6f3fd17"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_rarity_rare.json",
+      "sha256": "84cd4cef616a7b65f58a22310371e7c55fcb8a4a5dc95da5bf4214e3863f01d4"
+    },
+    {
+      "file": "Content/Rules/Equipment/monster_tower_equipment.json",
+      "sha256": "71e84c18704db2a3a19f77456ef8cf5bb921a7ea2d63d41f7175e3052644e6e8"
+    },
+    {
+      "file": "Content/Rules/Equipment/myriad_swords_t1_boots.json",
+      "sha256": "db3b17d819736e44bc0d7c15d4503e40d50b47d8c2982801576d7c2c8bf15e16"
+    },
+    {
+      "file": "Content/Rules/Equipment/myriad_swords_t1_chest.json",
+      "sha256": "7f4720019b3d3c0d367813f4c777f1f4227af8854a92764aa8b4ec4f1caf94ea"
+    },
+    {
+      "file": "Content/Rules/Equipment/myriad_swords_t1_gloves.json",
+      "sha256": "43e9276c24305abd274a681d58f6ceb771fda8b38b57cbc82f77416ec9e70867"
+    },
+    {
+      "file": "Content/Rules/Equipment/myriad_swords_t1_helmet.json",
+      "sha256": "de1f5268fd3f1e40f88850d5254d377b177c5552db8a690d6e9161413adac3b1"
+    },
+    {
+      "file": "Content/Rules/Equipment/myriad_swords_t1_weapon.json",
+      "sha256": "65e77f9a41e47c9238e7a17b2a6655b31ec2825b383e5a426cad797c3331107b"
+    },
+    {
+      "file": "Content/Rules/Equipment/player_character_equipment.json",
+      "sha256": "deebf1fa34912d7e3f1d37d5fbd9ca030c8b1666d59ea85c7c03269516eb1ade"
+    },
+    {
+      "file": "Content/Rules/Equipment/player_tower_equipment.json",
+      "sha256": "d5c8027be8161804889475be2caf0eb77a4bd03e6e44a2b00fe6092ee77eaef5"
+    },
+    {
+      "file": "Content/Rules/Equipment/rending_gauntlets.json",
+      "sha256": "ede0d9aa1d5247ba100d6f8be2d696fe5666752698353a6583820cb1bfa9c5b1"
+    },
+    {
+      "file": "Content/Rules/Equipment/rime_thunder_annihilation_ring.json",
+      "sha256": "d018c013b4ebd74cee28f20d6892cfd64ed66562528d803ac20f335940395278"
+    },
+    {
+      "file": "Content/Rules/Equipment/sentinel_scepter.json",
+      "sha256": "06b8b3e7dea2e6f4895839b6fa162afda20a674949deceb351d8b79522d17fec"
+    },
+    {
+      "file": "Content/Rules/Equipment/spiritcall_bell.json",
+      "sha256": "a6e38e9e18aa0cab336f80739de71afb8cf020fb24604da937f3af331619f200"
+    },
+    {
+      "file": "Content/Rules/Equipment/storm_totem_march_boots.json",
+      "sha256": "e14fc85090e5b7f33d7707f2521c338f08fe1a88c51a25e35415dad7c8de27f2"
+    },
+    {
+      "file": "Content/Rules/Equipment/stormband.json",
+      "sha256": "4ed7dc5e41476399e6d14caa5cd9e0b9e1092402c8ba752f7e2c97efc8eb3df2"
+    },
+    {
+      "file": "Content/Rules/Equipment/stormcall_rod.json",
+      "sha256": "22d61b218aedab32e4326196c19c2a7937b303fcd1e49449c382a216458e8001"
+    },
+    {
+      "file": "Content/Rules/Equipment/summon_myriad_boots.json",
+      "sha256": "fb940d4a6cae567c654bef4630bd85a3eed60ae8d254849e07ac3c846f4de66e"
+    },
+    {
+      "file": "Content/Rules/Equipment/summon_myriad_chest.json",
+      "sha256": "20aed939b1488de29d66f0eabbce072abab6ca01c086d1170606934398570fa2"
+    },
+    {
+      "file": "Content/Rules/Equipment/summon_myriad_gloves.json",
+      "sha256": "c6f59e9a190d61b09aac6241d599c296bfb123a5bdc6afe2de838a6b7b41ecb5"
+    },
+    {
+      "file": "Content/Rules/Equipment/summon_myriad_helmet.json",
+      "sha256": "425cad1b1907c4303c89374c0e18e8d7cfc0dae930fcf268e97a072a48ec1136"
+    },
+    {
+      "file": "Content/Rules/Equipment/summon_myriad_weapon.json",
+      "sha256": "f3705c19a03124dd29879541e4729bd19c146edfdf01e6b5610c6ac5cda6c4b4"
+    },
+    {
+      "file": "Content/Rules/Equipment/sundering_maul.json",
+      "sha256": "61652229bfd9a39e9e861cc991ec06c14a9e32849630576c6a834bd1a4469922"
+    },
+    {
+      "file": "Content/Rules/Equipment/thunderheart_scepter.json",
+      "sha256": "76933bca5d97b41359f4216aea6462ccd84c8a6b05a72ec9e3a361f393e9001a"
+    },
+    {
+      "file": "Content/Rules/Equipment/venomglass_flask.json",
+      "sha256": "469c71a95d51534a1bce0394ca07db4c45e902c601fcea8ce6716a13fbddfde3"
+    },
+    {
+      "file": "Content/Rules/Equipment/warden_boots.json",
+      "sha256": "9a51b6bb6f44b5bc54ee43a48a0be9b1c77d12366b360bba1bbae7fffa5bbe19"
+    },
+    {
+      "file": "Content/Rules/Items/berserk_draught.json",
+      "sha256": "2f955f7c8f694cbe38f813f2a436325f4f74438f40791d9079a67c11dab86116"
+    },
+    {
+      "file": "Content/Rules/Items/chaos_orb.json",
+      "sha256": "3cc966ec1a74549a3b983d0b368d6fb12ef0ba7e49a466860bed39cf2a5387f2"
+    },
+    {
+      "file": "Content/Rules/Items/frost_tonic.json",
+      "sha256": "ed2ca0f936b27d1822ece0267444108f24dffa15d911afa3b8a2cab680d65ce1"
+    },
+    {
+      "file": "Content/Rules/Items/healing_draught.json",
+      "sha256": "fcdd6e7ff3d4f67600cb7c7604b001afc4f85c43e26fed82334c77fe999b2e02"
+    },
+    {
+      "file": "Content/Rules/Items/omen_affliction.json",
+      "sha256": "1cf117c696783bc75c12d6febf16aa3997455553c0a7655551332ab5a2e5180d"
+    },
+    {
+      "file": "Content/Rules/Items/omen_ballistic.json",
+      "sha256": "f4345e4f54cd605f7c2bb703dc6daaea32db31b9cbf79a52250c78e9598d3f49"
+    },
+    {
+      "file": "Content/Rules/Items/omen_barrier.json",
+      "sha256": "2d43d3bf30b9652ed9fb98e4ac90f646f6bcd1541386625b81d3af61d441173d"
+    },
+    {
+      "file": "Content/Rules/Items/omen_elemental.json",
+      "sha256": "0248eea6d8ae7a150446cccca51e0ccac0818dece1dda7a801c215c817c9be47"
+    },
+    {
+      "file": "Content/Rules/Items/omen_guard.json",
+      "sha256": "59186a9adf5a651b472f273315beff86a7732df2baff1f8dbe19c6a7d24c40b8"
+    },
+    {
+      "file": "Content/Rules/Items/omen_martial.json",
+      "sha256": "7281cbe87c3c7cff5c2f724270287b2ea5e16fd83ab4d94801374c999706edbb"
+    },
+    {
+      "file": "Content/Rules/Items/omen_mind.json",
+      "sha256": "44290f23088b10e12f3e6e49f00034b723bde576b0310c2b8d9cac289169b627"
+    },
+    {
+      "file": "Content/Rules/Items/omen_offense.json",
+      "sha256": "3e29e40b61bb711584767d8180938dccde05873d4affb9cf2344c42748ab0877"
+    },
+    {
+      "file": "Content/Rules/Items/omen_proc.json",
+      "sha256": "1d36c60a26d9ab0cfdbcfa65ca04a0180810f6b0dc190417743d8fb8319cfd18"
+    },
+    {
+      "file": "Content/Rules/Items/omen_vitality.json",
+      "sha256": "657f87d77298cac660f4ecabfc593ced842f44ab0957c536fd2bb12898cbe7fc"
+    },
+    {
+      "file": "Content/Rules/Items/quad_affix_orb.json",
+      "sha256": "e1a3b746005b97219d9284af78180d237bdb73d43770691fdc2f0aee7551371b"
+    },
+    {
+      "file": "Content/Rules/Items/scroll_frost_lance.json",
+      "sha256": "ad29d597d76b998f36636fb17ce5df839da1129998ad03ce99622a02af1400af"
+    },
+    {
+      "file": "Content/Rules/Items/spirit_stone_high.json",
+      "sha256": "e02fd01826c6fd9594132a4d639c363ddcfd3e323193a26c2c4b5993b6eea235"
+    },
+    {
+      "file": "Content/Rules/Items/spirit_stone_mid.json",
+      "sha256": "65cd24527ae7d9ecc5fa4332efd73a4af4862f622f8b66fc1c13a8c22b6bf6a3"
+    },
+    {
+      "file": "Content/Rules/Monsters/abyssal_return.json",
+      "sha256": "f7d441f6903e34b8360e5646ad47f25e3691c9e383b1bee7b9915acb8833c27a"
+    },
+    {
+      "file": "Content/Rules/Monsters/bloodfeast_tyrant.json",
+      "sha256": "972ef288637b9d95f28e1be739f34790b4334e0e3af030a61493d1309a9cc2db"
+    },
+    {
+      "file": "Content/Rules/Monsters/claw_beast.json",
+      "sha256": "d2ebae1504d6c0a17472462e2c547bb4d544f677d2fe2dffdab533ebd77dd1eb"
+    },
+    {
+      "file": "Content/Rules/Monsters/ember_apocalypse.json",
+      "sha256": "67c60c9e7bfaa1a2d7b91b5eaa929062effa1e638cce05affb217765d0cfbd7f"
+    },
+    {
+      "file": "Content/Rules/Monsters/frost_caster.json",
+      "sha256": "9cc4ae3f523b57fdffd3e4e8710d32373d892ddaa04a4542e9c734f923b7ac08"
+    },
+    {
+      "file": "Content/Rules/Monsters/glacial_deluge.json",
+      "sha256": "bfaf682311af2adf7d4563d8ecc076135fd16ed0780068647637207fb7e83580"
+    },
+    {
+      "file": "Content/Rules/Monsters/prism_cataclysm.json",
+      "sha256": "828f240829fcf2f0439b58420f0c3a6d266a6e5d546aaed7c60ea2982f606061"
+    },
+    {
+      "file": "Content/Rules/Monsters/thunder_saturated.json",
+      "sha256": "2e297bae63fc9d9d1ed3e7bb853d030c187f84a8e1352094c8034e36e4ef2658"
+    },
+    {
+      "file": "Content/Rules/Monsters/void_caster.json",
+      "sha256": "0d7bced868d169ce52c50ff3fc9a8b26400563ee0664bf25d914fb6e96b555fc"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_interval.json",
+      "sha256": "b7c33eb51e36a48e45b741c03855ee7b6b1693bbc722892f1e161a139345c229"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_mana_refund.json",
+      "sha256": "d6dd0f17fe243565045fea7f3454f6380e94b23e5250d79089fb945d921e49d4"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_mana_restored.json",
+      "sha256": "7d7080cbb63ae7fb9b674933f4892dd6a62308f88fc2e6ccf2d3a3ba821f1af2"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_moving.json",
+      "sha256": "0f7884d206c1355f1b4ba0ee1c469f42b92a768402b05aef097d5c5e5beb2769"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_poison.json",
+      "sha256": "2bf0e65200377d4bc18b810c11ebae66afba6d955a3705def6400ab93063e36e"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_return.json",
+      "sha256": "e661933f9476337a354574f0b2e6b857d65329c53131fa832e4885744b8e1243"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_shield.json",
+      "sha256": "4196b3f6f335ad186b102180573687c36a0c4dceffbdf772ddd8c749bb682523"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_shock.json",
+      "sha256": "a04d43b32efcbace0b7892f88cf474371a92a83c30c89e3c379c7229c250cb29"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_still.json",
+      "sha256": "4e34554c88c747db0d95e7d517f490ae5e7d155eb2bf5ea7b155497cd9686eea"
+    },
+    {
+      "file": "Content/Rules/Presets/autocast_summon.json",
+      "sha256": "d918b303e1e992bf8f9150f255ed318dd9f436bbf80dbfb8ea55b1bec1d409a2"
+    },
+    {
+      "file": "Content/Rules/Presets/embers_echo_1.json",
+      "sha256": "d187d37ee02323b9a0d75b2b3b8502686c2c7da538258c9c3680b4fee55a2273"
+    },
+    {
+      "file": "Content/Rules/Presets/embers_echo_2.json",
+      "sha256": "5d2c1ee4f85e927ceef3fec0470bbcac2ea0f7b4644125df58b439905193fc64"
+    },
+    {
+      "file": "Content/Rules/Presets/embers_echo_3.json",
+      "sha256": "caba23355d6b07ffa020a9a91ff3de780636c228cf1cd517fabde84d2e7ab166"
+    },
+    {
+      "file": "Content/Rules/Presets/embers_echo_4.json",
+      "sha256": "f8ea158c64e9eed041a268c11f32f55b2e6a6e3842e0bfbed8bd06b0d407b09e"
+    },
+    {
+      "file": "Content/Rules/Presets/embers_echo_5.json",
+      "sha256": "00e6bd9e06567bebc697db860b63ef61c7cc1b023f9ff8975445c43a28bdd35a"
+    },
+    {
+      "file": "Content/Rules/Presets/index.json",
+      "sha256": "a67e0af76fed6d112ac59d5729e3edcce162de06371f9fbdde09d53d41c0e6bc"
+    },
+    {
+      "file": "Content/Rules/Presets/myriad_swords.json",
+      "sha256": "82fc62d4fdfae889882a11f3dfd21bb8b0d78cc46d118768b5d2db46c00df057"
+    },
+    {
+      "file": "Content/Rules/Presets/myriad_swords_t1_legendary.json",
+      "sha256": "c9231732d174441cfc2613e791eedbbb1e2594e3454aa8855bcd6f9fefc29a7e"
+    },
+    {
+      "file": "Content/Rules/Presets/self_poison_flasks.json",
+      "sha256": "d4cf4bea73465b21473bac182ac5b7308da24d0ff1e8849d8f5f4890c0bd87fb"
+    },
+    {
+      "file": "Content/Rules/Presets/summon_myriad_swords.json",
+      "sha256": "9656fa77052bc91a71e31401d7add6e808c85d474b808522042d698d49adb86d"
+    },
+    {
+      "file": "Content/Rules/Presets/synergy_plague_tide.json",
+      "sha256": "75916cdd02d4a8975559a2380949beea713c9de61ec97af3fcf7bec2fc15ac46"
+    },
+    {
+      "file": "Content/Rules/Presets/synergy_rime_thunder.json",
+      "sha256": "2e14dbecf4af647b4ef535ff1c60bff339ade1e04776964745e606be60eb3e48"
+    },
+    {
+      "file": "Content/Rules/Presets/synergy_sacrifice_thunder.json",
+      "sha256": "04c90ba975967179f9aeb93d0e664030b87e494bf67c0df3e4ed157793f017f8"
+    },
+    {
+      "file": "Content/Rules/Shop/catalog.json",
+      "sha256": "3c125a8c401d25c2e8116f96fd6cded557a68aebf934600ad691384ccb4a3753"
+    },
+    {
+      "file": "Content/Rules/Statuses/bleed.json",
+      "sha256": "b0ffa91588e679f521ae77a5bdc209d72516b54f3ff038950f43827430e66cbb"
+    },
+    {
+      "file": "Content/Rules/Statuses/chill.json",
+      "sha256": "a5fa7671105ca6e893a90431ee62809a84d6326dc05df0846b478ed17ddc3748"
+    },
+    {
+      "file": "Content/Rules/Statuses/erosion.json",
+      "sha256": "0b4048b044fe72a4853f0e73a16eadde9b0d49b581896a7db0f7318538efeb9b"
+    },
+    {
+      "file": "Content/Rules/Statuses/freeze.json",
+      "sha256": "29ae27fd02d033c3c5bb4111d6cc2e8cba9bf13ea82021cf8aec3c766b59e3c7"
+    },
+    {
+      "file": "Content/Rules/Statuses/ignite.json",
+      "sha256": "db1094f1612619db11123b5fd2e488d58af8424ee14182b0c8add58e9adec59c"
+    },
+    {
+      "file": "Content/Rules/Statuses/poison.json",
+      "sha256": "b78eedebd3372c2a7b77406e19213a0904fe2ae435e41ac359ffb9bc26e7bcf1"
+    },
+    {
+      "file": "Content/Rules/Statuses/shock.json",
+      "sha256": "b0011e23c4b2f62df8ea406699ea4fdc64f6b3c074b3a14972d18b3debb85226"
+    },
+    {
+      "file": "Content/Rules/Statuses/slow.json",
+      "sha256": "9a38869cd91d0806ee7c6e55d0eba745cbcb019b0542fa0107900cdd11f2f2af"
+    },
+    {
+      "file": "Content/Rules/Statuses/stun.json",
+      "sha256": "8a72fcd1cd59bf0cacaef2daa264e2c8be49123d928cc550ce2ec511af316401"
+    },
+    {
+      "file": "Content/Rules/Tags/affix_categories.json",
+      "sha256": "8597830aeda73535ed36830ad843b1445980211b40675705eff47535a44505c3"
+    },
+    {
+      "file": "Content/Rules/Tags/families.json",
+      "sha256": "5f8612d12d383334c9bf837d4b2541a8280397dc351f5c851c3af05e1cae357e"
+    },
+    {
+      "file": "Content/Rules/Timed/timed_hit_curse.json",
+      "sha256": "09416b24205ff74eaaf29a05e689e670ef8666c45490bb13a5340b566413be4d"
+    },
+    {
+      "file": "Content/Rules/Timed/timed_on_cast.json",
+      "sha256": "637a6e26230787f3c05421cea99402d6ba60038d066028287f40e288bc926102"
+    },
+    {
+      "file": "Content/Rules/Timed/timed_on_crit.json",
+      "sha256": "9b639840ea830a3f6de2571397350fe7c7f6869524cea791f9b7679c07b2758b"
+    },
+    {
+      "file": "Content/Rules/Timed/timed_on_hit.json",
+      "sha256": "a1197a5e88b3ff761db7ad62d6d2668af8cf3369ebeb4ab2afac550c0ffa2244"
+    },
+    {
+      "file": "Content/Rules/Timed/timed_on_kill.json",
+      "sha256": "0485e0917c4581b4ff57072696a6697407fbb2fcf5c06271016f75b3a6f1aaa9"
+    },
+    {
+      "file": "Content/Rules/Traits/bleed.json",
+      "sha256": "13d3a442ce77c6ac4519a6cfdfe84609e5d1efac383cd0c3ff1bec908134ccd1"
+    },
+    {
+      "file": "Content/Rules/Traits/brittle.json",
+      "sha256": "991ae5cd2d37ce98e59a44c86203de7a1cedf1b8a1e2f9a360513965863882a8"
+    },
+    {
+      "file": "Content/Rules/Traits/chill.json",
+      "sha256": "d0c488cc38e14f62bb35a415b06962b6ae6c2d7600075866443ad96ba3b0c927"
+    },
+    {
+      "file": "Content/Rules/Traits/cold_mastery.json",
+      "sha256": "9b24dfbcb101bdfe704010d12be518a564f00bd3c4f4aca65c4b76ec5e50aa96"
+    },
+    {
+      "file": "Content/Rules/Traits/create_earth_wave.json",
+      "sha256": "7b697f461012acf5af8041b99cb31bc9ee1d9b6abe595f7568aa4c64fc5c6bed"
+    },
+    {
+      "file": "Content/Rules/Traits/create_flame_burst.json",
+      "sha256": "01a419301df2b53463135ab21a65bedd7bbb49e7de6d3037c2212e5528474630"
+    },
+    {
+      "file": "Content/Rules/Traits/create_ice_lance.json",
+      "sha256": "81b54f16865c2926434e00c82db127dac6a58aa19775b46349e94597ce9f88de"
+    },
+    {
+      "file": "Content/Rules/Traits/create_lightning_nova.json",
+      "sha256": "09a1a32df518ae132ae4e09b39e1aed3b428cccaf4a5dd1cffd4e85235189057"
+    },
+    {
+      "file": "Content/Rules/Traits/death_lightning.json",
+      "sha256": "f65a8803b71d7abae035fc6ac67968e757406ae70f88edcf24b5c54c9a168be1"
+    },
+    {
+      "file": "Content/Rules/Traits/ember_hound_bite.json",
+      "sha256": "1c6154ff563ca6b1074ca11ef6738b19f2ae6599b0af9f70bab74fdfd0424119"
+    },
+    {
+      "file": "Content/Rules/Traits/fire_damage.json",
+      "sha256": "f363a994abee51295606fb3d440687c30bbfdcb8f6a10390d9a72eccf38b9dc0"
+    },
+    {
+      "file": "Content/Rules/Traits/fire_resistance.json",
+      "sha256": "01eddc53f063993fc5b5a34d9ff40481b665672b96471271c304f60472d5f352"
+    },
+    {
+      "file": "Content/Rules/Traits/fire_turret_fireball.json",
+      "sha256": "836fe12fc8566fdd261a64c357a64efaa08d9e5b7b24e210bbb2709738976c7b"
+    },
+    {
+      "file": "Content/Rules/Traits/freeze.json",
+      "sha256": "bbd0283f48aec8c05427454e6fa9fbb443f212f1ee24a8848d1b63add8801a98"
+    },
+    {
+      "file": "Content/Rules/Traits/frost_damage.json",
+      "sha256": "77f4f0226c9bdc39532ec3c690344266469f5b40c636614cfb855f67bb30e8c7"
+    },
+    {
+      "file": "Content/Rules/Traits/frost_resistance.json",
+      "sha256": "4c79c87d48ecb325fd0017a234bf2905e1df551fedb0100250175a246b8aad9d"
+    },
+    {
+      "file": "Content/Rules/Traits/hobble.json",
+      "sha256": "655fc78c6a69e545a3cd8717b66109dd2453689b2d3a507c99b1e0e4f4b13370"
+    },
+    {
+      "file": "Content/Rules/Traits/ignite.json",
+      "sha256": "2e172be0af5089a668d020115c5e92719c817fd7cf0f5f687f61179ecd411097"
+    },
+    {
+      "file": "Content/Rules/Traits/iron_guard_slash.json",
+      "sha256": "7af5f20bdcaffc3e33dd45bcfab2ddc90be20ee0a5e6c4af8d9c6a75f1647497"
+    },
+    {
+      "file": "Content/Rules/Traits/lightning_damage.json",
+      "sha256": "8bbabca4b2ee763360e6b2b74952005d9c6e9488e70063155314c9d29b587c57"
+    },
+    {
+      "file": "Content/Rules/Traits/lightning_resistance.json",
+      "sha256": "45f994cd15ced8ec7d3c7bf858830fb23be8990993d9d790bd2cf7d317cbeab1"
+    },
+    {
+      "file": "Content/Rules/Traits/monster_bolt.json",
+      "sha256": "d47279090e9a63f1b4cef676685a8a3ec688a1919100e20a0c3e84acd4a183d9"
+    },
+    {
+      "file": "Content/Rules/Traits/monster_claw.json",
+      "sha256": "1ae35bd0025e4616c4bef4c3773cb6982f7cf808330e6f44b89e6c1b265c4cb4"
+    },
+    {
+      "file": "Content/Rules/Traits/monster_nova.json",
+      "sha256": "9fa5d684cffd35ccbbae9ccf2988913260646adba199da28b47a223b2207047e"
+    },
+    {
+      "file": "Content/Rules/Traits/monster_strike.json",
+      "sha256": "7aa444a699088355a7553ebf6012fb8ac358f33c7b857609f6a9779928fa289a"
+    },
+    {
+      "file": "Content/Rules/Traits/monster_tower_level.json",
+      "sha256": "c3318786db7e8a0de494fe9470c24cced27363914ce69d0f85a792aa32cb7bd7"
+    },
+    {
+      "file": "Content/Rules/Traits/multiple_projectiles.json",
+      "sha256": "d86e4abe8616a9452ddbb9d556da7b6b9e534208abca15a1c623c2eb63f9b902"
+    },
+    {
+      "file": "Content/Rules/Traits/physical_damage.json",
+      "sha256": "cc4402580ef9c885a3a9fe7e71f308b1a93421b9b8b06e1ba1b2833ada6dbc11"
+    },
+    {
+      "file": "Content/Rules/Traits/pierce.json",
+      "sha256": "11c01af854605ccd2ce3c1d741e442a19d5f466026a16d735bcb0d23a477f155"
+    },
+    {
+      "file": "Content/Rules/Traits/player_slash.json",
+      "sha256": "f876f0b534980d0c4e302a2acbfcce6bd4b3452b667f6558b64daf73151b216e"
+    },
+    {
+      "file": "Content/Rules/Traits/poison_damage.json",
+      "sha256": "8dc8b6d465f4cc33d190b51497d3854d56f514e02030f795b074f349e79cbe61"
+    },
+    {
+      "file": "Content/Rules/Traits/poison_flask_burst.json",
+      "sha256": "e2ed8250b2d33e8be83997cf251b75073428bf57578ccf495e14765b84a5ea0b"
+    },
+    {
+      "file": "Content/Rules/Traits/poison_flask_poison.json",
+      "sha256": "a08dbbfc5844ca0fed75411555dba8a459108d4d102d3b6f4d121311d4405efa"
+    },
+    {
+      "file": "Content/Rules/Traits/poison_resistance.json",
+      "sha256": "9f369e2cb593aa6519789c879961cdb88f0f185df25559954bffcff1b34360ad"
+    },
+    {
+      "file": "Content/Rules/Traits/projectile_reflect.json",
+      "sha256": "493471610317fcd0b3bd27e97a3de4bf9b71e30dea47f406be42adea263e5cff"
+    },
+    {
+      "file": "Content/Rules/Traits/projectile_return.json",
+      "sha256": "290c5bd8bc5db98a0625b17b3254de5d9c8c984c287da2e554040a050f562811"
+    },
+    {
+      "file": "Content/Rules/Traits/ricochet.json",
+      "sha256": "595cea5f5adac2c622175705af384071ec4500f883e5e582477fad92169c5df4"
+    },
+    {
+      "file": "Content/Rules/Traits/sentinel_fire_nova.json",
+      "sha256": "1ac32248fd2156e77b9bb28b9823d667b0c617098ce1ceb5465dd9c2c766e261"
+    },
+    {
+      "file": "Content/Rules/Traits/sentinel_ice_lance.json",
+      "sha256": "ff04b702c750783b5ce5b656154a57a5f574fb934c281bc9c83fd7eaf421d794"
+    },
+    {
+      "file": "Content/Rules/Traits/sentinel_lightning.json",
+      "sha256": "34ebbd3720985ed4f2395b33defc3d4a43f1a46fb0e9021325d3a97a6dbe83be"
+    },
+    {
+      "file": "Content/Rules/Traits/shatter.json",
+      "sha256": "955ade5203d2c2c22700774d95f607fb16bf6dc5adc3cf2778add6de6b214f59"
+    },
+    {
+      "file": "Content/Rules/Traits/shock.json",
+      "sha256": "83740b9c3099355d80142dcfa23e972e2bee98f1c9ab50d1212a6b73c91131a4"
+    },
+    {
+      "file": "Content/Rules/Traits/spirit_claw.json",
+      "sha256": "3725c49ec64e8441281340f5f90d7461e82c89a94a1e4c2861bebec594190b10"
+    },
+    {
+      "file": "Content/Rules/Traits/splash.json",
+      "sha256": "618f6a8717f298c5389070e625065fd96c6ae643bd00955e79bad0880273c452"
+    },
+    {
+      "file": "Content/Rules/Traits/storm_totem_lightning.json",
+      "sha256": "beaaf190d30ba9ec322cbea6be931439b9ea6cc0b5a288550d29be8a398d627f"
+    },
+    {
+      "file": "Content/Rules/Traits/summon_ember_hound.json",
+      "sha256": "7267dc8b61cfa3d3a1e60af03d816f82e0fafa75ab716b603a84c93ab921009e"
+    },
+    {
+      "file": "Content/Rules/Traits/summon_fire_turret.json",
+      "sha256": "a54fc311bd9ded6451d5ab5070c08272519469e37fe2c0185c96e113337c32b4"
+    },
+    {
+      "file": "Content/Rules/Traits/summon_ice_turret.json",
+      "sha256": "adbbd8e578b28ed4faecd91f0380684d9dc08a47177a8f2351bec6132b45abfe"
+    },
+    {
+      "file": "Content/Rules/Traits/summon_iron_guard.json",
+      "sha256": "f304bc6d3fd6db327394225fa11106aac178403375191fa30accc2a0e680293b"
+    },
+    {
+      "file": "Content/Rules/Traits/summon_sentinel.json",
+      "sha256": "ddd97dce68bd13f9b0cb0eb4a0c543c90022bbec46bfc4c4ff0d2f5104b9fbbf"
+    },
+    {
+      "file": "Content/Rules/Traits/summon_spirit.json",
+      "sha256": "5eb25d47099b44733595228a677029558a476dc9c8682200a9ebf76d1f1909da"
+    },
+    {
+      "file": "Content/Rules/Traits/summon_storm_totem.json",
+      "sha256": "0e637fee6f0a51e99d6f6da009c251bd54c65ee670969db9e90408a59db13007"
+    },
+    {
+      "file": "Content/Rules/Traits/throw_poison_flask.json",
+      "sha256": "a115af45682d4473c0b8606075fee1a49fb6066e27b6d9c47d32a7bfb1e0047e"
+    },
+    {
+      "file": "Content/Rules/Traits/void_damage.json",
+      "sha256": "aeac910e69ad884d9256455ed2e549a5a5216c182179eb29819cc28816a63fdb"
+    },
+    {
+      "file": "Content/Rules/Values/trait_tiers.json",
+      "sha256": "df2970617ee94f9b5376751f4883a0b635724d42db98dc23b40ac900b8c69428"
+    },
+    {
+      "file": "Content/Rules/WebBuilds/sacrifice.json",
+      "sha256": "87e63fc15af4399698bba7f682a218d3cdd1b929d242464853fd33c873d21c3c"
+    },
+    {
+      "file": "Content/Rules/WebTraits/sacrifice_minion.json",
+      "sha256": "d4f95a60eb5a72c14998ff384c36f0a2e12deda493a8b19f10706e306e66ee25"
+    }
+  ],
+  "count": 1047,
+  "modifiedAfterMigration": []
+}

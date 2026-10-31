@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>RuleStudio3D · 物品原位加工</title>
+<style>html{background:#080d14;color:#c7d5e5;font:13px 'Segoe UI','Microsoft YaHei',sans-serif}body{margin:22px}header{display:flex;gap:14px;align-items:center;margin-bottom:18px}a{color:#7dcac6}button{background:#182333;border:1px solid #40536a;color:#dce5ef;padding:7px 12px;border-radius:4px;cursor:pointer}main{display:flex;align-items:start;gap:32px}.notes{width:260px;line-height:1.8;color:#8fa2b8}.notes strong{color:#dfc88b}#preview{width:360px;max-width:100%;filter:drop-shadow(0 12px 25px #0008)}#preview>svg{overflow:visible;display:block}#status{color:#7dd9bb}</style>
+<header><strong>RuleStudio3D · 物品原位加工</strong><a href="/?project=hud-darksteel-20261024&interface=character&immersive=1">角色界面源稿</a><a href="/?project=opus-item-inspector-3d-20261025">控件契约</a><button id="reset">重置示例</button><button id="unknown">未鉴定示例</button></header>
+<main><div id="preview" aria-label="物品详情交互预览"></div><div class="notes"><strong>与 3D 版相同的操作顺序</strong><p>固定物品 → 点击通货图标激活 → 可选预兆 → 点击可加工的词条。</p><p>下、中、上品灵石依次绑定不同词条，之后使用对应品级。陨星石使用同一浮层内的整件加工按钮。</p><p>底部仅保留装备／卸下；鉴定及加工完成后，当前物品和界面保持打开。</p><p>此页使用作者示例数据；UE 接线调用现有 DWRules 事务。</p><p id="status"></p></div></main>
+<script type="module">
+import { UIRuntime } from '../src/runtime/runtime.js';
+import { itemTooltipView } from '../src/assets/rulestudio-hud/item-tooltip.js';
+import { InspectorCraftingPreview } from '../src/runtime/inspector-crafting.js';
+import { measureText } from '../src/render/svg-renderer.js';
+const record=await fetch('/api/projects/hud-darksteel-20261024').then(r=>r.json()),project=record.document,host=document.querySelector('#preview');
+let runtime,item,suite,crafting;
+function reset(unknown=false){
+ item={id:'preview-armor',kind:'equipment',slot:'chest',rarity:'rare',name:'风暴群·风壁衣',icon:'fire-helmet',tier:10,count:1,equipped:true,unidentified:unknown,description:'基础护盾 +93\n攻击格挡率 +18%',affixes:['基础气血 +116','气血上限 +39%','气血上限额外提高 20%','每秒恢复最大气血的2%','护甲 +385','火焰抗性 +19%']};
+ const currency=[['stone-low','下品灵石','stone-green',3,1],['stone-mid','中品灵石','stone-blue',1,2],['stone-high','上品灵石','stone-purple',3,3],['meteor','陨星石','stone-gold',4,0]].map(([id,name,icon,count,currencyGrade])=>({id,name,icon,count,currencyGrade,category:'currency',craftOp:id==='meteor'?'roll_affixes':'reroll',craftCount:4}));
+ const omens=[['omen_barrier','护盾预兆','original-omen_barrier',1],['omen_elemental','元素预兆','omen-fire',2],['omen_guard','防御预兆','original-omen_barrier',1],['omen_martial','武斗预兆','original-omen_martial',1],['omen_offense','攻势预兆','original-omen_offense',3],['omen_proc','触发预兆','original-omen_proc',3]].map(([id,name,icon,count])=>({id,name,icon,count,category:'omen'}));
+ suite={state:{items:[item,...currency,...omens]}};crafting=new InspectorCraftingPreview(suite);render();
+}
+function render(){
+ runtime?.destroy();const data=crafting.view(item),view=itemTooltipView(project,item,true,measureText,data),svg=document.createElementNS('http://www.w3.org/2000/svg','svg');host.replaceChildren(svg);svg.style.width=view.viewport.width+'px';svg.style.height=view.viewport.height+'px';
+ runtime=new UIRuntime(svg,view,{motion:false,sound:false});host.dataset.currency=data.currencyId;host.dataset.omen=data.omenId;host.dataset.bound=String(item.reforgeTargets?.length||0);
+ runtime.addEventListener('activate',event=>{const action=event.detail.node.action;if(action.op==='hover-equip'){item.equipped=!item.equipped;render();}else if(action.op==='hover-close'){host.hidden=true;document.querySelector('#status').textContent='已关闭物品详情';}else if(crafting.activate(action,item))render();});
+ document.querySelector('#status').textContent=crafting.message;
+}
+document.querySelector('#reset').onclick=()=>{host.hidden=false;reset();};document.querySelector('#unknown').onclick=()=>{host.hidden=false;reset(true);};reset();
+</script></html>

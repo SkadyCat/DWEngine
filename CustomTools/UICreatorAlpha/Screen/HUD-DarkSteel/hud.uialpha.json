@@ -1,0 +1,3788 @@
+{
+  "schema": "uicreator-alpha",
+  "version": 1,
+  "id": "hud-darksteel-20261024",
+  "name": "HUD · 暗钢快捷栏",
+  "viewport": {
+    "width": 1600,
+    "height": 900,
+    "background": "#090c12"
+  },
+  "root": {
+    "id": "hud-scene-root",
+    "name": "HUD 场景",
+    "type": "CanvasPanel",
+    "visibility": "visible",
+    "locked": false,
+    "slot": {
+      "anchors": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "offsets": {
+        "left": 0,
+        "top": 0,
+        "right": 1600,
+        "bottom": 900
+      },
+      "alignment": {
+        "x": 0,
+        "y": 0
+      },
+      "autoSize": false,
+      "zOrder": 0,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "horizontalAlignment": "fill",
+      "verticalAlignment": "fill",
+      "sizeRule": "auto",
+      "fill": 1
+    },
+    "layout": {
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "gap": 12,
+      "width": 1600,
+      "height": 900,
+      "stretch": "fit",
+      "scale": 1,
+      "orientation": "vertical",
+      "scrollOffset": 0
+    },
+    "style": {
+      "fill": "transparent",
+      "stroke": "transparent",
+      "strokeWidth": 0,
+      "radius": 0,
+      "opacity": 1,
+      "color": "#e5edf6",
+      "fontSize": 18,
+      "fontWeight": 400,
+      "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+      "textAlign": "left",
+      "verticalAlign": "center",
+      "textPadding": 0,
+      "wrap": true,
+      "objectFit": "contain",
+      "clip": false
+    },
+    "text": "",
+    "src": "",
+    "svg": "",
+    "svgAsset": "",
+    "value": 0.65,
+    "brushes": {
+      "normal": "",
+      "hovered": "",
+      "pressed": "",
+      "disabled": ""
+    },
+    "interactable": true,
+    "prefabId": "",
+    "overrides": {},
+    "binding": "",
+    "action": null,
+    "children": [
+      {
+        "id": "hud-screen-instance",
+        "name": "HUD 实例",
+        "type": "PrefabInstance",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 1,
+            "maxY": 1
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 0,
+          "height": 0,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "interactable": true,
+        "prefabId": "hud-prefab-screen",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": []
+      }
+    ]
+  },
+  "assets": {
+    "hud-svg-frame-left": {
+      "id": "hud-svg-frame-left",
+      "name": "底座 · 左侧折面",
+      "viewBox": [
+        0,
+        0,
+        184,
+        170
+      ],
+      "folderId": "hud-svg-frame",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"184\" height=\"170\" viewBox=\"0 0 184 170\"><defs><linearGradient id=\"steel\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#424d65\"/><stop offset=\"1\" stop-color=\"#3e485f\"/></linearGradient></defs><path d=\"M0 0H88L80 47H31L39 0Z\" fill=\"#242b38\"/><path d=\"M88 0H98L91 48H81Z\" fill=\"#070b13\"/><path d=\"M98 0H176L171 49H90Z\" fill=\"url(#steel)\"/><path d=\"M176 0H184L178 50 171 65V49Z\" fill=\"#0b0f18\"/><path d=\"M11 47H92L76 170H0V112Z\" fill=\"url(#steel)\"/><path d=\"M6 51H11L0 112V89Z\" fill=\"#090e17\"/><path d=\"M91 48L98 49 81 170H76Z\" fill=\"#080d16\"/><path d=\"M12 47H91\" stroke=\"#59637a\" stroke-opacity=\".13\"/></svg>\n"
+    },
+    "hud-svg-frame-right": {
+      "id": "hud-svg-frame-right",
+      "name": "底座 · 右侧折面",
+      "viewBox": [
+        0,
+        0,
+        144,
+        170
+      ],
+      "folderId": "hud-svg-frame",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"144\" height=\"170\" viewBox=\"0 0 144 170\"><defs><linearGradient id=\"steel\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#424d66\"/><stop offset=\"1\" stop-color=\"#3e485f\"/></linearGradient></defs><path d=\"M3 0H13L20 49 3 65 11 48Z\" fill=\"#060a12\"/><path d=\"M13 0H91L100 48 20 49Z\" fill=\"url(#steel)\"/><path d=\"M91 0H144V47H99Z\" fill=\"#222938\"/><path d=\"M20 49 99 48 85 64H3Z\" fill=\"#0a0e17\"/><path d=\"M99 47H144V132H114Z\" fill=\"url(#steel)\"/><path d=\"M98 48 114 132H105L86 64Z\" fill=\"#090e18\"/><path d=\"M100 48H144\" stroke=\"#59667f\" stroke-opacity=\".15\"/></svg>\n"
+    },
+    "hud-svg-backplate": {
+      "id": "hud-svg-backplate",
+      "name": "底座 · 内层暗板",
+      "viewBox": [
+        0,
+        0,
+        608,
+        106
+      ],
+      "folderId": "hud-svg-frame",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"608\" height=\"106\" viewBox=\"0 0 608 106\"><defs><linearGradient id=\"base\" x2=\"0\" y2=\"1\"><stop stop-color=\"#0b0f16\"/><stop offset=\"1\" stop-color=\"#0c0f17\"/></linearGradient></defs><path d=\"M27 0H549L567 84 550 106H0Z\" fill=\"url(#base)\"/></svg>\n"
+    },
+    "hud-svg-status-ring": {
+      "id": "hud-svg-status-ring",
+      "name": "装饰 · 半环",
+      "viewBox": [
+        0,
+        0,
+        28,
+        14
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"14\" viewBox=\"0 0 28 14\"><path d=\"M3.1 0a10.7 10.7 0 0 0 21.4 0\" fill=\"none\" stroke=\"#7b838a\" stroke-width=\"2.2\"/></svg>\n"
+    },
+    "hud-svg-gold-pin": {
+      "id": "hud-svg-gold-pin",
+      "name": "装饰 · 琥珀定位点",
+      "viewBox": [
+        0,
+        0,
+        10,
+        12
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"12\" viewBox=\"0 0 10 12\"><path d=\"M1 0H8.5V6.7L4.7 9.6 0 6.9V1.2Z\" fill=\"#f9b969\"/><path d=\"M1 0H8.5L8 2.1 1 2.4Z\" fill=\"#ffc77a\"/></svg>\n"
+    },
+    "hud-svg-plus": {
+      "id": "hud-svg-plus",
+      "name": "空槽 · 加号",
+      "viewBox": [
+        0,
+        0,
+        12,
+        12
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 12 12\"><path d=\"M6 1.8v8.4M1.8 6h8.4\" fill=\"none\" stroke=\"#8e9aad\" stroke-width=\"1.5\" stroke-linecap=\"square\"/></svg>\n"
+    },
+    "hud-svg-selection": {
+      "id": "hud-svg-selection",
+      "name": "选中 · 青色辉光描边",
+      "viewBox": [
+        0,
+        0,
+        90,
+        90
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "stretch",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"90\" height=\"90\" viewBox=\"0 0 90 90\"><defs><filter id=\"glow\" x=\"-35%\" y=\"-35%\" width=\"170%\" height=\"170%\"><feGaussianBlur stdDeviation=\"2.3\"/></filter></defs><rect x=\"8.3\" y=\"8.3\" width=\"73.4\" height=\"73.4\" rx=\"13\" fill=\"none\" stroke=\"#25bce9\" stroke-width=\"1.7\" opacity=\".7\" filter=\"url(#glow)\"/><rect x=\"8.5\" y=\"8.5\" width=\"73\" height=\"73\" rx=\"12.5\" fill=\"none\" stroke=\"#56d8fd\" stroke-width=\"1.3\"/><rect x=\"9.1\" y=\"9.1\" width=\"71.8\" height=\"71.8\" rx=\"12\" fill=\"none\" stroke=\"#c0f3ff\" stroke-width=\".85\" stroke-dasharray=\"2.4 3.3\"/></svg>\n"
+    },
+    "hud-svg-flame-glyph": {
+      "id": "hud-svg-flame-glyph",
+      "name": "技能 · 烈字矢量图标",
+      "viewBox": [
+        0,
+        0,
+        32,
+        34
+      ],
+      "folderId": "hud-svg-symbols",
+      "scaleMode": "contain",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"34\" viewBox=\"0 0 32 34\"><defs><linearGradient id=\"cyan\" x2=\"0\" y2=\"1\"><stop stop-color=\"#60ddff\"/><stop offset=\"1\" stop-color=\"#29b6e8\"/></linearGradient><filter id=\"glow\" x=\"-30%\" y=\"-30%\" width=\"160%\" height=\"160%\"><feGaussianBlur stdDeviation=\"1.1\"/></filter></defs><path d=\"M1638 1681H1906V681Q1906 520 1842.0 436.0Q1778 352 1675.0 342.5Q1572 333 1274 333Q1246 483 1212 605Q1378 597 1490 597Q1638 597 1638 737ZM88 1625H1152V1381H651Q620 1307 583 1237H1104V1009Q926 492 321 260L522 171Q390 -89 270 -289L46 -165Q181 57 277 244Q229 226 178 211Q118 329 46 439Q306 514 487 626Q401 698 330 753L484 911Q577 844 670 767Q780 874 838 1005H443Q315 822 148 671Q70 825 12 917Q252 1126 376 1381H88ZM1488 729H1236V1521H1488ZM1762 301Q1892 71 2002 -139L1756 -253Q1642 -3 1526 205ZM1302 289Q1402 69 1486 -153L1224 -229Q1154 -23 1056 217ZM842 271Q908 95 998 -183L732 -247Q666 -7 590 205Z\" transform=\"translate(1.83116 26.79296) scale(0.0140704 -0.0140704)\" fill=\"#33bfee\" opacity=\".48\" filter=\"url(#glow)\"/><path d=\"M1638 1681H1906V681Q1906 520 1842.0 436.0Q1778 352 1675.0 342.5Q1572 333 1274 333Q1246 483 1212 605Q1378 597 1490 597Q1638 597 1638 737ZM88 1625H1152V1381H651Q620 1307 583 1237H1104V1009Q926 492 321 260L522 171Q390 -89 270 -289L46 -165Q181 57 277 244Q229 226 178 211Q118 329 46 439Q306 514 487 626Q401 698 330 753L484 911Q577 844 670 767Q780 874 838 1005H443Q315 822 148 671Q70 825 12 917Q252 1126 376 1381H88ZM1488 729H1236V1521H1488ZM1762 301Q1892 71 2002 -139L1756 -253Q1642 -3 1526 205ZM1302 289Q1402 69 1486 -153L1224 -229Q1154 -23 1056 217ZM842 271Q908 95 998 -183L732 -247Q666 -7 590 205Z\" transform=\"translate(1.83116 26.79296) scale(0.0140704 -0.0140704)\" fill=\"url(#cyan)\"/></svg>\r\n"
+    },
+    "hud-svg-skill-filled-normal": {
+      "id": "hud-svg-skill-filled-normal",
+      "name": "已装备技能槽 · Normal",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#0c0f17\" fill-opacity=\"1\" stroke=\"#292e39\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    },
+    "hud-svg-skill-filled-hovered": {
+      "id": "hud-svg-skill-filled-hovered",
+      "name": "已装备技能槽 · Hover",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#131923\" fill-opacity=\"1\" stroke=\"#59616d\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    },
+    "hud-svg-skill-filled-pressed": {
+      "id": "hud-svg-skill-filled-pressed",
+      "name": "已装备技能槽 · Pressed",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#080b11\" fill-opacity=\"1\" stroke=\"#7c8795\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    },
+    "hud-svg-skill-filled-disabled": {
+      "id": "hud-svg-skill-filled-disabled",
+      "name": "已装备技能槽 · Disabled",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#0b0e15\" fill-opacity=\".58\" stroke=\"#222733\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    },
+    "hud-svg-skill-empty-normal": {
+      "id": "hud-svg-skill-empty-normal",
+      "name": "空技能槽 · Normal",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#0c0f17\" fill-opacity=\"1\" stroke=\"#292e39\" stroke-opacity=\".85\" stroke-width=\"1\" stroke-dasharray=\"2.2 3\"/></svg>\n"
+    },
+    "hud-svg-skill-empty-hovered": {
+      "id": "hud-svg-skill-empty-hovered",
+      "name": "空技能槽 · Hover",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#131923\" fill-opacity=\"1\" stroke=\"#59616d\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-dasharray=\"2.2 3\"/></svg>\n"
+    },
+    "hud-svg-skill-empty-pressed": {
+      "id": "hud-svg-skill-empty-pressed",
+      "name": "空技能槽 · Pressed",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#080b11\" fill-opacity=\"1\" stroke=\"#7c8795\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-dasharray=\"2.2 3\"/></svg>\n"
+    },
+    "hud-svg-skill-empty-disabled": {
+      "id": "hud-svg-skill-empty-disabled",
+      "name": "空技能槽 · Disabled",
+      "viewBox": [
+        0,
+        0,
+        74,
+        74
+      ],
+      "folderId": "hud-svg-skills",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\"><rect x=\".5\" y=\".5\" width=\"73\" height=\"73\" rx=\"12\" fill=\"#0b0e15\" fill-opacity=\".58\" stroke=\"#222733\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-dasharray=\"2.2 3\"/></svg>\n"
+    },
+    "hud-svg-consumable-normal": {
+      "id": "hud-svg-consumable-normal",
+      "name": "消耗品槽 · Normal",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><rect x=\".5\" y=\".5\" width=\"63\" height=\"63\" rx=\"12\" fill=\"#0c0f17\" fill-opacity=\"1\" stroke=\"#292e39\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    },
+    "hud-svg-consumable-hovered": {
+      "id": "hud-svg-consumable-hovered",
+      "name": "消耗品槽 · Hover",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><rect x=\".5\" y=\".5\" width=\"63\" height=\"63\" rx=\"12\" fill=\"#131923\" fill-opacity=\"1\" stroke=\"#59616d\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    },
+    "hud-svg-consumable-pressed": {
+      "id": "hud-svg-consumable-pressed",
+      "name": "消耗品槽 · Pressed",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><rect x=\".5\" y=\".5\" width=\"63\" height=\"63\" rx=\"12\" fill=\"#080b11\" fill-opacity=\"1\" stroke=\"#7c8795\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    },
+    "hud-svg-consumable-disabled": {
+      "id": "hud-svg-consumable-disabled",
+      "name": "消耗品槽 · Disabled",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "folderId": "hud-svg-quick",
+      "scaleMode": "nine-slice",
+      "slice": {
+        "left": 14,
+        "top": 14,
+        "right": 14,
+        "bottom": 14
+      },
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><rect x=\".5\" y=\".5\" width=\"63\" height=\"63\" rx=\"12\" fill=\"#0b0e15\" fill-opacity=\".58\" stroke=\"#222733\" stroke-opacity=\"1\" stroke-width=\"1\"/></svg>\n"
+    }
+  },
+  "prefabs": {
+    "hud-prefab-ability": {
+      "id": "hud-prefab-ability",
+      "name": "技能槽 · 四态",
+      "width": 74,
+      "height": 74,
+      "root": {
+        "id": "hud-ability-button",
+        "name": "技能槽按钮",
+        "type": "Button",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 74,
+            "bottom": 74
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 74,
+          "height": 74,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 8,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "",
+        "value": 0.65,
+        "brushes": {
+          "normal": "hud-svg-skill-empty-normal",
+          "hovered": "hud-svg-skill-empty-hovered",
+          "pressed": "hud-svg-skill-empty-pressed",
+          "disabled": "hud-svg-skill-empty-disabled"
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": [
+          {
+            "id": "hud-ability-content",
+            "name": "技能槽内容",
+            "type": "CanvasPanel",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 0,
+                "top": 0,
+                "right": 74,
+                "bottom": 74
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 74,
+              "height": 74,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": [
+              {
+                "id": "hud-ability-key",
+                "name": "快捷键",
+                "type": "TextBlock",
+                "visibility": "visible",
+                "locked": false,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 6,
+                    "top": 2,
+                    "right": 18,
+                    "bottom": 16
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 18,
+                  "height": 16,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#91a0b5",
+                  "fontSize": 9.5,
+                  "fontWeight": 400,
+                  "fontFamily": "Consolas, monospace",
+                  "textAlign": "left",
+                  "verticalAlign": "top",
+                  "textPadding": 1,
+                  "wrap": false,
+                  "objectFit": "contain",
+                  "clip": false,
+                  "textOverflow": "shrink"
+                },
+                "text": "1",
+                "src": "",
+                "svg": "",
+                "svgAsset": "",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-ability-flame",
+                "name": "技能图标",
+                "type": "Svg",
+                "visibility": "collapsed",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 21,
+                    "top": 9,
+                    "right": 32,
+                    "bottom": 34
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 32,
+                  "height": 34,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-flame-glyph",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-ability-plus",
+                "name": "空槽加号",
+                "type": "Svg",
+                "visibility": "visible",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 31,
+                    "top": 20,
+                    "right": 12,
+                    "bottom": 12
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 12,
+                  "height": 12,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-plus",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-ability-name",
+                "name": "技能名称",
+                "type": "TextBlock",
+                "visibility": "visible",
+                "locked": false,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 6,
+                    "top": 45,
+                    "right": 62,
+                    "bottom": 18
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 62,
+                  "height": 18,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#d1d7e2",
+                  "fontSize": 10.5,
+                  "fontWeight": 500,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "center",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": false,
+                  "objectFit": "contain",
+                  "clip": false,
+                  "textOverflow": "shrink"
+                },
+                "text": "空槽",
+                "src": "",
+                "svg": "",
+                "svgAsset": "",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-ability-equipped",
+                "name": "已装备标记",
+                "type": "TextBlock",
+                "visibility": "collapsed",
+                "locked": false,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 49,
+                    "top": 6,
+                    "right": 22,
+                    "bottom": 14
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 22,
+                  "height": 14,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#ffc36b",
+                  "fontSize": 9,
+                  "fontWeight": 700,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "center",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": false,
+                  "objectFit": "contain",
+                  "clip": false,
+                  "textOverflow": "shrink"
+                },
+                "text": "装备",
+                "src": "",
+                "svg": "",
+                "svgAsset": "",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-ability-selected",
+                "name": "独立选中描边",
+                "type": "Svg",
+                "visibility": "collapsed",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": -8,
+                    "top": -8,
+                    "right": 90,
+                    "bottom": 90
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 10,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 90,
+                  "height": 90,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-selection",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "folderId": "hud-prefab-controls"
+    },
+    "hud-prefab-consumable": {
+      "id": "hud-prefab-consumable",
+      "name": "快捷键槽 · 四态",
+      "width": 64,
+      "height": 64,
+      "root": {
+        "id": "hud-quick-button",
+        "name": "消耗品槽按钮",
+        "type": "Button",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 64,
+            "bottom": 64
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 64,
+          "height": 64,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 8,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "",
+        "value": 0.65,
+        "brushes": {
+          "normal": "hud-svg-consumable-normal",
+          "hovered": "hud-svg-consumable-hovered",
+          "pressed": "hud-svg-consumable-pressed",
+          "disabled": "hud-svg-consumable-disabled"
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": [
+          {
+            "id": "hud-quick-content",
+            "name": "快捷键槽内容",
+            "type": "CanvasPanel",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 0,
+                "top": 0,
+                "right": 64,
+                "bottom": 64
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 64,
+              "height": 64,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": [
+              {
+                "id": "hud-quick-key",
+                "name": "快捷键",
+                "type": "TextBlock",
+                "visibility": "visible",
+                "locked": false,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 6,
+                    "top": 2,
+                    "right": 20,
+                    "bottom": 16
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 20,
+                  "height": 16,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#909eb0",
+                  "fontSize": 10,
+                  "fontWeight": 400,
+                  "fontFamily": "Consolas, monospace",
+                  "textAlign": "left",
+                  "verticalAlign": "top",
+                  "textPadding": 1,
+                  "wrap": false,
+                  "objectFit": "contain",
+                  "clip": false,
+                  "textOverflow": "shrink"
+                },
+                "text": "Q",
+                "src": "",
+                "svg": "",
+                "svgAsset": "",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "folderId": "hud-prefab-controls"
+    },
+    "hud-prefab-ability-row": {
+      "id": "hud-prefab-ability-row",
+      "name": "技能栏 · 1–4",
+      "width": 314,
+      "height": 74,
+      "root": {
+        "id": "hud-ability-row-root",
+        "name": "技能栏 1–4",
+        "type": "CanvasPanel",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 314,
+            "bottom": 74
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 314,
+          "height": 74,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": [
+          {
+            "id": "hud-ability-instance-1",
+            "name": "技能槽 1",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 0,
+                "top": 0,
+                "right": 74,
+                "bottom": 74
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 74,
+              "height": 74,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-ability",
+            "overrides": {
+              "hud-ability-button": {
+                "name": "HUD_Ability_1",
+                "brushes": {
+                  "normal": "hud-svg-skill-filled-normal",
+                  "hovered": "hud-svg-skill-filled-hovered",
+                  "pressed": "hud-svg-skill-filled-pressed",
+                  "disabled": "hud-svg-skill-filled-disabled"
+                }
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-key": {
+                "text": "1"
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-flame": {
+                "visibility": "visible"
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-plus": {
+                "visibility": "collapsed"
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-name": {
+                "text": "烈焰爆发",
+                "style": {
+                  "fontSize": 10.5,
+                  "color": "#d6dce8"
+                }
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-equipped": {
+                "visibility": "visible"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-ability-instance-2",
+            "name": "技能槽 2",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 80,
+                "top": 0,
+                "right": 74,
+                "bottom": 74
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 74,
+              "height": 74,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-ability",
+            "overrides": {
+              "hud-ability-button": {
+                "name": "HUD_Ability_2"
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-key": {
+                "text": "2"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-ability-instance-3",
+            "name": "技能槽 3",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 160,
+                "top": 0,
+                "right": 74,
+                "bottom": 74
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 74,
+              "height": 74,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-ability",
+            "overrides": {
+              "hud-ability-button": {
+                "name": "HUD_Ability_3"
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-key": {
+                "text": "3"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-ability-instance-4",
+            "name": "技能槽 4",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 240,
+                "top": 0,
+                "right": 74,
+                "bottom": 74
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 74,
+              "height": 74,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-ability",
+            "overrides": {
+              "hud-ability-button": {
+                "name": "HUD_Ability_4"
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-key": {
+                "text": "4"
+              },
+              "hud-ability-button/hud-ability-content/hud-ability-selected": {
+                "visibility": "visible"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          }
+        ]
+      },
+      "folderId": "hud-prefab-groups"
+    },
+    "hud-prefab-consumable-row": {
+      "id": "hud-prefab-consumable-row",
+      "name": "消耗品栏 · Q E F G",
+      "width": 274,
+      "height": 64,
+      "root": {
+        "id": "hud-quick-row-root",
+        "name": "消耗品栏 Q E F G",
+        "type": "CanvasPanel",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 274,
+            "bottom": 64
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 274,
+          "height": 64,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": [
+          {
+            "id": "hud-quick-instance-Q",
+            "name": "快捷键槽 Q",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 0,
+                "top": 0,
+                "right": 64,
+                "bottom": 64
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 64,
+              "height": 64,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-consumable",
+            "overrides": {
+              "hud-quick-button": {
+                "name": "HUD_Consumable_Q"
+              },
+              "hud-quick-button/hud-quick-content/hud-quick-key": {
+                "text": "Q"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-quick-instance-E",
+            "name": "快捷键槽 E",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 70,
+                "top": 0,
+                "right": 64,
+                "bottom": 64
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 64,
+              "height": 64,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-consumable",
+            "overrides": {
+              "hud-quick-button": {
+                "name": "HUD_Consumable_E"
+              },
+              "hud-quick-button/hud-quick-content/hud-quick-key": {
+                "text": "E"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-quick-instance-F",
+            "name": "快捷键槽 F",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 140,
+                "top": 0,
+                "right": 64,
+                "bottom": 64
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 64,
+              "height": 64,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-consumable",
+            "overrides": {
+              "hud-quick-button": {
+                "name": "HUD_Consumable_F"
+              },
+              "hud-quick-button/hud-quick-content/hud-quick-key": {
+                "text": "F"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-quick-instance-G",
+            "name": "快捷键槽 G",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 210,
+                "top": 0,
+                "right": 64,
+                "bottom": 64
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 64,
+              "height": 64,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-consumable",
+            "overrides": {
+              "hud-quick-button": {
+                "name": "HUD_Consumable_G"
+              },
+              "hud-quick-button/hud-quick-content/hud-quick-key": {
+                "text": "G"
+              }
+            },
+            "binding": "",
+            "action": null,
+            "children": []
+          }
+        ]
+      },
+      "folderId": "hud-prefab-groups"
+    },
+    "hud-prefab-hotbar": {
+      "id": "hud-prefab-hotbar",
+      "name": "暗钢快捷栏 · 参考尺寸",
+      "width": 688,
+      "height": 170,
+      "root": {
+        "id": "hud-bar-root",
+        "name": "暗钢快捷栏",
+        "type": "CanvasPanel",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 688,
+            "bottom": 170
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 688,
+          "height": 170,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": [
+          {
+            "id": "hud-backplate",
+            "name": "内层暗色底板",
+            "type": "Svg",
+            "visibility": "visible",
+            "locked": true,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 80,
+                "top": 64,
+                "right": 608,
+                "bottom": 106
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 608,
+              "height": 106,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "hud-svg-backplate",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-context",
+            "name": "参考折面与装饰 · 可独立隐藏",
+            "type": "CanvasPanel",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 0,
+                "top": 0,
+                "right": 688,
+                "bottom": 170
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 688,
+              "height": 170,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": [
+              {
+                "id": "hud-left-facet",
+                "name": "左侧折面",
+                "type": "Svg",
+                "visibility": "visible",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 184,
+                    "bottom": 170
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 184,
+                  "height": 170,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-frame-left",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-right-facet",
+                "name": "右侧折面",
+                "type": "Svg",
+                "visibility": "visible",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 544,
+                    "top": 0,
+                    "right": 144,
+                    "bottom": 170
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 144,
+                  "height": 170,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-frame-right",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-ring",
+                "name": "左上半环",
+                "type": "Svg",
+                "visibility": "visible",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 28,
+                    "bottom": 14
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 28,
+                  "height": 14,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-status-ring",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-pin-left",
+                "name": "左侧金色定位点",
+                "type": "Svg",
+                "visibility": "visible",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 49,
+                    "top": 0,
+                    "right": 10,
+                    "bottom": 12
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 10,
+                  "height": 12,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-gold-pin",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              },
+              {
+                "id": "hud-pin-right",
+                "name": "右侧金色定位点",
+                "type": "Svg",
+                "visibility": "visible",
+                "locked": true,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 672,
+                    "top": 0,
+                    "right": 10,
+                    "bottom": 12
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "fill",
+                  "verticalAlignment": "fill",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 10,
+                  "height": 12,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "hud-svg-gold-pin",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "hud-ability-row-instance",
+            "name": "技能栏",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 42,
+                "top": 75,
+                "right": 314,
+                "bottom": 74
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 314,
+              "height": 74,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-ability-row",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-quick-row-instance",
+            "name": "消耗品栏",
+            "type": "PrefabInstance",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 374,
+                "top": 83,
+                "right": 274,
+                "bottom": 64
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 274,
+              "height": 64,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "hud-prefab-consumable-row",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": []
+          },
+          {
+            "id": "hud-control-guide",
+            "name": "操作提示",
+            "type": "TextBlock",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "offsets": {
+                "left": 119,
+                "top": 154,
+                "right": 529,
+                "bottom": 16
+              },
+              "alignment": {
+                "x": 0,
+                "y": 0
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 529,
+              "height": 16,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#7e838b",
+              "fontSize": 10,
+              "fontWeight": 500,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 1,
+              "wrap": false,
+              "objectFit": "contain",
+              "clip": false,
+              "textOverflow": "shrink"
+            },
+            "text": "WASD 移动 · 鼠标瞄准 · 左键/空格施法 · 1–4 技能 · Q E F G 消耗品 · Shift 闪避 · V 键性能面板 · 滚轮缩放",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": []
+          }
+        ]
+      },
+      "folderId": "hud-prefab-screens"
+    },
+    "hud-prefab-screen": {
+      "id": "hud-prefab-screen",
+      "name": "HUD · 暗钢",
+      "width": 1600,
+      "height": 900,
+      "root": {
+        "id": "hud-screen-root",
+        "name": "HUD",
+        "type": "CanvasPanel",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 1600,
+          "height": 900,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": [
+          {
+            "id": "hud-dock-scale",
+            "name": "底部中央 · 等比适应",
+            "type": "ScaleBox",
+            "visibility": "visible",
+            "locked": false,
+            "slot": {
+              "anchors": {
+                "minX": 0,
+                "minY": 1,
+                "maxX": 1,
+                "maxY": 1
+              },
+              "offsets": {
+                "left": 24,
+                "top": -20,
+                "right": 24,
+                "bottom": 340
+              },
+              "alignment": {
+                "x": 0,
+                "y": 1
+              },
+              "autoSize": false,
+              "zOrder": 0,
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "horizontalAlignment": "fill",
+              "verticalAlignment": "fill",
+              "sizeRule": "auto",
+              "fill": 1
+            },
+            "layout": {
+              "padding": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "gap": 12,
+              "width": 240,
+              "height": 120,
+              "stretch": "fit",
+              "scale": 1,
+              "orientation": "vertical",
+              "scrollOffset": 0
+            },
+            "style": {
+              "fill": "transparent",
+              "stroke": "transparent",
+              "strokeWidth": 0,
+              "radius": 0,
+              "opacity": 1,
+              "color": "#e5edf6",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+              "textAlign": "left",
+              "verticalAlign": "center",
+              "textPadding": 0,
+              "wrap": true,
+              "objectFit": "contain",
+              "clip": false
+            },
+            "text": "",
+            "src": "",
+            "svg": "",
+            "svgAsset": "",
+            "value": 0.65,
+            "brushes": {
+              "normal": "",
+              "hovered": "",
+              "pressed": "",
+              "disabled": ""
+            },
+            "interactable": true,
+            "prefabId": "",
+            "overrides": {},
+            "binding": "",
+            "action": null,
+            "children": [
+              {
+                "id": "hud-hotbar-instance",
+                "name": "暗钢快捷栏实例",
+                "type": "PrefabInstance",
+                "visibility": "visible",
+                "locked": false,
+                "slot": {
+                  "anchors": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "offsets": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 688,
+                    "bottom": 170
+                  },
+                  "alignment": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "autoSize": false,
+                  "zOrder": 0,
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "bottom",
+                  "sizeRule": "auto",
+                  "fill": 1
+                },
+                "layout": {
+                  "padding": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                  },
+                  "gap": 12,
+                  "width": 688,
+                  "height": 170,
+                  "stretch": "fit",
+                  "scale": 1,
+                  "orientation": "vertical",
+                  "scrollOffset": 0
+                },
+                "style": {
+                  "fill": "transparent",
+                  "stroke": "transparent",
+                  "strokeWidth": 0,
+                  "radius": 0,
+                  "opacity": 1,
+                  "color": "#e5edf6",
+                  "fontSize": 18,
+                  "fontWeight": 400,
+                  "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+                  "textAlign": "left",
+                  "verticalAlign": "center",
+                  "textPadding": 0,
+                  "wrap": true,
+                  "objectFit": "contain",
+                  "clip": false
+                },
+                "text": "",
+                "src": "",
+                "svg": "",
+                "svgAsset": "",
+                "value": 0.65,
+                "brushes": {
+                  "normal": "",
+                  "hovered": "",
+                  "pressed": "",
+                  "disabled": ""
+                },
+                "interactable": true,
+                "prefabId": "hud-prefab-hotbar",
+                "overrides": {},
+                "binding": "",
+                "action": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "folderId": "hud-prefab-screens"
+    }
+  },
+  "folders": {
+    "hud-svg": {
+      "id": "hud-svg",
+      "name": "HUD · 暗钢快捷栏",
+      "kind": "svg",
+      "parentId": ""
+    },
+    "hud-svg-frame": {
+      "id": "hud-svg-frame",
+      "name": "底座折面",
+      "kind": "svg",
+      "parentId": "hud-svg"
+    },
+    "hud-svg-skills": {
+      "id": "hud-svg-skills",
+      "name": "技能槽与状态",
+      "kind": "svg",
+      "parentId": "hud-svg"
+    },
+    "hud-svg-quick": {
+      "id": "hud-svg-quick",
+      "name": "快捷键槽与状态",
+      "kind": "svg",
+      "parentId": "hud-svg"
+    },
+    "hud-svg-symbols": {
+      "id": "hud-svg-symbols",
+      "name": "图标与符号",
+      "kind": "svg",
+      "parentId": "hud-svg"
+    },
+    "hud-prefabs": {
+      "id": "hud-prefabs",
+      "name": "HUD · 暗钢快捷栏",
+      "kind": "prefab",
+      "parentId": ""
+    },
+    "hud-prefab-controls": {
+      "id": "hud-prefab-controls",
+      "name": "原子控件",
+      "kind": "prefab",
+      "parentId": "hud-prefabs"
+    },
+    "hud-prefab-groups": {
+      "id": "hud-prefab-groups",
+      "name": "组合栏",
+      "kind": "prefab",
+      "parentId": "hud-prefabs"
+    },
+    "hud-prefab-screens": {
+      "id": "hud-prefab-screens",
+      "name": "界面",
+      "kind": "prefab",
+      "parentId": "hud-prefabs"
+    }
+  },
+  "provenance": {
+    "kind": "svg-reference-reconstruction",
+    "reference": "用户提供的 688×170 快捷栏截图",
+    "referenceSize": {
+      "width": 688,
+      "height": 170
+    },
+    "source": "src/assets/hud-darksteel/reference.png",
+    "backgroundPolicy": {
+      "owner": "review-only",
+      "node": "hud-context",
+      "independentlyHideable": true
+    },
+    "warnings": [],
+    "referenceSha256": "eb67b5b4460a740084aee1a6ba7544fed7c57d262f897bac45fbbb6c2146bfbe"
+  }
+}

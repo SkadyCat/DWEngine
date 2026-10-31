@@ -1,0 +1,725 @@
+{
+  "schema": "uicreator-alpha",
+  "version": 1,
+  "id": "opus-map-event-markers",
+  "name": "地图事件 · 商店、祭坛与宝库标记",
+  "viewport": {
+    "width": 130,
+    "height": 26,
+    "background": "transparent"
+  },
+  "root": {
+    "id": "map-event-badges",
+    "name": "CanvasPanel",
+    "type": "CanvasPanel",
+    "visibility": "visible",
+    "locked": false,
+    "slot": {
+      "anchors": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "offsets": {
+        "left": 0,
+        "top": 0,
+        "right": 240,
+        "bottom": 120
+      },
+      "alignment": {
+        "x": 0,
+        "y": 0
+      },
+      "autoSize": false,
+      "zOrder": 0,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "horizontalAlignment": "fill",
+      "verticalAlignment": "fill",
+      "sizeRule": "auto",
+      "fill": 1
+    },
+    "layout": {
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "gap": 12,
+      "width": 130,
+      "height": 26,
+      "stretch": "fit",
+      "scale": 1,
+      "orientation": "vertical",
+      "scrollOffset": 0
+    },
+    "style": {
+      "fill": "transparent",
+      "stroke": "transparent",
+      "strokeWidth": 0,
+      "radius": 0,
+      "opacity": 1,
+      "color": "#e5edf6",
+      "fontSize": 18,
+      "fontWeight": 400,
+      "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+      "textAlign": "left",
+      "verticalAlign": "center",
+      "textPadding": 0,
+      "wrap": true,
+      "objectFit": "contain",
+      "clip": false
+    },
+    "text": "",
+    "src": "",
+    "svg": "",
+    "svgAsset": "",
+    "value": 0.65,
+    "brushes": {
+      "normal": "",
+      "hovered": "",
+      "pressed": "",
+      "disabled": ""
+    },
+    "motion": {
+      "preset": "auto",
+      "assetId": ""
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 1,
+      "pitch": 1,
+      "events": {}
+    },
+    "interactable": true,
+    "prefabId": "",
+    "overrides": {},
+    "binding": "",
+    "action": null,
+    "children": [
+      {
+        "id": "map-event-badge-0",
+        "name": "商店",
+        "type": "Svg",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 0,
+            "top": 0,
+            "right": 26,
+            "bottom": 26
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 26,
+          "height": 26,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "map-event-shop",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "motion": {
+          "preset": "auto",
+          "assetId": ""
+        },
+        "audio": {
+          "enabled": true,
+          "volume": 1,
+          "pitch": 1,
+          "events": {}
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": []
+      },
+      {
+        "id": "map-event-badge-1",
+        "name": "百炼法坛",
+        "type": "Svg",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 26,
+            "top": 0,
+            "right": 26,
+            "bottom": 26
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 26,
+          "height": 26,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "map-event-altar",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "motion": {
+          "preset": "auto",
+          "assetId": ""
+        },
+        "audio": {
+          "enabled": true,
+          "volume": 1,
+          "pitch": 1,
+          "events": {}
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": []
+      },
+      {
+        "id": "map-event-badge-2",
+        "name": "合成祭坛",
+        "type": "Svg",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 52,
+            "top": 0,
+            "right": 26,
+            "bottom": 26
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 26,
+          "height": 26,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "map-event-fusion",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "motion": {
+          "preset": "auto",
+          "assetId": ""
+        },
+        "audio": {
+          "enabled": true,
+          "volume": 1,
+          "pitch": 1,
+          "events": {}
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": []
+      },
+      {
+        "id": "map-event-badge-3",
+        "name": "遗珍神龛",
+        "type": "Svg",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 78,
+            "top": 0,
+            "right": 26,
+            "bottom": 26
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 26,
+          "height": 26,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "map-event-choice",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "motion": {
+          "preset": "auto",
+          "assetId": ""
+        },
+        "audio": {
+          "enabled": true,
+          "volume": 1,
+          "pitch": 1,
+          "events": {}
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": []
+      },
+      {
+        "id": "map-event-badge-4",
+        "name": "封印宝库",
+        "type": "Svg",
+        "visibility": "visible",
+        "locked": false,
+        "slot": {
+          "anchors": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "offsets": {
+            "left": 104,
+            "top": 0,
+            "right": 26,
+            "bottom": 26
+          },
+          "alignment": {
+            "x": 0,
+            "y": 0
+          },
+          "autoSize": false,
+          "zOrder": 0,
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "horizontalAlignment": "fill",
+          "verticalAlignment": "fill",
+          "sizeRule": "auto",
+          "fill": 1
+        },
+        "layout": {
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "gap": 12,
+          "width": 26,
+          "height": 26,
+          "stretch": "fit",
+          "scale": 1,
+          "orientation": "vertical",
+          "scrollOffset": 0
+        },
+        "style": {
+          "fill": "transparent",
+          "stroke": "transparent",
+          "strokeWidth": 0,
+          "radius": 0,
+          "opacity": 1,
+          "color": "#e5edf6",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "fontFamily": "Segoe UI, Microsoft YaHei, sans-serif",
+          "textAlign": "left",
+          "verticalAlign": "center",
+          "textPadding": 0,
+          "wrap": true,
+          "objectFit": "contain",
+          "clip": false
+        },
+        "text": "",
+        "src": "",
+        "svg": "",
+        "svgAsset": "map-event-vault",
+        "value": 0.65,
+        "brushes": {
+          "normal": "",
+          "hovered": "",
+          "pressed": "",
+          "disabled": ""
+        },
+        "motion": {
+          "preset": "auto",
+          "assetId": ""
+        },
+        "audio": {
+          "enabled": true,
+          "volume": 1,
+          "pitch": 1,
+          "events": {}
+        },
+        "interactable": true,
+        "prefabId": "",
+        "overrides": {},
+        "binding": "",
+        "action": null,
+        "children": []
+      }
+    ],
+    "source": {
+      "purpose": "map-event-identification",
+      "kinds": [
+        "shop",
+        "altar",
+        "fusion",
+        "choice",
+        "vault"
+      ]
+    }
+  },
+  "assets": {
+    "map-event-shop": {
+      "id": "map-event-shop",
+      "name": "商店",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#e9c57b\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#e9c57b\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"><path d=\"M-6-1v6H6v-6M-7-1l2-5H5l2 5M-7-1q1.8 3 3.5 0Q-1.7 2 0-1q1.7 3 3.5 0Q5.2 2 7-1M-2 5V1H2v4\"/></g></g></svg>"
+    },
+    "map-event-shop-completed": {
+      "id": "map-event-shop-completed",
+      "name": "商店 · 已完成",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#637773\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#e9c57b\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".38\"><path d=\"M-6-1v6H6v-6M-7-1l2-5H5l2 5M-7-1q1.8 3 3.5 0Q-1.7 2 0-1q1.7 3 3.5 0Q5.2 2 7-1M-2 5V1H2v4\"/></g><circle cx=\"7\" cy=\"6\" r=\"4\" fill=\"#17362c\"/><path d=\"m4.8 6 1.5 1.5 3-3\" fill=\"none\" stroke=\"#a9d7b4\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+    },
+    "map-event-altar": {
+      "id": "map-event-altar",
+      "name": "百炼法坛",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#81dccb\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#81dccb\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"><path d=\"M-6 6H6M-5 3H5M-3 0H3L2 3H-2ZM0-7C-6-3-1-3-2 0 4-1 4-4 0-7Z\"/></g></g></svg>"
+    },
+    "map-event-altar-completed": {
+      "id": "map-event-altar-completed",
+      "name": "百炼法坛 · 已完成",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#637773\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#81dccb\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".38\"><path d=\"M-6 6H6M-5 3H5M-3 0H3L2 3H-2ZM0-7C-6-3-1-3-2 0 4-1 4-4 0-7Z\"/></g><circle cx=\"7\" cy=\"6\" r=\"4\" fill=\"#17362c\"/><path d=\"m4.8 6 1.5 1.5 3-3\" fill=\"none\" stroke=\"#a9d7b4\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+    },
+    "map-event-fusion": {
+      "id": "map-event-fusion",
+      "name": "合成祭坛",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#c4a1ef\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#c4a1ef\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"><path d=\"m-4-6 3 3-3 3-3-3Zm8 0 3 3-3 3-3-3ZM-4 0l4 4 4-4M0 4v3M-4 7H4\"/></g></g></svg>"
+    },
+    "map-event-fusion-completed": {
+      "id": "map-event-fusion-completed",
+      "name": "合成祭坛 · 已完成",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#637773\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#c4a1ef\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".38\"><path d=\"m-4-6 3 3-3 3-3-3Zm8 0 3 3-3 3-3-3ZM-4 0l4 4 4-4M0 4v3M-4 7H4\"/></g><circle cx=\"7\" cy=\"6\" r=\"4\" fill=\"#17362c\"/><path d=\"m4.8 6 1.5 1.5 3-3\" fill=\"none\" stroke=\"#a9d7b4\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+    },
+    "map-event-choice": {
+      "id": "map-event-choice",
+      "name": "遗珍神龛",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#f0cc83\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#f0cc83\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"><path d=\"M-6 6V-2L0-7 6-2v8ZM-7 6H7M0-4l2 4-2 3-2-3Z\"/></g></g></svg>"
+    },
+    "map-event-choice-completed": {
+      "id": "map-event-choice-completed",
+      "name": "遗珍神龛 · 已完成",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#637773\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#f0cc83\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".38\"><path d=\"M-6 6V-2L0-7 6-2v8ZM-7 6H7M0-4l2 4-2 3-2-3Z\"/></g><circle cx=\"7\" cy=\"6\" r=\"4\" fill=\"#17362c\"/><path d=\"m4.8 6 1.5 1.5 3-3\" fill=\"none\" stroke=\"#a9d7b4\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+    },
+    "map-event-vault": {
+      "id": "map-event-vault",
+      "name": "封印宝库",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#e6ad7d\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#e6ad7d\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"><path d=\"M-6-1v6H6v-6ZM-6-1v-3q6-5 12 0v3M-6 0H6M-1-1h2v4h-2Z\"/></g></g></svg>"
+    },
+    "map-event-vault-completed": {
+      "id": "map-event-vault-completed",
+      "name": "封印宝库 · 已完成",
+      "viewBox": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "scaleMode": "stretch",
+      "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\"><g transform=\"translate(13 13)\"><circle r=\"10\" fill=\"#0c1b24\" stroke=\"#637773\" stroke-width=\"1\"/><g fill=\"none\" stroke=\"#e6ad7d\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".38\"><path d=\"M-6-1v6H6v-6ZM-6-1v-3q6-5 12 0v3M-6 0H6M-1-1h2v4h-2Z\"/></g><circle cx=\"7\" cy=\"6\" r=\"4\" fill=\"#17362c\"/><path d=\"m4.8 6 1.5 1.5 3-3\" fill=\"none\" stroke=\"#a9d7b4\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+    }
+  },
+  "prefabs": {},
+  "motions": {},
+  "sounds": {},
+  "folders": {},
+  "provenance": null
+}

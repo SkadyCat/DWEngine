@@ -1,0 +1,15 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(OpusPreviousAfterCppTargets)" Condition="'$(OpusPreviousAfterCppTargets)' != '' and Exists('$(OpusPreviousAfterCppTargets)')" />
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'DungeonWorldOpus' and '$(Configuration)|$(Platform)' == 'Development_Editor|x64'">
+    <NMakeBuildCommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(MSBuildThisFileDirectory)Invoke-OpusEditorBuild.ps1" -Mode Build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(MSBuildThisFileDirectory)Invoke-OpusEditorBuild.ps1" -Mode Rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(MSBuildThisFileDirectory)Invoke-OpusEditorBuild.ps1" -Mode Clean</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <!-- A raw editor regeneration may re-enable UE5 in the solution. This local
+       source-browsing project must never rebuild or clean the shared engine. -->
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'UE5'">
+    <NMakeBuildCommandLine>echo Opus uses precompiled UE5 binaries. Engine build is skipped.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo Opus uses precompiled UE5 binaries. Engine rebuild is skipped.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo Opus uses precompiled UE5 binaries. Engine clean is skipped.</NMakeCleanCommandLine>
+  </PropertyGroup>
+</Project>

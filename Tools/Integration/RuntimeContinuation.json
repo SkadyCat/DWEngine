@@ -1,0 +1,26 @@
+{
+  "updated": "2026-10-25T22:12:44.568991+08:00",
+  "state": "Delivered. All native, UI, material cold-read and gameplay verification completed. No remaining task work. See Docs/UEIntegration/Verification.json. Do not reapply the already installed continuation scripts.",
+  "passed": [
+    "Full Content/Rules cold load and 27 presets; 1222 JSONs promoted (154 changed). Identical native-only Builds/taunt.json archived; canonical WebBuilds/taunt.json retained.",
+    "Six native tests: Echo, Treasury, Mirror, Capture, Reservation, TreasuryFinisher.",
+    "UICreatorRecent 9 templates /185 nodes /443 rasters saved, cold reloaded, native canvas inspected.",
+    "VFX export 58 public /186 clips /158 geometries /70 materials; all70 translated production shaders passed DXC.",
+    "UE VFX bake/import finished, pending=0. Final shader and gameplay rendering not yet verified.",
+    "RecentHost authored claim, aura reservation, storage conservation, UID and positioned stash/local goods after hideout travel passed.",
+    "VFX final cold reload all186 payloads and70 compiled materials passed; animation-only incremental save bug and HLSL local uniform shadowing fixed.",
+    "ModernCombat actual whirlwind, animated EA high/downward flight, original portal render, temporary eyes following/bolts/expiry/no rewards passed.",
+    "Talents all100 legendary traits now supported, allocation and travel passed; taunt and player stun/shield regressions passed.",
+    "UICreator pixel comparison against immutable frozen reference passed for all9 templates; whole-canvas RGB MAE0.005396759/255."
+  ],
+  "next": [],
+  "evidenceRoot": "Saved/Verification/UEIntegration",
+  "uiJob": "wbp-recent-8fb719bc-0efd-4a5b-9b21-27d57f369155",
+  "uiSourceHash": "5028041a79847c0532426c6c78f66c998ea436bb6605a68090acd3ded9e4bae9",
+  "constraints": [
+    "Preserve concurrent MapDevice, Events, Talents, HUD and Taunt changes. No runtime JS.",
+    "Profile baseline SHA256 1044DA431BDDFD769F4172DFB9408CFC3E8A822FC7E5B0E11454A52F8A3E5555. Use DWOTransient.",
+    "Do not overwrite other owners receipts or run obsolete sync_stun_hud_fill.py.",
+    "Formal profile changed legitimately during other authorized ordinary-game sessions; do not restore the initial baseline snapshot. Tests confirmed no reward/stash/goods fixture leakage. Latest stable profile9B72E89EE64C2F8F76704E09F38A56B7676C02E844A1DC9CC6335F719EDE10D0."
+  ]
+}

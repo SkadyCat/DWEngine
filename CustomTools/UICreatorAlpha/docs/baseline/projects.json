@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-25",
+  "projects": [
+    {
+      "id": "hud-darksteel-20261024",
+      "file": "Screen/RuleStudio-HUD/hud.uialpha.json",
+      "revision": 21,
+      "updatedAt": "2026-10-24T18:34:52.867Z"
+    },
+    {
+      "id": "hud-motion-assets-20261025",
+      "file": "Screen/UI-Motion/hud.uialpha.json",
+      "revision": 2,
+      "updatedAt": "2026-10-24T18:17:06.431Z"
+    },
+    {
+      "id": "hud-ui-audio-20261025",
+      "file": "Screen/UI-Audio/hud.uialpha.json",
+      "revision": 2,
+      "updatedAt": "2026-10-24T18:55:14.952Z"
+    }
+  ]
+}

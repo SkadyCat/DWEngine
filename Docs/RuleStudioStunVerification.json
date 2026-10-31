@@ -1,0 +1,109 @@
+{
+  "verified_at": "2026-10-25T18:47:20.0389625+08:00",
+  "surface": "RuleStudio3D web battle",
+  "project_root": "G:\\DungeonWorldOpus\\CustomTools\\RuleStudio",
+  "url": "http://127.0.0.1:5291/",
+  "tab": "3D 战斗",
+  "fixed_equipment": "Content/Rules/Equipment/player_character_equipment.json",
+  "settings": {
+    "normal_health_damage_during_recovery": true,
+    "unbroken_decay_seconds": 4,
+    "unbroken_quiet_seconds": 1,
+    "stun_seconds": 0.5,
+    "restore_after_stun_seconds": 1,
+    "capacity_max_life_percent": 20,
+    "label": "晕眩",
+    "shield_cannot_prevent_buildup": true
+  },
+  "runtime": {
+    "interrupt": "clear current cast intent and cast clock; block casting and dodge during stun",
+    "scope": "explicit stunCrust option on the 3D TowerRun; ordinary Battle and Arena keep their original stun behavior",
+    "damage": "existing Character.takeHit result.taken before shield/life allocation; no resolver changes",
+    "engine": "rule VM and damage resolver unchanged; six Sheet catalogue entries added",
+    "visual": "eight earth fragments over the head health strip, outward falling chips on break, linear restoration; upper-left meter shares snapshot",
+    "pause": "simulation driven phases and fragments; no independent CSS clock",
+    "random_pool": "three character traits excluded",
+    "policy": "public/sim/stun-crust.mjs"
+  },
+  "tests": {
+    "command": "node --test tests/stun-crust.test.mjs tests/character.test.mjs tests/fixed-equipment.test.mjs tests/dungeon.test.mjs tests/equipment.test.mjs",
+    "regression_failed": 1,
+    "regression_total": 39,
+    "existing_failure": {
+      "file": "tests/character.test.mjs",
+      "source_unchanged_by_this_feature": true,
+      "case": "every affix loads, is web-only, validates and appears in the picker",
+      "reason": "treasury_consumed_stock has no sheet; existing all-Affixes-have-sheet assertion"
+    },
+    "new_feature_passed": 5,
+    "regression_passed": 38,
+    "new_feature_command": "node --test tests/stun-crust.test.mjs",
+    "shield_only_full_life_and_shield_specific_reduction": true,
+    "regression_run_note": "Broader 39-case run is the earlier run recorded at verified_at; this update ran the five current stun cases."
+  },
+  "browser": {
+    "phase_observations": {
+      "url": "http://127.0.0.1:5291/#battle",
+      "intactOrDamaged": {
+        "capacity": "560.96",
+        "hud": "晕眩覆层\n133 / 561",
+        "phase": "ready",
+        "remaining": "84.11"
+      },
+      "broken": {
+        "hud": "晕眩覆层\n眩晕 0.4s",
+        "phase": "broken",
+        "remaining": "0.00"
+      },
+      "restoring": {
+        "capacity": "560.96",
+        "hud": "晕眩覆层\n恢复 7%",
+        "phase": "restoring",
+        "remaining": "81.79"
+      }
+    },
+    "browser_page_left_open": true,
+    "actual_monster_hits": true,
+    "earth_segments": 8,
+    "verification_encounter": "ranged frost casters so player head remains visible",
+    "images": [
+      "Saved/Verification/RuleStudioStun/battle.png",
+      "Saved/Verification/RuleStudioStun/broken.png",
+      "Saved/Verification/RuleStudioStun/restoring.png"
+    ],
+    "phase_observations_verified_at": "2026-10-25T18:47:20.0389625+08:00",
+    "label_update_image": "Saved/Verification/RuleStudioStun/label.png",
+    "label_update_observed": "晕眩"
+  },
+  "source_hashes": [
+    {
+      "sha256": "9bd987a0e99d17e52adbb63886dc6f5ce40cadb8f440099b9a9914c1e48c3c47",
+      "file": "public/sim/stun-crust.mjs"
+    },
+    {
+      "sha256": "50d0a5739deb3aec29ac98c158ec47269c5458c62cd302c99cff141386870f55",
+      "file": "public/sim/battle.mjs"
+    },
+    {
+      "sha256": "6cdef8971741cbc7795d19b25627b3447dee779050e00dec95491a21fb263b98",
+      "file": "public/battle3d.mjs"
+    },
+    {
+      "sha256": "be60ba9b66e5b0e95c6b0d35c08a29db9a2b028e5a6159a373af2a63fa30dade",
+      "file": "public/play.css"
+    },
+    {
+      "sha256": "3782cb3a3098d46bcddf54ec70bfd8215a52190aee20940ebe65f976246284a2",
+      "file": "engine/character.mjs"
+    },
+    {
+      "sha256": "9ffdcfc9bf6335f26dd77306359f6597896482dc2b34eee3dfb02f35ca66bbb4",
+      "file": "engine/equipment.mjs"
+    },
+    {
+      "sha256": "b75ea67666f99ed8d2b7ac1103ebc9117454c681be1aa415b31f37bffbc6639a",
+      "file": "tests/stun-crust.test.mjs"
+    }
+  ],
+  "updated_at": "2026-10-25T19:05:13.110792+08:00"
+}

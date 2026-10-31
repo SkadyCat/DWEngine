@@ -1,0 +1,7 @@
+{
+ "FileVersion": 3, "Version": 1, "VersionName": "1.0", "FriendlyName": "Claude Dungeon PCG",
+ "Description": "Geometry-only ClaudePCG dungeon; player, combat and AI remain in DungeonWorld Lua/Mass.",
+ "Category": "World", "CanContainContent": false, "EnabledByDefault": true,
+ "Modules": [{"Name": "ClaudePCG", "Type": "Runtime", "LoadingPhase": "Default"}],
+ "Plugins": [{"Name": "PCG", "Enabled": true}]
+}

@@ -1,0 +1,53 @@
+{
+  "updated": "2026-10-26T00:31:54.613908+08:00",
+  "cause": "HUD and journey enabled Hunter by default with no affix or currency selections; existing HunterAllows rejected every drop, including its ground marker.",
+  "fix": "HunterEnabled=false in new HUD and new journey; ShowLoot remains true. Manual filter settings and existing filter matching remain intact.",
+  "files": [
+    "Script/Opus/SvgHUD.as",
+    "Script/Opus/TowerRun.as",
+    "Script/Opus/LootTests.as",
+    "Tools/Verify-WorldUI.ps1"
+  ],
+  "regression": "The real-kill fixture no longer turns Hunter off to make drops visible; it exercises the untouched default.",
+  "checks": {
+    "defaultKillAndPickup": {
+      "log": "Saved/Verification/WorldUI/loot-integration.log",
+      "passed": true,
+      "markers": [
+        "FlightBeforeLabel",
+        "TenFamiliesAndFourStates",
+        "NativeDeathAndLabel",
+        "HunterAndPinnedHover",
+        "WalkingPickupAndInventory",
+        "RuntimeIntegration"
+      ]
+    },
+    "onlinePoolAndKill": {
+      "log": "Saved/Verification/TradeBackend/online-pool.log",
+      "passed": true,
+      "markers": [
+        "InitialPoolAndCoreInvalidation",
+        "NativeBossUsesServerPool",
+        "MapReloadRequestsAgain"
+      ]
+    },
+    "renderedOnlineDefault": {
+      "log": "Saved/Verification/WorldUI/loot-preview-online.log",
+      "passed": true,
+      "markers": [
+        "FlightBeforeLabel",
+        "TenFamiliesAndFourStates",
+        "VisualPreviewReady"
+      ]
+    }
+  },
+  "proof": "Docs/Proof/掉落默认可见-UE.png",
+  "backendCandidateCounts": {
+    "equipment": 106,
+    "items": 18
+  },
+  "ruleEngineChanged": false,
+  "dropProbabilitiesChanged": false,
+  "presentation": "Existing saved UICreatorLoot controls and ground markers",
+  "playerProfile": "DWOTransient tests; no writes to real player profile"
+}

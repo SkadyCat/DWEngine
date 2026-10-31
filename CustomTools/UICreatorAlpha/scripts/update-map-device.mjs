@@ -1,0 +1,25 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { installMapDevice } from '../src/assets/rulestudio-hud/map-device.js';
+import { validateDocument, walk } from '../src/core/model.js';
+
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const base=process.env.UICREATOR_URL||'http://127.0.0.1:5190';
+const url=`${base}/api/projects/hud-darksteel-20261024`, response=await fetch(url);
+if(!response.ok)throw Error('UICreator HUD project unavailable');
+const previous=await response.json(),document=installMapDevice(structuredClone(previous.document));
+const errors=validateDocument(document);if(errors.length)throw Error(errors.join('\n'));
+const backup=path.resolve(root,'../../Saved/UIAuthoringBackups/MapDevice');await fs.mkdir(backup,{recursive:true});
+await fs.writeFile(path.join(backup,`before-r${previous.revision}.json`),JSON.stringify(previous),{flag:'wx'}).catch(e=>{if(e.code!=='EEXIST')throw e;});
+const saved=await fetch(url,{method:'PUT',headers:{'Content-Type':'application/json','If-Match':`"${previous.revision}"`},body:JSON.stringify(document)}),result=await saved.json();
+if(!saved.ok)throw Error(JSON.stringify(result));
+const part=document.prefabs['battle-prefab-map-device'],ids=new Set();const collect=n=>{if(n.svgAsset)ids.add(n.svgAsset);for(const a of Object.values(n.brushes||{}))if(a)ids.add(a);};walk(part.root,collect);
+const hover=document.prefabs['battle-prefab-item-hover'];if(hover)walk(hover.root,collect);
+for(const id of Object.keys(document.assets))if(/^battle-svg-equipment-(cell|row)-/.test(id))ids.add(id);
+const prefabs=Object.fromEntries(['battle-prefab-map-device-slots','battle-prefab-map-device-backpack','battle-prefab-map-device-items','battle-prefab-item-hover'].filter(id=>document.prefabs[id]).map(id=>[id,document.prefabs[id]]));
+const view={...document,id:'opus-map-device-view',root:part.root,prefabs,assets:Object.fromEntries([...ids].map(id=>[id,document.assets[id]])),interfaceCatalog:[],viewport:{width:part.width,height:part.height,background:'transparent'},presentation:{},provenance:{sourceProject:document.id,revision:result.revision,scope:'atlas-details-and-external-backpack'}};
+const target=path.resolve(root,'../RuleStudio/public/ui/map-device.uialpha.json');await fs.mkdir(path.dirname(target),{recursive:true});await fs.writeFile(target,JSON.stringify(view));
+await fs.writeFile(path.resolve(root,'Screen/RuleStudio-HUD/hud.uialpha.json'),JSON.stringify(document,null,2));
+await fs.writeFile(path.resolve(root,'Screen/RuleStudio-HUD/interfaces.json'),JSON.stringify(document.interfaceCatalog,null,2));
+console.log(JSON.stringify({revision:result.revision,interface:'map-device',slots:6,source:target,untouchedPrefabs:Object.keys(previous.document.prefabs).length}));

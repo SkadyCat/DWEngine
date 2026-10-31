@@ -1,0 +1,18 @@
+{
+  "schema": "opus/uicreator-event-contract/v1",
+  "project": "opus-map-events",
+  "source": "MapEvents.uialpha.json",
+  "contentDirectory": "UICreatorEvents",
+  "nativeRoot": "/Game/UICreatorEvents",
+  "templates": {
+    "event-panel": {"width": 1000, "height": 680, "layer": 160},
+    "event-label": {"width": 250, "height": 54, "layer": 35},
+    "event-item-row": {"width": 288, "height": 66, "mounted": true},
+    "event-line-row": {"width": 288, "height": 116, "mounted": true}
+  },
+  "states": ["altar-deposit", "altar-locked", "fusion-deposit", "fusion-locked", "fusion-result", "reward-locked-until-boss", "vault-challenge", "reward-three-choose-one"],
+  "bindings": ["event:title", "event:description", "event:status", "event:warning", "event:heading-{0..2}", "event:icon-{0..2}", "event:meta-{0..2}", "event:rows-{0..2}", "event:select-{0..2}", "event:primary", "event:secondary", "event:close", "event:label", "row:icon", "row:name", "row:meta", "row:text", "row:description"],
+  "actions": ["open", "close", "bag", "side", "affix", "reward", "primary", "collect", "noop"],
+  "resources": {"rasterization": "UICreator native-wbp browser export", "buttons": ["normal", "hovered", "pressed", "disabled"], "dynamicText": "native TextBlock", "dynamicIcons": "OpusIcons/equipment", "scroll": "MountRows clips rows to authored body"},
+  "ownership": {"visuals": "UICreator", "interactionAndRng": "Script/Opus/MapEvents.as", "atomicInventory": "DWRulePlayerEvents.cpp", "candidateAndFusionData": "OpusMapEvents.cpp", "existingCraftAndTraitEvaluation": "DWRulesCore"}
+}

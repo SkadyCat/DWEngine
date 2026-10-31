@@ -1,0 +1,64 @@
+{
+  "updated": "2026-10-25T13:55:57.482872+08:00",
+  "hero": "Beta WizardHero/FingerRig with StanceFix20261018 retarget graph and original Shimmer material",
+  "host": "AS presentation component on the existing ADWOHero pawn; no imported legacy gameplay or UI",
+  "scale": 1.1875,
+  "bones": 55,
+  "assetCount": 164,
+  "animationClips": 20,
+  "behavior": [
+    "Original finger/stance-fixed wizard replaces the cylinder.",
+    "Existing attached-parent retarget graph receives the hidden source skeleton pose.",
+    "Idle, eight-direction running, successful casts, eight-direction dodges, native hurt and death.",
+    "Animation cannot spend resources, spawn another spell, change damage or move the pawn. Legacy action notifies removed from Opus clip copies.",
+    "Native movement speed, input, cast cadence, collision radius, rewards and all rule calculations retained.",
+    "Animation pauses with gameplay; death can finish while the death modal pauses combat.",
+    "Async resource preparation shares the game-instance asset cache; initial battle waits for the avatar.",
+    "Original UICreator HUD retained; player head anchor follows the visible wizard mesh."
+  ],
+  "checks": {
+    "rigAndHandBones": true,
+    "attachedRetargetGraph": true,
+    "actualPawnMovement": true,
+    "retargetedHandMovementCm": 55.426918,
+    "presentationHasNoRuleSideEffects": true,
+    "pause": true,
+    "nativeCastAndDodge": true,
+    "nativeDamageAndDeath": true,
+    "deathPoseCompletes": true,
+    "retryAndAssetCache": true,
+    "density20And300FrameSpreading": true,
+    "realLootPickup": true,
+    "runtimeJavaScriptFiles": 0
+  },
+  "logs": [
+    "Saved/Verification/Hero/integration.log",
+    "Saved/Verification/Hero/visual-gameplay.log",
+    "Saved/Verification/Hero/visual-closeup.log",
+    "Saved/Verification/WorldUI/loot-integration.log",
+    "Saved/Verification/FrameSpreading/schedule-20.log",
+    "Saved/Verification/FrameSpreading/schedule-300.log"
+  ],
+  "assets": "Docs/HeroAssets.json",
+  "preparedClips": "Docs/HeroPreparedAssets.json",
+  "proofs": [
+    "Docs/Proof/主角接入-游戏视距.png",
+    "Docs/Proof/主角接入-近景.png",
+    "Docs/Proof/主角接入-施法.png",
+    "Docs/Proof/主角接入-死亡.png"
+  ],
+  "qaNote": "Closeup changes camera distance only in the opt-in transient fixture. Motion blur is disabled only for verification screenshots. Production camera/settings remain unchanged.",
+  "ruleEngineChanged": false,
+  "ruleDataChangedByThisTask": false,
+  "files": [
+    "Script/Opus/HeroVisual.as",
+    "Script/Opus/HeroTests.as",
+    "Script/Opus/TowerActors.as",
+    "Script/Opus/TowerGame.as",
+    "Tools/Migration/Copy-HeroAssets.py",
+    "Tools/Migration/Prepare-HeroAssets.py",
+    "Tools/Verify-Hero.ps1"
+  ],
+  "supersededBy": "Zero3CIntegration.json",
+  "historicalOnly": true
+}

@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>Opus 天赋星盘 · UICreator</title>
+<style>body{margin:0;background:#080c12;color:#c1cbd5;font:14px system-ui}header{padding:12px;display:flex;gap:16px;align-items:center}button,a{color:#e1ca96;background:#17212d;border:1px solid #695a3e;padding:8px;cursor:pointer}svg{display:block;width:100%;height:auto}#status{white-space:pre-wrap}</style>
+<header><strong>UICreator · Opus 天赋星盘</strong><a href="/?project=opus-talent-constellation">在编辑器打开</a><button id="freeze">冻结并导出原生 WBP</button><span id="status">载入中</span></header><svg id="canvas"></svg>
+<script type="module">
+import {UIRuntime} from '../src/runtime/runtime.js';
+const saved=await fetch('/api/projects/opus-talent-constellation').then(r=>r.json());
+const record=saved.document,job=record.provenance.job;
+const runtime=new UIRuntime(document.querySelector('#canvas'),record,{width:1600,height:900,motion:false,sound:false});
+document.querySelector('#status').textContent='1000 星点 · 100 传奇 · 4 属性 · Imagegen 原图';
+document.querySelector('#freeze').onclick=async()=>{try{await document.fonts.ready;const freezeJob=`wbp-opus-talents-${Date.now()}`,entries=[...runtime.layout.entries].map(([id,e])=>[id,{...e,node:{...e.node,children:[]}}]);const response=await fetch(`/api/native-wbp/${freezeJob}/source`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({project:record,svg:runtime.renderer.exportSvg(),context:{width:1600,height:900,entries,expandedRoot:runtime.expanded.document.root}})});const result=await response.json();if(!response.ok)throw Error(result.error);location.href=result.url;}catch(e){document.querySelector('#status').textContent=e.stack;}};
+</script>

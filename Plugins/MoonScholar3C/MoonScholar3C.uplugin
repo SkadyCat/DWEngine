@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Moon Scholar 3C",
+  "Description": "Manny motion matching and networked player controls adapted from FCS3C 5c025b4.",
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "FCS3C",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "FCS3CAnimGraph",
+      "Type": "UncookedOnly",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PoseSearch",
+      "Enabled": true
+    },
+    {
+      "Name": "AnimationWarping",
+      "Enabled": true
+    }
+  ]
+}

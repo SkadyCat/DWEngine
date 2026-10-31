@@ -1,0 +1,22 @@
+# Preserve exact source and asset bytes.
+* -text
+
+# Large assets and authoring snapshots use Git LFS.
+"Content/UICreator/DA_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreator/WBP_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorEvents/DA_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorHover/WBP_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorMaps/DA_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorMaps/WBP_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorStudio/contract.json" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorStudio/DA_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorTalents/contract.json" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorTalents/DA_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorTalents/source.uialpha.json" filter=lfs diff=lfs merge=lfs -text
+"Content/UICreatorTalents/WBP_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"Content/_TornadoWindVFX/NS/NS_TopDown_Whirlwind.uasset" filter=lfs diff=lfs merge=lfs -text
+"UIAuthoring/InventoryNotices.uialpha.json" filter=lfs diff=lfs merge=lfs -text
+"UIAuthoring/TalentConstellation.uialpha.json" filter=lfs diff=lfs merge=lfs -text
+"CustomTools/UICreatorAlpha/Screen/RuleStudio-HUD/hud.uialpha.json" filter=lfs diff=lfs merge=lfs -text
+"CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/Content/UICreator/DA_CurrentCanvas.uasset" filter=lfs diff=lfs merge=lfs -text
+"CustomTools/UICreatorAlpha/data/projects/opus-talent-constellation/scenes/5eb47f65a376292c8f6bd65c5d0c7ae5e54f359921911724e9e64729f059537e.scene.json" filter=lfs diff=lfs merge=lfs -text

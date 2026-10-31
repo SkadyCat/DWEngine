@@ -1,0 +1,21 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createTraitEquipmentDocument} from '../src/assets/rulestudio-hud/trait-equipment.js';
+import {validateDocument} from '../src/core/model.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const icon=await fs.readFile(path.resolve(root,'../RuleStudio/public/assets/icons/warcraft-v1/equipment/frostthorn_staff.png'));
+const document=createTraitEquipmentDocument(`data:image/png;base64,${icon.toString('base64')}`);
+const errors=validateDocument(document);if(errors.length)throw Error(errors.join('\n'));
+const url=(process.env.UICREATOR_URL||'http://127.0.0.1:5190')+'/api/projects/'+document.id;
+const previous=await fetch(url);if(!previous.ok&&previous.status!==404)throw Error('无法读取 UICreator 工程');
+const old=previous.ok?await previous.json():null;
+if(old){const backup=path.resolve(root,'../../Saved/UIAuthoringBackups/TraitEquipment');await fs.mkdir(backup,{recursive:true});await fs.writeFile(path.join(backup,`r${old.revision}.json`),JSON.stringify(old));}
+const response=await fetch(url,{method:'PUT',headers:{'Content-Type':'application/json','If-Match':`"${old?.revision||0}"`},body:JSON.stringify(document)});
+if(!response.ok)throw Error(await response.text());const saved=await response.json();
+const reloaded=await (await fetch(url)).json();if(reloaded.revision!==saved.revision)throw Error('工程保存后版本不一致');
+const dir=path.resolve(root,'Screen/StudioTraitEquipment');await fs.mkdir(dir,{recursive:true});
+await fs.writeFile(path.join(dir,'trait-equipment.uialpha.json'),JSON.stringify(reloaded.document,null,2));
+const destination=path.resolve(root,'../RuleStudio/public/ui/trait-equipment.uialpha.json');
+await fs.writeFile(destination,JSON.stringify({...reloaded.document,provenance:{projectId:document.id,revision:saved.revision}}));
+console.log(JSON.stringify({project:document.id,revision:saved.revision,destination,ueExport:false}));

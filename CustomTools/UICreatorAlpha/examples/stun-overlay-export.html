@@ -1,0 +1,6 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>UICreator · 玩家晕眩覆盖</title><style>body{background:#101923;color:#d8e4ee;font:14px sans-serif;margin:24px}button{padding:10px 16px;margin-bottom:16px}svg{display:block}</style><button id="freeze">冻结头顶 UI 并导出 UE</button><svg id="scene"></svg><script type="module">
+import {UIRuntime} from '../src/runtime/runtime.js';
+const record=await fetch('/api/projects/opus-world-overlays-20261025').then(r=>r.json()),project=record.document;
+const runtime=new UIRuntime(document.getElementById('scene'),project,{motion:false,sound:false});
+document.getElementById('freeze').onclick=async()=>{await document.fonts.ready;const job='wbp-stun-yellow-'+crypto.randomUUID(),svg=new XMLSerializer().serializeToString(document.getElementById('scene'));const r=await fetch('/api/native-wbp/'+job+'/source',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({project,svg,context:{width:project.viewport.width,height:project.viewport.height,expandedRoot:runtime.expanded.document.root}})});const out=await r.json();if(!r.ok)throw Error(JSON.stringify(out));location.href=out.url;};
+</script></html>

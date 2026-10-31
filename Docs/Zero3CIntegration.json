@@ -1,0 +1,131 @@
+{
+  "source": "G:/DungeonWorldZero",
+  "scope": "Reuse Zero player 3C and camera in Opus; retain the native rule engine and UICreator HUD",
+  "implementation": {
+    "character": "ADWOHero : ACleanNetworkCharacter, original UCleanNetworkMovement and prediction adapter",
+    "animation": "Original UCleanMotionAnimInstance, ChannelMobile graph, 26 motion-matching databases, saved montages, IK and pose-continuity node",
+    "wizard": "Existing FingerRig / StanceFix20261018 attached-parent retarget, scale 1.1875",
+    "locomotion": {
+      "walk": 300,
+      "run": 500,
+      "acceleration": 1700,
+      "braking": 2000,
+      "physicalCapsuleRadius": 34,
+      "physicalCapsuleHalfHeight": 98
+    },
+    "dodge": "Original DA_Roll_Mocap114 eight directions, authored play rate/distance, CMC root motion and bounded aim recovery; no teleport",
+    "cast": "Input starts the original Zero montage and snapshots the selected plan/aim. Only its source Attack Release notify commits one native DWRules cast and cost per action revision. Movement, hurt, death, replacement, skill switching and input modals cancel unreleased intent. Held input may chain only after the authored Action End marker. Native cooldown, payment and damage remain authoritative.",
+    "ruleTarget": "Invisible attached target preserves the original feet+60cm sphere with radius 45cm; registered before creating the native player session; real CMC velocity is published for the existing moving-player query",
+    "geometry": "AS static-object sphere queries exclude the physical Pawn capsule; native rule hit detection remains authoritative",
+    "camera": {
+      "pitch": -60,
+      "yaw": 0,
+      "distance": 2200,
+      "fov": 60,
+      "offsetZ": 75,
+      "lagSpeed": 10,
+      "follow": "Original CleanCameraFollow, PostPhysics; exact linear-target integration, reset after teleport"
+    },
+    "input": {
+      "WASD": "camera relative",
+      "Shift": "dodge",
+      "Q/E/T/G": "existing items",
+      "CapsLock": "walk toggle",
+      "readyState": "manual battle start, movement permitted after scene is ready"
+    },
+    "assetCompilation": "Opus editor asset concurrency 2, texture concurrency 1, following observed first-load texture compilation memory pressure; texture quality is unchanged",
+    "preparation": "Movement suspended until assets and geometry are ready; CharacterMovement resumes walking through the normal movement entry point",
+    "lootMovement": "Existing navigation route and CMC are retained; a pickup click uses the same movement-cancel transition",
+    "targeting": "Manual aim resolves a live registered enemy within its existing rule-target footprint; auto aim selects a live registered, non-staged enemy. Empty ground and stale points cannot start an action or set the native casting flag. Wind-up retains the selected enemy object, and invalidation is checked both each tick (including pause/preparation transitions) and at Attack Release. Target loss cancels movement lock and intent without payment or retargeting that action. Rule formulas, native hit geometry and target distances are unchanged."
+  },
+  "nativeAdaptations": [
+    "Replace TopDownRuntime account/UI character parent with ACharacter",
+    "Expose existing engine root-motion translation scale setter to AS",
+    "Remove TopDownRuntime dependency and omit FCS3CEditor module"
+  ],
+  "unchangedNativeSource": [
+    "CleanMotionAnimInstance.cpp",
+    "CleanMotionAnimInstance.h",
+    "CleanNetworkCharacter.cpp",
+    "AnimNode_CleanRollRoot.cpp",
+    "AnimNode_CleanRollRoot.h"
+  ],
+  "ruleEngineEditedByThisTask": false,
+  "ruleNumbersEditedByThisTask": false,
+  "uiAssetsImportedByThisTask": false,
+  "runtimeJavaScriptImported": false,
+  "assetManifest": "Zero3CAssets.json",
+  "preparedGraphReport": "Zero3CPrepared.json",
+  "validation": {
+    "assetPreparation": "passed, prepare-clean.log",
+    "fullNativeRuntime": "passed: Saved/Verification/Hero/integration.log",
+    "renderedRuntime": "passed DX12, 1600x900: Saved/Verification/Hero/visual-gameplay.log",
+    "nativeHurtProof": "400 -> 262.55 -> 148.55 -> 13.55 -> dead; original native target id 1073741824",
+    "eightDirectionTravelCm": [
+      500.328764,
+      502.052316,
+      493.512794,
+      499.670998,
+      499.693861,
+      502.530871,
+      492.965362,
+      500.316223
+    ],
+    "lootRegression": "passed actual dungeon: Saved/Verification/WorldUI/loot-integration.log (native death, label, walking pickup, inventory and Hunter)",
+    "liveWindow": "Existing Opus game PID 90584 started at 2026-10-25 16:09:54 before target gating. This task did not interrupt that game; reopen it to load the new code.",
+    "nativeRhiMarkers": [
+      "ZeroCameraFollow",
+      "RigAndIdle",
+      "LocomotionAndReadOnly",
+      "CastPose",
+      "Pause",
+      "RootMotionEightDirections",
+      "NativeCastAndDodge",
+      "NativeHitAndDeath",
+      "ZeroCameraFollow",
+      "RetryAndCache",
+      "RuntimeIntegration",
+      "CancelledWindupNoCast",
+      "AuthoredCastRelease",
+      "HeldCastOnePerMotion",
+      "NoTargetNoCast",
+      "TargetLostBeforeRelease"
+    ],
+    "fixtureLighting": "Only one directional light; extra off-map physics fixture lights disabled",
+    "authoredCastRelease": {
+      "nativeRuntime": "passed: Saved/Verification/Hero/integration.log",
+      "nativeDelaySeconds": 0.450791,
+      "nativePayment": "100 -> 98 at Attack Release (native regeneration later restores 0.133331)",
+      "cancelledWindup": "no cast, no payment; wrong-sequence and stale notifies ignored",
+      "duplicateNotify": "one commit and one payment per action revision",
+      "heldInput": "3 motions / 3 actual source releases in 2.112313 seconds, with living enemy targets",
+      "renderedRuntime": "DX12 1600x900: source release at 0.456385 seconds; held input 3 motions / 3 releases in 2.095821 seconds, with living enemy targets",
+      "lootRegression": "passed after Notify integration: Saved/Verification/WorldUI/loot-integration.log (native boss death, flight, labels, walking pickup, inventory, Hunter)"
+    },
+    "targetGate": {
+      "nativeRuntime": "passed NoTargetNoCast and TargetLostBeforeRelease: Saved/Verification/Hero/integration.log",
+      "renderedRuntime": "passed all 15 markers in DX12 1600x900: Saved/Verification/Hero/visual-gameplay.log",
+      "lootRegression": "passed actual dungeon after target gating: Saved/Verification/WorldUI/loot-integration.log (native boss death, flight, labels, walking pickup, inventory and Hunter)",
+      "coverage": [
+        "empty scene rejects direct and held/auto stale-aim requests",
+        "empty ground with other living enemies rejects requests",
+        "target death/removal during wind-up cancels, even with other living enemies",
+        "living targets still release only from the actual source Notify",
+        "no cost or native cast on target loss"
+      ],
+      "status": "retired: the old manual enemy-only gate was removed; current free-cast checks are in Saved/Verification/FreeCast/receipt.json"
+    }
+  },
+  "testScope": "Verify-Hero defaults to an opt-in transient flat physics fixture. Native hurt/death uses one actual monster so a nonlethal hurt is observable before death; this is not an AI/crowd performance test. -Dungeon retains the actual production scene and requires its navigation to be ready. Tests never write the player profile.",
+  "reportsSuperseded": [
+    "HeroIntegration.json describes the previous simplified APawn adapter and is superseded by this report"
+  ],
+  "currentCastingVerification": {
+    "manual": "world-point free casting",
+    "automatic": "retains living-target validation",
+    "readyAndCleared": true,
+    "verification": "Saved/Verification/FreeCast/receipt.json",
+    "heroRegression": "Saved/Verification/Hero/integration.log",
+    "execution": "NullRHI native runtime; older targetGate/rendered markers are historical"
+  }
+}

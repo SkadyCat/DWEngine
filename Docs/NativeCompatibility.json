@@ -1,0 +1,207 @@
+{
+  "authorization": "允许修复兼容缺口，规则语义与数值不变",
+  "changes": [
+    "原规则目录兼容 WebTraits/WebBuilds、零时长元数据、已知标签元数据及新增统计项",
+    "装备授予技能和献祭按原始规则表达执行",
+    "共享控制单位上限、替换保留攻击时钟，替换不触发献祭",
+    "毒状态进入原生分层运行时",
+    "召唤物投射物继承发射词条、连续发射和衍生伤害归属",
+    "早于组件 BeginPlay 的目标注册保持稳定且可重复，防止玩家气血脱节",
+    "测试夹具更新至当前规则目录；新增兼容回归"
+  ],
+  "files": [
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/DWRuleLibraryLoader.cpp",
+      "originalSha256": "c34644002641d19c8e8510b51ee2abd4e447d30e91777a21730e3b9f1734e68d",
+      "sha256": "8e6c8b12f8aab733b2922b24441625ff8c4312c18332c3b194b7b01ef2cdb550",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/DWRuleProgramReader.cpp",
+      "originalSha256": "831a92269fb6dd155fbcade6a95ee2bc3fbda7241e4e0335c980ec8fcfc84a2b",
+      "sha256": "1d499cedbb0d04a2b341afebbd23c920865057c756197094188d26a4037f0315",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/DWRuleWorldSubsystem.cpp",
+      "originalSha256": "4bb32f146dfefc04d2475de619f459a7731fb7d51ad710672d7bc9ac8d71647e",
+      "sha256": "2f67c15a8197fcb2e44b958c56f14d9de397dbae487973b9982d5a9cf5d15e55",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/DWRuleCombatParityTests.cpp",
+      "originalSha256": "4103d80e50b570be215b6e2e1181d23d17d5d4ce3a615015a5232b5465df61a9",
+      "sha256": "6968a36a81cfaec5e720ad689caac015264cddd7aac707c1757dd8cbd64717c7",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/DWRuleCurrentMigrationTests.cpp",
+      "originalSha256": "d7521913dff9cd45184c6a6a61061fab52e723ca2d722409e8011a6a6a6a5bc1",
+      "sha256": "c8e33eabbcdeaddbeaf904a22e7a3a8e860a29200e3a986f4d551a697762b4f3",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/DWRuleEquipmentBasesTests.cpp",
+      "originalSha256": "48bef78c7fa8b989f53310378f40cf9e6b53b9f9929d258afbc26799d1850a32",
+      "sha256": "6911bb64f8ffe4d256b790a2fba020bfc88db625b5911477c60e14455ac90e54",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/DWRuleHUDDpsTests.cpp",
+      "originalSha256": null,
+      "sha256": "5e0505579a2f600585327ed3b9ed52932db06677c5e539747c35161b58e5cf71",
+      "added": true
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/DWRuleHUDReceiptTests.cpp",
+      "originalSha256": null,
+      "sha256": "61b34350e52b740c6eea56778f27e82e2d1ba5b385717de0b4ca59141f0ce546",
+      "added": true
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/DWRuleMigrationTests.cpp",
+      "originalSha256": "05eed93b22d3959ef51f6f3b7007c3da54bd231f22ec0798b002b094daee6cbc",
+      "sha256": "f32a2daacd94adaa02c289a99c383e2d833485de951d48e01b23fcce0f871aff",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/DWRuleSessionTests.cpp",
+      "originalSha256": "44315f371c6b7a69bd848fd2fd7e522b0d0aaf8949e2ba2b1b0cb2b6a451286f",
+      "sha256": "caca28de82193f269b8dfc48de85b5da1f6c5c2c6f622deafaba88fdec1e0e8f",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Private/Tests/OpusCompatibilityTests.cpp",
+      "originalSha256": null,
+      "sha256": "1b53f78b0f0c39a3a5987606d1a4c26ac95676a4e8b67b2b9ab5fda44508c3c0",
+      "added": true
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRules/Public/DWRuleHUDDps.h",
+      "originalSha256": null,
+      "sha256": "642edb6fa5079f0aa76ae0e7a411cea0c1b7a79cfae984b4426e31d20c95f4ef",
+      "added": true
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleAilments.cpp",
+      "originalSha256": "75a348adae0da6f6f35cfe7f5dd63920399a1a95af58be81b9f52a32637da597",
+      "sha256": "55112408817520c7b86a663072459ff104d1200657d2468d0e6e46d0da3816e6",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleCombat.cpp",
+      "originalSha256": "5628b743d39d7954ec499e6660f2d21ae8ba42ee492928454f492330bb9b7abf",
+      "sha256": "a404ffc711a77af7a9f565443151e13f2ca1cc099293d9e4caa2a7571e0eb87c",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleCombatSkills.cpp",
+      "originalSha256": "a5ea97fc618b7fbdfee62453db015fd2263ab3cb49d6a9817990c90dd1a7d01e",
+      "sha256": "882f6496a455d42c668be3ac3a12a30b1616382d78f4fe8d9b6a4afb34814a02",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleCombatTriggers.cpp",
+      "originalSha256": "c30099e31a875888726d4ec2c9a9dc2a9775cb99187d917e98034735eb7ca7cb",
+      "sha256": "9d9f9e524760db24745ced5cd2b5fe7abca0b1bcc8dad011ad3123d0bff07f7f",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleCompiler.cpp",
+      "originalSha256": "2872484530ac48bbcb25eadc165bf5c26ca893e4ce8c5ec0a6dd08e7e9821e93",
+      "sha256": "18eba65b38c6312c5359257827057ecaaf89c03c2071eec1305ba526b1a09bad",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleLibrary.cpp",
+      "originalSha256": "204753566a73cafe402a57be7a772400511d5f16cf2498dd57d3809c755c9efe",
+      "sha256": "b4fc3f9dc6c53a9c3bce7dac399225b5ae42e83db4ae4102a6e6eb45a0792857",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleLoadout.cpp",
+      "originalSha256": "6056ae14b419d3d02e150c4240e40e8d6f2068d9bf8170eaf16f2fea7aabad53",
+      "sha256": "afe08a91a577ce46850ba18d5ca1e4812274a644fe770451064c31cd0785f1f3",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleMinions.cpp",
+      "originalSha256": "1518f94c61da2d664572434f338dc3fd19bea5644b02da21618f974703906f36",
+      "sha256": "2b5ea6cb92b1848fa36b938f010ce2afac6d1578a13d9140a15378afe2719564",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleProjectileAffixes.cpp",
+      "originalSha256": "6c356fbd4afce62d09c10f5369819679f7d329aa220c724ed9235903b2f48b69",
+      "sha256": "8109cc2d177ce63f017b63fa2c96f1041392b6ecf6c11fc765ae9d163235aa46",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleProjectileHits.cpp",
+      "originalSha256": "ec1ad53274955545d4e0a97cfa892e969c24334e4dcdd279d89661bf37b88ee1",
+      "sha256": "f53190d633123d8196a91ee11d4ae5b1a0ff2f3d198629c1e69ebdc111effaf5",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleSheet.cpp",
+      "originalSha256": "bbc4972c0aabd99d82244fe0ba5076a9f8178f1d9f5a4055682997f8a97c9b99",
+      "sha256": "0d194b5fd1ceba7a49343a9e61f3cbf109d11a6f0a4df058b03a4f18ef5e53f8",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleVM.cpp",
+      "originalSha256": "4634a8ba33a38918e73ce84fd7b58bd6fbfa58bbf7ea10de3263562aeee59b41",
+      "sha256": "46a52531e46856b3317f2b7aec24f9d3904c65d617a39569c6b08c235d7e715a",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/DWRuleWorld.cpp",
+      "originalSha256": "a99315c782243b0aeb4ee9788b5dfeec016130a82c71d42e6992b31116043832",
+      "sha256": "a6ceff0dc62713870235898b242cc344050ad334251c91098f2acb87e1165bb7",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Private/Generated/DWRuleSheetCatalog.inl",
+      "originalSha256": "6981f7be474ec802e1c9ae647a286129f91a0ba2c9544e34a00128b4fe1705c6",
+      "sha256": "16b54b9df599d8d1870b107cce10efa1a155c57c0aa51360753ababeb3599cab",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Public/DWRuleCombat.h",
+      "originalSha256": "93d30561bbf00356efd92b52c45aeac3dd3a60a4a1a71bb28eb22666cdb99098",
+      "sha256": "4a03518cf1809d68c6c98c10603ba0a5a24cbc6881b19c472ac1fba0c157ca22",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Public/DWRuleMinions.h",
+      "originalSha256": "46b46bc466add1c6be61a1d7cddc4672c1997c8f961a1c2fb2b3f5eb1297ce0b",
+      "sha256": "c26cdb72a8304cd09d47dbcc92ce826adcea38f56458a5ef13a18b8492fa2f33",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Public/DWRuleProgram.h",
+      "originalSha256": "4fc8051bf862502152a2fe8c27a6d6e865bf69b7930857ced960597f701694fb",
+      "sha256": "06628052119d87f04ccf8af06fa9c375d346cb8dd32c5d76b45f033d023d5cce",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Public/DWRuleProjectileAffixes.h",
+      "originalSha256": "cf8f8ca9f2f7f4b0f4f582e5d7b3ce8ed2019453d49d491bc33a822db7830204",
+      "sha256": "a8cf5ff0102e693d2e84f796a9bd8880da6af446642f2543b5817e8af332ebc7",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Public/DWRuleTypes.h",
+      "originalSha256": "434f5001e781ecc00a84b5ccdd1488ce7380fa939d08c83061444c0525f64ffb",
+      "sha256": "5a38d6141a4a2de565ba5df37fe01db63b1594e0b876c6c10c8ab39b237a72ee",
+      "added": false
+    },
+    {
+      "file": "Plugins/DWRules/Source/DWRulesCore/Public/DWRuleWorldExtension.h",
+      "originalSha256": "b1b3f829a08d9b1eceb76dc2498a54913fc934edf5d84e712038da0f1ec8ef5d",
+      "sha256": "1fe6275aad091c03bd3d372b7ee3dcd8af89b43e93c4a2fbf5c33ccf268da534",
+      "added": false
+    }
+  ],
+  "rulesDataChanged": false
+}

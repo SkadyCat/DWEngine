@@ -1,0 +1,89 @@
+{
+  "sourceProject": "hud-darksteel-20261024",
+  "equipmentSourceRevision": 29,
+  "currentUICreatorRevision": 30,
+  "exportSourceHash": "2159ec0f732d86e2decedd5264837e4060608d894eb5df46ea781a436181a05f",
+  "bundle": "G:\\DungeonWorldOpus\\CustomTools\\UICreatorAlpha\\exports\\wbp-082cc735-b64e-4c4d-b1d5-a99f21f655ef\\bundle.json",
+  "compiled": true,
+  "saved": true,
+  "reloadedInSeparateProcess": true,
+  "hierarchyMatches": true,
+  "nativeButtonStateChecks": 1616,
+  "maxLayoutErrorPixels": 8.138020825754211e-05,
+  "initialDeployment": {
+    "files": 10855,
+    "mismatches": []
+  },
+  "preservedConcurrentResourceHUDPatch": {
+    "ok": true,
+    "new_nodes": [
+      "hud-screen-instance::rs-resources-instance::rs-stun-title",
+      "hud-screen-instance::rs-resources-instance::rs-stun-value",
+      "hud-screen-instance::rs-resources-instance::rs-stun"
+    ],
+    "scene_count": 44,
+    "source_hash": "979ab4dd50f260ce51c12c23c7a7e2298df35814e65aecb2d401d8651c12f2aa",
+    "unrelated_nodes_preserved": true,
+    "authoring": "G:\\DungeonWorldOpus\\CustomTools\\UICreatorAlpha\\Screen\\RuleStudio-HUD\\hud.uialpha.json",
+    "backup": "G:\\DungeonWorldOpus\\Saved\\Verification\\PlayerStun\\BeforeHUD"
+  },
+  "currentRuntimeSourceHash": "979ab4dd50f260ce51c12c23c7a7e2298df35814e65aecb2d401d8651c12f2aa",
+  "rarities": [
+    "common",
+    "magic",
+    "rare",
+    "legendary"
+  ],
+  "maskMethod": "edge-connected-near-black, smoothstep 18..30, original RGB retained",
+  "nativeMaskedIcons": 80,
+  "tests": {
+    "uicreatorExistingTests": "15 passed",
+    "character": "EQUIPMENT_STYLE_PASS FourRaritiesAndReplacement",
+    "inventory": "EQUIPMENT_STYLE_PASS FourRaritiesAndReplacement",
+    "emptyToFilledCellsRetainIconGeometry": true
+  },
+  "pixelExact": false,
+  "pixelComparison": [
+    {
+      "state": "inventory",
+      "pixels": 1440000,
+      "changedPixels": 1211356,
+      "changedRgbPixels": 1211356,
+      "maxChannelError": 26,
+      "meanAbsoluteError": 0.43071510416666664,
+      "exact": false,
+      "referenceSha256": "bfa79d25c022445ae31de3db14162e8b8c10244e74670f7c19075928425a764a",
+      "nativeSha256": "b6825f223bb7a023960c87a7626c3eb0c55581488b30a62d31e436dd9e3fcc84",
+      "differenceBounds": [
+        0,
+        0,
+        1599,
+        899
+      ]
+    },
+    {
+      "state": "character",
+      "pixels": 1440000,
+      "changedPixels": 567152,
+      "changedRgbPixels": 567152,
+      "maxChannelError": 30,
+      "meanAbsoluteError": 0.20178315972222222,
+      "exact": false,
+      "referenceSha256": "e0e86cff4bd2885386e91ac4bee46adfaba9a3db9e38029d1080c201f36b9740",
+      "nativeSha256": "decf79e5aef8d79c60a2a32691989ceaa01be402ed6f6e6090405328edaf3291",
+      "differenceBounds": [
+        0,
+        0,
+        1599,
+        899
+      ]
+    }
+  ],
+  "proof": {
+    "character": "Docs/Proof/EquipmentStyle-UE-Character.png",
+    "inventory": "Docs/Proof/EquipmentStyle-UE-Inventory.png",
+    "uicreator": "Docs/Proof/EquipmentStyle-UICreator.png"
+  },
+  "ruleSemanticsChanged": false,
+  "gameplayLanguage": "Lua + AngelScript"
+}

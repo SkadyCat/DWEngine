@@ -1,0 +1,10 @@
+{
+  "label": "基准2",
+  "customTools": {
+    "path": "CustomTools",
+    "repository": "independent-local-git",
+    "commit": "63f0fbf18d9979d093c71dc55c9ad6a7803a7be2",
+    "subject": "基准2"
+  },
+  "restore": "Restore the Opus commit containing this manifest and the separate CustomTools commit recorded above. Both repositories use Git LFS for binary assets."
+}

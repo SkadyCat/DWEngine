@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "SVG Canvas Bridge",
+  "Description": "Imports first-class SVG assets, source hierarchy, layout and per-widget render caches into Widget Blueprints. Includes independent pixel verification commandlets.",
+  "Category": "User Interface",
+  "CanContainContent": true,
+  "Modules": [
+    { "Name": "SvgCanvasRuntime", "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "SvgCanvasEditor", "Type": "Editor", "LoadingPhase": "Default" }
+  ]
+}
