@@ -1,0 +1,258 @@
+[
+  {
+    "id": "cloth_grunt",
+    "mesh": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt",
+    "scale": 1.0,
+    "gait": 278.13773932847766,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "goblin_archer",
+    "mesh": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer",
+    "scale": 1.0,
+    "gait": 215.90260653342892,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshyGoblins/archer/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "goblin_dagger_scout",
+    "mesh": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout",
+    "scale": 1.0,
+    "gait": 239.9257385741809,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "goblin_hammer_chief",
+    "mesh": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief",
+    "scale": 1.0,
+    "gait": 251.92514524720391,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "goblin_laborer",
+    "mesh": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer",
+    "scale": 1.0,
+    "gait": 195.530754394371,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "goblin_shaman",
+    "mesh": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman",
+    "scale": 1.0,
+    "gait": 242.120701937069,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "goblin_shield_trooper",
+    "mesh": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper",
+    "scale": 1.0,
+    "gait": 220.46294293607855,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "rust_warrior",
+    "mesh": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior",
+    "scale": 1.0,
+    "gait": 294.5339710334842,
+    "clips": {
+      "attack1": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack1_FootContact",
+      "attack2": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack2_FootContact",
+      "death": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_death",
+      "hit": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_hit_FootContact",
+      "idle": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_idle_FootContact",
+      "run": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_run_FootContact",
+      "walk": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_walk_FootContact"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "archer",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_archer",
+    "scale": 1.0,
+    "gait": 350.0,
+    "clips": {
+      "idle": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim",
+      "run": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_run_f",
+      "attack1": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim_shot",
+      "hit": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_GetDamage",
+      "death": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_death"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "crossbowman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_crossbowman",
+    "scale": 1.0,
+    "gait": 350.0,
+    "clips": {
+      "idle": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_idleAim",
+      "run": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_run_f",
+      "attack1": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_Shot",
+      "hit": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_GetDamage",
+      "death": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_death"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "mage",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_mage",
+    "scale": 1.0,
+    "gait": 150.0,
+    "clips": {
+      "idle": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_idle_combat",
+      "run": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_combat_walk_f",
+      "attack1": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_attack1",
+      "hit": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_GetDamage",
+      "death": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_death"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "samurai",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_samurai",
+    "scale": 1.0,
+    "gait": 350.0,
+    "clips": {
+      "idle": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_idle",
+      "run": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_run_f",
+      "attack1": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_attack_01",
+      "hit": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_GetDamage",
+      "death": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_death"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "spearman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_spearman",
+    "scale": 1.0,
+    "gait": 350.0,
+    "clips": {
+      "idle": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_idle",
+      "run": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_run_f",
+      "attack1": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_attack_01",
+      "hit": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_GetDamage",
+      "death": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_death"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "swordsman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_swordsman",
+    "scale": 1.0,
+    "gait": 350.0,
+    "clips": {
+      "idle": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_idle",
+      "run": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_run",
+      "attack1": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_attack01_part1",
+      "hit": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_GetDamage",
+      "death": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_death"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  },
+  {
+    "id": "axeman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_axeman",
+    "scale": 1.0,
+    "gait": 350.0,
+    "clips": {
+      "idle": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_idle",
+      "run": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_run_f",
+      "attack1": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_attack_01",
+      "hit": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_GetDamage",
+      "death": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_death"
+    },
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "pelvis": "pelvis"
+  }
+]

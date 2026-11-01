@@ -1,0 +1,4579 @@
+[
+  {
+    "id": "cloth_grunt",
+    "mesh": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt",
+    "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.SK_cloth_grunt_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "goblin_archer",
+    "mesh": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer",
+    "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshyGoblins/archer/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.SK_archer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "goblin_dagger_scout",
+    "mesh": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout",
+    "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.SK_dagger_scout_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "goblin_hammer_chief",
+    "mesh": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief",
+    "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.SK_hammer_chief_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "goblin_laborer",
+    "mesh": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer",
+    "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.SK_laborer_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "goblin_shaman",
+    "mesh": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman",
+    "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.SK_shaman_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "goblin_shield_trooper",
+    "mesh": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper",
+    "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.SK_shield_trooper_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rust_warrior",
+    "mesh": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior",
+    "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+    "bones": [
+      "root",
+      "root1",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "attack1": {
+        "asset": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack1_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack2": {
+        "asset": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack2_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.699999988079071,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_death",
+        "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_hit_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "idle": {
+        "asset": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_idle_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_run_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "walk": {
+        "asset": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_walk_FootContact",
+        "skeleton": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.SK_rust_warrior_Skeleton",
+        "sameSkeleton": true,
+        "duration": 1.600000023841858,
+        "rootMotion": false,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "archer",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_archer",
+    "skeleton": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+    "bones": [
+      "root",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "helmet",
+      "Jaw",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "lowerarm_twist_02_l",
+      "lowerarm_twist_01_l",
+      "hand_l",
+      "index_metacarpal_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_metacarpal_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "pinky_metacarpal_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "ring_metacarpal_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "upperarm_twist_01_l",
+      "upperarm_twist_02_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "lowerarm_twist_02_r",
+      "lowerarm_twist_01_r",
+      "hand_r",
+      "pinky_metacarpal_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "ring_metacarpal_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "middle_metacarpal_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "index_metacarpal_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "upperarm_twist_01_r",
+      "upperarm_twist_02_r",
+      "quiver",
+      "arrow",
+      "Bow1",
+      "Bow2",
+      "Bow3",
+      "Bow4",
+      "BowRope",
+      "Bow8",
+      "Bow9",
+      "Bow10",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r",
+      "calf_twist_02_r",
+      "calf_twist_01_r",
+      "thigh_twist_01_r",
+      "thigh_twist_02_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "calf_twist_02_l",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "thigh_twist_02_l",
+      "ik_foot_root",
+      "ik_foot_l",
+      "ik_foot_r",
+      "ik_hand_root",
+      "ik_hand_gun",
+      "ik_hand_l",
+      "ik_hand_r",
+      "interaction",
+      "center_of_mass"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "idle": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_run_f",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack1": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim_shot",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 2.0333333015441895,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_GetDamage",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -10.837971687316895,
+            0.0
+          ],
+          [
+            0.0,
+            -36.693260192871094,
+            0.0
+          ],
+          [
+            0.0,
+            -39.7093620300293,
+            0.0
+          ],
+          [
+            0.0,
+            -40.65849304199219,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_death",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "crossbowman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_crossbowman",
+    "skeleton": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.SKEL_CBFullBody",
+    "bones": [
+      "root",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "helmet",
+      "Jaw",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "lowerarm_twist_02_l",
+      "lowerarm_twist_01_l",
+      "hand_l",
+      "index_metacarpal_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_metacarpal_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "pinky_metacarpal_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "ring_metacarpal_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "upperarm_twist_01_l",
+      "upperarm_twist_02_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "lowerarm_twist_02_r",
+      "lowerarm_twist_01_r",
+      "hand_r",
+      "pinky_metacarpal_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "ring_metacarpal_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "middle_metacarpal_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "index_metacarpal_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "upperarm_twist_01_r",
+      "upperarm_twist_02_r",
+      "cape1",
+      "cape2",
+      "cape3",
+      "cape4",
+      "cape5",
+      "Crossbow",
+      "CrossbowNose",
+      "CrossbowshoulderL",
+      "CrossbowshoulderR",
+      "Bowstring",
+      "Bolt",
+      "bag",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r",
+      "calf_twist_02_r",
+      "calf_twist_01_r",
+      "thigh_twist_01_r",
+      "thigh_twist_02_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "calf_twist_02_l",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "thigh_twist_02_l",
+      "ik_foot_root",
+      "ik_foot_l",
+      "ik_foot_r",
+      "ik_hand_root",
+      "ik_hand_gun",
+      "ik_hand_l",
+      "ik_hand_r",
+      "interaction",
+      "center_of_mass"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "idle": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_idleAim",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.SKEL_CBFullBody",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_run_f",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.SKEL_CBFullBody",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack1": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_Shot",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.SKEL_CBFullBody",
+        "sameSkeleton": true,
+        "duration": 1.0,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_GetDamage",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.SKEL_CBFullBody",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -10.837971687316895,
+            0.0
+          ],
+          [
+            0.0,
+            -36.693260192871094,
+            0.0
+          ],
+          [
+            0.0,
+            -39.7093620300293,
+            0.0
+          ],
+          [
+            0.0,
+            -40.65849304199219,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_death",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.SKEL_CBFullBody",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mage",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_mage",
+    "skeleton": "/Game/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.SKEL_skeleton",
+    "bones": [
+      "root",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "helmet",
+      "Jaw",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "lowerarm_twist_02_l",
+      "lowerarm_twist_01_l",
+      "hand_l",
+      "index_metacarpal_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_metacarpal_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "pinky_metacarpal_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "ring_metacarpal_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "sleeve1_l",
+      "sleeve2_l",
+      "sleeve3_l",
+      "sleeve4_l",
+      "upperarm_twist_01_l",
+      "upperarm_twist_02_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "lowerarm_twist_02_r",
+      "lowerarm_twist_01_r",
+      "hand_r",
+      "pinky_metacarpal_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "ring_metacarpal_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "middle_metacarpal_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "index_metacarpal_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "sleeve1_r",
+      "sleeve2_r",
+      "sleeve3_r",
+      "sleeve4_r",
+      "upperarm_twist_01_r",
+      "upperarm_twist_02_r",
+      "cape1",
+      "cape2",
+      "cape3",
+      "cape4",
+      "cape5",
+      "Book",
+      "Page1",
+      "Page2",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r",
+      "calf_twist_02_r",
+      "calf_twist_01_r",
+      "thigh_twist_01_r",
+      "thigh_twist_02_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "calf_twist_02_l",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "thigh_twist_02_l",
+      "innerSkirt1_l",
+      "innerSkirt2_l",
+      "innerSkirt3_l",
+      "innerSkirt4_l",
+      "innerSkirt5_l",
+      "innerSkirt6_l",
+      "innerSkirt7_l",
+      "innerSkirt1_r",
+      "innerSkirt2_r",
+      "innerSkirt3_r",
+      "innerSkirt4_r",
+      "innerSkirt5_r",
+      "innerSkirt6_r",
+      "innerSkirt7_r",
+      "outerSkirt1_l",
+      "outerSkirt2_l",
+      "outerSkirt3_l",
+      "outerSkirt4_l",
+      "outerSkirt5_l",
+      "outerSkirt6_l",
+      "outerSkirt7_l",
+      "outerSkirt8_l",
+      "outerSkirt9_l",
+      "outerSkirt1_r",
+      "outerSkirt2_r",
+      "outerSkirt3_r",
+      "outerSkirt4_r",
+      "outerSkirt5_r",
+      "outerSkirt6_r",
+      "outerSkirt7_r",
+      "outerSkirt8_r",
+      "outerSkirt9_r",
+      "outerFrontSkirt1",
+      "outerFrontSkirt2",
+      "outerFrontSkirt3",
+      "outerFrontSkirt4",
+      "outerFrontSkirt5",
+      "outerFrontSkirt6",
+      "outerFrontSkirt7",
+      "outerFrontSkirt8",
+      "innerFrontSkirt1",
+      "innerFrontSkirt2",
+      "innerFrontSkirt3",
+      "innerFrontSkirt4",
+      "innerFrontSkirt5",
+      "innerFrontSkirt6",
+      "innerFrontSkirt7",
+      "innerFrontSkirt8",
+      "outerBackSkirt1",
+      "outerBackSkirt2",
+      "outerBackSkirt3",
+      "outerBackSkirt4",
+      "outerBackSkirt5",
+      "outerBackSkirt6",
+      "outerBackSkirt7",
+      "outerBackSkirt8",
+      "outerBackSkirt9",
+      "innerBackSkirt1",
+      "innerBackSkirt2",
+      "innerBackSkirt3",
+      "innerBackSkirt4",
+      "innerBackSkirt5",
+      "innerBackSkirt6",
+      "innerBackSkirt7",
+      "ik_foot_root",
+      "ik_foot_l",
+      "ik_foot_r",
+      "ik_hand_root",
+      "ik_hand_gun",
+      "ik_hand_l",
+      "ik_hand_r",
+      "interaction",
+      "center_of_mass"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "idle": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_idle_combat",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_combat_walk_f",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 2.133333444595337,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack1": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_attack1",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_GetDamage",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -10.837971687316895,
+            0.0
+          ],
+          [
+            0.0,
+            -36.693260192871094,
+            0.0
+          ],
+          [
+            0.0,
+            -39.7093620300293,
+            0.0
+          ],
+          [
+            0.0,
+            -40.65849304199219,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_death",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "samurai",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_samurai",
+    "skeleton": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.SKEL_FullBody",
+    "bones": [
+      "root",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "helmet",
+      "Jaw",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "lowerarm_twist_02_l",
+      "lowerarm_twist_01_l",
+      "hand_l",
+      "index_metacarpal_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_metacarpal_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "pinky_metacarpal_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "ring_metacarpal_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "upperarm_twist_01_l",
+      "upperarm_twist_02_l",
+      "shoulderArmor_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "lowerarm_twist_02_r",
+      "lowerarm_twist_01_r",
+      "hand_r",
+      "pinky_metacarpal_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "ring_metacarpal_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "middle_metacarpal_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "index_metacarpal_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "upperarm_twist_01_r",
+      "upperarm_twist_02_r",
+      "shoulderArmor_r",
+      "shoulderArmor_r1",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r",
+      "calf_twist_02_r",
+      "calf_twist_01_r",
+      "thigh_twist_01_r",
+      "thigh_twist_02_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "calf_twist_02_l",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "thigh_twist_02_l",
+      "RBSkirt",
+      "FSkirt1",
+      "FSkirt2",
+      "LFSkirt1",
+      "LFSkirt2",
+      "LBSkirt",
+      "BSkirt1",
+      "BSkirt2",
+      "BSkirt3",
+      "RFSkirt",
+      "knot1_l",
+      "knot2_l",
+      "knot3_l",
+      "knot4_l",
+      "knot5_r",
+      "knot6_r",
+      "knot4_r",
+      "ik_foot_root",
+      "ik_foot_l",
+      "ik_foot_r",
+      "ik_hand_root",
+      "ik_hand_gun",
+      "ik_hand_l",
+      "ik_hand_r",
+      "interaction",
+      "center_of_mass",
+      "weapon"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "idle": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_idle",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_run_f",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack1": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_attack_01",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 3.0,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_GetDamage",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -10.837971687316895,
+            0.0
+          ],
+          [
+            0.0,
+            -36.693260192871094,
+            0.0
+          ],
+          [
+            0.0,
+            -39.7093620300293,
+            0.0
+          ],
+          [
+            0.0,
+            -40.65849304199219,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_death",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "spearman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_spearman",
+    "skeleton": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.SKEL_FullBody",
+    "bones": [
+      "root",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "helmet",
+      "Jaw",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "lowerarm_twist_02_l",
+      "lowerarm_twist_01_l",
+      "hand_l",
+      "index_metacarpal_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_metacarpal_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "pinky_metacarpal_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "ring_metacarpal_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "upperarm_twist_01_l",
+      "upperarm_twist_02_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "lowerarm_twist_02_r",
+      "lowerarm_twist_01_r",
+      "hand_r",
+      "pinky_metacarpal_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "ring_metacarpal_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "middle_metacarpal_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "index_metacarpal_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "upperarm_twist_01_r",
+      "upperarm_twist_02_r",
+      "cape1",
+      "cape2",
+      "cape3",
+      "cape4",
+      "cape5",
+      "cape6",
+      "cape7",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r",
+      "calf_twist_02_r",
+      "calf_twist_01_r",
+      "thigh_twist_01_r",
+      "thigh_twist_02_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "calf_twist_02_l",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "thigh_twist_02_l",
+      "ik_foot_root",
+      "ik_foot_l",
+      "ik_foot_r",
+      "ik_hand_root",
+      "ik_hand_gun",
+      "ik_hand_l",
+      "ik_hand_r",
+      "interaction",
+      "center_of_mass",
+      "weapon",
+      "weapon2"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "idle": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_idle",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_run_f",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack1": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_attack_01",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 3.0,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            50.56300735473633,
+            0.0
+          ],
+          [
+            0.0,
+            37.079132080078125,
+            0.0
+          ],
+          [
+            0.0,
+            49.105690002441406,
+            0.0
+          ],
+          [
+            0.0,
+            49.222747802734375,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_GetDamage",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -10.837971687316895,
+            0.0
+          ],
+          [
+            0.0,
+            -36.693260192871094,
+            0.0
+          ],
+          [
+            0.0,
+            -39.7093620300293,
+            0.0
+          ],
+          [
+            0.0,
+            -40.65849304199219,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_death",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.SKEL_FullBody",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "swordsman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_swordsman",
+    "skeleton": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.SKEL_skeleton",
+    "bones": [
+      "root",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "helmet",
+      "Jaw",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "lowerarm_twist_02_l",
+      "lowerarm_twist_01_l",
+      "hand_l",
+      "index_metacarpal_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_metacarpal_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "pinky_metacarpal_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "ring_metacarpal_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "upperarm_twist_01_l",
+      "upperarm_twist_02_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "lowerarm_twist_02_r",
+      "lowerarm_twist_01_r",
+      "hand_r",
+      "pinky_metacarpal_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "ring_metacarpal_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "middle_metacarpal_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "index_metacarpal_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "upperarm_twist_01_r",
+      "upperarm_twist_02_r",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r",
+      "calf_twist_02_r",
+      "calf_twist_01_r",
+      "thigh_twist_01_r",
+      "thigh_twist_02_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "calf_twist_02_l",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "thigh_twist_02_l",
+      "ik_foot_root",
+      "ik_foot_l",
+      "ik_foot_r",
+      "ik_hand_root",
+      "ik_hand_gun",
+      "ik_hand_l",
+      "ik_hand_r",
+      "interaction",
+      "center_of_mass",
+      "weapon"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "idle": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_idle",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_run",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            67.33350372314453,
+            0.0
+          ],
+          [
+            0.0,
+            134.66700744628906,
+            0.0
+          ],
+          [
+            0.0,
+            202.00050354003906,
+            0.0
+          ],
+          [
+            0.0,
+            268.9973449707031,
+            0.0
+          ]
+        ]
+      },
+      "attack1": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_attack01_part1",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 0.6333333253860474,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_GetDamage",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -10.837971687316895,
+            0.0
+          ],
+          [
+            0.0,
+            -36.693260192871094,
+            0.0
+          ],
+          [
+            0.0,
+            -39.7093620300293,
+            0.0
+          ],
+          [
+            0.0,
+            -40.64265823364258,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_death",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.SKEL_skeleton",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "axeman",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_axeman",
+    "skeleton": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+    "bones": [
+      "root",
+      "pelvis",
+      "spine_01",
+      "spine_02",
+      "spine_03",
+      "spine_04",
+      "spine_05",
+      "neck_01",
+      "neck_02",
+      "head",
+      "helmet",
+      "Jaw",
+      "clavicle_l",
+      "upperarm_l",
+      "lowerarm_l",
+      "lowerarm_twist_02_l",
+      "lowerarm_twist_01_l",
+      "hand_l",
+      "index_metacarpal_l",
+      "index_01_l",
+      "index_02_l",
+      "index_03_l",
+      "middle_metacarpal_l",
+      "middle_01_l",
+      "middle_02_l",
+      "middle_03_l",
+      "thumb_01_l",
+      "thumb_02_l",
+      "thumb_03_l",
+      "pinky_metacarpal_l",
+      "pinky_01_l",
+      "pinky_02_l",
+      "pinky_03_l",
+      "ring_metacarpal_l",
+      "ring_01_l",
+      "ring_02_l",
+      "ring_03_l",
+      "upperarm_twist_01_l",
+      "upperarm_twist_02_l",
+      "clavicle_r",
+      "upperarm_r",
+      "lowerarm_r",
+      "lowerarm_twist_02_r",
+      "lowerarm_twist_01_r",
+      "hand_r",
+      "pinky_metacarpal_r",
+      "pinky_01_r",
+      "pinky_02_r",
+      "pinky_03_r",
+      "ring_metacarpal_r",
+      "ring_01_r",
+      "ring_02_r",
+      "ring_03_r",
+      "middle_metacarpal_r",
+      "middle_01_r",
+      "middle_02_r",
+      "middle_03_r",
+      "index_metacarpal_r",
+      "index_01_r",
+      "index_02_r",
+      "index_03_r",
+      "thumb_01_r",
+      "thumb_02_r",
+      "thumb_03_r",
+      "upperarm_twist_01_r",
+      "upperarm_twist_02_r",
+      "thigh_r",
+      "calf_r",
+      "foot_r",
+      "ball_r",
+      "calf_twist_02_r",
+      "calf_twist_01_r",
+      "thigh_twist_01_r",
+      "thigh_twist_02_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "ball_l",
+      "calf_twist_02_l",
+      "calf_twist_01_l",
+      "thigh_twist_01_l",
+      "thigh_twist_02_l",
+      "ik_foot_root",
+      "ik_foot_l",
+      "ik_foot_r",
+      "ik_hand_root",
+      "ik_hand_gun",
+      "ik_hand_l",
+      "ik_hand_r",
+      "interaction",
+      "center_of_mass",
+      "weapon"
+    ],
+    "leftFoot": "foot_l",
+    "rightFoot": "foot_r",
+    "clips": {
+      "idle": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_idle",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "run": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_run_f",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 0.800000011920929,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "attack1": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_attack_01",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 3.0,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "hit": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_GetDamage",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 1.6666666269302368,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -10.837971687316895,
+            0.0
+          ],
+          [
+            0.0,
+            -36.693260192871094,
+            0.0
+          ],
+          [
+            0.0,
+            -39.7093620300293,
+            0.0
+          ],
+          [
+            0.0,
+            -40.65849304199219,
+            0.0
+          ]
+        ]
+      },
+      "death": {
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_death",
+        "skeleton": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.SKEL_Skeleton_full",
+        "sameSkeleton": true,
+        "duration": 2.3333332538604736,
+        "rootMotion": true,
+        "rootTrack": "root",
+        "rootSamples": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  }
+]

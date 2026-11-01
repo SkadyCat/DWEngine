@@ -1,0 +1,10 @@
+{
+  "map": "/Game/ThreeCLab/Maps/L_ThreeCArena",
+  "fighters": 100,
+  "factions": [
+    34,
+    33,
+    33
+  ],
+  "models": 15
+}

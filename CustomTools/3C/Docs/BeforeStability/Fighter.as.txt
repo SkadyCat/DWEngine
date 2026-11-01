@@ -1,0 +1,113 @@
+// Source assets and source playback policy are preserved. C toggles a controlled
+// movement reference so animation defects can be separated from controller defects.
+class AThreeCFighter : ACharacter
+{
+ default AutoPossessAI=EAutoPossessAI::PlacedInWorldOrSpawned;
+ default AIControllerClass=AAIController;
+ default Mesh.SetCollisionProfileName(n"NoCollision");
+ default Mesh.RelativeLocation=FVector(0,0,-85);
+ default Mesh.RelativeRotation=FRotator(0,-90,0);
+ default Mesh.VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones;
+ default CharacterMovement.bUseRVOAvoidance=true;
+ default CharacterMovement.AvoidanceConsiderationRadius=300;
+ UPROPERTY(DefaultComponent,Attach=CollisionCylinder) UStaticMeshComponent Marker;
+ default Marker.SetCollisionProfileName(n"NoCollision");
+ default Marker.RelativeLocation=FVector(0,0,-83);
+ default Marker.RelativeScale3D=FVector(1.05,1.05,0.025);
+ UPROPERTY() AThreeCGameMode Arena;
+ UPROPERTY() AThreeCFighter Target;
+ UPROPERTY() TMap<FName,UAnimSequence> Clips;
+ UPROPERTY() int Index=0;
+ UPROPERTY() int Team=0;
+ UPROPERTY() FString ModelId;
+ FC3Model Data;
+ FName State;
+ double Health=160,ActionLeft=0,AttackCooldown=0,HitAt=-1,RespawnLeft=0;
+ double Range=160,Speed=300,ActionRate=1,ActualSpeed=0,TurnRate=0;
+ double TargetClock=0;
+ bool Dead=false;
+ int AttackCount=0,HitCount=0,DeathCount=0,WalkCount=0,TurnCount=0;
+ FVector SpawnPoint,PreviousPosition,PreviousLeft,PreviousRight;
+ double PreviousYaw=0;
+ bool PreviousFeet=false;
+ void Configure(AThreeCGameMode InArena,FC3Model InData,int InIndex,int InTeam,FVector At)
+ {
+  Arena=InArena;Data=InData;ModelId=Data.Id;Index=InIndex;Team=InTeam;SpawnPoint=At;
+  CapsuleComponent.SetCapsuleSize(34,85);CapsuleComponent.SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility,ECollisionResponse::ECR_Block);
+  Mesh.SetSkinnedAssetAndUpdate(Cast<USkeletalMesh>(LoadObject(nullptr,Data.Path)));Mesh.SetRelativeScale3D(FVector(Data.Scale));
+  for(auto P:Data.Clips){auto Clip=Cast<UAnimSequence>(LoadObject(nullptr,P.Value));if(Clip!=nullptr)Clips.Add(P.Key,Clip);}
+  Marker.SetStaticMesh(Cast<UStaticMesh>(LoadObject(nullptr,"/Engine/BasicShapes/Cylinder.Cylinder")));
+  Marker.SetMaterial(0,Cast<UMaterialInterface>(LoadObject(nullptr,"/Game/ThreeCLab/Materials/M_Team"+Team)));
+  Range=ModelId.Contains("archer")||ModelId=="crossbowman"?850:ModelId.Contains("mage")||ModelId.Contains("shaman")?700:ModelId=="spearman"?210:155;
+  Speed=Math::Clamp(Data.Gait,180.0,355.0);TargetClock=(Index%13)*0.023;
+  CharacterMovement.bOrientRotationToMovement=false;CharacterMovement.bUseControllerDesiredRotation=false;
+  CharacterMovement.MaxWalkSpeed=Speed;CharacterMovement.MaxAcceleration=1400;CharacterMovement.BrakingDecelerationWalking=1800;
+  Reset();
+ }
+ void Reset()
+ {
+  SetActorLocation(SpawnPoint);Health=160+(Index%3)*35;Dead=false;Target=nullptr;HitAt=-1;ActionLeft=0;AttackCooldown=0.2+(Index%7)*0.1;
+  PreviousPosition=ActorLocation;PreviousYaw=ActorRotation.Yaw;PreviousFeet=false;State=NAME_None;Play(n"idle",true);SetControlled(Arena.Controlled);
+ }
+ void SetControlled(bool Value){CharacterMovement.SetMovementMode(Value?EMovementMode::MOVE_Walking:EMovementMode::MOVE_None);}
+ void Play(FName Key,bool Loop,double Rate=1)
+ {
+  FName Chosen=Clips.Contains(Key)?Key:n"idle";if(!Clips.Contains(Chosen))return;
+  if(State==Chosen&&Loop){ActionRate=Rate;Mesh.SetPlayRate(float32(Rate));return;}
+  State=Chosen;ActionRate=Rate;Mesh.PlayAnimation(Clips[Chosen],Loop);Mesh.SetPlayRate(float32(Rate));ActionLeft=Loop?0:Clips[Chosen].GetPlayLength()/Math::Max(0.05,Rate);
+ }
+ void TakeTrainingHit(double Damage)
+ {
+  if(Dead)return;Health-=Damage;HitCount++;
+  if(Health<=0){Dead=true;DeathCount++;HitAt=-1;Play(n"death",false);RespawnLeft=ActionLeft+1.2;return;}
+  // Opus also interrupts the current single-node animation with the hit clip.
+  Play(n"hit",false);
+ }
+ UFUNCTION(BlueprintOverride) void Tick(float DeltaSeconds)
+ {
+  if(Arena==nullptr)return;double Dt=Math::Min(double(DeltaSeconds),0.05);
+  if(Arena.Paused){Mesh.SetPlayRate(0);CharacterMovement.StopMovementImmediately();return;}
+  Mesh.SetPlayRate(float32(ActionRate));
+  if(Dead){RespawnLeft-=Dt;if(RespawnLeft<=0)Reset();return;}
+  if(Arena.Clock<2.5)return;
+  TargetClock-=Dt;if(TargetClock<=0||!IsValid(Target)||Target.Dead)
+  {
+   TargetClock=0.4+(Index%9)*0.015;double Best=1e30;Target=nullptr;
+   for(auto Other:Arena.Fighters)if(Other!=this&&Other.Team!=Team&&!Other.Dead){double D=(Other.ActorLocation-ActorLocation).SizeSquared2D();if(D<Best){Best=D;Target=Other;}}
+  }
+  if(Target==nullptr){Play(n"idle",true);return;}
+  AttackCooldown-=Dt;ActionLeft=Math::Max(0.0,ActionLeft-Dt);
+  if(HitAt>=0)
+  {
+   HitAt-=Dt;if(HitAt<=0){HitAt=-1;if(!Target.Dead&&(Target.ActorLocation-ActorLocation).Size2D()<Range*1.35){Target.TakeTrainingHit(9+(Index%5));if(Range>300)System::DrawDebugLine(Mesh.WorldLocation+FVector(0,0,100),Target.Mesh.WorldLocation+FVector(0,0,90),Arena.TeamColor(Team),0.12,2);}}
+  }
+  FVector To=Target.ActorLocation-ActorLocation;double Distance=To.Size2D();
+  FRotator Facing=To.Rotation();Facing.Pitch=0;Facing.Roll=0;
+  SetActorRotation(Arena.Controlled?Math::RInterpTo(ActorRotation,Facing,float32(Dt),8):Facing);
+  FVector Move=FVector::ZeroVector;bool Acting=ActionLeft>0&&(State==n"attack1"||State==n"attack2"||State==n"hit");
+  double Drill=(Arena.Clock+Index*0.37)%28;
+  bool Retreat=Drill>22&&Drill<24.5;
+  double Pace=Drill>17&&Drill<20?0.45:Drill>24.5&&Drill<26?1.45:1.0;
+  if((Distance>Range*0.92||Retreat)&&(!Arena.Controlled||!Acting))Move=To.GetSafeNormal2D()*(Retreat?-1:1);
+  FVector Push=FVector::ZeroVector;
+  for(auto Other:Arena.Fighters)if(Other!=this&&!Other.Dead){FVector Away=ActorLocation-Other.ActorLocation;double D=Away.Size2D();if(D>1&&D<95)Push+=Away.GetSafeNormal2D()*(1-D/95);}
+  if(Arena.Controlled){CharacterMovement.MaxWalkSpeed=Speed*Pace;AddMovementInput((Move+Push*0.6).GetSafeNormal2D(),float32(Move.IsNearlyZero()?0:1));}
+  else
+  {
+   FVector P=ActorLocation+Move*Speed*Pace*Dt+Push*120*Dt;P.X=Math::Clamp(P.X,-3600.0,3600.0);P.Y=Math::Clamp(P.Y,-3600.0,3600.0);SetActorLocation(P);
+  }
+  if(Distance<Range&&!Retreat&&AttackCooldown<=0&&(!Arena.Controlled||!Acting))
+  {
+   AttackCount++;FName Attack=AttackCount%2==0&&Clips.Contains(n"attack2")?n"attack2":n"attack1";
+   Play(Attack,false);AttackCooldown=Math::Max(0.9,ActionLeft+0.12)+(Index%5)*0.07;HitAt=Math::Min(0.42,ActionLeft*0.42);
+  }
+  else if(ActionLeft<=0)
+  {
+   bool Moving=!Move.IsNearlyZero();FName Next=Moving?(Pace<0.6&&Clips.Contains(n"walk")?n"walk":n"run"):n"idle";
+   double Rate=Moving?Speed*Pace/Math::Max(1.0,Data.Gait*Data.Scale):1;Play(Next,true,Rate);if(Moving)WalkCount++;
+  }
+  ActualSpeed=(ActorLocation-PreviousPosition).Size2D()/Math::Max(0.001,double(DeltaSeconds));
+  double DeltaYaw=ActorRotation.Yaw-PreviousYaw;while(DeltaYaw>180)DeltaYaw-=360;while(DeltaYaw<-180)DeltaYaw+=360;TurnRate=Math::Abs(DeltaYaw)/Math::Max(0.001,double(DeltaSeconds));if(Math::Abs(DeltaYaw)>40)TurnCount++;
+  PreviousPosition=ActorLocation;PreviousYaw=ActorRotation.Yaw;
+ }
+}

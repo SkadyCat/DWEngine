@@ -1,0 +1,234 @@
+{
+  "verification": "PASS",
+  "models": 15,
+  "cases": 30,
+  "blendSeconds": 0.22,
+  "probe": "Frozen attack recovery -> frozen idle, actual head and both hand positions every frame",
+  "results": [
+    {
+      "model": "archer",
+      "hardCut": {
+        "spanCm": 0.06155149613127446,
+        "maxFrameStepCm": 0.06155149613127446,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 0.06155149613127446,
+        "maxFrameStepCm": 0.006979939326392786,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "axeman",
+      "hardCut": {
+        "spanCm": 1.041673942940402,
+        "maxFrameStepCm": 1.041673942940402,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 1.041673942940402,
+        "maxFrameStepCm": 0.11811764712353645,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "cloth_grunt",
+      "hardCut": {
+        "spanCm": 147.8835313005545,
+        "maxFrameStepCm": 147.8835313005545,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 147.8835313005545,
+        "maxFrameStepCm": 23.16207329448907,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "crossbowman",
+      "hardCut": {
+        "spanCm": 0.5013140214615986,
+        "maxFrameStepCm": 0.5013140214615986,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 0.5013140214615986,
+        "maxFrameStepCm": 0.05685653774193282,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "goblin_archer",
+      "hardCut": {
+        "spanCm": 92.12111736579728,
+        "maxFrameStepCm": 92.12111736579728,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 92.12111736579728,
+        "maxFrameStepCm": 13.954053750569258,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "goblin_dagger_scout",
+      "hardCut": {
+        "spanCm": 80.93829131997602,
+        "maxFrameStepCm": 80.93829131997602,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 80.93829131997602,
+        "maxFrameStepCm": 12.226582332370972,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "goblin_hammer_chief",
+      "hardCut": {
+        "spanCm": 152.7710043772126,
+        "maxFrameStepCm": 152.7710043772126,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 152.7710043772126,
+        "maxFrameStepCm": 23.275601316603378,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "goblin_laborer",
+      "hardCut": {
+        "spanCm": 84.4331013672398,
+        "maxFrameStepCm": 84.4331013672398,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 84.4331013672398,
+        "maxFrameStepCm": 12.840681033006346,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "goblin_shaman",
+      "hardCut": {
+        "spanCm": 82.28203319213007,
+        "maxFrameStepCm": 82.28203319213007,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 82.28203319213007,
+        "maxFrameStepCm": 12.443703539224483,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "goblin_shield_trooper",
+      "hardCut": {
+        "spanCm": 96.14676458719939,
+        "maxFrameStepCm": 96.14676458719939,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 96.14676458719939,
+        "maxFrameStepCm": 14.54625540547003,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "mage",
+      "hardCut": {
+        "spanCm": 0.5987337889479617,
+        "maxFrameStepCm": 0.5987337889479617,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 0.5987337889479617,
+        "maxFrameStepCm": 0.067895655972983,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "rust_warrior",
+      "hardCut": {
+        "spanCm": 152.4207311660851,
+        "maxFrameStepCm": 152.4207311660851,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 152.4207311660851,
+        "maxFrameStepCm": 23.84209199637595,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "samurai",
+      "hardCut": {
+        "spanCm": 1.941753369721286,
+        "maxFrameStepCm": 1.941753369721286,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 1.941753369721286,
+        "maxFrameStepCm": 0.2201881716100968,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "spearman",
+      "hardCut": {
+        "spanCm": 0.17960412004183157,
+        "maxFrameStepCm": 0.17960412004183157,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 0.17960412004183157,
+        "maxFrameStepCm": 0.020423518820217843,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    },
+    {
+      "model": "swordsman",
+      "hardCut": {
+        "spanCm": 137.84454912116274,
+        "maxFrameStepCm": 137.84454912116274,
+        "intermediatePoses": 0,
+        "minimumSlotWeight": 1.0
+      },
+      "crossfade": {
+        "spanCm": 137.84454912116274,
+        "maxFrameStepCm": 21.092752821390647,
+        "intermediatePoses": 12,
+        "minimumSlotWeight": 1.0
+      }
+    }
+  ]
+}

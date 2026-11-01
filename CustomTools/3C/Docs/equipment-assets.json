@@ -1,0 +1,3829 @@
+{
+  "verification": "PASS",
+  "dependencies": [
+    "/Game/Melee/Wand/Materials/M_Wand_Brass",
+    "/Game/Melee/Wand/Materials/M_Wand_Charcoal",
+    "/Game/Melee/Wand/Materials/M_Wand_Crystal",
+    "/Game/Melee/Wand/Materials/M_Wand_Grip",
+    "/Game/Melee/Wand/SM_CoalLamp_Wand",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Materials/M_Bow",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Materials/M_skeleton_Cloth",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Materials/M_skeleton_body",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/PHYS_Skeleton_full",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SK_Archer_full",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SeparateMesh/SK_Bow",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_BaseColor",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_Material_OcclusionRoughnessMetallic",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_Normal",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_BaseColor",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_Normal",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_OcclusionRoughnessMetallic",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_BaseColor",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_Emissive",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_Normal",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_OcclusionRoughnessMetallic",
+    "/Game/Skeleton_Collection/Skeleton_Samurai/Materials/M_Skeleton_Samurai_Katana",
+    "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SM_Katana",
+    "/Game/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_Katana_BaseColor",
+    "/Game/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_Katana_Normal",
+    "/Game/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_Katana_OcclusionRoughnessMetallic",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Materials/M_Skeleton_Spearman_weapon",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Shield",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Spear",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_weapon_BaseColor",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_weapon_Normal",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_weapon_OcclusionRoughnessMetallic",
+    "/Game/Skeleton_Collection/Skeleton_swordsman/Materials/M_Sword",
+    "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+    "/Game/Skeleton_Collection/Skeleton_swordsman/Textures/T_Sword_BaseColor",
+    "/Game/Skeleton_Collection/Skeleton_swordsman/Textures/T_Sword_Material_OcclusionRoughnessMetallic",
+    "/Game/Skeleton_Collection/Skeleton_swordsman/Textures/T_Sword_Normal",
+    "/Game/Skeleton_Collection/Skeleton_with_axe/Materials/M_Axe",
+    "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SM_Axe",
+    "/Game/Skeleton_Collection/Skeleton_with_axe/Textures/T_Axe_BaseColor",
+    "/Game/Skeleton_Collection/Skeleton_with_axe/Textures/T_Axe_Material_OcclusionRoughnessMetallic",
+    "/Game/Skeleton_Collection/Skeleton_with_axe/Textures/T_Axe_Normal"
+  ],
+  "equipment": [
+    {
+      "asset": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SM_Katana",
+      "class": "StaticMesh",
+      "bounds": {
+        "min": [
+          -4.727700233459473,
+          -25.986600875854492,
+          -4.747799873352051
+        ],
+        "max": [
+          4.727700233459473,
+          158.67349243164062,
+          18.87969970703125
+        ]
+      },
+      "materials": [
+        "/Game/Skeleton_Collection/Skeleton_Samurai/Materials/M_Skeleton_Samurai_Katana.M_Skeleton_Samurai_Katana"
+      ]
+    },
+    {
+      "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Spear",
+      "class": "StaticMesh",
+      "bounds": {
+        "min": [
+          -3.4856996536254883,
+          -142.27859497070312,
+          -8.274398803710938
+        ],
+        "max": [
+          3.6180005073547363,
+          142.7340087890625,
+          8.27850341796875
+        ]
+      },
+      "materials": [
+        "/Game/Skeleton_Collection/Skeleton_Spearman/Materials/M_Skeleton_Spearman_weapon.M_Skeleton_Spearman_weapon"
+      ]
+    },
+    {
+      "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Shield",
+      "class": "StaticMesh",
+      "bounds": {
+        "min": [
+          -40.1378173828125,
+          -1.941472053527832,
+          -40.293601989746094
+        ],
+        "max": [
+          40.270904541015625,
+          12.902926445007324,
+          40.104400634765625
+        ]
+      },
+      "materials": [
+        "/Game/Skeleton_Collection/Skeleton_Spearman/Materials/M_Skeleton_Spearman_weapon.M_Skeleton_Spearman_weapon"
+      ]
+    },
+    {
+      "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+      "class": "StaticMesh",
+      "bounds": {
+        "min": [
+          -2.8538999557495117,
+          -21.067100524902344,
+          -9.280200004577637
+        ],
+        "max": [
+          2.8538999557495117,
+          103.53929901123047,
+          13.2568998336792
+        ]
+      },
+      "materials": [
+        "/Game/Skeleton_Collection/Skeleton_swordsman/Materials/M_Sword.M_Sword"
+      ]
+    },
+    {
+      "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SM_Axe",
+      "class": "StaticMesh",
+      "bounds": {
+        "min": [
+          -3.893899917602539,
+          -101.44539642333984,
+          -33.45610046386719
+        ],
+        "max": [
+          3.893900156021118,
+          86.59100341796875,
+          33.64929962158203
+        ]
+      },
+      "materials": [
+        "/Game/Skeleton_Collection/Skeleton_with_axe/Materials/M_Axe.M_Axe"
+      ]
+    },
+    {
+      "asset": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SeparateMesh/SK_Bow",
+      "class": "SkeletalMesh",
+      "materials": [
+        "/Game/Skeleton_Collection/Skeleton_Archer/Materials/M_Bow.M_Bow"
+      ]
+    },
+    {
+      "asset": "/Game/Melee/Wand/SM_CoalLamp_Wand",
+      "class": "StaticMesh",
+      "bounds": {
+        "min": [
+          -4.813958168029785,
+          -4.099999904632568,
+          -12.0
+        ],
+        "max": [
+          4.813958168029785,
+          4.099999904632568,
+          70.0
+        ]
+      },
+      "materials": [
+        "/Game/Melee/Wand/Materials/M_Wand_Grip.M_Wand_Grip",
+        "/Game/Melee/Wand/Materials/M_Wand_Brass.M_Wand_Brass",
+        "/Game/Melee/Wand/Materials/M_Wand_Charcoal.M_Wand_Charcoal",
+        "/Game/Melee/Wand/Materials/M_Wand_Crystal.M_Wand_Crystal"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "cloth_grunt",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_cloth_grunt_M_cloth_grunt.M_MassHit_cloth_grunt_M_cloth_grunt"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              40.825041259109064,
+              -25.813100886813423,
+              62.97476031574088
+            ],
+            "rotation": [
+              -21.806503501099492,
+              40.022897817985324,
+              -68.30298543168426
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -47.97668076071791,
+              -30.70347645105796,
+              73.01722527174987
+            ],
+            "rotation": [
+              36.009475311873956,
+              -69.95511505764506,
+              -48.30244194034977
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              40.898161728715365,
+              -29.27591035458865,
+              56.53777823086304
+            ],
+            "rotation": [
+              -14.52697820251148,
+              47.320503567155335,
+              -121.7667200853157
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -51.5244420754078,
+              -35.14715596412408,
+              68.42923006293825
+            ],
+            "rotation": [
+              52.41941235131477,
+              -110.03300410494427,
+              -166.3839286175462
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              43.0807177583097,
+              -27.443041660546807,
+              55.39745160497965
+            ],
+            "rotation": [
+              7.160242073311542,
+              43.01694789531251,
+              -97.26182934932332
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -52.33946011357472,
+              -32.91335945511884,
+              66.70103012785107
+            ],
+            "rotation": [
+              46.79946050791689,
+              -96.6909605575394,
+              -128.4610740082271
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              42.865773356374085,
+              27.078359328809704,
+              58.19489761201161
+            ],
+            "rotation": [
+              -8.828749471769125,
+              134.05215482919766,
+              -70.5314910569751
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -44.89292588277979,
+              -54.720517238959545,
+              93.25792623509514
+            ],
+            "rotation": [
+              24.687996904725665,
+              -48.53136579486844,
+              -21.240359841559695
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              45.0908325689289,
+              28.277593576109737,
+              51.33617447319377
+            ],
+            "rotation": [
+              -1.3846585474281874,
+              140.83402805174092,
+              -122.31820723216617
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -49.44291119907871,
+              -59.8468659603564,
+              90.72794987057529
+            ],
+            "rotation": [
+              54.22280234435377,
+              -66.7548730026146,
+              -122.53152881380217
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              42.9816927770683,
+              30.45769700049986,
+              50.86502515188623
+            ],
+            "rotation": [
+              20.21891442969946,
+              136.06585689456344,
+              -98.88963764095553
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -51.21156492833937,
+              -57.845560647008384,
+              89.50018063714657
+            ],
+            "rotation": [
+              44.359472866158605,
+              -62.24527725748441,
+              -91.37018950998247
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "goblin_archer",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_archer_M_archer_v2.M_MassStatus_M_MassHit_archer_M_archer_v2"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              24.730949771766777,
+              -2.2108421608623487,
+              49.984073379701655
+            ],
+            "rotation": [
+              4.6160857479145605,
+              49.466915348437354,
+              -72.4407730198451
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -32.05353812162642,
+              -5.2182859412334635,
+              56.257370573314574
+            ],
+            "rotation": [
+              13.293619359802591,
+              -88.16790773908092,
+              -58.789395934498316
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              27.397350134557108,
+              -1.3240606815989255,
+              45.580443886200214
+            ],
+            "rotation": [
+              -10.429925163704414,
+              53.90370005306471,
+              -123.19156726613926
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -34.7269600814114,
+              -4.629616164529775,
+              51.598404052050675
+            ],
+            "rotation": [
+              45.570651033420205,
+              -112.388465503456,
+              -168.16487885650264
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              29.336347828148604,
+              0.9435616253058923,
+              45.82134151125289
+            ],
+            "rotation": [
+              7.948866606724864,
+              49.655725914132,
+              -96.38813508789646
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -34.82025157572339,
+              -1.7130607122345203,
+              50.90895050139863
+            ],
+            "rotation": [
+              42.90117416000449,
+              -103.07270592003216,
+              -132.96680340453577
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              19.576142511519926,
+              24.790811929550173,
+              52.19346650257343
+            ],
+            "rotation": [
+              17.762404152488358,
+              142.90993737238216,
+              -72.52409516787345
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -35.752561013638754,
+              -20.664702105324206,
+              68.75260504570896
+            ],
+            "rotation": [
+              11.841639356677593,
+              -74.83516907345235,
+              -32.35546030900906
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              17.77768314510893,
+              27.960179943550152,
+              48.450650009357226
+            ],
+            "rotation": [
+              2.68400359453688,
+              147.29976391106987,
+              -122.26153026521072
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -40.222322410409035,
+              -20.70745782859281,
+              65.71630941922712
+            ],
+            "rotation": [
+              50.06200089766907,
+              -76.0070460085546,
+              -129.8410557648946
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              15.503783924498954,
+              29.679296155532654,
+              49.36381835774091
+            ],
+            "rotation": [
+              21.095383883430294,
+              143.1051739132466,
+              -96.42715720906105
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -40.98999882255755,
+              -17.87506759698465,
+              65.10101785431473
+            ],
+            "rotation": [
+              43.91071886581161,
+              -70.55699663356066,
+              -97.1587309803518
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "goblin_dagger_scout",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_dagger_scout_M_dagger_scout_v2.M_MassStatus_M_MassHit_dagger_scout_M_dagger_scout_v2"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              23.019998204210793,
+              -4.541053052262797,
+              58.00520557178399
+            ],
+            "rotation": [
+              14.929498068137214,
+              52.72379725804275,
+              -72.93372505854686
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -28.54537897211425,
+              -7.464122459675927,
+              63.736383870535384
+            ],
+            "rotation": [
+              3.960385743130064,
+              -93.66783192626289,
+              -60.6657944649393
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              24.477405056315096,
+              -5.312169027506611,
+              52.592977709564934
+            ],
+            "rotation": [
+              -8.72285060972,
+              56.5277297695382,
+              -123.62812367385486
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -31.36101509990014,
+              -8.939309474242693,
+              59.00700951137185
+            ],
+            "rotation": [
+              42.553316225650384,
+              -113.24552734545907,
+              -168.76125692099447
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              25.887355341352386,
+              -3.4597491415137682,
+              53.21368475291914
+            ],
+            "rotation": [
+              8.210846373575853,
+              52.084849224524675,
+              -96.04659357941247
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -31.207766338307316,
+              -6.548657465815578,
+              58.84116002427739
+            ],
+            "rotation": [
+              41.29314751509906,
+              -105.33807464281651,
+              -134.4856506297394
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              19.327198936244336,
+              18.485356136248754,
+              60.905339999773624
+            ],
+            "rotation": [
+              28.065020875149983,
+              146.457268956232,
+              -72.18556946968624
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -30.418939228883765,
+              -21.09879202756035,
+              75.31952249701922
+            ],
+            "rotation": [
+              5.854361930351539,
+              -83.93951515878352,
+              -34.80893806010509
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              19.029171357376345,
+              20.717526830527923,
+              55.71501644856292
+            ],
+            "rotation": [
+              4.342550078936946,
+              149.9264727633018,
+              -122.1009472320568
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -34.77169299472522,
+              -23.207683095035716,
+              72.30670347148373
+            ],
+            "rotation": [
+              48.03215655231468,
+              -79.54818816078134,
+              -132.51425699703455
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              17.25720974976211,
+              21.89226404170874,
+              56.84852472809878
+            ],
+            "rotation": [
+              21.353873408535712,
+              145.68433816254839,
+              -95.49372069545875
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -35.02389510002929,
+              -20.832265130625142,
+              72.06177112749553
+            ],
+            "rotation": [
+              43.57498782648798,
+              -73.74803381902235,
+              -99.3635389673764
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "goblin_hammer_chief",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_hammer_chief_M_hammer_chief_v2.M_MassStatus_M_MassHit_hammer_chief_M_hammer_chief_v2"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              43.409753753149054,
+              -3.454276982734321,
+              48.017166895303276
+            ],
+            "rotation": [
+              14.052172135879138,
+              55.24290657524726,
+              -72.29518820835644
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -53.54786234901169,
+              -9.093015182781917,
+              59.03349648574194
+            ],
+            "rotation": [
+              5.319384763145172,
+              -95.88222430444002,
+              -60.83699232954136
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              43.37421812215558,
+              -5.957797682747019,
+              42.98277665888371
+            ],
+            "rotation": [
+              -6.198214474967748,
+              60.318712682483635,
+              -124.12075526640398
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -56.09421808559562,
+              -11.949868246086337,
+              55.290626099074096
+            ],
+            "rotation": [
+              38.072309104199434,
+              -114.37405033186563,
+              -169.49177915495773
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              46.83176674621285,
+              -0.9750795924828948,
+              44.500774958526065
+            ],
+            "rotation": [
+              5.439111538815243,
+              146.64374835987186,
+              -81.37618089924923
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -55.47860328139401,
+              -5.974567842826631,
+              54.731346653373095
+            ],
+            "rotation": [
+              -34.631086059695754,
+              -165.24412127037345,
+              -139.34942704156302
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              35.34380883603818,
+              42.94277432126782,
+              55.64847740827855
+            ],
+            "rotation": [
+              27.133933131808803,
+              149.1984424281086,
+              -70.9170588019643
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -58.712532066256,
+              -35.404623605262074,
+              81.53853847009721
+            ],
+            "rotation": [
+              8.038955965286366,
+              -85.3448097693104,
+              -34.97154097967089
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              36.88615123728041,
+              43.773093768179535,
+              50.305658558417605
+            ],
+            "rotation": [
+              6.729126728789974,
+              153.79745359332938,
+              -121.73442313820792
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -62.21688323588648,
+              -38.7841375884352,
+              79.31299947664243
+            ],
+            "rotation": [
+              44.845909206523864,
+              -84.29461928764049,
+              -135.95525359212263
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              32.107107324705055,
+              46.62215203867364,
+              53.15698231160463
+            ],
+            "rotation": [
+              3.755185885035669,
+              -118.83568534034274,
+              -68.2969227872381
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -62.70168893876123,
+              -32.83021614287283,
+              78.46933316508078
+            ],
+            "rotation": [
+              -9.350016604113506,
+              -159.98430254898594,
+              -133.57671971976
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "goblin_laborer",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_laborer_M_laborer_v2.M_MassStatus_M_MassHit_laborer_M_laborer_v2"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              24.552975187884485,
+              -5.045961319693518,
+              48.31887085715189
+            ],
+            "rotation": [
+              10.378753896364348,
+              51.285902528204616,
+              -72.78797848292075
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -29.208571229024486,
+              -8.95323643390849,
+              54.79662703240106
+            ],
+            "rotation": [
+              8.09668852172726,
+              -91.29727561541485,
+              -59.95569630954888
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              24.900801601521906,
+              -6.2534097688346595,
+              44.817151589605004
+            ],
+            "rotation": [
+              -9.624327479234447,
+              55.14915126962213,
+              -123.40847565198996
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -30.964909318016403,
+              -9.789886366853676,
+              51.88792564542149
+            ],
+            "rotation": [
+              44.1387474499498,
+              -112.80632759288265,
+              -168.4595968446466
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              26.53412391754224,
+              -4.215717915543724,
+              45.29545025380666
+            ],
+            "rotation": [
+              8.080508219379727,
+              50.85943624511656,
+              -96.2202577317754
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -30.904355386951217,
+              -7.115909697193553,
+              51.507422762087174
+            ],
+            "rotation": [
+              42.13876370905805,
+              -104.16893897281182,
+              -133.70768978030642
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              20.981010058452668,
+              20.971939506020245,
+              51.61765838290002
+            ],
+            "rotation": [
+              23.519788723716285,
+              144.85570917537476,
+              -72.42698294715876
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -30.61827555190356,
+              -22.948456734577096,
+              66.87472904635976
+            ],
+            "rotation": [
+              8.540463747244601,
+              -79.9764601172602,
+              -33.85129909841434
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              21.512097295576055,
+              21.879022128960834,
+              48.048891052043295
+            ],
+            "rotation": [
+              3.465798961649978,
+              148.54758454495052,
+              -122.19826962995342
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -33.32671189432955,
+              -24.17834774490794,
+              65.03163625610438
+            ],
+            "rotation": [
+              49.11108450128676,
+              -77.72619973438782,
+              -131.1485160824604
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              19.52149868214199,
+              23.28033833766119,
+              49.1083859942603
+            ],
+            "rotation": [
+              21.223821369315033,
+              144.3872349606673,
+              -95.96919161903519
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -33.791717149530584,
+              -21.54749178052152,
+              64.63042875372233
+            ],
+            "rotation": [
+              43.76089083429076,
+              -72.08704885005925,
+              -98.2172544080665
+            ],
+            "scale": [
+              1.0,
+              1.0000003576278687,
+              1.0000001192092896
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "goblin_shaman",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_shaman_M_shaman_v2.M_MassStatus_M_MassHit_shaman_M_shaman_v2"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              23.157015714352646,
+              -5.461324561013195,
+              58.415162323927554
+            ],
+            "rotation": [
+              14.929325653822353,
+              52.723556328041795,
+              -72.933963153679
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -28.58041558652331,
+              -8.505026560467604,
+              64.25977392902985
+            ],
+            "rotation": [
+              3.960497670383805,
+              -93.66759515207268,
+              -60.665672177343964
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              24.498400320206756,
+              -5.701922711778099,
+              54.49113773656735
+            ],
+            "rotation": [
+              -8.673617767358923,
+              56.602688043513055,
+              -123.63973224013937
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -30.64947995030867,
+              -9.12676468266735,
+              60.699722780328685
+            ],
+            "rotation": [
+              42.510124338232714,
+              -113.25691556122152,
+              -168.76887267261353
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              26.234293608261687,
+              -3.421292665771424,
+              55.255321759485625
+            ],
+            "rotation": [
+              8.202326881771604,
+              52.005117465537374,
+              -96.0581630423722
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -30.46227693609235,
+              -6.206245726017052,
+              60.497108449590506
+            ],
+            "rotation": [
+              41.35836135656523,
+              -105.24943850423928,
+              -134.42713278779897
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              19.601978364552156,
+              18.791792299935736,
+              62.0155735678769
+            ],
+            "rotation": [
+              28.0621031130408,
+              146.45997139681373,
+              -72.1876044372386
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -30.33129533784081,
+              -22.246847434385412,
+              76.26196185186788
+            ],
+            "rotation": [
+              5.854012883380199,
+              -83.93994678923806,
+              -34.80913031847098
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              19.059773938682785,
+              20.668264456094434,
+              58.34950814280466
+            ],
+            "rotation": [
+              4.387130906212009,
+              150.00573532231778,
+              -122.0971655711764
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -33.62777372587845,
+              -23.344157456371928,
+              73.96616334844904
+            ],
+            "rotation": [
+              48.00195604770593,
+              -79.59752216038645,
+              -132.5505882377308
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              16.87806834543466,
+              22.114496959585644,
+              59.7449107318024
+            ],
+            "rotation": [
+              21.343331365965987,
+              145.60272797551605,
+              -95.52638447395812
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -33.935852409544864,
+              -20.442245267900482,
+              73.66696159916083
+            ],
+            "rotation": [
+              43.589726521372384,
+              -73.62209875639853,
+              -99.27655117190236
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "goblin_shield_trooper",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_shield_trooper_M_shield_trooper_v2.M_MassStatus_M_MassHit_shield_trooper_M_shield_trooper_v2"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              27.56213659979398,
+              -2.186493411659824,
+              50.437578005982814
+            ],
+            "rotation": [
+              14.929520036364508,
+              52.723811306177076,
+              -72.9337001922188
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -32.92042562457224,
+              -5.887700527208697,
+              57.349254427888056
+            ],
+            "rotation": [
+              3.9603870941907027,
+              -93.66782855872295,
+              -60.6657969756763
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              29.510997721320567,
+              -2.383040758183208,
+              45.0814269297145
+            ],
+            "rotation": [
+              -8.52417972519328,
+              56.82952320865024,
+              -123.67335643681913
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -35.74297202468703,
+              -6.3468273261776655,
+              52.421466598975655
+            ],
+            "rotation": [
+              42.24056716510966,
+              -113.32944416932277,
+              -168.8177001882324
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              31.87356698921354,
+              0.7209501648952541,
+              46.121510497827984
+            ],
+            "rotation": [
+              8.234938272385987,
+              52.314843094242185,
+              -96.0136489843657
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -35.4830789077495,
+              -2.2925360281792275,
+              52.140203011219604
+            ],
+            "rotation": [
+              41.16871226118935,
+              -105.50619668222349,
+              -134.59653210734155
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              22.743713236423794,
+              26.060680487109604,
+              54.60242101477954
+            ],
+            "rotation": [
+              28.061064266218388,
+              146.46087220670444,
+              -72.18834751385674
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -35.64889514809251,
+              -22.116598277579374,
+              71.25727942056652
+            ],
+            "rotation": [
+              5.853898555879043,
+              -83.9403036602328,
+              -34.80933578926524
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              21.868593853561595,
+              28.728824449063392,
+              49.63852952258696
+            ],
+            "rotation": [
+              4.529209092226513,
+              150.23576217811834,
+              -122.08010153495916
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -40.22819798096163,
+              -23.232842557617456,
+              68.0565540719512
+            ],
+            "rotation": [
+              47.81572284241036,
+              -79.89937124066054,
+              -132.77451420251074
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              18.89918927114166,
+              30.697147800925876,
+              51.53763632137996
+            ],
+            "rotation": [
+              21.371654835217264,
+              145.93296727149107,
+              -95.40715437666137
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -40.65585120073516,
+              -19.204377413811994,
+              67.64120737843302
+            ],
+            "rotation": [
+              43.545477970928324,
+              -73.9907168224675,
+              -99.53067011786565
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092896,
+              1.0000001192092896
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "rust_warrior",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_rust_warrior_M_rust_warrior.M_MassHit_rust_warrior_M_rust_warrior"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              43.31382317400424,
+              -8.784772546557239,
+              67.4770953441337
+            ],
+            "rotation": [
+              12.040500043782222,
+              51.84392345521835,
+              -72.94222861860945
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -53.03764560259524,
+              -14.08215996002643,
+              78.31109527628249
+            ],
+            "rotation": [
+              6.596146687355524,
+              -92.20459480376158,
+              -60.33462960599675
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              50.824087368313485,
+              -3.926402588657014,
+              59.60422441744461
+            ],
+            "rotation": [
+              -8.992915542295425,
+              56.11640067881304,
+              -123.56492828566942
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -57.71988198131045,
+              -8.335326544891661,
+              69.00814233437197
+            ],
+            "rotation": [
+              43.12163918938841,
+              -113.09104089846038,
+              -168.65620581343845
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              53.14547889530063,
+              -0.9717821087999061,
+              60.40567742360433
+            ],
+            "rotation": [
+              8.168122121107109,
+              51.67930097636641,
+              -96.10467394540957
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -57.57352094288041,
+              -4.533390323935343,
+              68.5681767492264
+            ],
+            "rotation": [
+              41.588868601144696,
+              -104.93463302733137,
+              -134.21904473884968
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              36.29483594569788,
+              39.7016074151843,
+              75.18234196120568
+            ],
+            "rotation": [
+              25.177103259535286,
+              145.47154427426102,
+              -72.4370910458058
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -57.318230730151484,
+              -40.302408570167046,
+              101.00720316406571
+            ],
+            "rotation": [
+              7.586558938766582,
+              -81.46051621040131,
+              -34.32268212306282
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              29.735640842474744,
+              47.84052378852569,
+              69.46177176147324
+            ],
+            "rotation": [
+              4.074852178489196,
+              149.5200143732959,
+              -122.13514166676576
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -66.26493177677426,
+              -35.78121166990363,
+              94.60332276088182
+            ],
+            "rotation": [
+              48.42116233638023,
+              -78.90638530690292,
+              -132.0352835547761
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              26.871132968376372,
+              49.811340789106,
+              71.09622662842226
+            ],
+            "rotation": [
+              21.30620981461397,
+              145.26002793745204,
+              -95.65415255252945
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -66.82868930931788,
+              -32.026722320424504,
+              94.09765739025556
+            ],
+            "rotation": [
+              43.64150234917939,
+              -73.17296811035051,
+              -98.96716157824117
+            ],
+            "scale": [
+              1.0,
+              1.0000001192092898,
+              0.9999999403953554
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "archer",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Archer_M_skeleton_Cloth.M_MassHit_Skeleton_Archer_M_skeleton_Cloth",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Archer_M_skeleton_body.M_MassHit_Skeleton_Archer_M_skeleton_body",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Archer_M_Bow.M_MassHit_Skeleton_Archer_M_Bow"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              -8.46331577634837,
+              58.83719604559312,
+              141.24319533676547
+            ],
+            "rotation": [
+              3.776357315471708,
+              92.32978086350256,
+              164.14393279366413
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -16.379608818188224,
+              -16.877190328670128,
+              145.43640894129848
+            ],
+            "rotation": [
+              -4.384187779889426,
+              -82.1935402971957,
+              11.932063257540653
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              -7.53943933178754,
+              68.79157195039939,
+              141.70924740035386
+            ],
+            "rotation": [
+              15.665041322925282,
+              -170.4412842967646,
+              -176.51048871011952
+            ],
+            "scale": [
+              1.0000001192092896,
+              1.0000004768371582,
+              0.9999989867210388
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -18.4799328824742,
+              -6.683668640889351,
+              146.59263634083484
+            ],
+            "rotation": [
+              3.0547655882854747,
+              -125.02030661193218,
+              8.483013153942565
+            ],
+            "scale": [
+              1.0000001192092896,
+              1.0000004768371582,
+              0.9999989867210388
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              -7.644132087937527,
+              67.98705933360286,
+              144.51397564072622
+            ],
+            "rotation": [
+              10.08625894632379,
+              -174.39175070122238,
+              -169.62425003259276
+            ],
+            "scale": [
+              1.0,
+              0.9999997019767761,
+              0.9999994039535522
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -17.53087505088154,
+              -7.573262316597173,
+              149.14339394576095
+            ],
+            "rotation": [
+              3.658722630475628,
+              -118.79043697758276,
+              21.731861780430958
+            ],
+            "scale": [
+              1.0,
+              0.9999997019767761,
+              0.9999994039535522
+            ]
+          },
+          "Bow1": {
+            "location": [
+              -10.698115165917422,
+              65.61673725610466,
+              142.14862632450627
+            ],
+            "rotation": [
+              74.42445016644065,
+              13.161010150208426,
+              16.148735522098594
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              9.405840661069764,
+              55.914341635162074,
+              133.64825194042004
+            ],
+            "rotation": [
+              -8.503565818269895,
+              78.99770691526628,
+              158.65541616432765
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              2.677392795518905,
+              -55.35979350652809,
+              148.50226970223164
+            ],
+            "rotation": [
+              -31.43605885819967,
+              -164.4660863292272,
+              -113.15261538297216
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              12.548748815987299,
+              65.24844387534216,
+              131.87145269329199
+            ],
+            "rotation": [
+              22.253424033263514,
+              171.94812415676483,
+              171.08592957080367
+            ],
+            "scale": [
+              1.0000001192092896,
+              1.0000004768371582,
+              0.9999989867210388
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              11.680095524662887,
+              -52.967851396227616,
+              153.28620781693894
+            ],
+            "rotation": [
+              -55.572623731563496,
+              -140.94285854047882,
+              -134.0933145549601
+            ],
+            "scale": [
+              1.0000001192092896,
+              1.0000004768371582,
+              0.9999989867210388
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              12.647023260551563,
+              65.04112159644149,
+              134.78213323782694
+            ],
+            "rotation": [
+              15.978122605620207,
+              169.23536323358994,
+              177.96399822204174
+            ],
+            "scale": [
+              1.0,
+              0.9999997019767761,
+              0.9999994039535522
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              10.731842324803758,
+              -50.51689345929673,
+              152.14951388495575
+            ],
+            "rotation": [
+              -48.58470231069118,
+              -143.30642996657375,
+              -122.17006472902754
+            ],
+            "scale": [
+              1.0,
+              0.9999997019767761,
+              0.9999994039535522
+            ]
+          },
+          "Bow1": {
+            "location": [
+              8.859751151509998,
+              63.074025353094044,
+              133.25743985711222
+            ],
+            "rotation": [
+              64.32057758363374,
+              24.19518243576557,
+              42.27316511983216
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "crossbowman",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Crossbowman_M_skeleton_CB_body.M_MassHit_Skeleton_Crossbowman_M_skeleton_CB_body",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Crossbowman_M_Skeleton_Crossbowman_Cloth.M_MassHit_Skeleton_Crossbowman_M_Skeleton_Crossbowman_Cloth",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Crossbowman_M_Skeleton_Crossbowman_Crossbow.M_MassHit_Skeleton_Crossbowman_M_Skeleton_Crossbowman_Crossbow"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              -22.95171651265329,
+              44.06543573991547,
+              104.48057766733821
+            ],
+            "rotation": [
+              -11.044051490201914,
+              175.5434241659649,
+              100.60249955031742
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -32.210232523702146,
+              4.095439749406161,
+              114.36334044577336
+            ],
+            "rotation": [
+              55.0562155828852,
+              -81.75412065156279,
+              11.356370939659534
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              -32.38054124257382,
+              45.22528274908621,
+              101.33203708136844
+            ],
+            "rotation": [
+              78.63077537664832,
+              -120.4155417462002,
+              150.39637630967013
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -33.80202004145649,
+              10.199925645105488,
+              106.00519295255232
+            ],
+            "rotation": [
+              35.70652614125862,
+              -154.49195423717208,
+              -55.05461451745054
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              -31.85300409422716,
+              47.683249762276475,
+              102.81698117643128
+            ],
+            "rotation": [
+              71.85538173417255,
+              -121.16845800499658,
+              157.4349541012389
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -33.25950851631504,
+              11.985649345859668,
+              108.1767585978381
+            ],
+            "rotation": [
+              57.9131595377836,
+              -134.29818771235747,
+              -52.861367337691355
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              -24.018691634391182,
+              27.26287273368331,
+              116.71091536113242
+            ],
+            "rotation": [
+              -8.61102398264967,
+              173.94418463265663,
+              125.04557050455259
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -31.412705825668084,
+              -13.621868363786167,
+              109.28336091150575
+            ],
+            "rotation": [
+              31.055745131299357,
+              -82.15921319199508,
+              6.998442037607717
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              -33.52743106503727,
+              29.18890502696281,
+              114.25417712943931
+            ],
+            "rotation": [
+              55.478014836814666,
+              -98.12658508447225,
+              171.2767961666618
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -33.37180610804876,
+              -4.70650062879912,
+              104.15156694599668
+            ],
+            "rotation": [
+              22.60326369335006,
+              -140.2394108208441,
+              -31.619081959555043
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              -33.0884032838763,
+              30.843517239981207,
+              116.61944017573639
+            ],
+            "rotation": [
+              49.1584906867746,
+              -102.14809032112933,
+              175.85670527286163
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -32.88011490663221,
+              -3.9450232282950877,
+              106.86767025277703
+            ],
+            "rotation": [
+              37.922706932260375,
+              -115.81825420669774,
+              -31.940118274830056
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "mage",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_skeleton_body.M_MassHit_Skeleton_Mage_M_skeleton_body",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_Skeleton_Mage_book.M_MassHit_Skeleton_Mage_M_Skeleton_Mage_book",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth.M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth.M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth.M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth.M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              45.90015433800988,
+              44.03754725929957,
+              157.81143434425584
+            ],
+            "rotation": [
+              -23.99874870674893,
+              73.69430094661364,
+              -95.9346392877721
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -58.70279676238012,
+              10.816254166190506,
+              136.5544089580316
+            ],
+            "rotation": [
+              11.721945003042364,
+              -25.626439292273126,
+              -54.9680098832266
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              48.55466925750318,
+              53.26906350830088,
+              155.00207260252262
+            ],
+            "rotation": [
+              -80.86565900518073,
+              -174.66569671309648,
+              152.05371226026557
+            ],
+            "scale": [
+              0.999999463558197,
+              1.000001072883606,
+              0.9999985694885254
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -68.09107639595999,
+              14.650353337626083,
+              133.943790878052
+            ],
+            "rotation": [
+              -24.823468433748182,
+              -48.28084491140228,
+              -57.394275267076175
+            ],
+            "scale": [
+              0.999999463558197,
+              1.000001072883606,
+              0.9999985694885254
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              45.652899494489645,
+              53.26880902543893,
+              154.6790991420641
+            ],
+            "rotation": [
+              -32.03871006509087,
+              83.18203435295133,
+              -96.55610170278474
+            ],
+            "scale": [
+              0.9999992847442627,
+              1.000000238418579,
+              0.9999991059303284
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -68.603819772126,
+              12.579502987430597,
+              135.85350910796174
+            ],
+            "rotation": [
+              -33.778512466415656,
+              -26.105785337062756,
+              -50.817155752790214
+            ],
+            "scale": [
+              0.9999992847442627,
+              1.000000238418579,
+              0.9999991059303284
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              45.565490450733904,
+              30.509043134254043,
+              175.1921164463949
+            ],
+            "rotation": [
+              -10.45533566595682,
+              71.27553471588857,
+              -100.48577622460445
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -50.26417852167186,
+              -47.884816242356074,
+              189.92351811295828
+            ],
+            "rotation": [
+              -79.38198825953835,
+              -168.67927416589484,
+              125.46453028723163
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              48.83349565973965,
+              39.95611518040965,
+              174.709595132919
+            ],
+            "rotation": [
+              -62.905583377060964,
+              97.29247019777868,
+              -124.18199516150382
+            ],
+            "scale": [
+              0.999999463558197,
+              1.000001072883606,
+              0.9999985694885254
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -48.7353507748427,
+              -48.19805234662774,
+              200.27822750326547
+            ],
+            "rotation": [
+              -37.99758814267309,
+              -141.98886948251564,
+              95.83249176175337
+            ],
+            "scale": [
+              0.999999463558197,
+              1.000001072883606,
+              0.9999985694885254
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              45.94007869870586,
+              40.22287632071236,
+              174.42401421253382
+            ],
+            "rotation": [
+              -17.97431762685108,
+              80.39522073791922,
+              -98.88003173768304
+            ],
+            "scale": [
+              0.9999992847442627,
+              1.000000238418579,
+              0.9999991059303284
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -46.742290911129736,
+              -49.915629177344975,
+              199.1486289592702
+            ],
+            "rotation": [
+              -33.8805999550051,
+              -167.8277388755796,
+              128.74479243118148
+            ],
+            "scale": [
+              0.9999992847442627,
+              1.000000238418579,
+              0.9999991059303284
+            ]
+          }
+        }
+      },
+      "sockets": []
+    },
+    {
+      "id": "samurai",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Samurai_M_skeleton_body.M_MassHit_Skeleton_Samurai_M_skeleton_body",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Samurai_M_Skeleton_Samurai_armor_top.M_MassHit_Skeleton_Samurai_M_Skeleton_Samurai_armor_top",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Samurai_M_Skeleton_Samurai_armor_bottom.M_MassHit_Skeleton_Samurai_M_Skeleton_Samurai_armor_bottom"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              -33.27865235441398,
+              1.0605055932213219,
+              89.54405953877256
+            ],
+            "rotation": [
+              -70.74598279606275,
+              -151.25180792118667,
+              -98.70899116693867
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -26.19379337931032,
+              -19.534409163480575,
+              84.6584275245733
+            ],
+            "rotation": [
+              75.39011521498676,
+              -13.947461782035724,
+              -104.56757742828472
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              -37.26578510426617,
+              -1.1029370124193367,
+              80.62309674202822
+            ],
+            "rotation": [
+              -13.095394895194175,
+              19.50743633889111,
+              90.92640687952806
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -28.01703493001702,
+              -19.09258052043853,
+              74.35610968938596
+            ],
+            "rotation": [
+              -28.233481868788427,
+              2.1503253036373677,
+              -96.20644143065539
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              -35.3296448962346,
+              -3.248259969127317,
+              81.04011803416093
+            ],
+            "rotation": [
+              -16.66542376108033,
+              25.470282555861264,
+              97.16103218704053
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -28.06211675885155,
+              -21.87459631333292,
+              75.03226040621172
+            ],
+            "rotation": [
+              -0.008991099333232647,
+              -6.951600601775549,
+              -86.51875840133076
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -30.067903518676758,
+              -19.618043899536133,
+              79.50178527832031
+            ],
+            "rotation": [
+              24.638957977294922,
+              -167.3126678466797,
+              101.3350067138672
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -30.067903518676758,
+              -19.618043899536133,
+              79.50178527832031
+            ],
+            "rotation": [
+              24.638957977294922,
+              -167.3126678466797,
+              101.3350067138672
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              -31.697518043517377,
+              -6.981336619607941,
+              129.59164711750697
+            ],
+            "rotation": [
+              -53.23322899262433,
+              -107.13776053743118,
+              -108.4826686994986
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -17.70986604819322,
+              -24.799933954827004,
+              117.7472716958478
+            ],
+            "rotation": [
+              20.083472248254786,
+              19.98590677202542,
+              -95.92731426718173
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              -33.99500929622204,
+              -13.589771611181925,
+              122.43543236390796
+            ],
+            "rotation": [
+              -28.746422075695882,
+              51.39342158893215,
+              100.59803183373548
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -26.633442209223624,
+              -28.18179161657115,
+              113.4356591978087
+            ],
+            "rotation": [
+              -81.77457014600263,
+              64.6306362920772,
+              -134.96052360893822
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              -31.157457368370366,
+              -14.07527871986034,
+              122.922811226801
+            ],
+            "rotation": [
+              -33.1658926934699,
+              57.3897926040824,
+              105.2771732454397
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -24.97031173223005,
+              -30.498462376411062,
+              113.69228663606651
+            ],
+            "rotation": [
+              -55.398870187462926,
+              17.575676675944,
+              -82.36239793432252
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -23.442840576171875,
+              -27.57333755493164,
+              117.96739959716797
+            ],
+            "rotation": [
+              72.33282470703128,
+              -96.79787445068361,
+              153.49900817871094
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -23.442840576171875,
+              -27.57333755493164,
+              117.96739959716797
+            ],
+            "rotation": [
+              72.33282470703128,
+              -96.79787445068361,
+              153.49900817871094
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "sockets": [
+        "weaponSocket"
+      ]
+    },
+    {
+      "id": "spearman",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Spearman_M_skeleton_body.M_MassHit_Skeleton_Spearman_M_skeleton_body",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Spearman_M_Skeleton_Spearman_Cloth.M_MassHit_Skeleton_Spearman_M_Skeleton_Spearman_Cloth"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              -16.896600964779164,
+              40.751392236616255,
+              94.73739127082482
+            ],
+            "rotation": [
+              -39.76923905430006,
+              157.17692680298467,
+              -154.15513344991157
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -35.60205644020149,
+              -42.47911692839703,
+              122.1813336609491
+            ],
+            "rotation": [
+              21.989982474287533,
+              5.0299947643411045,
+              95.0186104570052
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              -23.928197514068795,
+              44.9214030844092,
+              88.964268355881
+            ],
+            "rotation": [
+              -15.263557390145124,
+              -91.34351762852724,
+              133.85307022575668
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -45.54530251103903,
+              -43.080609305884686,
+              118.95221000678957
+            ],
+            "rotation": [
+              53.54160415133628,
+              176.86146521197773,
+              -99.8790116905333
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              -25.470658413403747,
+              43.40140199696942,
+              90.92267773824625
+            ],
+            "rotation": [
+              -21.815791497730377,
+              -89.51255719859762,
+              141.03783258594453
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -44.84590686790781,
+              -40.3084543152625,
+              118.7946458058858
+            ],
+            "rotation": [
+              76.08140264643815,
+              125.54209055029338,
+              -140.29798840560585
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -40.15642166137695,
+              -42.70021057128906,
+              117.61901092529297
+            ],
+            "rotation": [
+              -56.20699310302737,
+              13.83061695098878,
+              86.38746643066406
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon2": {
+            "location": [
+              -19.008129119873047,
+              43.037452697753906,
+              91.07057189941406
+            ],
+            "rotation": [
+              38.896717071533224,
+              -2.6795241832733154,
+              85.11417388916017
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -40.15642166137695,
+              -42.70021057128906,
+              117.61901092529297
+            ],
+            "rotation": [
+              -56.20699310302737,
+              13.83061695098878,
+              86.38746643066406
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon2Socket": {
+            "location": [
+              -19.008129119873047,
+              43.037452697753906,
+              91.07057189941406
+            ],
+            "rotation": [
+              38.896717071533224,
+              -2.6795241832733154,
+              85.11417388916017
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              70.65595272000097,
+              4.289324623926905,
+              138.17530016013256
+            ],
+            "rotation": [
+              16.697521811567427,
+              21.283170324336638,
+              -152.7389914838
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -23.061693528002056,
+              -69.27683882907132,
+              92.68051276930177
+            ],
+            "rotation": [
+              35.36182469138751,
+              83.92966828423663,
+              118.69677113306896
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              79.69970357750354,
+              6.634600455410325,
+              141.76299306720009
+            ],
+            "rotation": [
+              -27.452594134676918,
+              109.30466073556578,
+              -166.36234568714073
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -24.538256278914417,
+              -78.01146293115197,
+              87.09631369358601
+            ],
+            "rotation": [
+              33.536990457552896,
+              -130.00209200865876,
+              -120.06858736211355
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              77.87654054654455,
+              8.123415257072521,
+              143.4905529907997
+            ],
+            "rotation": [
+              -32.11048066774489,
+              103.62778649132561,
+              -155.77066995121638
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -26.634030579011096,
+              -76.22579454967345,
+              86.3102204742341
+            ],
+            "rotation": [
+              51.561824483806234,
+              -162.4533170564075,
+              -135.21231969162397
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -22.649738311767578,
+              -72.64234924316406,
+              87.34584045410156
+            ],
+            "rotation": [
+              -40.05223083496092,
+              59.91297912597657,
+              114.43544769287108
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon2": {
+            "location": [
+              74.5283203125,
+              4.5174970626831055,
+              138.21633911132812
+            ],
+            "rotation": [
+              -14.604944229125982,
+              -142.60455322265628,
+              66.73255920410158
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -22.649738311767578,
+              -72.64234924316406,
+              87.34584045410156
+            ],
+            "rotation": [
+              -40.05223083496092,
+              59.91297912597657,
+              114.43544769287108
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon2Socket": {
+            "location": [
+              74.5283203125,
+              4.5174970626831055,
+              138.21633911132812
+            ],
+            "rotation": [
+              -14.604944229125982,
+              -142.60455322265628,
+              66.73255920410158
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "sockets": [
+        "weaponSocket",
+        "weapon2Socket"
+      ]
+    },
+    {
+      "id": "swordsman",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_swordsman_M_skeleton_body.M_MassHit_Skeleton_swordsman_M_skeleton_body",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_swordsman_M_skeleton_Cloth.M_MassHit_Skeleton_swordsman_M_skeleton_Cloth",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_swordsman_M_skeleton_Cloth.M_MassHit_Skeleton_swordsman_M_skeleton_Cloth"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              37.17917644636659,
+              -4.298789687237813,
+              82.65706863040842
+            ],
+            "rotation": [
+              -69.750664958369,
+              0.9932508911855171,
+              -102.90875267255237
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -43.44661693116494,
+              -8.73859686615284,
+              91.82073859506858
+            ],
+            "rotation": [
+              61.34907300258175,
+              7.811017220130916,
+              129.68367894504976
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              41.866202319794944,
+              -4.336548067291941,
+              73.81445453418488
+            ],
+            "rotation": [
+              -55.38803121914857,
+              159.37234942498105,
+              97.4511533703256
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -48.88458668040328,
+              -8.836621109247456,
+              82.8722162961977
+            ],
+            "rotation": [
+              8.255624172597813,
+              149.1008336088577,
+              -110.08260991189279
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              41.338677087720804,
+              -1.5047728437298127,
+              74.29162703572504
+            ],
+            "rotation": [
+              -79.81523024882515,
+              88.64885950680973,
+              175.99071956181962
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -47.070671461517094,
+              -6.632033368122515,
+              82.65237884387534
+            ],
+            "rotation": [
+              32.41340404242225,
+              130.76563414404038,
+              -109.25392674026742
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -44.19614028930664,
+              -10.142105102539062,
+              85.56988525390625
+            ],
+            "rotation": [
+              -13.538138389587408,
+              -22.138345718383793,
+              125.19451904296876
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -44.19614028930664,
+              -10.142105102539062,
+              85.56988525390625
+            ],
+            "rotation": [
+              -13.538138389587408,
+              -22.138345718383793,
+              125.19451904296876
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              30.786302765530632,
+              39.859053839102316,
+              85.92251975045126
+            ],
+            "rotation": [
+              -59.520836450068956,
+              112.39028762642315,
+              -122.63828963936567
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -47.757479909959656,
+              -31.492663978302474,
+              106.76755393893689
+            ],
+            "rotation": [
+              35.608447389116975,
+              12.728522860657018,
+              126.35286896981297
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              28.991019370617934,
+              45.69455331772998,
+              77.99249045321221
+            ],
+            "rotation": [
+              -57.63388115243063,
+              -126.93222616580182,
+              121.05220547845465
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -56.44985514526485,
+              -32.82586621765633,
+              101.08227825196361
+            ],
+            "rotation": [
+              29.533349741667916,
+              151.40796659181166,
+              -125.68325558896765
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              26.321658741778133,
+              44.90334990898538,
+              78.87194391000925
+            ],
+            "rotation": [
+              -67.99004316329702,
+              160.50552606116224,
+              -161.6557169361215
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -55.21765491714564,
+              -30.448585523450955,
+              100.06786061910708
+            ],
+            "rotation": [
+              45.62921748195695,
+              119.70456109764233,
+              -138.1309320003425
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -50.597618103027344,
+              -33.410377502441406,
+              101.69811248779297
+            ],
+            "rotation": [
+              -36.75105667114258,
+              -20.39767265319824,
+              138.0266876220703
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -50.597618103027344,
+              -33.410377502441406,
+              101.69811248779297
+            ],
+            "rotation": [
+              -36.75105667114258,
+              -20.39767265319824,
+              138.0266876220703
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "sockets": [
+        "weaponSocket"
+      ]
+    },
+    {
+      "id": "axeman",
+      "materials": [
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_with_axe_M_skeleton_body.M_MassHit_Skeleton_with_axe_M_skeleton_body",
+        "/Game/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_with_axe_M_skeleton_Cloth.M_MassHit_Skeleton_with_axe_M_skeleton_Cloth"
+      ],
+      "poses": {
+        "idle": {
+          "hand_l": {
+            "location": [
+              18.770954102630196,
+              25.030919882689137,
+              86.38989559771271
+            ],
+            "rotation": [
+              -50.936813637896094,
+              105.37436153586754,
+              -69.45565723726993
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -37.4389743555084,
+              -0.7795161200398957,
+              78.67950302098785
+            ],
+            "rotation": [
+              83.71473529225003,
+              130.13741783529306,
+              115.31226402095429
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              16.256852309910123,
+              31.77175907813882,
+              79.4327648809105
+            ],
+            "rotation": [
+              -30.542553824633508,
+              -51.11572370772927,
+              73.235597914852
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -36.71146755530672,
+              -2.434112121528378,
+              68.36493948166279
+            ],
+            "rotation": [
+              -8.441470074515454,
+              -74.62002754699853,
+              -94.78036085951433
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              14.596012651512059,
+              29.462806689827687,
+              78.77298707783481
+            ],
+            "rotation": [
+              -32.04848484884253,
+              -43.37983350804365,
+              76.98029716068916
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -39.47223427792886,
+              -2.8207354733148886,
+              69.01878466378508
+            ],
+            "rotation": [
+              19.75182709207125,
+              -83.57626632961758,
+              -88.29874091128485
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -38.036224365234375,
+              1.0263069868087769,
+              72.51608276367188
+            ],
+            "rotation": [
+              5.381932258605955,
+              115.06853485107422,
+              96.3740158081055
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -38.036224365234375,
+              1.0263069868087769,
+              72.51608276367188
+            ],
+            "rotation": [
+              5.381932258605955,
+              115.06853485107422,
+              96.3740158081055
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "attack1": {
+          "hand_l": {
+            "location": [
+              -28.48422897130508,
+              31.915464229842776,
+              128.97446383923685
+            ],
+            "rotation": [
+              -0.719542569063743,
+              -169.7597024592243,
+              -69.4249764511338
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "hand_r": {
+            "location": [
+              -26.238745189890807,
+              -29.715451241049788,
+              114.64405707721865
+            ],
+            "rotation": [
+              31.144620187484993,
+              0.7168501162825506,
+              -91.28783802321041
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_l": {
+            "location": [
+              -38.14452912010933,
+              29.522364439715634,
+              130.02943451335437
+            ],
+            "rotation": [
+              -68.73298651761891,
+              81.78459971248887,
+              15.401373685784947
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "middle_01_r": {
+            "location": [
+              -34.77994596857851,
+              -30.012633749567723,
+              108.59287976251119
+            ],
+            "rotation": [
+              -72.95071518678763,
+              5.057907279244139,
+              -95.90104270022998
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_l": {
+            "location": [
+              -37.12549770315205,
+              27.458041902694166,
+              128.23357714534706
+            ],
+            "rotation": [
+              -63.66137255102619,
+              93.00140661044139,
+              12.89126051624991
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "index_01_r": {
+            "location": [
+              -34.15303291400498,
+              -32.743524649587194,
+              109.18282802233146
+            ],
+            "rotation": [
+              -43.996561359825996,
+              -7.441873613820385,
+              -77.49359314463831
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weapon": {
+            "location": [
+              -32.38835144042969,
+              -30.179746627807617,
+              113.69308471679688
+            ],
+            "rotation": [
+              67.72130584716794,
+              -148.74307250976565,
+              120.91792297363278
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "weaponSocket": {
+            "location": [
+              -32.38835144042969,
+              -30.179746627807617,
+              113.69308471679688
+            ],
+            "rotation": [
+              67.72130584716794,
+              -148.74307250976565,
+              120.91792297363278
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "sockets": [
+        "weaponSocket"
+      ]
+    }
+  ]
+}

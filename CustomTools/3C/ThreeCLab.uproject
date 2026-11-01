@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "{8DA58303-519E-469B-B1D6-B7EC709502AE}",
+  "Category": "Animation",
+  "Description": "Opus 3C laboratory: 100 autonomous humanoids, three factions, source-pose diagnostics.",
+  "Modules": [],
+  "Plugins": [
+    {"Name":"Angelscript","Enabled":true},
+    {"Name":"PythonScriptPlugin","Enabled":true},
+    {"Name":"EditorScriptingUtilities","Enabled":true}
+  ]
+}

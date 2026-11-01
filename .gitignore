@@ -25,3 +25,4 @@ node_modules/
 # Only the editable UI tool is included in this lightweight repository.
 /CustomTools/*
 !/CustomTools/UICreatorAlpha/
+!/CustomTools/3C/

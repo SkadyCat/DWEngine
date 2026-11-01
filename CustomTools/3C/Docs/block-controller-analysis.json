@@ -1,0 +1,85 @@
+{
+  "verification": "PASS",
+  "runs": [
+    {
+      "tag": "blocked-battle-60",
+      "mode": "controlled",
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "samples": 40000,
+      "simulationSeconds": 40.003983,
+      "realSeconds": 40.003983,
+      "medianFrameMS": 16.666703,
+      "states": {
+        "idle": 13299,
+        "walk": 2296,
+        "run": 9254,
+        "attack1": 8293,
+        "hit": 3211,
+        "attack2": 2196,
+        "death": 1451
+      },
+      "events": {
+        "attacks": 993,
+        "hits": 954,
+        "deaths": 44,
+        "target_changes": 512,
+        "short_target_changes": 0,
+        "action_retargets": 0,
+        "anim_starts": 4734,
+        "hit_restarts": 0,
+        "short_clip_cuts": 0,
+        "action_turn_frames": 0,
+        "abrupt_turn_frames": 0,
+        "turn_reversals": 0
+      },
+      "maxTurnDegreesPerSecond": 300.0,
+      "movingAttackPercent": 0.0
+    },
+    {
+      "tag": "blocked-battle-15",
+      "mode": "controlled",
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "samples": 40000,
+      "simulationSeconds": 40.018421,
+      "realSeconds": 40.018421,
+      "medianFrameMS": 66.666797,
+      "states": {
+        "idle": 11805,
+        "run": 9568,
+        "walk": 1476,
+        "attack1": 9541,
+        "hit": 3117,
+        "attack2": 2772,
+        "death": 1721
+      },
+      "events": {
+        "attacks": 1159,
+        "hits": 1102,
+        "deaths": 52,
+        "target_changes": 569,
+        "short_target_changes": 0,
+        "action_retargets": 0,
+        "anim_starts": 3767,
+        "hit_restarts": 0,
+        "short_clip_cuts": 0,
+        "action_turn_frames": 0,
+        "abrupt_turn_frames": 0,
+        "turn_reversals": 0
+      },
+      "maxTurnDegreesPerSecond": 300.0,
+      "movingAttackPercent": 0.0
+    }
+  ]
+}

@@ -8,10 +8,15 @@
   "engineOpened": false,
   "buildRun": false,
   "sourceModified": false,
-  "files": 76441,
-  "fileBytes": 1562132901,
-  "GiB": 1.4548496352508664,
+  "files": 77827,
+  "fileBytes": 2203896022,
+  "GiB": 2.0525381173938513,
   "groups": [
+    {
+      "name": "Content/FlexibleCombatSystem",
+      "files": 453,
+      "bytes": 423071735
+    },
     {
       "name": "Content/UICreator",
       "bytes": 398682058,
@@ -21,6 +26,11 @@
       "name": "Content/UICreatorTalents",
       "bytes": 354003029,
       "files": 16216
+    },
+    {
+      "name": "CustomTools/UICreatorAlpha",
+      "files": 15660,
+      "bytes": 222910907
     },
     {
       "name": "Content/UICreatorMaps",
@@ -33,6 +43,11 @@
       "files": 29
     },
     {
+      "name": "Content/Monsters",
+      "files": 344,
+      "bytes": 73960058
+    },
+    {
       "name": "Content/UICreatorStudio",
       "bytes": 60216239,
       "files": 915
@@ -41,6 +56,11 @@
       "name": "Plugins",
       "bytes": 52891213,
       "files": 753
+    },
+    {
+      "name": "Content/Characters",
+      "files": 13,
+      "bytes": 48561377
     },
     {
       "name": "Content/WebVFX",
@@ -58,14 +78,34 @@
       "files": 2685
     },
     {
+      "name": "CustomTools/3C",
+      "files": 195,
+      "bytes": 29744201
+    },
+    {
       "name": "Content/IceSkill_VFX",
       "bytes": 23439610,
       "files": 31
     },
     {
+      "name": "Content/Skeleton_Collection",
+      "files": 42,
+      "bytes": 23104344
+    },
+    {
+      "name": "Content/Clean3C",
+      "files": 105,
+      "bytes": 21973265
+    },
+    {
       "name": "Content/OpusIcons",
       "bytes": 21851125,
       "files": 235
+    },
+    {
+      "name": "Content/G2_Mage",
+      "files": 5,
+      "bytes": 20190711
     },
     {
       "name": "Content/_TornadoWindVFX",
@@ -138,6 +178,11 @@
       "files": 2
     },
     {
+      "name": "Content/ThreeCLab",
+      "files": 229,
+      "bytes": 1157430
+    },
+    {
       "name": "Script",
       "bytes": 780735,
       "files": 101
@@ -181,22 +226,10 @@
       "name": "Content/Script",
       "bytes": 1182,
       "files": 2
-    },
-    {
-      "name": "CustomTools/UICreatorAlpha",
-      "files": 15660,
-      "bytes": 222910907
     }
   ],
   "excludedModelPacks": [
-    "Content/Skeleton_Collection",
-    "Content/Monsters",
-    "Content/ClaudeDungeonKit",
-    "Content/G2_Mage",
-    "Content/FlexibleCombatSystem",
-    "Content/Characters",
-    "Content/Clean3C",
-    "Content/ThreeCLab"
+    "Content/ClaudeDungeonKit"
   ],
   "excludedGeneratedDirectories": [
     ".git",
@@ -2472,5 +2505,31 @@
       "Docs/OpusOriginalREADME.md"
     ],
     "uiBrowserVerification": "ui-verification.json"
-  }
+  },
+  "animation3CAddition": {
+    "addedAt": "2026-11-01T12:25:59.882Z",
+    "receipt": "animation-3c.json",
+    "addedFiles": 1386,
+    "addedBytes": 641763121,
+    "sha256Checked": 1425,
+    "includesStandalone3CSource": true,
+    "includesHeroPresentation": true,
+    "referencesRepaired": false
+  },
+  "initialExcludedModelPacks": [
+    "Content/Skeleton_Collection",
+    "Content/Monsters",
+    "Content/ClaudeDungeonKit",
+    "Content/G2_Mage",
+    "Content/FlexibleCombatSystem",
+    "Content/Characters",
+    "Content/Clean3C",
+    "Content/ThreeCLab"
+  ],
+  "partialModelPacks": [
+    "Content/FlexibleCombatSystem: animation, motion matching, skeleton, preview mesh and physics only",
+    "Content/G2_Mage: source pose mesh, skeleton and physics only",
+    "Content/Monsters: referenced animation clips and skeletons only",
+    "Content/Skeleton_Collection: referenced animation clips and skeletons only"
+  ]
 }

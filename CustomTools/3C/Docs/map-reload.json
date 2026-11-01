@@ -1,0 +1,27 @@
+{
+  "map": "/Game/ThreeCLab/Maps/L_ThreeCArena",
+  "reloaded": true,
+  "fighters": 100,
+  "factions": [
+    34,
+    33,
+    33
+  ],
+  "models": [
+    "archer",
+    "axeman",
+    "cloth_grunt",
+    "crossbowman",
+    "goblin_archer",
+    "goblin_dagger_scout",
+    "goblin_hammer_chief",
+    "goblin_laborer",
+    "goblin_shaman",
+    "goblin_shield_trooper",
+    "mage",
+    "rust_warrior",
+    "samurai",
+    "spearman",
+    "swordsman"
+  ]
+}

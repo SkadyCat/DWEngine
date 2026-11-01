@@ -1,0 +1,231 @@
+{
+  "source": "G:\\DungeonWorldBeta\\Content",
+  "seeds": [
+    "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SM_Katana",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Spear",
+    "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Shield",
+    "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+    "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SM_Axe",
+    "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SeparateMesh/SK_Bow",
+    "/Game/Melee/Wand/SM_CoalLamp_Wand"
+  ],
+  "packages": 43,
+  "copiedFiles": 27,
+  "files": [
+    {
+      "path": "Content/Melee/Wand/Materials/M_Wand_Brass.uasset",
+      "copied": true,
+      "sha256": "e7724e07e92b93ec170c1fd95ac08f16f96cb2d2f336a078c7e003293eaa0342"
+    },
+    {
+      "path": "Content/Melee/Wand/Materials/M_Wand_Charcoal.uasset",
+      "copied": true,
+      "sha256": "cb4da7ec12df261191c0266c87cfbff5085e0c39a1554359c67d65976c7c4066"
+    },
+    {
+      "path": "Content/Melee/Wand/Materials/M_Wand_Crystal.uasset",
+      "copied": true,
+      "sha256": "34d4376fc25014c75c7be33f89c45a816fc9e9ae7b3daa2da716075a8a9a16d9"
+    },
+    {
+      "path": "Content/Melee/Wand/Materials/M_Wand_Grip.uasset",
+      "copied": true,
+      "sha256": "44426194e9cd5007f23b81e885dbd8b3110a87c89cd90fdf57bb54f050b561ff"
+    },
+    {
+      "path": "Content/Melee/Wand/SM_CoalLamp_Wand.uasset",
+      "copied": true,
+      "sha256": "ca8e37c112a4ee931ad43b6574999c702b5236a885576f45b277f7b92268e444"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Materials/M_Bow.uasset",
+      "copied": false,
+      "sha256": "0b36a8b6b65c154206ed8fc7df18661c9829f305b45b2afb74ef616d862a1b46"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Materials/M_skeleton_Cloth.uasset",
+      "copied": false,
+      "sha256": "d2e27459a80adabf76ffb92888f669926808f8770a989f214d8d6c442ce14faa"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Materials/M_skeleton_body.uasset",
+      "copied": false,
+      "sha256": "28da5a9579ae206dde725aab52c45c27bda01112242bad83a0ef543321fb955e"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/PHYS_Skeleton_full.uasset",
+      "copied": false,
+      "sha256": "916eebbef5163656203057ff276bccd1738c8624c80081ca1356a3f61416bd2c"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.uasset",
+      "copied": false,
+      "sha256": "55e9ac86ccc24a15f24dbdce99f60d5856e67b80f998d534b80f8bec549aa29c"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/SK_Archer_full.uasset",
+      "copied": false,
+      "sha256": "fe8ef3368bbb24085bf477de7066244897f79aef68b544c80ab547ee7432de91"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/SeparateMesh/SK_Bow.uasset",
+      "copied": true,
+      "sha256": "b28f0e1ce9e5b6e3d8515527e479b20bbda37ddff8bf1622ea374bda492ee6d6"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_BaseColor.uasset",
+      "copied": false,
+      "sha256": "881982f680217b796687c354bdd3f2534d432702abd69dd7a1653c0f49ae0363"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_Material_OcclusionRoughnessMetallic.uasset",
+      "copied": false,
+      "sha256": "c58bc9e3fc5087f63d54922f2a55ab9e5bddda374687b7e2c01a45c6855b4da9"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_Normal.uasset",
+      "copied": false,
+      "sha256": "b6ae1ecaf6ca3f32b5d03ea5fa0fbe046ef2d75873de413e3210deb31001f7cb"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_BaseColor.uasset",
+      "copied": false,
+      "sha256": "a3731caa58149fea73a24eb3f6f822cace76bd28751c6efb77983f8ecb5e7e19"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_Normal.uasset",
+      "copied": false,
+      "sha256": "66866db42797de103a238fea5f04e1cdc5b5ec16c4f0c38ad2539d8d7a8dd4de"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_OcclusionRoughnessMetallic.uasset",
+      "copied": false,
+      "sha256": "1f459ee0d42988b08f1ae92dbe73a387baf402ebf92ea540482f705963922e34"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_BaseColor.uasset",
+      "copied": false,
+      "sha256": "d97159dec93b97b2a34665de8bf424d216b798e983f6b956a36f5c8091a3dcc7"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_Emissive.uasset",
+      "copied": false,
+      "sha256": "eb7f4e180fb0bad9e4ae0c511b155e760afcb8bdf7c0e81d690b035b1145ffe1"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_Normal.uasset",
+      "copied": false,
+      "sha256": "408198e81343af883047e0db7c8f78dee4186b588c1379105b034ef21f1c75c7"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_OcclusionRoughnessMetallic.uasset",
+      "copied": false,
+      "sha256": "a4e28ee9141e5b4f7707d84e784da27d820446fdf28c2515ed0afb70714c72c6"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Samurai/Materials/M_Skeleton_Samurai_Katana.uasset",
+      "copied": true,
+      "sha256": "dac5f46247ac1d7ee6abfcc50e6d725459a74ee6c5878908751acd8ceee762a5"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Samurai/Meshes/SM_Katana.uasset",
+      "copied": true,
+      "sha256": "abfc3c5ce021d4506530274ad79bf6c58cf6f2709a0fa7569ade1990106d5e6a"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_Katana_BaseColor.uasset",
+      "copied": true,
+      "sha256": "3c6f8b9a9790b2be6b6166b240e2cfb0220fb051bb203b8be77ef5184a831a38"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_Katana_Normal.uasset",
+      "copied": true,
+      "sha256": "9d09b391b87b96659021bae884eccd2058aa7fd79cbbf45262452fab1c759557"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_Katana_OcclusionRoughnessMetallic.uasset",
+      "copied": true,
+      "sha256": "05d8d46ba5b5f690d28f7b58da9d70ad281c6c0fc201b1898be907b8e88dd7de"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Spearman/Materials/M_Skeleton_Spearman_weapon.uasset",
+      "copied": true,
+      "sha256": "37844614ed8d8c51201ec224bbebb2c49306f7272c717408e584915d67b0bc1f"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Spearman/Meshes/Shield.uasset",
+      "copied": true,
+      "sha256": "3edeb006a7a3d2428ca7ea617b346f6156621049674c026c402b1bdcae16dc4c"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Spearman/Meshes/Spear.uasset",
+      "copied": true,
+      "sha256": "6f3d17120bafafbb309793be1fbabaeeb3ea72a9cbb6295a256bc9451b5e8ab2"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_weapon_BaseColor.uasset",
+      "copied": true,
+      "sha256": "37340b36f6d9764d6e464d9212ed2dff31d825940450b1cd678a1e240d63440f"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_weapon_Normal.uasset",
+      "copied": true,
+      "sha256": "7c1d10dc8fe8ffe3e841c422be641ab15f77ff312948a363c321c7f2fdd8275e"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_weapon_OcclusionRoughnessMetallic.uasset",
+      "copied": true,
+      "sha256": "cddb571e02fab537a1f44863e62aed26ea28eecd777befad5d2b97c8f8b4db9e"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_swordsman/Materials/M_Sword.uasset",
+      "copied": true,
+      "sha256": "f10f40c97410b35a27e70a5992fec73347934ffde43b61fadcebdb7d7812d730"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword.uasset",
+      "copied": true,
+      "sha256": "c8e177792e13463303b7a3b5a66d31e0e68317f70e57e975e0cc0e2eb13fed3c"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_Sword_BaseColor.uasset",
+      "copied": true,
+      "sha256": "2703e275b8377fc5cb8399e608d3940ea8b586db64b489ec447df2909d96e477"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_Sword_Material_OcclusionRoughnessMetallic.uasset",
+      "copied": true,
+      "sha256": "f0a215926eaee340e46d9766100522416f0fdcdeb765a004bc7b2b9742b84065"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_Sword_Normal.uasset",
+      "copied": true,
+      "sha256": "b1841241629a82a9a2227387e425ad808d5e7ac0e085efd1c1e86b72362286b5"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_with_axe/Materials/M_Axe.uasset",
+      "copied": true,
+      "sha256": "3f6744987849d6c9ca9499b74be14362cc5241aeb45c4eb95f2c84b960438205"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_with_axe/Meshes/SM_Axe.uasset",
+      "copied": true,
+      "sha256": "1a3a614656aea9ee5ed0ea8f1789c6b767021dfec7e30f73f7c85b67c66e8e1d"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_Axe_BaseColor.uasset",
+      "copied": true,
+      "sha256": "35911c0a5b735124bbe7eaa2994465ff66c29795e1b423fedc5428b7fd34e61c"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_Axe_Material_OcclusionRoughnessMetallic.uasset",
+      "copied": true,
+      "sha256": "ecdcb0568beed05b139b31d2713a93d6f8982160c2449fe134936e15ea86726f"
+    },
+    {
+      "path": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_Axe_Normal.uasset",
+      "copied": true,
+      "sha256": "63911b4cf60b86c3c8b2c22a1d19f8e1321042b97df6dac575c0294693f64f8d"
+    }
+  ]
+}

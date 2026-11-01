@@ -1,0 +1,1527 @@
+[
+  {
+    "file": "Content/IceSkill_VFX/Resource/Texture/T_Ice_01.uasset",
+    "bytes": 787586,
+    "sha256": "8142ba2b80e5f7285c8e33a23addccf4df82402af0031f3bd5ff6cd07d74b6c0"
+  },
+  {
+    "file": "Content/IceSkill_VFX/Resource/Texture/T_Ice_01_NRM.uasset",
+    "bytes": 942810,
+    "sha256": "5017aabce598850cbe9fe05029da205609564586e9e3043717dfffb13d254238"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Archer_M_Bow.uasset",
+    "bytes": 11334,
+    "sha256": "d224a49084ea0cfe3fbe839fc6598595430a7be16a99a04f2ee565e884bf6945"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Archer_M_skeleton_Cloth.uasset",
+    "bytes": 11510,
+    "sha256": "f26d69c1a572e1755a4cc7191acb3ea457ff057050959f6a62e9f304385c41a4"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Archer_M_skeleton_body.uasset",
+    "bytes": 11806,
+    "sha256": "7d8d816b358f7300c45f197f9c6d77e22495fb8a68651cd1d36dc3bc4d22fc14"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Crossbowman_M_Skeleton_Crossbowman_Cloth.uasset",
+    "bytes": 11680,
+    "sha256": "b9c47fd820ae91e735685309e51b3694898589de804382a978e33dd67e99cdf2"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Crossbowman_M_Skeleton_Crossbowman_Crossbow.uasset",
+    "bytes": 11457,
+    "sha256": "f44c2cb182de2d51de8e2dc6229a239a6a6f010cf320e2fc47e2d609f411f18d"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Crossbowman_M_skeleton_CB_body.uasset",
+    "bytes": 11834,
+    "sha256": "52c4d889f2579ca5643d2762f52d67c0811d7ea5d40e93d48f32446c34b73992"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_Skeleton_Mage_Cloth.uasset",
+    "bytes": 12181,
+    "sha256": "768fef786c7e37815c8ec8c297cbe4a42dd53b0dd8e6e0f8454c3f05ddfc05ff"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_Skeleton_Mage_book.uasset",
+    "bytes": 11904,
+    "sha256": "fe54fd535ca2edf50b719169bbb7e9cbbfe7f7b4b2e29a28d3cba3ccc1c82452"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Mage_M_skeleton_body.uasset",
+    "bytes": 11784,
+    "sha256": "9365cf287e8e82ce522453ca4182f6de1f6a2b7a7448419f049d23236a376d62"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Samurai_M_Skeleton_Samurai_armor_bottom.uasset",
+    "bytes": 11715,
+    "sha256": "05bebc94e5536a0341f3b8cc5472fd516c264969abff8cc808749c45e51912fc"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Samurai_M_Skeleton_Samurai_armor_top.uasset",
+    "bytes": 11676,
+    "sha256": "54db1f93c57b2c51f0bb401558b92c1b44f9c49bdcfaf4fba31345b5dd1f78b3"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Samurai_M_skeleton_body.uasset",
+    "bytes": 11817,
+    "sha256": "e9ccacdcff1afdb2eb89f688568e3ed0f0845a0d6841db1e75bfa36cdf6e02f3"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Spearman_M_Skeleton_Spearman_Cloth.uasset",
+    "bytes": 11618,
+    "sha256": "0d97a2c3e111dbd2fea1aeecfbbd06f2ab31ca63e6ad5c3c08ad7917b66cd820"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_Spearman_M_skeleton_body.uasset",
+    "bytes": 11828,
+    "sha256": "5480e541e526508031e92af374c9b8764b689a848349483b4e3f896863de132c"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_swordsman_M_skeleton_Cloth.uasset",
+    "bytes": 11540,
+    "sha256": "bac4e453e84f4c0daa8602bfa3d4d21dd103ac8d126af0de76e991a5dd3fe851"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_swordsman_M_skeleton_body.uasset",
+    "bytes": 11839,
+    "sha256": "b552e424c9d620d64fb6e0045e8f6565c8e3989174be60dbf3488598ed0cbebb"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_with_axe_M_skeleton_Cloth.uasset",
+    "bytes": 11530,
+    "sha256": "606c05efafce08decb4ee41fa4f88d0cea0bf0f5c68564ede57051f310881e8a"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_Skeleton_with_axe_M_skeleton_body.uasset",
+    "bytes": 11828,
+    "sha256": "ac6b6de6dffc221f9b8019d1d8dd5b6f3b57357a5916fe1ddb7819898c8f3364"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_cloth_grunt_M_cloth_grunt.uasset",
+    "bytes": 15900,
+    "sha256": "72d3c0c26c7552afdd1a2f1bc9fc233ddaebc52bb3a5367ba8358151119a4a27"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/M_MassHit_rust_warrior_M_rust_warrior.uasset",
+    "bytes": 13698,
+    "sha256": "94cbc0d076d17aa7769d57c4324daa845f8d5a4df545a76a4d64175032999839"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/MF_Mass_chill_v2.uasset",
+    "bytes": 40447,
+    "sha256": "7e5ca0108f8078f2204f15404c8668d5c0c6b4030dd07003f18cf5a064991d8b"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/MF_Mass_freeze_v2.uasset",
+    "bytes": 40475,
+    "sha256": "bfa005d11d8afc67be4d4c353caf8b4ea7b8d72f5671cd90ee57b2d6d95b91f7"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/MF_Mass_ignite_v2.uasset",
+    "bytes": 117083,
+    "sha256": "2b7792c68fffdca38be26a24c237256da105f55aa0ab16c303ca1e582def8536"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/MF_Mass_poison_v2.uasset",
+    "bytes": 117038,
+    "sha256": "a16e428b015f9c58b1d8bbebde7d254423ec1a72f69283f6607e32d195731f6a"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/MF_Mass_shock_v2.uasset",
+    "bytes": 117143,
+    "sha256": "7b71cd53bde389d89f1e4c43677c7240338e9d7d93ccc8021858a704e3d839b7"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_archer_M_archer_v2.uasset",
+    "bytes": 49599,
+    "sha256": "19d728aeb102f9c152a9f0efe440d5f15cf41132d6f0b3606d811ca9cb289f35"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_dagger_scout_M_dagger_scout_v2.uasset",
+    "bytes": 49737,
+    "sha256": "61e4470ed0ef0f849c40496bf76701fa756de84b3023517552313e256abca965"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_hammer_chief_M_hammer_chief_v2.uasset",
+    "bytes": 49737,
+    "sha256": "6ff5a000964129d2017df5914cd37ec06f51e0bc231b4eb561b8baf5cd1ebb83"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_laborer_M_laborer_v2.uasset",
+    "bytes": 49622,
+    "sha256": "b00463866cac7d6ac7f4200e981473efea9377cd2e7ef9657a943b7ca08abc14"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_shaman_M_shaman_v2.uasset",
+    "bytes": 49599,
+    "sha256": "950e4eb52a7e5c9c5eb5ac68934368d886284676b9d48e40b8de968eb23ef1e8"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Materials/Status/M_MassStatus_M_MassHit_shield_trooper_M_shield_trooper_v2.uasset",
+    "bytes": 49783,
+    "sha256": "f896011561587082f19f7de2169eec396a622de9a607d188fe6bc6ac6f1887dc"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Meshes/SK_MassGPU_archer.uasset",
+    "bytes": 18757354,
+    "sha256": "61c142e8f7530dd3fcdb0dd8493cbf5a06693bbd2bb95e61a4eff2bfc18896e0"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Meshes/SK_MassGPU_axeman.uasset",
+    "bytes": 16178708,
+    "sha256": "c2164fa20c6e54d0f731b89a4bee2f0cbe4faac905d94b569d6039db17889380"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Meshes/SK_MassGPU_crossbowman.uasset",
+    "bytes": 11899830,
+    "sha256": "648bdd47c1efb22d15ca6087661c51d76b1904cc94c58bb8a205583ef267e5d8"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Meshes/SK_MassGPU_mage.uasset",
+    "bytes": 10302636,
+    "sha256": "c1c0c936e47b4b37f5bb8f5bf8dcdd3a711efc4414b242e84d54558ca8409ef2"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Meshes/SK_MassGPU_samurai.uasset",
+    "bytes": 13129266,
+    "sha256": "bd910165f476e8e61485bc4644899a9ffa914b7821cd93039b4e319de32bfcd6"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Meshes/SK_MassGPU_spearman.uasset",
+    "bytes": 9302850,
+    "sha256": "d37aac209d01cba08aae3f26628e6a1f6220b57d38ab1499433cc945058ccf3b"
+  },
+  {
+    "file": "Content/Monsters/Mass/Instanced/Meshes/SK_MassGPU_swordsman.uasset",
+    "bytes": 12089623,
+    "sha256": "4652597266dca9043a65494522097e2852af01dc215e48525e58a0c127666a56"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Animation/Clips/AS_death.uasset",
+    "bytes": 333150,
+    "sha256": "a85ff489a464a60f1ef3b457fa2afa92a99836fde671d2159268012cf4b0dc3b"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 112582,
+    "sha256": "15929e2d6aa5e58710f1d71f9fb2a0ae94ddac7760f4728a2d9c67e31e0e84b1"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 116422,
+    "sha256": "e00e7c46205979072126b63724cefe8c1d1cf87c9f55fc0fb9cc8610b74edb06"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190018,
+    "sha256": "99786c4b547ee87b45493f86e0991bdcbe62214309d0089c8d307100b83717e5"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181855,
+    "sha256": "5c1df3da8a03d74fa98a23ac7259acf7ea5429c3bef022e30fb07d3f88f36037"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 131722,
+    "sha256": "a8a4da8eb3f61f796cbc681e52657ef6803e70475a4937a1d4e8c8c5e6def596"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 187057,
+    "sha256": "37e3a4fd4cde0238aab4c3755506dc34bed4d91b413dd4d362603d931db06570"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Meshes/SK_archer.uasset",
+    "bytes": 2034192,
+    "sha256": "3fd2e33d9428787bbd6d6d8bfb9420bddee50a5197a00601290790c883fc99de"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.uasset",
+    "bytes": 13331,
+    "sha256": "9b072c90369011ff1e7472587a8783f14f3a64caba112530336598d6ba7e05da"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Textures/T_archer_base_color.uasset",
+    "bytes": 20622313,
+    "sha256": "bb36f01f44e5b5eccd395697026d4b95beae2eebe396d048cf027f6a295e34ec"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Textures/T_archer_metal_rough.uasset",
+    "bytes": 3289638,
+    "sha256": "8f3bee0016da8990ed07754757e8c172d8cef40907be7255819a05fc5d0da20e"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/archer/Textures/T_archer_normal.uasset",
+    "bytes": 19354195,
+    "sha256": "5dfe40528918b82ba8b786ef3697a3956669c42c1cad9566c737b2e6b123a57c"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_death.uasset",
+    "bytes": 333252,
+    "sha256": "3dfd6c1edf9e1ad417118d14b7d30f5e161b6266f9e1e3c0fa23ec6e266d65b5"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 115872,
+    "sha256": "f38355a520718a34f245e44d16e0c5089c690eaef4d4e9ecf0efcf5550cfec95"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 119328,
+    "sha256": "b40ed5d48eb9240c933bf0e3b30948d7a78fde191473aca0e094a6f9b62c199e"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 195004,
+    "sha256": "fffd26fd670f1bd2317ca90d0ed820d1bf2a6cd398cc47a6992b1497d6327e08"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181945,
+    "sha256": "6f3b0a073ebc5d460dbeee8d75bb43b496f088a798d000cea8138eaeaa95699a"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 137412,
+    "sha256": "8f30f4e73be7297caf04c115b1447908ce0b8570ec1a35bca28ad4612f48a657"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 202828,
+    "sha256": "8c247290dbe24c4937566da5d108e20cf406a58f779a5678398470e0e327b910"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout.uasset",
+    "bytes": 1897520,
+    "sha256": "a5a039ea4366a339a216d1e41a96b859a36f587e7a8b2c763933661a6420a428"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.uasset",
+    "bytes": 13409,
+    "sha256": "97b31b319057477bf542c0de41c6d3f06cf498a170ce0b7e3e7ed0e1f66ecbd7"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Textures/T_dagger_scout_base_color.uasset",
+    "bytes": 19691256,
+    "sha256": "2a9be39b06c747bd8b007cdf930a3c0376cf4cd4b8dc814675e2cfd3fd132aa0"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Textures/T_dagger_scout_metal_rough.uasset",
+    "bytes": 3524623,
+    "sha256": "2da8e36290eaf1784f51b9916c1d0b6497a50a221bb9a74493e60f9ce990fd69"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/dagger_scout/Textures/T_dagger_scout_normal.uasset",
+    "bytes": 18361953,
+    "sha256": "c410cd2b4fc84300973548c837580baae98478fa1e59e14edb8362b63422f290"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_death.uasset",
+    "bytes": 333252,
+    "sha256": "ff57b4e894a53a4a41b7f67ee037180686d7268c241f6d5f221a543c692fe81c"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 112672,
+    "sha256": "42181fb6df71d8c9aee4f6ae0f99aa276e30ac75030125f901175cd90b5cfc2b"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 116512,
+    "sha256": "77bf32494576200fdb31d269c1c42d43c90872b719ca47c33bdca184cf8f0bf3"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 196636,
+    "sha256": "8830eca09edcc6994081f5cd22f49367efe20d26925b26c488ad30b8f0187611"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181945,
+    "sha256": "643c42d9e345c77a79025042ac6e91a449f3c952a8bf86c1cc49981301b38f70"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 135812,
+    "sha256": "28c547e4b7c3a0aff8e2aad5b8a47e73794ea8e95378bd723970aa90a3f2401c"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 199692,
+    "sha256": "39eba450bd250a5cae646512d9ed99aa3b5d1abbefe197dbde3b3a20b1ba8589"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief.uasset",
+    "bytes": 1733208,
+    "sha256": "66fb727fc9e169498312ba55ad0921d491492dde6f356d82985447516102ef5d"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.uasset",
+    "bytes": 13409,
+    "sha256": "2a35963064dfbacdd9f6779d14a356d4ede7085191aaef88aca75a1d848a73e2"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Textures/T_hammer_chief_base_color.uasset",
+    "bytes": 22672004,
+    "sha256": "0f7485bdceb4a133e113fc6532f9cfdd6ad0457cfa50b0c1df732fc76724027d"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Textures/T_hammer_chief_metal_rough.uasset",
+    "bytes": 4519840,
+    "sha256": "6b353a0fcdbab2e369af202b2ad137f8b3d4a0f3e92b6ee956abe4de0b517f7d"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/hammer_chief/Textures/T_hammer_chief_normal.uasset",
+    "bytes": 20144431,
+    "sha256": "48f9aa3945279ef68b76353f44c0cb9d121db090e2ecb46e988f711bcd20149f"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_death.uasset",
+    "bytes": 333167,
+    "sha256": "22f44601f32cae18709c090395395296424b78c63ef9c71541c77789aa375ea6"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 114517,
+    "sha256": "dc421f2610233b96cf8d6e925cb431ba8dd2a69e124a92d549d1330b06b398e7"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118549,
+    "sha256": "662db1da6fe2281026fda5fea8a13a7d526cebe7d5b4bfaa5bee5fc3bcb5d46f"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190033,
+    "sha256": "25f4a4d91ab8ff61de86ecee9e4e174aacc4931be4992d281ed41029d57d52a6"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181870,
+    "sha256": "ad658658cacf64bbac18e983433bdbca1c4458cccb68b0dcbd25dd66f5fe8f72"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 131737,
+    "sha256": "dadfc0a0c884596fbc2608457d4987f98b0d2880a9aa4aa0b9163cdbdb38e75c"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 191776,
+    "sha256": "ee70d1e1b39528153d188e33c03327557ecd2a68a73403533abea9853f9a6323"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer.uasset",
+    "bytes": 1630414,
+    "sha256": "be816d89599cc587fba27f561f6507e10c69b25649bb5657a2922d38836ad95f"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.uasset",
+    "bytes": 13344,
+    "sha256": "794abb89310a2362dbd787fc0342c85d1a28f1ff2235765dc91ff474088018d1"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Textures/T_laborer_base_color.uasset",
+    "bytes": 21467381,
+    "sha256": "81a929a537ebecde1d40f0bf17b649cd62c2d186609e11fa3ccecce2673cf765"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Textures/T_laborer_metal_rough.uasset",
+    "bytes": 3432852,
+    "sha256": "7517fd182323f88bf0a314ac4ced37bd0355154150c6be853c6fdc4f40dd9628"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/laborer/Textures/T_laborer_normal.uasset",
+    "bytes": 19319832,
+    "sha256": "007dfedf4691344859318936e0ba10986d5186e64420feaab51d226fda0a8003"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_death.uasset",
+    "bytes": 333150,
+    "sha256": "fdfc67c5ff9c1fda220acee405409cd3ca62b3f6ab605956f04e30b64526ca88"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 113222,
+    "sha256": "83a47658a6a99ebf3b13a5e365c06c5d281b36b0c155083e0edd5f01b184d6a8"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118534,
+    "sha256": "d2f6fcdd89fa0bc5503b7ab118d8c0abe88c0cddbba21540df77c7564a21fb1b"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190018,
+    "sha256": "7d23b600f0adae5ef5a21b674525e79edf80901e0ab7ca11eaea648ecd0b8e2a"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181855,
+    "sha256": "69594b992b76a9e2d4120a0fe7a54967714a428de2ce5ba5d2c8a95f682816a1"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 134122,
+    "sha256": "f10d145b00983f8a36ba8f0c364e8186a0bb93490b53cbae6e43c99c96f49ca7"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 190194,
+    "sha256": "eab2c455506ca74d14fecb19d56e6ae1a301cbc298e2ecab45f185333cd4c49e"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman.uasset",
+    "bytes": 1767071,
+    "sha256": "c85cd472b69673190fb6ac583396d4cfc04f993584e9e351cc735e8d723f4b57"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.uasset",
+    "bytes": 13331,
+    "sha256": "3c79c5598ec6bdfba60e22e653dd76c72f6b9deeeb4a3f29673131d423f4b761"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Textures/T_shaman_base_color.uasset",
+    "bytes": 23254187,
+    "sha256": "f54509af73113cd50238315649029cbf9bc62289bfa177c81819e845d62037f4"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Textures/T_shaman_metal_rough.uasset",
+    "bytes": 3446555,
+    "sha256": "76075025434e0e4c969393e7101a93e6c7f4119ad4e9c93fe2ee74f456dfe492"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shaman/Textures/T_shaman_normal.uasset",
+    "bytes": 22182116,
+    "sha256": "9f3a1346fcb3637690abc786fd5db0e56995eeb4dfe7f11fb24eed471b299518"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_death.uasset",
+    "bytes": 333286,
+    "sha256": "437abb13017330832af0283b711d4498c47f3f665b2263bba856206f1dd52f3b"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 114622,
+    "sha256": "7db637cffbe56048bf7add3192b6663a6cf65e55bd3e3fda945bd1213a057548"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118654,
+    "sha256": "7fe69c9c4f0222b181b0cf6d5876dd27f7a2f94a81ca8969cd2975ee5d3ad6ff"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 191770,
+    "sha256": "13b72e2eab116c84e8c340810bd05c6f6ec9f703daf5723fac30a844fddee376"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181975,
+    "sha256": "79de2596f94fa24b1cd28f9e49729e67a7f2a6e4dc10ad289577ead8b9f74b63"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 133442,
+    "sha256": "6c1cc8281aff3fb0dfd1be7e66edf2efb6b60d22232973e6dae739487b48a440"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 191881,
+    "sha256": "2682417e66943a2bc74be031b9018bd1d220d2c41034e9e4441d12396a8ec484"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper.uasset",
+    "bytes": 1704612,
+    "sha256": "80ec09a4dea7ceda72eef43184e16c633537d4050f44247246a608a584ef5c5d"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.uasset",
+    "bytes": 13435,
+    "sha256": "7c1150295657a048151148e601fd33c2f654d48827c7c73f8e5f57ecdcb1de35"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Textures/T_shield_trooper_base_color.uasset",
+    "bytes": 22834806,
+    "sha256": "b602f21199f371d72eec9c3dfa93729912ad8a64f5e2a8b3dc5fc6fe1bfda578"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Textures/T_shield_trooper_metal_rough.uasset",
+    "bytes": 4704913,
+    "sha256": "12f40f102fbfa0a06245e1617fb7455e3a178741b54758d70e6c7520895419d8"
+  },
+  {
+    "file": "Content/Monsters/MeshyGoblins/shield_trooper/Textures/T_shield_trooper_normal.uasset",
+    "bytes": 21288253,
+    "sha256": "ed5dc5c92e9344699d83d73f405afc33f496c27c797118a0afd2e26b85ef030e"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_death.uasset",
+    "bytes": 340065,
+    "sha256": "78f1a4a6a14942d21a668837bef87b8ed1c22dc0458964f9ea6c4577b8a92515"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 115231,
+    "sha256": "0c1b0db36a3e2e37466e0996d8f03ee8e65fcedda193a9c0f84826339a4ebab0"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 121439,
+    "sha256": "c0d0a4233f95950a9b1d8383c0ff5faa954122677b268d4a618c9e11eff50fc1"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 198267,
+    "sha256": "44d109777f11b8c5a1bc214523c5fd5ebfb21fcc609bce564df2d30b932fa572"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181931,
+    "sha256": "927fe47b441888138ecc0dfe89d7b04096af9667142744e3a703b356b9a6d094"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 138211,
+    "sha256": "de92df0ac1d672f34bcc6c2e45862baffff1a8314b30187481fce92cc8225852"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 201258,
+    "sha256": "ea096838dd0ca111278cfc2d7b35c7bac184e7e4f1aa9dc802b592d5aa465ea4"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt.uasset",
+    "bytes": 1801851,
+    "sha256": "0727b13b27bbfd5669710a0febc78a55365e7d097bd0f8bea153fd948dae36a9"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.uasset",
+    "bytes": 13404,
+    "sha256": "e770f03e62e1eb197414fb089e54848bd941431c973d0e86e2dde32d176391b7"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Textures/T_cloth_grunt_base_color.uasset",
+    "bytes": 22402589,
+    "sha256": "ade1a792c727313a4e5d6bae7e81f4820d8e14e7e9ead762bba150a0e3e2bd0d"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Textures/T_cloth_grunt_metal_rough.uasset",
+    "bytes": 3658810,
+    "sha256": "48011a8b9cb371b258f9a8b410c4764de2eed8fccd6ffbf71ce8f31d7244bc8e"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/cloth_grunt/Textures/T_cloth_grunt_normal.uasset",
+    "bytes": 22836375,
+    "sha256": "a061045514f27de5bbb8fd43f36442c7e9de696fe9777d90ddf0ce55348b88c5"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_death.uasset",
+    "bytes": 340082,
+    "sha256": "6aea327fa2adf49e51be688c87a44e0fdf6ee73e391a25ba8bfb9c768714a779"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 114606,
+    "sha256": "217e9cb3ee441d6d78f1c37aa9a0e58c839adf8cf909624ca9dbbec679eadac8"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118638,
+    "sha256": "6b60e5f617dd8e9f5082f7645480c73494a0da1ce0703b1c4ba272b1ff4250de"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190122,
+    "sha256": "a8e626d47ff29f2d0f9d2fb4e9a42a2e783741a8430dcf4be829e4a13f553156"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181946,
+    "sha256": "0f07298cf34e21a160cfcdee1af8c69dcb3036929c3c6c4a9dc51f15703fdcf9"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 133426,
+    "sha256": "1e809dbe1599e8b9fbb971b0b4ba0188d74abd717e7cd63e97bd8db37bde8a39"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 190297,
+    "sha256": "321e37ad7ed212e88a5046cb2367f95c1aa4f2bf07b2fe6880dd6a511a3f52cf"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior.uasset",
+    "bytes": 1856954,
+    "sha256": "2e4ea9daddba6b38be507de5f2c8a807f426a662bd1c911563ef406a470fc3d3"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.uasset",
+    "bytes": 13417,
+    "sha256": "7a1933fc1d0cabce6103059f66ebe140c75dda9966e948bb6b7aa6c5ebd6796a"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Textures/T_rust_warrior_base_color.uasset",
+    "bytes": 24200546,
+    "sha256": "f347bdb40a24127f3a2cc76359105a2316a656db8fbb36241c01437a0effcf38"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Textures/T_rust_warrior_metal_rough.uasset",
+    "bytes": 4594876,
+    "sha256": "8e332d150ea911a7242b7a0b966820e29ca44c212f5ea43096fa4383285fa8e9"
+  },
+  {
+    "file": "Content/Monsters/MeshySkeletons/rust_warrior/Textures/T_rust_warrior_normal.uasset",
+    "bytes": 23153925,
+    "sha256": "325474803baa870b59494939dd15f4020b9fd0d2137a7aa01ae0dcb8d5fb85d9"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_GetDamage.uasset",
+    "bytes": 524336,
+    "sha256": "2950ac5dd25c0df4d4032b79e6fafdc6603ef973d77349259d0860bd057e7114"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_death.uasset",
+    "bytes": 777914,
+    "sha256": "9461657000b6bc981c52cbf589f34412d3f919aa996ffb237c8c2127e2e2a141"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim.uasset",
+    "bytes": 483957,
+    "sha256": "1d49724206bdde368bb2bd56b71a4acf1218756da1a621144c31ebe97be11add"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim_shot.uasset",
+    "bytes": 667887,
+    "sha256": "fc9739a48cbbfc55beeaa819d110840b3da8657ea4187a6f87d744dfcd6930b8"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_run_f.uasset",
+    "bytes": 336954,
+    "sha256": "f0b3c648d6bbd3f9105716ea2bc5c2bbb3864673dcdd23fe5e4c0dfc507a8462"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Materials/M_Bow.uasset",
+    "bytes": 7902,
+    "sha256": "0b36a8b6b65c154206ed8fc7df18661c9829f305b45b2afb74ef616d862a1b46"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Materials/M_skeleton_Cloth.uasset",
+    "bytes": 8067,
+    "sha256": "d2e27459a80adabf76ffb92888f669926808f8770a989f214d8d6c442ce14faa"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Materials/M_skeleton_body.uasset",
+    "bytes": 8402,
+    "sha256": "28da5a9579ae206dde725aab52c45c27bda01112242bad83a0ef543321fb955e"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/PHYS_Skeleton_full.uasset",
+    "bytes": 35757,
+    "sha256": "916eebbef5163656203057ff276bccd1738c8624c80081ca1356a3f61416bd2c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.uasset",
+    "bytes": 41162,
+    "sha256": "55e9ac86ccc24a15f24dbdce99f60d5856e67b80f998d534b80f8bec549aa29c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/SK_Archer_full.uasset",
+    "bytes": 16763148,
+    "sha256": "fe8ef3368bbb24085bf477de7066244897f79aef68b544c80ab547ee7432de91"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_BaseColor.uasset",
+    "bytes": 13744401,
+    "sha256": "881982f680217b796687c354bdd3f2534d432702abd69dd7a1653c0f49ae0363"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_Material_OcclusionRoughnessMetallic.uasset",
+    "bytes": 12616383,
+    "sha256": "c58bc9e3fc5087f63d54922f2a55ab9e5bddda374687b7e2c01a45c6855b4da9"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_Bow_Normal.uasset",
+    "bytes": 16615765,
+    "sha256": "b6ae1ecaf6ca3f32b5d03ea5fa0fbe046ef2d75873de413e3210deb31001f7cb"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_BaseColor.uasset",
+    "bytes": 21594074,
+    "sha256": "a3731caa58149fea73a24eb3f6f822cace76bd28751c6efb77983f8ecb5e7e19"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_Normal.uasset",
+    "bytes": 38289929,
+    "sha256": "66866db42797de103a238fea5f04e1cdc5b5ec16c4f0c38ad2539d8d7a8dd4de"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_Cloth_OcclusionRoughnessMetallic.uasset",
+    "bytes": 20540758,
+    "sha256": "1f459ee0d42988b08f1ae92dbe73a387baf402ebf92ea540482f705963922e34"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_BaseColor.uasset",
+    "bytes": 21110391,
+    "sha256": "d97159dec93b97b2a34665de8bf424d216b798e983f6b956a36f5c8091a3dcc7"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_Emissive.uasset",
+    "bytes": 169163,
+    "sha256": "eb7f4e180fb0bad9e4ae0c511b155e760afcb8bdf7c0e81d690b035b1145ffe1"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_Normal.uasset",
+    "bytes": 38113364,
+    "sha256": "408198e81343af883047e0db7c8f78dee4186b588c1379105b034ef21f1c75c7"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Archer/Textures/T_skeleton_body_OcclusionRoughnessMetallic.uasset",
+    "bytes": 17369495,
+    "sha256": "a4e28ee9141e5b4f7707d84e784da27d820446fdf28c2515ed0afb70714c72c6"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_GetDamage.uasset",
+    "bytes": 515260,
+    "sha256": "47fc2e3832018538e21fcb962256d0feab3c1d0c433ac10dfbccda788ea68d24"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_Shot.uasset",
+    "bytes": 358685,
+    "sha256": "ebdf2dd744d45602e7e2f1eb9e56c1beda6af8a1e7784d8329f7c4b716a59960"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_death.uasset",
+    "bytes": 913858,
+    "sha256": "5bb2734ea35b1928abfeba2076083172c793079e8a4a4b80cc006aeb814d5dc0"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_idleAim.uasset",
+    "bytes": 474472,
+    "sha256": "8a1a5df2931d33a5e8af6d7987f4cee83fdf608444bd7b975003ccbcdfb7296c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_run_f.uasset",
+    "bytes": 332687,
+    "sha256": "f6cc2ea7ee876750d5507cb980f75d6cdf74421e9624db2c0217fb0f77a31da5"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Materials/M_Skeleton_Crossbowman_Cloth.uasset",
+    "bytes": 8200,
+    "sha256": "49ed9f1778e2e4b5aa9adce727c009ca6fad2244c15101b9fd8e7e32158b09b4"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Materials/M_Skeleton_Crossbowman_Crossbow.uasset",
+    "bytes": 7974,
+    "sha256": "cb4afac2a7c81bb2eaf9834d5685ccd268fd50d1b763a6e5ea002eabdd54caae"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Materials/M_skeleton_CB_body.uasset",
+    "bytes": 8402,
+    "sha256": "1586c9eb0459c484c75ca71e4558863e22bd92bd33146fb0ff24807ad8145bd8"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Meshes/PHYS_CBFullBody.uasset",
+    "bytes": 48231,
+    "sha256": "0777b4ade6acc4ede8da47166880c44dd1e68febd63e4fd86f9e70af90a8344c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.uasset",
+    "bytes": 43539,
+    "sha256": "8c56cc9618d80448ac111206c191cde650b739fc74356111700fda91d7c18e49"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SM_CBFullBody.uasset",
+    "bytes": 8979851,
+    "sha256": "d4b55585516a1cf2f688854010c2bb3c84b31b609a79975f60cb45ff63a35dc4"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_Crossbowman_Cloth_BaseColor.uasset",
+    "bytes": 26242694,
+    "sha256": "d3c04a514cbf177eba562c2d040bbb457670ed6e2e640f72cd17fdff8b65886a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_Crossbowman_Cloth_Normal.uasset",
+    "bytes": 40527084,
+    "sha256": "fc6af9910f43f18e4616cec095b3cf65c612984748f5e619d5e997a35c492487"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_Crossbowman_Cloth_OcclusionRoughnessMetallic.uasset",
+    "bytes": 25729978,
+    "sha256": "f62b8acd71663e78196d1eab76c5c62f1c0d49f8678a8e12098e99e2899329a6"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_Crossbowman_Crossbow_BaseColor.uasset",
+    "bytes": 17184905,
+    "sha256": "37f244aadab72444368d0aafbd605bc45cee7b86b878d003af4e50986ff2274c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_Crossbowman_Crossbow_Normal.uasset",
+    "bytes": 25810006,
+    "sha256": "22fc317c9b04eac8f97f694186f736ca37f323ce52b16e84235bfc719e31e712"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_Crossbowman_Crossbow_OcclusionRoughnessMetallic.uasset",
+    "bytes": 19750571,
+    "sha256": "81508d7e21d8ce3a144e20ed24a83813f36a53d4d686b6d400298b0a58260669"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_body_BaseColor.uasset",
+    "bytes": 21115014,
+    "sha256": "989a3ac79f9ae81e10a2d3aa071d11fcd41b32c8a2db0114c9223304f9e41271"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_body_Emissive.uasset",
+    "bytes": 169138,
+    "sha256": "2062bb76a484a5355933f38fd897f9d62f4afcc73199b7db6d492cf259215443"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_body_Normal.uasset",
+    "bytes": 38119936,
+    "sha256": "34f01d65230c3914214bc69e8658488ca41bebbb9eee3662cdc4a7102b71b02a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Crossbowman/Textures/T_CB_body_OcclusionRoughnessMetallic.uasset",
+    "bytes": 17372684,
+    "sha256": "c21a411c9d1af33b9d2490453ab7c3f73857ec8277e9a1c66ad31e042769b833"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_GetDamage.uasset",
+    "bytes": 878961,
+    "sha256": "ba95b5169d381b184c791d4ecb88448674acb24bf18097eb7020ada4b9f33b93"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_attack1.uasset",
+    "bytes": 1242843,
+    "sha256": "413d448dd069e6d0e9fee5eddaaea5ad8b5835008a764296517a8129fce3224a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_combat_walk_f.uasset",
+    "bytes": 1089143,
+    "sha256": "e365922495cc9058a69107dcbf014cf678757691dec037b56d083e4c7566a78e"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_death.uasset",
+    "bytes": 1206742,
+    "sha256": "9b8342020b5a450b6b342e28aaa02c6a6b8a79172a3446430efc4e46cb29ccda"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_idle_combat.uasset",
+    "bytes": 849363,
+    "sha256": "c5564dc31b5cc1acb42e0aef15bc5f92d224fe9b0510b8c6c5b0ceb1e7012db3"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Materials/M_Skeleton_Mage_Cloth.uasset",
+    "bytes": 8781,
+    "sha256": "9985226329ef0ca6e1813860b1f99c68838a5753995d23f7108b4507bd7b0986"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Materials/M_Skeleton_Mage_book.uasset",
+    "bytes": 8505,
+    "sha256": "2b2e29406018ecccaa2f27729b33d8c101834b6e983c9bf3d113fef45e95da7c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Materials/M_skeleton_body.uasset",
+    "bytes": 8390,
+    "sha256": "689f0a268b979e0e2c7c2959e2c945aea00d31abf2ba8c44844e948196f7ebee"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Meshes/PHYS_skeleton.uasset",
+    "bytes": 88076,
+    "sha256": "e245c1d7241299c1f9a3c169ae538c3b7a28c0bd5cc91bf404faa2c537d6069c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.uasset",
+    "bytes": 66408,
+    "sha256": "321f2c251efcadc1d7595e86a1aeaf99fcd1f4692a939021df61d727dcd0555e"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Meshes/SK_mage_full.uasset",
+    "bytes": 7842635,
+    "sha256": "936f6a490d718aa83bc36de96009e6b7e849dd7aceec6379d0e107c4916c86e9"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Book_BaseColor.uasset",
+    "bytes": 24295912,
+    "sha256": "504351b5f7eb250efb215c1c59811d2b320d43b48b01dfb6a6247c35c8522986"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Book_Emissive.uasset",
+    "bytes": 634074,
+    "sha256": "81bf4234affaa0fefade072ff073dcb4711e59f9c95450037ceb6ce69cfca927"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Book_Normal.uasset",
+    "bytes": 31042830,
+    "sha256": "f69baaf511df709c8661f13cabeee41e32db42c5e09dddf51f84c4d14fe8d675"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Book_OcclusionRoughnessMetallic.uasset",
+    "bytes": 21479907,
+    "sha256": "81f307cc7aed4ff2c3c6b59fedc0d69d89f0e873e2d75b4310fa54e6738d0afe"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Cloth_BaseColor.uasset",
+    "bytes": 22533342,
+    "sha256": "4f18a07032df25720f5ec368cd03eb12c410c03224202ee2ce414d1b588cdbd9"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Cloth_Emissive.uasset",
+    "bytes": 284273,
+    "sha256": "631015f4fc5b5a547a075a10f9725e5645f754bb3efea13c0382d9bbe0fd416c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Cloth_Normal.uasset",
+    "bytes": 43336612,
+    "sha256": "1ca1df673e900185811df870721c68a6f8d500d6a61534256b4a0a0906ab5017"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_Skeleton_Mage_Cloth_OcclusionRoughnessMetallic.uasset",
+    "bytes": 23986595,
+    "sha256": "bcc81aee86a508da160b58b51fcb546aa5b901ab2fb840e41380c19ef3a28725"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_skeleton_body_BaseColor.uasset",
+    "bytes": 21110389,
+    "sha256": "edca5f6ac9ae52fa94d37124106ad15641ff06ad74a1ccd9546080672d658fec"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_skeleton_body_Emissive.uasset",
+    "bytes": 169161,
+    "sha256": "b46e6823a39955fab7577391e2c19017fe29ab2adabc456f33a509b3b4386c9f"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_skeleton_body_Normal.uasset",
+    "bytes": 38113362,
+    "sha256": "2e9872fb43143bdaf78d1fed207b005853088f64876d432122bcff537c772e0a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Mage/Textures/T_skeleton_body_OcclusionRoughnessMetallic.uasset",
+    "bytes": 17369493,
+    "sha256": "f962d75d07d1f7b36574d925d6303e98392dfa0b5f83e21a207924222b5b6604"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_GetDamage.uasset",
+    "bytes": 602263,
+    "sha256": "682ab37b378976d9f9bf314392d90a16b794264c2993755ca46c136d3e7fa565"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_attack_01.uasset",
+    "bytes": 1002218,
+    "sha256": "97313dbc87e235de2dda2afaf67c0bf47504abebb604b980c63f332370630f6a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_death.uasset",
+    "bytes": 1061199,
+    "sha256": "3b0de7dedebdf4fde9c1489e86d8a08d287e3da39b120ccd30e23a5d0ba17f28"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_idle.uasset",
+    "bytes": 525433,
+    "sha256": "148c39f72eed83328b02d3d536d2ec8e8c27354503d380c64c0e8e51c76785f3"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_run_f.uasset",
+    "bytes": 378253,
+    "sha256": "799bdc21b8148acbdf0bcd2f65d5cb86e4fbe1deb0ddd1722608df804c5c34a7"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Materials/M_Skeleton_Samurai_armor_bottom.uasset",
+    "bytes": 8252,
+    "sha256": "aa87e3e91c19b54dfb9e009df29be3ad061e9130c8bec0d1b5ea1e1f7c4fc0be"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Materials/M_Skeleton_Samurai_armor_top.uasset",
+    "bytes": 8216,
+    "sha256": "29a975c0068bb4322b51e969c4baf21502a74653404849bcf4cc6fab37459d1b"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Materials/M_skeleton_body.uasset",
+    "bytes": 8408,
+    "sha256": "746404bf3aec944f1712b2dee7ce7709e9e5f28dc326392d9336a0d5f8c5d034"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Meshes/PHYS_FullBody.uasset",
+    "bytes": 58660,
+    "sha256": "3c408ccff268f8a110ff7bb00b75b83f52fe97c5844b3725f99b2ef8cf028efd"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.uasset",
+    "bytes": 44340,
+    "sha256": "a688239f81a4d4e215454707a846a6495ba77c515527539c4287e33d75cbf582"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Meshes/SM_Samurai.uasset",
+    "bytes": 9928474,
+    "sha256": "ba06770e35def40cc4488fc9b89b1175179f93d67ac960683e2c8b791322ddaf"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_armor_bottom_BaseColor.uasset",
+    "bytes": 22170949,
+    "sha256": "22baba11579827fce6ce9b23a6d207c645380c46bf7dd0eb298b9a295713505d"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_armor_bottom_Normal.uasset",
+    "bytes": 39942799,
+    "sha256": "8ec7772b8f8f15b918fab849a1cdc88153a5b3929a88087081fee1cd3b6b2bb6"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_armor_bottom_OcclusionRoughnessMetallic.uasset",
+    "bytes": 22796912,
+    "sha256": "6d72e69f22316b52ee6e1c6fd9010eb7b42c53db60c3329152556fb0fbcf1d68"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_armor_top_BaseColor.uasset",
+    "bytes": 21393055,
+    "sha256": "21ae2b90f78fd5bd0d0452c4bf122336f89ff5fce43811ef0438009a0b974282"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_armor_top_Normal.uasset",
+    "bytes": 35277878,
+    "sha256": "4c5c711384f788b3e390d9a23c0058170ef845e5775648f0b7ae869d2ef0fb03"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_Skeleton_Samurai_armor_top_OcclusionRoughnessMetallic.uasset",
+    "bytes": 21791598,
+    "sha256": "a32e6089ac45ebf2f227dcdc774431089b93ad45df036aad65f0ee2763b97a50"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_skeleton_body_BaseColor.uasset",
+    "bytes": 21110392,
+    "sha256": "d1bd5430382c95a64a3e6f325493e9d7f27711474f57a7dd7fe0cd07fb86d4c6"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_skeleton_body_Emissive.uasset",
+    "bytes": 169164,
+    "sha256": "a1984113b009b9523d51314a9c10634265f302bfd32a8b35258df021b3cac7e2"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_skeleton_body_Normal.uasset",
+    "bytes": 38113365,
+    "sha256": "e2efe1d78c3b6baeffa353715afb4ed2c108932ad2209996aed2bfc0bb4c15db"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Samurai/Textures/T_skeleton_body_OcclusionRoughnessMetallic.uasset",
+    "bytes": 17369496,
+    "sha256": "3d7fd52eb24c62a25d258a5356b5259c5dfb43dae00f244ce990e27686871e2b"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_GetDamage.uasset",
+    "bytes": 548575,
+    "sha256": "9b9fd9ae7ac82ec88614a3fb8ad4bf96c107b08d2dc248f3653b0960b66c44d3"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_attack_01.uasset",
+    "bytes": 830687,
+    "sha256": "b35889128ebcb8922f5175e01b25e201febd11a763e5d39a4609a3d71180c37d"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_death.uasset",
+    "bytes": 970232,
+    "sha256": "193a4ed1a5bde71b48692792dcf2b4177c2db54958e9f8d36f9ce7c137571c98"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_idle.uasset",
+    "bytes": 515935,
+    "sha256": "8da3a8b939eb22b76626b845205e4bdc6d0d4fba5e3836bbf748d692c1b577d9"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_run_f.uasset",
+    "bytes": 344373,
+    "sha256": "508c36070341f78ee90ad7d8c7d207b5949db9583cf67953f8111a9b0e517388"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Materials/M_Skeleton_Spearman_Cloth.uasset",
+    "bytes": 8156,
+    "sha256": "9fe94ed9ff41b45aa1b00411fe2e804101a5fe0e519d4c25ef978e4c6202b79a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Materials/M_skeleton_body.uasset",
+    "bytes": 8414,
+    "sha256": "409fbc727a93aa27fe2e54c8f61d9607765baf802792b797283c400ae4f9e837"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Meshes/PHYS_FullBody.uasset",
+    "bytes": 46451,
+    "sha256": "f959ac0262fd6007b68051757ca09d13a8b9632885e5bbfcbde1453b37bf9bfe"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.uasset",
+    "bytes": 46369,
+    "sha256": "55a47d514c21111a42c350d9a30d832b8a56bb00c87594ac8b8cb24a1354c00a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Meshes/SM_FullBody.uasset",
+    "bytes": 7055549,
+    "sha256": "3b78d70b09c23decb732de35df7893eebcd5b74f68b640a5bf223d87204f1f4e"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_Cloth_BaseColor.uasset",
+    "bytes": 24495930,
+    "sha256": "4b856cd3e604aace16768b7da201f81629d5a047673b97f162a2846a084bb62d"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_Cloth_Normal.uasset",
+    "bytes": 39945481,
+    "sha256": "f356cb9e02103d47a2e42132d7be657e5fd3991d17d7bca7df4f53969c78f6a1"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_Skeleton_Spearman_Cloth_OcclusionRoughnessMetallic.uasset",
+    "bytes": 25269283,
+    "sha256": "502691aafdff2c99bee9da200daea5a0aabed863e53f81185fd176a3d79e637a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_skeleton_body_BaseColor.uasset",
+    "bytes": 21110393,
+    "sha256": "27795c984dc7642008753831e19cb2c15d1beebfc9853e4f3a058008dc90a89c"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_skeleton_body_Emissive.uasset",
+    "bytes": 169165,
+    "sha256": "a5fd7a22869400bd7efd5abc30f337f9a9e0a30d83e3f078a8bbe3967632d919"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_skeleton_body_Normal.uasset",
+    "bytes": 38113366,
+    "sha256": "79aec6b5869214af0b587331fde5b36d9faafa60fbd6ab391c2f7bc8b4700078"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_Spearman/Textures/T_skeleton_body_OcclusionRoughnessMetallic.uasset",
+    "bytes": 17369497,
+    "sha256": "c7775fd34179139dedcd9f59961b030524f061fb940218ae65aff05f73c266f7"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_GetDamage.uasset",
+    "bytes": 498664,
+    "sha256": "2e1f5026635d3b8816fa2cb8d0eaf1b7a9d8b10b9b8c1e2ddffc63c30c3ab9fd"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_attack01_part1.uasset",
+    "bytes": 273257,
+    "sha256": "b553b2c50e8184def5c0c5eb1258cab8eea45de5e5837466c6e0ec8fc4e14b51"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_death.uasset",
+    "bytes": 790252,
+    "sha256": "20af15b211660b7966cb73f2c345b66932d32a8a51d6742da0ce2ef55bd0e8a3"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_idle.uasset",
+    "bytes": 479281,
+    "sha256": "20dd2f89acea95beee0f6f2e7eaefe02f52085fc5deb842d9300f85823631f0a"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_run.uasset",
+    "bytes": 329801,
+    "sha256": "f3c9f164e9574159aaa9abbeee614436bfd9f3d83b410ac922b37cb328450823"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Materials/M_skeleton_Cloth.uasset",
+    "bytes": 8082,
+    "sha256": "165b5561194d4669ebe9d4af3c26ccb736b54ca3b0f2865af4fe16a2e9905d20"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Materials/M_skeleton_body.uasset",
+    "bytes": 8420,
+    "sha256": "8e970cc81c7853e357368b46ca58abc9538543d40e94174e3b6c3989bef6447b"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Meshes/PHYS_skeleton.uasset",
+    "bytes": 31859,
+    "sha256": "d55af541078ef1d90bdef5006504290e4cc9c69b6c28561b315f91ac70899b87"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.uasset",
+    "bytes": 38828,
+    "sha256": "7d97d1b782457e6a992a744b2c1a1233aba3d040ec02fbeda3ed4fc756af9d29"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Meshes/SK_Swordsman_full.uasset",
+    "bytes": 10514765,
+    "sha256": "8710914bdacd1161fee1ba049c5eaa4d8fe91c628fe3ec19bf9ea66b3892e808"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_skeleton_Cloth_BaseColor.uasset",
+    "bytes": 19215328,
+    "sha256": "a77086a56a5098302be92afe9c66e4afc005c7d819d00bfb3e07b537a37bf82b"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_skeleton_Cloth_Normal.uasset",
+    "bytes": 43658121,
+    "sha256": "468ff9158e0436d45b99d13ff4f6f403cd305319e4743c9bac791d2100c15d4e"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_skeleton_Cloth_OcclusionRoughnessMetallic.uasset",
+    "bytes": 18154599,
+    "sha256": "acdfed97dc57cb4f80648bd10f069344d264e85625f32263d87a01b6d3f4b14d"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_skeleton_body_BaseColor.uasset",
+    "bytes": 21115036,
+    "sha256": "644abb3fb59868cabd51ecdbf429f906d6d15cb5a41683b535921c98624d8813"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_skeleton_body_Emissive.uasset",
+    "bytes": 169160,
+    "sha256": "2fef9a4ca62378e1478a9577457e00bde9efd84681f6f39b1e6122e8faa38247"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_skeleton_body_Normal.uasset",
+    "bytes": 38119958,
+    "sha256": "b0d2f92ca361fd1651d99c3348624d51a2f664f61ba4fbf78e18d391b7947d90"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_swordsman/Textures/T_skeleton_body_OcclusionRoughnessMetallic.uasset",
+    "bytes": 17372706,
+    "sha256": "03b7c73de2b53196f9ca36f09ba7e34dbdaed89ed5133347dfd2e96d9a15fb95"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_GetDamage.uasset",
+    "bytes": 497015,
+    "sha256": "3707742bc646b966441bb0a35cddc969bfb1fb3b29e2b70dcb7841f4a10d60dd"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_attack_01.uasset",
+    "bytes": 794229,
+    "sha256": "61d2acd9e1909a2729c81a4d87a5feffd055e75301859a4ed46f98dd5ceb6477"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_death.uasset",
+    "bytes": 899475,
+    "sha256": "555b45b2cf7b286bf87aad0d3b20fd2a79e268d385013d5b037e367035b99c50"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_idle.uasset",
+    "bytes": 462977,
+    "sha256": "9038e4039638ac6e718bc900ce78d27d9c4b7a60b0b497ddaf0f7cddae870248"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_run_f.uasset",
+    "bytes": 327550,
+    "sha256": "76b816021bcda9abce35e76fff84989a90c27731655640075a1567be4c2e3435"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Materials/M_skeleton_Cloth.uasset",
+    "bytes": 8077,
+    "sha256": "a227a1d4bbcfc13e9ecc07f3d936e7cef24c3c92fe2b2fff63d16f82f50c72d0"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Materials/M_skeleton_body.uasset",
+    "bytes": 8414,
+    "sha256": "90a12ff8fca4b469b45646dc531e733b78d0b0ec4cc0fac4d55718aa76a1a687"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Meshes/PHYS_Skeleton_full.uasset",
+    "bytes": 32026,
+    "sha256": "c25bb308785fb5cfe3860a19762acdae54254fbdd267f6a496e53a77416d0ca7"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.uasset",
+    "bytes": 38967,
+    "sha256": "a518d07cb7288006335a2c47cf0049737b0948af75b58ae0851f0b813d9f5935"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Meshes/SK_Axe_full.uasset",
+    "bytes": 14585105,
+    "sha256": "643539c4b9271ae5502ed951af4a8b8ff6762a3e0e068d35662fe4e9f2b23adc"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_skeleton_Cloth_BaseColor.uasset",
+    "bytes": 20446312,
+    "sha256": "b1391f129b6d1e294e71216589c60857e29794c7abcb2824f109fa40f3f56572"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_skeleton_Cloth_Normal.uasset",
+    "bytes": 37170015,
+    "sha256": "f664e8b3e7592a53ced904ac858b09fdda12d2ac72a659f01e2cbfc597a0e367"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_skeleton_Cloth_OcclusionRoughnessMetallic.uasset",
+    "bytes": 21964039,
+    "sha256": "750ec524add72f1dbd0032c572db7904377ec1ce806b9ceb61f0a2b30e96f17e"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_skeleton_body_BaseColor.uasset",
+    "bytes": 21110393,
+    "sha256": "1128ce3d54051e97d45520d83c8459f3a9c64c82fedd467c9b12f09e566092c9"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_skeleton_body_Emissive.uasset",
+    "bytes": 169165,
+    "sha256": "5237efeaf20cddb33f58c31c4ede73566f3299ec31b3bc87de66725814835bfd"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_skeleton_body_Normal.uasset",
+    "bytes": 38113366,
+    "sha256": "9b8448782730c45dcbd5d03619362032776132a1193c7753e2d2abf74d199218"
+  },
+  {
+    "file": "Content/Skeleton_Collection/Skeleton_with_axe/Textures/T_skeleton_body_OcclusionRoughnessMetallic.uasset",
+    "bytes": 17369497,
+    "sha256": "bdc574d6c926f16adbbe0c9aa698f8d6598c90440c8654ea4033fb52509e23cd"
+  },
+  {
+    "file": "Content/Skills/StatusVFX/Materials/M_CharacterIce.uasset",
+    "bytes": 53570,
+    "sha256": "14660e8b520826ed862cdc557e7648ee3c01ab10d94e97d7ddc1e5bc1ad088b9"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/CurveAtlas_StatusVFX.uasset",
+    "bytes": 23136,
+    "sha256": "016ff39b4c8cc80fd5a54a6517cded201d59b2bee62b3c11766ff99ea1afd774"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Fire_A.uasset",
+    "bytes": 2559,
+    "sha256": "8e4327a9f2abba5fa0caf71ff43b4cfdf0b001e5e3f003d0087f74229b4860e7"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Fire_B.uasset",
+    "bytes": 2559,
+    "sha256": "b99f7f6a92a8c6bf9e1adc61cdab88c13aac2c3b9cac08ac82fd7f8d667d9893"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Fire_C.uasset",
+    "bytes": 2559,
+    "sha256": "c41e192c6ba47ac7db3be9af84201d6786f084093824198af731b7e98f911776"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Flicker_A.uasset",
+    "bytes": 3300,
+    "sha256": "a06d0551eab737b0935601a275f98f3ea4e8f0a9dcb62368770a697895d4762b"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Flicker_B.uasset",
+    "bytes": 3300,
+    "sha256": "b39f72ce8836c01f5d98c35ac08d0916af6a9fd41720602acbce121a406526df"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Flicker_C.uasset",
+    "bytes": 3300,
+    "sha256": "8145ff97184f79336cdcfccc39ae9df546f71414c67464f66c9062e36b4f1c76"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Flicker_D.uasset",
+    "bytes": 4596,
+    "sha256": "493102281c646e7b0260914f1f95bb331bab7f097ce6cec53e5fe82e6098df5e"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Frost_A.uasset",
+    "bytes": 2644,
+    "sha256": "0837ad96f1213208a89dbf41c91c9c8149dae33aa85341155b653bb7604f87b5"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Ice_A.uasset",
+    "bytes": 2636,
+    "sha256": "861581d02d08d50314c90369e7eb85b0717306845f9de40da75505963a7c0ca0"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Ice_B.uasset",
+    "bytes": 2717,
+    "sha256": "7105ac2b864a111cb3159fbeec401cee2cc4046a8a0eefe00de61c75087c1de6"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Lightning_A.uasset",
+    "bytes": 2579,
+    "sha256": "e41b7b3c52bf320857faf3474670176a3728abae9f6048b9f09be0bf4c917bd7"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Lightning_B.uasset",
+    "bytes": 2660,
+    "sha256": "821c70698176e3d6a8ffd1af9de102bc0101f5ec99fd794d7114bade441bb9de"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Poison_A.uasset",
+    "bytes": 2486,
+    "sha256": "63d387bb5e5d67608f7f864d3709605d3d529db9449a2c193e4af511ca83d873"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Poison_B.uasset",
+    "bytes": 2567,
+    "sha256": "39ef5147458cc3984683d3945a22e81e8a7390d17565091016425d9eec9d39bc"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Poison_C.uasset",
+    "bytes": 2567,
+    "sha256": "05f872b8a6e618c91b73ec9fd7ced4e9322408fb83c411f667201bae69c82cfa"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Poison_D.uasset",
+    "bytes": 2567,
+    "sha256": "4cab88f955fee3aca74274724f0380d1a1982336a6f2794021e200e1142916de"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Poison_E.uasset",
+    "bytes": 2567,
+    "sha256": "244ce3acfd5568955acbf4f952297eee60159a1926f36062ba8dca1dffef9845"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Speed_A.uasset",
+    "bytes": 2482,
+    "sha256": "350da18206c8f35313ab49c5903303d0018635e4135cd6ebb80f6fdb28a4d280"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Speed_B.uasset",
+    "bytes": 2563,
+    "sha256": "66dbcc7724cc6e655b30ac373055a5116b9abb2d731f0608d837e9334f33d3eb"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Gradients/Gradient_Star_A.uasset",
+    "bytes": 2721,
+    "sha256": "3eb89d77b8c0aa962daa1979d9fdb068e0472622102f6f769ee368777144fea0"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/MaterialFunctions/MF_ColorAdjustments.uasset",
+    "bytes": 13931,
+    "sha256": "f95f3cd97d889869c6b4cf3c0391464b84e946016c91c70983dd7dea66aa2d98"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/MaterialFunctions/MF_MatCap.uasset",
+    "bytes": 13325,
+    "sha256": "10f529f07103aeeee8727f6a8f425d295a621ff5f0cefab9bf8f7631e8b92ed7"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/MaterialFunctions/MF_Timeline_WithEase.uasset",
+    "bytes": 34491,
+    "sha256": "137114817980a9020645c5174f53520906c29d042888ff10ff1be38e9c2aaca1"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Materials/Overlay/M_StatusVFX_Overlay_BASE.uasset",
+    "bytes": 125042,
+    "sha256": "25878bff6cf01cd06d5c7215a9e69a0e7f847aee404ae55f3f26578696a12c31"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Textures/MatCaps/T_MatCap_Green.uasset",
+    "bytes": 283608,
+    "sha256": "a3dc93b0d5b25f6f43db2dbf3fe2502e12a7440d95aa65bc10e59c2349869193"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Textures/MatCaps/T_MatCap_Silver.uasset",
+    "bytes": 2285651,
+    "sha256": "c8cae844bb700bef23247caf6494f7169fb11e53e156f1222b0437269e1e0b00"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Textures/Noise/T_Noise_Fire.uasset",
+    "bytes": 1526789,
+    "sha256": "14636dcf8783b8dd88df8778e2bbd9449bf7e1ee38d6c156ec9aa61138b78b8d"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Textures/Noise/T_Noise_Lightning_01.uasset",
+    "bytes": 1414073,
+    "sha256": "e492fb79c8bdd870ff123d27a45d4ea7cfc9cc5e08851959531c5d25d8aaa525"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Textures/Noise/T_Noise_Ocean.uasset",
+    "bytes": 1847615,
+    "sha256": "0708e4217ca19b6a4b035a59808a51b5aae0a297e27a1f7f8760f6ea28850289"
+  },
+  {
+    "file": "Content/StatusVFX/_Core/Textures/Noise/T_Noise_Perlin.uasset",
+    "bytes": 211592,
+    "sha256": "9ec96a3bc3cd620173810aa334323ec988d2d59ddeeae1af75af6d8c21c9f33c"
+  }
+]

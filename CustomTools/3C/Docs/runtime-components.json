@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "cloth_grunt",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_0",
+    "mesh": "/Game/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt.SK_cloth_grunt",
+    "actorLocation": [
+      0.0,
+      0.0,
+      85.0
+    ],
+    "meshLocation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018BA25F3030) {pitch: -0.000000, yaw: -90.000000, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          9.027621780235634,
+          -36.73919689597443,
+          11.946935818989509
+        ],
+        "component": [
+          36.73919689597443,
+          9.027621780235627,
+          11.946935818989509
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -23.8249009373774,
+          43.66205950400845,
+          11.885484519883427
+        ],
+        "component": [
+          -43.662059504008454,
+          -23.82490093737739,
+          11.885484519883427
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -11.14909006101513,
+          2.0172615051269513,
+          80.62433778964855
+        ],
+        "component": [
+          -2.017261505126953,
+          -11.14909006101513,
+          80.62433778964855
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          8.043490779814018,
+          -1.8301771730866507,
+          124.21405104300536
+        ],
+        "component": [
+          1.8301771730866516,
+          8.043490779814018,
+          124.21405104300536
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "goblin_shaman",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_1",
+    "mesh": "/Game/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman.SK_shaman",
+    "actorLocation": [
+      -1279.9344861532295,
+      414.2587323602425,
+      85.0
+    ],
+    "meshLocation": [
+      -1279.9344861532295,
+      414.2587323602425,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018BA26574E0) {pitch: -0.000000, yaw: -146.989219, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -1296.5338860791308,
+          395.59810272590084,
+          10.999091150814863
+        ],
+        "component": [
+          24.085978766788934,
+          6.604907500932384,
+          10.999091150814863
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -1265.0165407098405,
+          445.71153965377067,
+          10.999165430645384
+        ],
+        "component": [
+          -29.645102695258892,
+          -18.248070283821896,
+          10.999165430645384
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -1283.2419119904469,
+          422.58188265504805,
+          65.16674189791529
+        ],
+        "component": [
+          -1.7609242868549027,
+          -8.781403199636092,
+          65.16674189791529
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -1277.2343451392144,
+          409.10108060207364,
+          94.85179154599867
+        ],
+        "component": [
+          0.5456203478636716,
+          5.796070357587638,
+          94.85179154599867
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -1279.9344861532295,
+          414.2587323602425,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "mage",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_2",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_mage.SK_MassGPU_mage",
+    "actorLocation": [
+      81.81331938099774,
+      -1161.4117944663237,
+      85.0
+    ],
+    "meshLocation": [
+      81.81331938099774,
+      -1161.4117944663237,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018BA26574E0) {pitch: -0.000000, yaw: -67.590888, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          87.93354697500156,
+          -1174.0529418734532,
+          7.0306651507046
+        ],
+        "component": [
+          14.019693736861951,
+          0.839035813165836,
+          7.0306651507046
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          77.19360804739624,
+          -1148.0605401568732,
+          6.961340913535707
+        ],
+        "component": [
+          -14.10415430522351,
+          0.8188747009596451,
+          6.961340913535707
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          87.27903253810733,
+          -1153.639173980425,
+          90.13800811767578
+        ],
+        "component": [
+          -5.102049350738502,
+          8.016030311584466,
+          90.13800811767578
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          84.81207483794918,
+          -1125.7913284781134,
+          150.34206421172874
+        ],
+        "component": [
+          -31.787423714369957,
+          16.35144718705207,
+          150.34206421172874
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          81.81331938099774,
+          -1161.4117944663237,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "goblin_archer",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_3",
+    "mesh": "/Game/Monsters/MeshyGoblins/archer/Meshes/SK_archer.SK_archer",
+    "actorLocation": [
+      843.6668889310688,
+      -996.0206675751198,
+      85.0
+    ],
+    "meshLocation": [
+      843.6668889310688,
+      -996.0206675751198,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018BA26574E0) {pitch: 0.000000, yaw: 102.248312, roll: 0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          815.1469002727335,
+          -986.3579071913296,
+          10.01762478854813
+        ],
+        "component": [
+          15.493294282134265,
+          25.82085443189868,
+          10.01762478854813
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          872.5099683580308,
+          -1003.8096852852822,
+          26.58846388217943
+        ],
+        "component": [
+          -13.730746293740822,
+          -26.53410322464633,
+          26.58846388217943
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          842.2377403057277,
+          -996.2200666261792,
+          63.91783152916216
+        ],
+        "component": [
+          0.10833209007981748,
+          1.4389197104552789,
+          63.91783152916216
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          826.8891334779288,
+          -999.9222298476614,
+          90.63970896381775
+        ],
+        "component": [
+          -0.25337023798853053,
+          17.22356147068284,
+          90.63970896381775
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          843.6668889310688,
+          -996.0206675751198,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "goblin_shield_trooper",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_4",
+    "mesh": "/Game/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper.SK_shield_trooper",
+    "actorLocation": [
+      -1143.1062982749067,
+      693.7601704214117,
+      85.0
+    ],
+    "meshLocation": [
+      -1143.1062982749067,
+      693.7601704214117,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018BA25F3030) {pitch: -0.000000, yaw: -179.159970, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -1157.6884674951111,
+          671.9291946849825,
+          10.430119154280671
+        ],
+        "component": [
+          14.900660974911958,
+          21.61484358680332,
+          10.430119154280671
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -1135.0085305478594,
+          721.937442738586,
+          14.774303962554415
+        ],
+        "component": [
+          -8.509998003493033,
+          -28.055524435981496,
+          14.774303962554415
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -1144.8708045706974,
+          692.7185899310242,
+          56.67605084174144
+        ],
+        "component": [
+          1.77958703041087,
+          1.015599520989415,
+          56.67605084174144
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -1143.0608404615675,
+          673.4686153394389,
+          91.19131128799393
+        ],
+        "component": [
+          0.252036947938359,
+          20.290040695730575,
+          91.19131128799393
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -1143.1062982749067,
+          693.7601704214117,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "samurai",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_5",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_samurai.SK_MassGPU_samurai",
+    "actorLocation": [
+      -1064.3521117923779,
+      177.48004954052988,
+      85.0
+    ],
+    "meshLocation": [
+      -1064.3521117923779,
+      177.48004954052988,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018BA25F3030) {pitch: -0.000000, yaw: -30.391330, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -1031.2741197696826,
+          196.7556563383457,
+          7.1807925812220645
+        ],
+        "component": [
+          18.781160561971493,
+          33.36121373126199,
+          7.1807925812220645
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -1105.595955254393,
+          153.62827862757857,
+          7.446486132874533
+        ],
+        "component": [
+          -23.50984791993578,
+          -41.43969896107604,
+          7.446486132874533
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -1067.0600230224043,
+          177.34811155500606,
+          82.9744873046875
+        ],
+        "component": [
+          -2.2690699100494314,
+          -1.4837495088577117,
+          82.9744873046875
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -1075.7861370979801,
+          188.55480812211064,
+          147.90417931872392
+        ],
+        "component": [
+          -15.465634855762882,
+          3.7684679695683334,
+          147.90417931872392
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -1064.3521117923779,
+          177.48004954052988,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "goblin_dagger_scout",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_6",
+    "mesh": "/Game/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout.SK_dagger_scout",
+    "actorLocation": [
+      163.75371073794705,
+      -1045.7758381605274,
+      85.0
+    ],
+    "meshLocation": [
+      163.75371073794705,
+      -1045.7758381605274,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22CC0) {pitch: 0.000000, yaw: 144.575107, roll: 0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          135.77573559471554,
+          -1042.612821060903,
+          20.430269237859765
+        ],
+        "component": [
+          24.631977764692007,
+          13.639554306776844,
+          20.430269237859765
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          199.6386990044595,
+          -1023.3143948179552,
+          10.97403138646849
+        ],
+        "component": [
+          -16.222372262003567,
+          -39.10349675044798,
+          10.97403138646849
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          171.2483719324136,
+          -1040.1300597545892,
+          65.60908005539328
+        ],
+        "component": [
+          -2.8347275257109867,
+          -8.944779487711122,
+          65.60908005539328
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          187.0297403943803,
+          -1038.7369039448636,
+          90.49930314521758
+        ],
+        "component": [
+          -14.887064268267746,
+          -19.22746652401373,
+          90.49930314521758
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          163.75371073794705,
+          -1045.7758381605274,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "rust_warrior",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_7",
+    "mesh": "/Game/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior.SK_rust_warrior",
+    "actorLocation": [
+      -1066.937468378804,
+      451.00074351740295,
+      85.0
+    ],
+    "meshLocation": [
+      -1066.937468378804,
+      451.00074351740295,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22CC0) {pitch: 0.000000, yaw: 165.367627, roll: 0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -1086.3396290683936,
+          475.2579190682887,
+          13.481551084881893
+        ],
+        "component": [
+          24.900635181363153,
+          -18.569134947428406,
+          13.481551084881893
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -1046.936099595821,
+          448.8602707793905,
+          31.306960260262233
+        ],
+        "component": [
+          -19.893374121023466,
+          -2.9816174831887237,
+          31.306960260262233
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -1072.6765241566525,
+          448.8663073547775,
+          92.47579613720681
+        ],
+        "component": [
+          5.013725757598887,
+          3.5149869105260283,
+          92.47579613720681
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -1079.4460610574163,
+          433.0287410405569,
+          142.59456389974372
+        ],
+        "component": [
+          7.56287958653737,
+          20.54898090384853,
+          142.59456389974372
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -1066.937468378804,
+          451.00074351740295,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "spearman",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_8",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_spearman.SK_MassGPU_spearman",
+    "actorLocation": [
+      -776.9317821391311,
+      -99.87022334101258,
+      85.0
+    ],
+    "meshLocation": [
+      -776.9317821391311,
+      -99.87022334101258,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22CC0) {pitch: -0.000000, yaw: -56.340508, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -732.4112778529785,
+          -91.99222377215898,
+          8.274050419037543
+        ],
+        "component": [
+          18.11853779323645,
+          41.422901483783704,
+          8.274050419037543
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -816.124670252273,
+          -99.07202025086305,
+          7.424314621223907
+        ],
+        "component": [
+          -22.387278319058634,
+          -32.17964226475162,
+          7.424314621223907
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -781.5755225233843,
+          -95.61660486441028,
+          78.90991973876953
+        ],
+        "component": [
+          -6.114304542541512,
+          -1.5076056718826314,
+          78.90991973876953
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -784.8637010973089,
+          -63.002098782044406,
+          136.33727612497358
+        ],
+        "component": [
+          -35.083357505032424,
+          13.832280109540054,
+          136.33727612497358
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -776.9317821391311,
+          -99.87022334101258,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "goblin_hammer_chief",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_9",
+    "mesh": "/Game/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief.SK_hammer_chief",
+    "actorLocation": [
+      179.84681860165145,
+      -1282.5650804891156,
+      85.0
+    ],
+    "meshLocation": [
+      179.84681860165145,
+      -1282.5650804891156,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22C70) {pitch: 0.000000, yaw: 126.477293, roll: 0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          156.02676682144596,
+          -1260.654768116886,
+          33.690591412383256
+        ],
+        "component": [
+          31.77903848951484,
+          6.127753890478992,
+          33.690591412383256
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          218.6713277073792,
+          -1301.7594342510106,
+          33.45000574855858
+        ],
+        "component": [
+          -38.5153687721772,
+          -19.807374686734825,
+          33.45000574855858
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          185.3086958755043,
+          -1280.3054099003564,
+          89.72122360314381
+        ],
+        "component": [
+          -1.4301245212555704,
+          -5.7352383017654445,
+          89.72122360314381
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          187.41795614901346,
+          -1271.3321896445639,
+          137.14924331927895
+        ],
+        "component": [
+          4.531210874621866,
+          -12.765895522696336,
+          137.14924331927895
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          179.84681860165145,
+          -1282.5650804891156,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "archer",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_10",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_archer.SK_MassGPU_archer",
+    "actorLocation": [
+      -691.4789339282726,
+      666.9534040609936,
+      85.0
+    ],
+    "meshLocation": [
+      -691.4789339282726,
+      666.9534040609936,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22C70) {pitch: 0.000000, yaw: 159.831793, roll: 0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -723.6092874194937,
+          656.586701722967,
+          7.179634289715679
+        ],
+        "component": [
+          26.586059644211034,
+          20.80888188804316,
+          7.179634289715679
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -661.1547636846725,
+          700.6391834878477,
+          7.45229035747797
+        ],
+        "component": [
+          -16.850733017571926,
+          -42.075406514114825,
+          7.45229035747797
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -691.5089207103099,
+          677.6709786871124,
+          84.32279968261719
+        ],
+        "component": [
+          3.7233254909515687,
+          -10.050082206726099,
+          84.32279968261719
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -691.1420269770081,
+          690.0338498472956,
+          148.8484522015451
+        ],
+        "component": [
+          7.641366439744405,
+          -21.78141416257869,
+          148.8484522015451
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -691.4789339282726,
+          666.9534040609936,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "swordsman",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_11",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_swordsman.SK_MassGPU_swordsman",
+    "actorLocation": [
+      -1038.5000787038998,
+      140.30155768548525,
+      85.0
+    ],
+    "meshLocation": [
+      -1038.5000787038998,
+      140.30155768548525,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22C70) {pitch: 0.000000, yaw: 29.429092, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -1016.5003782620092,
+          143.93359202268348,
+          5.195071596745424
+        ],
+        "component": [
+          20.945542497398897,
+          -7.646093280176782,
+          5.195071596745424
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -1064.4291175754797,
+          108.24583102862803,
+          5.056397088341836
+        ],
+        "component": [
+          -38.33372563562835,
+          -15.179267017725799,
+          5.056397088341836
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -1089.8677942131715,
+          160.98411640381005,
+          19.414569854736328
+        ],
+        "component": [
+          -34.57715988159177,
+          43.25309753417968,
+          19.414569854736328
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -1156.730194933386,
+          249.90443305561604,
+          9.006696836742696
+        ],
+        "component": [
+          -49.12128639470993,
+          153.55210808050506,
+          9.006696836742696
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -1038.5000787038998,
+          140.30155768548525,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "goblin_laborer",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_12",
+    "mesh": "/Game/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer.SK_laborer",
+    "actorLocation": [
+      255.15043821642556,
+      -1150.6193025485177,
+      85.0
+    ],
+    "meshLocation": [
+      255.15043821642556,
+      -1150.6193025485177,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22C70) {pitch: 0.000000, yaw: 93.656009, roll: 0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          257.1586633564728,
+          -1136.7136515859002,
+          8.69642374811447
+        ],
+        "component": [
+          13.749294491332003,
+          -2.890847262982108,
+          8.69642374811447
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          261.634743909807,
+          -1160.746263535773,
+          19.713477174264867
+        ],
+        "component": [
+          -10.519830199879614,
+          -5.825352498202426,
+          19.713477174264867
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          254.94578862020396,
+          -1150.3950782419356,
+          57.38059361216906
+        ],
+        "component": [
+          0.23681768774990944,
+          0.18993519859326177,
+          57.38059361216906
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          236.97395378562513,
+          -1150.5520809869756,
+          84.86867884301273
+        ],
+        "component": [
+          1.2261282671145288,
+          18.135206491078325,
+          84.86867884301273
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          255.15043821642556,
+          -1150.6193025485177,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "crossbowman",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_13",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_crossbowman.SK_MassGPU_crossbowman",
+    "actorLocation": [
+      309.5245285845631,
+      937.6911660924736,
+      85.0
+    ],
+    "meshLocation": [
+      309.5245285845631,
+      937.6911660924736,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22C70) {pitch: -0.000000, yaw: -113.562157, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          294.1432683462423,
+          921.5484263622952,
+          5.19462514439525
+        ],
+        "component": [
+          20.94543230407924,
+          -7.645919049431701,
+          5.19462514439525
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          307.6479681876272,
+          991.1382664127947,
+          4.221097892997291
+        ],
+        "component": [
+          -48.24090942014386,
+          -23.085247884553638,
+          4.221097892997291
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          362.9934856118341,
+          952.0953691663777,
+          19.414569854736328
+        ],
+        "component": [
+          -34.577159881591804,
+          43.253097534179716,
+          19.414569854736328
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          426.05725096019853,
+          940.5022815279841,
+          21.453514812047754
+        ],
+        "component": [
+          -49.159966684455526,
+          105.69330834945,
+          21.453514812047754
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          309.5245285845631,
+          937.6911660924736,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  },
+  {
+    "id": "axeman",
+    "actor": "/Game/ThreeCLab/Maps/L_ThreeCArena.L_ThreeCArena:PersistentLevel.ThreeCFighter_14",
+    "mesh": "/Game/Monsters/Mass/Instanced/Meshes/SK_MassGPU_axeman.SK_MassGPU_axeman",
+    "actorLocation": [
+      -868.9403128222045,
+      182.44025730209708,
+      85.0
+    ],
+    "meshLocation": [
+      -868.9403128222045,
+      182.44025730209708,
+      0.0
+    ],
+    "meshRotation": "<Struct 'Rotator' (0x0000018B6FE22C70) {pitch: 0.000000, yaw: 46.104841, roll: -0.000000}>",
+    "meshScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "currentAnimation": "UNAVAILABLE: AnimSingleNodeInstance: Failed to find property 'current_asset' for attribute 'current_asset' on 'AnimSingleNodeInstance'",
+    "postProcessBlueprint": "None",
+    "feet": {
+      "foot_l": {
+        "world": [
+          -852.3404946152101,
+          213.52803136168097,
+          7.177390435516408
+        ],
+        "component": [
+          33.91148502396543,
+          9.592436810027422,
+          7.177390435516408
+        ],
+        "resolvedBone": "foot_l"
+      },
+      "foot_r": {
+        "world": [
+          -878.9044988444468,
+          133.95273676995868,
+          7.441064138242325
+        ],
+        "component": [
+          -41.84915549216925,
+          -26.438094391098467,
+          7.441064138242325
+        ],
+        "resolvedBone": "foot_r"
+      },
+      "pelvis": {
+        "world": [
+          -862.7340436897232,
+          170.96946117667372,
+          83.50408172607422
+        ],
+        "component": [
+          -3.962906360626218,
+          -12.425470352172852,
+          83.50408172607422
+        ],
+        "resolvedBone": "pelvis"
+      },
+      "head": {
+        "world": [
+          -882.8222908931289,
+          158.09023767505607,
+          145.2412174529446
+        ],
+        "component": [
+          -27.171804011634375,
+          -6.879377715479524,
+          145.2412174529446
+        ],
+        "resolvedBone": "head"
+      },
+      "root": {
+        "world": [
+          -868.9403128222045,
+          182.44025730209708,
+          0.0
+        ],
+        "component": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "resolvedBone": "root"
+      }
+    }
+  }
+]

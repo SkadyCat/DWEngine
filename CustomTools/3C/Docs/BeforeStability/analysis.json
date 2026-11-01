@@ -1,0 +1,288 @@
+{
+  "verification": "PASS",
+  "units": 100,
+  "factions": [
+    34,
+    33,
+    33
+  ],
+  "models": [
+    {
+      "id": "cloth_grunt",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999952912330627,
+      "boneScaleMax": 1.0000039339065552,
+      "rawCompressedMaxCm": 0.04052722768128439,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "goblin_archer",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.999997079372406,
+      "boneScaleMax": 1.0000011920928955,
+      "rawCompressedMaxCm": 0.019729559439190823,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "goblin_dagger_scout",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999893307685852,
+      "boneScaleMax": 1.000006079673767,
+      "rawCompressedMaxCm": 0.020589535181889555,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "goblin_hammer_chief",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999982714653015,
+      "boneScaleMax": 1.0000040531158447,
+      "rawCompressedMaxCm": 0.030299108194137413,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "goblin_laborer",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999970197677612,
+      "boneScaleMax": 1.0000033378601074,
+      "rawCompressedMaxCm": 0.01818421185943589,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "goblin_shaman",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999976754188538,
+      "boneScaleMax": 1.0000048875808716,
+      "rawCompressedMaxCm": 0.018189155823044957,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "goblin_shield_trooper",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999973773956299,
+      "boneScaleMax": 1.0000039339065552,
+      "rawCompressedMaxCm": 0.019327618826839508,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "rust_warrior",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999976754188538,
+      "boneScaleMax": 1.000004768371582,
+      "rawCompressedMaxCm": 0.033088378209059834,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null
+      ]
+    },
+    {
+      "id": "archer",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999989867210388,
+      "boneScaleMax": 1.0000009536743164,
+      "rawCompressedMaxCm": 0.08720405558280384,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "crossbowman",
+      "sameSkeleton": true,
+      "boneScaleMin": 1.0,
+      "boneScaleMax": 1.0,
+      "rawCompressedMaxCm": 0.07251116308621042,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mage",
+      "sameSkeleton": true,
+      "boneScaleMin": 0.9999983310699463,
+      "boneScaleMax": 1.0000019073486328,
+      "rawCompressedMaxCm": 0.012509319121346509,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "samurai",
+      "sameSkeleton": true,
+      "boneScaleMin": 1.0,
+      "boneScaleMax": 1.0,
+      "rawCompressedMaxCm": 0.07245933596140332,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "spearman",
+      "sameSkeleton": true,
+      "boneScaleMin": 1.0,
+      "boneScaleMax": 1.0,
+      "rawCompressedMaxCm": 0.0724619251453226,
+      "anatomicalTranslationCandidates": [],
+      "worldPositionOffset": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "swordsman",
+      "sameSkeleton": true,
+      "boneScaleMin": 1.0,
+      "boneScaleMax": 1.0,
+      "rawCompressedMaxCm": 0.03453712966604402,
+      "anatomicalTranslationCandidates": [
+        {
+          "state": "death",
+          "sample": 7,
+          "bone": "head",
+          "ratio": 10.036850592752208
+        },
+        {
+          "state": "death",
+          "sample": 8,
+          "bone": "head",
+          "ratio": 10.968589980497748
+        }
+      ],
+      "worldPositionOffset": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "axeman",
+      "sameSkeleton": true,
+      "boneScaleMin": 1.0,
+      "boneScaleMax": 1.0,
+      "rawCompressedMaxCm": 0.03455763356541439,
+      "anatomicalTranslationCandidates": [
+        {
+          "state": "death",
+          "sample": 7,
+          "bone": "head",
+          "ratio": 10.036850592752208
+        },
+        {
+          "state": "death",
+          "sample": 8,
+          "bone": "head",
+          "ratio": 10.968589980497748
+        }
+      ],
+      "worldPositionOffset": [
+        null,
+        null
+      ]
+    }
+  ],
+  "comparison": {
+    "opus": {
+      "samples": 40000,
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "duration": 40.004319,
+      "states": {
+        "idle": 6063,
+        "run": 11524,
+        "walk": 669,
+        "attack1": 11389,
+        "hit": 4389,
+        "attack2": 3218,
+        "death": 2748
+      },
+      "events": {
+        "attacks": 1729,
+        "hits": 1687,
+        "deaths": 84
+      },
+      "attackSamples": 12109,
+      "movingAttackSamples": 3729,
+      "movingAttackPercent": 30.79527624081262,
+      "turnOver720Samples": 119,
+      "rootOffsetP99": 0.0
+    },
+    "controlled": {
+      "samples": 40000,
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "duration": 40.002678,
+      "states": {
+        "idle": 4748,
+        "run": 16056,
+        "walk": 945,
+        "attack1": 8526,
+        "hit": 6178,
+        "attack2": 2067,
+        "death": 1480
+      },
+      "events": {
+        "attacks": 1075,
+        "hits": 1062,
+        "deaths": 46
+      },
+      "attackSamples": 8929,
+      "movingAttackSamples": 97,
+      "movingAttackPercent": 1.0863478553029455,
+      "turnOver720Samples": 29,
+      "rootOffsetP99": 0.0
+    }
+  },
+  "sourceAssetsVerified": 305,
+  "poseClips": 91,
+  "poseSamplesPerClip": 9,
+  "notes": [
+    "Training damage only triggers visual states; no Opus rules are changed.",
+    "IK, weapon, book and interaction bones are excluded from anatomical length candidates.",
+    "Foot joint height is not a mesh-sole penetration measurement.",
+    "Raw/compressed audit covers pelvis, head and both feet, five phases, five clips per model."
+  ]
+}

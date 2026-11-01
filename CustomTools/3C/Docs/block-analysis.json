@@ -1,0 +1,356 @@
+{
+  "verification": "PASS",
+  "runs": [
+    {
+      "tag": "blocked-60",
+      "cases": 12,
+      "results": [
+        {
+          "model": "cloth_grunt",
+          "obstacle": "wall",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 195.899604,
+          "resume25CmSeconds": 0.18334699999999948,
+          "statesWhileHeld": {
+            "idle": 198
+          }
+        },
+        {
+          "model": "cloth_grunt",
+          "obstacle": "wall",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 195.899415,
+          "resume25CmSeconds": 0.3783379999999994,
+          "statesWhileHeld": {
+            "idle": 186
+          }
+        },
+        {
+          "model": "cloth_grunt",
+          "obstacle": "crowd",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.007980486012774887,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 166.695347,
+          "resume25CmSeconds": 0.10177700000000023,
+          "statesWhileHeld": {
+            "idle": 194
+          }
+        },
+        {
+          "model": "cloth_grunt",
+          "obstacle": "crowd",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 166.691465,
+          "resume25CmSeconds": 0.36716499999999996,
+          "statesWhileHeld": {
+            "idle": 194
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "wall",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 195.899607,
+          "resume25CmSeconds": 0.18545500000000015,
+          "statesWhileHeld": {
+            "idle": 198
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "wall",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 195.899357,
+          "resume25CmSeconds": 0.3675929999999994,
+          "statesWhileHeld": {
+            "idle": 198
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "crowd",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 2,
+          "yawMotionDegreesWhileHeld": 60.00213100000002,
+          "bodyPathCmWhileHeld": 34.48766248496493,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 209.308672,
+          "resume25CmSeconds": 0.10200399999999998,
+          "statesWhileHeld": {
+            "walk": 9,
+            "run": 15,
+            "idle": 172
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "crowd",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 178.091856,
+          "resume25CmSeconds": 0.4000009999999996,
+          "statesWhileHeld": {
+            "idle": 198
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "wall",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 195.89961,
+          "resume25CmSeconds": 0.183338,
+          "statesWhileHeld": {
+            "idle": 196
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "wall",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 195.89938,
+          "resume25CmSeconds": 0.3712900000000001,
+          "statesWhileHeld": {
+            "idle": 198
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "crowd",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 174.302471,
+          "resume25CmSeconds": 0.10003400000000084,
+          "statesWhileHeld": {
+            "idle": 191
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "crowd",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 174.291168,
+          "resume25CmSeconds": 0.36974399999999985,
+          "statesWhileHeld": {
+            "idle": 196
+          }
+        }
+      ]
+    },
+    {
+      "tag": "blocked-15",
+      "cases": 12,
+      "results": [
+        {
+          "model": "cloth_grunt",
+          "obstacle": "wall",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 195.850474,
+          "resume25CmSeconds": 0.266667,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "cloth_grunt",
+          "obstacle": "wall",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 195.850115,
+          "resume25CmSeconds": 0.4666680000000003,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "cloth_grunt",
+          "obstacle": "crowd",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0005712390042713813,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 166.234122,
+          "resume25CmSeconds": 0.13333399999999962,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "cloth_grunt",
+          "obstacle": "crowd",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 137.238013,
+          "resume25CmSeconds": 0.4666749999999995,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "wall",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 195.844953,
+          "resume25CmSeconds": 0.266667,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "wall",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 195.850398,
+          "resume25CmSeconds": 0.4666839999999999,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "crowd",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 2,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 14.68464933059529,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 209.351933,
+          "resume25CmSeconds": 0.1334609999999996,
+          "statesWhileHeld": {
+            "idle": 45,
+            "walk": 4
+          }
+        },
+        {
+          "model": "goblin_archer",
+          "obstacle": "crowd",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 176.925022,
+          "resume25CmSeconds": 0.4671099999999999,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "wall",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 195.850119,
+          "resume25CmSeconds": 0.266667,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "wall",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 195.850625,
+          "resume25CmSeconds": 0.46666700000000017,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "crowd",
+          "guarded": false,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.19251374319918294,
+          "blockedSamplePercent": 0.0,
+          "maxForwardXWhileHeld": 173.992062,
+          "resume25CmSeconds": 0.13335699999999928,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        },
+        {
+          "model": "swordsman",
+          "obstacle": "crowd",
+          "guarded": true,
+          "stateSwitchesWhileHeld": 0,
+          "yawMotionDegreesWhileHeld": 0.0,
+          "bodyPathCmWhileHeld": 0.0,
+          "blockedSamplePercent": 100.0,
+          "maxForwardXWhileHeld": 147.156453,
+          "resume25CmSeconds": 0.4666699999999997,
+          "statesWhileHeld": {
+            "idle": 49
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 DungeonWorldOpus 精简开发基线，保留规则引擎、AngelScript/Lua 玩法、UE UI 资源和可编辑的 UICreator UI 工程。
 
-此副本约 1.46 GiB，已去除角色、怪物、动画、地牢美术等大型资源，以及缓存、编译产物和历史导出。资产引用保持原样；这是源码与 UI 开发基线，尚未修复缺失美术引用。
+此副本约 2.06 GiB，保留主角动画、运动匹配和 3C 开发资源；其他大型怪物模型、地牢美术、缓存、编译产物和历史导出继续精简。资产引用保持原样，未修复缺失美术引用。
 
 ## 获取工程
 
@@ -21,6 +21,9 @@ git lfs pull
 - UI 编辑器：`CustomTools/UICreatorAlpha`，包含 34 个当前 UI 项目与所引用的素材。
 - SVG UE UI 工程：`CustomTools/UICreatorAlpha/Unreal/SvgWbpLab/SvgWbpLab.uproject`。
 - 规则引擎：`Plugins/DWRules`。玩法脚本：`Script/Opus` 和 `Content/Script/opus`。
+- 3C 实验工程源码：`CustomTools/3C/ThreeCLab.uproject`，精简范围见该目录 `LITE-NOTES.md`。
+- 动画与 3C：`Content/Clean3C`、`Content/ThreeCLab`、`Plugins/MoonScholar3C`、`Script/Opus/Zero3C`、`Script/Opus/Combat3C`；主角模型、贴图和重定向保存在 `Content/Characters/WizardHero`。
+- 动画与 3C 文件校验：`_LitePackage/animation-3c.json`。
 - 打包范围及校验：`_LitePackage/manifest.json`。
 
 ## 启动 UI 编辑器
@@ -36,4 +39,4 @@ cd CustomTools/UICreatorAlpha
 
 大型文件使用 Git LFS，其余文件直接由 Git 版本管理。源工程未修改，没有进行 UE 编译、资源重建或引用修复。
 
-原完整版使用说明保存在 [Docs/OpusOriginalREADME.md](Docs/OpusOriginalREADME.md)，其中提到的模型与地牢资产不包含在此精简副本中。
+原完整版使用说明保存在 [Docs/OpusOriginalREADME.md](Docs/OpusOriginalREADME.md)，其中部分怪物模型、隐藏源姿态网格材质与地牢美术仍不包含在此精简副本中。

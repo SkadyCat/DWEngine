@@ -1,0 +1,454 @@
+{
+  "verification": "PASS",
+  "models": 14,
+  "variants": 25,
+  "cases": 50,
+  "aggregate": {
+    "walk": {
+      "variants": 8,
+      "beforeCmS": 76.0889507210026,
+      "afterCmS": 13.106227168907722,
+      "reductionPercent": 82.77512431868765
+    },
+    "slowRun": {
+      "variants": 3,
+      "beforeCmS": 34.62504124088787,
+      "afterCmS": 10.066740520353552,
+      "reductionPercent": 70.92641579740277
+    },
+    "run": {
+      "variants": 14,
+      "beforeCmS": 38.95064990539868,
+      "afterCmS": 33.4128675466127,
+      "reductionPercent": 14.217432500448268
+    }
+  },
+  "results": [
+    {
+      "model": "archer",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 67,
+        "meanJointMotionCmS": 41.13418011705857,
+        "medianJointMotionCmS": 15.773328713778076,
+        "meanForwardSlipRatio": 0.169746925694576
+      },
+      "synchronized": {
+        "samples": 58,
+        "meanJointMotionCmS": 27.357418678736433,
+        "medianJointMotionCmS": 10.815530927627453,
+        "meanForwardSlipRatio": 0.10104447945928183
+      }
+    },
+    {
+      "model": "axeman",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 63,
+        "meanJointMotionCmS": 38.49426410599889,
+        "medianJointMotionCmS": 14.363726676585186,
+        "meanForwardSlipRatio": 0.16249425299887615
+      },
+      "synchronized": {
+        "samples": 60,
+        "meanJointMotionCmS": 26.786296271734606,
+        "medianJointMotionCmS": 10.228576813010953,
+        "meanForwardSlipRatio": 0.10534125951362387
+      }
+    },
+    {
+      "model": "cloth_grunt",
+      "state": "run",
+      "fraction": 0.2,
+      "legacy": {
+        "samples": 205,
+        "meanJointMotionCmS": 39.239583954089646,
+        "medianJointMotionCmS": 44.99335095918565,
+        "meanForwardSlipRatio": 0.7008676930007738
+      },
+      "synchronized": {
+        "samples": 218,
+        "meanJointMotionCmS": 9.966523512665981,
+        "medianJointMotionCmS": 6.570855534887379,
+        "meanForwardSlipRatio": 0.170831780417176
+      }
+    },
+    {
+      "model": "cloth_grunt",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 88,
+        "meanJointMotionCmS": 42.65506031979473,
+        "medianJointMotionCmS": 26.566580433697286,
+        "meanForwardSlipRatio": 0.23150013839460504
+      },
+      "synchronized": {
+        "samples": 90,
+        "meanJointMotionCmS": 43.311477941503476,
+        "medianJointMotionCmS": 21.149242075377607,
+        "meanForwardSlipRatio": 0.23347495506503388
+      }
+    },
+    {
+      "model": "cloth_grunt",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 109,
+        "meanJointMotionCmS": 86.27546988599279,
+        "medianJointMotionCmS": 81.78586948965331,
+        "meanForwardSlipRatio": 0.6888959449440195
+      },
+      "synchronized": {
+        "samples": 107,
+        "meanJointMotionCmS": 19.870529439329356,
+        "medianJointMotionCmS": 5.9302093016957675,
+        "meanForwardSlipRatio": 0.1475451467079793
+      }
+    },
+    {
+      "model": "crossbowman",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 67,
+        "meanJointMotionCmS": 41.27864681009442,
+        "medianJointMotionCmS": 15.916206167556664,
+        "meanForwardSlipRatio": 0.17331584270772699
+      },
+      "synchronized": {
+        "samples": 57,
+        "meanJointMotionCmS": 27.055246505948553,
+        "medianJointMotionCmS": 9.831976999807823,
+        "meanForwardSlipRatio": 0.1030944533460031
+      }
+    },
+    {
+      "model": "goblin_archer",
+      "state": "run",
+      "fraction": 0.2,
+      "legacy": {
+        "samples": 200,
+        "meanJointMotionCmS": 27.905245484681092,
+        "medianJointMotionCmS": 27.084671496569598,
+        "meanForwardSlipRatio": 0.6433907360248401
+      },
+      "synchronized": {
+        "samples": 189,
+        "meanJointMotionCmS": 8.77972687131507,
+        "medianJointMotionCmS": 7.826719988582007,
+        "meanForwardSlipRatio": 0.1992228473511073
+      }
+    },
+    {
+      "model": "goblin_archer",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 94,
+        "meanJointMotionCmS": 34.60737897122346,
+        "medianJointMotionCmS": 22.877923298891027,
+        "meanForwardSlipRatio": 0.2421245738887996
+      },
+      "synchronized": {
+        "samples": 88,
+        "meanJointMotionCmS": 36.75212500991117,
+        "medianJointMotionCmS": 26.060572958289214,
+        "meanForwardSlipRatio": 0.2592279758874921
+      }
+    },
+    {
+      "model": "goblin_archer",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 111,
+        "meanJointMotionCmS": 66.19349366640944,
+        "medianJointMotionCmS": 65.77908719754083,
+        "meanForwardSlipRatio": 0.6811435657572693
+      },
+      "synchronized": {
+        "samples": 113,
+        "meanJointMotionCmS": 9.933130198628035,
+        "medianJointMotionCmS": 6.358946514934264,
+        "meanForwardSlipRatio": 0.09056896759441539
+      }
+    },
+    {
+      "model": "goblin_dagger_scout",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 89,
+        "meanJointMotionCmS": 38.01239210038032,
+        "medianJointMotionCmS": 31.231264830976283,
+        "meanForwardSlipRatio": 0.23839495587109732
+      },
+      "synchronized": {
+        "samples": 86,
+        "meanJointMotionCmS": 39.5526610074646,
+        "medianJointMotionCmS": 30.244618749577516,
+        "meanForwardSlipRatio": 0.2506117876007366
+      }
+    },
+    {
+      "model": "goblin_dagger_scout",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 116,
+        "meanJointMotionCmS": 77.0607816062007,
+        "medianJointMotionCmS": 75.90954624484635,
+        "meanForwardSlipRatio": 0.71363397291428
+      },
+      "synchronized": {
+        "samples": 112,
+        "meanJointMotionCmS": 9.840535984842877,
+        "medianJointMotionCmS": 5.848887722104134,
+        "meanForwardSlipRatio": 0.07893033067300254
+      }
+    },
+    {
+      "model": "goblin_hammer_chief",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 76,
+        "meanJointMotionCmS": 42.75688188442371,
+        "medianJointMotionCmS": 29.156064533364628,
+        "meanForwardSlipRatio": 0.254916801964601
+      },
+      "synchronized": {
+        "samples": 90,
+        "meanJointMotionCmS": 47.65976071221375,
+        "medianJointMotionCmS": 28.648113014271523,
+        "meanForwardSlipRatio": 0.2885187967891607
+      }
+    },
+    {
+      "model": "goblin_hammer_chief",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 104,
+        "meanJointMotionCmS": 78.71668735349907,
+        "medianJointMotionCmS": 78.31669689247224,
+        "meanForwardSlipRatio": 0.6941812827357321
+      },
+      "synchronized": {
+        "samples": 104,
+        "meanJointMotionCmS": 13.36702908666831,
+        "medianJointMotionCmS": 8.567898172905105,
+        "meanForwardSlipRatio": 0.10162503261029386
+      }
+    },
+    {
+      "model": "goblin_laborer",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 82,
+        "meanJointMotionCmS": 24.69106937796289,
+        "medianJointMotionCmS": 14.692273745779074,
+        "meanForwardSlipRatio": 0.18725120849278695
+      },
+      "synchronized": {
+        "samples": 79,
+        "meanJointMotionCmS": 25.510955331994893,
+        "medianJointMotionCmS": 21.005947145798174,
+        "meanForwardSlipRatio": 0.19632455282183991
+      }
+    },
+    {
+      "model": "goblin_laborer",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 101,
+        "meanJointMotionCmS": 60.56064535796511,
+        "medianJointMotionCmS": 60.67052804355324,
+        "meanForwardSlipRatio": 0.6881716607245104
+      },
+      "synchronized": {
+        "samples": 110,
+        "meanJointMotionCmS": 10.40441893767111,
+        "medianJointMotionCmS": 7.132539711612035,
+        "meanForwardSlipRatio": 0.10442329244693425
+      }
+    },
+    {
+      "model": "goblin_shaman",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 90,
+        "meanJointMotionCmS": 39.233187923261085,
+        "medianJointMotionCmS": 29.7257541712478,
+        "meanForwardSlipRatio": 0.24461430300715425
+      },
+      "synchronized": {
+        "samples": 87,
+        "meanJointMotionCmS": 39.8567775366021,
+        "medianJointMotionCmS": 26.855570733307676,
+        "meanForwardSlipRatio": 0.2507468978667866
+      }
+    },
+    {
+      "model": "goblin_shaman",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 116,
+        "meanJointMotionCmS": 78.5151470088036,
+        "medianJointMotionCmS": 78.49659176455833,
+        "meanForwardSlipRatio": 0.7204633797471114
+      },
+      "synchronized": {
+        "samples": 111,
+        "meanJointMotionCmS": 12.369731616947195,
+        "medianJointMotionCmS": 10.41062548164161,
+        "meanForwardSlipRatio": 0.09977187929073213
+      }
+    },
+    {
+      "model": "goblin_shield_trooper",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 80,
+        "meanJointMotionCmS": 30.873724229962225,
+        "medianJointMotionCmS": 19.527156122392537,
+        "meanForwardSlipRatio": 0.21089944976701183
+      },
+      "synchronized": {
+        "samples": 76,
+        "meanJointMotionCmS": 29.566323359436183,
+        "medianJointMotionCmS": 21.71743551345507,
+        "meanForwardSlipRatio": 0.20254555562524923
+      }
+    },
+    {
+      "model": "goblin_shield_trooper",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 107,
+        "meanJointMotionCmS": 70.9353113008627,
+        "medianJointMotionCmS": 71.0708818804322,
+        "meanForwardSlipRatio": 0.7149133703401258
+      },
+      "synchronized": {
+        "samples": 109,
+        "meanJointMotionCmS": 10.066690330926821,
+        "medianJointMotionCmS": 7.611723559755351,
+        "meanForwardSlipRatio": 0.08765090253046262
+      }
+    },
+    {
+      "model": "rust_warrior",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 80,
+        "meanJointMotionCmS": 50.90671900069749,
+        "medianJointMotionCmS": 31.539824232265723,
+        "meanForwardSlipRatio": 0.2597109421851042
+      },
+      "synchronized": {
+        "samples": 79,
+        "meanJointMotionCmS": 50.0827697787812,
+        "medianJointMotionCmS": 24.03825061199879,
+        "meanForwardSlipRatio": 0.25467812931407485
+      }
+    },
+    {
+      "model": "rust_warrior",
+      "state": "walk",
+      "fraction": 0.45,
+      "legacy": {
+        "samples": 101,
+        "meanJointMotionCmS": 90.4540695882874,
+        "medianJointMotionCmS": 85.40643705559862,
+        "meanForwardSlipRatio": 0.6820391162703462
+      },
+      "synchronized": {
+        "samples": 107,
+        "meanJointMotionCmS": 18.997751756248064,
+        "medianJointMotionCmS": 6.774005179971354,
+        "meanForwardSlipRatio": 0.13368276162745926
+      }
+    },
+    {
+      "model": "samurai",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 63,
+        "meanJointMotionCmS": 38.402590292991064,
+        "medianJointMotionCmS": 14.580981680937992,
+        "meanForwardSlipRatio": 0.16346972191361905
+      },
+      "synchronized": {
+        "samples": 59,
+        "meanJointMotionCmS": 25.87784048589958,
+        "medianJointMotionCmS": 10.393253659346987,
+        "meanForwardSlipRatio": 0.09960971461015829
+      }
+    },
+    {
+      "model": "spearman",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 66,
+        "meanJointMotionCmS": 41.159245534646104,
+        "medianJointMotionCmS": 16.019611447238248,
+        "meanForwardSlipRatio": 0.17295464845573008
+      },
+      "synchronized": {
+        "samples": 58,
+        "meanJointMotionCmS": 23.334137749521656,
+        "medianJointMotionCmS": 10.160100937916564,
+        "meanForwardSlipRatio": 0.08821857676355713
+      }
+    },
+    {
+      "model": "swordsman",
+      "state": "run",
+      "fraction": 0.2,
+      "legacy": {
+        "samples": 171,
+        "meanJointMotionCmS": 36.73029428389287,
+        "medianJointMotionCmS": 42.57204072963434,
+        "meanForwardSlipRatio": 0.5201228410731074
+      },
+      "synchronized": {
+        "samples": 184,
+        "meanJointMotionCmS": 11.453971177079604,
+        "medianJointMotionCmS": 4.588626473096834,
+        "meanForwardSlipRatio": 0.14874775758920897
+      }
+    },
+    {
+      "model": "swordsman",
+      "state": "run",
+      "fraction": 0.65,
+      "legacy": {
+        "samples": 66,
+        "meanJointMotionCmS": 41.10375800708656,
+        "medianJointMotionCmS": 15.987668477418858,
+        "meanForwardSlipRatio": 0.1728102518280039
+      },
+      "synchronized": {
+        "samples": 57,
+        "meanJointMotionCmS": 25.07635528282967,
+        "medianJointMotionCmS": 9.605967262681897,
+        "meanForwardSlipRatio": 0.0961081371055497
+      }
+    }
+  ],
+  "boundary": "Low foot-joint horizontal motion is a comparison proxy, not a complete shoe-sole contact/IK measurement. Mage source has no stride and is excluded."
+}

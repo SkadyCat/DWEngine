@@ -1,0 +1,9 @@
+/Saved/
+/Intermediate/
+/DerivedDataCache/
+/Script/Binds.Cache*
+__pycache__/
+*.pyc
+
+# Transient recorder controls; recordings and verification metadata are retained.
+/Docs/Recordings/**/stop.request

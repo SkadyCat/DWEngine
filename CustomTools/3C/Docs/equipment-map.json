@@ -1,0 +1,610 @@
+{
+  "verification": "PASS",
+  "map": "/Game/ThreeCLab/Maps/L_ThreeCArena",
+  "reloaded": true,
+  "actors": 100,
+  "externalParts": 95,
+  "builtInUnits": 19,
+  "units": [
+    {
+      "id": 0,
+      "model": "cloth_grunt",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 1,
+      "model": "goblin_shaman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 2,
+      "model": "mage",
+      "parts": 0,
+      "builtIn": "book"
+    },
+    {
+      "id": 3,
+      "model": "goblin_archer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 4,
+      "model": "goblin_shield_trooper",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 5,
+      "model": "samurai",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 6,
+      "model": "goblin_dagger_scout",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 7,
+      "model": "rust_warrior",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 8,
+      "model": "spearman",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 9,
+      "model": "goblin_hammer_chief",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 10,
+      "model": "archer",
+      "parts": 0,
+      "builtIn": "bow"
+    },
+    {
+      "id": 11,
+      "model": "swordsman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 12,
+      "model": "goblin_laborer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 13,
+      "model": "crossbowman",
+      "parts": 0,
+      "builtIn": "crossbow"
+    },
+    {
+      "id": 14,
+      "model": "axeman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 15,
+      "model": "goblin_shaman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 16,
+      "model": "mage",
+      "parts": 0,
+      "builtIn": "book"
+    },
+    {
+      "id": 17,
+      "model": "cloth_grunt",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 18,
+      "model": "goblin_shield_trooper",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 19,
+      "model": "samurai",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 20,
+      "model": "goblin_archer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 21,
+      "model": "rust_warrior",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 22,
+      "model": "spearman",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 23,
+      "model": "goblin_dagger_scout",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 24,
+      "model": "archer",
+      "parts": 0,
+      "builtIn": "bow"
+    },
+    {
+      "id": 25,
+      "model": "swordsman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 26,
+      "model": "goblin_hammer_chief",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 27,
+      "model": "crossbowman",
+      "parts": 0,
+      "builtIn": "crossbow"
+    },
+    {
+      "id": 28,
+      "model": "axeman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 29,
+      "model": "goblin_laborer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 30,
+      "model": "mage",
+      "parts": 0,
+      "builtIn": "book"
+    },
+    {
+      "id": 31,
+      "model": "cloth_grunt",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 32,
+      "model": "goblin_shaman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 33,
+      "model": "samurai",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 34,
+      "model": "goblin_archer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 35,
+      "model": "goblin_shield_trooper",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 36,
+      "model": "spearman",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 37,
+      "model": "goblin_dagger_scout",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 38,
+      "model": "rust_warrior",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 39,
+      "model": "swordsman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 40,
+      "model": "goblin_hammer_chief",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 41,
+      "model": "archer",
+      "parts": 0,
+      "builtIn": "bow"
+    },
+    {
+      "id": 42,
+      "model": "axeman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 43,
+      "model": "goblin_laborer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 44,
+      "model": "crossbowman",
+      "parts": 0,
+      "builtIn": "crossbow"
+    },
+    {
+      "id": 45,
+      "model": "cloth_grunt",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 46,
+      "model": "goblin_shaman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 47,
+      "model": "mage",
+      "parts": 0,
+      "builtIn": "book"
+    },
+    {
+      "id": 48,
+      "model": "goblin_archer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 49,
+      "model": "goblin_shield_trooper",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 50,
+      "model": "samurai",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 51,
+      "model": "goblin_dagger_scout",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 52,
+      "model": "rust_warrior",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 53,
+      "model": "spearman",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 54,
+      "model": "goblin_hammer_chief",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 55,
+      "model": "archer",
+      "parts": 0,
+      "builtIn": "bow"
+    },
+    {
+      "id": 56,
+      "model": "swordsman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 57,
+      "model": "goblin_laborer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 58,
+      "model": "crossbowman",
+      "parts": 0,
+      "builtIn": "crossbow"
+    },
+    {
+      "id": 59,
+      "model": "axeman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 60,
+      "model": "goblin_shaman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 61,
+      "model": "mage",
+      "parts": 0,
+      "builtIn": "book"
+    },
+    {
+      "id": 62,
+      "model": "cloth_grunt",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 63,
+      "model": "goblin_shield_trooper",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 64,
+      "model": "samurai",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 65,
+      "model": "goblin_archer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 66,
+      "model": "rust_warrior",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 67,
+      "model": "spearman",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 68,
+      "model": "goblin_dagger_scout",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 69,
+      "model": "archer",
+      "parts": 0,
+      "builtIn": "bow"
+    },
+    {
+      "id": 70,
+      "model": "swordsman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 71,
+      "model": "goblin_hammer_chief",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 72,
+      "model": "crossbowman",
+      "parts": 0,
+      "builtIn": "crossbow"
+    },
+    {
+      "id": 73,
+      "model": "axeman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 74,
+      "model": "goblin_laborer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 75,
+      "model": "mage",
+      "parts": 0,
+      "builtIn": "book"
+    },
+    {
+      "id": 76,
+      "model": "cloth_grunt",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 77,
+      "model": "goblin_shaman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 78,
+      "model": "samurai",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 79,
+      "model": "goblin_archer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 80,
+      "model": "goblin_shield_trooper",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 81,
+      "model": "spearman",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 82,
+      "model": "goblin_dagger_scout",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 83,
+      "model": "rust_warrior",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 84,
+      "model": "swordsman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 85,
+      "model": "goblin_hammer_chief",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 86,
+      "model": "archer",
+      "parts": 0,
+      "builtIn": "bow"
+    },
+    {
+      "id": 87,
+      "model": "axeman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 88,
+      "model": "goblin_laborer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 89,
+      "model": "crossbowman",
+      "parts": 0,
+      "builtIn": "crossbow"
+    },
+    {
+      "id": 90,
+      "model": "cloth_grunt",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 91,
+      "model": "goblin_shaman",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 92,
+      "model": "mage",
+      "parts": 0,
+      "builtIn": "book"
+    },
+    {
+      "id": 93,
+      "model": "goblin_archer",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 94,
+      "model": "goblin_shield_trooper",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 95,
+      "model": "samurai",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 96,
+      "model": "goblin_dagger_scout",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 97,
+      "model": "rust_warrior",
+      "parts": 1,
+      "builtIn": ""
+    },
+    {
+      "id": 98,
+      "model": "spearman",
+      "parts": 2,
+      "builtIn": ""
+    },
+    {
+      "id": 99,
+      "model": "goblin_hammer_chief",
+      "parts": 1,
+      "builtIn": ""
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "verification": "PASS",
+  "runs": [
+    {
+      "tag": "baseline-60",
+      "mode": "opus",
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "samples": 40000,
+      "simulationSeconds": 40.013594,
+      "realSeconds": 40.392423,
+      "medianFrameMS": 16.670549,
+      "states": {
+        "idle": 6123,
+        "run": 11314,
+        "walk": 868,
+        "attack1": 11267,
+        "hit": 4285,
+        "attack2": 3275,
+        "death": 2868
+      },
+      "events": {
+        "attacks": 1730,
+        "hits": 1684,
+        "deaths": 87,
+        "target_changes": 1777,
+        "short_target_changes": 193,
+        "action_retargets": 355,
+        "anim_starts": 6631,
+        "hit_restarts": 1103,
+        "short_clip_cuts": 784,
+        "action_turn_frames": 874,
+        "abrupt_turn_frames": 478,
+        "turn_reversals": 6
+      },
+      "maxTurnDegreesPerSecond": 8758.12491,
+      "movingAttackPercent": 31.88586640046585
+    },
+    {
+      "tag": "stable-60",
+      "mode": "controlled",
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "samples": 40000,
+      "simulationSeconds": 40.009512,
+      "realSeconds": 40.009512,
+      "medianFrameMS": 16.6668,
+      "states": {
+        "idle": 9132,
+        "run": 12388,
+        "walk": 857,
+        "attack1": 10546,
+        "hit": 2702,
+        "attack2": 2610,
+        "death": 1765
+      },
+      "events": {
+        "attacks": 1230,
+        "hits": 1173,
+        "deaths": 55,
+        "target_changes": 560,
+        "short_target_changes": 0,
+        "action_retargets": 0,
+        "anim_starts": 3467,
+        "hit_restarts": 0,
+        "short_clip_cuts": 0,
+        "action_turn_frames": 0,
+        "abrupt_turn_frames": 0,
+        "turn_reversals": 0
+      },
+      "maxTurnDegreesPerSecond": 300.0,
+      "movingAttackPercent": 0.0
+    },
+    {
+      "tag": "stable-15",
+      "mode": "controlled",
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "samples": 40000,
+      "simulationSeconds": 40.050036,
+      "realSeconds": 40.050036,
+      "medianFrameMS": 66.666797,
+      "states": {
+        "idle": 9183,
+        "run": 11990,
+        "walk": 773,
+        "attack1": 10600,
+        "hit": 2836,
+        "attack2": 2877,
+        "death": 1741
+      },
+      "events": {
+        "attacks": 1276,
+        "hits": 1226,
+        "deaths": 55,
+        "target_changes": 564,
+        "short_target_changes": 0,
+        "action_retargets": 0,
+        "anim_starts": 3648,
+        "hit_restarts": 0,
+        "short_clip_cuts": 0,
+        "action_turn_frames": 0,
+        "abrupt_turn_frames": 0,
+        "turn_reversals": 0
+      },
+      "maxTurnDegreesPerSecond": 300.0,
+      "movingAttackPercent": 0.0
+    },
+    {
+      "tag": "live",
+      "mode": "controlled",
+      "units": 100,
+      "factions": [
+        34,
+        33,
+        33
+      ],
+      "models": 15,
+      "samples": 119900,
+      "simulationSeconds": 119.918367,
+      "realSeconds": 119.918367,
+      "medianFrameMS": 54.2261,
+      "states": {
+        "idle": 24521,
+        "run": 30227,
+        "walk": 2357,
+        "attack1": 35684,
+        "hit": 9694,
+        "attack2": 9919,
+        "death": 7498
+      },
+      "events": {
+        "attacks": 4321,
+        "hits": 4128,
+        "deaths": 215,
+        "target_changes": 1785,
+        "short_target_changes": 0,
+        "action_retargets": 0,
+        "anim_starts": 11665,
+        "hit_restarts": 0,
+        "short_clip_cuts": 0,
+        "action_turn_frames": 0,
+        "abrupt_turn_frames": 0,
+        "turn_reversals": 0
+      },
+      "maxTurnDegreesPerSecond": 300.0,
+      "movingAttackPercent": 0.0
+    }
+  ]
+}

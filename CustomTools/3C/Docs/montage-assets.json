@@ -1,0 +1,730 @@
+[
+  {
+    "model": "cloth_grunt",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/cloth_grunt/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "cloth_grunt",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/cloth_grunt/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "cloth_grunt",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/cloth_grunt/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "cloth_grunt",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/cloth_grunt/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "cloth_grunt",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/cloth_grunt/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "cloth_grunt",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/cloth_grunt/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "cloth_grunt",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/cloth_grunt/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_archer",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/goblin_archer/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_archer",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/goblin_archer/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_archer",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/goblin_archer/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshyGoblins/archer/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_archer",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/goblin_archer/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_archer",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/goblin_archer/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_archer",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/goblin_archer/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_archer",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/goblin_archer/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_dagger_scout",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/goblin_dagger_scout/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_dagger_scout",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/goblin_dagger_scout/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_dagger_scout",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/goblin_dagger_scout/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_dagger_scout",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/goblin_dagger_scout/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_dagger_scout",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/goblin_dagger_scout/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_dagger_scout",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/goblin_dagger_scout/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_dagger_scout",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/goblin_dagger_scout/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_hammer_chief",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/goblin_hammer_chief/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_hammer_chief",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/goblin_hammer_chief/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_hammer_chief",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/goblin_hammer_chief/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_hammer_chief",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/goblin_hammer_chief/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_hammer_chief",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/goblin_hammer_chief/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_hammer_chief",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/goblin_hammer_chief/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_hammer_chief",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/goblin_hammer_chief/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_laborer",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/goblin_laborer/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_laborer",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/goblin_laborer/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_laborer",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/goblin_laborer/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_laborer",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/goblin_laborer/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_laborer",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/goblin_laborer/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_laborer",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/goblin_laborer/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_laborer",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/goblin_laborer/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shaman",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shaman/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shaman",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shaman/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shaman",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shaman/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shaman",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shaman/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shaman",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shaman/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shaman",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shaman/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shaman",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shaman/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shield_trooper",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shield_trooper/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shield_trooper",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shield_trooper/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shield_trooper",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shield_trooper/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shield_trooper",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shield_trooper/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shield_trooper",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shield_trooper/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shield_trooper",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shield_trooper/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "goblin_shield_trooper",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/goblin_shield_trooper/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "rust_warrior",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/rust_warrior/AM_attack1.AM_attack1",
+    "sequence": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack1_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "rust_warrior",
+    "state": "attack2",
+    "montage": "/Game/ThreeCLab/Animation/rust_warrior/AM_attack2.AM_attack2",
+    "sequence": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack2_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "rust_warrior",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/rust_warrior/AM_death.AM_death",
+    "sequence": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "rust_warrior",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/rust_warrior/AM_hit.AM_hit",
+    "sequence": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_hit_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "rust_warrior",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/rust_warrior/AM_idle.AM_idle",
+    "sequence": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_idle_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "rust_warrior",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/rust_warrior/AM_run.AM_run",
+    "sequence": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_run_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "rust_warrior",
+    "state": "walk",
+    "montage": "/Game/ThreeCLab/Animation/rust_warrior/AM_walk.AM_walk",
+    "sequence": "/Game/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_walk_FootContact",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "archer",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/archer/AM_idle.AM_idle",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "archer",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/archer/AM_run.AM_run",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_run_f",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "archer",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/archer/AM_attack1.AM_attack1",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim_shot",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "archer",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/archer/AM_hit.AM_hit",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_GetDamage",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "archer",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/archer/AM_death.AM_death",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "crossbowman",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/crossbowman/AM_idle.AM_idle",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_idleAim",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "crossbowman",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/crossbowman/AM_run.AM_run",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_run_f",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "crossbowman",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/crossbowman/AM_attack1.AM_attack1",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_Shot",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "crossbowman",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/crossbowman/AM_hit.AM_hit",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_GetDamage",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "crossbowman",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/crossbowman/AM_death.AM_death",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "mage",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/mage/AM_idle.AM_idle",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_idle_combat",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "mage",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/mage/AM_run.AM_run",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_combat_walk_f",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "mage",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/mage/AM_attack1.AM_attack1",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_attack1",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "mage",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/mage/AM_hit.AM_hit",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_GetDamage",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "mage",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/mage/AM_death.AM_death",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Mage/Animations/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "samurai",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/samurai/AM_idle.AM_idle",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_idle",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "samurai",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/samurai/AM_run.AM_run",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_run_f",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "samurai",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/samurai/AM_attack1.AM_attack1",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_attack_01",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "samurai",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/samurai/AM_hit.AM_hit",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_GetDamage",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "samurai",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/samurai/AM_death.AM_death",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Samurai/Animations/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "spearman",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/spearman/AM_idle.AM_idle",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_idle",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "spearman",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/spearman/AM_run.AM_run",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_run_f",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "spearman",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/spearman/AM_attack1.AM_attack1",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_attack_01",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "spearman",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/spearman/AM_hit.AM_hit",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_GetDamage",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "spearman",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/spearman/AM_death.AM_death",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_Spearman/Animations/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "swordsman",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/swordsman/AM_idle.AM_idle",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_idle",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "swordsman",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/swordsman/AM_run.AM_run",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_run",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "swordsman",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/swordsman/AM_attack1.AM_attack1",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_attack01_part1",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "swordsman",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/swordsman/AM_hit.AM_hit",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_GetDamage",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "swordsman",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/swordsman/AM_death.AM_death",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_swordsman/Animations/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "axeman",
+    "state": "idle",
+    "montage": "/Game/ThreeCLab/Animation/axeman/AM_idle.AM_idle",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_idle",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "axeman",
+    "state": "run",
+    "montage": "/Game/ThreeCLab/Animation/axeman/AM_run.AM_run",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_run_f",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "axeman",
+    "state": "attack1",
+    "montage": "/Game/ThreeCLab/Animation/axeman/AM_attack1.AM_attack1",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_attack_01",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "axeman",
+    "state": "hit",
+    "montage": "/Game/ThreeCLab/Animation/axeman/AM_hit.AM_hit",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_GetDamage",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  },
+  {
+    "model": "axeman",
+    "state": "death",
+    "montage": "/Game/ThreeCLab/Animation/axeman/AM_death.AM_death",
+    "sequence": "/Game/Skeleton_Collection/Skeleton_with_axe/Animations/AS_death",
+    "holdLastPose": true,
+    "blendSeconds": 0.22
+  }
+]

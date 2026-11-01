@@ -1,0 +1,613 @@
+[
+  {
+    "id": "cloth_grunt",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "sword",
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+        "skeletal": false,
+        "socket": "hand_r",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -0.5146398,
+            -3.9908791,
+            -2.024482
+          ],
+          "rotation": [
+            -68.92326789175374,
+            130.33958901203388,
+            68.25413731680072
+          ],
+          "scale": [
+            0.7,
+            0.6999999,
+            0.7
+          ]
+        },
+        "assetGrip": [
+          -2.685716,
+          -1.2602191,
+          -0.2617164
+        ],
+        "handGrip": [
+          -0.1520968,
+          -3.6500018,
+          -0.0
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "swordsman",
+        "idleBoundsMinZ": 21.38616871020095
+      }
+    ]
+  },
+  {
+    "id": "goblin_archer",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "bow",
+        "asset": "/Game/Skeleton_Collection/Skeleton_Archer/Meshes/SeparateMesh/SK_Bow",
+        "skeletal": true,
+        "socket": "hand_l",
+        "hand": "hand_l",
+        "transform": {
+          "location": [
+            -99.47862,
+            3.8150408,
+            8.064286
+          ],
+          "rotation": [
+            84.63555946971907,
+            -76.05809013757823,
+            83.5409793588006
+          ],
+          "scale": [
+            0.65,
+            0.6499999,
+            0.6499999
+          ]
+        },
+        "assetGrip": [
+          -8.0013776,
+          63.814384,
+          141.4762214
+        ],
+        "handGrip": [
+          1.0223173,
+          -2.4035125,
+          -0.0
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "archer",
+        "animation": "/Game/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim",
+        "freezeTime": 0.4166666567325592
+      }
+    ]
+  },
+  {
+    "id": "goblin_dagger_scout",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "sword",
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+        "skeletal": false,
+        "socket": "hand_r",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            0.5328257,
+            -2.9848156,
+            -1.012241
+          ],
+          "rotation": [
+            -68.92326752122705,
+            146.1373560636064,
+            68.25413416649987
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            0.35
+          ]
+        },
+        "assetGrip": [
+          -2.685716,
+          -1.2602191,
+          -0.2617164
+        ],
+        "handGrip": [
+          0.6608496,
+          -2.7714648,
+          0.0
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "swordsman",
+        "idleBoundsMinZ": 28.54217229831081
+      }
+    ]
+  },
+  {
+    "id": "goblin_hammer_chief",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "axe",
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SM_Axe",
+        "skeletal": false,
+        "socket": "hand_r",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            1.2661049,
+            -2.734269,
+            -1.8227945
+          ],
+          "rotation": [
+            -68.92317199707023,
+            163.5426788330078,
+            51.90684890747065
+          ],
+          "scale": [
+            0.630293,
+            0.6302929,
+            0.6302929
+          ]
+        },
+        "assetGrip": [
+          -2.6855849,
+          -1.2830101,
+          0.1033819
+        ],
+        "handGrip": [
+          1.3712084,
+          -2.2985735,
+          -2.7e-06
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "axeman",
+        "idleFitScale": 0.8403906534761754,
+        "idleBoundsMinZ": 2.0
+      }
+    ]
+  },
+  {
+    "id": "goblin_laborer",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "axe",
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SM_Axe",
+        "skeletal": false,
+        "socket": "hand_r",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            0.0369324,
+            -1.9906375,
+            -1.3013889
+          ],
+          "rotation": [
+            -68.92324050072381,
+            140.2417585780811,
+            51.906830738891486
+          ],
+          "scale": [
+            0.45,
+            0.4499998,
+            0.4499999
+          ]
+        },
+        "assetGrip": [
+          -2.6855849,
+          -1.2830101,
+          0.1033819
+        ],
+        "handGrip": [
+          0.2288957,
+          -1.7346231,
+          -0.0
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "axeman",
+        "idleBoundsMinZ": 12.436425120820523
+      }
+    ]
+  },
+  {
+    "id": "goblin_shaman",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "wand",
+        "asset": "/Game/Melee/Wand/SM_CoalLamp_Wand",
+        "skeletal": false,
+        "socket": "hand_r",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -0.1361345,
+            -2.574984,
+            -2.602905
+          ],
+          "rotation": [
+            68.92327118028152,
+            -40.307109515022994,
+            -158.25413548453815
+          ],
+          "scale": [
+            0.9,
+            0.8999999,
+            0.8999999
+          ]
+        },
+        "assetGrip": [
+          2.685716,
+          -0.2617164,
+          -1.2602191
+        ],
+        "handGrip": [
+          0.2525663,
+          -2.0667841,
+          1e-07
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "swordsman",
+        "idleBoundsMinZ": 3.3716115996232574
+      }
+    ]
+  },
+  {
+    "id": "goblin_shield_trooper",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "sword",
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+        "skeletal": false,
+        "socket": "hand_r",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -0.0865823,
+            -3.1115053,
+            -1.4460584
+          ],
+          "rotation": [
+            -68.92326752073191,
+            135.71263692260973,
+            68.25413519478002
+          ],
+          "scale": [
+            0.5,
+            0.4999999,
+            0.4999999
+          ]
+        },
+        "assetGrip": [
+          -2.685716,
+          -1.2602191,
+          -0.2617164
+        ],
+        "handGrip": [
+          0.1484393,
+          -2.8448424,
+          -0.0
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "swordsman",
+        "idleBoundsMinZ": 4.799587981738412
+      },
+      {
+        "kind": "shield",
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Shield",
+        "skeletal": false,
+        "socket": "hand_l",
+        "hand": "hand_l",
+        "transform": {
+          "location": [
+            -1.0846311,
+            -2.5114984,
+            -0.2038128
+          ],
+          "rotation": [
+            19.42595586415115,
+            97.74013305428696,
+            27.541275709096617
+          ],
+          "scale": [
+            0.6,
+            0.5999999,
+            0.5999999
+          ]
+        },
+        "assetGrip": [
+          -0.5944656,
+          -1.4994705,
+          -0.1392796
+        ],
+        "handGrip": [
+          -0.1952642,
+          -2.8448429,
+          0.0
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "spearman",
+        "idleBoundsMinZ": 18.227045174044537
+      }
+    ]
+  },
+  {
+    "id": "rust_warrior",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "sword",
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+        "skeletal": false,
+        "socket": "hand_r",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -3.773344,
+            -5.0508248,
+            -1.980276
+          ],
+          "rotation": [
+            -68.92327117919928,
+            99.05860137939464,
+            68.25413513183602
+          ],
+          "scale": [
+            0.684715,
+            0.6847149,
+            0.6847151
+          ]
+        },
+        "assetGrip": [
+          -2.685716,
+          -1.2602191,
+          -0.2617164
+        ],
+        "handGrip": [
+          -3.2971382,
+          -4.9499965,
+          1e-07
+        ],
+        "nativeSocket": false,
+        "calibrationSource": "swordsman",
+        "idleFitScale": 0.8055470622321145,
+        "idleBoundsMinZ": 2.0
+      }
+    ]
+  },
+  {
+    "id": "archer",
+    "builtIn": "bow",
+    "parts": []
+  },
+  {
+    "id": "crossbowman",
+    "builtIn": "crossbow",
+    "parts": []
+  },
+  {
+    "id": "mage",
+    "builtIn": "book",
+    "parts": []
+  },
+  {
+    "id": "samurai",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "katana",
+        "asset": "/Game/Skeleton_Collection/Skeleton_Samurai/Meshes/SM_Katana",
+        "skeletal": false,
+        "socket": "hand_r",
+        "sourceSocket": "weaponSocket",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -5.5972145,
+            1.1414476,
+            0.2597765
+          ],
+          "rotation": [
+            9.798482894897463,
+            78.38024139404295,
+            2.705610036849973
+          ],
+          "scale": [
+            0.5281122,
+            0.5281122,
+            0.5281122
+          ]
+        },
+        "assetGrip": [
+          -2.6855266,
+          -1.2831157,
+          0.103366
+        ],
+        "handGrip": [
+          -5.221195,
+          -0.3777165,
+          0.1036653
+        ],
+        "nativeSocket": false,
+        "idleFitScale": 0.5281122398446817,
+        "idleBoundsMinZ": 2.000000000000014
+      }
+    ]
+  },
+  {
+    "id": "spearman",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "spear",
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Spear",
+        "skeletal": false,
+        "socket": "hand_r",
+        "sourceSocket": "weaponSocket",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -5.9330801,
+            2.49902,
+            0.399215
+          ],
+          "rotation": [
+            9.798562914770296,
+            78.38033751021896,
+            2.7057765177551008
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "assetGrip": [
+          -2.6856819,
+          -1.2830251,
+          0.1034508
+        ],
+        "handGrip": [
+          -5.221195,
+          -0.3777165,
+          0.1036653
+        ],
+        "nativeSocket": false,
+        "idleBoundsMinZ": 35.092211706017494
+      },
+      {
+        "kind": "shield",
+        "asset": "/Game/Skeleton_Collection/Skeleton_Spearman/Meshes/Shield",
+        "skeletal": false,
+        "socket": "hand_l",
+        "sourceSocket": "weapon2Socket",
+        "hand": "hand_l",
+        "transform": {
+          "location": [
+            4.5231305,
+            0.720576,
+            1.4670543
+          ],
+          "rotation": [
+            5.919824692127452,
+            165.57119821277306,
+            -82.6379165008104
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "assetGrip": [
+          -0.5944656,
+          -1.4994705,
+          -0.1392796
+        ],
+        "handGrip": [
+          4.9589129,
+          0.6642214,
+          -0.0911876
+        ],
+        "nativeSocket": false,
+        "idleBoundsMinZ": 53.190789084323676
+      }
+    ]
+  },
+  {
+    "id": "swordsman",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "sword",
+        "asset": "/Game/Skeleton_Collection/Skeleton_swordsman/Meshes/SM_Sword",
+        "skeletal": false,
+        "socket": "hand_r",
+        "sourceSocket": "weaponSocket",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -5.8805395,
+            2.2871101,
+            0.3773401
+          ],
+          "rotation": [
+            9.798864364624016,
+            78.38046264648432,
+            19.054054260253903
+          ],
+          "scale": [
+            0.9263264,
+            0.9263264,
+            0.9263264
+          ]
+        },
+        "assetGrip": [
+          -2.685716,
+          -1.2602191,
+          -0.2617164
+        ],
+        "handGrip": [
+          -5.221195,
+          -0.3777165,
+          0.1036653
+        ],
+        "nativeSocket": false,
+        "idleFitScale": 0.9263264226875877,
+        "idleBoundsMinZ": 1.9999999999999858
+      }
+    ]
+  },
+  {
+    "id": "axeman",
+    "builtIn": "",
+    "parts": [
+      {
+        "kind": "axe",
+        "asset": "/Game/Skeleton_Collection/Skeleton_with_axe/Meshes/SM_Axe",
+        "skeletal": false,
+        "socket": "hand_r",
+        "sourceSocket": "weaponSocket",
+        "hand": "hand_r",
+        "transform": {
+          "location": [
+            -5.7821455,
+            1.8890008,
+            0.3365953
+          ],
+          "rotation": [
+            9.798574447631838,
+            78.38017272949217,
+            2.7056431770324707
+          ],
+          "scale": [
+            0.7879765,
+            0.7879765,
+            0.7879765
+          ]
+        },
+        "assetGrip": [
+          -2.6855849,
+          -1.2830101,
+          0.1033819
+        ],
+        "handGrip": [
+          -5.221195,
+          -0.3777165,
+          0.1036653
+        ],
+        "nativeSocket": false,
+        "idleFitScale": 0.7879765365101818,
+        "idleBoundsMinZ": 1.9999999999999858
+      }
+    ]
+  }
+]

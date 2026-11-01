@@ -305762,5 +305762,5549 @@
   {
     "path": "CustomTools/UICreatorAlpha/exports/wbp-opus-talents-faithful-20261025-f/source-assets/sheet-12.png",
     "bytes": 131867
+  },
+  {
+    "path": "Content/Characters/WizardHero/FingerRig/Animation/IK_JudySource.uasset",
+    "bytes": 63627
+  },
+  {
+    "path": "Content/Characters/WizardHero/FingerRig/Animation/IK_WizardTarget.uasset",
+    "bytes": 52749
+  },
+  {
+    "path": "Content/Characters/WizardHero/FingerRig/SK_WizardHero.uasset",
+    "bytes": 1791774
+  },
+  {
+    "path": "Content/Characters/WizardHero/FingerRig/SK_WizardHero_Skeleton.uasset",
+    "bytes": 18059
+  },
+  {
+    "path": "Content/Characters/WizardHero/Materials/M_WizardHero.uasset",
+    "bytes": 26871
+  },
+  {
+    "path": "Content/Characters/WizardHero/Materials/Shimmer20261018/MI_WizardHero_Shimmer.uasset",
+    "bytes": 10110
+  },
+  {
+    "path": "Content/Characters/WizardHero/Materials/Shimmer20261018/M_WizardHero_Shimmer.uasset",
+    "bytes": 33049
+  },
+  {
+    "path": "Content/Characters/WizardHero/StanceFix20261018/ABP_WizardRetarget.uasset",
+    "bytes": 40934
+  },
+  {
+    "path": "Content/Characters/WizardHero/StanceFix20261018/RTG_JudyToWizard.uasset",
+    "bytes": 23993
+  },
+  {
+    "path": "Content/Characters/WizardHero/Textures/T_Wizard_base_color.uasset",
+    "bytes": 24690931
+  },
+  {
+    "path": "Content/Characters/WizardHero/Textures/T_Wizard_metallic.uasset",
+    "bytes": 516079
+  },
+  {
+    "path": "Content/Characters/WizardHero/Textures/T_Wizard_normal.uasset",
+    "bytes": 19926083
+  },
+  {
+    "path": "Content/Characters/WizardHero/Textures/T_Wizard_roughness.uasset",
+    "bytes": 1367118
+  },
+  {
+    "path": "Content/Clean3C/Animation/Channel/ABP_Clean3C_ChannelMobile.uasset",
+    "bytes": 599656
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Nodachi/Nodachi_attack01.uasset",
+    "bytes": 1182827
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Nodachi/Nodachi_attack02.uasset",
+    "bytes": 1190106
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Nodachi/Nodachi_attack03.uasset",
+    "bytes": 1314812
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Nodachi/Nodachi_attack04.uasset",
+    "bytes": 1334857
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Nodachi/Nodachi_idle.uasset",
+    "bytes": 640072
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/DA_Roll_Mocap114.uasset",
+    "bytes": 5919
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_B_180.uasset",
+    "bytes": 543889
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_B_L_45.uasset",
+    "bytes": 662517
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_B_R_45.uasset",
+    "bytes": 658470
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_F_0.uasset",
+    "bytes": 544194
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_F_L_45.uasset",
+    "bytes": 658546
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_F_R_45.uasset",
+    "bytes": 662767
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_L_90.uasset",
+    "bytes": 864466
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Rolls/Mocap114/Dive/Mocap114_Dive_R_90.uasset",
+    "bytes": 864392
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/SK_MageSet.uasset",
+    "bytes": 19629
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Death_IP.uasset",
+    "bytes": 451265
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BL_IP.uasset",
+    "bytes": 445566
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_BR_IP.uasset",
+    "bytes": 447611
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_B_IP.uasset",
+    "bytes": 447565
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FL_IP.uasset",
+    "bytes": 461232
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_FR_IP.uasset",
+    "bytes": 461167
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_F_IP.uasset",
+    "bytes": 459283
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_L_IP.uasset",
+    "bytes": 273750
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Dodge_R_IP.uasset",
+    "bytes": 273726
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Fireball_L_IP.uasset",
+    "bytes": 653276
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Fireball_L_RM.uasset",
+    "bytes": 664150
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Hurt_IP.uasset",
+    "bytes": 408778
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Idle_IP.uasset",
+    "bytes": 1849703
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_BL_IP.uasset",
+    "bytes": 322194
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_BR_IP.uasset",
+    "bytes": 321981
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_B_IP.uasset",
+    "bytes": 320655
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_FL_IP.uasset",
+    "bytes": 321915
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_FR_IP.uasset",
+    "bytes": 322060
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_F_IP.uasset",
+    "bytes": 320566
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_L_IP.uasset",
+    "bytes": 322030
+  },
+  {
+    "path": "Content/Clean3C/Animation/Mage/Set/Set_Mage_Run_R_IP.uasset",
+    "bytes": 321947
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_1HR_HeavyAttack_01.uasset",
+    "bytes": 4943
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_1HR_LightAttack_01.uasset",
+    "bytes": 4943
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_1HR_LightAttack_02.uasset",
+    "bytes": 4943
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_2H_Attack_01.uasset",
+    "bytes": 4903
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_2H_Attack_02.uasset",
+    "bytes": 4903
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_2H_Attack_03.uasset",
+    "bytes": 4903
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_2H_HeavyAttack_01.uasset",
+    "bytes": 4933
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_DW_Attack_01.uasset",
+    "bytes": 4904
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_DW_Attack_02.uasset",
+    "bytes": 4904
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_DW_Attack_03.uasset",
+    "bytes": 4953
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_DW_Attack_05.uasset",
+    "bytes": 4904
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_Fists_Attack_A.uasset",
+    "bytes": 4911
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_Fists_Attack_B.uasset",
+    "bytes": 4911
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_Fists_Attack_C.uasset",
+    "bytes": 4911
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_Fists_Attack_D.uasset",
+    "bytes": 4911
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_MHS_LightAttack_01.uasset",
+    "bytes": 4943
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_MHS_LightAttack_02.uasset",
+    "bytes": 4943
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_MHS_LightAttack_03.uasset",
+    "bytes": 4943
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_MHS_LightAttack_04.uasset",
+    "bytes": 4943
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_SpearHeavyAttack_01.uasset",
+    "bytes": 4941
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_SpearLightAttack_01.uasset",
+    "bytes": 4941
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_SpearLightAttack_02.uasset",
+    "bytes": 4941
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AMU_SpearLightAttack_03.uasset",
+    "bytes": 4941
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_1HR_HeavyAttack_01.uasset",
+    "bytes": 4936
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_1HR_LightAttack_01.uasset",
+    "bytes": 4936
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_1HR_LightAttack_02.uasset",
+    "bytes": 4936
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_2H_Attack_01.uasset",
+    "bytes": 4896
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_2H_Attack_02.uasset",
+    "bytes": 4896
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_2H_Attack_03.uasset",
+    "bytes": 4896
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_2H_HeavyAttack_01.uasset",
+    "bytes": 4926
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_DW_Attack_01.uasset",
+    "bytes": 4897
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_DW_Attack_02.uasset",
+    "bytes": 4897
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_DW_Attack_03.uasset",
+    "bytes": 4946
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_DW_Attack_05.uasset",
+    "bytes": 4897
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Fists_Attack_A.uasset",
+    "bytes": 4904
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Fists_Attack_B.uasset",
+    "bytes": 4904
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Fists_Attack_C.uasset",
+    "bytes": 4904
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Fists_Attack_D.uasset",
+    "bytes": 4904
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_MHS_LightAttack_01.uasset",
+    "bytes": 4936
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_MHS_LightAttack_02.uasset",
+    "bytes": 4936
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_MHS_LightAttack_03.uasset",
+    "bytes": 4936
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_MHS_LightAttack_04.uasset",
+    "bytes": 4936
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Magic_Attack_01.uasset",
+    "bytes": 4960
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Magic_Attack_03.uasset",
+    "bytes": 4911
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_B_180.uasset",
+    "bytes": 8313
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_B_L_45.uasset",
+    "bytes": 8491
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_B_R_45.uasset",
+    "bytes": 8408
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_F_0.uasset",
+    "bytes": 8295
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_F_L_45.uasset",
+    "bytes": 8485
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_F_R_45.uasset",
+    "bytes": 8734
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_L_90.uasset",
+    "bytes": 8861
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Mocap114_Dive_R_90.uasset",
+    "bytes": 8791
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Roll.uasset",
+    "bytes": 4887
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Set_Mage_Death_IP.uasset",
+    "bytes": 8889
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Set_Mage_Fireball_L_IP.uasset",
+    "bytes": 4843
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Set_Mage_Fireball_L_RM.uasset",
+    "bytes": 4843
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_Set_Mage_Hurt_IP.uasset",
+    "bytes": 8878
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_SpearHeavyAttack_01.uasset",
+    "bytes": 4934
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_SpearLightAttack_01.uasset",
+    "bytes": 4934
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_SpearLightAttack_02.uasset",
+    "bytes": 4934
+  },
+  {
+    "path": "Content/Clean3C/Animation/Montages/AM_SpearLightAttack_03.uasset",
+    "bytes": 4934
+  },
+  {
+    "path": "Content/Clean3C/Animation/WeaponLayers/DA_WeaponLayer_0.uasset",
+    "bytes": 2745
+  },
+  {
+    "path": "Content/Clean3C/Animation/WeaponLayers/DA_WeaponLayer_1.uasset",
+    "bytes": 2530
+  },
+  {
+    "path": "Content/Clean3C/Animation/WeaponLayers/DA_WeaponLayer_2.uasset",
+    "bytes": 2738
+  },
+  {
+    "path": "Content/Clean3C/Animation/WeaponLayers/DA_WeaponLayer_3.uasset",
+    "bytes": 2759
+  },
+  {
+    "path": "Content/Clean3C/Animation/WeaponLayers/DA_WeaponLayer_4.uasset",
+    "bytes": 2671
+  },
+  {
+    "path": "Content/Clean3C/Animation/WeaponLayers/DA_WeaponLayer_5.uasset",
+    "bytes": 2791
+  },
+  {
+    "path": "Content/Clean3C/Animation/WeaponLayers/DA_WeaponLayer_6.uasset",
+    "bytes": 2432
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Common/BS_CrouchStrafe.uasset",
+    "bytes": 14976
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Common/Crouch_Bwds.uasset",
+    "bytes": 311763
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Common/Crouch_Forward.uasset",
+    "bytes": 318580
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Common/Crouch_Idle.uasset",
+    "bytes": 641045
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Common/Crouch_Right.uasset",
+    "bytes": 353594
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Common/Crough_Left.uasset",
+    "bytes": 342209
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Common/Roll.uasset",
+    "bytes": 406647
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Dual-Wield/Combat/DW_Attack_01.uasset",
+    "bytes": 1248309
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Dual-Wield/Combat/DW_Attack_02.uasset",
+    "bytes": 1375284
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Dual-Wield/Combat/DW_Attack_03.uasset",
+    "bytes": 575589
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Dual-Wield/Combat/DW_Attack_05.uasset",
+    "bytes": 1395868
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Dual-Wield/Locomotion/DW_Idle.uasset",
+    "bytes": 373936
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Duelist-Right/1HR_Idle_Rest.uasset",
+    "bytes": 1553727
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Duelist-Right/Combat/1HR_HeavyAttack_01.uasset",
+    "bytes": 1726360
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Duelist-Right/Combat/1HR_LightAttack_01.uasset",
+    "bytes": 1813213
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Duelist-Right/Combat/1HR_LightAttack_02.uasset",
+    "bytes": 1678594
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Fists/Combat/Fists_Attack_A.uasset",
+    "bytes": 323454
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Fists/Combat/Fists_Attack_B.uasset",
+    "bytes": 335423
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Fists/Combat/Fists_Attack_C.uasset",
+    "bytes": 334282
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Fists/Combat/Fists_Attack_D.uasset",
+    "bytes": 386250
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Magic/Attacks/Magic_Attack_01.uasset",
+    "bytes": 967445
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Magic/Attacks/Magic_Attack_03.uasset",
+    "bytes": 1358713
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/MainAndShield/Combat/MHS_LightAttack_01.uasset",
+    "bytes": 902673
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/MainAndShield/Combat/MHS_LightAttack_02.uasset",
+    "bytes": 912303
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/MainAndShield/Combat/MHS_LightAttack_03.uasset",
+    "bytes": 915474
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/MainAndShield/Combat/MHS_LightAttack_04.uasset",
+    "bytes": 931666
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/MainAndShield/Locomotion/MHS_Idle.uasset",
+    "bytes": 707119
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Spear/Combat/SpearHeavyAttack_01.uasset",
+    "bytes": 1018053
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Spear/Combat/SpearLightAttack_01.uasset",
+    "bytes": 850520
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Spear/Combat/SpearLightAttack_02.uasset",
+    "bytes": 903128
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Spear/Combat/SpearLightAttack_03.uasset",
+    "bytes": 873893
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/Spear/Locomotion/SpearIdle_Weapon.uasset",
+    "bytes": 796764
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/TwoHanded/Combat/2H_Attack_01.uasset",
+    "bytes": 1761470
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/TwoHanded/Combat/2H_Attack_02.uasset",
+    "bytes": 1974505
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/TwoHanded/Combat/2H_Attack_03.uasset",
+    "bytes": 2288615
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/TwoHanded/Combat/2H_HeavyAttack_01.uasset",
+    "bytes": 2096240
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/Animation/UE5-Mannequin/TwoHanded/Locomotion/2H_IdleLoco.uasset",
+    "bytes": 733112
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Meshes/SKM_Manny_Simple.uasset",
+    "bytes": 15846765
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Meshes/SK_Mannequin.uasset",
+    "bytes": 253984
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/DemoFolder/UE5_Mannequin_Defaults/Rigs/PA_Mannequin.uasset",
+    "bytes": 65013
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Idle_Loop.uasset",
+    "bytes": 2413167
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_045_L.uasset",
+    "bytes": 623871
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_045_R.uasset",
+    "bytes": 625381
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_090_L.uasset",
+    "bytes": 698185
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_090_R.uasset",
+    "bytes": 698050
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_135_L.uasset",
+    "bytes": 698155
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_135_R.uasset",
+    "bytes": 698153
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_180_L.uasset",
+    "bytes": 734430
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Idle/M_Neutral_Stand_Turn_180_R.uasset",
+    "bytes": 734418
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Run_Heavy.uasset",
+    "bytes": 979588
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Run_Light.uasset",
+    "bytes": 786672
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Stand_Heavy_Lfoot.uasset",
+    "bytes": 1065400
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Stand_Heavy_Rfoot.uasset",
+    "bytes": 1072969
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Stand_Light_Lfoot.uasset",
+    "bytes": 883742
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Stand_Light_Rfoot.uasset",
+    "bytes": 883612
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Walk_Heavy.uasset",
+    "bytes": 1135230
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Land_Walk_Light.uasset",
+    "bytes": 914707
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Start_Lfoot.uasset",
+    "bytes": 647002
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_B_Start_Rfoot.uasset",
+    "bytes": 651509
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Run_Heavy_Lfoot.uasset",
+    "bytes": 913576
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Run_Heavy_Rfoot.uasset",
+    "bytes": 920842
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Run_Light_Lfoot.uasset",
+    "bytes": 724296
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Run_Light_Rfoot.uasset",
+    "bytes": 709713
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Stand_Heavy_Lfoot.uasset",
+    "bytes": 1066430
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Stand_Heavy_Rfoot.uasset",
+    "bytes": 1073812
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Stand_Light_Lfoot.uasset",
+    "bytes": 848117
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Stand_Light_Rfoot.uasset",
+    "bytes": 780587
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Walk_Heavy_Lfoot.uasset",
+    "bytes": 1209977
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Walk_Heavy_Rfoot.uasset",
+    "bytes": 1209302
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Walk_Light_Lfoot.uasset",
+    "bytes": 966171
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Land_Walk_Light_Rfoot.uasset",
+    "bytes": 793569
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Off_Run_Lfoot.uasset",
+    "bytes": 595032
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Off_Run_Rfoot.uasset",
+    "bytes": 587827
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Off_Walk_Lfoot.uasset",
+    "bytes": 687206
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Off_Walk_Rfoot.uasset",
+    "bytes": 702650
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Run_Lfoot.uasset",
+    "bytes": 793407
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Run_Rfoot.uasset",
+    "bytes": 773919
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Sprint_Lfoot.uasset",
+    "bytes": 712310
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Sprint_Rfoot.uasset",
+    "bytes": 719160
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Stand_Lfoot.uasset",
+    "bytes": 780144
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Stand_Rfoot.uasset",
+    "bytes": 765666
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Walk_Lfoot.uasset",
+    "bytes": 818337
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_F_Start_Walk_Rfoot.uasset",
+    "bytes": 818547
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Run_Heavy.uasset",
+    "bytes": 911894
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Run_Light.uasset",
+    "bytes": 803682
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Stand_Heavy_Lfoot.uasset",
+    "bytes": 1075800
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Stand_Heavy_Rfoot.uasset",
+    "bytes": 1083126
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Stand_Light_Lfoot.uasset",
+    "bytes": 923878
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Stand_Light_Rfoot.uasset",
+    "bytes": 956171
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Walk_Heavy.uasset",
+    "bytes": 1089275
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Land_Walk_Light.uasset",
+    "bytes": 861331
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Start_Lfoot.uasset",
+    "bytes": 640985
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_LL_Start_Rfoot.uasset",
+    "bytes": 658346
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_Loop_Fall.uasset",
+    "bytes": 951956
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Run_Heavy.uasset",
+    "bytes": 949051
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Run_Light.uasset",
+    "bytes": 811119
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Stand_Heavy_Lfoot.uasset",
+    "bytes": 817293
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Stand_Heavy_Rfoot.uasset",
+    "bytes": 1071190
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Stand_Light_Lfoot.uasset",
+    "bytes": 963071
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Stand_Light_Rfoot.uasset",
+    "bytes": 818283
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Walk_Heavy.uasset",
+    "bytes": 1089159
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Land_Walk_Light.uasset",
+    "bytes": 869127
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Start_Lfoot.uasset",
+    "bytes": 641111
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Jump/M_Neutral_Jump_RL_Start_Rfoot.uasset",
+    "bytes": 660850
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_LL_Lfoot.uasset",
+    "bytes": 1130490
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_LL_Rfoot.uasset",
+    "bytes": 1093366
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_LR_Lfoot.uasset",
+    "bytes": 1048163
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_LR_Rfoot.uasset",
+    "bytes": 1074644
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_RL_Lfoot.uasset",
+    "bytes": 932700
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_RL_Rfoot.uasset",
+    "bytes": 895814
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_RR_Lfoot.uasset",
+    "bytes": 1145705
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_B_RR_Rfoot.uasset",
+    "bytes": 1103410
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_LL_Lfoot.uasset",
+    "bytes": 856884
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_LL_Rfoot.uasset",
+    "bytes": 859510
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_LR_Lfoot.uasset",
+    "bytes": 896385
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_LR_Rfoot.uasset",
+    "bytes": 896297
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_RL_Lfoot.uasset",
+    "bytes": 896124
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_RL_Rfoot.uasset",
+    "bytes": 889348
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_RR_Lfoot.uasset",
+    "bytes": 1063725
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_F_RR_Rfoot.uasset",
+    "bytes": 862878
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LL_B_Lfoot.uasset",
+    "bytes": 942882
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LL_B_Rfoot.uasset",
+    "bytes": 953179
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LL_F_Lfoot.uasset",
+    "bytes": 912724
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LL_F_Rfoot.uasset",
+    "bytes": 909721
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LR_B_Lfoot.uasset",
+    "bytes": 939477
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LR_B_Rfoot.uasset",
+    "bytes": 954564
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LR_F_Lfoot.uasset",
+    "bytes": 903956
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_LR_F_Rfoot.uasset",
+    "bytes": 909721
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RL_B_Lfoot.uasset",
+    "bytes": 1053480
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RL_B_Rfoot.uasset",
+    "bytes": 1018249
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RL_F_Lfoot.uasset",
+    "bytes": 869390
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RL_F_Rfoot.uasset",
+    "bytes": 857647
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RR_B_Lfoot.uasset",
+    "bytes": 1049291
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RR_B_Rfoot.uasset",
+    "bytes": 946737
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RR_F_Lfoot.uasset",
+    "bytes": 842710
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Box_RR_F_Rfoot.uasset",
+    "bytes": 996366
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BL_BR_Lfoot.uasset",
+    "bytes": 1217788
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BL_BR_Rfoot.uasset",
+    "bytes": 1022508
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BL_FL_Lfoot.uasset",
+    "bytes": 1145313
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BL_FL_Rfoot.uasset",
+    "bytes": 1307173
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BL_F_Lfoot.uasset",
+    "bytes": 883282
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BL_F_Rfoot.uasset",
+    "bytes": 916566
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BR_BL_Lfoot.uasset",
+    "bytes": 896275
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BR_BL_Rfoot.uasset",
+    "bytes": 939426
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BR_FR_Lfoot.uasset",
+    "bytes": 903839
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BR_FR_Rfoot.uasset",
+    "bytes": 909673
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BR_F_Lfoot.uasset",
+    "bytes": 909824
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_BR_F_Rfoot.uasset",
+    "bytes": 923190
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_B_FL_Lfoot.uasset",
+    "bytes": 1046046
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_B_FL_Rfoot.uasset",
+    "bytes": 1051614
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_B_FR_Lfoot.uasset",
+    "bytes": 953832
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_B_FR_Rfoot.uasset",
+    "bytes": 937525
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FL_BL_Lfoot.uasset",
+    "bytes": 909753
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FL_BL_Rfoot.uasset",
+    "bytes": 909798
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FL_B_Lfoot.uasset",
+    "bytes": 1079410
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FL_B_Rfoot.uasset",
+    "bytes": 932254
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FL_FR_Lfoot.uasset",
+    "bytes": 857807
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FL_FR_Rfoot.uasset",
+    "bytes": 871136
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FR_BR_Lfoot.uasset",
+    "bytes": 977296
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FR_BR_Rfoot.uasset",
+    "bytes": 1085004
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FR_B_Lfoot.uasset",
+    "bytes": 1096595
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FR_B_Rfoot.uasset",
+    "bytes": 1047074
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FR_FL_Lfoot.uasset",
+    "bytes": 837817
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_FR_FL_Rfoot.uasset",
+    "bytes": 824231
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_F_BL_Lfoot.uasset",
+    "bytes": 1157591
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_F_BL_Rfoot.uasset",
+    "bytes": 923315
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_F_BR_Lfoot.uasset",
+    "bytes": 909753
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Diamond_F_BR_Rfoot.uasset",
+    "bytes": 909720
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BL_RL_Lfoot.uasset",
+    "bytes": 916186
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BL_RL_Rfoot.uasset",
+    "bytes": 909584
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BL_RR_Lfoot.uasset",
+    "bytes": 903313
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BL_RR_Rfoot.uasset",
+    "bytes": 863032
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BR_LL_Lfoot.uasset",
+    "bytes": 889902
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BR_LL_Rfoot.uasset",
+    "bytes": 909859
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BR_LR_Lfoot.uasset",
+    "bytes": 1034610
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_BR_LR_Rfoot.uasset",
+    "bytes": 983543
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FL_RL_Lfoot.uasset",
+    "bytes": 947706
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FL_RL_Rfoot.uasset",
+    "bytes": 996802
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FL_RR_Lfoot.uasset",
+    "bytes": 1044830
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FL_RR_Rfoot.uasset",
+    "bytes": 976833
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FR_LL_Lfoot.uasset",
+    "bytes": 990265
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FR_LL_Rfoot.uasset",
+    "bytes": 903094
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FR_LR_Lfoot.uasset",
+    "bytes": 996894
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_FR_LR_Rfoot.uasset",
+    "bytes": 990130
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LL_BR_Lfoot.uasset",
+    "bytes": 996861
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LL_BR_Rfoot.uasset",
+    "bytes": 1089581
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LL_FR_Lfoot.uasset",
+    "bytes": 923826
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LL_FR_Rfoot.uasset",
+    "bytes": 1007437
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LR_BR_Lfoot.uasset",
+    "bytes": 887534
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LR_BR_Rfoot.uasset",
+    "bytes": 1016975
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LR_FR_Lfoot.uasset",
+    "bytes": 922920
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_LR_FR_Rfoot.uasset",
+    "bytes": 1050789
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RL_BL_Lfoot.uasset",
+    "bytes": 1023487
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RL_BL_Rfoot.uasset",
+    "bytes": 966485
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RL_FL_Lfoot.uasset",
+    "bytes": 1029998
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RL_FL_Rfoot.uasset",
+    "bytes": 909485
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RR_BL_Lfoot.uasset",
+    "bytes": 1010220
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RR_BL_Rfoot.uasset",
+    "bytes": 923230
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RR_FL_Lfoot.uasset",
+    "bytes": 909725
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Hourglass_RR_FL_Rfoot.uasset",
+    "bytes": 916353
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_B.uasset",
+    "bytes": 793947
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_BL.uasset",
+    "bytes": 771169
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_BR.uasset",
+    "bytes": 773478
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_F.uasset",
+    "bytes": 752744
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_FL.uasset",
+    "bytes": 759691
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_FR.uasset",
+    "bytes": 759691
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_F_L_20.uasset",
+    "bytes": 760119
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_F_R_20.uasset",
+    "bytes": 760177
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_LL.uasset",
+    "bytes": 724294
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Loop_RL.uasset",
+    "bytes": 739282
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_BL_FR_Lfoot.uasset",
+    "bytes": 1148408
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_BL_FR_Rfoot.uasset",
+    "bytes": 820123
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_BR_FL_Lfoot.uasset",
+    "bytes": 1224797
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_BR_FL_Rfoot.uasset",
+    "bytes": 909939
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_B_F_Lfoot.uasset",
+    "bytes": 1130296
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_B_F_Rfoot.uasset",
+    "bytes": 1226482
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_FL_BR_Lfoot.uasset",
+    "bytes": 927575
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_FL_BR_Rfoot.uasset",
+    "bytes": 924802
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_FR_BL_Lfoot.uasset",
+    "bytes": 924434
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_FR_BL_Rfoot.uasset",
+    "bytes": 916709
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_F_B_Lfoot.uasset",
+    "bytes": 937183
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_F_B_Rfoot.uasset",
+    "bytes": 925484
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_LL_RL_Lfoot.uasset",
+    "bytes": 942493
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_LL_RL_Rfoot.uasset",
+    "bytes": 943645
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_LR_RR_Lfoot.uasset",
+    "bytes": 921424
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_LR_RR_Rfoot.uasset",
+    "bytes": 1053703
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_RL_LL_Lfoot.uasset",
+    "bytes": 853391
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_RL_LL_Rfoot.uasset",
+    "bytes": 897544
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_RR_LR_Lfoot.uasset",
+    "bytes": 897705
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Pivot_RR_LR_Rfoot.uasset",
+    "bytes": 923524
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_FL_F_Lfoot.uasset",
+    "bytes": 802250
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_FL_F_Rfoot.uasset",
+    "bytes": 799060
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_FR_F_Lfoot.uasset",
+    "bytes": 805159
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_FR_F_Rfoot.uasset",
+    "bytes": 804632
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_F_FL_Lfoot.uasset",
+    "bytes": 818478
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_F_FL_Rfoot.uasset",
+    "bytes": 818577
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_F_FR_Lfoot.uasset",
+    "bytes": 825280
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Prism_F_FR_Rfoot.uasset",
+    "bytes": 818508
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_B_L_090.uasset",
+    "bytes": 748090
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_B_L_180.uasset",
+    "bytes": 748227
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_B_R_090.uasset",
+    "bytes": 748128
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_B_R_180.uasset",
+    "bytes": 748340
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_F_L_090.uasset",
+    "bytes": 720677
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_F_L_180.uasset",
+    "bytes": 735483
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_F_R_090.uasset",
+    "bytes": 720677
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Reface_Start_F_R_180.uasset",
+    "bytes": 729447
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Shuffle_LR_to_LL_Lfoot.uasset",
+    "bytes": 838917
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Shuffle_LR_to_LL_Rfoot.uasset",
+    "bytes": 766957
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Shuffle_RR_to_RL_Lfoot.uasset",
+    "bytes": 796734
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Shuffle_RR_to_RL_Rfoot.uasset",
+    "bytes": 724219
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_BL_Lfoot.uasset",
+    "bytes": 871322
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_BL_Rfoot.uasset",
+    "bytes": 882481
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_BR_Lfoot.uasset",
+    "bytes": 877720
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_BR_Rfoot.uasset",
+    "bytes": 901045
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_B_Lfoot.uasset",
+    "bytes": 884191
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_B_Rfoot.uasset",
+    "bytes": 870344
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_FL_Lfoot.uasset",
+    "bytes": 833744
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_FL_Rfoot.uasset",
+    "bytes": 916724
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_FR_Lfoot.uasset",
+    "bytes": 870427
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_FR_Rfoot.uasset",
+    "bytes": 848721
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_F_Lfoot.uasset",
+    "bytes": 844100
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_F_Rfoot.uasset",
+    "bytes": 896261
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_LL_Lfoot.uasset",
+    "bytes": 822240
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_LL_Rfoot.uasset",
+    "bytes": 872679
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_LR_Lfoot.uasset",
+    "bytes": 877490
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_LR_Rfoot.uasset",
+    "bytes": 907310
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_RL_Lfoot.uasset",
+    "bytes": 909110
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_RL_Rfoot.uasset",
+    "bytes": 881492
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_RR_Lfoot.uasset",
+    "bytes": 833127
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Start_RR_Rfoot.uasset",
+    "bytes": 803639
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_BL_Lfoot.uasset",
+    "bytes": 1017813
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_BL_Rfoot.uasset",
+    "bytes": 1048283
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_BR_Lfoot.uasset",
+    "bytes": 938887
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_BR_Rfoot.uasset",
+    "bytes": 1009912
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_B_Lfoot.uasset",
+    "bytes": 993176
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_B_Rfoot.uasset",
+    "bytes": 1075753
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_FL_Lfoot.uasset",
+    "bytes": 1009958
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_FL_Rfoot.uasset",
+    "bytes": 1132713
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_FR_Lfoot.uasset",
+    "bytes": 960060
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_FR_Rfoot.uasset",
+    "bytes": 1041483
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_F_Lfoot.uasset",
+    "bytes": 883696
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_F_Rfoot.uasset",
+    "bytes": 880734
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_LL_Lfoot.uasset",
+    "bytes": 1030094
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_LL_Rfoot.uasset",
+    "bytes": 1062385
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_LR_Lfoot.uasset",
+    "bytes": 1033349
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_LR_Rfoot.uasset",
+    "bytes": 861911
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_RL_Lfoot.uasset",
+    "bytes": 1082895
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_RL_Rfoot.uasset",
+    "bytes": 784516
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_RR_Lfoot.uasset",
+    "bytes": 885464
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Stop_RR_Rfoot.uasset",
+    "bytes": 1069760
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_L_090_Lfoot.uasset",
+    "bytes": 792582
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_L_090_Rfoot.uasset",
+    "bytes": 792478
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_L_135_Lfoot.uasset",
+    "bytes": 799184
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_L_135_Rfoot.uasset",
+    "bytes": 825540
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_L_180_Lfoot.uasset",
+    "bytes": 803130
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_L_180_Rfoot.uasset",
+    "bytes": 836116
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_R_090_Lfoot.uasset",
+    "bytes": 772653
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_R_090_Rfoot.uasset",
+    "bytes": 799101
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_R_135_Lfoot.uasset",
+    "bytes": 806069
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_R_135_Rfoot.uasset",
+    "bytes": 779139
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_R_180_Lfoot.uasset",
+    "bytes": 822825
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Run_Turn_R_180_Rfoot.uasset",
+    "bytes": 783117
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Transition_Walk_to_Run_Lfoot.uasset",
+    "bytes": 1066008
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Run/M_Neutral_Transition_Walk_to_Run_Rfoot.uasset",
+    "bytes": 951988
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Jump_F_Land_Sprint_Heavy_Lfoot.uasset",
+    "bytes": 1058588
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Jump_F_Land_Sprint_Heavy_Rfoot.uasset",
+    "bytes": 1035807
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Jump_F_Land_Sprint_Light_Lfoot.uasset",
+    "bytes": 858647
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Jump_F_Land_Sprint_Light_Rfoot.uasset",
+    "bytes": 851287
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Diamond_FL_FR_Lfoot.uasset",
+    "bytes": 897677
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Diamond_FL_FR_Rfoot.uasset",
+    "bytes": 897580
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Diamond_FR_FL_Lfoot.uasset",
+    "bytes": 863625
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Diamond_FR_FL_Rfoot.uasset",
+    "bytes": 883986
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Loop_F.uasset",
+    "bytes": 632960
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Loop_FL.uasset",
+    "bytes": 638845
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Loop_FR.uasset",
+    "bytes": 638828
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Reface_Start_F_L_090.uasset",
+    "bytes": 686640
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Reface_Start_F_L_180.uasset",
+    "bytes": 822689
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Reface_Start_F_R_090.uasset",
+    "bytes": 686679
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Reface_Start_F_R_180.uasset",
+    "bytes": 795489
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Start_FL_Lfoot.uasset",
+    "bytes": 727426
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Start_FL_Rfoot.uasset",
+    "bytes": 768169
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Start_FR_Lfoot.uasset",
+    "bytes": 747835
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Start_FR_Rfoot.uasset",
+    "bytes": 741040
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Start_F_Lfoot.uasset",
+    "bytes": 733737
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Start_F_Rfoot.uasset",
+    "bytes": 760519
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Stop_FL_Lfoot.uasset",
+    "bytes": 1176083
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Stop_FL_Rfoot.uasset",
+    "bytes": 1176051
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Stop_FR_Lfoot.uasset",
+    "bytes": 1176111
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Stop_FR_Rfoot.uasset",
+    "bytes": 1176033
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Stop_F_Lfoot.uasset",
+    "bytes": 1177468
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Stop_F_Rfoot.uasset",
+    "bytes": 1177432
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_L_090_Lfoot.uasset",
+    "bytes": 839390
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_L_090_Rfoot.uasset",
+    "bytes": 880317
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_L_180_Lfoot.uasset",
+    "bytes": 1013280
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_L_180_Rfoot.uasset",
+    "bytes": 972599
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_R_090_Lfoot.uasset",
+    "bytes": 866598
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_R_090_Rfoot.uasset",
+    "bytes": 853014
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_R_180_Lfoot.uasset",
+    "bytes": 979350
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Sprint_Turn_R_180_Rfoot.uasset",
+    "bytes": 992917
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Transition_Run_to_Sprint_Lfoot.uasset",
+    "bytes": 861207
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Transition_Run_to_Sprint_Rfoot.uasset",
+    "bytes": 834423
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Transition_Walk_to_Sprint_Lfoot.uasset",
+    "bytes": 1011675
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Sprint/M_Neutral_Transition_Walk_to_Sprint_Rfoot.uasset",
+    "bytes": 1000857
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Transition_Run_to_Walk_Lfoot.uasset",
+    "bytes": 1191688
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Transition_Run_to_Walk_Rfoot.uasset",
+    "bytes": 1177540
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_B.uasset",
+    "bytes": 1147172
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_BL.uasset",
+    "bytes": 1058990
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_BR.uasset",
+    "bytes": 1066667
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_F.uasset",
+    "bytes": 1086915
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_FL.uasset",
+    "bytes": 1106691
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_FR.uasset",
+    "bytes": 1106127
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_LL.uasset",
+    "bytes": 1032428
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_LR.uasset",
+    "bytes": 1088114
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_RL.uasset",
+    "bytes": 1088040
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Loop_RR.uasset",
+    "bytes": 1032269
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_BL_FR_Lfoot.uasset",
+    "bytes": 1273150
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_BL_FR_Rfoot.uasset",
+    "bytes": 1564146
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_BR_FL_Lfoot.uasset",
+    "bytes": 1400137
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_BR_FL_Rfoot.uasset",
+    "bytes": 1406467
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_B_F_Lfoot.uasset",
+    "bytes": 1454657
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_B_F_Rfoot.uasset",
+    "bytes": 1476091
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_FL_BR_Lfoot.uasset",
+    "bytes": 1477396
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_FL_BR_Rfoot.uasset",
+    "bytes": 1449516
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_FR_BL_Lfoot.uasset",
+    "bytes": 1497662
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_FR_BL_Rfoot.uasset",
+    "bytes": 1451313
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_F_B_Lfoot.uasset",
+    "bytes": 1482889
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_F_B_Rfoot.uasset",
+    "bytes": 1460725
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_LL_RL_Lfoot.uasset",
+    "bytes": 1414713
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_LL_RL_Rfoot.uasset",
+    "bytes": 1370692
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_LR_RR_Lfoot.uasset",
+    "bytes": 1375592
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_LR_RR_Rfoot.uasset",
+    "bytes": 1429321
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_RL_LL_Lfoot.uasset",
+    "bytes": 1419306
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_RL_LL_Rfoot.uasset",
+    "bytes": 1372085
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_RR_LR_Lfoot.uasset",
+    "bytes": 1177160
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Pivot_RR_LR_Rfoot.uasset",
+    "bytes": 1440598
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_B_L_090.uasset",
+    "bytes": 978396
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_B_L_180.uasset",
+    "bytes": 921047
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_B_R_090.uasset",
+    "bytes": 978528
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_B_R_180.uasset",
+    "bytes": 920907
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_F_L_090.uasset",
+    "bytes": 935069
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_F_L_180.uasset",
+    "bytes": 935028
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_F_R_090.uasset",
+    "bytes": 935150
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Reface_Start_F_R_180.uasset",
+    "bytes": 935012
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_BL_Lfoot.uasset",
+    "bytes": 952356
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_BL_Rfoot.uasset",
+    "bytes": 870407
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_BR_Lfoot.uasset",
+    "bytes": 977709
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_BR_Rfoot.uasset",
+    "bytes": 815558
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_B_Lfoot.uasset",
+    "bytes": 888341
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_B_Rfoot.uasset",
+    "bytes": 1200665
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_FL_Lfoot.uasset",
+    "bytes": 934318
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_FL_Rfoot.uasset",
+    "bytes": 870587
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_FR_Lfoot.uasset",
+    "bytes": 979481
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_FR_Rfoot.uasset",
+    "bytes": 868245
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_F_Lfoot.uasset",
+    "bytes": 983595
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_F_Rfoot.uasset",
+    "bytes": 949464
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_LL_Lfoot.uasset",
+    "bytes": 849099
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_LL_Rfoot.uasset",
+    "bytes": 803412
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_LR_Lfoot.uasset",
+    "bytes": 810500
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_LR_Rfoot.uasset",
+    "bytes": 746214
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_RL_Lfoot.uasset",
+    "bytes": 927985
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_RL_Rfoot.uasset",
+    "bytes": 822122
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_RR_Lfoot.uasset",
+    "bytes": 810466
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Start_RR_Rfoot.uasset",
+    "bytes": 868845
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_BL_Lfoot.uasset",
+    "bytes": 1543162
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_BL_Rfoot.uasset",
+    "bytes": 1716045
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_BR_Lfoot.uasset",
+    "bytes": 1703724
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_BR_Rfoot.uasset",
+    "bytes": 1479183
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_B_Lfoot.uasset",
+    "bytes": 1038687
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_B_Rfoot.uasset",
+    "bytes": 1162736
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_FL_Lfoot.uasset",
+    "bytes": 1622244
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_FL_Rfoot.uasset",
+    "bytes": 1613230
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_FR_Lfoot.uasset",
+    "bytes": 1645860
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_FR_Rfoot.uasset",
+    "bytes": 1718051
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_F_Lfoot.uasset",
+    "bytes": 1077637
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_F_Rfoot.uasset",
+    "bytes": 1237344
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_LL_Lfoot.uasset",
+    "bytes": 1505827
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_LL_Rfoot.uasset",
+    "bytes": 1638129
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_LR_Lfoot.uasset",
+    "bytes": 1526180
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_LR_Rfoot.uasset",
+    "bytes": 1633480
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_RL_Lfoot.uasset",
+    "bytes": 1130296
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_RL_Rfoot.uasset",
+    "bytes": 1724630
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_RR_Lfoot.uasset",
+    "bytes": 1505110
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/Anim/Walk/M_Neutral_Walk_Stop_RR_Rfoot.uasset",
+    "bytes": 1149608
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Idle/PSD_Idle.uasset",
+    "bytes": 3150
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Idle/PSD_Idle_Lands_Heavy.uasset",
+    "bytes": 6894
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Idle/PSD_Idle_Lands_Light.uasset",
+    "bytes": 6894
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Idle/PSD_TurnInPlace.uasset",
+    "bytes": 6872
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Jump/PSD_Jump.uasset",
+    "bytes": 11294
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Jump/PSD_Jump_Far.uasset",
+    "bytes": 3698
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Run/PSD_Run.uasset",
+    "bytes": 10601
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Run/PSD_Run_Lands_Heavy.uasset",
+    "bytes": 5261
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Run/PSD_Run_Lands_Light.uasset",
+    "bytes": 5261
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Run/PSD_Run_Pivots.uasset",
+    "bytes": 71598
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Run/PSD_Run_SpinTransitions.uasset",
+    "bytes": 6785
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Run/PSD_Run_Starts.uasset",
+    "bytes": 16720
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Run/PSD_Run_Stops.uasset",
+    "bytes": 12766
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Sprint/PSD_Sprint_Lands_Heavy.uasset",
+    "bytes": 3776
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Sprint/PSD_Sprint_Lands_Light.uasset",
+    "bytes": 3836
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Sprint/PSD_Sprint_Loops.uasset",
+    "bytes": 6385
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Sprint/PSD_Sprint_Pivots.uasset",
+    "bytes": 9035
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Sprint/PSD_Sprint_Starts.uasset",
+    "bytes": 7873
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Sprint/PSD_Sprint_Stops.uasset",
+    "bytes": 5883
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Walk/PSD_Walk.uasset",
+    "bytes": 8576
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Walk/PSD_Walk_Lands_Heavy.uasset",
+    "bytes": 5278
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Walk/PSD_Walk_Lands_Light.uasset",
+    "bytes": 5278
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Walk/PSD_Walk_Pivots.uasset",
+    "bytes": 12839
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Walk/PSD_Walk_SpinTransitions.uasset",
+    "bytes": 6816
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Walk/PSD_Walk_Starts.uasset",
+    "bytes": 16811
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Databases/Walk/PSD_Walk_Stops.uasset",
+    "bytes": 15749
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Normalization_Sets/PSN_All.uasset",
+    "bytes": 3059
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Schemas/PSS_Default.uasset",
+    "bytes": 5534
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Schemas/PSS_Jump.uasset",
+    "bytes": 6135
+  },
+  {
+    "path": "Content/FlexibleCombatSystem/GASP/MM_Data/Schemas/PSS_Stop.uasset",
+    "bytes": 5714
+  },
+  {
+    "path": "Content/G2_Mage/Meshes/Characters/Combines/PHYS_Judy.uasset",
+    "bytes": 139571
+  },
+  {
+    "path": "Content/G2_Mage/Meshes/Characters/Combines/PhysicAssetForCloth/PHYS_JudyCloakCloth.uasset",
+    "bytes": 121404
+  },
+  {
+    "path": "Content/G2_Mage/Meshes/Characters/Combines/PhysicAssetForCloth/PHYS_JudyShirtCloth.uasset",
+    "bytes": 110806
+  },
+  {
+    "path": "Content/G2_Mage/Meshes/Characters/Combines/SK_G2Human_Skeleton.uasset",
+    "bytes": 57522
+  },
+  {
+    "path": "Content/G2_Mage/Meshes/Characters/Combines/SK_Judy_D3.uasset",
+    "bytes": 19761408
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/abyss_sovereign/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185295
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/abyss_sovereign/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116599
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/abyss_sovereign/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120823
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/abyss_sovereign/Animation/Clips/AS_death.uasset",
+    "bytes": 326480
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/abyss_sovereign/Animation/Clips/AS_idle.uasset",
+    "bytes": 181991
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/abyss_sovereign/Animation/Clips/AS_run.uasset",
+    "bytes": 131871
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/abyss_sovereign/Meshes/SK_abyss_sovereign_Skeleton.uasset",
+    "bytes": 13444
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/crystal_core_titan/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185401
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/crystal_core_titan/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116705
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/crystal_core_titan/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120929
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/crystal_core_titan/Animation/Clips/AS_death.uasset",
+    "bytes": 231162
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/crystal_core_titan/Animation/Clips/AS_idle.uasset",
+    "bytes": 182097
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/crystal_core_titan/Animation/Clips/AS_run.uasset",
+    "bytes": 131977
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/crystal_core_titan/Meshes/SK_crystal_core_titan_Skeleton.uasset",
+    "bytes": 13483
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/red_crown_king/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185278
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/red_crown_king/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116582
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/red_crown_king/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120806
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/red_crown_king/Animation/Clips/AS_death.uasset",
+    "bytes": 326463
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/red_crown_king/Animation/Clips/AS_idle.uasset",
+    "bytes": 181974
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/red_crown_king/Animation/Clips/AS_run.uasset",
+    "bytes": 131854
+  },
+  {
+    "path": "Content/Monsters/MeshyBosses/red_crown_king/Meshes/SK_red_crown_king_Skeleton.uasset",
+    "bytes": 13431
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185251
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116555
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120779
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/Clips/AS_death.uasset",
+    "bytes": 326436
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/Clips/AS_run.uasset",
+    "bytes": 131827
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 120352
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 123552
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 198268
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181945
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 140612
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 204395
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188637
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 181951
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/abyss_priest/Meshes/SK_abyss_priest_Skeleton.uasset",
+    "bytes": 13409
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185183
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116487
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120711
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/Clips/AS_death.uasset",
+    "bytes": 326368
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/Clips/AS_run.uasset",
+    "bytes": 131759
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 117092
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 123492
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 196576
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181885
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 138152
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 202767
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188569
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 181895
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/deep_one/Meshes/SK_deep_one_Skeleton.uasset",
+    "bytes": 13357
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190164
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116572
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120796
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/Clips/AS_death.uasset",
+    "bytes": 333269
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/Clips/AS_run.uasset",
+    "bytes": 131844
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 121647
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 125679
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 203179
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181960
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 141427
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 205978
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188654
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191757
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/gilled_sailor/Meshes/SK_gilled_sailor_Skeleton.uasset",
+    "bytes": 13422
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185217
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116521
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120745
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/Clips/AS_death.uasset",
+    "bytes": 326402
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/Clips/AS_run.uasset",
+    "bytes": 131793
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 117122
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 119298
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 191710
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181915
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 135782
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 201230
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188603
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 181923
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/salt_guard/Meshes/SK_salt_guard_Skeleton.uasset",
+    "bytes": 13383
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185319
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116623
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120847
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/Clips/AS_death.uasset",
+    "bytes": 326503
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/Clips/AS_run.uasset",
+    "bytes": 131895
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 121052
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 123612
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 204856
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 183637
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 143072
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 209159
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188705
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 182007
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tentacle_ascetic/Meshes/SK_tentacle_ascetic_Skeleton.uasset",
+    "bytes": 13461
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190147
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116555
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120779
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/Clips/AS_death.uasset",
+    "bytes": 333252
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/Clips/AS_run.uasset",
+    "bytes": 131827
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 117792
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 124256
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 201532
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181945
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 139012
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 199691
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188637
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191743
+  },
+  {
+    "path": "Content/Monsters/MeshyCthulhu/tide_cultist/Meshes/SK_tide_cultist_Skeleton.uasset",
+    "bytes": 13409
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190045
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116453
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120677
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/Clips/AS_death.uasset",
+    "bytes": 333150
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/Clips/AS_run.uasset",
+    "bytes": 131725
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 112582
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 116422
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190018
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181855
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 131722
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 187057
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188535
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191659
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/archer/Meshes/SK_archer_Skeleton.uasset",
+    "bytes": 13331
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190147
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116555
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120779
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_death.uasset",
+    "bytes": 333252
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/Clips/AS_run.uasset",
+    "bytes": 131827
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 115872
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 119328
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 195004
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181945
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 137412
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 202828
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188637
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191743
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/dagger_scout/Meshes/SK_dagger_scout_Skeleton.uasset",
+    "bytes": 13409
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190147
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116555
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120779
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_death.uasset",
+    "bytes": 333252
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/Clips/AS_run.uasset",
+    "bytes": 131827
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 112672
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 116512
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 196636
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181945
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 135812
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 199692
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188637
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191743
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/hammer_chief/Meshes/SK_hammer_chief_Skeleton.uasset",
+    "bytes": 13409
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190062
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116470
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120694
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_death.uasset",
+    "bytes": 333167
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/Clips/AS_run.uasset",
+    "bytes": 131742
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 114517
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118549
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190033
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181870
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 131737
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 191776
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188552
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191673
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/laborer/Meshes/SK_laborer_Skeleton.uasset",
+    "bytes": 13344
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190045
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116453
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120677
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_death.uasset",
+    "bytes": 333150
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/Clips/AS_run.uasset",
+    "bytes": 131725
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 113222
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118534
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190018
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181855
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 134122
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 190194
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188535
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191659
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shaman/Meshes/SK_shaman_Skeleton.uasset",
+    "bytes": 13331
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190181
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116589
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120813
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_death.uasset",
+    "bytes": 333286
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/Clips/AS_run.uasset",
+    "bytes": 131861
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 114622
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118654
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 191770
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181975
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 133442
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 191881
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188671
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 191771
+  },
+  {
+    "path": "Content/Monsters/MeshyGoblins/shield_trooper/Meshes/SK_shield_trooper_Skeleton.uasset",
+    "bytes": 13435
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190144
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116552
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120776
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_death.uasset",
+    "bytes": 340065
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_idle.uasset",
+    "bytes": 191736
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/Clips/AS_run.uasset",
+    "bytes": 131824
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 115231
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 121439
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 198267
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181931
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 138211
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 201258
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188634
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/cloth_grunt/Meshes/SK_cloth_grunt_Skeleton.uasset",
+    "bytes": 13404
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 190161
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116569
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120793
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_death.uasset",
+    "bytes": 340082
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_idle.uasset",
+    "bytes": 191753
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/Clips/AS_run.uasset",
+    "bytes": 131841
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 114606
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 118638
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 190122
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181946
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 133426
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 190297
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188651
+  },
+  {
+    "path": "Content/Monsters/MeshySkeletons/rust_warrior/Meshes/SK_rust_warrior_Skeleton.uasset",
+    "bytes": 13417
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185368
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116672
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120896
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/Clips/AS_death.uasset",
+    "bytes": 251577
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/Clips/AS_run.uasset",
+    "bytes": 131944
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 114650
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 116570
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 185270
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 182003
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 131870
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 188773
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188699
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 182003
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/crystal_walker/Meshes/SK_crystal_walker_Skeleton.uasset",
+    "bytes": 13451
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 192074
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 123378
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 127602
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/Clips/AS_death.uasset",
+    "bytes": 237835
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/Clips/AS_run.uasset",
+    "bytes": 138650
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 127112
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 128200
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 206660
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 188705
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 145772
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 208019
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 195405
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 188703
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/granite_sentinel/Meshes/SK_granite_sentinel_Skeleton.uasset",
+    "bytes": 14695
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185368
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116672
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120896
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/Clips/AS_death.uasset",
+    "bytes": 231129
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/Clips/AS_run.uasset",
+    "bytes": 131944
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 121050
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 125018
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 203223
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 183635
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 141470
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 207590
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188699
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 183635
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/monolith_chief/Meshes/SK_monolith_chief_Skeleton.uasset",
+    "bytes": 13451
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185351
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116655
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120879
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/Clips/AS_death.uasset",
+    "bytes": 231112
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/Clips/AS_run.uasset",
+    "bytes": 131927
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 119115
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 121483
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 198311
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 181988
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 139855
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 201302
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188682
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 181989
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/moss_guardian/Meshes/SK_moss_guardian_Skeleton.uasset",
+    "bytes": 13438
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185402
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116706
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120930
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/Clips/AS_death.uasset",
+    "bytes": 231163
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/Clips/AS_run.uasset",
+    "bytes": 131978
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 119160
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 121528
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 193460
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 183665
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 137500
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 199779
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188733
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 183663
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/obsidian_bruiser/Meshes/SK_obsidian_bruiser_Skeleton.uasset",
+    "bytes": 13477
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/Clips/AS_GetDamage.uasset",
+    "bytes": 185402
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/Clips/AS_attack01_part1.uasset",
+    "bytes": 116706
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/Clips/AS_attack01_part2.uasset",
+    "bytes": 120930
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/Clips/AS_death.uasset",
+    "bytes": 231163
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/Clips/AS_run.uasset",
+    "bytes": 131978
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/FootContact/AS_attack1_FootContact.uasset",
+    "bytes": 117240
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/FootContact/AS_attack2_FootContact.uasset",
+    "bytes": 123640
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/FootContact/AS_hit_FootContact.uasset",
+    "bytes": 195092
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/FootContact/AS_idle_FootContact.uasset",
+    "bytes": 182033
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/FootContact/AS_run_FootContact.uasset",
+    "bytes": 138300
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/FootContact/AS_walk_FootContact.uasset",
+    "bytes": 199779
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/FootContactInput/AS_walking_f.uasset",
+    "bytes": 188733
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Animation/Grounding/AS_idle_Grounded.uasset",
+    "bytes": 182031
+  },
+  {
+    "path": "Content/Monsters/MeshyStoneGolems/sandstone_mystic/Meshes/SK_sandstone_mystic_Skeleton.uasset",
+    "bytes": 13477
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/Shared/Animation/AS_attack1.uasset",
+    "bytes": 721115
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/Shared/Animation/AS_attack2.uasset",
+    "bytes": 665083
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/Shared/Animation/AS_death.uasset",
+    "bytes": 958797
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/Shared/Animation/AS_hit.uasset",
+    "bytes": 510684
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/Shared/Animation/AS_idle.uasset",
+    "bytes": 630214
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/Shared/Animation/AS_run.uasset",
+    "bytes": 325084
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/Shared/Skeleton/SKEL_SpiderLineage.uasset",
+    "bytes": 17226
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/broodmother/Animation/Grounded/AS_attack1.uasset",
+    "bytes": 721042
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/broodmother/Animation/Grounded/AS_attack2.uasset",
+    "bytes": 665011
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/broodmother/Animation/Grounded/AS_death.uasset",
+    "bytes": 958722
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/broodmother/Animation/Grounded/AS_hit.uasset",
+    "bytes": 510608
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/broodmother/Animation/Grounded/AS_idle.uasset",
+    "bytes": 634010
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/broodmother/Animation/Grounded/AS_run.uasset",
+    "bytes": 326576
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/bulwark/Animation/Grounded/AS_attack1.uasset",
+    "bytes": 721034
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/bulwark/Animation/Grounded/AS_attack2.uasset",
+    "bytes": 665002
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/bulwark/Animation/Grounded/AS_death.uasset",
+    "bytes": 958714
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/bulwark/Animation/Grounded/AS_hit.uasset",
+    "bytes": 510599
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/bulwark/Animation/Grounded/AS_idle.uasset",
+    "bytes": 634002
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/bulwark/Animation/Grounded/AS_run.uasset",
+    "bytes": 326568
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hatchling/Animation/Grounded/AS_attack1.uasset",
+    "bytes": 721038
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hatchling/Animation/Grounded/AS_attack2.uasset",
+    "bytes": 665006
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hatchling/Animation/Grounded/AS_death.uasset",
+    "bytes": 958718
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hatchling/Animation/Grounded/AS_hit.uasset",
+    "bytes": 510603
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hatchling/Animation/Grounded/AS_idle.uasset",
+    "bytes": 634006
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hatchling/Animation/Grounded/AS_run.uasset",
+    "bytes": 326572
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hunter/Animation/Grounded/AS_attack1.uasset",
+    "bytes": 721032
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hunter/Animation/Grounded/AS_attack2.uasset",
+    "bytes": 665000
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hunter/Animation/Grounded/AS_death.uasset",
+    "bytes": 958712
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hunter/Animation/Grounded/AS_hit.uasset",
+    "bytes": 510597
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hunter/Animation/Grounded/AS_idle.uasset",
+    "bytes": 634000
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/hunter/Animation/Grounded/AS_run.uasset",
+    "bytes": 326566
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/venom/Animation/Grounded/AS_attack1.uasset",
+    "bytes": 721030
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/venom/Animation/Grounded/AS_attack2.uasset",
+    "bytes": 664998
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/venom/Animation/Grounded/AS_death.uasset",
+    "bytes": 958710
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/venom/Animation/Grounded/AS_hit.uasset",
+    "bytes": 510595
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/venom/Animation/Grounded/AS_idle.uasset",
+    "bytes": 633999
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/venom/Animation/Grounded/AS_run.uasset",
+    "bytes": 326564
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/weaver/Animation/Grounded/AS_attack1.uasset",
+    "bytes": 721032
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/weaver/Animation/Grounded/AS_attack2.uasset",
+    "bytes": 665000
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/weaver/Animation/Grounded/AS_death.uasset",
+    "bytes": 958712
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/weaver/Animation/Grounded/AS_hit.uasset",
+    "bytes": 510598
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/weaver/Animation/Grounded/AS_idle.uasset",
+    "bytes": 634000
+  },
+  {
+    "path": "Content/Monsters/SpiderLineage/weaver/Animation/Grounded/AS_run.uasset",
+    "bytes": 326566
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_GetDamage.uasset",
+    "bytes": 524336
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_death.uasset",
+    "bytes": 777914
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim.uasset",
+    "bytes": 483957
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_idleAim_shot.uasset",
+    "bytes": 667887
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Archer/Animations/AS_run_f.uasset",
+    "bytes": 336954
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Archer/Meshes/SKEL_Skeleton_full.uasset",
+    "bytes": 41162
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_GetDamage.uasset",
+    "bytes": 515260
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_Shot.uasset",
+    "bytes": 358685
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_death.uasset",
+    "bytes": 913858
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_idleAim.uasset",
+    "bytes": 474472
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Crossbowman/Animations/AS_run_f.uasset",
+    "bytes": 332687
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Crossbowman/Meshes/SKEL_CBFullBody.uasset",
+    "bytes": 43539
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_GetDamage.uasset",
+    "bytes": 878961
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_attack1.uasset",
+    "bytes": 1242843
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_combat_walk_f.uasset",
+    "bytes": 1089143
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_death.uasset",
+    "bytes": 1206742
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Mage/Animations/AS_idle_combat.uasset",
+    "bytes": 849363
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Mage/Meshes/SKEL_skeleton.uasset",
+    "bytes": 66408
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_GetDamage.uasset",
+    "bytes": 602263
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_attack_01.uasset",
+    "bytes": 1002218
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_death.uasset",
+    "bytes": 1061199
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_idle.uasset",
+    "bytes": 525433
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Samurai/Animations/AS_run_f.uasset",
+    "bytes": 378253
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Samurai/Meshes/SKEL_FullBody.uasset",
+    "bytes": 44340
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_GetDamage.uasset",
+    "bytes": 548575
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_attack_01.uasset",
+    "bytes": 830687
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_death.uasset",
+    "bytes": 970232
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_idle.uasset",
+    "bytes": 515935
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Spearman/Animations/AS_run_f.uasset",
+    "bytes": 344373
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_Spearman/Meshes/SKEL_FullBody.uasset",
+    "bytes": 46369
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_GetDamage.uasset",
+    "bytes": 498664
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_attack01_part1.uasset",
+    "bytes": 273257
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_death.uasset",
+    "bytes": 790252
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_idle.uasset",
+    "bytes": 479281
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_swordsman/Animations/AS_run.uasset",
+    "bytes": 329801
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_swordsman/Meshes/SKEL_skeleton.uasset",
+    "bytes": 38828
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_GetDamage.uasset",
+    "bytes": 497015
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_attack_01.uasset",
+    "bytes": 794229
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_death.uasset",
+    "bytes": 899475
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_idle.uasset",
+    "bytes": 462977
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_with_axe/Animations/AS_run_f.uasset",
+    "bytes": 327550
+  },
+  {
+    "path": "Content/Skeleton_Collection/Skeleton_with_axe/Meshes/SKEL_Skeleton_full.uasset",
+    "bytes": 38967
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/archer/AM_attack1.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/archer/AM_death.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/archer/AM_hit.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/archer/AM_idle.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/archer/AM_run.uasset",
+    "bytes": 4987
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/axeman/AM_attack1.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/axeman/AM_death.uasset",
+    "bytes": 5001
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/axeman/AM_hit.uasset",
+    "bytes": 5001
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/axeman/AM_idle.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/axeman/AM_run.uasset",
+    "bytes": 4993
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cloth_grunt/AM_attack1.uasset",
+    "bytes": 5072
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cloth_grunt/AM_attack2.uasset",
+    "bytes": 5072
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cloth_grunt/AM_death.uasset",
+    "bytes": 5030
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cloth_grunt/AM_hit.uasset",
+    "bytes": 5048
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cloth_grunt/AM_idle.uasset",
+    "bytes": 5054
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cloth_grunt/AM_run.uasset",
+    "bytes": 5048
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cloth_grunt/AM_walk.uasset",
+    "bytes": 5054
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/crossbowman/AM_attack1.uasset",
+    "bytes": 5014
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/crossbowman/AM_death.uasset",
+    "bytes": 5008
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/crossbowman/AM_hit.uasset",
+    "bytes": 5008
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/crossbowman/AM_idle.uasset",
+    "bytes": 5008
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/crossbowman/AM_run.uasset",
+    "bytes": 5000
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_abyss_priest/AM_attack1.uasset",
+    "bytes": 5091
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_abyss_priest/AM_attack2.uasset",
+    "bytes": 5091
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_abyss_priest/AM_death.uasset",
+    "bytes": 5049
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_abyss_priest/AM_hit.uasset",
+    "bytes": 5067
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_abyss_priest/AM_idle.uasset",
+    "bytes": 5073
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_abyss_priest/AM_run.uasset",
+    "bytes": 5067
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_abyss_priest/AM_walk.uasset",
+    "bytes": 5073
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_deep_one/AM_attack1.uasset",
+    "bytes": 5055
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_deep_one/AM_attack2.uasset",
+    "bytes": 5055
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_deep_one/AM_death.uasset",
+    "bytes": 5013
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_deep_one/AM_hit.uasset",
+    "bytes": 5031
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_deep_one/AM_idle.uasset",
+    "bytes": 5037
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_deep_one/AM_run.uasset",
+    "bytes": 5031
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_deep_one/AM_walk.uasset",
+    "bytes": 5037
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_gilled_sailor/AM_attack1.uasset",
+    "bytes": 5100
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_gilled_sailor/AM_attack2.uasset",
+    "bytes": 5100
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_gilled_sailor/AM_death.uasset",
+    "bytes": 5058
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_gilled_sailor/AM_hit.uasset",
+    "bytes": 5076
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_gilled_sailor/AM_idle.uasset",
+    "bytes": 5082
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_gilled_sailor/AM_run.uasset",
+    "bytes": 5076
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_gilled_sailor/AM_walk.uasset",
+    "bytes": 5082
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_salt_guard/AM_attack1.uasset",
+    "bytes": 5073
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_salt_guard/AM_attack2.uasset",
+    "bytes": 5073
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_salt_guard/AM_death.uasset",
+    "bytes": 5031
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_salt_guard/AM_hit.uasset",
+    "bytes": 5049
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_salt_guard/AM_idle.uasset",
+    "bytes": 5055
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_salt_guard/AM_run.uasset",
+    "bytes": 5049
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_salt_guard/AM_walk.uasset",
+    "bytes": 5055
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tentacle_ascetic/AM_attack1.uasset",
+    "bytes": 5127
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tentacle_ascetic/AM_attack2.uasset",
+    "bytes": 5127
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tentacle_ascetic/AM_death.uasset",
+    "bytes": 5085
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tentacle_ascetic/AM_hit.uasset",
+    "bytes": 5103
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tentacle_ascetic/AM_idle.uasset",
+    "bytes": 5109
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tentacle_ascetic/AM_run.uasset",
+    "bytes": 5103
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tentacle_ascetic/AM_walk.uasset",
+    "bytes": 5109
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tide_cultist/AM_attack1.uasset",
+    "bytes": 5091
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tide_cultist/AM_attack2.uasset",
+    "bytes": 5091
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tide_cultist/AM_death.uasset",
+    "bytes": 5049
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tide_cultist/AM_hit.uasset",
+    "bytes": 5067
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tide_cultist/AM_idle.uasset",
+    "bytes": 5073
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tide_cultist/AM_run.uasset",
+    "bytes": 5067
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/cthulhu_tide_cultist/AM_walk.uasset",
+    "bytes": 5073
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_abyss_sovereign/AM_attack1.uasset",
+    "bytes": 5109
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_abyss_sovereign/AM_attack2.uasset",
+    "bytes": 5109
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_abyss_sovereign/AM_death.uasset",
+    "bytes": 5083
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_abyss_sovereign/AM_hit.uasset",
+    "bytes": 5083
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_abyss_sovereign/AM_idle.uasset",
+    "bytes": 5077
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_abyss_sovereign/AM_run.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_crystal_core_titan/AM_attack1.uasset",
+    "bytes": 5136
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_crystal_core_titan/AM_attack2.uasset",
+    "bytes": 5136
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_crystal_core_titan/AM_death.uasset",
+    "bytes": 5110
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_crystal_core_titan/AM_hit.uasset",
+    "bytes": 5110
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_crystal_core_titan/AM_idle.uasset",
+    "bytes": 5104
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_crystal_core_titan/AM_run.uasset",
+    "bytes": 5098
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_red_crown_king/AM_attack1.uasset",
+    "bytes": 5100
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_red_crown_king/AM_attack2.uasset",
+    "bytes": 5100
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_red_crown_king/AM_death.uasset",
+    "bytes": 5074
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_red_crown_king/AM_hit.uasset",
+    "bytes": 5074
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_red_crown_king/AM_idle.uasset",
+    "bytes": 5068
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/faction_boss_red_crown_king/AM_run.uasset",
+    "bytes": 5062
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_archer/AM_attack1.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_archer/AM_attack2.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_archer/AM_death.uasset",
+    "bytes": 4993
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_archer/AM_hit.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_archer/AM_idle.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_archer/AM_run.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_archer/AM_walk.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_dagger_scout/AM_attack1.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_dagger_scout/AM_attack2.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_dagger_scout/AM_death.uasset",
+    "bytes": 5047
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_dagger_scout/AM_hit.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_dagger_scout/AM_idle.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_dagger_scout/AM_run.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_dagger_scout/AM_walk.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_hammer_chief/AM_attack1.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_hammer_chief/AM_attack2.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_hammer_chief/AM_death.uasset",
+    "bytes": 5047
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_hammer_chief/AM_hit.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_hammer_chief/AM_idle.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_hammer_chief/AM_run.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_hammer_chief/AM_walk.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_laborer/AM_attack1.uasset",
+    "bytes": 5044
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_laborer/AM_attack2.uasset",
+    "bytes": 5044
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_laborer/AM_death.uasset",
+    "bytes": 5002
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_laborer/AM_hit.uasset",
+    "bytes": 5020
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_laborer/AM_idle.uasset",
+    "bytes": 5026
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_laborer/AM_run.uasset",
+    "bytes": 5020
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_laborer/AM_walk.uasset",
+    "bytes": 5026
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shaman/AM_attack1.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shaman/AM_attack2.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shaman/AM_death.uasset",
+    "bytes": 4993
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shaman/AM_hit.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shaman/AM_idle.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shaman/AM_run.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shaman/AM_walk.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shield_trooper/AM_attack1.uasset",
+    "bytes": 5107
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shield_trooper/AM_attack2.uasset",
+    "bytes": 5107
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shield_trooper/AM_death.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shield_trooper/AM_hit.uasset",
+    "bytes": 5083
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shield_trooper/AM_idle.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shield_trooper/AM_run.uasset",
+    "bytes": 5083
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/goblin_shield_trooper/AM_walk.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/mage/AM_attack1.uasset",
+    "bytes": 4977
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/mage/AM_death.uasset",
+    "bytes": 4965
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/mage/AM_hit.uasset",
+    "bytes": 4965
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/mage/AM_idle.uasset",
+    "bytes": 4973
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/mage/AM_run.uasset",
+    "bytes": 4973
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/rust_warrior/AM_attack1.uasset",
+    "bytes": 5081
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/rust_warrior/AM_attack2.uasset",
+    "bytes": 5081
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/rust_warrior/AM_death.uasset",
+    "bytes": 5039
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/rust_warrior/AM_hit.uasset",
+    "bytes": 5057
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/rust_warrior/AM_idle.uasset",
+    "bytes": 5063
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/rust_warrior/AM_run.uasset",
+    "bytes": 5057
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/rust_warrior/AM_walk.uasset",
+    "bytes": 5063
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/samurai/AM_attack1.uasset",
+    "bytes": 4996
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/samurai/AM_death.uasset",
+    "bytes": 4980
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/samurai/AM_hit.uasset",
+    "bytes": 4980
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/samurai/AM_idle.uasset",
+    "bytes": 4974
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/samurai/AM_run.uasset",
+    "bytes": 4972
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spearman/AM_attack1.uasset",
+    "bytes": 5001
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spearman/AM_death.uasset",
+    "bytes": 4985
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spearman/AM_hit.uasset",
+    "bytes": 4985
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spearman/AM_idle.uasset",
+    "bytes": 4979
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spearman/AM_run.uasset",
+    "bytes": 4977
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_broodmother/AM_attack1.uasset",
+    "bytes": 5030
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_broodmother/AM_attack2.uasset",
+    "bytes": 5030
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_broodmother/AM_death.uasset",
+    "bytes": 5018
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_broodmother/AM_hit.uasset",
+    "bytes": 5006
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_broodmother/AM_idle.uasset",
+    "bytes": 5012
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_broodmother/AM_run.uasset",
+    "bytes": 5006
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_bulwark/AM_attack1.uasset",
+    "bytes": 5018
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_bulwark/AM_attack2.uasset",
+    "bytes": 5018
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_bulwark/AM_death.uasset",
+    "bytes": 5006
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_bulwark/AM_hit.uasset",
+    "bytes": 4994
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_bulwark/AM_idle.uasset",
+    "bytes": 5000
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_bulwark/AM_run.uasset",
+    "bytes": 4994
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hatchling/AM_attack1.uasset",
+    "bytes": 5024
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hatchling/AM_attack2.uasset",
+    "bytes": 5024
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hatchling/AM_death.uasset",
+    "bytes": 5012
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hatchling/AM_hit.uasset",
+    "bytes": 5000
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hatchling/AM_idle.uasset",
+    "bytes": 5006
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hatchling/AM_run.uasset",
+    "bytes": 5000
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hunter/AM_attack1.uasset",
+    "bytes": 5015
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hunter/AM_attack2.uasset",
+    "bytes": 5015
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hunter/AM_death.uasset",
+    "bytes": 5003
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hunter/AM_hit.uasset",
+    "bytes": 4991
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hunter/AM_idle.uasset",
+    "bytes": 4997
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_hunter/AM_run.uasset",
+    "bytes": 4991
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_venom/AM_attack1.uasset",
+    "bytes": 5012
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_venom/AM_attack2.uasset",
+    "bytes": 5012
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_venom/AM_death.uasset",
+    "bytes": 5000
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_venom/AM_hit.uasset",
+    "bytes": 4988
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_venom/AM_idle.uasset",
+    "bytes": 4994
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_venom/AM_run.uasset",
+    "bytes": 4988
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_weaver/AM_attack1.uasset",
+    "bytes": 5015
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_weaver/AM_attack2.uasset",
+    "bytes": 5015
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_weaver/AM_death.uasset",
+    "bytes": 5003
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_weaver/AM_hit.uasset",
+    "bytes": 4991
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_weaver/AM_idle.uasset",
+    "bytes": 4997
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/spider_weaver/AM_run.uasset",
+    "bytes": 4991
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_crystal_walker/AM_attack1.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_crystal_walker/AM_attack2.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_crystal_walker/AM_death.uasset",
+    "bytes": 5087
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_crystal_walker/AM_hit.uasset",
+    "bytes": 5105
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_crystal_walker/AM_idle.uasset",
+    "bytes": 5111
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_crystal_walker/AM_run.uasset",
+    "bytes": 5105
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_crystal_walker/AM_walk.uasset",
+    "bytes": 5111
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_granite_sentinel/AM_attack1.uasset",
+    "bytes": 5147
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_granite_sentinel/AM_attack2.uasset",
+    "bytes": 5147
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_granite_sentinel/AM_death.uasset",
+    "bytes": 5105
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_granite_sentinel/AM_hit.uasset",
+    "bytes": 5123
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_granite_sentinel/AM_idle.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_granite_sentinel/AM_run.uasset",
+    "bytes": 5123
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_granite_sentinel/AM_walk.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_monolith_chief/AM_attack1.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_monolith_chief/AM_attack2.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_monolith_chief/AM_death.uasset",
+    "bytes": 5087
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_monolith_chief/AM_hit.uasset",
+    "bytes": 5105
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_monolith_chief/AM_idle.uasset",
+    "bytes": 5111
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_monolith_chief/AM_run.uasset",
+    "bytes": 5105
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_monolith_chief/AM_walk.uasset",
+    "bytes": 5111
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_moss_guardian/AM_attack1.uasset",
+    "bytes": 5120
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_moss_guardian/AM_attack2.uasset",
+    "bytes": 5120
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_moss_guardian/AM_death.uasset",
+    "bytes": 5078
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_moss_guardian/AM_hit.uasset",
+    "bytes": 5096
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_moss_guardian/AM_idle.uasset",
+    "bytes": 5102
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_moss_guardian/AM_run.uasset",
+    "bytes": 5096
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_moss_guardian/AM_walk.uasset",
+    "bytes": 5102
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_obsidian_bruiser/AM_attack1.uasset",
+    "bytes": 5147
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_obsidian_bruiser/AM_attack2.uasset",
+    "bytes": 5147
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_obsidian_bruiser/AM_death.uasset",
+    "bytes": 5105
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_obsidian_bruiser/AM_hit.uasset",
+    "bytes": 5123
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_obsidian_bruiser/AM_idle.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_obsidian_bruiser/AM_run.uasset",
+    "bytes": 5123
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_obsidian_bruiser/AM_walk.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_sandstone_mystic/AM_attack1.uasset",
+    "bytes": 5147
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_sandstone_mystic/AM_attack2.uasset",
+    "bytes": 5147
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_sandstone_mystic/AM_death.uasset",
+    "bytes": 5105
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_sandstone_mystic/AM_hit.uasset",
+    "bytes": 5123
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_sandstone_mystic/AM_idle.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_sandstone_mystic/AM_run.uasset",
+    "bytes": 5123
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/stone_golem_sandstone_mystic/AM_walk.uasset",
+    "bytes": 5129
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/swordsman/AM_attack1.uasset",
+    "bytes": 5016
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/swordsman/AM_death.uasset",
+    "bytes": 4990
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/swordsman/AM_hit.uasset",
+    "bytes": 4990
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/swordsman/AM_idle.uasset",
+    "bytes": 4984
+  },
+  {
+    "path": "Content/ThreeCLab/Animation/swordsman/AM_run.uasset",
+    "bytes": 4978
+  },
+  {
+    "path": "CustomTools/3C/.gitignore",
+    "bytes": 198
+  },
+  {
+    "path": "CustomTools/3C/Config/DefaultEngine.ini",
+    "bytes": 1131
+  },
+  {
+    "path": "CustomTools/3C/Config/equipment.json",
+    "bytes": 14216
+  },
+  {
+    "path": "CustomTools/3C/Config/models.json",
+    "bytes": 12343
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/archer/AM_attack1.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/archer/AM_death.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/archer/AM_hit.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/archer/AM_idle.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/archer/AM_run.uasset",
+    "bytes": 4987
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/axeman/AM_attack1.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/axeman/AM_death.uasset",
+    "bytes": 5001
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/axeman/AM_hit.uasset",
+    "bytes": 5001
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/axeman/AM_idle.uasset",
+    "bytes": 4995
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/axeman/AM_run.uasset",
+    "bytes": 4993
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/cloth_grunt/AM_attack1.uasset",
+    "bytes": 5072
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/cloth_grunt/AM_attack2.uasset",
+    "bytes": 5072
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/cloth_grunt/AM_death.uasset",
+    "bytes": 5030
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/cloth_grunt/AM_hit.uasset",
+    "bytes": 5048
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/cloth_grunt/AM_idle.uasset",
+    "bytes": 5054
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/cloth_grunt/AM_run.uasset",
+    "bytes": 5048
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/cloth_grunt/AM_walk.uasset",
+    "bytes": 5054
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/crossbowman/AM_attack1.uasset",
+    "bytes": 5014
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/crossbowman/AM_death.uasset",
+    "bytes": 5008
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/crossbowman/AM_hit.uasset",
+    "bytes": 5008
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/crossbowman/AM_idle.uasset",
+    "bytes": 5008
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/crossbowman/AM_run.uasset",
+    "bytes": 5000
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_archer/AM_attack1.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_archer/AM_attack2.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_archer/AM_death.uasset",
+    "bytes": 4993
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_archer/AM_hit.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_archer/AM_idle.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_archer/AM_run.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_archer/AM_walk.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_dagger_scout/AM_attack1.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_dagger_scout/AM_attack2.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_dagger_scout/AM_death.uasset",
+    "bytes": 5047
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_dagger_scout/AM_hit.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_dagger_scout/AM_idle.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_dagger_scout/AM_run.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_dagger_scout/AM_walk.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_hammer_chief/AM_attack1.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_hammer_chief/AM_attack2.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_hammer_chief/AM_death.uasset",
+    "bytes": 5047
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_hammer_chief/AM_hit.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_hammer_chief/AM_idle.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_hammer_chief/AM_run.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_hammer_chief/AM_walk.uasset",
+    "bytes": 5071
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_laborer/AM_attack1.uasset",
+    "bytes": 5044
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_laborer/AM_attack2.uasset",
+    "bytes": 5044
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_laborer/AM_death.uasset",
+    "bytes": 5002
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_laborer/AM_hit.uasset",
+    "bytes": 5020
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_laborer/AM_idle.uasset",
+    "bytes": 5026
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_laborer/AM_run.uasset",
+    "bytes": 5020
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_laborer/AM_walk.uasset",
+    "bytes": 5026
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shaman/AM_attack1.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shaman/AM_attack2.uasset",
+    "bytes": 5035
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shaman/AM_death.uasset",
+    "bytes": 4993
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shaman/AM_hit.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shaman/AM_idle.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shaman/AM_run.uasset",
+    "bytes": 5011
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shaman/AM_walk.uasset",
+    "bytes": 5017
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shield_trooper/AM_attack1.uasset",
+    "bytes": 5107
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shield_trooper/AM_attack2.uasset",
+    "bytes": 5107
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shield_trooper/AM_death.uasset",
+    "bytes": 5065
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shield_trooper/AM_hit.uasset",
+    "bytes": 5083
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shield_trooper/AM_idle.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shield_trooper/AM_run.uasset",
+    "bytes": 5083
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/goblin_shield_trooper/AM_walk.uasset",
+    "bytes": 5089
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/mage/AM_attack1.uasset",
+    "bytes": 4977
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/mage/AM_death.uasset",
+    "bytes": 4965
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/mage/AM_hit.uasset",
+    "bytes": 4965
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/mage/AM_idle.uasset",
+    "bytes": 4973
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/mage/AM_run.uasset",
+    "bytes": 4973
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/rust_warrior/AM_attack1.uasset",
+    "bytes": 5081
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/rust_warrior/AM_attack2.uasset",
+    "bytes": 5081
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/rust_warrior/AM_death.uasset",
+    "bytes": 5039
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/rust_warrior/AM_hit.uasset",
+    "bytes": 5057
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/rust_warrior/AM_idle.uasset",
+    "bytes": 5063
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/rust_warrior/AM_run.uasset",
+    "bytes": 5057
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/rust_warrior/AM_walk.uasset",
+    "bytes": 5063
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/samurai/AM_attack1.uasset",
+    "bytes": 4996
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/samurai/AM_death.uasset",
+    "bytes": 4980
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/samurai/AM_hit.uasset",
+    "bytes": 4980
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/samurai/AM_idle.uasset",
+    "bytes": 4974
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/samurai/AM_run.uasset",
+    "bytes": 4972
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/spearman/AM_attack1.uasset",
+    "bytes": 5001
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/spearman/AM_death.uasset",
+    "bytes": 4985
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/spearman/AM_hit.uasset",
+    "bytes": 4985
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/spearman/AM_idle.uasset",
+    "bytes": 4979
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/spearman/AM_run.uasset",
+    "bytes": 4977
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/swordsman/AM_attack1.uasset",
+    "bytes": 5016
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/swordsman/AM_death.uasset",
+    "bytes": 4990
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/swordsman/AM_hit.uasset",
+    "bytes": 4990
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/swordsman/AM_idle.uasset",
+    "bytes": 4984
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Animation/swordsman/AM_run.uasset",
+    "bytes": 4978
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Maps/L_ThreeCArena.umap",
+    "bytes": 471648
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Materials/M_Floor.uasset",
+    "bytes": 5183
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Materials/M_Grid.uasset",
+    "bytes": 5178
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Materials/M_Team0.uasset",
+    "bytes": 5183
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Materials/M_Team1.uasset",
+    "bytes": 5183
+  },
+  {
+    "path": "CustomTools/3C/Content/ThreeCLab/Materials/M_Team2.uasset",
+    "bytes": 5183
+  },
+  {
+    "path": "CustomTools/3C/Docs/BeforeGait/Fighter.as.txt",
+    "bytes": 15008
+  },
+  {
+    "path": "CustomTools/3C/Docs/BeforeGait/stability-analysis.json",
+    "bytes": 3016
+  },
+  {
+    "path": "CustomTools/3C/Docs/BeforePoseBlend/Fighter.as.txt",
+    "bytes": 12774
+  },
+  {
+    "path": "CustomTools/3C/Docs/BeforePoseBlend/stability-analysis.json",
+    "bytes": 3960
+  },
+  {
+    "path": "CustomTools/3C/Docs/BeforeStability/Fighter.as.txt",
+    "bytes": 7124
+  },
+  {
+    "path": "CustomTools/3C/Docs/BeforeStability/analysis.json",
+    "bytes": 7212
+  },
+  {
+    "path": "CustomTools/3C/Docs/BeforeStability/形态分析.md",
+    "bytes": 3853
+  },
+  {
+    "path": "CustomTools/3C/Docs/Proof/blocked-live.png",
+    "bytes": 1460733
+  },
+  {
+    "path": "CustomTools/3C/Docs/Proof/equipment-battle.png",
+    "bytes": 1395998
+  },
+  {
+    "path": "CustomTools/3C/Docs/Proof/equipment-goblin-bow.png",
+    "bytes": 1130004
+  },
+  {
+    "path": "CustomTools/3C/Docs/Proof/equipment-samurai-final.png",
+    "bytes": 1117094
+  },
+  {
+    "path": "CustomTools/3C/Docs/Proof/equipment-shield.png",
+    "bytes": 1112549
+  },
+  {
+    "path": "CustomTools/3C/Docs/analysis.json",
+    "bytes": 7212
+  },
+  {
+    "path": "CustomTools/3C/Docs/asset-manifest.json",
+    "bytes": 65095
+  },
+  {
+    "path": "CustomTools/3C/Docs/battle-final-later.png",
+    "bytes": 1103910
+  },
+  {
+    "path": "CustomTools/3C/Docs/battle-final.png",
+    "bytes": 1243589
+  },
+  {
+    "path": "CustomTools/3C/Docs/battle-overview.png",
+    "bytes": 1162715
+  },
+  {
+    "path": "CustomTools/3C/Docs/block-analysis.json",
+    "bytes": 11199
+  },
+  {
+    "path": "CustomTools/3C/Docs/block-controller-analysis.json",
+    "bytes": 2004
+  },
+  {
+    "path": "CustomTools/3C/Docs/compression-audit.json",
+    "bytes": 584021
+  },
+  {
+    "path": "CustomTools/3C/Docs/death-axeman-side-final.png",
+    "bytes": 971754
+  },
+  {
+    "path": "CustomTools/3C/Docs/death-swordsman-side-final.png",
+    "bytes": 970736
+  },
+  {
+    "path": "CustomTools/3C/Docs/equipment-analysis.json",
+    "bytes": 2081
+  },
+  {
+    "path": "CustomTools/3C/Docs/equipment-assets.json",
+    "bytes": 104763
+  },
+  {
+    "path": "CustomTools/3C/Docs/equipment-map.json",
+    "bytes": 10632
+  },
+  {
+    "path": "CustomTools/3C/Docs/equipment-migration.json",
+    "bytes": 10067
+  },
+  {
+    "path": "CustomTools/3C/Docs/first-live.png",
+    "bytes": 1203085
+  },
+  {
+    "path": "CustomTools/3C/Docs/gait-analysis.json",
+    "bytes": 13751
+  },
+  {
+    "path": "CustomTools/3C/Docs/gait-calibration.json",
+    "bytes": 544397
+  },
+  {
+    "path": "CustomTools/3C/Docs/gait-controller-analysis.json",
+    "bytes": 1998
+  },
+  {
+    "path": "CustomTools/3C/Docs/gait-live.png",
+    "bytes": 1783590
+  },
+  {
+    "path": "CustomTools/3C/Docs/map-receipt.json",
+    "bytes": 137
+  },
+  {
+    "path": "CustomTools/3C/Docs/map-reload.json",
+    "bytes": 469
+  },
+  {
+    "path": "CustomTools/3C/Docs/montage-assets.json",
+    "bytes": 26063
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-audit.json",
+    "bytes": 451640
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-axeman-death-front.png",
+    "bytes": 1026091
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-axeman-death-side.png",
+    "bytes": 1005457
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-blend-analysis.json",
+    "bytes": 6404
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-blend-live.png",
+    "bytes": 1651546
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-cloth-idle.png",
+    "bytes": 1091780
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-swordsman-death-front-verified.png",
+    "bytes": 1046663
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-swordsman-death-front.png",
+    "bytes": 1060407
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-swordsman-death-side-verified.png",
+    "bytes": 1020771
+  },
+  {
+    "path": "CustomTools/3C/Docs/pose-swordsman-death-side.png",
+    "bytes": 1058119
+  },
+  {
+    "path": "CustomTools/3C/Docs/runtime-components.json",
+    "bytes": 34739
+  },
+  {
+    "path": "CustomTools/3C/Docs/source-audit.json",
+    "bytes": 104274
+  },
+  {
+    "path": "CustomTools/3C/Docs/stability-analysis.json",
+    "bytes": 3016
+  },
+  {
+    "path": "CustomTools/3C/Docs/stability-closeup-1.png",
+    "bytes": 1780280
+  },
+  {
+    "path": "CustomTools/3C/Docs/stability-first-live.png",
+    "bytes": 1153537
+  },
+  {
+    "path": "CustomTools/3C/Docs/受阻稳定.md",
+    "bytes": 3139
+  },
+  {
+    "path": "CustomTools/3C/Docs/姿态过渡.md",
+    "bytes": 3095
+  },
+  {
+    "path": "CustomTools/3C/Docs/形态分析.md",
+    "bytes": 4013
+  },
+  {
+    "path": "CustomTools/3C/Docs/怪物装备.md",
+    "bytes": 3101
+  },
+  {
+    "path": "CustomTools/3C/Docs/抽搐修复.md",
+    "bytes": 3712
+  },
+  {
+    "path": "CustomTools/3C/Docs/步态同步.md",
+    "bytes": 3078
+  },
+  {
+    "path": "CustomTools/3C/README.md",
+    "bytes": 5038
+  },
+  {
+    "path": "CustomTools/3C/Script/Arena.as",
+    "bytes": 14072
+  },
+  {
+    "path": "CustomTools/3C/Script/BlockProbe.as",
+    "bytes": 5627
+  },
+  {
+    "path": "CustomTools/3C/Script/Equipment.as",
+    "bytes": 7022
+  },
+  {
+    "path": "CustomTools/3C/Script/EquipmentProbe.as",
+    "bytes": 3866
+  },
+  {
+    "path": "CustomTools/3C/Script/Fighter.as",
+    "bytes": 22572
+  },
+  {
+    "path": "CustomTools/3C/Script/GaitProbe.as",
+    "bytes": 3601
+  },
+  {
+    "path": "CustomTools/3C/Script/Gaits.as",
+    "bytes": 1390
+  },
+  {
+    "path": "CustomTools/3C/Script/HUD.as",
+    "bytes": 1335
+  },
+  {
+    "path": "CustomTools/3C/Script/Models.as",
+    "bytes": 12813
+  },
+  {
+    "path": "CustomTools/3C/Script/PoseProbe.as",
+    "bytes": 3370
+  },
+  {
+    "path": "CustomTools/3C/Start-Lab.cmd",
+    "bytes": 56
+  },
+  {
+    "path": "CustomTools/3C/Start-Lab.ps1",
+    "bytes": 686
+  },
+  {
+    "path": "CustomTools/3C/ThreeCLab.uproject",
+    "bytes": 407
+  },
+  {
+    "path": "CustomTools/3C/Tools/Control.ps1",
+    "bytes": 788
+  },
+  {
+    "path": "CustomTools/3C/Tools/Verify-Blocks.ps1",
+    "bytes": 1418
+  },
+  {
+    "path": "CustomTools/3C/Tools/Verify-Equipment.ps1",
+    "bytes": 1300
+  },
+  {
+    "path": "CustomTools/3C/Tools/Verify-Gaits.ps1",
+    "bytes": 1240
+  },
+  {
+    "path": "CustomTools/3C/Tools/Verify-Lab.ps1",
+    "bytes": 1405
+  },
+  {
+    "path": "CustomTools/3C/Tools/Verify-PoseBlend.ps1",
+    "bytes": 1254
+  },
+  {
+    "path": "CustomTools/3C/Tools/Verify-Stability.ps1",
+    "bytes": 1687
+  },
+  {
+    "path": "CustomTools/3C/Tools/analyze.py",
+    "bytes": 4179
+  },
+  {
+    "path": "CustomTools/3C/Tools/analyze_blocks.py",
+    "bytes": 3015
+  },
+  {
+    "path": "CustomTools/3C/Tools/analyze_equipment.py",
+    "bytes": 2444
+  },
+  {
+    "path": "CustomTools/3C/Tools/analyze_gaits.py",
+    "bytes": 3408
+  },
+  {
+    "path": "CustomTools/3C/Tools/analyze_pose_blend.py",
+    "bytes": 2588
+  },
+  {
+    "path": "CustomTools/3C/Tools/analyze_stability.py",
+    "bytes": 3158
+  },
+  {
+    "path": "CustomTools/3C/Tools/audit_compression.py",
+    "bytes": 1729
+  },
+  {
+    "path": "CustomTools/3C/Tools/audit_equipment.py",
+    "bytes": 3796
+  },
+  {
+    "path": "CustomTools/3C/Tools/audit_poses.py",
+    "bytes": 3104
+  },
+  {
+    "path": "CustomTools/3C/Tools/bootstrap.py",
+    "bytes": 5226
+  },
+  {
+    "path": "CustomTools/3C/Tools/build_equipped_map.py",
+    "bytes": 4871
+  },
+  {
+    "path": "CustomTools/3C/Tools/build_montages.py",
+    "bytes": 1991
+  },
+  {
+    "path": "CustomTools/3C/Tools/calibrate_gaits.py",
+    "bytes": 4022
+  },
+  {
+    "path": "CustomTools/3C/Tools/dump_runtime.py",
+    "bytes": 1821
+  },
+  {
+    "path": "CustomTools/3C/Tools/export_source.py",
+    "bytes": 4306
+  },
+  {
+    "path": "CustomTools/3C/Tools/import_equipment.py",
+    "bytes": 2501
+  },
+  {
+    "path": "CustomTools/3C/Tools/prepare_equipment.py",
+    "bytes": 9222
+  },
+  {
+    "path": "CustomTools/3C/Tools/verify_map.py",
+    "bytes": 1442
   }
 ]

@@ -1,0 +1,101 @@
+{
+  "verification": "PASS",
+  "models": 15,
+  "modelStates": 75,
+  "slotCases": 85,
+  "samples": 4929,
+  "maxFollowErrorCm": 0.0,
+  "maxGripErrorCm": 2.5e-05,
+  "results": [
+    {
+      "model": "cloth_grunt",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 1e-06
+    },
+    {
+      "model": "goblin_archer",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 2.5e-05
+    },
+    {
+      "model": "goblin_dagger_scout",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 1e-06
+    },
+    {
+      "model": "goblin_hammer_chief",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "goblin_laborer",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "goblin_shaman",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "goblin_shield_trooper",
+      "externalParts": 2,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "rust_warrior",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 1e-06
+    },
+    {
+      "model": "archer",
+      "externalParts": 0,
+      "builtIn": "bow",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "crossbowman",
+      "externalParts": 0,
+      "builtIn": "crossbow",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "mage",
+      "externalParts": 0,
+      "builtIn": "book",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "samurai",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "spearman",
+      "externalParts": 2,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "swordsman",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    },
+    {
+      "model": "axeman",
+      "externalParts": 1,
+      "builtIn": "",
+      "maxGripErrorCm": 0.0
+    }
+  ]
+}
